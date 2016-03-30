@@ -1,4 +1,4 @@
-Welcome to the supporting documentation for [HiKey](https://www.96boards.org/products/ce/hikey/)
+Official documentation for [HiKey](https://www.96boards.org/products/ce/hikey/) Consumer Edition development board. This documentation is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions.
 
 # Documentation
 
