@@ -4,17 +4,17 @@ Official documentation for [HiKey](https://www.96boards.org/products/ce/hikey/) 
 
 ## Contents
 
-- [Quickstart]()
+- [Quickstart](https://github.com/96boards/documentation/blob/master/hikey/CONTENTS/QUICKSTART/README.md)
    - Learn about your HiKey board, how to prepare and set up for basic use
-- [Installation]()
+- [Installation](https://github.com/96boards/documentation/blob/master/hikey/CONTENTS/INSTALLATION/README.md)
    - Choose and install an operating system on your HiKey
-- [Functionality]()
+- [Functionality](https://github.com/96boards/documentation/blob/master/hikey/CONTENTS/FUNCTIONALITY/README.md)
    - Maximize your HiKey experience by adding hardware and exploring pre-installed applications on your desktop
-- [Configuration]()
+- [Configuration](https://github.com/96boards/documentation/blob/master/hikey/CONTENTS/CONFIGURATION/README.md)
    - Execute unique configuraions to customize your HiKey experience
-- [Remote Access]()
+- [Remote Access](https://github.com/96boards/documentation/blob/master/hikey/CONTENTS/REMOTE-ACCESS/README.md)
    - Learn how to remotely access your HiKey using several different methods
-- [Linux and Linaro]()
+- [Linux and Linaro](https://github.com/96boards/documentation/blob/master/hikey/CONTENTS/LINUX-AND-LINARO/README.md)
    - Learn more about Linux and Linaro
-- [Hardware]()
+- [Hardware](https://github.com/96boards/documentation/blob/master/hikey/CONTENTS/HARDWARE/README.md)
    - Explore what makes your HiKey unique, technical specifications, schematics, and hardware add-ons
