@@ -14,7 +14,7 @@ Official documentation for [HiKey](https://www.96boards.org/products/ce/hikey/) 
    - Execute unique configuraions to customize your HiKey experience
 - [Remote Access]()
    - Learn how to remotely access your HiKey using several different methods
-- [Linux and Linaro - Debain and AOSP]()
-   - Get familiar with the fundamentals of Linux
+- [Linux and Linaro]()
+   - Learn more about Linux and Linaro
 - [Hardware]()
    - Explore what makes your HiKey unique, technical specifications, schematics, and hardware add-ons
