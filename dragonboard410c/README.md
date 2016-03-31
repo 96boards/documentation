@@ -1,6 +1,6 @@
 # DragonBoard™ 410c Documentation
 
-Official documentation for [DragonBoard™ 410c](https://www.96boards.org/products/ce/hikey/) Consumer Edition development board. This documentation is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions.
+Official documentation for [DragonBoard™ 410c](http://www.96boards.org/products/ce/dragonboard410c/) Consumer Edition development board. This documentation is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions.
 
 ## Contents
 
