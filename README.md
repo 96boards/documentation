@@ -1,6 +1,6 @@
 # 96Boards documentation
 
-In addition to the documentation files available in the repository,
+In addition to the documentation files available in this repository,
 many can also be found on the [wiki](https://github.com/96boards/documentation/wiki)
 
 ## Contents - Start Here
