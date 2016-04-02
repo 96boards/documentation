@@ -3,7 +3,7 @@
 In addition to the documentation files available in the repository,
 the documentation can be found on the [wiki](https://github.com/96boards/documentation/wiki)
 
-## Contents
+## Contents - Start Here
 
 - [HiKey](https://github.com/96boards/documentation/blob/master/hikey/README.md)
    - Board based on HiSilicon Kirin 6220 processor
@@ -13,6 +13,23 @@ the documentation can be found on the [wiki](https://github.com/96boards/documen
    - Board based on Actions Semi S900 Processor
 
 ***
+
+## Read More
+
+- [Linux]()
+   - A beginners approach to Linux
+- [Linaro]()
+   - Read more about Linaro
+- [Report a bug]()
+   - Instructions on how to report bugs for any of our 96Boards
+- [Contribute]()
+   - View our documents "Contribution Policy"
+
+In Progress...
+
+***
+
+## Forums
 
 - [HiKey forums](http://www.96boards.org/forums/forum/products/hikey/)
 - [DragonBoard™ 410c forums](http://www.96boards.org/forums/forum/products/dragonboard410c/)
