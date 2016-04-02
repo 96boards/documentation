@@ -17,6 +17,6 @@ Official documentation for [HiKey](https://www.96boards.org/products/ce/hikey/) 
 - [Linux](https://github.com/96boards/documentation/blob/master/hikey/CONTENTS/LINUX-AND-LINARO/README.md)
    - A beginner approach to Linux
 - [Linaro](https://github.com/96boards/documentation/blob/master/hikey/CONTENTS/LINUX-AND-LINARO/README.md)
-   - Learn more about Linaro and what we do
+   - Learn more about Linaro and what they do
 - [Hardware](https://github.com/96boards/documentation/blob/master/hikey/CONTENTS/HARDWARE/README.md)
    - Explore what makes your HiKey unique, technical specifications, schematics, and hardware add-ons
