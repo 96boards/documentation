@@ -17,6 +17,7 @@ The HiKey board is the first board to be certified 96Boards Consumer Edition com
 - Keyboard
 - Full size HDMI Cable
 - Monitor
+- Jumpers
 
 **Optional**
 - Serial Console mezzanine
