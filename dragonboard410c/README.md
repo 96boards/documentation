@@ -14,8 +14,6 @@ Official documentation for [DragonBoard™ 410c](http://www.96boards.org/product
    - Execute unique configuraions to customize your DragonBoard™ 410c experience
 - [Remote Access]()
    - Learn how to remotely access your DragonBoard™ 410c using several different methods
-- [Linux and Linaro - Debain and AOSP]()
-   - Get familiar with the fundamentals of Linux
 - [Hardware]()
    - Explore what makes your DragonBoard™ 410c unique, technical specifications, schematics, and hardware add-ons
 
