@@ -1,6 +1,6 @@
 # 96Boards documentation
 
-Welcome to the official documentation for 96Boards, this documentation is written by the 96Boards team at Linaro. Community contributions are welcome.
+Welcome to the official documentation for 96Boards, this documentation is written by the 96Boards team at Linaro.
 
 In addition to the documentation files available in this repository,
 many can also be found on the [wiki](https://github.com/96boards/documentation/wiki)
