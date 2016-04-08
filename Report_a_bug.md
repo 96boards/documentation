@@ -16,15 +16,19 @@ the Reference Software Platform. Please read through the following sections for 
 
 **Consumer Edition bugs:**
 
-- HiKey
-- DragonBoard™ 410c
-- Bubblegum96
-- Pre-built Images
+- Consumer Edition Boards
+   - HiKey
+   - DragonBoard™ 410c
+   - Bubblegum96
+   - Pre-built Images
 
 **Enterprise Edition bugs:**
 
-- HiSilicon D02
-- AMD Overdrive
+- Enterprise Edition Boards
+   - HiSilicon D02
+   - AMD Overdrive
+   - X-Gene Mustang
+   - HP ProLiant m400
 - Network Installers:
    - Debian Installer
    - CentOS Installer
