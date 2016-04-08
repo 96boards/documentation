@@ -22,7 +22,7 @@ many can also be found on the [wiki](https://github.com/96boards/documentation/w
    - A beginners approach to Linux
 - [Linaro]()
    - Read more about Linaro
-- [Report a bug](https://github.com/96boards/documentation/blob/master/Report_a_bug.md#how-to-report-a-bug)
+- [Report a bug](https://github.com/96boards/documentation/blob/master/Report_a_bug.md)
    - Instructions on how to report bugs for any of our 96Boards
 - [Contribute]()
    - View our documents "Contribution Policy"
