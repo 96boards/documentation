@@ -22,9 +22,9 @@ Select your platform for a list supported products and 96Boards specific resourc
 - [Linux]()
    - A beginners approach to Linux
 - [Linaro]()
-   - Read more about Linaro
+   - Learn about Linaro
 - [Report a bug](https://github.com/96boards/documentation/blob/master/Report_a_bug.md)
-   - Instructions on how to report bugs for any of our 96Boards
+   - Instructions on how to report bugs for any of our 96Boards hardware and software
 - [Contribute]()
    - View our documents "Contribution Policy"
 
