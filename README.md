@@ -7,12 +7,13 @@ many can also be found on the [wiki](https://github.com/96boards/documentation/w
 
 ## Contents - Start Here
 
-- [HiKey](https://github.com/96boards/documentation/blob/master/hikey/README.md)
-   - Board based on HiSilicon Kirin 6220 processor
-- [DragonBoard™ 410c](https://github.com/96boards/documentation/blob/master/dragonboard410c/README.md)
-   - Board based on Qualcomm® Snapdragon™ 410 processor
-- [Bubblegum-96](https://github.com/96boards/documentation/blob/master/bubblegum-96/README.md)
-   - Board based on Actions Semi S900 Processor
+Select your platform for a list supported products and 96Boards specific resources. 
+
+- [Consumer Edition]()
+   - Consumer Edition (CE) specification targets the mobile, embedded and digital home segments
+- [Enterprise Edition]()
+   - Enterprise Edition (EE) specification targets the networking and server segments
+
 
 ***
 
