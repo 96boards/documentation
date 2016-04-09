@@ -9,7 +9,7 @@ many can also be found on the [wiki](https://github.com/96boards/documentation/w
 
 Select your platform for a list supported products and 96Boards specific resources. 
 
-- [Consumer Edition]()
+- [Consumer Edition](https://github.com/96boards/documentation/tree/master/ConsumerEdition)
    - Consumer Edition (CE) specification targets the mobile, embedded and digital home segments
 - [Enterprise Edition]()
    - Enterprise Edition (EE) specification targets the networking and server segments
