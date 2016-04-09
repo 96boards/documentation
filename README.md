@@ -1,17 +1,17 @@
+**ATTENTION:** This documentation repo is currently under constructions, you may experience broken links and incomplete information. Please visit our [wiki](https://github.com/96boards/documentation/wiki) while we undergo this process
+
 # 96Boards Documentation
 
-Welcome to the official documentation for 96Boards, this documentation is written by the 96Boards team at Linaro.
-
-In addition to the documentation files available in this repository,
+Welcome to the official documentation for 96Boards, this documentation is written by the 96Boards team at Linaro. In addition to the documentation files available in this repository,
 many can also be found on the [wiki](https://github.com/96boards/documentation/wiki)
 
 ## Contents - Start Here
 
 Select your platform for a list supported products and 96Boards specific resources. 
 
-- [Consumer Edition](https://github.com/96boards/documentation/tree/master/ConsumerEdition)
+- [Consumer Edition](https://github.com/96boards/documentation/tree/master/ConsumerEdition/README.md)
    - Consumer Edition (CE) specification targets the mobile, embedded and digital home segments
-- [Enterprise Edition]()
+- [Enterprise Edition](https://github.com/96boards/documentation/blob/master/EnterpriseEdition/README.md)
    - Enterprise Edition (EE) specification targets the networking and server segments
 
 
@@ -27,8 +27,6 @@ Select your platform for a list supported products and 96Boards specific resourc
    - Instructions on how to report bugs for any of our 96Boards
 - [Contribute]()
    - View our documents "Contribution Policy"
-
-In Progress...
 
 ***
 
