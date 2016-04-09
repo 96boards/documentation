@@ -1,4 +1,4 @@
-# 96Boards documentation
+# 96Boards Documentation
 
 Welcome to the official documentation for 96Boards, this documentation is written by the 96Boards team at Linaro.
 
