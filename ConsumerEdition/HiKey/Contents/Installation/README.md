@@ -8,11 +8,11 @@ The SD card method allows you to place a microSD card into the DragonBoard™ 41
 
 This method requires the following hardware:
 
-HiKey with power supply
-Host machine (Linux, Mac OS X, or Windows)
-MicroSD card with 4GB or more of storage
-USB Mouse and/or keyboard
-HDMI Monitor with full size HDMI cable
+- HiKey with power supply
+- Host machine (Linux, Mac OS X, or Windows)
+- MicroSD card with 4GB or more of storage
+- USB Mouse and/or keyboard
+- HDMI Monitor with full size HDMI cable
 
 ## Fastboot Method
 
@@ -20,11 +20,11 @@ Fastboot is supported by the board and can be used for installs. This is for adv
 
 This method requires the following hardware:
 
-HiKey with power supply
-Host machine (Linux, Mac OS X, or Windows)
-USB to microUSB cable
-USB Mouse and/or keyboard (not required to perform flash)
-HDMI Monitor with full size HDMI cable (not required to perform flash)
+- HiKey with power supply
+- Host machine (Linux, Mac OS X, or Windows)
+- USB to microUSB cable
+- USB Mouse and/or keyboard (not required to perform flash)
+- HDMI Monitor with full size HDMI cable (not required to perform flash)
 
 ## Download
 
