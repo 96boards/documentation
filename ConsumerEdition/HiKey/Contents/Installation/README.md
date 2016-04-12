@@ -1,6 +1,8 @@
 ## Installation
 
-Choose and install an operating system on your HiKey
+Choose and install an operating system on your HiKey. In order to succesfully run your desired operating system, you will need to first choose your method of installation
+
+**SD Card Method or Fastboot Method**
 
 ## SD Card Method
 
