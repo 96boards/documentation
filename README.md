@@ -14,9 +14,17 @@ Select your platform for a list supported products and 96Boards specific resourc
 - [Enterprise Edition](https://github.com/96boards/documentation/blob/master/EnterpriseEdition/README.md)
    - Enterprise Edition (EE) specification targets the networking and server segments
 
-
 ***
 
+## Downloads
+
+Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
+
+- [HiKey]()
+- [DragonBoard™ 410c]()
+- [Bubblegum-96]()
+
+***
 ## Read More
 
 - [Linux]()
