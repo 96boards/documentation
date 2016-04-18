@@ -11,18 +11,25 @@ The HiKey board is the first board to be certified 96Boards Consumer Edition com
 ## Setup - What you will need
 
 **Need**
-- Power adapter
-- MicroSD card with adapter
-- Mouse
-- Keyboard
-- Full size HDMI Cable
-- Monitor
-- Jumpers
+- [Power adapter]()
+   - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
+- [MicroSD card with adapter]()
+   - For easy operating syste
+- [Mouse]()
+   - 
+- [Keyboard]()
+   - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard
+- [Full size HDMI Cable]()
+   - All 96Boards are equiped with a full sized HDMI connector.
+- [Monitor]()
+   - HDMI capable monitor is recommend when using your 96Boards
+- [Jumpers]()
+   - J15 Header on the HiKey comes with two pin-jumpers.
 
 **Optional**
-- Serial Console mezzanine
+- [Serial Console mezzanine]()
    - This mezzanine add-on will allow you to access the HiKey consol from a host computer
-- USB to MicroUSB cable
-   - This is needed for serial console interface and fastboot commands
-- USB to ethernet adapter and ethernet cable
-   - For connecting the a network without using WIFI
+- [USB to MicroUSB cable]()
+   - This is needed for serial console interface and fastboot/adb commands
+- [USB to ethernet adapter and ethernet cable]()
+   - For connecting to a network without using WiFi
