@@ -6,7 +6,7 @@ Welcome to the official documentation for Enterprise Edition 96Boards, this docu
 
 Select your Enterprise Edition 96Boards device to access all product related resources
 
-- [Cello]()
+- [Cello](Cello/README.md)
    - Board based on AMD Opteron A1100 Series SoC
 
 ***
