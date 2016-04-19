@@ -20,7 +20,7 @@ Select your platform for a list supported products and 96Boards specific resourc
 
 Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
 
-- [HiKey]()
+- [HiKey](ConsumerEdition/HiKey/Downloads/README.md)
 - [DragonBoard™ 410c]()
 - [Bubblegum-96]()
 
