@@ -15,16 +15,14 @@ The HiKey board is the first board to be certified 96Boards Consumer Edition com
    - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
 - [MicroSD card with adapter]()
    - For easy operating syste
-- [Mouse]()
-   - 
-- [Keyboard]()
-   - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard
+- [USB Keyboard and Mouse]()
+   - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
 - [Full size HDMI Cable]()
-   - All 96Boards are equiped with a full sized HDMI connector.
+   - All 96Boards are equiped with a full sized HDMI connector
 - [Monitor]()
-   - HDMI capable monitor is recommend when using your 96Boards
+   - HDMI capable monitor is recommended
 - [Jumpers]()
-   - J15 Header on the HiKey comes with two pin-jumpers.
+   - J15 Header on the HiKey comes with two pin-jumpers
 
 **Optional**
 - [Serial Console mezzanine]()
