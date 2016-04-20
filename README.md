@@ -21,15 +21,15 @@ Select your platform for a list supported products and 96Boards specific resourc
 Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
 
 - [HiKey](ConsumerEdition/HiKey/Downloads/README.md)
-- [DragonBoard™ 410c]()
-- [Bubblegum-96]()
+- [DragonBoard™ 410c](ConsumerEdition/DragonBoard-410c/Downloads/README.md)
+- [Bubblegum-96](ConsumerEdition/Bubblegum-96/Downloads/README.md)
 
 ***
 ## Read More
 
-- [Linux]()
+- [Linux](Linux.md)
    - A beginners approach to Linux
-- [Linaro]()
+- [Linaro](Linaro.md)
    - Learn about Linaro
 - [Report a bug](Report_a_bug.md)
    - Instructions on how to report bugs for any of our 96Boards hardware and software
