@@ -9,9 +9,9 @@ many can also be found on the [wiki](https://github.com/96boards/documentation/w
 
 Select your platform for a list supported products and 96Boards specific resources. 
 
-- [Consumer Edition](https://github.com/96boards/documentation/tree/master/ConsumerEdition/README.md)
+- [Consumer Edition](ConsumerEdition/README.md)
    - Consumer Edition (CE) specification targets the mobile, embedded and digital home segments
-- [Enterprise Edition](https://github.com/96boards/documentation/blob/master/EnterpriseEdition/README.md)
+- [Enterprise Edition](EnterpriseEdition/README.md)
    - Enterprise Edition (EE) specification targets the networking and server segments
 
 ***
@@ -31,7 +31,7 @@ Already familiar with your 96Boards? Skip the board bring up sections and go str
    - A beginners approach to Linux
 - [Linaro]()
    - Learn about Linaro
-- [Report a bug](https://github.com/96boards/documentation/blob/master/Report_a_bug.md)
+- [Report a bug](Report_a_bug.md)
    - Instructions on how to report bugs for any of our 96Boards hardware and software
 - [Contribute]()
    - View our documents "Contribution Policy"

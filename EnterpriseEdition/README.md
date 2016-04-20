@@ -1,4 +1,4 @@
-# Enterprise Edition Documentation
+## Enterprise Edition Documentation
 
 Welcome to the official documentation for Enterprise Edition 96Boards, this documentation is written by the 96Boards team at Linaro.
 

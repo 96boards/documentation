@@ -6,9 +6,9 @@ Welcome to the official documentation for Consumer Edition 96Boards, this docume
 
 Select your Consumer Edition 96Boards device to access all product related resources
 
-- [HiKey](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/README.md)
+- [HiKey](HiKey/README.md)
    - Board based on HiSilicon Kirin 6220 processor
-- [DragonBoard™ 410c](https://github.com/96boards/documentation/blob/master/dragonboard410c/README.md)
+- [DragonBoard™ 410c](dragonboard410c/README.md)
    - Board based on Qualcomm® Snapdragon™ 410 processor
-- [Bubblegum-96](https://github.com/96boards/documentation/blob/master/bubblegum-96/README.md)
+- [Bubblegum-96](bubblegum-96/README.md)
    - Board based on Actions Semi S900 Processor

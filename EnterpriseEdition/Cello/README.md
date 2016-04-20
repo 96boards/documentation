@@ -4,15 +4,15 @@ Official documentation for [Cello](https://www.96boards.org/products/ee/cello/) 
 
 ## Contents
 
-- [Quickstart]()
+- [Quickstart](Quickstart/README.md)
    - Learn about your Cello board, how to prepare and set up for basic use
-- [Installation]()
+- [Installation](Installation/README.md)
    - Choose and install an operating system on your Cello
-- [Functionality]()
+- [Functionality](Functionality/README.md)
    - Maximize your Cello experience by adding hardware and exploring pre-installed applications on your desktop
-- [Configuration]()
+- [Configuration](Configuration/README.md)
    - Execute unique configuraions to customize your Cello experience
-- [Remote Access]()
+- [Remote Access](Remote-Access/README.md)
    - Learn how to remotely access your Cello using several different methods
-- [Hardware]()
+- [Hardware](Hardware/README.md)
    - Explore what makes your Cello unique, technical specifications, schematics, and hardware add-ons

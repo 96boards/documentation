@@ -8,7 +8,7 @@ Official documentation for [HiKey](https://www.96boards.org/products/ce/hikey/) 
    - Learn about your HiKey board, how to prepare and set up for basic use
 - [Installation](Installation/README.md)
    - Choose and install an operating system on your HiKey
-- [Downloads]()
+- [Downloads](Downloads/README.md)
    - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
 - [Functionality](Functionality/README.md)
    - Maximize your HiKey experience by adding hardware and exploring pre-installed applications on your desktop
