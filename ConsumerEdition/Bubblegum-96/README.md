@@ -1,6 +1,6 @@
 # Bubblegum-96 Documentation
 
-Official documentation for [Bubblegum-96](https://www.96boards.org/products/ce/dragonboard410c/) Consumer Edition development board. This documentation is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions.
+Official documentation for [Bubblegum-96](https://www.96boards.org/products/ce/bubblegum96/) Consumer Edition development board. This documentation is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions.
 
 ## Contents
 
