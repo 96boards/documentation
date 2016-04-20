@@ -1,8 +1,8 @@
 ## Quickstart
 
-Learn about your HiKey board as well as how to prepare and set up for basic use
+Learn about your DragonBoard™ 410c board as well as how to prepare and set up for basic use
 
-## About the HiKey
+## About the DragonBoard™ 410c
 
 Available now! The DragonBoard™ 410c by Arrow Electronics is the first development board based on a mid-tier Qualcomm® Snapdragon™ 400 series processor. The board is designed to build a software ecosystem around the Snapdragon 410 processor, as well as offering uses in education, prototyping, and commercial embedded computing products. Featuring the 64-bit capable Snapdragon 410 quad-core ARM® Cortex® A53 processor, the DragonBoard 410c supports Android 5.1, Linux based on Debian and Windows 10. It offers advanced processing power, integrated WiFi, Bluetooth, and GPS, all packed into a board the size of a credit card. The board supports feature-rich functionality, including multimedia, with the Adreno™ 306 GPU for PC-class graphics, integrated ISP with up to 13 MP camera support, and 1080p HD video playback and capture with H.264 (AVC).
 
