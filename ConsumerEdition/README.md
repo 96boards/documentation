@@ -12,3 +12,8 @@ Select your Consumer Edition 96Boards device to access all product related resou
    - Board based on Qualcomm® Snapdragon™ 410 processor
 - [Bubblegum-96](Bubblegum-96/README.md)
    - Board based on Actions Semi S900 Processor
+
+## 96Boards CE Extras
+
+- [General Purpose Input/Output](GPIO/README.md)
+   - Basics for programming GPIO pins on all CE 96Boards using a variety of libraries and programming languages
