@@ -13,7 +13,9 @@ Select your platform for a list supported products and 96Boards specific resourc
    - Consumer Edition (CE) specification targets the mobile, embedded and digital home segments
 - [Enterprise Edition](EnterpriseEdition/README.md)
    - Enterprise Edition (EE) specification targets the networking and server segments
-
+- [Mezzanine Products](MezzanineProducts/README.md)
+   - Expand on all 96Boards with new interfaces for IoT, industrial control, and other embedded applications
+   
 ***
 
 ## Downloads
