@@ -1,9 +1,9 @@
-**ATTENTION:** This documentation repository is currently under constructions, you may experience broken links and incomplete information. Please visit our [wiki](https://github.com/96boards/documentation/wiki) while we undergo these changes
+**ATTENTION:** This documentation repository is currently under constructions, you may experience broken links and incomplete information. Please visit our [wiki](../../wiki) while we undergo these changes
 
 # 96Boards Documentation
 
 Welcome to the official documentation for 96Boards, this documentation is written by the 96Boards team at Linaro. In addition to the documentation files available in this repository,
-many can also be found on the [wiki](https://github.com/96boards/documentation/wiki)
+many can also be found on the [wiki](../../wiki)
 
 ## Contents - Start Here
 
@@ -35,7 +35,7 @@ Already familiar with your 96Boards? Skip the board bring up sections and go str
    - Learn about Linaro
 - [Report a bug](Report_a_bug.md)
    - Instructions on how to report bugs for any of our 96Boards hardware and software
-- [Contribute]()
+- [Contribute](Contribute.md)
    - View our documents "Contribution Policy"
 
 ***
