@@ -1,18 +1,18 @@
 ## Power Adapter
 
-The 96Boards CE boards require an 8-18V 2A power supply.
+The 96Boards Consumer Edition boards require a 8-18V 2A power supply.
 
-We recommend a 12V 2A adapter with a DC plug that has a 4.75 mm outer diameter with 1.7mm center pin (EIAJ-3 Compliant).
+We recommend a 12V, 2A adapter with a DC plug which has a 4.75 mm outer diameter with 1.7mm center pin (EIAJ-3 Compliant).
 
-Easiest way to prepare AC adapter for 96Boards is to have both bellow.
+Easiest way to prepare your AC adapter for 96Boards is to have the following:
 
 (1) AC adapter which has 12V 2A DC output with DC plug has 5,5 diameter and 2.1 mm center pin. (Center pin positive)
 
 (2) DC plug converter from 5,5 diameter with 2.1 mm center pin to 4.75mm diameter with 1.7mm center pin.
 
- 
+*** 
 
-Many lower cost boards use the ubiquitous microUSB cable to deliver 5V power. However, this limits the power capability to only 500mA at 5V by original official USB specification, which is less than 3W (https://en.wikipedia.org/wiki/USB#Power). As more powerful SoCs become available, peak power requirements for the SoC alone can easily exceed 5W.
+Many low cost boards use the ubiquitous microUSB cable to deliver 5V power. However, this limits the power capability to only 500mA at 5V by original official USB specification, which is less than 3W (https://en.wikipedia.org/wiki/USB#Power). As more powerful SoCs become available, peak power requirements for the SoC alone can easily exceed 5W.
 
 We therefore require an external power supply. In order to minimize the board height profile while maximizing the power available we specified to use an EIAJ-3 compliant DC plug available up to 2A, which is 4.75 mm outer diameter with 1.7mm center pin (4.75/1.7), for the power supply (https://en.wikipedia.org/wiki/EIAJ_connector). For an embedded product, power can alternatively be provided over the low speed expansion bus. (Note: this paragraph has been extracted from the 96Boards Specification.)
 
