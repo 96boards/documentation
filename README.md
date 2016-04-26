@@ -31,7 +31,7 @@ Already familiar with your 96Boards? Skip the board bring up sections and go str
 
 - [Linux](Linux.md)
    - A beginners approach to Linux
-- [Linaro](Linaro.md)
+- [Linaro](http://www.linaro.org/about/)
    - Learn about Linaro
 - [Report a bug](Report_a_bug.md)
    - Instructions on how to report bugs for any of our 96Boards hardware and software
