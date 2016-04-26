@@ -1,3 +1,5 @@
+## Power Adapter
+
 The 96Boards CE boards require an 8-18V 2A power supply.
 
 We recommend a 12V 2A adapter with a DC plug that has a 4.75 mm outer diameter with 1.7mm center pin (EIAJ-3 Compliant).
