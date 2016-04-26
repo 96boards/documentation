@@ -21,7 +21,7 @@ The HiKey board is the first board to be certified 96Boards Consumer Edition com
    - All 96Boards are equiped with a full sized HDMI connector
 - [Monitor](Monitor.md)
    - HDMI capable monitor is recommended
-- [Jumpers](Jumpers.md)
+- [Jumpers](J15Jumpers.md)
    - J15 Header on the HiKey comes with two pin-jumpers
 
 **Optional**
