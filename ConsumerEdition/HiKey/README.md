@@ -19,3 +19,4 @@ Official documentation for [HiKey](https://www.96boards.org/products/ce/hikey/) 
 - [Hardware](Hardware/README.md)
    - Explore what makes your HiKey unique, technical specifications, schematics, and hardware add-ons
 
+***
