@@ -31,3 +31,11 @@ The HiKey board is the first board to be certified 96Boards Consumer Edition com
    - This is needed for serial console interface and fastboot/adb commands
 - [USB to ethernet adapter and ethernet cable](USBEthernet.md)
    - For connecting to a network without using WiFi
+
+***
+
+## Out of the box tour
+
+From box to basics, this set of guides will walk you through the out of box experience with emphasis on board exploration and safe handling.
+
+[Click here](../../../OOTB-CE.md)
