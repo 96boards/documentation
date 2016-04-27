@@ -36,5 +36,5 @@ The HiKey board is the first board to be certified 96Boards Consumer Edition com
 
 ## Out of the box tour
 
-From box to basics, this set of guides will walk you through the out of box experience with emphasis on board exploration and safe handling. [Start here](../../../OOTB-CE/README.md)
+From box to basics, this set of guides will walk you through the out of box experience with emphasis on board exploration and safe handling. [Start here](../../OOTB-CE/README.md)
 
