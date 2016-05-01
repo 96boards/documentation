@@ -9,17 +9,13 @@ This page will walk you through the entire process. Once a greater understanding
 ## Start Here
 
 - [Beginner](96BoardsGPIO.README.md)
-   - These guides are intended for users who wish to utilize the GPIO libraries which are included in our pre-built images
+   - These guides are intended for users who wish to utilize the GPIO libraries included in our pre-built images.
 - [Advanced](Libsoc/README.md)
    - Advanced users can learn where to aquire, and how to build the various 96Boards enabled libraries such as 96BoardsGPIO, libsoc, mraa, and UPM. Users who are interested in building their own libraries should be comfortable with building from source, and should already be familiar with the 96Boards hardware.
 
 ## Read more
 
-Before jumping into our GPIO guides, feel free to read more about the different interfaces available to you on your 96Boards. When you are ready, simply back out of the reading section and click on the guide set that best fits your experience level.
+Before starting either of the GPIO guides, feel free to read more about the different GPIO interfaces available to you on your 96Boards. When you are ready, simply back out of the reading section and click on the guide set which best fits your experience level.
 
-- [General Purpose Input/Output (GPIO)](GPIOReadMore/README.md)
-- [Multi-Purpose Pin (MPP)](MPPReadMore/README.md)
-- [Inter-integrated Circuit (I2C)](I2CReadMore/README.md)
-- [Serial Peripheral Interface (SPI)](SPIReadMore/README.md)
-- [Universal Asynchronous Receiver/Transmitter (UART)](UARTReadMore/README.md)
-- [Pulse-code modulation (PCM)](PCMReadMore/README.md)
+- [Low-Speed Expansion Header](LSExpansionHeader/README.md)
+   - Explore your 96Boards low-speed expansion header, this is where your GPIO interfaces are located.
