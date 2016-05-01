@@ -8,9 +8,9 @@ This page will walk you through the entire process. Once a greater understanding
 
 ## Start Here
 
-- [Beginner](96BoardsGPIO.README.md)
+- [Beginner](Beginner/README.md)
    - These guides are intended for users who wish to utilize the GPIO libraries included in our pre-built images.
-- [Advanced](Libsoc/README.md)
+- [Advanced](Advanced/README.md)
    - Advanced users can learn where to aquire, and how to build the various 96Boards enabled libraries such as 96BoardsGPIO, libsoc, mraa, and UPM. Users who are interested in building their own libraries should be comfortable with building from source, and should already be familiar with the 96Boards hardware.
 
 ## Read more
