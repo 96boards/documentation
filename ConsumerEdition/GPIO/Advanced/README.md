@@ -6,7 +6,7 @@ in progress...
 
 ## Contents
 
-- [Update 96Boards image]()
+- [Update 96Boards image](#Update_96Boards_image)
 - [Install package dependencies]()
 - [Install 96Boards configuration files]()
 - [Install Libraries]()
