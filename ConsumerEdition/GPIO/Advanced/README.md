@@ -8,13 +8,13 @@ in progress...
 
 - [Update 96Boards image](#update-96boards-image)
 - [Install package dependencies](#install-package-dependencies)
-- [Install 96Boards configuration files](#install-96Boards-configuration-files)
+- [Install 96Boards configuration files](#install-96boards-configuration-files)
 - [Install Libraries](#install-libraries)
-   - [96BoardsGPIO](#96BoardsGPIO)
+   - [96BoardsGPIO](#96boardsgpio)
    - [Libsoc](#libsoc)
    - [MRAA](#mraa)
    - [UPM](#upm)
-- [Install, build, and use test code]()
+- [Install, build, and use test code](#test-code---install-build-and-test)
 
 ***
 
