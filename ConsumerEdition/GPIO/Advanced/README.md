@@ -8,11 +8,11 @@ Before jumping to the library installation sections, you must first set up your 
 
 ## Contents
 
-- [Update 96Boards system](update-96boards-system)
-- [Install package dependencies](install-package-dependencies)
-- [Install 96Boards configuration files](install-96boards-configuration-files)
-- [Install Libraries](install-libraries)
-- [Examples - Sample code](examples---sample-code)
+- [Update 96Boards system](#update-96boards-system)
+- [Install package dependencies](#install-package-dependencies)
+- [Install 96Boards configuration files](#install-96boards-configuration-files)
+- [Install Libraries](#install-libraries)
+- [Examples - Sample code](#examples---sample-code)
 
 
 ***
@@ -109,23 +109,23 @@ This sections will show you how to install and build each library individually. 
 
 Note: 96BoardsGPIO is dependent on the libsoc library, UPM is depended on the MRAA library.
 
-- [libsoc](libsoc-lib/README.md)
+- [libsoc](#libsoc-lib/README.md)
    - This C library can interface with common peripherals found in
 System on Chips through generic Linux Kernel interfaces.
-- [96BoardsGPIO](96BoardsGPIO-lib/README.md)
+- [96BoardsGPIO](#96BoardsGPIO-lib/README.md)
    - A rudimentary library, capable of controlling real world hardware via the GPIO on the 96Boards family of boards. Must conform to the CE specification. Dependent on libsoc library.
-- [MRAA](MRAA-lib/README.md)
+- [MRAA](#MRAA-lib/README.md)
    - C/C++ library with bindings to javascript & python to interface with the IO on your 96Boards
-- [UPM](UPM-lib/README.md)
+- [UPM](#UPM-lib/README.md)
    - High level repository for sensors which use MRAA. Dependent on MRAA library
 
 ***
 
 ## Examples
 
-- [libsoc](libsoc-ex/README.md)   
-- [96BoardsGPIO](96BoardsGPIO-ex/README.md)  
-- [MRAA](MRAA-ex/README.md)   
-- [UPM](UPM-ex/README.md)
+- [libsoc](#libsoc-ex/README.md)   
+- [96BoardsGPIO](#96BoardsGPIO-ex/README.md)  
+- [MRAA](#MRAA-ex/README.md)   
+- [UPM](#UPM-ex/README.md)
 
 ***
