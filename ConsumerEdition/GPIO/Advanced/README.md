@@ -1,61 +1,56 @@
-# Beginner Guide
+# Advanced Guide
 
-in progress...
-
-***
-
-## Contents
-
-- [Update 96Boards image](#update-96boards-image)
-- [Install package dependencies](#install-package-dependencies)
-- [Install 96Boards configuration files](#install-96boards-configuration-files)
-- [Install Libraries](#install-libraries)
-   - [96BoardsGPIO](#96boardsgpio)
-   - [Libsoc](#libsoc)
-   - [MRAA](#mraa)
-   - [UPM](#upm)
-- [Install, build, and use test code](#test-code---install-build-and-test)
+In progres...
 
 ***
 
-### Update 96Boards image
+## Update system
 
-The image on your board might be out of date. This is possible regardless of whether or not you are using the stock image (the operating system your board was shipped with), or a newly flashed version from the 96Boards.org website. 
+The image on your board might be out of date. This is possible even when using the stock image (the operating system your board was shipped with), or a newly flashed version from the 96Boards.org website. 
 
-***
+A few usefull commands will help us make sure all on-board software is current:
 
-### Install package dependencies
+- **apt-get update**: Downloads package lists from online repositories and "updates" them to get information on the newest versions of packages and their dependencies.
+- **apt-get upgrade**: Fetches and installs newest package versions which currently exist on the system. APT must know about these new versions by way of 'apt-get update'
+- **apt-get dist-upgrade**: In addition to performing the function of upgrade, this option also intelligently handles changing dependencies with new versions of packages
 
+**Commands:**
 
-***
+```shell
+$ sudo apt-get update: 
+$ sudo apt-get upgrade
+$ sudo apt-get dist-upgrade
+```
 
-### Install 96Boards configuration files
+Note: If at any point during this process you are prompted with a 'Y/N', select Y and press <Enter>.
 
+## Libraries
 
-***
+In progress...
 
-### Install Libraries
-
-
-***
-
-#### 96BoardsGPIO
-
-
-***
-
-#### Libsoc
-
-***
-
-#### MRAA
-
-***
-
-#### UPM
+- [libsoc]()
+   - 
+- [96BoardsGPIO]()
+   -
+- [MRAA]()
+   -
+- [UPM]()
+   -
 
 ***
 
-#### Test code - Install, build, and test
+## Examples
+
+In progress...
+
+- [libsoc]()
+   - 
+- [96BoardsGPIO]()
+   -
+- [MRAA]()
+   -
+- [UPM]()
+   -
 
 
+***
