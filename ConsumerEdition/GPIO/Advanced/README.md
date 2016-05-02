@@ -30,7 +30,7 @@ A few useful commands will help us make sure everything on the board is current:
 **Commands:**
 
 ```shell
-$ sudo apt-get update: 
+$ sudo apt-get update
 
 $ sudo apt-get upgrade
 
