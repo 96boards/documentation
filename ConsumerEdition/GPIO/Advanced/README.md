@@ -1,6 +1,6 @@
 # Advanced Guide
 
-In this guide you will learn where to acquire, and how to build the various 96Boards enabled libraries such as 96BoardsGPIO, libsoc, mraa, and UPM. Users who are interested in building their own libraries should be comfortable with building from source, and should already be familiar with the 96Boards hardware.
+In this guide you will learn where to acquire, and how to build the various 96Boards enabled libraries such as 96BoardsGPIO, libsoc, MRAA, and UPM. Users who are interested in building their own libraries should be comfortable with building from source, and should already be familiar with the 96Boards hardware.
 
 Before jumping to the library installation sections, you must first set up your 96Boards device with an up-to-date package list, the appropriate package dependencies, and configuration files. 
 
