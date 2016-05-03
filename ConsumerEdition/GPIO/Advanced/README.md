@@ -67,6 +67,8 @@ $ sudo apt-get install git build-essential autoconf automake libtool swig3.0 pyt
 $ sudo apt-get clean
 ```
 
+Note: If at any point during this process you are prompted with a 'Y/N', select Y and press <Enter>.
+
 ***
 
 ## Install 96Boards configuration files
