@@ -19,5 +19,3 @@ Select your Consumer Edition 96Boards device to access all product related resou
    - From box to basics, these guides will get you started with your 96Boards
 - [General Purpose Input/Output](GPIO/README.md)
    - Basics for programming GPIO pins on all CE 96Boards using a variety of libraries and programming languages
-- [FAQ](FAQ/README.md)
-   - Frequently asked questions 
