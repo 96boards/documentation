@@ -18,7 +18,5 @@ Official documentation for [HiKey](https://www.96boards.org/products/ce/hikey/) 
    - Learn how to remotely access your HiKey using several different methods
 - [Hardware](Hardware/README.md)
    - Explore what makes your HiKey unique, technical specifications, schematics, and hardware add-ons
-- [FAQ](FAQ/README.md)
-   - Frequently Asked Questions about the HiKey Consumer Edition board
    
 ***
