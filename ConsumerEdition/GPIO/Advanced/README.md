@@ -12,8 +12,6 @@ Before jumping to the library installation sections, you must first set up your 
 - [Install package dependencies](#install-package-dependencies)
 - [Install 96Boards configuration files](#install-96boards-configuration-files)
 - [Install Libraries](#install-libraries)
-- [Examples - Sample code](#examples---sample-code)
-
 
 ***
 
