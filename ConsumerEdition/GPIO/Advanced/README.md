@@ -122,12 +122,3 @@ System on Chips through generic Linux Kernel interfaces.
    - High level repository for sensors which use MRAA. Dependent on MRAA library
 
 ***
-
-## Examples
-
-- [libsoc](#libsoc-ex/README.md)   
-- [96BoardsGPIO](#96BoardsGPIO-ex/README.md)  
-- [MRAA](#MRAA-ex/README.md)   
-- [UPM](#UPM-ex/README.md)
-
-***
