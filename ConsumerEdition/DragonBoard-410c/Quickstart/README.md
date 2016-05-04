@@ -23,8 +23,6 @@ The DragonBoard 410c has the rich feature set and mid-tier accessibility to enab
    - All 96Boards are equiped with a full sized HDMI connector
 - [Monitor](Monitor.md)
    - HDMI capable monitor is recommended
-- [Jumpers](J15Jumpers.md)
-   - J15 Header on the HiKey comes with two pin-jumpers
 
 **Optional**
 - [Serial Console mezzanine](SerialConsole.md)
