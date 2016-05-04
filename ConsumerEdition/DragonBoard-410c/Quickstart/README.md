@@ -13,21 +13,30 @@ The DragonBoard 410c has the rich feature set and mid-tier accessibility to enab
 ## Setup - What you will need
 
 **Need**
-- [Power adapter]()
+- [Power adapter](PowerAdapter.md)
    - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
-- [MicroSD card with adapter]()
+- [MicroSD card with adapter](Sdcard.md)
    - For easy operating syste
-- [USB Keyboard and Mouse]()
+- [USB Keyboard and Mouse](USBKeyBoardMouse.md)
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
-- [Full size HDMI Cable]()
+- [Full size HDMI Cable](HDMI.md)
    - All 96Boards are equiped with a full sized HDMI connector
-- [Monitor]()
+- [Monitor](Monitor.md)
    - HDMI capable monitor is recommended
+- [Jumpers](J15Jumpers.md)
+   - J15 Header on the HiKey comes with two pin-jumpers
 
 **Optional**
-- [Serial Console mezzanine]()
-   - This mezzanine add-on will allow you to access the DragonBoard 410c console from a host computer
-- [USB to MicroUSB cable]()
+- [Serial Console mezzanine](SerialConsole.md)
+   - This mezzanine add-on will allow you to access the HiKey consol from a host computer
+- [USB to MicroUSB cable](MicroUSBCable.md)
    - This is needed for serial console interface and fastboot/adb commands
-- [USB to ethernet adapter and ethernet cable]()
+- [USB to ethernet adapter and ethernet cable](USBEthernet.md)
    - For connecting to a network without using WiFi
+
+***
+
+## Out of the box tour
+
+From box to basics, this set of guides will walk you through the out of box experience with emphasis on board exploration and safe handling. [Start here](../../OOTB-CE/README.md)
+
