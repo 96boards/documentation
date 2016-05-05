@@ -79,7 +79,7 @@ As root and using your favorite text editor edit /etc/profile.d/96boards-sensors
 ```shell
 $ git clone https://github.com/96boards/96boards-tools.git
 
-$ sudo cp 96board-tools/70-96boards-common.rules /etc/udev/rules.d/
+$ sudo cp 96boards-tools/70-96boards-common.rules /etc/udev/rules.d/
 ```
 
 **Step 2:** As root, and using your favorite text editor, edit /etc/profile.d/96boards-sensors.sh and add the following lines (This example uses “vi” text editor):
