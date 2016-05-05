@@ -51,18 +51,22 @@ Here it is important to note the GPIO pins are configurable, and can be set as a
 **I2C**
 
 The Inter-integrated Circuit (I2C) is essentially a serial computer bus (a bus is something that communicates/transfers data between components) which allows lower speed peripheral ICs to be connected with processors and microcontrollers. They permit multiple synchronized master-slave connections to be formed. It is used in short distance communications within a single device. Although it is slower, it can be used for many devices. Requires two signal wires to transfer information. 
+Source: https://en.wikipedia.org/wiki/I%C2%B2C
 
 **SPI**
 
 The serial peripheral interface (SPI) is a bus that is used for fast, short distance communication between two systems in a master-slave fashion. The master device will contain the original signals which can be processed in the slave. The main difference between SPI and I2C is that SPI is a 4 wire interface while I2C is a two wire interface. SPI is used for guaranteed data transmission while I2C is easier to link multiple devices for it has a built in addressing scheme. 
+Source: https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus
 
 **UART**
 
 A UART is a microchip that controls the interface between a computer and its attached serial devices. It translates data between parallel and serial. It can talk to, and exchange information between modems and other serial devices. It is asynchronous (requiring a form of computer control timing protocol). The main difference between UART and SPI is in their protocols and speed. SPI typically operates at up to 50 Mbps while the UART operates between 0.5 Kbps and 1 Mbps. Therefore, SPI is excellent for high-bandwidth applications, such as audio and video. UARTs is better for sensor type applications. 
+Source: https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter
 
 **PCM**
 
 Pulse-code modulation (PCM) is used to sample analog signals and convert it to a digital signal. The analog signal is, in effect, compressed into a digital signal (not perfect analog representation but close) which means that the data is easier to work with (storing, reading, less noise).
+Source: https://en.wikipedia.org/wiki/Pulse-code_modulation
 
 ***
 
