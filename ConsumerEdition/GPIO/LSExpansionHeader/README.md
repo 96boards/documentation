@@ -2,7 +2,7 @@
 
 The low-speed expansion header is where all of your GPIO interfaces are located. This particular header is 2x20, 2.0mm pitch, with female pins. This guide will go over the expansion header in as much detail as possible, while providing safe practices when accessing the necessary hardware for GPIO use. 
 
-If you are already familiar with the 96Boards low-speed expansion header, the interfaces available to you, and how to safely access them using basic jumper wires our one of the Mezzanine kits, please jump to one of the following sections to get started:
+If you are already familiar with the 96Boards low-speed expansion header, the interfaces available to you, and how to safely access them using basic jumper wires our one of the Mezzanine kits, please skip to one of the following sections to get started:
 
 - [Beginner's Guide](../Beginner/README.md)
 - [Advanced Guide](../Advanced/README.md)
