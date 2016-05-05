@@ -6,9 +6,9 @@ The low-speed expansion header is where all of your GPIO interfaces are located.
 
 ## Contents
 
-- Closer look at the Low-Speed Expansion header
-- Safe Practices
-- GPIO interfaces
+- [Closer look at the Low-Speed Expansion header](closer-look-at-the-low--speed-expansion-header)
+- [Safe Practices](safe-practices)
+- [GPIO interfaces](gpio-interfaces)
 
 
 ***
