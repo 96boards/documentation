@@ -18,7 +18,6 @@ The low-speed expansion header is where all of your GPIO interfaces are located.
 This section will help you locate the low-speed expansion header on your 96Boards.
 
 <a href="" align="left" target="_blank"><img src="http://i.imgur.com/48NCYil.png" data-canonical-src="http://i.imgur.com/48NCYil.png" width="180" height="240" /></a>
-
 <a href="" align="right" target="_blank"><img src="http://i.imgur.com/zo44YPE.jpg" data-canonical-src="http://i.imgur.com/zo44YPE.jpg" width="280" height="220" /></a>
 
 ***
