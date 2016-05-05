@@ -2,6 +2,12 @@
 
 The low-speed expansion header is where all of your GPIO interfaces are located. This particular header is 2x20, 2.0mm pitch, with female pins. This guide will go over the expansion header in as much detail as possible, while providing safe practices when accessing the necessary hardware for GPIO use. 
 
+If you are already familiar with the 96Boards low-speed expansion header, the interfaces available to you, and how to safely access them using basic jumper wires our one of the Mezzanine kits, please jump to one of the following sections to get started:
+
+- [Beginner's Guide](../Beginner/README.md)
+- [Advanced Guide](../Advanced/README.md)
+- [Examples - Sample Code](../Examples/README.md)
+
 ***
 
 ## Contents
@@ -15,9 +21,11 @@ The low-speed expansion header is where all of your GPIO interfaces are located.
 
 Below is an image of the DragonBoard™ 410c(one of our 96Boards), and a diagram illustrating the interfaces available on the low-speed expansion header. Even though the DragonBoard 410c is used in this example, all 96Boards can be paired to this diagram.
 
-The 40 pin low speed expansion header can be found on the board here (black protrusion, next to the analog expansion header holes):
+The 40 pin low-speed expansion header can be found on the board here (black protrusion, next to the 16 pin analog expansion header holes):
 
 <a href="" align="left" target="_blank"><img src="http://i.imgur.com/k4zh8Mo.png" data-canonical-src="http://i.imgur.com/k4zh8Mo.png" width="255" height="180" /></a>
+
+This particular header is home to the many usable GPIO interfaces. In order to follow the [GPIO](), [I2C](), and [SPI]() example guides, you will need access to this header. Members of the 96Boards community and other third party vendors have created a variety of "Mezzanine" products to make accessing these interfaces easier. To read more about the line of Mezzanine products please visit the [Mezzanine Products Page](../../../MezzanineProducts/README.md).
 
 <a href="" align="left" target="_blank"><img src="http://i.imgur.com/yH9s441.png" data-canonical-src="http://i.imgur.com/yH9s441.png" width="180" height="240" /></a>
 <a href="" align="right" target="_blank"><img src="http://i.imgur.com/zo44YPE.jpg" data-canonical-src="http://i.imgur.com/zo44YPE.jpg" width="280" height="220" /></a>
@@ -28,17 +36,17 @@ The 40 pin low speed expansion header can be found on the board here (black prot
 
 **GPIO Defined**
 
-General purpose Input/Output pins or GPIO are pins that go generally unused by default and are said to have no defined special purpose. This means the user maintains decisive control over the GPIO pins and their actions. That being said, these GPIO are capable of performing a variety of user driven actions, most of which will be necessary for this course. Below is a list of potential capabilities of the GPIO pins as seen on
-https://en.wikipedia.org/wiki/General-purpose_input/output
+General purpose Input/Output pins or GPIO are pins that go generally unused by default and are said to have no defined special purpose. This means the user maintains decisive control over the GPIO pins and their actions. That being said, these GPIO are capable of performing a variety of user driven actions. Below is a list of potential capabilities of the GPIO pins as seen on https://en.wikipedia.org/wiki/General-purpose_input/output
 
-- GPIO capabilities may include:
+GPIO capabilities may include:
+
 - GPIO pins can be configured to be input or output
 - GPIO pins can be enabled/disabled
 - Input values are readable (typically high=1, low=0)
 - Output values are writable/readable
 - Input values can often be used as IRQs (Interrupt), typically for wakeup events
 
-Here it is important to note that the GPIO pins are configurable, and can be set as an input or output. With that, we see values can be written onto, or read from these interfaces (GPIO), typically as discrete values of 0 and 1 (High or Low). Being able to read and write values to these pins allows simple and quick communication with peripheral devices. These devices in turn help the DragonBoard™ 410c to interpret and communicate with the environment or other devices. All microcontrollers are not the same, and will usually differ in many ways. The DragonBoard™ 410c has 12 GPIO pins, one of which is multi-purpose.
+Here it is important to note the GPIO pins are configurable, and can be set as an input or output. With that, we see values can be written onto, or read from these interfaces (GPIO), typically as discrete values of 0 and 1 (High or Low). Being able to read and write values to these pins allows simple and quick communication with peripheral devices. These devices in turn help the 96Boards to interpret and communicate with the environment or other devices. All Single Board Computers are not the same, and will usually differ in many ways. 96Boards have 12 GPIO pins, one of which is multi-purpose.
 
 **I2C**
 
