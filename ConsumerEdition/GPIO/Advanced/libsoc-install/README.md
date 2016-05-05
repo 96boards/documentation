@@ -9,12 +9,12 @@ $ git clone https://github.com/jackmitch/libsoc.git<Enter>
 $ cd libsoc<Enter>
 $ ./autogen.sh<Enter>
 $ ./configure --enable-python2 --enable-board=<your board><Enter>
-Where <your board> is dragonboard410c or hikey or another supported board in the future.
+#Where <your board> is dragonboard410c or hikey or another supported board in the future.
 $ make && sudo make install<Enter>
 $ sudo ldconfig /usr/local/lib<Enter>
 ```
 
-Once you have successfully built the library you can either reset the system to pick up all of the changes, or procees to building another library and reset the system once you are finished.
+Once you have successfully built the library you can either reset the system to pick up all of the changes, or proceed to building another library and reset the system once you are finished.
 
 **Commands:** Reset the system
 
