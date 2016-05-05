@@ -13,3 +13,5 @@ Where <your board> is dragonboard410c or hikey or another supported board in the
 $ make && sudo make install<Enter>
 $ sudo ldconfig /usr/local/lib<Enter>
 ```
+
+Once you have successfully built the library you can either reset the system to pick up all of the changed 
