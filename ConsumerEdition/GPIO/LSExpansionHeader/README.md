@@ -12,8 +12,8 @@ If you are already familiar with the 96Boards low-speed expansion header, the in
 
 ## Contents
 
-- [Closer look at the Low-Speed Expansion header](closer-look-at-the-low--speed-expansion-header)
-- [GPIO interfaces](gpio-interfaces)
+- [Closer look at the Low-Speed Expansion header](#closer-look-at-the-low-speed-expansion-header)
+- [GPIO interfaces](#gpio-interfaces)
 
 ***
 
