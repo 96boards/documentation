@@ -12,3 +12,14 @@ $ ./configure<Enter>
 $ make && sudo make install<Enter>
 $ sudo ldconfig /usr/local/lib<Enter>
 ```
+Once you have successfully built the library you can either reset the system to pick up all of the changes, or proceed to building another library and reset the system once you are finished.
+
+**Commands:** Reset the system
+
+```shell
+$ sudo reboot<Enter>
+```
+
+***
+
+When you have you have finished installing and building your library, please proceed to the [Examples - Sample code](../../Examples/README.md) page to begin programming.
