@@ -22,19 +22,27 @@ These examples were made using the [Linker mezzanine card starter kit](../../../
 
 **Commands:**
 
+```shell
 $ git clone https://github.com/dmandala/library_test.git<Enter>
 $ cd library_test<Enter>
 $ cat README.md<Enter>
+```
 
 ### Example #2
 
+This public instruction set was created by Barry Byford, a DragonBoard 410c enthusiast from the UK. The code provided for these examples are simple and still being developed. Instructions for setting up the libsoc_zero library can be found on his website along side his sample code and examples.
 
+http://pythonhosted.org/libsoc_zero/index.html
 
 
 ***
 
 ## I2C Examples
 
+In Progress...
+
 ***
 
 ## SPI Examples
+
+In Progress...
