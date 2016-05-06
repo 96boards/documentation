@@ -1,4 +1,4 @@
-# Example - Sample Code
+# Examples - Sample Code
 
 ## Contents
 
