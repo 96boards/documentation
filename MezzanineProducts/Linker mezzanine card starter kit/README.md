@@ -6,14 +6,14 @@ The Linker mezzanine card has eight connectors supporting Analog, UART, I2C and 
 
 **Kit Includes**
 
-1 × [Linker Mezzanine card for 96board](http://linksprite.com/wiki/index.php5?title=Linker_Mezzanine_card_for_96board) [105101022]
-1 × [Button Module](http://linksprite.com/wiki/index.php5?title=Button_Module) [118101002]
-1 × [5mm Red LED Module](http://linksprite.com/wiki/index.php5?title=5mm_Red_LED_Module) [118101001-5]
-1 × [LDR Module](http://linksprite.com/wiki/index.php5?title=LDR_Module) [118101003]
-1 × [Thermal Module](http://linksprite.com/wiki/index.php5?title=Thermal_Module) [118101005]
-1 × [Linear/Slide Potentiometer Module](http://linksprite.com/wiki/index.php5?title=Linear/Slide_Potentiometer_Module) [118101006]
-1 × [Tilt Module](http://linksprite.com/wiki/index.php5?title=Tilt_Module) [118101004]
-1 × [Touch Sensor Module](http://linksprite.com/wiki/index.php5?title=Touch_Sensor_Module) [118101007]
-1 × [Relay Module](http://linksprite.com/wiki/index.php5?title=Relay_Module) [118101008]
-8 × [20cm Cables](http://linksprite.com/wiki/index.php5?title=20cm_Cables) [118201001]
-1 × [Plastic case]()
+- 1 × [Linker Mezzanine card for 96board](http://linksprite.com/wiki/index.php5?title=Linker_Mezzanine_card_for_96board) [105101022]
+- 1 × [Button Module](http://linksprite.com/wiki/index.php5?title=Button_Module) [118101002]
+- 1 × [5mm Red LED Module](http://linksprite.com/wiki/index.php5?title=5mm_Red_LED_Module) [118101001-5]
+- 1 × [LDR Module](http://linksprite.com/wiki/index.php5?title=LDR_Module) [118101003]
+- 1 × [Thermal Module](http://linksprite.com/wiki/index.php5?title=Thermal_Module) [118101005]
+- 1 × [Linear/Slide Potentiometer Module](http://linksprite.com/wiki/index.php5?title=Linear/Slide_Potentiometer_Module) [118101006]
+- 1 × [Tilt Module](http://linksprite.com/wiki/index.php5?title=Tilt_Module) [118101004]
+- 1 × [Touch Sensor Module](http://linksprite.com/wiki/index.php5?title=Touch_Sensor_Module) [118101007]
+- 1 × [Relay Module](http://linksprite.com/wiki/index.php5?title=Relay_Module) [118101008]
+- 8 × [20cm Cables](http://linksprite.com/wiki/index.php5?title=20cm_Cables) [118201001]
+- 1 × [Plastic case]()
