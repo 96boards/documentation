@@ -10,7 +10,7 @@
 
 ## GPIO Examples
 
-### Example #1
+### Example #1 - Through the shell
 
 This is the first and simplest example one could execute on a 96Boards. For this example you will access and manipulate the GPIOs via command line using the built in terminal application on your 96Boards. For this example you WILL NOT need any particular library, however, low-speed expansion header pins/GPIOs naming conventions can be significantly simplified by installing the **libsoc** library beforehand.
 
@@ -77,7 +77,7 @@ Sets value of GPIO
 
 Using a multimeter set to measuring voltage, you can probe the pin you are toggleing along with one of the ground nodes (Pins 1,2,39, and 40), to watch the voltage switch between ~1.8V and 0V.
 
-### Example #2
+### Example #2 - Triple library LED push button
 
 This repository, created by Linaro's David Mandala, demonstrates the use of three different libraries using three different scripts. Instructions on how to compile and execute the code can be found in the README.md file which is included in the repository download. Simply clone the repoistory onto your 96Boards and follow README.md instructions.
 
@@ -91,7 +91,7 @@ $ cd library_test<Enter>
 $ cat README.md<Enter>
 ```
 
-### Example #3
+### Example #3 - Sensor, sensors, and more sensors
 
 This public instruction set was created by Barry Byford, a DragonBoard 410c enthusiast from the UK. The code provided for these examples are simple and still being developed. Instructions for setting up the libsoc_zero library can be found on his website along side his sample code and examples.
 
