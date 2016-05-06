@@ -1,9 +1,5 @@
 # Example - Sample Code
 
-In Progress...
-
-***
-
 ## Contents
 
 - [GPIO Examples](#gpio-examples)
@@ -32,8 +28,9 @@ $ cat README.md<Enter>
 
 This public instruction set was created by Barry Byford, a DragonBoard 410c enthusiast from the UK. The code provided for these examples are simple and still being developed. Instructions for setting up the libsoc_zero library can be found on his website along side his sample code and examples.
 
-http://pythonhosted.org/libsoc_zero/index.html
+These examples were made using the [Linker mezzanine card starter kit](../../../MezzanineProducts/Linker%20mezzanine%20card%20starter%20kit/README.md) made by [Arrow](http://www.arrow.com)
 
+http://pythonhosted.org/libsoc_zero/index.html
 
 ***
 
