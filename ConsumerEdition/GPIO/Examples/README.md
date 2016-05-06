@@ -18,7 +18,7 @@ In Progress...
 
 This repository, created by Linaro's David Mandala, demonstrates the use of three different libraries using three different scripts. Instructions on how to compile and execute the code can be found in the README.md file which is included in the repository download. Simply clone the repoistory onto your 96Boards and follow README.md instructions.
 
-These examples were made using the [Linker mezzanine card starter kit](../../../MezzanineProducts/Linker-mezzanine-card-starter-kit) made by [Arrow](http://www.arrow.com)
+These examples were made using the [Linker mezzanine card starter kit](../../../MezzanineProducts) made by [Arrow](http://www.arrow.com)
 
 **Commands:**
 
