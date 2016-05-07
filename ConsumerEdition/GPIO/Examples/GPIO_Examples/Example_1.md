@@ -1,6 +1,4 @@
-# Example 1
-
-Example #1 - Through the shell
+# Example #1 - Through the shell
 
 This is the first and simplest example one could execute on a 96Boards. For this example you will access and manipulate the GPIOs via command line using the built in terminal application on your 96Boards. For this example you WILL NOT need any particular library, however, low-speed expansion header pins/GPIOs naming conventions can be significantly simplified by installing the **libsoc** library beforehand.
 
