@@ -13,7 +13,7 @@ This page will walk you through the entire process. Once a greater understanding
 - [Advanced](Advanced/README.md)
    - Advanced users can learn where to aquire, and how to build the various 96Boards enabled libraries such as 96BoardsGPIO, libsoc, mraa, and UPM. Users who are interested in building their own libraries should be comfortable with building from source, and should already be familiar with the 96Boards hardware.
 - [Examples - Sample code](Examples/README.md)
-   - These example will provide commented sample code for all 96Boards enabled libraries.
+   - These examples will provide commented sample code for all 96Boards enabled libraries.
 
 ## Read more
 
