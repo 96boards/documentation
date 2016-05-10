@@ -18,3 +18,5 @@ Official documentation for [DragonBoard 410c](https://www.96boards.org/products/
    - Learn how to remotely access your DragonBoard 410c using several different methods
 - [Hardware](Hardware/README.md)
    - Explore what makes your DragonBoard 410c unique, technical specifications, schematics, and hardware add-ons
+- [Troubleshooting](Troubleshooting/README.md)
+   - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
