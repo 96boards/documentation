@@ -14,7 +14,7 @@ The HiKey board is the first board to be certified 96Boards Consumer Edition com
 - [Power adapter](PowerAdapter.md)
    - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
 - [MicroSD card with adapter](Sdcard.md)
-   - For easy operating syste
+   - For easy switching between operating systems and extra storage
 - [USB Keyboard and Mouse](USBKeyBoardMouse.md)
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
 - [Full size HDMI Cable](HDMI.md)
