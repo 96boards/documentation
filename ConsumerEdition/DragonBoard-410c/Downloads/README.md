@@ -11,15 +11,6 @@ Linaro Member operating systems will maximize the available hardware on your 96B
 
 ***
 
-### Reference Software Platform
- 
-Reference Platform builds are...
-
-- [Debian]()
-- [AOSP]()
-
-***
-
 ### Third Party Operating Systems
 
 Links to third party images and installation instructions
@@ -28,3 +19,15 @@ Links to third party images and installation instructions
 - [Ubuntu]()
 - [Ubuntu Snappy]()
 - [Brillo]()
+
+***
+
+
+### Reference Software Platform
+ 
+Reference Platform builds are...
+
+- [Debian]()
+- [AOSP]()
+
+***
