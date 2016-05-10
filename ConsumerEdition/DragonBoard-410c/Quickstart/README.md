@@ -16,7 +16,7 @@ The DragonBoard 410c has the rich feature set and mid-tier accessibility to enab
 - [Power adapter](PowerAdapter.md)
    - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
 - [MicroSD card with adapter](Sdcard.md)
-   - For easy operating syste
+   - For quick and easy switching between operating systems and extra storage
 - [USB Keyboard and Mouse](USBKeyBoardMouse.md)
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
 - [Full size HDMI Cable](HDMI.md)
