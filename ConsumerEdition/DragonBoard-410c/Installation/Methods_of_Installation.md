@@ -6,7 +6,7 @@ In most cases, you will be presented with two options when installing your new o
 - SD Card Method
 - Fastboot Method
 
-Each method has it's own benifits, and requires different levels of 
+Each method has it's own benifits, and requires different levels of experience
 
 ***
 
