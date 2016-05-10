@@ -2,9 +2,7 @@
 
 ***
 
-###Official Linaro Member operating systems
-
-Linaro Member operating systems will maximize the available hardware on your 96Boards. While working directly with chip makers and hardware manufacturers, these operating systems are designed for full functionallity right out of the box. 
+Officially supported operating systems by 96Boards.org
 
 - [Debian]()
 - [Android]()
@@ -12,6 +10,8 @@ Linaro Member operating systems will maximize the available hardware on your 96B
 ***
 
 ### Third Party Operating Systems
+
+Other operating systems supported on DB410c offered by partners.
 
 Links to third party images and installation instructions
 
@@ -31,3 +31,5 @@ Reference Platform builds are...
 - [AOSP]()
 
 ***
+
+
