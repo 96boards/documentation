@@ -30,8 +30,6 @@ Select your platform for a list supported products and 96Boards specific resourc
 
 ***
 
-## Forums
+## License
 
-- [HiKey forums](http://www.96boards.org/forums/forum/products/hikey/)
-- [DragonBoard™ 410c forums](http://www.96boards.org/forums/forum/products/dragonboard410c/)
-- [Bubblegum-96 forums](http://www.96boards.org/forums/forum/products/bubblegum96/)
+96Boards Documentation by Linaro is licensed under ...
