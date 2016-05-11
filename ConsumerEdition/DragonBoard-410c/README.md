@@ -1,6 +1,6 @@
-# DragonBoard™ 410c Documentation
+# Using the DragonBoard™ 410c
 
-Official documentation for [DragonBoard 410c](https://www.96boards.org/products/ce/dragonboard410c/) Consumer Edition development board. This documentation is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions.
+A comprehensive guide to using the [DragonBoard 410c](https://www.96boards.org/products/ce/dragonboard410c/) Consumer Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
 ## Contents
 
