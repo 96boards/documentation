@@ -13,7 +13,7 @@ A comprehensive guide to using the [DragonBoard 410c](https://www.96boards.org/p
 - [Functionality](Functionality/README.md)
    - Maximize your DragonBoard 410c experience by adding hardware and exploring pre-installed applications on your desktop
 - [Configuration](Configuration/README.md)
-   - Execute unique configuraions to customize your DragonBoard 410c experience
+   - Execute unique configurations to customize your DragonBoard 410c experience
 - [Remote Access](Remote-Access/README.md)
    - Learn how to remotely access your DragonBoard 410c using several different methods
 - [Hardware](Hardware/README.md)
