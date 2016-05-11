@@ -17,16 +17,6 @@ Select your platform for a list supported products and 96Boards specific resourc
    - Expand on all 96Boards with new interfaces for IoT, industrial control, and other embedded applications
    
 ***
-
-## Downloads
-
-Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
-
-- [HiKey](ConsumerEdition/HiKey/Downloads/README.md)
-- [DragonBoard™ 410c](ConsumerEdition/DragonBoard-410c/Downloads/README.md)
-- [Bubblegum-96](ConsumerEdition/Bubblegum-96/Downloads/README.md)
-
-***
 ## Read More
 
 - [Linux](Linux.md)
