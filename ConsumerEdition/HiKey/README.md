@@ -13,7 +13,7 @@ Official documentation for [HiKey](https://www.96boards.org/products/ce/hikey/) 
 - [Functionality](Functionality/README.md)
    - Maximize your HiKey experience by adding hardware and exploring pre-installed applications on your desktop
 - [Configuration](Configuration/README.md)
-   - Execute unique configuraions to customize your HiKey experience
+   - Execute unique configurations to customize your HiKey experience
 - [Remote Access](Remote-Access/README.md)
    - Learn how to remotely access your HiKey using several different methods
 - [Hardware](Hardware/README.md)
