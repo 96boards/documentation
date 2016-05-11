@@ -35,7 +35,7 @@ Already familiar with your 96Boards? Skip the board bring up sections and go str
    - Learn about Linaro
 - [Report a bug](Report_a_bug.md)
    - Instructions on how to report bugs for any of our 96Boards hardware and software
-- [Contribute](Contribute.md)
+- [Contribute](ContributionPolicy.md)
    - View our documentation "Contribution Policy" and learn how you can contribute
 
 ***
