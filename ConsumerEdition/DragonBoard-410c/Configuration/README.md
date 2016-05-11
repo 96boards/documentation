@@ -1,6 +1,6 @@
 ## Configuration
 
-Execute unique configuraions to customize your DragonBoard 410c experience
+Execute unique configurations to customize your DragonBoard 410c experience
 
 ## Helpful Configurations
 
