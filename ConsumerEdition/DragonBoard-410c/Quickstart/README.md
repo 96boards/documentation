@@ -25,8 +25,3 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
    - For connecting to a network without using WiFi
 
 ***
-
-## Out of the box tour
-
-From box to basics, this set of guides will walk you through the out of box experience with emphasis on board exploration and safe handling. [Start here](../../OOTB-CE/README.md)
-
