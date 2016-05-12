@@ -43,6 +43,6 @@ This method requires the following hardware:
 - USB Mouse and/or keyboard (not required to perform flash)
 - HDMI Monitor with full size HDMI cable (not required to perform flash)
 
-Go to the [Downloads page](../Downloads/README.md) to get your bootloader, boot image, and root file system (rootfs).
+Go to the [Downloads page](../Downloads/README.md) to get your bootloader, boot image, and root file system image (rootfs).
 
 ***
