@@ -1,34 +1,19 @@
-## Downloads 
+## Downloads
 
 ***
 
-- [Debian]()
-- [Android]()
-- [OpenEmbedded]()
+Linaro supported operating systems
+
+- [Debian](Debian.md)
+- [Android](Android.md)
+- [OpenEmbedded](OpenEmbedded.md)
 
 ***
 
 ### Third Party Operating Systems
 
-Other operating systems supported on DB410c offered by partners.
+Other operating systems supported on DragonBoard 410c, offered by partners.
 
-Links to third party images and installation instructions
-
-- [Windows IoT Core]()
-- [Ubuntu]()
-- [Ubuntu Snappy]()
-- [Brillo]()
+- [Windows IoT Core](http://ms-iot.github.io/content/en-US/Downloads.htm)
 
 ***
-
-
-### Reference Software Platform
- 
-Reference Platform builds are...
-
-- [Debian]()
-- [AOSP]()
-
-***
-
-
