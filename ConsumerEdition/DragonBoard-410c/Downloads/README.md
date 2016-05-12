@@ -2,10 +2,9 @@
 
 ***
 
-Officially supported operating systems by 96Boards.org
-
 - [Debian]()
 - [Android]()
+- [OpenEmbedded]()
 
 ***
 
