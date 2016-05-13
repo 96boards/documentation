@@ -10,8 +10,8 @@ This section show how to install an operating system to your DragonBoard™ 410c
 - [**Step 5**: Go to directory with _SD Card Install Image_ folder using Terminal](#step-5-go-to-directory-with-sd-card-install-image-folder-using-terminal)
 - [**Step 6**: Locate SD Card Install Image](#step-6-locate-sd-card-install-image)
 - [**Step 7**: Install Image onto SD Card](#step-7-install-image-onto-sd-card)
-- [**Step 8**: Prepare DragonBoard™ 410c with SD card](#step-8-prepare-dragonBoard™-410c-with-sd-card)
-- [**Step 9**: Install image onto DragonBoard™ 410c](#step-9-install image onto dragonboard™-410c)
+- [**Step 8**: Prepare DragonBoard™ 410c with SD card](#step-8-prepare-dragonBoard-410c-with-sd-card)
+- [**Step 9**: Install image onto DragonBoard™ 410c](#step-9-install image onto dragonboard-410c)
 
 ***
 
