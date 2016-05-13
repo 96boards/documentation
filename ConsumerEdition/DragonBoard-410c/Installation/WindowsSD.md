@@ -7,7 +7,7 @@ This section show how to install an operating system to your DragonBoard™ 410c
 - [**Step 2**: Recall Download Location](#step-2-recall-download-location)
 - [**Step 3**: Unzip _SD Card Install Image_](#step-3-unzip-sd-card-install-image)
 - [**Step 4**: Download the Win32DiskImager tool](#step-4-download-the-win32diskimager-tool)
-- [**Step 5**: Use Win32DiskImager tool to flash image onto SD Card](#step-5-use-win32diskimager-tool-to-flash-image-onto-sd)
+- [**Step 5**: Use Win32DiskImager tool to flash image onto SD Card Card](#step-5-use-win32diskimager-tool-to-flash-image-onto-sd-card)
 - [**Step 6**: Prepare DragonBoard 410c with SD card](#step-6-prepare-dragonboard-410c-with-sd-card)
 - [**Step 7**: Install image onto DragonBoard 410c](#step-7-install-image-onto-dragonboard-410c)
 
@@ -18,7 +18,7 @@ This section show how to install an operating system to your DragonBoard™ 410c
 - Ensure data from mircoSD card is backed up
 - Everything on microSD card will be lost by the end of this procedure.
 
-####**Step 3**: Recall Download Location
+####**Step 2**: Recall Download Location
 
 - Locate SD card install file from Downloads page.
 - This file will be needed for the next step.
