@@ -15,7 +15,7 @@
 
 ***
 
-## Fastboot files (Advanced users only)
+## Fastboot files (Advanced users)
 
 |   Bootloader    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_linux-*.zip)    |
 |:------------------|:-----------------------|
