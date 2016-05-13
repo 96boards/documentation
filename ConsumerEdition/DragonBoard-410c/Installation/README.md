@@ -1,6 +1,11 @@
 # Installation
 
-Choose and install an operating system on your DragonBoard 410c. 
+Choose and install an operating system on your DragonBoard 410c. To appropriately follow this installation guide you will need to:
+
+- Choose an installation method
+- Download necessary files
+- Choose host machine
+- Follow flashing instructions
 
 ***
 
@@ -29,6 +34,12 @@ This method requires the following hardware:
 
 Go to the [Downloads page](../Downloads/README.md) to get your SD card image.
 
+Choose host machine
+
+- [Linux](LinuxSD.md)
+- [Mac](MacSD.md)
+- [Windows](WindowsSD.md)
+
 ***
 
 ### Fastboot Method
@@ -45,4 +56,9 @@ This method requires the following hardware:
 
 Go to the [Downloads page](../Downloads/README.md) to get your bootloader, boot image, and root file system image (rootfs).
 
+Choose host machine
+
+- [Linux](LinuxFastboot.md)
+
 ***
+
