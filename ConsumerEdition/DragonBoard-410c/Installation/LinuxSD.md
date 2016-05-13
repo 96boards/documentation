@@ -3,15 +3,15 @@
 This section show how to install an operating system to your DragonBoard™ 410c using the SD Card method on a Linux host computer.
 ***
 
-- [**Step 1**: Prepare MicroSD card](#step-1-prepare-microsd-card)
-- [**Step 2**: Find SD Card Device name](#step-2-find-sd-card-device-name)
-- [**Step 3**: Recall Download Location](#step-3-recall-download-location)
-- [**Step 4**: Unzip _SD Card Install Image_](#step-4-unzip-sd-card-install-image_)
-- [**Step 5**: Go to directory with _SD Card Install Image_ folder using Terminal](#step-5-go-to-directory-with-sd-card-install-image-folder-using-terminal)
-- [**Step 6**: Locate SD Card Install Image](#step-6-locate-sd-card-install-image)
-- [**Step 7**: Install Image onto SD Card](#step-7-install-image-onto-sd-card)
-- [**Step 8**: Prepare DragonBoard 410c with SD card](#step-8-prepare-dragonboard-410c-with-sd-card)
-- [**Step 9**: Install image onto DragonBoard 410c](#step-9-install-image-onto-dragonboard-410c)
+- **Step 1**: Prepare MicroSD card
+- **Step 2**: Find SD Card Device name
+- **Step 3**: Recall Download Location
+- **Step 4**: Unzip _SD Card Install Image_
+- **Step 5**: Go to directory with _SD Card Install Image_ folder using Terminal
+- **Step 6**: Locate SD Card Install Image
+- **Step 7**: Install Image onto SD Card
+- **Step 8**: Prepare DragonBoard 410c with SD card
+- **Step 9**: Install image onto DragonBoard 410c
 
 ***
 
