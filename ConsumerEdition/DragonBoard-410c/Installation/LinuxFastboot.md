@@ -8,14 +8,14 @@ This section show how to install a new operating system to your DragonBoard™ 4
 - **Step 2**: Connect host computer to DragonBoard™ 410c
 - **Step 3**: Boot DragonBoard 410c into fastboot mode
 - **Step 4**: Flash Bootloader
-- **Step 5**: Recall location of `boot` and `rootfs` download from the downloads page
-- **Step 6**: Unzip both 'boot' and 'rootfs' files
-- **Step 7**: Flash `boot` image and `rootfs` to the DragonBoard™ 410c
+- **Step 5**: Recall location of all downloaded files
+- **Step 6**: Unzip all files
+- **Step 7**: Flash all files to the DragonBoard™ 410c
 - **Step 8**: Reboot DragonBoard 410c
 
 ***
 
-**Step 1**: Make sure fastboot is set up on host computer. 
+#### **Step 1**: Make sure fastboot is set up on host computer. 
 
 - Android SDK “Tools only” for Linux can be downloaded <a href="http://developer.android.com/sdk" target="_blank">here</a>
 - The Linux “Tools Only” SDK download does not come with fastboot, you will need to use the Android SDK Manager to install platform-tools.
@@ -23,14 +23,14 @@ This section show how to install a new operating system to your DragonBoard™ 4
 
 If you are still having trouble setting up fastboot, <a href="https://youtu.be/W_zlydVBftA" target="_blank">click here</a> for a short tutorial video
 
-**Step 2**: Connect host computer to DragonBoard 410c
+#### **Step 2**: Connect host computer to DragonBoard 410c
 
 - DragonBoard™ 410c must be powered off (unplugged from power)
 - Make sure microSD card slot on DragonBoard™ 410c is empty
 - S6 switch on DragonBoard™ 410c must be set to ‘0-0-0-0’. All switches should be in “off” position
 - Connect USB to microUSB cable from host computer to DragonBoard™ 410c
 
-**Step 3**: Boot DragonBoard™ 410c into fastboot mode
+#### **Step 3**: Boot DragonBoard™ 410c into fastboot mode
 
 **Please read all bullet points before attempting**
 
@@ -87,7 +87,9 @@ $ ./flashall
 
 Now that the bootloader is setup, we will flash all remaining parts of the operating system. In order to do this we will be using the fastboot commands that are now readily available to us in our Terminal command line.
 
-#### **Step 5**: Recall location of all downloaded files from the downloads page, files will be different for Android and Linaro/Debian:
+#### **Step 5**: Recall location of all downloaded files
+
+Recall location of all downloaded files from the downloads page, files will be different for Android and Linaro/Debian:
 
 ###### **Linaro/Debian**: Recall location of `boot` and `rootfs` downloaded from the downloads page
 - You should have downloaded the `boot` file
