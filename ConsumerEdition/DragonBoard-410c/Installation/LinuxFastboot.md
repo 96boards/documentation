@@ -48,7 +48,7 @@ From the connected host machine terminal window, run the following commands:
 $ fastboot devices
 ```
 
-Typically it will show as bellow
+Typically it will show as below
 ```shell
 de82318	fastboot
 ```
