@@ -26,9 +26,3 @@ Learn about your HiKey board as well as how to prepare and set up for basic use
 - [USB to ethernet adapter and ethernet cable](USBEthernet.md)
    - For connecting to a network without using WiFi
 
-***
-
-## Out of the box tour
-
-From box to basics, this set of guides will walk you through the out of box experience with emphasis on board exploration and safe handling. [Start here](../../OOTB-CE/README.md)
-
