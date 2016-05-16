@@ -19,8 +19,6 @@ Select your platform for a list supported products and 96Boards specific resourc
 ***
 ## Read More
 
-- [Linux](Linux.md)
-   - A beginners approach to Linux
 - [Linaro](http://www.linaro.org/about/)
    - Learn about Linaro
 - [Report a bug](Report_a_bug.md)
