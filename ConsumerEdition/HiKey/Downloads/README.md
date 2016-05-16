@@ -1,23 +1,21 @@
-## Downloads 
+## Downloads
 
-###Official Linaro operating systems
+The HiKey comes pre-installed with Debian Linux. If you would like to switch the Operating System to AOSP or go back to Debian Linux after using Android, update the existing software images on your board, or unbrick your board, this page provides links to the latest software downloads.
 
-Linaro operating systems are...
+***
 
-- [Debian]()
-- [AOSP]()
+Linaro supported operating systems
 
-### Reference Software Platform
- 
-There builds are...
+- [Debian](Debian.md)
+- [Android](Android.md)
+- [OpenEmbedded](OpenEmbedded.md)
 
-- [Debian]()
-- [AOSP]()
+***
 
 ### Third Party Operating Systems
 
-Link to third party images and installation instructions
+Other operating systems supported on HiKey, offered by partners.
 
-- [Windows IoT Core]()
-- [Ubuntu Snappy]()
-- [Brillo]()
+Coming soon...
+
+***
