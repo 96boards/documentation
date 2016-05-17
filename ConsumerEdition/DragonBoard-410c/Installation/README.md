@@ -1,6 +1,6 @@
 # Installation
 
-This guide will help you choose and install an operating system on your DragonBoard 410c. Please keep in mind not all DragonBoard 410c are shipped with the same stock operating system. **The standard operating system for this board is Android**, though the availability of DragonBoard 410c kits will allow boards to ship with the an operating system to best complement the kit.
+This guide will help you choose and install an operating system on your DragonBoard 410c. Please keep in mind, not all DragonBoard 410c are shipped with the same stock operating system. **The standard operating system for this board is Android**, though the availability of DragonBoard 410c kits will allow boards to ship with the an operating system to best complement the kit.
 
 To appropriately follow this installation guide you will need to:
 
