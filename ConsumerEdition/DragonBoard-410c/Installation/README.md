@@ -32,7 +32,7 @@ This method requires the following hardware:
 - USB Mouse and/or keyboard
 - HDMI Monitor with full size HDMI cable
 
-Go to the <a href="../Downloads/README.md" target="_blank">Downloads page</a> to get your SD card image.
+Go to the [Downloads page](../Downloads/README.md) to get your SD card image.
 
 Choose host machine
 
