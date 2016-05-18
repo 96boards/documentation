@@ -2,7 +2,7 @@
 
 Please take advantage of the many HiKey resources available to you through 96Boards, SeeedStudio, and Coursera
 
-- [HiKey Forum](http://www.96boards.org/forums/forum/products/dragonboard410c/)
+- [HiKey Forum](http://www.96boards.org/forums/forum/products/hikey/)
    - The DragonBoard has its very own 96Boards forum. If you can't find a pre-existing thread that addresses your issue, start your own and let the community help out!
 - [SeeedStudio](http://www.seeedstudio.com/)
    - Buy the HiKey here! 
