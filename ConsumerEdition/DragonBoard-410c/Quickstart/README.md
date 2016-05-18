@@ -18,7 +18,7 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
 
 **Optional**
 - [Serial Console mezzanine](SerialConsole.md)
-   - This mezzanine add-on will allow you to access the DragonBoard™ 410cs console from a host computer
+   - This mezzanine add-on will allow you to access the DragonBoard™ 410c console from a host computer
 - [USB to MicroUSB cable](MicroUSBCable.md)
    - This is needed for serial console interface and fastboot/adb commands
 - [USB to ethernet adapter and ethernet cable](USBEthernet.md)
