@@ -7,8 +7,8 @@ The HiKey comes pre-installed with Debian Linux. If you would like to switch the
 Linaro supported operating systems
 
 - [Debian](Debian.md)
-- [Android](AOSP.md)
-- [OpenEmbedded](OpenEmbedded.md)
+- [Android](AOSP.md) - Coming soon...
+- [OpenEmbedded](OpenEmbedded.md) - Coming soon...
 
 ***
 
