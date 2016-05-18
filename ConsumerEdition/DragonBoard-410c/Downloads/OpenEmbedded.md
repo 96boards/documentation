@@ -1,5 +1,7 @@
 # OpenEmbedded
 
+Note: This is the preliminary engineering build. 
+
 ## SD card image
 
 Not Available.
