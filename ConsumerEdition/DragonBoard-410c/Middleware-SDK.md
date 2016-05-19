@@ -5,7 +5,7 @@
    and data visualization for network supported industrial Internet of Things (IOT) products and services. You can find instructions
    from Arrow Electronics for getting started with AT&T M2X on GitHub, and to inspire you check out what the grand prize winners of the
    2016 AT&T Hackathon created.
-- **AWS Internet of Things **
+- **AWS Internet of Things**
    - Arrow Electronics is now offering the DragonBoard 410c IoT Starter Kit powered by Amazon Web Services (AWS).
    This kits helps kick start development with AWS IoT, a managed cloud platform that lets connected devices easily and
    securely interact with cloud apps and other devices. The SDK in the kit includes sample apps that use AWS services, such
