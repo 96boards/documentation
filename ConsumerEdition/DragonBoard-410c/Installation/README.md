@@ -34,6 +34,13 @@ This method requires the following hardware:
 - USB Mouse and/or keyboard
 - HDMI Monitor with full size HDMI cable
 
+
+relative link
+<a href="../Downloads/README.md/" target="_blank">Downloads page</a>
+
+URL
+<a href="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Downloads/README.md" target="_blank">Downloads page</a>
+
 Go to the [Downloads page](../Downloads/README.md) to get your SD card image.
 
 Choose host machine
