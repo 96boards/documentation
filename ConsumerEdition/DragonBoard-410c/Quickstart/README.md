@@ -17,11 +17,11 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
    - HDMI capable monitor is recommended
 
 **Optional**
-- [Mezzanine Products](../../../MezzanineProducts)
+- [Mezzanine Products](../../../MezzanineProducts/README.md)
    - These mezzanine add-ons will allow you to access a variety of peripherals on the DragonBoard™ 410c
-- [USB to MicroUSB cable](MicroUSBCable.md)
+- USB to MicroUSB cable
    - This is needed for serial console interface and fastboot/adb commands
-- [USB to ethernet adapter and ethernet cable](USBEthernet.md)
+- USB to ethernet adapter and ethernet cable
    - For connecting to a network without using WiFi
 
 ***
