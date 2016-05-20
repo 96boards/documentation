@@ -1,6 +1,7 @@
 # Android
 
-**Android** is...
+**Android** is a tablet/mobile platform environment. This environment is primarily used to test applications/software developed remotely on a host computer using an assortment of IDE’s(integrated development environments) and SDK’s(software development kits). 
+Later issues in this series  will touch on the use of IDE’s and SDK’s for development
 
 ***
 
