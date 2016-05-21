@@ -9,7 +9,7 @@
 |   SD Card Image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/latest/dragonboard410c_sdcard_install_android-*.zip)    |
 |:------------------|:-----------------------|
 |Version:           |5.1.1                   |
-|Release Date:      |Android Lollipop        | 
+|Release:           |Android Lollipop        | 
 |Kernel Version:    |3.10                    |
 |Release Notes:     |[Link](http://linaro.co/1M1coav)       |
 
