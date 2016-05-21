@@ -30,6 +30,6 @@
 |recovery.img.tar.xz      |[Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/latest/recovery.img.tar.xz)            |
 |persist.img.tar.xz       |[Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/latest/persist.img.tar.xz)            |
 |cache.img.tar.xz         |[Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/latest/cache.img.tar.xz)            |
-|Release Notes:     |[Link](http://linaro.co/1M1coav)       |
+|Release Notes:     |[Link](https://developer.qualcomm.com/download/db410c/android-release-notes.pdf)       |
 
 
