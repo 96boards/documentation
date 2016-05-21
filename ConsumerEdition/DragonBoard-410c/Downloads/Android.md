@@ -8,9 +8,9 @@
 
 |   SD Card Image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/latest/dragonboard410c_sdcard_install_android-*.zip)    |
 |:------------------|:-----------------------|
-|Version:           |February 2016           |
-|Release Date:      |2016.02.28              | 
-|Kernel Version:    |4.4.0                   |
+|Version:           |5.1.1                   |
+|Release Date:      |Android Lollipop        | 
+|Kernel Version:    |3.10                    |
 |Release Notes:     |[Link](http://linaro.co/1M1coav)       |
 
 ***
@@ -24,8 +24,6 @@
 
 |   Latest build files    |    [Build Folder](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/latest/) |
 |:------------------------|:-----------------------|
-|Version:                 |March 2016           |
-|Release Date:            |2016.03.29              | 
 |boot.img.tar.xz          |[Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/latest/boot.img.tar.xz)            |
 |system.img.tar.xz        |[Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/latest/system.img.tar.xz)            |
 |userdata.img.tar.xz      |[Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/latest/userdata.img.tar.xz)            |
