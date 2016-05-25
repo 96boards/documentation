@@ -1,6 +1,8 @@
 # Installation
 
-Choose and install an operating system on your DragonBoard 410c. To appropriately follow this installation guide you will need to:
+This guide will help you choose and install an operating system on your Bubblegum-96.
+
+To appropriately follow this installation guide you will need to:
 
 - Choose an installation method
 - Download necessary files
@@ -20,11 +22,11 @@ Each method has it's own benifits, and requires different levels of experience
 
 ### SD Card Method
 
-The SD card method allows you to place a microSD card into a DragonBoard™ 410c to automatically boot and install an operating system onto the eMMC of your board. This method is generally simpler than other methods and should be used by beginners.
+The SD card method allows you to place a microSD card into a Bubblegum-96 to automatically boot and install an operating system onto the eMMC of your board. This method is generally simpler than other methods and should be used by beginners.
 
 This method requires the following hardware:
 
-- DragonBoard 410c with power supply
+- Bubblegum-96 with power supply
 - Host machine (Linux, Mac OS X, or Windows)
 - MicroSD card with 4GB or more of storage
 - USB Mouse and/or keyboard
@@ -34,9 +36,9 @@ Go to the [Downloads page](../Downloads/README.md) to get your SD card image.
 
 Choose host machine
 
-- Linux
-- Mac
-- Windows
+- [Linux](LinuxSD.md)
+- [Mac](MacSD.md)
+- [Windows](WindowsSD.md)
 
 ***
 
@@ -46,9 +48,12 @@ Fastboot is supported by the board and can be used for installs. This is for adv
 
 This method requires the following hardware:
 
-- DragonBoard 410c with power supply
-- Host machine (Linux, Mac OS X, or Windows)
+- Bubblegum-96 with power supply
+- Host machine (Ubuntu/Debian system  with kernel version > 3.16.0)
+- USB cable Type-A to Type-A
 - USB to microUSB cable
+- Serial console with converter board (Recommended to use [Serial Console Mezzanine](../../../MezzanineProducts/96Boards%20UART%20Serial%20Adapter/README.md))
+- USB Thumb drive
 - USB Mouse and/or keyboard (not required to perform flash)
 - HDMI Monitor with full size HDMI cable (not required to perform flash)
 
@@ -56,8 +61,6 @@ Go to the [Downloads page](../Downloads/README.md) to get your bootloader, boot 
 
 Choose host machine
 
-- Linux
+- [Linux](LinuxFastboot.md)
 
 ***
-
-
