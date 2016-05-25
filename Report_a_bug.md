@@ -14,7 +14,7 @@ the Reference Software Platform. Please read through the following sections for 
 
 ## Is this bug Consumer Edition or Enterprise Edition?
 
-**Consumer Edition bugs:**
+**Consumer Edition bugs FOOBAR:**
 
 - Consumer Edition Boards
    - HiKey
