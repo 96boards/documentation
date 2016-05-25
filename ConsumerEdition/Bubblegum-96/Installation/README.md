@@ -32,13 +32,7 @@ This method requires the following hardware:
 - USB Mouse and/or keyboard
 - HDMI Monitor with full size HDMI cable
 
-Go to the [Downloads page](../Downloads/README.md) to get your SD card image.
-
-Choose host machine
-
-- [Linux](LinuxSD.md)
-- [Mac](MacSD.md)
-- [Windows](WindowsSD.md)
+###### This Method is currently not available for this 96Boards.
 
 ***
 
