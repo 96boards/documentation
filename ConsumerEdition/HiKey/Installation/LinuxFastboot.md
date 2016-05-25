@@ -47,11 +47,24 @@ $ sudo fastboot devices
 
 >**NOTE:** the ptable must be flashed first. Wait for a few seconds after the reboot command to allow the bootloader to restart using the new partition table.
 
+###### Debian Linux
+
 ```shell
 $ sudo fastboot flash ptable <ptable_FILE_NAME>.img
 $ sudo fastboot reboot
 $ sudo fastboot flash boot <boot_FILE_NAME>.uefi.img
 $ sudo fastboot flash system hikey-jessie_alip_2015MMDD-nnn-Xg.emmc.img
+```
+
+###### AOSP
+
+```shell
+$ sudo fastboot flash ptable ptable-aosp-8g.img
+$ sudo fastboot reboot
+$ sudo fastboot flash boot boot_fat.uefi.img
+$ sudo fastboot flash cache cache.img
+$ sudo fastboot flash system system.img
+$ sudo fastboot flash userdata userdata-8gb.img
 ```
 
 **Step 4**: Reboot HiKey into new OS
