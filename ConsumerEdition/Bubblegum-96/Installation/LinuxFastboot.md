@@ -1,6 +1,6 @@
 ##Linux Host
 
-This section show how to install a new operating system to your DragonBoard™ 410c using the fastboot method on a Linux host computer.
+This section show how to install a new operating system to your Bubblegum-96 using the fastboot method on a Linux host computer.
 
 ***
 
