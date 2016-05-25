@@ -15,8 +15,6 @@ Select your Consumer Edition 96Boards device to access all product related resou
 
 ## 96Boards CE Extras
 
-- [Out of the box tour](OOTB-CE/README.md)
-   - From box to basics, these guides will get you started with your 96Boards
 - [Compare 96Boards](Compare96BoardsCE.md)
    - Quickly compare CPU, GPU, and Memory for all available 96Boards
 - [General Purpose Input/Output](GPIO/README.md)
