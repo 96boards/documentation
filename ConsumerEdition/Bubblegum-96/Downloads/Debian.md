@@ -12,15 +12,6 @@
 
 ## Fastboot files (Advanced users)
 
-**Linaro-adfu-tool**
-
-```shell
-$ git clone https://github.com/96boards-bubblegum/linaro-adfu-tool.git
-$ cmake .
-$ make
-```
-
-
 |   Bootloader    |    [Download](http://builds.96boards.org/snapshots/bubblegum/linaro/u-boot/latest/u-boot-dtb.img)    |
 |:------------------|:-----------------------|
 |Version:           |March 2016           |
