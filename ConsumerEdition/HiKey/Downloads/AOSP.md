@@ -20,7 +20,7 @@ Not Available...
 | ptable-aosp.img  | [4GB](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/ptable-aosp-4g.img) / [8GB](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/ptable-aosp-8g.img)      | 
 | hisi-idt.py       | [Download](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/hisi-idt.py)           | 
 
-|   Latest build files    |    [Build Folder]() |
+|   Latest build files    |    [Build Folder](http://builds.96boards.org/releases/hikey/linaro/aosp/latest/) |
 |:------------------------|:-----------------------|
 |boot_fat.uefi.img.tar.xz |[Download](http://builds.96boards.org/releases/hikey/linaro/aosp/latest/boot_fat.uefi.img.tar.xz)     |
 |system.img.tar.xz        |[Download](http://builds.96boards.org/releases/hikey/linaro/aosp/latest/system.img.tar.xz)            |
