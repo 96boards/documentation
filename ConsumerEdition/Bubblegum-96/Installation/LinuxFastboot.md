@@ -82,7 +82,8 @@ Once you have downloaded the appropriate files, continue to **Step 5**
 
 ### **Step 6:** Access 96board U-boot shell
 
-_**[Host PC]**_7
+_**[Host PC]**_
+
 While Bubblegum96 board is in ADFU mode, execute the following commands in /linaro-adfu-tool/ to access 96board u-boot shell.
 
 `$ sudo linaro-adfu-tool-bg96 u-boot-dtb.img`
