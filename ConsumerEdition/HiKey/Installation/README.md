@@ -1,6 +1,6 @@
 # Installation
 
-Choose and install an operating system on your DragonBoard 410c. To appropriately follow this installation guide you will need to:
+Choose and install an operating system on your HiKey. To appropriately follow this installation guide you will need to:
 
 - Choose an installation method
 - Download necessary files
@@ -20,11 +20,11 @@ Each method has it's own benifits, and requires different levels of experience
 
 ### SD Card Method
 
-The SD card method allows you to place a microSD card into a DragonBoard™ 410c to automatically boot and install an operating system onto the eMMC of your board. This method is generally simpler than other methods and should be used by beginners.
+The SD card method allows you to place a microSD card into a HiKey to automatically boot and install an operating system onto the eMMC of your board. This method is generally simpler than other methods and should be used by beginners.
 
 This method requires the following hardware:
 
-- DragonBoard 410c with power supply
+- HiKey with power supply
 - Host machine (Linux, Mac OS X, or Windows)
 - MicroSD card with 4GB or more of storage
 - USB Mouse and/or keyboard
@@ -46,7 +46,7 @@ Fastboot is supported by the board and can be used for installs. This is for adv
 
 This method requires the following hardware:
 
-- DragonBoard 410c with power supply
+- HiKey with power supply
 - Host machine (Linux, Mac OS X, or Windows)
 - USB to microUSB cable
 - USB Mouse and/or keyboard (not required to perform flash)
