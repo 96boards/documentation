@@ -50,11 +50,13 @@ $ sudo apt-get install libsoc-dev
 **MRAA**:
 
 ```shell
-$ sudo apt-get install mraa
+$ sudo apt-get install libmraa0
+$ sudo apt-get install libmraa-dev
 ```
 
 **UPM**:
 
 ```shell
-$ sudo apt-get install upm
+$ sudo apt-get install libupm0
+$ sudo apt-get install libupm-dev
 ```
