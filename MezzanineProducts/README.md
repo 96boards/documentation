@@ -4,7 +4,7 @@
 
 ***
 
-- [STM32 Sensor mezzanine board](96Boards%20UART%20Serial%20Adapter/README.md)
+- [STM32 Sensor mezzanine board](STM32%20Sensor%20mezzanine%20board/README.md)
    - The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU
 - [Linker mezzanine card starter kit](Linker%20mezzanine%20card%20starter%20kit/README.md)
    - 96Boards starter kit with Linker mezzanine card and loft modules
