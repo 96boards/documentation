@@ -1,4 +1,4 @@
-## Quickstart
+# Quickstart
 
 Learn about your DragonBoard™ 410c board as well as how to prepare and set up for basic use
 
