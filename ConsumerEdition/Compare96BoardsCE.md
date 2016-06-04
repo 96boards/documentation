@@ -68,6 +68,14 @@
 
 ***
 
+## HiKey
+
+The HiKey board was the first board to be certified 96Boards Consumer Edition compatible. Two versions of this board are available: the original from CircuitCo and a new version in 1GB and 2GB variants from LeMaker. The board is based around the HiSilicon Kirin 620 eight-core ARM® Cortex-A53 64-bit SoC running at 1.2GHz and delivering over 10,000 Dhrystone VAX MIPS total performance. The SoC also delivers high performance 3D graphics support with its ARM Mali 450-MP4 GPU.
+
+800MHz LPDDR3 DRAM (1GB in the CircuitCo version and a choice of 1GB or 2GB from LeMaker), 8GB eMMC Flash Storage and the standard 96Boards microSD v3.0 socket provide high performance. Flexible storage options and connectivity are available through 802.11b/g/n WiFi, Bluetooth® 4.0 LE, three high speed USB 2.0 ports (1 OTG), an HDMI 1.3 1080p video output with audio, and Maker, DSI display and CSI camera interfaces. The board is the standard 96Boards credit-card form factor powered by an 8-18V DC 2A power supply.
+
+***
+
 ## DragonBoard™ 410c
 
 The DragonBoard™ 410c by Arrow Electronics is the first development board based on a mid-tier Qualcomm® Snapdragon™ 400 series processor. The board is designed to build a software ecosystem around the Snapdragon™ 410 processor, as well as offering uses in education, prototyping, and commercial embedded computing products. Featuring the 64-bit capable Snapdragon 410 quad-core ARM® Cortex® A53 processor, the DragonBoard™ 410c supports Android 5.1, Linux based on Debian and Windows 10. It offers advanced processing power, integrated WiFi, Bluetooth®, and GPS, all packed into a board the size of a credit card. The board supports feature-rich functionality, including multimedia, with the Adreno™ 306 GPU for PC-class graphics, integrated ISP with up to 13 MP camera support, and 1080p HD video playback and capture with H.264 (AVC).
