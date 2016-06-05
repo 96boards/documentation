@@ -27,8 +27,9 @@ For Chinese Users:
 - Pad Product tool: [http://pan.baidu.com/s/1c2Fh81E][2]
 
 For Global Users:
-- Phoenix OS: [https://mega.nz/#!8lRl1BYR!ixCnKG6PDGLnIuGtRue3pyATnpb8VlR0cavecTpICwk][3]
+- Phoenix OS: [https://mega.nz/#!t9xSVBoD!ixCnKG6PDGLnIuGtRue3pyATnpb8VlR0cavecTpICwk][3]
 - Pad Product tool: [https://mega.nz/#!FoJX1ZJS!ZI4AynHpBHizb0Z0AzK2aM9xH-vPRr3vnFugxUj2oyc][4]
+- Remix OS: [https://mega.nz/#!E4BBiLJT!GWD9Mj8Vzg_oh_m-A16IFHJIG3N5W7aizcsPpeZwEQg][6]
 
 
 ### **Step2:** Prepare your hardware
@@ -47,9 +48,9 @@ For Global Users:
 ###**Step4:** Double check
 1. Connect the board with the display.
 2. Power on
-3. When the words ‘initial the Phoenix OS’ on the screen, it means you have flashed the board successfully.
+3. When the words ‘initial the Phoenix OS’(or Remix logo) on the screen, it means you have flashed the board successfully.
 
-For now, Phoenix OS is on your board. What you need to do is having fun with that. Cheers! 
+For now, Phoenix OS/Remix OS is on your board. What you need to do is having fun with that. Cheers! 
 Need more help? You can easily submit your questions on Bubblegum Support Forum@[http://www.96boards.org/forums/forum/products/bubblegum96/][5]
 
 
@@ -63,3 +64,4 @@ Need more help? You can easily submit your questions on Bubblegum Support Forum@
   [3]: https://mega.nz/#!8lRl1BYR!ixCnKG6PDGLnIuGtRue3pyATnpb8VlR0cavecTpICwk
   [4]: https://mega.nz/#!FoJX1ZJS!ZI4AynHpBHizb0Z0AzK2aM9xH-vPRr3vnFugxUj2oyc
   [5]: http://www.96boards.org/forums/forum/products/bubblegum96/
+  [6]: https://mega.nz/#!E4BBiLJT!GWD9Mj8Vzg_oh_m-A16IFHJIG3N5W7aizcsPpeZwEQg
