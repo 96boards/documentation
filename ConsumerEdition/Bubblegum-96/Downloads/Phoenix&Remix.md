@@ -4,14 +4,14 @@ This section will show you how to flash the Bubblegum-96 Boards with the Phoenix
 
 ***
 
-- **Step 1**: Prepare the Software
-- **Step 2**: Prepare the hardware
-- **Step 3**: Burn the image into the Bubblegum
+- **Step 1**: Prepare Software
+- **Step 2**: Prepare Hardware
+- **Step 3**: Burn the image onto the Bubblegum-96
 - **Step 4**: Double Check
 
 ***
 
-Before flash the board you nedd to prepare the following stuffs.
+Before flashing the board you need to prepare the following items.
 
 - Bubblegum-96 board
 - USB cable Type-A to Type-A
@@ -33,12 +33,12 @@ For Global Users:
 
 
 ### **Step2:** Prepare your hardware
-- Use the USB cable to connect your Bubblegum-96 board with the Windows computer but DO NOT POWER ON.
-- Turn the board into ADFU mode.
- - Connect the host PC (Windows) with Bubblegum-96 **USB3.0** port(blue one) via USB type A-A cable. In host PC side, that doesn’t matter if you connect USB2.0 or USB3.0. 
- - Press ADFU key and then plug in power. Hold the ADFU key for 3-5sec until the program recognizes the board. When there’s a signal of new hardware on the screen. Now you are in ADFU mode
+- Use the USB cable to connect your Bubblegum-96 board with a Windows computer, DO NOT POWER ON.
+- Boot board into ADFU mode.
+ - Connect host PC (Windows) to Bubblegum-96 via **USB3.0** port (blue one) via USB type A-A cable. Host PC CAN be USB2.0 or USB3.0. 
+ - Press ADFU key and then plug in power. Hold the ADFU key for 3-5 seconds, or until the program recognizes the board. There will be a signal for new hardware on the screen, you should now be in ADFU mode.
 
-### **Step3:** Burn the image into the Bubblegum-96 board
+### **Step3:** Burn the image onto the Bubblegum-96 board
 1. Open the Active Flash Tool you just download and installed.
 2. Select the image file from the location you saved.
 3. Click the ‘Download’ button.
@@ -46,12 +46,13 @@ For Global Users:
 5. The process bar will show you the ‘Successful’ when the board is flashed successfully.
 
 ###**Step4:** Double check
-1. Connect the board with the display.
+1. Connect the board with a display.
 2. Power on
 3. When the words ‘initial the Phoenix OS’(or Remix logo) on the screen, it means you have flashed the board successfully.
 
-For now, Phoenix OS/Remix OS is on your board. What you need to do is having fun with that. Cheers! 
-Need more help? You can easily submit your questions on Bubblegum Support Forum@[http://www.96boards.org/forums/forum/products/bubblegum96/][5]
+Phoenix OS/Remix OS is on your board, time to have some fun. Cheers! 
+
+Need more help? Visit the [Troubleshooting](../Troubleshoot/README.md) page or you can easily submit your questions on Bubblegum Support Forum @ [http://www.96boards.org/forums/forum/products/bubblegum96/][5]
 
 
 
