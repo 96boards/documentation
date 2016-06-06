@@ -14,6 +14,7 @@ Linaro supported operating systems
 
 Other operating systems supported on Bubblegum-96, offered by partners.
 
-- Phoenix OS: Coming soon...
+- [Phoenix OS](Phoenix&Remix.md)
+- [Remix OS](Phoenix&Remix.md)
 
 ***

@@ -13,7 +13,7 @@ To appropriately follow this installation guide you will need to:
 
 ## Methods of Installation
 
-In most cases, you will be presented with two options when installing your new operating system onto your DragonBoard 410c:
+In most cases, you will be presented with two options when installing your new operating system onto your Bubblegum-96:
 
 - SD Card Method
 - Fastboot Method
