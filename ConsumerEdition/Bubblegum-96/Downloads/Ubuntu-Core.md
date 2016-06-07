@@ -9,12 +9,12 @@
 The section here will show you how to flash Bubblegum-96 Board with Ubuntu Core on a micro SD card.
 
 There will be six steps:
-**Step1:** prepare your hardware
-**Step2:** Update your host pc(Ubuntu System)
-**Step3:** Prepare the software
-**Step4:** Flash the image into the MicroSD card
-**Step5:** Clean the emmc
-**Step6:** Reboot the Bubblegum-96
+**Step1:** prepare your hardware.
+**Step2:** Update your host pc(Ubuntu System).
+**Step3:** Prepare the software.
+**Step4:** Flash the image into the MicroSD card.
+**Step5:** Clean the emmc.
+**Step6:** Reboot the Bubblegum-96.
 
 
 ----------
