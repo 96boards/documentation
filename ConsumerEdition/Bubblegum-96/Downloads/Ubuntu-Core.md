@@ -89,7 +89,7 @@ Connect the host PC with Bubblegum-96 USB3.0 port via type USB A-A cable.
         - You will find a device ID 10d6:10d6 if Bubblegum96  board has entered adfu-mode
         - If Bubblegum96 board has not entered ADFU mode,  retry step a-f.
 
-        Note: About the serial console.Before doing anythingeverything, please make sure you have already install the serial console. If not, please install that use the following command.
+ *Note: About the serial console.Before doing anythingeverything, please make sure you have already install the serial console. If not, please install that use the following command.*
         
 ```shell
 $sudo apt-get install minicom
