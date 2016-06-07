@@ -51,7 +51,8 @@ ubuntu-core_bubblegum_2016****.img
 
 For all users: [https://mega.nz/#!dsplDRbB!X_su5fKFOWeGJ6Yurf7X6wKqnnOPnno-Fw-2smiWrGE][1]
 
-U-boot-dtb.img [http://builds.96boards.org/snapshots/bubblegum/linaro/u-boot/latest/u-boot-dtb.img][2]
+U-boot-dtb.img: [http://builds.96boards.org/snapshots/bubblegum/linaro/u-boot/latest/u-boot-dtb.img][2]
+
 And create the linaro-adfu-tool with the following command:
 ```shell
 $ git clone https://github.com/96boards-bubblegum/linaro-adfu-tool.git
