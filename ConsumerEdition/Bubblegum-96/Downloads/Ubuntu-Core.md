@@ -109,7 +109,7 @@ Hardware control flow: No*
 While in the ADFU mode, Bubblegum96 board can be confirmed to be in “receiving mode” to accept commands from the Host-PC…  
 Please press Enter when system bootup, and it will show “owl>” prompt on serial console.
 
-2. Run the following command.
+2.Run the following command.
 ```shell
 $sudo ./src/linaro-adfu-tool-bg96 u-boot-dtb.img
 ```
