@@ -10,10 +10,15 @@ The section here will show you how to flash Bubblegum-96 Board with Ubuntu Core 
 
 There will be six steps:
 **Step1:** prepare your hardware.
+
 **Step2:** Update your host pc(Ubuntu System).
+
 **Step3:** Prepare the software.
+
 **Step4:** Flash the image into the MicroSD card.
+
 **Step5:** Clean the emmc.
+
 **Step6:** Reboot the Bubblegum-96.
 
 
@@ -42,6 +47,7 @@ And then, upgrade your system.
 When flashing the Ubuntu Core, you need to download:
 ubuntu-core_bubblegum_2016****.img 
 (**Please check the md5: d2a047e9f3cfbbd7739c4541c7d11176  ubuntu-core_bubblegum_20160607.img**)
+
 For all users: [https://mega.nz/#!dsplDRbB!X_su5fKFOWeGJ6Yurf7X6wKqnnOPnno-Fw-2smiWrGE][1]
 
 U-boot-dtb.img [http://builds.96boards.org/snapshots/bubblegum/linaro/u-boot/latest/u-boot-dtb.img][2]
