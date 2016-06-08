@@ -78,19 +78,22 @@ This step will take a few minutes.
 This step is quite important, because it will boot into the OS which is on the board before. But before you clean the emmc, you need to turn the board into ADFU mode first.
 
  1. Turn the board into ADFU mode.
-     a. Make sure bubblegum-96 board is in power off mode and the MicroSD card is not in the board.
-    b. Plug in the converter board and connect serial console to the host PC. 
-Connect the host PC with Bubblegum-96 USB3.0 port via type USB A-A cable.
-        - USB3.0 port on Bubblegum96 board is the blue port
-        - This cable won’t provide Power, so will notwont boot up the board
-    c. Hold down the ADFU key on the Bubblegum96 board for 5 seconds.
-    d. Plug in power to the Bubblegum96 board.
-    e. Continue to hold down ADFU down the ADFU key for 2-4 seconds after the power has been plugged in.
-    f. Release the ADFU key.
-    g. Execute “lsusb” on host PC.
-        - You will find a device ID 10d6:10d6 if Bubblegum96  board has entered adfu-mode
-        - If Bubblegum96 board has not entered ADFU mode,  retry step a-f.
+   - Make sure bubblegum-96 board is in power off mode and the MicroSD card is not in the board.
+- Plug in the UART debug board and connect serial console to the host PC. 
+   - Set baud rate to be 115200, 
+   - Set (8N1) – [8bit data, No-parity, & 1 stop bit].
+- Connect the host PC with Bubblegum-96 USB3.0 port via type USB A-A cable.
+   - USB3.0 port on Bubblegum96 board is the blue port
+   - Tthis cable won’t provide Power, so will notwont boot up the board
+- Hold down the ADFU key on the Bubblegum96 board while… 
 
+- Plug in power to the Bubblegum96 board.
+- Continue to hold down ADFU down the ADFU key for 2-4 seconds after the power has been plugged in 
+- Release the ADFU key
+- Execute `lsusb` on host PC. 
+   - You will find a device ID 10d6:10d6 if Bubblegum96  board has entered adfu-mode
+   - If Bubblegum96 board has not entered ADFU mode,  retry step 1-7
+ 
  *Note: About the serial console.Before doing anythingeverything, please make sure you have already install the serial console. If not, please install that use the following command.*
         
 ```shell
@@ -109,7 +112,7 @@ Hardware control flow: No*
 While in the ADFU mode, Bubblegum96 board can be confirmed to be in “receiving mode” to accept commands from the Host-PC…  
 Please press Enter when system bootup, and it will show “owl>” prompt on serial console.
 
-2.Run the following command.
+2. Run the following command.
 ```shell
 $sudo ./src/linaro-adfu-tool-bg96 u-boot-dtb.img
 ```
