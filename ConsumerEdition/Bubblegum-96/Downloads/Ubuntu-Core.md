@@ -26,14 +26,12 @@ There will be six steps:
 ----------
 ##**Step1: prepare your hardware**
 Before everything, please check the following list. They are the equipments you need.
-1. Bubblegum-96 board
+1. Bubblegum-96 Board
 2. USB cable Type-A to Type-A
-3. A qualified power supply 
-4. A charger, 9V is good
-5. A Linux computer as a host PC: Ubuntu system (16.04LTS)
-6. A USB stick
-7. Serial console with converter board
-8. A MicroSD card
+3. A qualified power supply
+4. A Linux computer as a Host PC (Ubuntu 16.04LTS)
+5. A serial console with converter board
+6. A MicroSD card (>=8G)
 
 ##**Step2: Update your host pc(Ubuntu System)**
 Because Ubuntu Core only can be flashed on Ubuntu 16.04LTS, you need to make sure the system version.
