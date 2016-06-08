@@ -9,31 +9,26 @@
 The section here will show you how to flash Bubblegum-96 Board with Ubuntu Core on a micro SD card.
 
 There will be six steps:  
-**Step1:** prepare your hardware.
-
-**Step2:** Update your host pc(Ubuntu System).
-
-**Step3:** Prepare the software.
-
-**Step4:** Flash the image into the MicroSD card.
-
-**Step5:** Clean the emmc.
-
-**Step6:** Reboot the Bubblegum-96.
+**Step1:** prepare your hardware.  
+**Step2:** Update your host pc(Ubuntu System).  
+**Step3:** Prepare the software.  
+**Step4:** Flash the image into the MicroSD card.  
+**Step5:** Clean the emmc.  
+**Step6:** Reboot the Bubblegum-96.  
 
 
 ----------
 ##**Step1: prepare your hardware**
 Before everything, please check the following list. They are the equipments you need.
-1. Bubblegum-96 Board
-2. USB cable Type-A to Type-A
-3. A qualified power supply
-4. A Linux computer as a Host PC (Ubuntu 16.04LTS)
-5. A serial console with converter board
-6. A MicroSD card (>=8G)
+1. Bubblegum-96 Board  
+2. USB cable Type-A to Type-A  
+3. A qualified power supply  
+4. A Linux computer as a Host PC (Ubuntu 16.04LTS)  
+5. A serial console with converter board  
+6. A MicroSD card (>=8G)  
 
 ##**Step2: Update your host pc(Ubuntu System)**
-Because Ubuntu Core only can be flashed on Ubuntu 16.04LTS, you need to make sure the system version.
+Because Ubuntu Core only can be flashed on Ubuntu 16.04LTS, you need to make sure the system version.  
 If you have already had Ubuntu 16.04LTS, please skip this step, otherwise, please do the following command in a terminal.
 ```shell
 $sudo apt-get update
@@ -42,15 +37,15 @@ $sudo update-manager -d
 And then, upgrade your system.
 
 ##**Step3: Prepare the software**
-When flashing the Ubuntu Core, you need to download:
-ubuntu-core_bubblegum_2016****.img 
+When flashing the Ubuntu Core, you need to download:  
+ubuntu-core_bubblegum_2016****.img  
 (**Please check the md5: d2a047e9f3cfbbd7739c4541c7d11176  ubuntu-core_bubblegum_20160607.img**)
 
 For all users: [https://mega.nz/#!dsplDRbB!X_su5fKFOWeGJ6Yurf7X6wKqnnOPnno-Fw-2smiWrGE][1]
 
 U-boot-dtb.img: [http://builds.96boards.org/snapshots/bubblegum/linaro/u-boot/latest/u-boot-dtb.img][2]
 
-And create the linaro-adfu-tool with the following command:
+And create the linaro-adfu-tool with the following command:  
 ```shell
 $ git clone https://github.com/96boards-bubblegum/linaro-adfu-tool.git
 $ cmake .
@@ -102,19 +97,19 @@ Run another terminal and
 $sudo minicom -s
 ```
 
-In this case, we need to set the minicom,
-*Port: ttyUSB0
-Bps/Par/Bits: 115200
-Hardware control flow: No*
+In this case, we need to set the minicom,  
+*Port: ttyUSB0  
+Bps/Par/Bits: 115200  
+Hardware control flow: No*  
 While in the ADFU mode, Bubblegum96 board can be confirmed to be in “receiving mode” to accept commands from the Host-PC…  
-Please press Enter when system bootup, and it will show “owl>” prompt on serial console.
+Please press Enter when system bootup, and it will show “owl>” prompt on serial console.  
 
 2.Run the following command.
 ```shell
 $sudo ./src/linaro-adfu-tool-bg96 u-boot-dtb.img
 ```
 
-When seeing u-boot starts running on serial console, press enter to break it and entering the u-boot shell.
+When seeing u-boot starts running on serial console, press enter to break it and entering the u-boot shell.  
 Run following command:
 ```shell
 $mmc dev 1
@@ -122,7 +117,7 @@ $mmc erase 0 100000
 ```
 ##**Step6: Reboot the Bubblegum-96**
 
-It will boot into Ubuntu Core.
+It will boot into Ubuntu Core.  
 ```shell
 Username: ubuntu
 Password: ubuntu
