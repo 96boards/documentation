@@ -41,7 +41,8 @@ When flashing the Ubuntu Core, you need to download:
 ubuntu-core_bubblegum_2016****.img  
 (**Please check the md5: d2a047e9f3cfbbd7739c4541c7d11176  ubuntu-core_bubblegum_20160607.img**)
 
-For all users: [https://mega.nz/#!dsplDRbB!X_su5fKFOWeGJ6Yurf7X6wKqnnOPnno-Fw-2smiWrGE][1]
+For global users: [https://mega.nz/#!dsplDRbB!X_su5fKFOWeGJ6Yurf7X6wKqnnOPnno-Fw-2smiWrGE][1]
+For Chinese users: [http://pan.baidu.com/s/1mizsWM8][3]
 
 U-boot-dtb.img: [http://builds.96boards.org/snapshots/bubblegum/linaro/u-boot/latest/u-boot-dtb.img][2]
 
@@ -63,7 +64,7 @@ $ sudo dd if=ubuntu-core_bubblegum_20160606.img of=/dev/sd*
 ```shell
 $ lsblk
 ```
-)
+)  
 This step will take a few minutes.
 
 ##**Step5: Clean the emmc**
@@ -131,3 +132,4 @@ Password: ubuntu
 
   [1]: https://mega.nz/#!dsplDRbB!X_su5fKFOWeGJ6Yurf7X6wKqnnOPnno-Fw-2smiWrGE
   [2]: http://builds.96boards.org/snapshots/bubblegum/linaro/u-boot/latest/u-boot-dtb.img
+  [3]: http://pan.baidu.com/s/1mizsWM8
