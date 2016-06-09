@@ -2,9 +2,9 @@
 
 ## Contents
 
-- [GPIO Examples](#gpio-examples)
-- [I2C Examples](#i2c-examples)
-- [SPI Examples](#spi-examples)
+- GPIO Examples
+- I2C Examples
+- SPI Examples
 
 ***
 
