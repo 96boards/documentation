@@ -15,6 +15,6 @@ Linaro supported operating systems
 
 Other operating systems supported on HiKey, offered by partners.
 
-[Snappy Ubuntu Core](http://www.lemaker.org/product-hikey-download-54.html)
+- [Snappy Ubuntu Core](http://www.lemaker.org/product-hikey-download-54.html)
 
 ***
