@@ -63,4 +63,4 @@ $ sudo apt-get install libupm-dev
 
 ***
 
-Once you have installed these libraries continue to our [Examples and Sample Code](../Example/README.md) page!
+Once you have installed these libraries continue to our [Examples and Sample Code](../Examples/README.md) page!
