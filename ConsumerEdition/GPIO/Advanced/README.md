@@ -8,10 +8,10 @@ Before jumping to the library installation sections, you must first set up your 
 
 ## Contents
 
-- [Update 96Boards system](#update-96boards-system)
-- [Install package dependencies](#install-package-dependencies)
-- [Install 96Boards configuration files](#install-96boards-configuration-files)
-- [Install Libraries](#install-libraries)
+- Update 96Boards system
+- Install package dependencies
+- Install 96Boards configuration files
+- Install Libraries
 
 ***
 
