@@ -2,8 +2,12 @@
 
 Please take advantage of the many HiKey resources available to you through 96Boards, SeeedStudio, and Coursera
 
-- [HiKey Forum](http://www.96boards.org/forums/forum/products/hikey/)
+- [96Boards HiKey Forum](http://www.96boards.org/forums/forum/products/hikey/)
    - The DragonBoard has its very own 96Boards forum. If you can't find a pre-existing thread that addresses your issue, start your own and let the community help out!
+- [LeMaker Forum](http://forum.lemaker.org/)
+   - Similar to the 96Boards forum; however, this page will have threads for all LeMaker products
+- [LeMaker Wiki](http://wiki.lemaker.org/HiKey(LeMaker_version))
+   - This page offers some extra HiKey resources
 - [SeeedStudio](http://www.seeedstudio.com/)
    - Buy the HiKey here! 
 - [Coursera](https://www.coursera.org/specializations/internet-of-things)
