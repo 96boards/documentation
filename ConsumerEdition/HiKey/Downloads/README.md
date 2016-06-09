@@ -8,7 +8,6 @@ Linaro supported operating systems
 
 - [Debian](Debian.md)
 - [AOSP](AOSP.md)
-- [OpenEmbedded](OpenEmbedded.md) - Coming soon...
 
 ***
 
@@ -16,6 +15,6 @@ Linaro supported operating systems
 
 Other operating systems supported on HiKey, offered by partners.
 
-Coming soon...
+[Snappy Ubuntu Core](http://www.lemaker.org/product-hikey-download-54.html)
 
 ***
