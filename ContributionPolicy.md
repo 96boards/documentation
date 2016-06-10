@@ -1,6 +1,6 @@
 # Contribution Policy
 
-All documentation in this repository is written by the 96Boards team at Linaro with community contributions. 96Boards openly welcomes community contributions provided the following Contribution Policy is strictly followed.
+All documentation in this repository is written by the 96Boards team at Linaro with community contributions and links to third-party content. 96Boards openly welcomes community contributions provided the following Contribution Policy is strictly followed.
 
 The first course of action should be to [file an issue](https://github.com/96boards/documentation/issues) within this Github repository. Once filed, the issue will be addressed by a 96Boards team member. This first line of interactions will determine if a pull request should be submitted, and whether or not it is likely to be accepted.
 
