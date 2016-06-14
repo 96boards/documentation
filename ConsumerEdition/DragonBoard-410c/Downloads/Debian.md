@@ -10,7 +10,7 @@
 |:------------------|:-----------------------|
 |Version:           |April 2016           |
 |Release Date:      |2016.04.28              | 
-|Kernel Version:    |4.4.0                   |
+|Kernel Version:    |4.4.8                   |
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)       |
 
 ***
