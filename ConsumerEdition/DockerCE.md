@@ -10,7 +10,8 @@ This script can be found in /usr/share/docker/ or /usr/share/docker.io/contrib, 
 
 The output of the script is a Docker critique of your kernel config. For the 16.03 Reference Platform Build kernel, the results should look like this:
 
-http://i.imgur.com/uub5Qyk.png
+![Image1](http://i.imgur.com/uub5Qyk.png)
+
 
 This was the standard DragonBoard 410c kernel from the 16.03 Reference Platform Build, it meets all the mandatory requirements.
 
@@ -36,7 +37,8 @@ Running a first container is a case of:
 
 `$ sudo docker run -it aarch64/ubuntu /bin/bash`
 
-http://i.imgur.com/4v98PZN.png
+![Image2](http://i.imgur.com/4v98PZN.png)
+
 
 This will fetch an image for Ubuntu Xenial from the aarch64 directory at hub.docker.com, and launch it with a shell interactively. Once the image is launched it is called a container and has a container ID. From the container command line prompt, if you type e.g. 
 
@@ -50,7 +52,8 @@ Here are two Ubuntu docker containers running on this Dragonboard example. The f
 
 Although this document shows the same image for both, they are separate running instances and have different container IDs
 
-http://i.imgur.com/Vs70kGH.png
+![Image2](http://i.imgur.com/Vs70kGH.png)
+
 
 > (Note: you can create a docker group to avoid having to sudo everything)
 
