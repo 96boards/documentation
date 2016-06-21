@@ -1,6 +1,8 @@
 # Consumer Edition Documentation
 
-Welcome to the official documentation for Consumer Edition 96Boards, this documentation is written by the 96Boards team at Linaro.
+Welcome to the official documentation for Consumer Edition 96Boards, these documents an instruction sets are written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
+
+
 
 ## Contents - Start Here
 
