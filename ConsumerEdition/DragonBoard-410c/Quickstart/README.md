@@ -26,7 +26,7 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
 
 ***
 
-## Getting Started
+## Start Here
 
 Before you start, please ensure you have the following:	
 
