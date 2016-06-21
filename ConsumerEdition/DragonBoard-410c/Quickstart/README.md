@@ -25,3 +25,42 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
    - For connecting to a network without using WiFi
 
 ***
+
+## Getting Started
+
+Before you start, please ensure you have the following:	
+
+### The DragonBoard 410c
+
+- A suitable power supply (recommendation for this available here)
+- A standard HDMI cable long enough to connect your board to your display
+- A USB keyboard
+- A USB mouse
+- A display (FullHD/1080p recommended) with HDMI input
+- For Internet access in Android, a WiFi network is required
+
+#### Android
+
+**The DragonBoard 410c comes preloaded with Android and can be up and running with a few simple steps:**	
+
+- Connect the DragonBoard 410 to your display with the HDMI cable. It is important to do this first because the monitor will not detect the board if it is connected after starting. Ensure that the source for the display is switched to the HDMI port you are using.
+- Connect the USB keyboard and mouse. Do not connect the USB OTG port to your computer – this will prevent the keyboard and mouse from operating. The USB OTG port is the micro USB connector on the board.
+ https://www.96boards.org/wp-content/uploads/2015/04/dip_blue_20150611_142555-300x205.jpg 
+- Ensure switch S6 is set to the factory default (0-0-0-0, i.e. all switches are off – see picture on right).
+- Switch S6 can be found on the reverse side of the board in the bottom right-hand corner.
+- Verify the HDMI cable and USB cables are plugged in, then connect the power supply to the DragonBoard. The board will begin to boot Android immediately. Note that this may take a minute or two to get to the Android screen on the HDMI Monitor.
+- At this point, you can setup WiFi in the Android settings and then begin to work with Android on the board.
+
+Please refer to the DragonBoard 410c Android User Guide for further information on working with Android and some basic programming examples.	
+
+#### Linux
+
+There are several ways to run Linux on your DragonBoard 410c. Procedures to boot/install from a micro SD card as well as installing Linux using fastboot via the USB OTG port can be found on the Linux and Android wiki and in the basic Linux User Guide.	
+
+#### Windows
+
+Get your computer ready for the Windows Developer Program for IoT, set up your DragonBoard and build your first Windows IoT Core app by following the instructions on the Microsoft Windows Dev Center. 
+
+
+
+
