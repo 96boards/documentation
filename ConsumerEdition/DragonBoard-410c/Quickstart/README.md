@@ -45,7 +45,10 @@ Before you start, please ensure you have the following:
 
 - Connect the DragonBoard 410 to your display with the HDMI cable. It is important to do this first because the monitor will not detect the board if it is connected after starting. Ensure that the source for the display is switched to the HDMI port you are using.
 - Connect the USB keyboard and mouse. Do not connect the USB OTG port to your computer – this will prevent the keyboard and mouse from operating. The USB OTG port is the micro USB connector on the board.
- https://www.96boards.org/wp-content/uploads/2015/04/dip_blue_20150611_142555-300x205.jpg 
+
+![dipswitch](http://i.imgur.com/ugmBBBr.png)
+
+https://www.96boards.org/wp-content/uploads/2015/04/dip_blue_20150611_142555-300x205.jpg 
 - Ensure switch S6 is set to the factory default (0-0-0-0, i.e. all switches are off – see picture on right).
 - Switch S6 can be found on the reverse side of the board in the bottom right-hand corner.
 - Verify the HDMI cable and USB cables are plugged in, then connect the power supply to the DragonBoard. The board will begin to boot Android immediately. Note that this may take a minute or two to get to the Android screen on the HDMI Monitor.
