@@ -37,7 +37,6 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
 
 ![dipswitch](https://www.96boards.org/wp-content/uploads/2015/04/dip_blue_20150611_142555-300x205.jpg)
 
-https://www.96boards.org/wp-content/uploads/2015/04/dip_blue_20150611_142555-300x205.jpg 
 - Ensure switch S6 is set to the factory default (0-0-0-0, i.e. all switches are off – see picture on right).
 - Switch S6 can be found on the reverse side of the board in the bottom right-hand corner.
 - Verify the HDMI cable and USB cables are plugged in, then connect the power supply to the DragonBoard. The board will begin to boot Android immediately. Note that this may take a minute or two to get to the Android screen on the HDMI Monitor.
