@@ -47,11 +47,11 @@ Please refer to the DragonBoard 410c Android User Guide for further information 
 
 #### Linux
 
-There are several ways to run Linux on your DragonBoard 410c. Procedures to boot/install from a micro SD card as well as installing Linux using fastboot via the USB OTG port can be found on the Linux and Android wiki and in the basic Linux User Guide.	
+There are several ways to run Linux on your DragonBoard 410c. Procedures to boot/install from a micro SD card as well as installing Linux using fastboot via the USB OTG port can be found [here](../Installation/README.md) and in the basic [Linux User Guide](../../../dragonboard410c/LinuxUserGuide_DragonBoard.pdf).	
 
 #### Windows
 
-Get your computer ready for the Windows Developer Program for IoT, set up your DragonBoard and build your first Windows IoT Core app by following the instructions on the Microsoft Windows Dev Center. 
+Get ready for Windows IoT Core, set up your DragonBoard and build your first Windows IoT Core app. One you have [downloaded and installed](http://ms-iot.github.io/content/en-US/Downloads.htm) this operating system you can visit the [Microsoft Windows Dev Center](https://developer.microsoft.com/en-us/windows/iot) for instructions on how to get started with your first application. 
 
 
 
