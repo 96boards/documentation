@@ -26,18 +26,7 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
 
 ***
 
-## Start Here
-
-Before you start, please ensure you have the following:	
-
-### The DragonBoard 410c
-
-- A suitable power supply (recommendation for this available here)
-- A standard HDMI cable long enough to connect your board to your display
-- A USB keyboard
-- A USB mouse
-- A display (FullHD/1080p recommended) with HDMI input
-- For Internet access in Android, a WiFi network is required
+## Getting started with...
 
 #### Android
 
