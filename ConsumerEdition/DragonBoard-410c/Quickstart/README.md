@@ -43,7 +43,7 @@ https://www.96boards.org/wp-content/uploads/2015/04/dip_blue_20150611_142555-300
 - Verify the HDMI cable and USB cables are plugged in, then connect the power supply to the DragonBoard. The board will begin to boot Android immediately. Note that this may take a minute or two to get to the Android screen on the HDMI Monitor.
 - At this point, you can setup WiFi in the Android settings and then begin to work with Android on the board.
 
-Please refer to the DragonBoard 410c Android User Guide for further information on working with Android and some basic programming examples.	
+Please refer to the DragonBoard 410c [Android User Guide](../../../dragonboard410c/AndroidUserGuide_DragonBoard.pdf) for further information on working with Android and some basic programming examples.	
 
 #### Linux
 
