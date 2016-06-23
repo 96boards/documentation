@@ -107,16 +107,18 @@ $ sudo cp /etc/profile.d/96boards-sensors.sh /etc/X11/Xsession.d/96boards-sensor
 
 This sections will show you how to install and build each library individually. Simple choose the library you wish to learn about and follow the instructions provided.
 
-Note: 96BoardsGPIO is dependent on the libsoc library, UPM is depended on the MRAA library.
+> Note: 96BoardsGPIO is dependent on the libsoc library, UPM is depended on the MRAA library.
 
-- [libsoc](libsoc-install/README.md)
+Please take some time to explore the libraries' repositories to read about them and how they differ from eachother. There is no need to build and install all libraries, only the ones you plan on using.
+
+- libsoc ([Build Instructions](libsoc-install/README.md) / [Read More](https://github.com/jackmitch/libsoc))
    - This C library can interface with common peripherals found in
 System on Chips through generic Linux Kernel interfaces.
-- [96BoardsGPIO](96BoardsGPIO-install/README.md)
+- 96BoardsGPIO ([Build Instructions](96BoardsGPIO-install/README.md) / [Read More](https://github.com/96boards/96BoardsGPIO))
    - A rudimentary library, capable of controlling real world hardware via the GPIO on the 96Boards family of boards. Must conform to the CE specification. Dependent on libsoc library.
-- [MRAA](MRAA-install/README.md)
+- MRAA ([Build Instructions](MRAA-install/README.md) / [Read More](https://github.com/intel-iot-devkit/mraa))
    - C/C++ library with bindings to javascript & python to interface with the IO on your 96Boards
-- [UPM](UPM-install/README.md)
+- UPM ([Build Instructions](UPM-install/README.md) / [Read More](https://github.com/intel-iot-devkit/upm))
    - High level repository for sensors which use MRAA. Dependent on MRAA library
 
 ***
