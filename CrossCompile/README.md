@@ -319,8 +319,10 @@ $ ./hellomraa
 
 > Print out should read as follows:
 
+```shell
 “Hello mraa”
 “ Version: <some version info>”
 “ Running on a <board type>”
+```
 
 **Congratulations** you have correctly installed your cross compiler and built your first cross compiled mraa library application.
