@@ -1,5 +1,3 @@
-**ATTENTION:** This documentation repository is currently under constructions, you may experience broken links and incomplete information. Please visit our [wiki](https://github.com/96boards/documentation/wiki) while we undergo these changes
-
 # 96Boards Documentation
 
 Welcome to the official documentation for 96Boards, this documentation is written by the 96Boards team at Linaro. In addition to the documentation files available in this repository,
