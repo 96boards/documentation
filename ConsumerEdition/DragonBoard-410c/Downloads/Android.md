@@ -13,6 +13,8 @@
 |Kernel Version:    |3.10                    |
 |Release Notes:     |[Link](https://developer.qualcomm.com/download/db410c/android-release-notes.pdf)       |
 
+Continue to [Installation page](../Installation/README.md)
+
 ***
 
 ## Fastboot files (Advanced users)
@@ -32,4 +34,4 @@
 |cache.img.tar.xz         |[Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/latest/cache.img.tar.xz)            |
 |Release Notes:     |[Link](https://developer.qualcomm.com/download/db410c/android-release-notes.pdf)       |
 
-
+Continue to [Installation page](../Installation/README.md)
