@@ -6,7 +6,7 @@ This three part set of instructions will walk you through basic commandline cros
 
 - Linux host system is used as the cross compiling station
 - Examples were tested on fully updated Ubuntu 15.04 and 16.04 releases
-- Examples depend on matching, latest libsoc and libmraa libraries to be installed on both devices (x86 machine, ARM machine)
+- Examples depend on matching, latest [libsoc](https://github.com/jackmitch/libsoc) and [libmraa](https://github.com/intel-iot-devkit/mraa) libraries to be installed on both devices (x86 machine, ARM machine)
    - Libraries should be built from source to ensure they are current and will match. Instructions can be found [here](../ConsumerEdition/GPIO/Advanced/README.md)
 - Examples were tested on a DragonBoard 410c, but should work with all 96Boards
 
