@@ -1,6 +1,18 @@
 # Cross Compile files on x86 Linux host for 96Boards ARM systems
 
-...
+This three part set of instructions will walk you through basic commandline cross compilation on a Linux x86 system for ARM 96Boards devices.
+
+## Assumptions
+
+- Linux host system is used as the cross compiling station
+- Examples were tested on fully updated Ubuntu 15.04 and 16.04 releases
+- Examples depend on matching, latest libsoc and libmraa libraries to be installed on both devices (x86 machine, ARM machine)
+   - Libraries should be built from source to ensure they are current and will match. Instructions can be found [here](../ConsumerEdition/GPIO/Advanced/README.md)
+- Examples were tested on a DragonBoard 410c, but should work with all 96Boards
+
+This material was covered in our [7th OpenHours session](https://youtu.be/eMPG24OgQ-o) and can be paired with [this blog](http://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/).
+
+***
 
 ## Part 1 - A simple application
 
