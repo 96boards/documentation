@@ -13,6 +13,8 @@
 |Kernel Version:    |3.18                    |
 |Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)       |
 
+Continue to [Installation page](../Installation/README.md)
+
 ***
 
 ## Fastboot files (Advanced users)
@@ -37,3 +39,4 @@
 |Release Date:      |2015.11.30                         | 
 |Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)      |
 
+Continue to [Installation page](../Installation/README.md)
