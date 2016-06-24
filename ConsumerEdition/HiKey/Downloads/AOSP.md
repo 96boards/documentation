@@ -27,4 +27,4 @@ Not Available...
 |userdata.img.tar.xz      |[4G](http://builds.96boards.org/releases/hikey/linaro/aosp/latest/userdata-4gb.img.tar.xz) / [8G](http://builds.96boards.org/releases/hikey/linaro/aosp/latest/userdata-8gb.img.tar.xz)            |
 |cache.img.tar.xz         |[Download](http://builds.96boards.org/releases/hikey/linaro/aosp/latest/cache.img.tar.xz)            |
 
-
+Continue to [Installation page](../Installation/README.md)
