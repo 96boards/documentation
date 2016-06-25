@@ -4,8 +4,5 @@ Execute unique configuraions to customize your HiKey experience
 
 ## Helpful Configurations
 
-In Progress...
-
-## Fun Configurations
-
-In Progress...
+- [Wireless TI Module (Debian)](WirelessTIModule.md)
+   - Shows steps for configuiring the wireless TI moduele on your HiKey running Debian
