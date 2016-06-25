@@ -18,6 +18,8 @@ Select your platform for a list supported products and 96Boards specific resourc
 
 - [Linaro](http://www.linaro.org/about/)
    - Learn about Linaro
+- [96Boards](http://www.96boards.org/about)
+   - Learn about 96Boards
 - [Report a bug](Report_a_bug.md)
    - Instructions on how to report bugs for any of our 96Boards hardware and software
 - [Contribute](ContributionPolicy.md)
