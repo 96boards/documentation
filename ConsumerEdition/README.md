@@ -18,7 +18,7 @@ Select your Consumer Edition 96Boards device to access all product related resou
 ***
 
 - [Configuration](Configuration/README.md)
-   - Execute unique configurations to customize your 96Boards experience
+   - Execute unique configurations to customize your Consumer Edition 96Boards experience
 
 ## 96Boards CE Extras
 
