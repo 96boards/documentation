@@ -41,20 +41,20 @@ Note: If at any point during this process you are prompted with a 'Y/N', select 
 
 This sections will show you how to install each library individually. Simple choose the library you wish install and execute the appropriate command
 
-**libsoc**:
+**libsoc** ([Read More](https://github.com/jackmitch/libsoc)):
 
 ```shell
 $ sudo apt-get install libsoc-dev
 ```
 
-**MRAA**:
+**MRAA** ([Read More](https://github.com/intel-iot-devkit/mraa)):
 
 ```shell
 $ sudo apt-get install libmraa0
 $ sudo apt-get install libmraa-dev
 ```
 
-**UPM**:
+**UPM** ([Read More](https://github.com/intel-iot-devkit/upm)):
 
 ```shell
 $ sudo apt-get install libupm0
@@ -64,3 +64,5 @@ $ sudo apt-get install libupm-dev
 ***
 
 Once you have installed these libraries continue to our [Examples and Sample Code](../Examples/README.md) page!
+
+
