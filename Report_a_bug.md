@@ -85,9 +85,3 @@ Summary examples:
 - Steps to reproduce your bug
 
 ***
-
-<p align="left">
-  <b></b>
-  <a href="#">[Linaro Wiki](https://github.com/linaro/documentation/wiki/)</a> |
-  <a href="#">[96Boards Wiki](https://github.com/96boards/documentation/wiki/)</a>
-  <br>
