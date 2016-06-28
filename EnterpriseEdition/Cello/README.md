@@ -6,7 +6,5 @@ A comprehensive guide to using the [Cello](http://www.96boards.org/products/ee/c
 
 - [Quickstart](Quickstart/README.md)
    - Learn about yourCello board, how to prepare and set up for basic use
-- [Installation](Installation/README.md)
-   - Choose and install an operating system on your Cello
 - [Troubleshooting](Troubleshooting/README.md)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
