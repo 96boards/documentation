@@ -19,8 +19,8 @@ Learn about your HiKey board as well as how to prepare and set up for basic use
    - J15 Header on the HiKey comes with two pin-jumpers
 
 **Optional**
-- [Serial Console mezzanine](../../../MezzanineProducts/README.md)
-   - This mezzanine add-on will allow you to access the HiKey consol from a host computer
+- [Mezzanine Products](../../../MezzanineProducts/README.md)
+   - These devices allow you to expand your experience with any 96Boards by adding peripherals and enhancing onboard components
 - USB to MicroUSB cable
    - This is needed for serial console interface and fastboot/adb commands
 - USB to ethernet adapter and ethernet cable
