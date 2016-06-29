@@ -38,7 +38,7 @@ If you are already familiar with the HiKey board and would like to change out th
 
 - [**Downloads page**](../Downloads/README.md): This page lists all Linaro and 3rd party operating systems available for HiKey
 - [**Installation page**](../Installation/README.md): If you already have the images you need, this page has information on how to install the different operating systems onto your HiKey board
-- [**Board Recovery**]()
+- [**Board Recovery**](../Installation/BoardRecovery.md)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 
 ## Update your system
