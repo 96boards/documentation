@@ -26,6 +26,7 @@ Select your platform for a list supported products and 96Boards specific resourc
    - View our documentation "Contribution Policy" and learn how you can contribute
 - [Specifications](Specifications/README.md)
    - Low cost an server hardware platform specifications
+
 ***
 
 ## License
