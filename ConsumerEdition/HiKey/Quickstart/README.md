@@ -26,3 +26,40 @@ Learn about your HiKey board as well as how to prepare and set up for basic use
 - USB to ethernet adapter and ethernet cable
    - For connecting to a network without using WiFi
 
+***
+
+## Out of the Box
+
+The following subsections should describe how to get started with the HiKey using the release build shipped with the boards.
+
+### Updating to a new release or changing your operating system
+
+If you are already familiar with the HiKey board and would like to change out the stock operating system please proceed to one of the following pages:
+
+- [**Downloads page**](../Downloads/README.md): This page lists all Linaro and 3rd party operating systems available for HiKey
+- [**Installation page**](../Installation/README.md): If you already have the images you need, this page has information on how to install the different operating systems onto your HiKey board
+ 
+### Features
+
+|     |     |
+|:----|:----|
+| SoC | |
+| CPU ||
+| GPU ||
+| RAM ||
+| PMU ||
+| Storage ||
+| Ethernet Port ||
+| Wireless ||
+| USB ||
+| Display ||
+| Video ||
+| Audio ||
+| Camera ||
+| Expansion Interface ||
+| LED ||
+| Button ||
+| Power Source ||
+| OS Support ||
+| Size ||
+
