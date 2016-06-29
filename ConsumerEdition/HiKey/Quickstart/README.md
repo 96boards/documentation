@@ -32,7 +32,7 @@ Learn about your HiKey board as well as how to prepare and set up for basic use
 
 The following subsections should describe how to get started with the HiKey using the release build shipped with the boards. The HiKey board is ready to use “out of the box” with a preinstalled version of the Debian Linux distribution.
 
-### Updating to a new release or change your operating system
+## Updating to a new release or change your operating system
 
 If you are already familiar with the HiKey board and would like to change out the stock operating system please proceed to one of the following pages:
 
@@ -41,7 +41,7 @@ If you are already familiar with the HiKey board and would like to change out th
 - [**Board Recovery**]()
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 
-### Update your system
+## Update your system
 
 When keeping the stock image, it is recommended to update your system before adding any new software, you should perform the following commands to make sure everything is up to date:
 
@@ -63,7 +63,7 @@ You may also search for available packages:
 sudo apt-cache search [pattern]
 ```
 
-### Features
+## Features
 
 |     |     |
 |:----|:----|
@@ -92,7 +92,7 @@ sudo apt-cache search [pattern]
 - HDMI EDID display data is used to determine the best display resolution. On monitors and TVs that support 1080p (or 1200p) this resolution will be selected. If 1080p is not supported the next available resolution reported by EDID will be used. This selected mode will work with **MOST but not all** monitors/TVs. See [below for further information](#section-52) on what to do if your monitor/TV does not display the startup console and UI, and a list of monitors/TVs which can/cannot work with HiKey. 
 - There are limitations on the usage of the USB ports on the HiKey board. Please refer to the [Hardware section](#section-53) in the document for further information.
 
-### Monitor
+## Monitor
 
 A standard monitor or TV supporting at least 640x480 resolution is required. Interlaced operation is not currently supported. The maximum resolutions currently supported are 1920x1080p or 1920x1200p.
 
@@ -114,11 +114,11 @@ You can check network status by issuing this command.
 $ sudo nmcli dev wifi
 ```
 
-### Wired Network
+## Wired Network
 
 You can connect to a wired network by using a USB Ethernet adapter. Supported adapters should automatically work when the adapter is installed.
 
-### Bluetooth
+## Bluetooth
 
 The HiKey board includes built-in Bluetooth 4.0 LE support.
 
@@ -126,7 +126,7 @@ To setup a Bluetooth device open the Bluetooth Manager from the Preferences menu
 
 The blue LED between the microUSB and the Type A USB on the front board edge indicates bluetooth activity.
 
-### Audio Device
+## Audio Device
 
 Bluetooth audio devices are supported on HiKey. Follow normal procedures of connecting a bluetooth device to connect to your board.
 
@@ -140,22 +140,22 @@ Once Bluetooth sound sink is connected, you can open the LXMusic player from the
 $ sudo apt-get install xmms2 xmms2-plugin-*
 ```
 
-### File System
+## File System
 
 HiKey comes with two eMMC size: 4GB and 8GB.
 
-### Logging in
+## Logging in
 
 The default user name is "linaro" and the default password for user linaro is also "linaro"
 
-### Clock
+## Clock
 
 The HiKey board does not support a battery powered RTC. System time will be obtained from the network if available. If you are not connecting to a network you will need to manually set the date on each power up or use fake-hwclock:
 ```
 $ sudo apt-get install fake-hwclock
 ```
 
-### USB
+## USB
 
 A utility is provided in /home/linaro/bin to change the configuration of the host (Type A and Expansion) and OTG USB ports. By default these ports operate in low/full speed modes (1.5/12 Mbits/s) to support mouse/keyboard devices. Other USB devices such as network or storage dongles/sticks will be limited to full speed mode. Using the usb_speed utility it is possible to support high speed devices (480 Mbits/s) as long as they are not mixed with full/low speed devices.
 
@@ -164,7 +164,7 @@ For information on using the utility do the following:
 $ sudo usb_speed -h
 ```
 
-### System and User LEDs
+## System and User LEDs
 
 Each board led has a directory in /sys/class/leds. By default the LEDs use the following triggers:
 
