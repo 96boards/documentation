@@ -41,6 +41,28 @@ If you are already familiar with the HiKey board and would like to change out th
 - [**Board Recovery**]()
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will be your last effort to recover your board.
 
+### Update your system
+
+Before adding any new software to your system, you should first perform the following commands to make sure everything is up to date:
+
+```
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get dist-upgrade -u
+```
+
+Once system has been updated, the following command may be executed to install new packages:
+
+```
+sudo apt-get install [package name]
+```
+
+You may also search for available packages:
+
+```
+sudo apt-cache search [pattern]
+```
+
 ### Features
 
 |     |     |
@@ -116,28 +138,6 @@ Once Bluetooth sound sink is connected, you can open the LXMusic player from the
 
 ```
 $ sudo apt-get install xmms2 xmms2-plugin-*
-```
-
-### Update your system
-
-Before adding any new software to your system, you should first perform the following commands to make sure everything is up to date:
-
-```
-$ sudo apt-get update
-$ sudo apt-get upgrade
-$ sudo apt-get dist-upgrade -u
-```
-
-Once system has been updated, the following command may be executed to install new packages:
-
-```
-sudo apt-get install [package name]
-```
-
-You may also search for available packages:
-
-```
-sudo apt-cache search [pattern]
 ```
 
 ### File System
