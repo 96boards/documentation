@@ -38,7 +38,9 @@ If you are already familiar with the HiKey board and would like to change out th
 
 - [**Downloads page**](../Downloads/README.md): This page lists all Linaro and 3rd party operating systems available for HiKey
 - [**Installation page**](../Installation/README.md): If you already have the images you need, this page has information on how to install the different operating systems onto your HiKey board
- 
+- [**Board Recovery**]()
+   - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will be your last effort to recover your board.
+
 ### Features
 
 |     |     |
@@ -136,4 +138,50 @@ You may also search for available packages:
 
 ```
 sudo apt-cache search [pattern]
+```
+
+### File System
+
+HiKey comes with two eMMC size: 4GB and 8GB.
+
+### Logging in
+
+The default user name is "linaro" and the default password for user linaro is also "linaro"
+
+### Clock
+
+The HiKey board does not support a battery powered RTC. System time will be obtained from the network if available. If you are not connecting to a network you will need to manually set the date on each power up or use fake-hwclock:
+```
+$ sudo apt-get install fake-hwclock
+```
+
+### USB
+
+A utility is provided in /home/linaro/bin to change the configuration of the host (Type A and Expansion) and OTG USB ports. By default these ports operate in low/full speed modes (1.5/12 Mbits/s) to support mouse/keyboard devices. Other USB devices such as network or storage dongles/sticks will be limited to full speed mode. Using the usb_speed utility it is possible to support high speed devices (480 Mbits/s) as long as they are not mixed with full/low speed devices.
+
+For information on using the utility do the following:
+```
+$ sudo usb_speed -h
+```
+
+### System and User LEDs
+
+Each board led has a directory in /sys/class/leds. By default the LEDs use the following triggers:
+
+LED | Trigger
+--- | -------
+wifi_active | phy0tx (WiFi Tx)
+bt_active | hci0tx (Bluetooth Tx)
+user_led1 | heartbeat
+user_led2 | mmc0 (disk access, eMMC)
+user_led3 | mmc1 (disk access, microSD card)
+user_led4 | CPU core 0 active(not used)
+
+To change a user LED you can do the following as a root user:
+```
+# echo heartbeat > /sys/class/leds/<led_dir>/trigger      make a LED flash
+# cat /sys/class/leds/<led_dir>/trigger                   show triggers
+# echo none > /sys/class/leds/<led_dir>/trigger           remove triggers    
+# echo 1 > /sys/class/leds/<led_dir>/brightness           turn LED on
+# echo 0 > /sys/class/leds/<led_dir>/brightness           turn LED off
 ```
