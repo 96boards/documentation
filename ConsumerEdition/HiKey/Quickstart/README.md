@@ -32,7 +32,7 @@ Learn about your HiKey board as well as how to prepare and set up for basic use
 
 The following subsections should describe how to get started with the HiKey using the release build shipped with the boards. The HiKey board is ready to use “out of the box” with a preinstalled version of the Debian Linux distribution.
 
-### Updating to a new release or changing your operating system
+### Updating to a new release or change your operating system
 
 If you are already familiar with the HiKey board and would like to change out the stock operating system please proceed to one of the following pages:
 
