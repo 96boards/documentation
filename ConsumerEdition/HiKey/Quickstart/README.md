@@ -1,4 +1,4 @@
-## Quickstart
+# Quickstart
 
 Learn about your HiKey board as well as how to prepare and set up for basic use
 
