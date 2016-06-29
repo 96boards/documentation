@@ -43,7 +43,7 @@ If you are already familiar with the HiKey board and would like to change out th
 
 ### Update your system
 
-Before adding any new software to your system, you should first perform the following commands to make sure everything is up to date:
+When keeping the stock image, it is recommended to update your system before adding any new software, you should perform the following commands to make sure everything is up to date:
 
 ```
 $ sudo apt-get update
