@@ -7,9 +7,9 @@ Welcome to the official documentation for 96Boards, this documentation is writte
 Select your platform for a list supported products and 96Boards specific resources. 
 
 - [Consumer Edition](ConsumerEdition/README.md)
-   - Consumer Edition [(CE) specification](96BoardsCESpecificationv1.0-EA1.pdf) targets the mobile, embedded and digital home segments
+   - Consumer Edition (CE) specification targets the mobile, embedded and digital home segments
 - [Enterprise Edition](EnterpriseEdition/README.md)
-   - Enterprise Edition [(EE) specification](96BoardsEESpecificationv1.0.pdf) targets the networking and server segments
+   - Enterprise Edition (EE) specification targets the networking and server segments
 - [Mezzanine Products](MezzanineProducts/README.md)
    - Expand on all 96Boards with new interfaces for IoT, industrial control, and other embedded applications
    
@@ -24,6 +24,7 @@ Select your platform for a list supported products and 96Boards specific resourc
    - Instructions on how to report bugs for any of our 96Boards hardware and software
 - [Contribute](ContributionPolicy.md)
    - View our documentation "Contribution Policy" and learn how you can contribute
+- Specification ([CE](96BoardsCESpecificationv1.0-EA1.pdf) / [EE](96BoardsEESpecificationv1.0.pdf))
 
 ***
 
