@@ -6,7 +6,7 @@ This page outlines steps needed to recover your HiKey board from a bricked softw
 
 For most users a board can be “recovered” from a software failure by reloading the operating system. However, if the primary bootloader in the eMMC flash memory has been corrupted then the bootloader will need to be re-installed. This section describes how to reinstall the primary bootloader. 
  
-#### Step 1: Choose your Operating System and download the following files
+#### Choose your Operating System and download the following files
 
 Build Folders ( <a href="http://builds.96boards.org/releases/hikey/linaro/binaries/latest/" target="_blank">Debian</a> / <a href="http://builds.96boards.org/releases/hikey/linaro/binaries/latest/" target="_blank">AOSP</a> )
 
@@ -19,8 +19,9 @@ Build Folders ( <a href="http://builds.96boards.org/releases/hikey/linaro/binari
 | [ptable-linux-4g.img](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/ptable-linux-4g.img) or [ptable-linux-8g.img](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/ptable-linux-8g.img)     |    [ptable-aosp-4g.img](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/ptable-aosp-4g.img) or [ptable-aosp-8g.img](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/ptable-aosp-8g.img)      |
 
 You will also need the boot partition for the OS Image you want to run
-* [boot-fat.uefi.img for Debian] (https://builds.96boards.org/releases/hikey/linaro/debian/latest/boot-fat.uefi.img.gz)
-* [boot_fat.uefi.img for AOSP](https://builds.96boards.org/releases/hikey/linaro/aosp/latest/boot_fat.uefi.img.tar.xz)
+
+- [boot-fat.uefi.img for Debian] (https://builds.96boards.org/releases/hikey/linaro/debian/latest/boot-fat.uefi.img.gz)
+- [boot_fat.uefi.img for AOSP] (https://builds.96boards.org/releases/hikey/linaro/aosp/latest/boot_fat.uefi.img.tar.xz)
 
 You can do this from your browser or from the command prompt:
 For example, to download the latest UEFI build and boot partition for Debian do:
@@ -35,11 +36,18 @@ $ wget https://builds.96boards.org/releases/hikey/linaro/debian/latest/boot-fat.
 ```
 
 Uncompress the boot image as follows:
+
 ```shell
 $ gunzip boot-fat.uefi.img.gz
 ```
 
-You will also need the fastboot application installed on your Linux PC – if this is not installed then follow the instructions [at the end of this section](#section-42). 
+Make sure fastboot is set up on host computer 
+
+- Android SDK “Tools only” for Linux can be downloaded <a href="http://developer.android.com/sdk" target="_blank">here</a>
+- The Linux “Tools Only” SDK download does not come with fastboot, you will need to use the Android SDK Manager to install platform-tools.
+- To do this follow the “SDK Readme.txt” instructions included in your SDK “Tools Only” download.
+
+If you are still having trouble setting up fastboot, <a href="https://youtu.be/W_zlydVBftA" target="_blank">click here</a> for a short tutorial video
 
 Connect a standard microUSB cable between the HiKey microUSB and your Linux PC. Do not power up the HiKey board yet.
 
