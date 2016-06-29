@@ -24,8 +24,8 @@ Select your platform for a list supported products and 96Boards specific resourc
    - Instructions on how to report bugs for any of our 96Boards hardware and software
 - [Contribute](ContributionPolicy.md)
    - View our documentation "Contribution Policy" and learn how you can contribute
-- Specification ([CE](96BoardsCESpecificationv1.0-EA1.pdf) / [EE](96BoardsEESpecificationv1.0.pdf))
-
+- [Specifications](Specifications/README.md)
+   - Low cost an server hardware platform specifications
 ***
 
 ## License
