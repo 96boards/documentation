@@ -30,7 +30,7 @@ Learn about your HiKey board as well as how to prepare and set up for basic use
 
 ## Out of the Box
 
-The following subsections should describe how to get started with the HiKey using the release build shipped with the boards.
+The following subsections should describe how to get started with the HiKey using the release build shipped with the boards. The HiKey board is ready to use “out of the box” with a preinstalled version of the Debian Linux distribution.
 
 ### Updating to a new release or changing your operating system
 
@@ -63,3 +63,77 @@ If you are already familiar with the HiKey board and would like to change out th
 | OS Support |	Android 4.2/Linux |
 | Size |	85mm x 55mm  |
 
+**IMPORTANT NOTES**
+
+- HDMI EDID display data is used to determine the best display resolution. On monitors and TVs that support 1080p (or 1200p) this resolution will be selected. If 1080p is not supported the next available resolution reported by EDID will be used. This selected mode will work with **MOST but not all** monitors/TVs. See [below for further information](#section-52) on what to do if your monitor/TV does not display the startup console and UI, and a list of monitors/TVs which can/cannot work with HiKey. 
+- There are limitations on the usage of the USB ports on the HiKey board. Please refer to the [Hardware section](#section-53) in the document for further information.
+
+### Monitor
+
+A standard monitor or TV supporting at least 640x480 resolution is required. Interlaced operation is not currently supported. The maximum resolutions currently supported are 1920x1080p or 1920x1200p.
+
+### Wireless Network
+
+The HiKey board includes built in [2.4GHz IEEE802.11 b/g/n WiFi networking](http://www.ti.com/product/WL1835MOD). The board does not support the 5GHz band. To use the wireless LAN interface for the first time (or to switch wireless networks) you should click on the wireless LAN icon on the bottom right of the desktop display. The yellow LED between the microUSB and the Type A USB on the front board edge indicates wireless network activity.
+
+You can configure the network from UI, or manually from console:
+
+```
+$ sudo nmtui
+```
+
+Select 'Activate a connection', Choose your WiFi access point (SSID) and fill the relevant information (password, etc...)
+
+You can check network status by issuing this command.
+
+```
+$ sudo nmcli dev wifi
+```
+
+### Wired Network
+
+You can connect to a wired network by using a USB Ethernet adapter. Supported adapters should automatically work when the adapter is installed.
+
+### Bluetooth
+
+The HiKey board includes built-in Bluetooth 4.0 LE support.
+
+To setup a Bluetooth device open the Bluetooth Manager from the Preferences menu. If a “Bluetooth Turned Off” popup appears then select “Enable Bluetooth”. Click on "Search" to search for devices. Try with your bluetooth audio and bluetooth keyboard/mouse. If you make the device trusted then this should operate over a reboot of the board.
+
+The blue LED between the microUSB and the Type A USB on the front board edge indicates bluetooth activity.
+
+### Audio Device
+
+Bluetooth audio devices are supported on HiKey. Follow normal procedures of connecting a bluetooth device to connect to your board.
+
+**NOTE:** HDMI audio is not supported in this release.
+
+Once Bluetooth sound sink is connected, you can open the LXMusic player from the Sound & Video menu. Create a playlist from your music files. Supported audio formats are .mp3 and .ogg. You should now be able to play from the LXMusic player. 
+
+**NOTE:** LXmusic uses xmms2 as the player backend, you may need to install xmms2 and related plugins if they are not installed, otherwise music may cannot be played.
+
+```
+$ sudo apt-get install xmms2 xmms2-plugin-*
+```
+
+### Update your system
+
+Before adding any new software to your system, you should first perform the following commands to make sure everything is up to date:
+
+```
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get dist-upgrade -u
+```
+
+Once system has been updated, the following command may be executed to install new packages:
+
+```
+sudo apt-get install [package name]
+```
+
+You may also search for available packages:
+
+```
+sudo apt-cache search [pattern]
+```
