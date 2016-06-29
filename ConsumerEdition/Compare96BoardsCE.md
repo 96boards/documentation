@@ -56,7 +56,7 @@
 			<td>1.8 GHz</td>
 			<td>PowerVR G6230</td>
 			<td>2 GB</td>
-			<td>?</td>
+			<td>2400</td>
 			<td>LPDDR3</td>
 		</tr>
 		<tr>
