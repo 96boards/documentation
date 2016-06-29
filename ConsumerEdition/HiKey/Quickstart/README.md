@@ -89,8 +89,8 @@ sudo apt-cache search [pattern]
 
 **IMPORTANT NOTES**
 
-- HDMI EDID display data is used to determine the best display resolution. On monitors and TVs that support 1080p (or 1200p) this resolution will be selected. If 1080p is not supported the next available resolution reported by EDID will be used. This selected mode will work with **MOST but not all** monitors/TVs. See [below for further information](#section-52) on what to do if your monitor/TV does not display the startup console and UI, and a list of monitors/TVs which can/cannot work with HiKey. 
-- There are limitations on the usage of the USB ports on the HiKey board. Please refer to the [Hardware section](#section-53) in the document for further information.
+- HDMI EDID display data is used to determine the best display resolution. On monitors and TVs that support 1080p (or 1200p) this resolution will be selected. If 1080p is not supported the next available resolution reported by EDID will be used. This selected mode will work with **MOST but not all** monitors/TVs. 
+- There are limitations on the usage of the USB ports on the HiKey board.
 
 ## Monitor
 
