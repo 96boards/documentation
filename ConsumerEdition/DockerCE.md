@@ -1,6 +1,6 @@
 # Instructions for Installing Docker on a Consumer Edition 96Boards
 
-This document will show you how to install and test the Debian Docker apt package on the Dragonboard 410c with 1GB RAM using the Reference Platform Build 16.03 which is [available here](https://github.com/Linaro/documentation/blob/master/Reference-Platform/ConsumerEdition/DragonBoard-410c/README.md). This document was created for Docker v1.9.1.
+This document will show you how to install and test the Debian Docker apt package on the Dragonboard 410c with 1GB RAM using the Reference Platform Build 16.03 which is [available here](https://github.com/Linaro/documentation/tree/master/Reference-Platform/PreviousReleases/RPB_16.03). This document was created for Docker v1.9.1.
 
 First of all you need a kernel on your Dragonboard which meets the Docker requirements. To check the kernel support for Docker, you can run the following script
 
