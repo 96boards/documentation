@@ -8,9 +8,9 @@
 
 |   SD Card Image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_install_debian-*.zip)    |
 |:------------------|:-----------------------|
-|Version:           |April 2016           |
-|Release Date:      |2016.04.28              | 
-|Kernel Version:    |4.4.8                   |
+|Version:           |June 2016               |
+|Release Date:      |2016.06.30              | 
+|Kernel Version:    |4.4.9                   |
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)       |
 
 Continue to [Installation page](../Installation/README.md)
@@ -21,20 +21,20 @@ Continue to [Installation page](../Installation/README.md)
 
 |   Bootloader    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_linux-*.zip)    |
 |:------------------|:-----------------------|
-|Version:           |February 2016           |
-|Release Date:      |2016.02.10              | 
+|Version:           |June 2016           |
+|Release Date:      |2016.076.30              | 
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/)      |
 
 |   Boot image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/boot-linaro-jessie-qcom-snapdragon-arm64-*.img.gz)    |
 |:------------------|:-----------------------|
-|Version:           |April 2016           |
-|Release Date:      |2016.04.28              | 
+|Version:           |June 2016           |
+|Release Date:      |2016.06.30              | 
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)      |
 
 |   Rootfs image    |    [Desktop](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-jessie-alip-qcom-snapdragon-arm64-*.img.gz) or [Developer](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-jessie-developer-qcom-snapdragon-arm64-*.img.gz)   |
 |:------------------|:----------------------------------|
-|Version:           |April 2016                      |
-|Release Date:      |2016.04.28                         | 
+|Version:           |June 2016                      |
+|Release Date:      |2016.06.30                         | 
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)      |
 
 Continue to [Installation page](../Installation/README.md)
