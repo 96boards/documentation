@@ -96,6 +96,7 @@ While Bubblegum96 board is in ADFU mode, execute the following commands in /lina
 4. ../firmwares/
 
 _**[Device (96board)]**_
+
 Before doing anythingeverything, please make sure you have already install the serial console. If not, please install that use the following command.
 
 `$sudo apt-get install minicom`
@@ -118,6 +119,7 @@ Please press `Enter` when system bootup, and it will show `“owl>”` prompt on
 ### **Step 7:** Enter Fastboot mode
 
 _**[ Device (96board)]**_
+
 Execute `run create_gpt` to reconstruct the gpt table and it will show 
 
 `Writing GPT: success!.`
