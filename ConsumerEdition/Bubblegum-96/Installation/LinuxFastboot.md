@@ -133,7 +133,7 @@ _**[Host PC]**_
 
 Please make sure you have already installed fastboot tool on your PC, if not, run the following command:
 
-`$ sudo apt-get install fastboot`
+`$ sudo apt-get install android-tools-fastboot`
 
 After that, continue flashing Bubblegum-96.
 
@@ -169,4 +169,4 @@ $dd conv=notrunc if=u-boot-dtb.img of=bootloader.img seek=6110 bs=512
 $sudo fastboot flash BOOTLOADER bootloader.img
 ```
 
-After these 10 steps, Bubblegum-96 board will reboot automatically.
+Reboot.
