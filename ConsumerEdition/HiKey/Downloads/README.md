@@ -8,6 +8,7 @@ Linaro supported operating systems
 
 - [Debian](Debian.md)
 - [AOSP](AOSP.md)
+- [OpenEmbedded](OpenEmbedded.md)
 
 ***
 
