@@ -11,7 +11,7 @@ Choose and install an operating system on your HiKey. To appropriately follow th
 
 ## Methods of Installation
 
-In most cases, you will be presented with two options when installing your new operating system onto your DragonBoard 410c:
+In most cases, you will be presented with two options when installing your new operating system onto your HiKey:
 
 - SD Card Method
 - Fastboot Method
