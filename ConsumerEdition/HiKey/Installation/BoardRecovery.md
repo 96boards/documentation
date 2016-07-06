@@ -8,7 +8,7 @@ For most users a board can be “recovered” from a software failure by reloadi
  
 #### Choose your Operating System and download the following files
 
-Build Folders ( <a href="http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/" target="_blank">Debian</a> / <a href="http://builds.96boards.org/releases/hikey/linaro/binaries/latest/" target="_blank">AOSP</a> )
+Build Folders <a href="http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/" target="_blank">Debian</a>
 
 
 |  Debian                      |        AOSP                     |
