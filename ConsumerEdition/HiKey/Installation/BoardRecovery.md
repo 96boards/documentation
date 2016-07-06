@@ -8,31 +8,32 @@ For most users a board can be “recovered” from a software failure by reloadi
  
 #### Choose your Operating System and download the following files
 
-Build Folders ( <a href="http://builds.96boards.org/releases/hikey/linaro/binaries/latest/" target="_blank">Debian</a> / <a href="http://builds.96boards.org/releases/hikey/linaro/binaries/latest/" target="_blank">AOSP</a> )
+Build Folders ( <a href="http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/" target="_blank">Debian</a> / <a href="http://builds.96boards.org/releases/hikey/linaro/binaries/latest/" target="_blank">AOSP</a> )
 
 
 |  Debian                      |        AOSP                     |
 |:----------------------------:|:-------------------------------:|
-| [l-loader.bin](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/l-loader.bin)             |   [l-loader.bin](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/l-loader.bin)              |
-|  [fip.bin](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/fip.bin)                 |   [fip.bin](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/fip.bin)                   |
-| [nvme.img](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/nvme.img)                 |  [nvme.img](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/nvme.img)                   |
-| [ptable-linux-4g.img](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/ptable-linux-4g.img) or [ptable-linux-8g.img](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/ptable-linux-8g.img)     |    [ptable-aosp-4g.img](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/ptable-aosp-4g.img) or [ptable-aosp-8g.img](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/ptable-aosp-8g.img)      |
+| [l-loader.bin](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/l-loader.bin)             |   [l-loader.bin](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/l-loader.bin)              |
+|  [fip.bin](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/fip.bin)                 |   [fip.bin](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/fip.bin)                   |
+| [nvme.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/nvme.img)                 |  [nvme.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/nvme.img)                   |
+| [ptable-linux-4g.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-4g.img) or [ptable-linux-8g.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-8g.img)     |    [ptable-aosp-4g.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-aosp-4g.img) or [ptable-aosp-8g.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-aosp-8g.img)      |
 
 #### You will also need the boot partition for the OS Image you want to run
 
-- [boot-fat.uefi.img for Debian] (https://builds.96boards.org/releases/hikey/linaro/debian/latest/boot-fat.uefi.img.gz)
-- [boot_fat.uefi.img for AOSP] (https://builds.96boards.org/releases/hikey/linaro/aosp/latest/boot_fat.uefi.img.tar.xz)
+- [boot-fat.uefi.img for Debian] (http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-boot-linux-*.uefi.img.gz)
 
 You can do this from your browser or from the command prompt:
 For example, to download the latest UEFI build and boot partition for Debian do:
 
 ```shell
-$ wget https://builds.96boards.org/releases/hikey/linaro/binaries/latest/l-loader.bin
-$ wget https://builds.96boards.org/releases/hikey/linaro/binaries/latest/fip.bin
-$ wget https://builds.96boards.org/releases/hikey/linaro/debian/latest/ptable-linux-4g.img
-$ wget https://builds.96boards.org/releases/hikey/linaro/debian/latest/ptable-linux-8g.img
-$ wget https://builds.96boards.org/releases/hikey/linaro/binaries/latest/nvme.img
-$ wget https://builds.96boards.org/releases/hikey/linaro/debian/latest/boot-fat.uefi.img.gz
+$ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/l-loader.bin
+$ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/fip.bin
+$ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-4g.img
+$ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-8g.img
+$ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-aosp-4g.img
+$ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-aosp-8g.img
+$ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/nvme.img
+$ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-boot-linux-*.uefi.img.gz
 ```
 
 #### Uncompress the boot image as follows:
@@ -83,12 +84,12 @@ $ dmesg
 
 #### Download hisi-idt.py "download tool" for the HiKey
 
-[hisi-idt.py](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/hisi-idt.py) is the download tool for the HiKey. This is used to install the bootloader as follows:
+[hisi-idt.py](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/hisi-idt.py) is the download tool for the HiKey. This is used to install the bootloader as follows:
 
 This script can also be downloaded using the wget command in your commandline:
 
 ```
-$ wget https://raw.githubusercontent.com/96boards/burn-boot/master/hisi-idt.py
+$ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/hisi-idt.py
 ```
 
 #### Run the script to initially prepare fastboot
