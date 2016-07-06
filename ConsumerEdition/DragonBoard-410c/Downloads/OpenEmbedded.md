@@ -1,27 +1,31 @@
 # OpenEmbedded
 
-Note: This is the preliminary engineering build. 
+**OpenEmbedded** is a software framework used for creating Linux distributions aimed for, but not restricted to, embedded devices. Below are pre-built console and desktop images of Debian with their respective bootloader and boot image. If desired, these images can be recreated by following the build from source instructions found [here](https://github.com/Linaro/documentation/blob/master/Reference-Platform/CECommon/OEYocto.md)
 
-## SD card image
-
-Not Available.
+***
 
 ## Fastboot files (Advanced users)
 
 |   Bootloader    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_linux-*.zip)    |
 |:------------------|:-----------------------|
-|Version:           |February 2016           |
-|Release Date:      |2016.02.10              | 
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/)      |
 
-|   Boot image    |    [Download](http://builds.96boards.org/snapshots/reference-platform/openembedded/dragonboard-410c/latest/boot-*.img)    |
-|:------------------|:-----------------------|
-|Version:           |May 2016           |
-|Release Date:      |2016.05.12              | 
-|Release Notes:     |[Link](http://builds.96boards.org/snapshots/reference-platform/openembedded/dragonboard-410c/latest/)      |
 
-|   Rootfs image    |    [Desktop](http://builds.96boards.org/snapshots/reference-platform/openembedded/dragonboard-410c/latest/rpb-desktop-image-dragonboard-410c-*.rootfs.ext4.gz) or [Developer](http://builds.96boards.org/snapshots/reference-platform/openembedded/dragonboard-410c/latest/rpb-console-image-dragonboard-410c-*.rootfs.ext4.gz)   |
+## Fastboot files (Advanced users)
+
+Choose one boot image, the root file system you choose will be based on the boot image you download here:
+
+|   Boot image    |  Build Folder ([RPB](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/) / [RPB-Wayland](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/))   |
+|:------------------|:-----------------------|
+| RPB    | [Download](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/boot--4.4-r0.1-dragonboard-410c-*.img)   |
+| RPB-Wayland    |  [Download](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/boot--4.4-r0.1-dragonboard-410c-*.img)  |
+
+Only download one root file system (Console or Desktop). You should match the type of rootfs to the boot image you downloaded above. 
+
+|   Rootfs image    |  Build Folder ([RPB](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/) / [RPB-Wayland](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/))    |
 |:------------------|:----------------------------------|
-|Version:           |May 2016                      |
-|Release Date:      |2016.05.12                         | 
-|Release Notes:     |[Link](http://builds.96boards.org/snapshots/reference-platform/openembedded/dragonboard-410c/latest/)      |
+| RPB  | ([Desktop](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/rpb-desktop-image-dragonboard-410c-*.rootfs.ext4.gz) / [Console](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/rpb-console-image-dragonboard-410c-*.rootfs.ext4.gz))    |
+| RPB-Wayland  | ([Desktop](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/rpb-weston-image-dragonboard-410c-*.rootfs.ext4.gz) / [Console](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/rpb-console-image-dragonboard-410c-*.rootfs.ext4.gz))     |
+
+Continue to [Installation page](../Installation/README.md)
+
