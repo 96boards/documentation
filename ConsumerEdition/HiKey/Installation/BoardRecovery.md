@@ -11,12 +11,12 @@ For most users a board can be “recovered” from a software failure by reloadi
 Build Folders <a href="http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/" target="_blank">Debian</a>
 
 
-|  Debian                      |        AOSP                     |
-|:----------------------------:|:-------------------------------:|
-| [l-loader.bin](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/l-loader.bin)             |   [l-loader.bin](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/l-loader.bin)              |
-|  [fip.bin](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/fip.bin)                 |   [fip.bin](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/fip.bin)                   |
-| [nvme.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/nvme.img)                 |  [nvme.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/nvme.img)                   |
-| [ptable-linux-4g.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-4g.img) or [ptable-linux-8g.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-8g.img)     |    [ptable-aosp-4g.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-aosp-4g.img) or [ptable-aosp-8g.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-aosp-8g.img)      |
+|  Debian                      |
+|:----------------------------:|
+| [l-loader.bin](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/l-loader.bin)  |  
+|  [fip.bin](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/fip.bin)           |  
+| [nvme.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/nvme.img)          | 
+| [ptable-linux-4g.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-4g.img) or [ptable-linux-8g.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-8g.img)     |
 
 #### You will also need the boot partition for the OS Image you want to run
 
@@ -31,8 +31,6 @@ $ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06
 $ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/fip.bin
 $ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-4g.img
 $ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-8g.img
-$ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-aosp-4g.img
-$ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-aosp-8g.img
 $ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/nvme.img
 $ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-boot-linux-*.uefi.img.gz
 ```
