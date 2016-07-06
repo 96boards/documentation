@@ -20,7 +20,7 @@ Build Folders <a href="http://builds.96boards.org/releases/reference-platform/de
 
 #### You will also need the boot partition for the OS Image you want to run
 
-- [boot-fat.uefi.img for Debian] (http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-boot-linux-*.uefi.img.gz)
+- [boot-fat.uefi.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-boot-linux-*.uefi.img.gz) (For Debian): 
 
 You can do this from your browser or from the command prompt:
 For example, to download the latest UEFI build and boot partition for Debian do:
