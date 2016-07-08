@@ -22,7 +22,7 @@ Select your platform for a list supported products and 96Boards specific resourc
    - Learn about 96Boards
 - [Report a bug](Report_a_bug.md)
    - Instructions on how to report bugs for any of our 96Boards hardware and software
-- [Contribute](ContributionPolicy.md)
+- [Contribution Policy](ContributionPolicy.md)
    - View our documentation "Contribution Policy" and learn how you can contribute
 - [Specifications](Specifications/README.md)
    - Low cost an server hardware platform specifications
