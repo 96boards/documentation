@@ -27,7 +27,7 @@
 			
 		</tr>
 		<tr>
-			<td><img src="http://i.imgur.com/4a5GXRd.png" data-canonical-src="http://i.imgur.com/4a5GXRd.png" width="70" height="50" /> <br> [DragonBoard™ 410c](#dragonboard-410c)</td>
+			<td><img src="http://i.imgur.com/4a5GXRd.png" data-canonical-src="http://i.imgur.com/4a5GXRd.png" width="70" height="50" /> <br> DragonBoard™ 410c</td>
 			<td>Qualcomm<br>Snapdragon 410</td>
 			<td>ARM Cortex-A53</td>
 			<td>4</td>
@@ -38,7 +38,7 @@
 			<td>LPDDR3</td>
 		</tr>
 		<tr>
-			<td> <img src="http://i.imgur.com/0e7lsoO.png" data-canonical-src="http://i.imgur.com/0e7lsoO.png" width="70" height="50" /> <br> [HiKey](#hikey)</td>
+			<td> <img src="http://i.imgur.com/0e7lsoO.png" data-canonical-src="http://i.imgur.com/0e7lsoO.png" width="70" height="50" /> <br> HiKey</td>
 			<td>HiSilicon<br>Kirin 620</td>
 			<td>ARM Cortex-A53</td>
 			<td>8</td>
@@ -49,7 +49,7 @@
 			<td>LPDDR3</td>
 		</tr>
 		<tr>
-			<td> <img src="http://i.imgur.com/ykySoFc.png" data-canonical-src="http://i.imgur.com/ykySoFc.png" width="70" height="50" /> <br> [Bubblegum-96](#bubblegum-96)</td>
+			<td> <img src="http://i.imgur.com/ykySoFc.png" data-canonical-src="http://i.imgur.com/ykySoFc.png" width="70" height="50" /> <br> Bubblegum-96</td>
 			<td>Actions<br>s900</td>
 			<td>ARM Cortex-A53</td>
 			<td>4</td>
@@ -61,7 +61,7 @@
 		</tr>
 				<tr>
 			<td> <img src="http://i.imgur.com/kSjTguX.png" data-canonical-src="http://i.imgur.com/kSjTguX.png" width="70" height="50" /> <br> Helio X20</td>
-			<td>Application Processor<br>[Helio X20](helio-x20)</td>
+			<td>Application Processor<br>Helio X20</td>
 			<td>2xARM Cortex-A72<br>4xARM Cortex-A53<br>4xARM Cortex-A53</td>
 			<td>10</td>
 			<td>2.3 GHz<br>1.95 GHz<br>1.4 GHz</td>
