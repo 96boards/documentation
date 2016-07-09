@@ -9,7 +9,7 @@ There are a couple ways to recover your DragonBoard 410c from a "bricked" state.
 In most cases this will be your sure-fire way to recover your board from a software bricked state. A recovery image has been created and made ready to be flashed onto a micro SD card. Simply download the SD card recovery image, and follow the sd card installation instructions found on our [Installation page](README.md).
 
 - Download [SD Card Recovery image](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_sdcard_rescue-*.zip)
-- Follow SD carn installation instructions from [Installation Page](README.md)
+- Choose host machine under SD card installation instructions from [Installation Page](README.md)
 
 > Note: For those already familiar with the SD card flashing process, 96Boards build folder can be found [here](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/) 
 
