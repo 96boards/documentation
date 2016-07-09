@@ -6,9 +6,7 @@ USB extenion hubs can also be used to add ports, for those who need more than tw
 
 *** 
 
-## Recommended Devices:
-
-| |
+| **Recommended Devices** |
 |:--|
 | [Logitec Wireless Touch Keyboard K400](http://www.logitech.com/en-us/product/wireless-touch-keyboard-k400r)<br>
 <a href="http://www.logitech.com/en-us/product/wireless-touch-keyboard-k400r" target="_blank"><img src="http://i.imgur.com/FL67FuW.jpg" data-canonical-src="http://i.imgur.com/FL67FuW.jpg" width="300" height="120" /></a> |
