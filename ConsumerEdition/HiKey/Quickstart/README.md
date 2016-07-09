@@ -7,7 +7,7 @@ Learn about your HiKey board as well as how to prepare and set up for basic use
 **Need**
 - [Power adapter](PowerAdapter.md)
    - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
-- USB Keyboard and Mouse
+- [USB Keyboard and Mouse](USBKeyBoardMouse.md)
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
 - Full size HDMI Cable
    - All 96Boards are equiped with a full sized HDMI connector
