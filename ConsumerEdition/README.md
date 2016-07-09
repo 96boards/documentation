@@ -15,15 +15,12 @@ Select your Consumer Edition 96Boards device to access all product related resou
 - [Bubblegum-96](Bubblegum-96/README.md)
    - Board based on Actions Semi S900 Processor
 
-***
-
-- [Configuration](Configuration/README.md)
-   - Execute unique configurations to customize your Consumer Edition 96Boards experience
-
 ## 96Boards CE Extras
 
 - [Compare 96Boards](Compare96BoardsCE.md)
    - Quickly compare CPU, GPU, and Memory for all available 96Boards
+- [Configuration](Configuration/README.md)
+   - Execute unique configurations to customize your Consumer Edition 96Boards experience
 - [General Purpose Input/Output](GPIO/README.md)
    - Basics for programming GPIO pins on all CE 96Boards using a variety of libraries and programming languages
 - [Docker](DockerCE.md)
