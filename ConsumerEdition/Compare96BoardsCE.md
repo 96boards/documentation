@@ -59,6 +59,17 @@
 			<td>2400</td>
 			<td>LPDDR3</td>
 		</tr>
+				<tr>
+			<td> <img src="http://i.imgur.com/kSjTguX.png" data-canonical-src="http://i.imgur.com/kSjTguX.png" width="70" height="50" /> <br> Helio X20</td>
+			<td>Application Processor<br>Helio X20</td>
+			<td>2xARM Cortex-A72<br>4xARM Cortex-A53<br>4xARM Cortex-A53</td>
+			<td>10</td>
+			<td>2.3 GHz<br>1.95 GHz<br>1.4 GHz</td>
+			<td>Mail-T880</td>
+			<td>2 GB</td>
+			<td>?</td>
+			<td>LPDDR3</td>
+		</tr>
 		<tr>
 			
 			<td colspan="9">&nbsp;</td>
@@ -92,3 +103,7 @@ The Bubblegum-96 board was first shown in mid 2015 at trade shows in Asia. Since
 In addition to standard 96Boards features, the board will offer integrated HDMI with Ultra 4K output, Full HD video capture (1080P@60fps H.264) and ARM® TrustZone® security support.
 
 ***
+
+## Helio X20
+
+The Helio X20 Development Board is a 96Boards compliant community board based on the MediaTek HELIO X20 series of SoCs. X20 is a highly integrated application processor that includes Dual-core ARM Cortex-A72 processors operating at up to 2.3GHz, Quad-core ARM Cortex-A53 processors operating at up to 1.95GHz, Quad-core ARM Cortex-A53 processors operating at up to 1.4GHz and a Mali T880 GPU operating at up to 800MHz . In addition, an extensive set of interfaces and connectivity peripherals are included to interface to cameras, touch-screen displays and MMC/SD cards. It also fully supports wireless communication, including WLAN, Bluetooth and GPS.
