@@ -7,9 +7,7 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
 **Need**
 - [Power adapter](PowerAdapter.md)
    - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
-- MicroSD card with adapter
-   - For quick and easy switching between operating systems and extra storage
-- USB Keyboard and Mouse
+- [USB Keyboard and Mouse](USBKeyBoardMouse.md)
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
 - Full size HDMI Cable
    - All 96Boards are equiped with a full sized HDMI connector
@@ -17,6 +15,8 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
    - HDMI capable monitor is recommended
 
 **Optional**
+- MicroSD card with adapter
+   - For quick and easy switching between operating systems and extra storage
 - [Mezzanine Products](../../../MezzanineProducts/README.md)
    - These mezzanine add-ons will allow you to access a variety of peripherals on the DragonBoard™ 410c
 - USB to MicroUSB cable
