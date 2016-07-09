@@ -19,7 +19,7 @@ Select your Consumer Edition 96Boards device to access all product related resou
 
 - [Compare 96Boards](Compare96BoardsCE.md)
    - Quickly compare CPU, GPU, and Memory for all available 96Boards
-- [Configuration](Configuration/README.md)
+- [Configurations](Configuration/README.md)
    - Execute unique configurations to customize your Consumer Edition 96Boards experience
 - [General Purpose Input/Output](GPIO/README.md)
    - Basics for programming GPIO pins on all CE 96Boards using a variety of libraries and programming languages
