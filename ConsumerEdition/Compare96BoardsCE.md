@@ -1,3 +1,5 @@
+# Compare Consumer Edition(CE) 96Boards
+
 ### Quick Comparison - CPU, GPU, and Memory
 
 <table border="3">
@@ -25,6 +27,17 @@
 		</tr>
 		<tr>
 			
+		<tr>
+			<td> <img src="http://i.imgur.com/0e7lsoO.png" data-canonical-src="http://i.imgur.com/0e7lsoO.png" width="70" height="50" /> <br> HiKey</td>
+			<td>HiSilicon<br>Kirin 620</td>
+			<td>ARM Cortex-A53</td>
+			<td>8</td>
+			<td>1.2 GHz</td>
+			<td>Mali-450 MP4</td>
+			<td>1 GB or 2 GB</td>
+			<td>1600</td>
+			<td>LPDDR3</td>
+		</tr>
 		</tr>
 		<tr>
 			<td><img src="http://i.imgur.com/4a5GXRd.png" data-canonical-src="http://i.imgur.com/4a5GXRd.png" width="70" height="50" /> <br> DragonBoard™ 410c</td>
@@ -35,17 +48,6 @@
 			<td>Qualcomm<br>Adreno 306</td>
 			<td>1 GB</td>
 			<td>1066</td>
-			<td>LPDDR3</td>
-		</tr>
-		<tr>
-			<td> <img src="http://i.imgur.com/0e7lsoO.png" data-canonical-src="http://i.imgur.com/0e7lsoO.png" width="70" height="50" /> <br> HiKey</td>
-			<td>HiSilicon<br>Kirin 620</td>
-			<td>ARM Cortex-A53</td>
-			<td>8</td>
-			<td>1.2 GHz</td>
-			<td>Mali-450 MP4</td>
-			<td>1 GB or 2 GB</td>
-			<td>1600</td>
 			<td>LPDDR3</td>
 		</tr>
 		<tr>
