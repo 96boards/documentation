@@ -1,7 +1,5 @@
 ## Install and build libsoc
 
-In Progress...
-
 **Commands:**
 
 ```shell
