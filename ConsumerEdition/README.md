@@ -17,13 +17,13 @@ Select your Consumer Edition 96Boards device to access all product related resou
 
 ## 96Boards CE Extras
 
-- [Compare 96Boards](Compare96BoardsCE.md)
+- [Compare 96Boards](CE-Extras/Compare96BoardsCE.md)
    - Quickly compare CPU, GPU, and Memory for all available 96Boards
-- [Configurations](Configuration/README.md)
+- [Configurations](CE-Extras/Configuration/README.md)
    - Execute unique configurations to customize your Consumer Edition 96Boards experience
-- [General Purpose Input/Output](GPIO/README.md)
+- [General Purpose Input/Output](CE-Extras/GPIO/README.md)
    - Basics for programming GPIO pins on all CE 96Boards using a variety of libraries and programming languages
-- [Docker](DockerCE.md)
+- [Docker](CE-Extras/DockerCE.md)
    - Learn how to install and use Docker on your Consumer Edition 96Boards
 - [Cross Compile](../CrossCompile/README.md)
    - This small set of instructions will demonstrate some use cases for cross compiling files on an x86 Linux system for a 96Boards ARM device
