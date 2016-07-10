@@ -22,7 +22,7 @@ Select your Consumer Edition 96Boards device to access all product related resou
 - [Configurations](CE-Extras/Configuration/README.md)
    - Execute unique configurations to customize your Consumer Edition 96Boards experience
 - [General Purpose Input/Output](CE-Extras/GPIO/README.md)
-   - Basics for programming GPIO pins on all CE 96Boards using a variety of libraries and programming languages
+   - Basics for programming GPIO, I2C and SPI pins on all CE 96Boards using a variety of libraries and programming languages
 - [Docker](CE-Extras/DockerCE.md)
    - Learn how to install and use Docker on your Consumer Edition 96Boards
 - [Cross Compile](../CrossCompile/README.md)
