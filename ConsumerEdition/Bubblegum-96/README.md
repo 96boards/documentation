@@ -10,5 +10,7 @@ A comprehensive guide to using the [Bubblegum-96](https://www.96boards.org/produ
    - Choose and install an operating system on your Bubblegum-96
 - [Downloads](Downloads/README.md)
    - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
+- [Additional Documentation](AdditionalDocs/README.md)
+   - Explore what makes your Bubblegum-96 unique, technical specifications, schematics, hardware notes and more...
 - [Troubleshooting](Troubleshooting/README.md)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
