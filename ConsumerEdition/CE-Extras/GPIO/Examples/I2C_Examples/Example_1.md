@@ -24,6 +24,8 @@ Note: If at any point during this process you are prompted with a 'Y/N', select 
 
 ## Install Libraries
 
+**Commands:**
+
 `$ sudo apt-get install libmraa-dev libupm-dev`
 
 The command above will install the following four packages:
@@ -35,7 +37,7 @@ The command above will install the following four packages:
 
 ## Setting up hardware - Connecting Grove RGB backlight LCD
 
-<a href="" align="left" target="_blank"><img src="http://i.imgur.com/ZTatUeB.png" data-canonical-src="http://i.imgur.com/ZTatUeB.png" width="250" height="250" /></a>
+<a href="" align="left" target="_blank"><img src="http://i.imgur.com/ZTatUeB.png" data-canonical-src="http://i.imgur.com/ZTatUeB.png" width="350" height="330" /></a>
 
 ##  Download, build and run sample program:
 
