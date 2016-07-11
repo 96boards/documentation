@@ -1,9 +1,5 @@
 # Example 1 - Grove RGB backlight LCD module
 
-## Assumptions
-
-
-
 ## Update 96Boards system
 
 The image on your board might be out of date. This is possible even when using the stock image (the operating system your board was shipped with), or a newly flashed version from the 96Boards.org website. 
