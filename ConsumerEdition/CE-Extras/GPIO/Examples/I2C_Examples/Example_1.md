@@ -145,4 +145,4 @@ Once you have successfully written your code and compiled your program, you are 
 
 **Commands:**
 
-`$ sudo ./rgb-lcd-demo
+`$ sudo ./rgb-lcd-demo`
