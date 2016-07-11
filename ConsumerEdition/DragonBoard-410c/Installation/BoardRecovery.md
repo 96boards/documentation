@@ -15,4 +15,4 @@ In most cases this will be your sure-fire way to recover your board from a softw
 
 ## Fastboot recovery
 
-In many cases, simply re-flashing the bootloader, boot image, and root file system, using the fastboot method is enough. While the generic fastboot method might not always work due to certain complications, the sd card recovery image is always available (as seen above).
+In many cases, simply re-flashing the bootloader, boot image, and root file system, using the [fastboot method](README.md#fastboot-method) is enough. While the generic fastboot method might not always work due to certain complications, the sd card recovery image is always available (as seen above).
