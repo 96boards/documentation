@@ -4,7 +4,7 @@ Explore what makes your DragonBoard 410c unique by checking out technical specif
 
 ## Hardware
 
-- BOM ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/DragonBoard410c_BOM.pdf){: class=newwindow } / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/DragonBoard410c_BOM.pdf))
+- BOM ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/DragonBoard410c_BOM.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/DragonBoard410c_BOM.pdf))
 - [Schematics](Schematics_DragonBoard.pdf)
 - [Hardware Manual](HardwareManual_DragonBoard.pdf)
 
