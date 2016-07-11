@@ -7,7 +7,7 @@ Explore what makes your HiKey unique by checking out technical specifications, s
 - Hi6220 - Function Description ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Hi6220V100_Multi-Mode_Application_Processor_Function_Description.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/HiKey/AdditionalDocs/Hi6220V100_Multi-Mode_Application_Processor_Function_Description.pdf))
    - This document describes the function and basic modules of the Hi6220 SoC
 - Schematics - LeMaker ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/HiKey_schematics_LeMaker_version_Rev_A1.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/HiKey/AdditionalDocs/HiKey_schematics_LeMaker_version_Rev_A1.pdf))
-- Schematics - CircuitCo ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/HiKey_schematics_CircuitCo_version_Rev_A1.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/HiKey/AdditionalDocs/HiKey_schematics_CircuitCo_version_Rev_A1.pdf))(HiKey_schematics_CircuitCo_version_Rev_A1.pdf)
+- Schematics - CircuitCo ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/HiKey_schematics_CircuitCo_version_Rev_A1.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/HiKey/AdditionalDocs/HiKey_schematics_CircuitCo_version_Rev_A1.pdf))
 - [Hardware Notes](HardwareNotes.md)
 
 ## User Guides
