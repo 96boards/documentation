@@ -22,7 +22,7 @@
 ## I2C Examples
 
 - [Example #1 - Grove RGB backlit LCD module](I2C_Examples/Example_1.md)
-   - This example privides sample code for accessing and using the grove RGB backlit LCD module. The example includes library installation instructions, code breakdown and download, build, run instructions. THis sample has been tested on all libmraa and libupm enabled 96Boards.
+   - This example provides sample code for accessing and using the grove RGB backlit LCD module. The example includes library installation instructions, code breakdown and download, build, run instructions. This sample has been tested on all libmraa and libupm enabled 96Boards.
 
 ***
 
