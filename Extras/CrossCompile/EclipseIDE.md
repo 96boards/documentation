@@ -2,7 +2,7 @@
 
 These instructions show how to install the Linux version of Eclipse, either on the latest Debian (Jessie) or Ubuntu (16.04). You will also learn how to install a copy of the Eclipse IDE for C/C++ Developers in your home directory.  These instructions do not demonstrate how to install Eclipse system wide.
 
-Once Eclipse is installed, we will set up a project for cross compiling. It is assumed you have already installed and tested the command line cross compile toolchains ([Cross compile using command line](Commandline.md)). These instructions do not presume to teach you everything about Eclipse, but rather how to get cross compiling working with Eclipse. If you are unsure as to how to use Eclipse, there are tutorials which can teach you how to use both basic and extended functions.
+Once Eclipse is installed, we will set up a project for cross compiling. It is assumed you have already installed and tested the command line cross compile toolchains ([Cross compile using command line](CommandLine.md)). These instructions do not presume to teach you everything about Eclipse, but rather how to get cross compiling working with Eclipse. If you are unsure as to how to use Eclipse, there are tutorials which can teach you how to use both basic and extended functions.
 
 This instruction set can be paired with one of our [96Boards Blogs from David Mandala]()
 
