@@ -26,15 +26,17 @@ Learn about your HiKey board as well as how to prepare and set up for basic use
 - USB to ethernet adapter and ethernet cable
    - For connecting to a network without using WiFi
 
-<img src="http://i.imgur.com/uKfxuu5.jpg" data-canonical-src="http://i.imgur.com/uKfxuu5.jpg" width="150" height="105" />
-<img src="http://i.imgur.com/g5X5j72.jpg" data-canonical-src="http://i.imgur.com/g5X5j72.jpg" width="150" height="105" />
-<img src="http://i.imgur.com/egwXwjX.jpg" data-canonical-src="http://i.imgur.com/egwXwjX.jpg" width="150" height="105" />
+
 
 ***
 
 # Out of the Box
 
 The following subsections should describe how to get started with the HiKey using the release build shipped with the boards. The HiKey board is ready to use “out of the box” with a preinstalled version of the Debian Linux distribution.
+
+<img src="http://i.imgur.com/uKfxuu5.jpg" data-canonical-src="http://i.imgur.com/uKfxuu5.jpg" width="150" height="105" />
+<img src="http://i.imgur.com/g5X5j72.jpg" data-canonical-src="http://i.imgur.com/g5X5j72.jpg" width="150" height="105" />
+<img src="http://i.imgur.com/egwXwjX.jpg" data-canonical-src="http://i.imgur.com/egwXwjX.jpg" width="150" height="105" />
 
 ## Updating to a new release or change your operating system
 
