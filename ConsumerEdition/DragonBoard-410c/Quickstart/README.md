@@ -24,13 +24,13 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
 - USB to ethernet adapter and ethernet cable
    - For connecting to a network without using WiFi
 
-<img src="http://i.imgur.com/4a5GXRd.png" data-canonical-src="http://i.imgur.com/4a5GXRd.png" width="150" height="105" />
-<img src="http://i.imgur.com/iAbmSuV.png" data-canonical-src="http://i.imgur.com/iAbmSuV.png" width="150" height="105" />
-<img src="http://i.imgur.com/nyVSsa2.png" data-canonical-src="http://i.imgur.com/nyVSsa2.png" width="150" height="105" />
-
 ***
 
 ## Out of the Box
+
+<img src="http://i.imgur.com/4a5GXRd.png" data-canonical-src="http://i.imgur.com/4a5GXRd.png" width="150" height="105" />
+<img src="http://i.imgur.com/iAbmSuV.png" data-canonical-src="http://i.imgur.com/iAbmSuV.png" width="150" height="105" />
+<img src="http://i.imgur.com/nyVSsa2.png" data-canonical-src="http://i.imgur.com/nyVSsa2.png" width="150" height="105" />
 
 #### Android
 
