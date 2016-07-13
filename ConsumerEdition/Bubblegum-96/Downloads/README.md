@@ -4,7 +4,7 @@ This page provides links to the latest software downloads.
 
 ***
 
-Linaro supported operating systems
+### Linaro supported operating systems
 
 - [Debian](Debian.md)
 
