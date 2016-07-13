@@ -24,8 +24,10 @@ Learn about your Bubblegum-96 board as well as how to prepare and set up for bas
 - USB to ethernet adapter and ethernet cable
    - For connecting to a network without using WiFi
 
+***
+
+# Out of the Box
+
 <img src="http://i.imgur.com/eVR3IZv.png" data-canonical-src="http://i.imgur.com/eVR3IZv.png" width="150" height="105" />
 <img src="http://i.imgur.com/gaFuoBk.png" data-canonical-src="http://i.imgur.com/gaFuoBk.png" width="150" height="105" />
 <img src="http://i.imgur.com/XHiHLOl.png" data-canonical-src="http://i.imgur.com/XHiHLOl.png" width="150" height="105" />
-
-***
