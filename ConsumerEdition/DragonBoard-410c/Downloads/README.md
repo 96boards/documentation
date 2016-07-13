@@ -4,7 +4,7 @@ The DragonBoard 410c comes pre-installed with Android (if purchased in a kit, OS
 
 ***
 
-Linaro supported operating systems
+### Linaro supported operating systems
 
 - [Debian](Debian.md)
 - [Android](Android.md)
