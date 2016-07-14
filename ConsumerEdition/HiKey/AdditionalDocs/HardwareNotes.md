@@ -1,4 +1,4 @@
-
+# Hardware Notes
 
 
 ### CPU Load
