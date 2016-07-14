@@ -28,9 +28,9 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
 
 ## Out of the Box
 
-<img src="http://i.imgur.com/4a5GXRd.png" data-canonical-src="http://i.imgur.com/4a5GXRd.png" width="150" height="105" />
-<img src="http://i.imgur.com/iAbmSuV.png" data-canonical-src="http://i.imgur.com/iAbmSuV.png" width="150" height="105" />
-<img src="http://i.imgur.com/nyVSsa2.png" data-canonical-src="http://i.imgur.com/nyVSsa2.png" width="150" height="105" />
+<img src="http://i.imgur.com/4a5GXRd.png" data-canonical-src="http://i.imgur.com/4a5GXRd.png" width="250" height="160" />
+<img src="http://i.imgur.com/iAbmSuV.png" data-canonical-src="http://i.imgur.com/iAbmSuV.png" width="250" height="160" />
+<img src="http://i.imgur.com/nyVSsa2.png" data-canonical-src="http://i.imgur.com/nyVSsa2.png" width="250" height="160" />
 
 #### Android
 
