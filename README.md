@@ -7,11 +7,11 @@ Welcome to the official documentation for 96Boards, this documentation is writte
 Select your platform for a list supported products and 96Boards specific resources. 
 
 - [Consumer Edition](ConsumerEdition/README.md)
-   - Consumer Edition (CE) specification targets the mobile, embedded and digital home segments
+   - These small, low-cost, and low-power consumer 96Boards are great for developers, makers, and hobbiests!
 - [Enterprise Edition](EnterpriseEdition/README.md)
    - Enterprise Edition (EE) specification targets the networking and server segments
 - [Mezzanine Products](MezzanineProducts/README.md)
-   - Expand on all 96Boards with new interfaces for IoT, industrial control, and other embedded applications
+   - Expand on all 96Boards with new interfaces for IoT, industrial control, and other embedded applications.
    
 ***
 ## Read More
