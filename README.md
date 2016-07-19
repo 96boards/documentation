@@ -11,7 +11,7 @@ Select your platform for a list supported products and 96Boards specific resourc
 | These small, low-cost, and low-power consumer 96Boards are great for developers, makers, and hobbiests! | These powerful, reliable, ARM based 96Boards boards are ideal targets for networking and server segments  | Expand on all 96Boards with new interfaces for IoT, industrial control, and other embedded applications. |
    
 ***
-## Read More
+## More ...
 
 - [Linaro](http://www.linaro.org/about/)
    - Linaro brings together industry and the open source community to work on a wide variety of projects and tools to reduce industry wide fragmentation and redundant effort, and provide common software foundations for everyone.
