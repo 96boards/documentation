@@ -1,10 +1,10 @@
 # Instructions for Installing Docker on a Consumer Edition 96Boards
 
-This document will show you how to install and test the Debian Docker apt package on the Dragonboard 410c with 1GB RAM using the Reference Platform Build 16.03 which is [available here](https://github.com/Linaro/documentation/tree/master/Reference-Platform/PreviousReleases/RPB_16.03). This document was created for Docker v1.9.1.
+This document will show you how to install and test the Debian Docker apt package on the 96Boards with 1GB RAM using the Reference Platform Build 16.03 which is [available here](https://github.com/Linaro/documentation/tree/master/Reference-Platform/PreviousReleases/RPB_16.03). This document was created for Docker v1.9.1.
 
 This material was covered in our [6th OpenHours session](https://youtu.be/lvv7CbXOHtw) and can be paired with [this blog](http://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/).
 
-First of all you need a kernel on your Dragonboard which meets the Docker requirements. To check the kernel support for Docker, you can run the following script
+First of all you need a kernel on your 96Boards which meets the Docker requirements. To check the kernel support for Docker, you can run the following script
 
 `$ sudo ./check-config.sh .`
 
@@ -15,7 +15,7 @@ The output of the script is a Docker critique of your kernel config. For the 16.
 ![Image1](http://i.imgur.com/uub5Qyk.png)
 
 
-This was the standard DragonBoard 410c kernel from the 16.03 Reference Platform Build, it meets all the mandatory requirements.
+This was the standard 96Boards kernel from the 16.03 Reference Platform Build, it meets all the mandatory requirements.
 
 With the overlays for the Reference Platform Build, you can run Docker on Debian Jessie, this is the distro version supported by the Reference Platform Build.  You are now ready to install Docker. The instructions on docker.com point you to adding x86-based package repos to sources.list.d, which is problematic for obvious reasons. Please skip those and use the standard Debian repositories with:
 
@@ -48,7 +48,7 @@ This will fetch an image for Ubuntu Xenial from the aarch64 directory at hub.doc
 
 You should see that you’re in an Ubuntu image rather than the Debian Stretch host. Exiting the shell kills and removes the container. You can launch the same image several times with docker run to have several independent containers. 
 
-Here are two Ubuntu docker containers running on this Dragonboard example. The following command will list all running containers and their status:
+Here are two Ubuntu docker containers running on this 96Boards example. The following command will list all running containers and their status:
 
 `$ sudo docker ps`
 
@@ -65,7 +65,7 @@ You can create a new Docker base image (an image which does not depend on anothe
 
 Here you will see how to do it with a base Stretch aarch64 Docker image.
 
-This example uses a USB thumb drive (at /dev/sda1) on a DragonBoard 410c to avoid running out of storage space. The USB drive needs to be mounted with `-o exec`. 
+This example uses a USB thumb drive (at /dev/sda1) on a 96Boards to avoid running out of storage space. The USB drive needs to be mounted with `-o exec`. 
 
 ```shell
 $ sudo apt-get install debootstrap
