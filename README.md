@@ -35,3 +35,7 @@ Unless otherwise specified, everything in this repository is covered by the foll
 ***96Boards Documentation*** by [96Boards](https://www.96boards.org/) is licensed under a [Creative Commons Attribution 4.0 International Licence](http://creativecommons.org/licenses/by-sa/4.0/).
 
 Based on a work at https://github.com/96Boards/documentation
+
+***
+
+[View/Edit this page on Github](https://github.com/96boards/documentation/blob/master/README.md)
