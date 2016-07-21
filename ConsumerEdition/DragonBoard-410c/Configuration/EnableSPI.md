@@ -2,7 +2,7 @@
 
 This tutorial will show how to build and flash a DragonBoard 410c boot image with SPI enabled using SPIDEV.
 
-A pre-built, flashable boot image is available for [download here](http://people.linaro.org/~ricardo.salveti/boot-db410c-spi.img). These instructions are intentended for 
+A pre-built, flashable boot image is available for [download here](http://people.linaro.org/~ricardo.salveti/boot-db410c-spi.img).
 
 -----
 
@@ -16,8 +16,7 @@ file (and boot image).
 
 Fastboot installation instructions (using a Linux host machine) can be found [here](../Installation/LinuxFastboot.md)
 
-### Step 2: Customize the device tree to export the spidev devices (low and high
-speed expansion headers):
+### Step 2: Customize the device tree to export the spidev devices (low and high speed expansion headers):
 
 ```shell
 $ git clone -n http://git.linaro.org/landing-teams/working/qualcomm/kernel.git
