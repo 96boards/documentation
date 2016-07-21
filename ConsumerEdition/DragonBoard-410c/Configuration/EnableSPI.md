@@ -18,7 +18,7 @@ From the above link, download your desired `rootfs` and `boot` image
 
 Fastboot installation instructions (using a Linux host machine) can be found [here](../Installation/LinuxFastboot.md)
 
-For those who prefer a pre-built, flashable boot image, one is available. Simply replace the boot image downloaded from builds.96boards with the boot-db410c-spi.img [downloaded here](http://people.linaro.org/~ricardo.salveti/boot-db410c-spi.img) and proceed to fastboot installation instruction above. Once you have finished flashing both pre-built `rootfs` and `boot` images, skip to **Step 6** for SPI test commands.
+A pre-built, flashable boot image is available (skip steps 2-5). Simply replace the boot image downloaded from builds.96boards with the boot-db410c-spi.img [downloaded here](http://people.linaro.org/~ricardo.salveti/boot-db410c-spi.img) and proceed to fastboot installation instruction above. Once you have finished flashing both pre-built `rootfs` and `boot` images, skip to **Step 6** for SPI test commands.
 
 ### Step 2: Customize the device tree to export the spidev devices (low and high speed expansion headers):
 
