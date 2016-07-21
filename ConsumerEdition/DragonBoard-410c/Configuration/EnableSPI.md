@@ -8,7 +8,7 @@ This tutorial will show how to build and flash a DragonBoard 410c boot image wit
 
 ### Step 1: **Flash the 16.06 LT Debian release:**
 
-First nake sure you are running the 16.06 LT Debian release. The following folder contains all the necessary files:
+First make sure you are running the 16.06 LT Debian release. The following folder contains all the necessary files:
 
 - https://builds.96boards.org/releases/dragonboard410c/linaro/debian/16.06/
 
