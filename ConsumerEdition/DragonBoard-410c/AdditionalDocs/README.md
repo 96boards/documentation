@@ -21,7 +21,8 @@ Explore what makes your DragonBoard 410c unique by checking out technical specif
 
 ## On Qualcomm Developer Network
 
-[Android Release Notes](http://linaro.co/1UyVpA4)
+- [Qualcomm Developer Network](http://linaro.co/1HBLyQM)
+- [Android Release Notes](http://linaro.co/1UyVpA4)
 
 #### Application Notes ("How to" documents)
 
