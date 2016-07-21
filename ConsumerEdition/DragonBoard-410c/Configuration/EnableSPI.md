@@ -13,7 +13,7 @@ First make sure you are running the 16.06 LT Debian release. The following folde
 - https://builds.96boards.org/releases/dragonboard410c/linaro/debian/16.06/
 
 From the above link, download your desired `rootfs` and `boot` image
-- linaro-jessie-<alip or developer>-qcom-snapdragon-arm64-*.img.gz
+- linaro-jessie-{alip or developer}-qcom-snapdragon-arm64-*.img.gz
 - boot-linaro-jessie-qcom-snapdragon-arm64-*.img.gz
 
 Fastboot installation instructions (using a Linux host machine) can be found [here](../Installation/LinuxFastboot.md)
