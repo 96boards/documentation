@@ -4,13 +4,21 @@ This tutorial will show how to build and flash a DragonBoard 410c boot image wit
 
 > Note: LT Debian 16.06 release MUST be used as base (**Step 1**). The 16.06 LT release already includes the SPIDEV kernel module, you will only need to change the device tree file (and boot image).
 
+***
+
 ### Step 1: **Flash the 16.06 LT Debian release:**
+
+First nake sure you are running the 16.06 LT Debian release. The following folder contains all the necessary files:
 
 - https://builds.96boards.org/releases/dragonboard410c/linaro/debian/16.06/
 
+From the above link, download your desired `rootfs` and `boot` image
+- linaro-jessie-<alip or developer>-qcom-snapdragon-arm64-*.img.gz
+- boot-linaro-jessie-qcom-snapdragon-arm64-*.img.gz
+
 Fastboot installation instructions (using a Linux host machine) can be found [here](../Installation/LinuxFastboot.md)
 
-For those who prefer a pre-built, flashable boot image, one available for [download here](http://people.linaro.org/~ricardo.salveti/boot-db410c-spi.img). Simply replace the boot image downloaded from build.96boards with boot-db410c-spi.img.
+For those who prefer a pre-built, flashable boot image, one is available. Simply replace the boot image downloaded from builds.96boards with the boot-db410c-spi.img [downloaded here](http://people.linaro.org/~ricardo.salveti/boot-db410c-spi.img) and proceed to fastboot installation instruction above. Once you have finished flashing both pre-built `rootfs` and `boot` images, skip to **Step 6** for SPI test commands.
 
 ### Step 2: Customize the device tree to export the spidev devices (low and high speed expansion headers):
 
@@ -98,7 +106,7 @@ the kernel will produce a warning when booting the system, such as:
 The device will still be functional, so just ignore while testing the
 SPIDEV devices.
 
-Testing with spi-test:
+#### Step 6: Test with spi-test
 
 ```
 $ wget https://raw.githubusercontent.com/KnCMiner/spi-test/master/spi-test.c
