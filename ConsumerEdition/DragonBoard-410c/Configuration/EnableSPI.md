@@ -2,19 +2,15 @@
 
 This tutorial will show how to build and flash a DragonBoard 410c boot image with SPI enabled using SPIDEV.
 
-A pre-built, flashable boot image is available for [download here](http://people.linaro.org/~ricardo.salveti/boot-db410c-spi.img).
-
------
-
-Using the LT Debian 16.06 release as base, which already includes the
-SPIDEV kernel module, so all you need is to change the device tree
-file (and boot image).
+> Note: LT Debian 16.06 release MUST be used as base (**Step 1**). The 16.06 LT release already includes the SPIDEV kernel module, so all you need is to change the device tree file (and boot image).
 
 ### Step 1: **Flash the 16.06 LT Debian release:**
 
 - https://builds.96boards.org/releases/dragonboard410c/linaro/debian/16.06/
 
 Fastboot installation instructions (using a Linux host machine) can be found [here](../Installation/LinuxFastboot.md)
+
+For those who prefer a pre-built, flashable boot image, one available for [download here](http://people.linaro.org/~ricardo.salveti/boot-db410c-spi.img). Simply replace the boot image downloaded from build.96boards with boot-db410c-spi.img.
 
 ### Step 2: Customize the device tree to export the spidev devices (low and high speed expansion headers):
 
