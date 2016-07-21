@@ -2,7 +2,7 @@
 
 This tutorial will show how to build and flash a DragonBoard 410c boot image with SPI enabled using SPIDEV.
 
-> Note: LT Debian 16.06 release MUST be used as base (**Step 1**). The 16.06 LT release already includes the SPIDEV kernel module, so all you need is to change the device tree file (and boot image).
+> Note: LT Debian 16.06 release MUST be used as base (**Step 1**). The 16.06 LT release already includes the SPIDEV kernel module, you will only need to change the device tree file (and boot image).
 
 ### Step 1: **Flash the 16.06 LT Debian release:**
 
