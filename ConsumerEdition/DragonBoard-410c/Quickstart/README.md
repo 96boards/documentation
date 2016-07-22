@@ -28,9 +28,22 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
 
 ## Out of the Box
 
+The following subsections should describe how to get started with the DragonBoard 410c using the release build shipped with the boards. The DragonBoard 410c is ready to use “out of the box” with a preinstalled version of Android (unless otherwise specified).
+
 <img src="http://i.imgur.com/4a5GXRd.png" data-canonical-src="http://i.imgur.com/4a5GXRd.png" width="250" height="160" />
 <img src="http://i.imgur.com/iAbmSuV.png" data-canonical-src="http://i.imgur.com/iAbmSuV.png" width="250" height="160" />
 <img src="http://i.imgur.com/nyVSsa2.png" data-canonical-src="http://i.imgur.com/nyVSsa2.png" width="250" height="160" />
+
+## Updating to a new release or change your operating system
+
+If you are already familiar with the DragonBoard 410c and would like to change out the stock operating system please proceed to one of the following pages:
+
+- [**Downloads page**](../Downloads/README.md): This page lists all Linaro and 3rd party operating systems available for the DragonBoard 410c
+- [**Installation page**](../Installation/README.md): If you already have the images you need, this page has information on how to install the different operating systems onto your DragonBoard 410c
+- [**Board Recovery**](../Installation/BoardRecovery.md)
+   - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
+- [**Troubleshooting**](../Troubleshooting/README.md)
+   - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
 #### Android
 
