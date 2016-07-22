@@ -26,7 +26,7 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
 
 ***
 
-## Out of the Box
+# Out of the Box
 
 The following subsections should describe how to get started with the DragonBoard 410c using the release build shipped with the boards. The DragonBoard 410c is ready to use “out of the box” with a preinstalled version of Android (unless otherwise specified).
 
