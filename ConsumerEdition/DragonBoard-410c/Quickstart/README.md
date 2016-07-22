@@ -45,7 +45,7 @@ If you are already familiar with the DragonBoard 410c and would like to change o
 - [**Troubleshooting**](../Troubleshooting/README.md)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
-#### Android
+## Android
 
 **The DragonBoard 410c comes preloaded with Android and can be up and running with a few simple steps:**	
 
@@ -61,11 +61,11 @@ If you are already familiar with the DragonBoard 410c and would like to change o
 
 Please refer to the DragonBoard 410c [Android User Guide](../../../dragonboard410c/AndroidUserGuide_DragonBoard.pdf) for further information on working with Android and some basic programming examples.	
 
-#### Linux
+## Linux
 
 There are several ways to run Linux on your DragonBoard 410c. Procedures to boot/install from a micro SD card as well as installing Linux using fastboot via the USB OTG port can be found [here](../Installation/README.md) and in the basic [Linux User Guide](../../../dragonboard410c/LinuxUserGuide_DragonBoard.pdf).	
 
-#### Windows
+## Windows
 
 Get ready for Windows IoT Core, set up your DragonBoard and build your first Windows IoT Core app. One you have [downloaded and installed](http://ms-iot.github.io/content/en-US/Downloads.htm) this operating system you can visit the [Microsoft Windows Dev Center](https://developer.microsoft.com/en-us/windows/iot) for instructions on how to get started with your first application. 
 
