@@ -4,7 +4,7 @@ These instructions show how to install the Linux version of Eclipse, either on t
 
 Once Eclipse is installed, we will set up a project for cross compiling. It is assumed you have already installed and tested the command line cross compile toolchains ([Cross compile using command line](CommandLine.md)). These instructions do not presume to teach you everything about Eclipse, but rather how to get cross compiling working with Eclipse. If you are unsure as to how to use Eclipse, there are tutorials which can teach you how to use both basic and extended functions.
 
-This instruction set can be paired with one of our [96Boards Blogs from David Mandala]()
+This instruction set can be paired with one of our [96Boards Blogs from David Mandala](http://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/)
 
 ## Assumptions
 
