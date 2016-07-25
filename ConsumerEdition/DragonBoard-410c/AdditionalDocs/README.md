@@ -14,10 +14,14 @@ Explore what makes your DragonBoard 410c unique by checking out technical specif
 - [Snapdragon 410 GPIO Pin Assignment](http://linaro.co/96b-qc-gpio)
 - [Hardware Register Description for Qualcomm Snapdragon 410 (APQ8016)](http://linaro.co/96b-qc-hrd)
 
+***
+
 ## User Guides
 
 - Android User Guide ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/AndroidUserGuide_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/AndroidUserGuide_DragonBoard.pdf))
 - Linux User Guide ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/LinuxUserGuide_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/LinuxUserGuide_DragonBoard.pdf))
+
+***
 
 ## On Qualcomm Developer Network
 
