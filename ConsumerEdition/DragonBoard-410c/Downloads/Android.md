@@ -20,7 +20,7 @@ Continue to [Installation page](../Installation/README.md)
 |:------------------|:-----------------------|
 |Release Notes:      |   [Link](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/)            | 
 
-|   Latest build files    |    [Build Folder](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/latest/) |
+|   Latest build files    |    [Build Folder](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/16.03/) |
 |:------------------------|:-----------------------|
 |boot.img.tar.xz          |[Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/16.03/boot.img.tar.xz)            |
 |system.img.tar.xz        |[Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/16.03/system.img.tar.xz)            |
