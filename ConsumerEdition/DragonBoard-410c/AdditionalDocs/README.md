@@ -24,7 +24,7 @@ Explore what makes your DragonBoard 410c unique by checking out technical specif
 ***
 
 ## On Qualcomm Developer Network
-<img align="http://www.96boards.org/wp-content/uploads/2015/06/QDN-H-RGB-72ppi.gif">
+<img src="http://www.96boards.org/wp-content/uploads/2015/06/QDN-H-RGB-72ppi.gif" data-canonical-src="http://www.96boards.org/wp-content/uploads/2015/06/QDN-H-RGB-72ppi.gif" aligh="right" />
 - [Qualcomm Developer Network](http://linaro.co/1HBLyQM)
 - [Android Release Notes](http://linaro.co/1UyVpA4)
 
