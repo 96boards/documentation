@@ -38,7 +38,7 @@ $ lsblk
 
 ####**Step 3**: Recall Download Location
 
-- Locate SD card install file from Downloads page.
+- Locate SD card install file from [Downloads page](../Downloads/README.md).
 - This file will be needed for the next step.
 
 ####**Step 4**: Unzip _SD Card Install Image_
