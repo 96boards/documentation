@@ -15,7 +15,7 @@ You need to download the compressed `sd-burn.img.gz` from:
      Link: [https://pan.baidu.com/s/1c2Hnc3Y](https://pan.baidu.com/s/1c2Hnc3Y)  
      Password: tt5a*
 - For Global Users:  
-     *[https://mega.nz/#!IlB3RLDT!8NdsJXlTyHI_fGK50PvZsLeTifzSc3IQ7IdyRKbjwtM](https://mega.nz/#!IlB3RLDT!8NdsJXlTyHI_fGK50PvZsLeTifzSc3IQ7IdyRKbjwtM)*
+     [https://mega.nz/#!IlB3RLDT!8NdsJXlTyHI_fGK50PvZsLeTifzSc3IQ7IdyRKbjwtM](https://mega.nz/#!IlB3RLDT!8NdsJXlTyHI_fGK50PvZsLeTifzSc3IQ7IdyRKbjwtM)
 
 Decompress it with following command:  
 `$ gzip -dk sd-burn.img.gz`  
