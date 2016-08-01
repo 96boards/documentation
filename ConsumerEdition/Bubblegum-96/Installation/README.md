@@ -27,12 +27,12 @@ The SD card method allows you to place a microSD card into a Bubblegum-96 to aut
 This method requires the following hardware:
 
 - Bubblegum-96 with power supply
-- Host machine (Linux, Mac OS X, or Windows)
+- Host machine (Linux Host)
 - MicroSD card with 4GB or more of storage
-- USB Mouse and/or keyboard
-- HDMI Monitor with full size HDMI cable
 
-###### This Method is currently not available for this 96Boards.
+Choose Host machine
+
+- [Linux](SD-Method.md)
 
 ***
 
