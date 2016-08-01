@@ -10,7 +10,7 @@ Learn about your HiKey board as well as how to prepare and set up for basic use
 - [USB Keyboard and Mouse](USBKeyBoardMouse.md)
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
 - [Monitor and HDMI Cable](MonitorHDMI.md)
-   - HDMI capable monitor is recommended
+   - All 96Boards are equiped with a full sized HDMI connector, HDMI capable monitor is recommended
 - Jumpers
    - J15 Header on the HiKey comes with two pin-jumpers
 
