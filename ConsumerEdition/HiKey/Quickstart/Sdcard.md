@@ -1,6 +1,0 @@
-## MicroSD card with adapter
-
-
-
-*** 
-
