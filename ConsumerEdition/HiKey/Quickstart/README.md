@@ -80,7 +80,28 @@ If you are already familiar with the HiKey board and would like to change out th
 
 ***
 
-### Wireless Network
+## Initial Power up
+
+**The HiKey comes preloaded with Debian Linux and can be up and running with a few simple steps:**
+
+- Connect the HiKey to your [display with the HDMI cable](MonitorHDMI.md). It is important to do this first because the monitor will not detect the board if it is connected after starting. Ensure that the source for the display is switched to the HDMI port you are using
+- Connect the [USB keyboard and mouse](USBKeyBoardMouse.md). Do not connect the USB OTG port to your computer – this will prevent the keyboard and mouse from operating. The USB OTG port is the micro USB connector on the board
+- Ensure J15 Jumper pins are linked as follows:
+
+| Name          | Link     | State  |
+|:--------------|:--------:|:------:|
+| Auto Power up | Link 1-2 | closed |
+| Boot Select   | Link 3-4 | open   |
+| GPIO3-1       | Link 5-6 | open   |
+
+> Note: The above setup will cause HiKey Board to Auto Power up when it is plugged into power
+
+- Connect the power supply to the HiKey. The board will begin to boot Debian Linux immediately
+- At this point, you can setup your WiFi connection or connect to a wired network
+
+***
+
+## Wireless Network
 
 The HiKey board includes built in [2.4GHz IEEE802.11 b/g/n WiFi networking](http://www.ti.com/product/WL1835MOD). The board does not support the 5GHz band. To use the wireless LAN interface for the first time (or to switch wireless networks) you should click on the wireless LAN icon on the bottom right of the desktop display. The yellow LED between the microUSB and the Type A USB on the front board edge indicates wireless network activity.
 
