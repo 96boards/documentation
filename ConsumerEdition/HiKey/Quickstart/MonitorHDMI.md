@@ -17,7 +17,7 @@ Resolution | Ratio | Usually on
 1280x720 | 16:9 | TV
 800x600	| 4:3 | TV
 
-**Debian Build**
+### Debian Build
 
 The Debian build uses Linux DRM drivers for the graphics system. When first powered up the board will attempt to read the EDID display data from the attached TV/monitor. It will then select the highest resolution format available up to 1920x1080 pixels. If all is well the selected default will work on your TV/Monitor and no more needs to be done. However, in some cases your monitor may not display correctly on the selected setting because the timing is not exactly correct. In this case we have provided a facility to enable you to cycle through the available EDID modes to find one that works correctly for your TV/Monitor.
 
@@ -37,7 +37,7 @@ video=HDMI-A-1:1280x1024@75
 
 Finally, **if you are still having difficulties you can revert to a built-in 720p mode by starting up the HiKey with no HDMI device attached**. The UI will then come up at a fixed 1280x720 resolution which will be used when you then plug the HDMI monitor in. **Pressing hotkey Alt+PrtScr+g  will switch to a built-in 800x600 mode, then cycle back.**
 
-**Android Build**
+### Android Build
 
 [Information on Android To Be Written]
 At the moment resolution is locked at **1280x720p.**(do not use hotkey Alt+PrtScr+g).<br\>
