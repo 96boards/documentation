@@ -6,7 +6,7 @@ There will be **four steps**.
 **Step1.** Download the compressed SD image and decompress it.  
 **Step2.** Create the SD card**(>4G)**.  
 **Step3.** Flash your Bubblegum-96 board.  
-**Step4.** Reboot.  
+**Step4.** Reboot.    
 ---
 ###Step1. Dowload the compressed SD image and decompress it.
 You need to download the compressed `sd-burn.img.gz` from:  
