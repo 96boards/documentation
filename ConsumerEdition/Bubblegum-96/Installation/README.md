@@ -32,7 +32,7 @@ This method requires the following hardware:
 
 Choose Host machine
 
-- [Linux](SD-Method.md)
+- [Linux](LinuxSD.md)
 
 ***
 
