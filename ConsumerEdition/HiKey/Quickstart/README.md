@@ -123,6 +123,8 @@ $ sudo nmcli dev wifi
 
 You can connect to a wired network by using a USB Ethernet adapter. Supported adapters should automatically work when the adapter is installed.
 
+***
+
 ## Bluetooth
 
 The HiKey board includes built-in Bluetooth 4.0 LE support.
@@ -130,6 +132,8 @@ The HiKey board includes built-in Bluetooth 4.0 LE support.
 To setup a Bluetooth device open the Bluetooth Manager from the Preferences menu. If a “Bluetooth Turned Off” popup appears then select “Enable Bluetooth”. Click on "Search" to search for devices. Try with your bluetooth audio and bluetooth keyboard/mouse. If you make the device trusted then this should operate over a reboot of the board.
 
 The blue LED between the microUSB and the Type A USB on the front board edge indicates bluetooth activity.
+
+***
 
 ## Audio Device
 
@@ -145,13 +149,13 @@ Once Bluetooth sound sink is connected, you can open the LXMusic player from the
 $ sudo apt-get install xmms2 xmms2-plugin-*
 ```
 
+***
+
 ## File System
 
 HiKey comes with two eMMC size: 4GB and 8GB.
 
-## Logging in
-
-The default user name is "linaro" and the default password for user linaro is also "linaro"
+***
 
 ## Clock
 
@@ -159,6 +163,8 @@ The HiKey board does not support a battery powered RTC. System time will be obta
 ```
 $ sudo apt-get install fake-hwclock
 ```
+
+***
 
 ## USB
 
@@ -168,6 +174,8 @@ For information on using the utility do the following:
 ```
 $ sudo usb_speed -h
 ```
+
+***
 
 ## System and User LEDs
 
