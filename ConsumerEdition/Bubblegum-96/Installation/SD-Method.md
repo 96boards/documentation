@@ -30,7 +30,7 @@ In this step, please choose the one of two methods depending on your host PC(Lin
 
 ###Step3. Flash your Bubblegum-96 board.  
 1. Insert your SD card into Bubblegum
-2. Boot from SD card:  
+2. Boot from SD card:
 - Press ADFU key for **5 seconds**
 - Power on **without releasing ADFU key**
 - Continue pressing ADFU key for **3 seconds**
