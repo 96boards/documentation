@@ -75,7 +75,6 @@ The following subsections should describe how to get started with the DragonBoar
 - Ensure switch S6 is set to the factory default (0-0-0-0, i.e. all switches are off – see picture on right).
 - Switch S6 can be found on the reverse side of the board in the bottom right-hand corner.
 - Verify the HDMI cable and USB cables are plugged in, then connect the power supply to the DragonBoard. The board will begin to boot Android immediately. Note that this may take a minute or two to get to the Android screen on the HDMI Monitor.
-- At this point, you can setup WiFi in the Android settings and then begin to work with Android on the board.
 
 Please refer to the DragonBoard 410c [Android User Guide](../../../dragonboard410c/AndroidUserGuide_DragonBoard.pdf) for further information on working with Android and some basic programming examples.
 
