@@ -9,9 +9,7 @@ Learn about your HiKey board as well as how to prepare and set up for basic use
    - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
 - [USB Keyboard and Mouse](USBKeyBoardMouse.md)
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
-- Full size HDMI Cable
-   - All 96Boards are equiped with a full sized HDMI connector
-- Monitor
+- [Monitor and HDMI Cable](MonitorHDMI.md)
    - HDMI capable monitor is recommended
 - Jumpers
    - J15 Header on the HiKey comes with two pin-jumpers
@@ -73,11 +71,11 @@ sudo apt-cache search [pattern]
 
 ## Features
 
-|     |     |
+| Component   | Description |
 |:----|:----|
-| SoC |Kirin 620   |
-| CPU |ARM® CortexTM-A53 Octa-core 64-bit up to 1.2GHz (ARM v8 instruction set)|
-| GPU |ARM Mali 450-MP4, supporting 3D graphics processing, OpenGL ES 1.1/2.0, OpenVG 1.1, 2000Mega@500 MHz, 110M triangle@500 MHz, and 32G flops@500MHz |
+| SoC | Kirin 620   |
+| CPU | ARM® CortexTM-A53 Octa-core 64-bit up to 1.2GHz (ARM v8 instruction set)|
+| GPU | ARM Mali 450-MP4, supporting 3D graphics processing, OpenGL ES 1.1/2.0, OpenVG 1.1, 2000Mega@500 MHz, 110M triangle@500 MHz, and 32G flops@500MHz |
 | RAM | 1GB LPDDR3 SDRAM @ 800MHz  |
 | PMU | HI6553V100|
 | Storage |	8GB eMMC on board storage MicroSD card slot  |
@@ -99,10 +97,6 @@ sudo apt-cache search [pattern]
 
 - HDMI EDID display data is used to determine the best display resolution. On monitors and TVs that support 1080p (or 1200p) this resolution will be selected. If 1080p is not supported the next available resolution reported by EDID will be used. This selected mode will work with **MOST but not all** monitors/TVs. 
 - There are limitations on the usage of the USB ports on the HiKey board.
-
-## Monitor
-
-A standard monitor or TV supporting at least 640x480 resolution is required. Interlaced operation is not currently supported. The maximum resolutions currently supported are 1920x1080p or 1920x1200p.
 
 ### Wireless Network
 
