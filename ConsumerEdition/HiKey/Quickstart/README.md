@@ -80,30 +80,6 @@ If you are already familiar with the HiKey board and would like to change out th
 
 ***
 
-
-
-## Update your system
-
-When keeping the stock image, it is recommended to update your system before adding any new software, you should perform the following commands to make sure everything is up to date:
-
-```
-$ sudo apt-get update
-$ sudo apt-get upgrade
-$ sudo apt-get dist-upgrade -u
-```
-
-Once system has been updated, the following command may be executed to install new packages:
-
-```
-sudo apt-get install [package name]
-```
-
-You may also search for available packages:
-
-```
-sudo apt-cache search [pattern]
-```
-
 ### Wireless Network
 
 The HiKey board includes built in [2.4GHz IEEE802.11 b/g/n WiFi networking](http://www.ti.com/product/WL1835MOD). The board does not support the 5GHz band. To use the wireless LAN interface for the first time (or to switch wireless networks) you should click on the wireless LAN icon on the bottom right of the desktop display. The yellow LED between the microUSB and the Type A USB on the front board edge indicates wireless network activity.
