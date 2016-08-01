@@ -36,39 +36,6 @@ The following subsections should describe how to get started with the HiKey usin
 <img src="http://i.imgur.com/g5X5j72.jpg" data-canonical-src="http://i.imgur.com/g5X5j72.jpg" width="250" height="160" />
 <img src="http://i.imgur.com/egwXwjX.jpg" data-canonical-src="http://i.imgur.com/egwXwjX.jpg" width="250" height="160" />
 
-## Updating to a new release or change your operating system
-
-If you are already familiar with the HiKey board and would like to change out the stock operating system please proceed to one of the following pages:
-
-- [**Downloads page**](../Downloads/README.md): This page lists all Linaro and 3rd party operating systems available for HiKey
-- [**Installation page**](../Installation/README.md): If you already have the images you need, this page has information on how to install the different operating systems onto your HiKey board
-- [**Board Recovery**](../Installation/BoardRecovery.md)
-   - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
-- [**Troubleshooting**](../Troubleshooting/README.md)
-   - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
-
-## Update your system
-
-When keeping the stock image, it is recommended to update your system before adding any new software, you should perform the following commands to make sure everything is up to date:
-
-```
-$ sudo apt-get update
-$ sudo apt-get upgrade
-$ sudo apt-get dist-upgrade -u
-```
-
-Once system has been updated, the following command may be executed to install new packages:
-
-```
-sudo apt-get install [package name]
-```
-
-You may also search for available packages:
-
-```
-sudo apt-cache search [pattern]
-```
-
 ## Features
 
 | Component   | Description |
@@ -97,6 +64,45 @@ sudo apt-cache search [pattern]
 
 - HDMI EDID display data is used to determine the best display resolution. On monitors and TVs that support 1080p (or 1200p) this resolution will be selected. If 1080p is not supported the next available resolution reported by EDID will be used. This selected mode will work with **MOST but not all** monitors/TVs. 
 - There are limitations on the usage of the USB ports on the HiKey board.
+
+***
+
+## Updating to a new release or change your operating system
+
+If you are already familiar with the HiKey board and would like to change out the stock operating system please proceed to one of the following pages:
+
+- [**Downloads page**](../Downloads/README.md): This page lists all Linaro and 3rd party operating systems available for HiKey
+- [**Installation page**](../Installation/README.md): If you already have the images you need, this page has information on how to install the different operating systems onto your HiKey board
+- [**Board Recovery**](../Installation/BoardRecovery.md)
+   - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
+- [**Troubleshooting**](../Troubleshooting/README.md)
+   - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
+
+***
+
+
+
+## Update your system
+
+When keeping the stock image, it is recommended to update your system before adding any new software, you should perform the following commands to make sure everything is up to date:
+
+```
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get dist-upgrade -u
+```
+
+Once system has been updated, the following command may be executed to install new packages:
+
+```
+sudo apt-get install [package name]
+```
+
+You may also search for available packages:
+
+```
+sudo apt-cache search [pattern]
+```
 
 ### Wireless Network
 
