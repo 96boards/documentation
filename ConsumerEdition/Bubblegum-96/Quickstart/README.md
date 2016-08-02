@@ -28,9 +28,9 @@ Learn about your Bubblegum-96 board as well as how to prepare and set up for bas
 
 The following subsections should describe how to get started with the Bubblegum-96 using the release build shipped with the boards. The Bubblegum-96 board is ready to use “out of the box” with a preinstalled version of Android.
 
-<img src="http://i.imgur.com/eVR3IZv.png" data-canonical-src="http://i.imgur.com/eVR3IZv.png" width="150" height="105" />
-<img src="http://i.imgur.com/gaFuoBk.png" data-canonical-src="http://i.imgur.com/gaFuoBk.png" width="150" height="105" />
-<img src="http://i.imgur.com/XHiHLOl.png" data-canonical-src="http://i.imgur.com/XHiHLOl.png" width="150" height="105" />
+<img src="http://i.imgur.com/eVR3IZv.png" data-canonical-src="http://i.imgur.com/eVR3IZv.png" width="250" height="160" />
+<img src="http://i.imgur.com/gaFuoBk.png" data-canonical-src="http://i.imgur.com/gaFuoBk.png" width="250" height="160" />
+<img src="http://i.imgur.com/XHiHLOl.png" data-canonical-src="http://i.imgur.com/XHiHLOl.png" width="250" height="160" />
 
 ## Features
 
