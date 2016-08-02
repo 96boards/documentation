@@ -87,7 +87,7 @@ The following subsections should describe how to get started with the HiKey usin
 
 ## Updating to a new release or change your operating system
 
-If you are already familiar with the HiKey board and would like to change out the stock operating system please proceed to one of the following pages:
+If you are already familiar with the HiKey board and would like to change out the stock operating system, please proceed to one of the following pages:
 
 - [**Downloads page**](../Downloads/README.md): This page lists all Linaro and 3rd party operating systems available for HiKey
 - [**Installation page**](../Installation/README.md): If you already have the images you need, this page has information on how to install the different operating systems onto your HiKey board
