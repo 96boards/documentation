@@ -15,8 +15,12 @@ This section show how to install an operating system to your Bubblegum-96 using 
 ###Step1. Dowload the compressed SD image and decompress it.
 You need to download the compressed `sd-burn.img.gz` from:  
 
-*Link: [https://pan.baidu.com/s/1c2Hnc3Y](https://pan.baidu.com/s/1c2Hnc3Y)  
-Password:* tt5a  
+- For Chinese users:  
+Link: [https://pan.baidu.com/s/1c2Hnc3Y](https://pan.baidu.com/s/1c2Hnc3Y)  
+Password: tt5a  
+
+- For Global users:  
+Link: [https://mega.nz/#!w5YHwYLb!8NdsJXlTyHI_fGK50PvZsLeTifzSc3IQ7IdyRKbjwtM](https://mega.nz/#!w5YHwYLb!8NdsJXlTyHI_fGK50PvZsLeTifzSc3IQ7IdyRKbjwtM)  
 
 Decompress it with following command:  
 `$ gzip -dk sd-burn.img.gz`  
