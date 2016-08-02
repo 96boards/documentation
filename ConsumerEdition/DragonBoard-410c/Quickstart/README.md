@@ -63,7 +63,7 @@ The following subsections should describe how to get started with the DragonBoar
 
 ***
 
-## Initial Power up
+## Starting the board for the first time
 
 **The DragonBoard 410c comes preloaded with Android and can be up and running with a few simple steps:**
 
