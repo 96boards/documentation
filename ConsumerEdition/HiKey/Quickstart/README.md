@@ -65,7 +65,7 @@ The following subsections should describe how to get started with the HiKey usin
 
 ***
 
-## Initial Power up
+## Starting the board for the first time
 
 **The HiKey comes preloaded with Debian Linux and can be up and running with a few simple steps:**
 
