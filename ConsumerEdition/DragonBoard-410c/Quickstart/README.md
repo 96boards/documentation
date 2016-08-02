@@ -16,7 +16,7 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
 - MicroSD card with adapter
    - For quick and easy switching between operating systems and extra storage
 - [Mezzanine Products](../../../MezzanineProducts/README.md)
-   - These mezzanine add-ons will allow you to access a variety of peripherals on the DragonBoard™ 410c
+   - These devices allow you to expand your experience with any 96Boards by adding peripherals and enhancing onboard components
 - USB to MicroUSB cable
    - This is needed for serial console interface and fastboot/adb commands
 - USB to ethernet adapter and ethernet cable
@@ -59,7 +59,7 @@ The following subsections should describe how to get started with the DragonBoar
 **IMPORTANT NOTES**
 
 - HDMI EDID display data is used to determine the best display resolution. On monitors and TVs that support 1080p (or 1200p) this resolution will be selected. If 1080p is not supported the next available resolution reported by EDID will be used. This selected mode will work with **MOST but not all** monitors/TVs. 
-- There are limitations on the usage of the USB ports on the DragonBoard 410c board.
+- There are limitations on the usage of the USB ports on the DragonBoard 410c.
 
 ***
 
@@ -90,5 +90,7 @@ If you are already familiar with the DragonBoard 410c and would like to change o
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 - [**Troubleshooting**](../Troubleshooting/README.md)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
+
+Back to the [DragonBoard 410c documentation home page](../README.md)
 
 ***
