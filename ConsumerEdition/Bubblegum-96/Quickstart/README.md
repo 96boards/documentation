@@ -63,7 +63,7 @@ The following subsections should describe how to get started with the Bubblegum-
 
 ***
 
-## Initial Power up
+## Starting the board for the first time
 
 **The Bubblegum-96 comes preloaded Android and can be up and running with a few simple steps:**
 
