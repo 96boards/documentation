@@ -82,7 +82,7 @@ Please refer to the DragonBoard 410c [Android User Guide](../../../dragonboard41
 
 ## Updating to a new release or change your operating system
 
-If you are already familiar with the DragonBoard 410c and would like to change out the stock operating system please proceed to one of the following pages:
+If you are already familiar with the DragonBoard 410c and would like to change out the stock operating system, please proceed to one of the following pages:
 
 - [**Downloads page**](../Downloads/README.md): This page lists all Linaro and 3rd party operating systems available for the DragonBoard 410c
 - [**Installation page**](../Installation/README.md): If you already have the images you need, this page has information on how to install the different operating systems onto your DragonBoard 410c
