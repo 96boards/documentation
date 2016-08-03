@@ -30,6 +30,8 @@ This method requires the following hardware:
 - Host machine (Linux Host)
 - MicroSD card with 4GB or more of storage
 
+Go to the [Downloads page](../Downloads/README.md) to get your SD card image.
+
 Choose Host machine
 
 - [Linux](LinuxSD.md)
