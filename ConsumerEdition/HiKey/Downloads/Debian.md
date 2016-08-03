@@ -8,9 +8,6 @@
 
 |   SD Card Image    |    [Desktop](http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_alip_*.img.gz) or [Developer](http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_developer_*.img.gz)    |
 |:------------------|:-----------------------|
-|Version:           |November 2015           |
-|Release Date:      |2015.11.30              | 
-|Kernel Version:    |3.18                    |
 |Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)       |
 
 Continue to [Installation page](../Installation/README.md)
@@ -29,14 +26,10 @@ Continue to [Installation page](../Installation/README.md)
 
 |   Boot image    |    [Download](http://builds.96boards.org/releases/hikey/linaro/debian/latest/boot-fat.uefi.img.gz)    |
 |:------------------|:-----------------------|
-|Version:           |November 2015           |
-|Release Date:      |2015.11.30              | 
 |Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)      |
 
 |   Rootfs image    |    Desktop([4G](http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_alip_*-4g.emmc.img.gz) / [8G](http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_alip_*-8g.emmc.img.gz)) or Developer([4G](http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_developer_*-4g.emmc.img.gz) / [8G](http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_developer_*-8g.emmc.img.gz))   |
 |:------------------|:----------------------------------|
-|Version:           |November 2016                      |
-|Release Date:      |2015.11.30                         | 
 |Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)      |
 
 Continue to [Installation page](../Installation/README.md)
