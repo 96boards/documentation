@@ -6,7 +6,13 @@
 
 ## SD Card image
 
-###### SD Card image is not available for the Bubblegum-96 at this moment.
+|   SD Card Image    |      |
+|:------------------|:-----------------------|
+| Chinese User | [Download](https://pan.baidu.com/s/1c2Hnc3Y); Password: tt5a|
+| Global User | [Download](https://mega.nz/#!w5YHwYLb!8NdsJXlTyHI_fGK50PvZsLeTifzSc3IQ7IdyRKbjwtM) |
+|Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)       |
+
+Continue to [Installation page](../Installation/README.md)
 
 ***
 
