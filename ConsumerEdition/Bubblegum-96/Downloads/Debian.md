@@ -14,20 +14,14 @@
 
 |   Bootloader    |    [Download](http://builds.96boards.org/snapshots/bubblegum/linaro/u-boot/latest/u-boot-dtb.img)    |
 |:------------------|:-----------------------|
-|Version:           |March 2016           |
-|Release Date:      |2016.03.29              | 
 |Release Notes:     |[Link](http://builds.96boards.org/snapshots/bubblegum/linaro/u-boot/latest/)      |
 
 |   Boot image    |    [Download](http://builds.96boards.org/snapshots/bubblegum/linaro/debian/latest/boot.emmc.img.gz)    |
 |:------------------|:-----------------------|
-|Version:           |March 2016           |
-|Release Date:      |2016.03.29              | 
 |Release Notes:     |[Link](http://builds.96boards.org/snapshots/bubblegum/linaro/debian/latest/)      |
 
 |   Rootfs image    |    [Desktop](http://builds.96boards.org/snapshots/bubblegum/linaro/debian/latest/bubblegum-jessie_alip_*.emmc.img.gz) or [Developer](http://builds.96boards.org/snapshots/bubblegum/linaro/debian/latest/bubblegum-jessie_developer_*.emmc.img.gz)   |
 |:------------------|:----------------------------------|
-|Version:           |March 2016                      |
-|Release Date:      |2016.03.29                         | 
 |Release Notes:     |[Link](http://builds.96boards.org/snapshots/bubblegum/linaro/debian/latest/)      |
 
 Continue to [Installation page](../Installation/README.md)
