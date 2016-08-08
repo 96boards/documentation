@@ -122,11 +122,11 @@ The bootloader has now been installed into RAM. Wait a few seconds for the fastb
 **NOTE:** the ptable must be flashed first. Wait for a few seconds after the reboot command to allow the bootloader to restart using the new partition table. (Example goes with 8G)
 
 ```
-$ sudo fastboot flash ptable ptable-linux-8g.img
 $ sudo python hisi-idt.py -d /dev/ttyUSB0 --img1=l-loader.bin (again, remember ttyUSB* can change)
+$ sudo fastboot flash ptable ptable-linux-8g.img
 $ sudo fastboot flash fastboot fip.bin
 $ sudo fastboot flash nvme nvme.img
-$ sudo fastboot flash boot boot-fat.uefi.img
+$ sudo fastboot flash boot boot-fat.uefi.img (boot image file name can change based on build)
 ```
 
 Once this has been completed the bootloader has been installed into eMMC.
