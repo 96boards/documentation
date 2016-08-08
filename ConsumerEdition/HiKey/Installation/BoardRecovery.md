@@ -123,7 +123,6 @@ The bootloader has now been installed into RAM. Wait a few seconds for the fastb
 
 ```
 $ sudo fastboot flash ptable ptable-linux-8g.img
-$ sudo fastboot reboot
 $ sudo python hisi-idt.py -d /dev/ttyUSB0 --img1=l-loader.bin (again, remember ttyUSB* can change)
 $ sudo fastboot flash fastboot fip.bin
 $ sudo fastboot flash nvme nvme.img
