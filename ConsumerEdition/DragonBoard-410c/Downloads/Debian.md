@@ -8,9 +8,6 @@
 
 |   SD Card Image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_install_debian-*.zip)    |
 |:------------------|:-----------------------|
-|Version:           |June 2016               |
-|Release Date:      |2016.06.30              | 
-|Kernel Version:    |4.4.9                   |
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)       |
 
 ### Continue to [Installation page](../Installation/README.md)
