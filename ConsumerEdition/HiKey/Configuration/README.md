@@ -12,3 +12,5 @@ Execute unique configuraions to customize your HiKey experience
    - Bluetooth audio devices are supported on HiKey.
 - [USB](USB.md)
    - For more information on using the USB utility included on your HiKey board.
+- [System LEDs](SystemLEDs.md)
+   - Each board LED has a directory in your sys folder. Click here for more information on how to use/toggle
