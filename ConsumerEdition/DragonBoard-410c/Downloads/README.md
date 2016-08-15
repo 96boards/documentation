@@ -16,6 +16,6 @@ The DragonBoard 410c comes pre-installed with Android (if purchased in a kit, OS
 
 Other operating systems supported on DragonBoard 410c, offered by partners.
 
-- [Windows IoT Core](http://ms-iot.github.io/content/en-US/Downloads.htm)
+- [Windows IoT Core](http://linaro.co/db41db410cwindowsgetstarted)
 
 ***
