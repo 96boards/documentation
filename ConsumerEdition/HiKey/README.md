@@ -4,7 +4,7 @@ A comprehensive guide to using the [HiKey](https://www.96boards.org/products/ce/
 
 ## Contents
 
-- [Quickstart](Quickstart/README.md)
+- [Getting Started](Quickstart/README.md)
    - Learn about your HiKey board, how to prepare and set up for basic use
 - [Installation](Installation/README.md)
    - Choose and install an operating system on your HiKey
