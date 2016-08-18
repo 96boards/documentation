@@ -4,7 +4,7 @@ A comprehensive guide to using the [Bubblegum-96](https://www.96boards.org/produ
 
 ## Contents
 
-- [Quickstart](Quickstart/README.md)
+- [Getting Started](Quickstart/README.md)
    - Learn about your Bubblegum-96 board, how to prepare and set up for basic use
 - [Installation](Installation/README.md)
    - Choose and install an operating system on your Bubblegum-96
