@@ -4,7 +4,7 @@ A comprehensive guide to using the [DragonBoard 410c](https://www.96boards.org/p
 
 ## Contents
 
-- [Quickstart](Quickstart/README.md)
+- [Getting Started](Quickstart/README.md)
    - Learn about your DragonBoard 410c board, how to prepare and set up for basic use
 - [Installation](Installation/README.md)
    - Choose and install an operating system on your DragonBoard 410c
