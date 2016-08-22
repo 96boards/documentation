@@ -5,6 +5,8 @@ Learn about your Bubblegum-96 board as well as how to prepare and set up for bas
 ## Setup - What you will need
 
 **Need**
+- [Bubblegum-96 Development Board](http://www.96boards.org/product/bubblegum-96/)
+   - Board based on Actions Semi S900 Processor
 - [Power adapter](PowerAdapter.md)
    - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
 - USB Keyboard and Mouse
