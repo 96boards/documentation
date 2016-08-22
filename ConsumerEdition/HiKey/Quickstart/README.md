@@ -5,8 +5,8 @@ Learn about your HiKey board as well as how to prepare and set up for basic use
 ## Setup - What you will need
 
 **Need**
-- [DragonBoard 410c Development Board](http://www.96boards.org/product/dragonboard410c/)
-   - Board based on Qualcomm® Snapdragon™ 410 processor
+- [HiKey Development Board](http://www.96boards.org/product/hikey/)
+   - Board based on HiSilicon Kirin 6220 processor
 - [Power adapter](PowerAdapter.md)
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter
 - [USB Keyboard and Mouse](USBKeyBoardMouse.md)
