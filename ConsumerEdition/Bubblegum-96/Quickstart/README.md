@@ -9,7 +9,7 @@ Learn about your Bubblegum-96 board as well as how to prepare and set up for bas
    - Board based on Actions Semi S900 Processor
 - [Power adapter](PowerAdapter.md)
    - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
-- USB Keyboard and Mouse
+- [USB Keyboard and Mouse](USBKeyBoardMouse.md)
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
 - [Monitor and HDMI Cable](MonitorHDMI.md)
    - All 96Boards are equiped with a full sized HDMI connector, HDMI capable monitor is recommended
