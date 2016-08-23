@@ -3,11 +3,9 @@
 **Debian Linux** is a desktop/window or console (command line) based development environment comprised of some basic programs and utilities. Development can happen directly on the board, and within the OS. While applications and programs can be built directly on the board, they can also be built remotely and cross-compiled for the particular system.
 
 ***
-http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_alip_20151130-387.img.gz
-http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_developer_20151130-387.img.gz
 
 ## SD Card image
-http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_alip_20151130-387-4g.emmc.img.gz
+
 |   SD Card Image    |    [Desktop](http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_alip_*.img.gz) or [Developer](http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_developer_*.img.gz)    |
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)       |
