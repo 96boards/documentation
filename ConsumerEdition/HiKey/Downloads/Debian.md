@@ -6,7 +6,7 @@
 
 ## SD Card image
 
-|   SD Card Image    |    [Desktop](http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_alip_*.img.gz) or [Developer](http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_developer_*.img.gz)    |
+|   SD Card Image    |    [Desktop](http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_alip_20151130-387.img.gz) or [Developer](http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_developer_20151130-387.img.gz)    |
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)       |
 
