@@ -10,7 +10,7 @@
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)       |
 
-Continue to [Installation page](../Installation/README.md)
+### Continue to [Installation page](../Installation/README.md)
 
 ***
 
@@ -32,4 +32,4 @@ Continue to [Installation page](../Installation/README.md)
 |:------------------|:----------------------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)      |
 
-Continue to [Installation page](../Installation/README.md)
+### Continue to [Installation page](../Installation/README.md)
