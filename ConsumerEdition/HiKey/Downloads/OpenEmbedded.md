@@ -28,5 +28,5 @@ Only download one root file system (Console or Desktop). You should match the ty
 | RPB  | ([Desktop](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb/rpb-desktop-image-hikey-*.rootfs.ext4.gz) / [Console](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb/rpb-console-image-hikey-*.rootfs.ext4.gz))    |
 | RPB-Wayland  | ([Desktop](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb-wayland/rpb-weston-image-hikey-*.rootfs.ext4.gz) / [Console](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb-wayland/rpb-console-image-hikey-*.rootfs.ext4.gz))     |
 
-Continue to [Installation page](../Installation/README.md)
+### Continue to [Installation page](../Installation/README.md)
 
