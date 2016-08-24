@@ -17,9 +17,9 @@ Select your platform for a list supported products and 96Boards specific resourc
    - Linaro brings together industry and the open source community to work on a wide variety of projects and tools to reduce industry wide fragmentation and redundant effort, and provide common software foundations for everyone.
 - [96Boards](http://www.96boards.org/about)
    - The first open specification to define a platform for the delivery of compatible low-cost, small footprint 32-bit and 64-bit Cortex-A boards from a range of ARM System on Chip (SoC) vendors
-- [Report a bug](Report_a_bug.md)
+- [Report a bug](Extras/Report_a_bug.md)
    - Instructions on how to report bugs for any of our 96Boards hardware and software
-- [Contribution Policy](ContributionPolicy.md)
+- [Contribution Policy](Extras/ContributionPolicy.md)
    - View our documentation "Contribution Policy" and learn how you can contribute
 - [Specifications](Specifications/README.md)
    - Low cost an server hardware platform specifications
