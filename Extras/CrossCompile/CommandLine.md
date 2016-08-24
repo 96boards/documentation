@@ -201,7 +201,7 @@ $ cp board_test.c compile_test.c
 
 **Cross compile:**
 
-`$ aarch64-linux-gnu-gcc -I /usr/aarch64-linux-gnu/local/include/ -L /usr/aarch64-linux-gnu/local/lib/ compile_test.c -o compile_test.arm -lsoc`
+`$ aarch64-linux-gnu-gcc -ggdb -O0 -I /usr/aarch64-linux-gnu/local/include/ -L /usr/aarch64-linux-gnu/local/lib/ compile_test.c -o compile_test.arm -lsoc`
 
 **Test:**
 
