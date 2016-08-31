@@ -12,7 +12,9 @@ A comprehensive guide to using the [DragonBoard 410c](https://www.96boards.org/p
    - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
 - [Configuration](Configuration/README.md)
    - Execute unique configurations to customize your DragonBoard 410c experience
-- [Additional Documentation](AdditionalDocs/README.md)
+- [Hardware Documentation](HardwareDocs/README.md)
    - Explore what makes your DragonBoard 410c unique, technical specifications, schematics, hardware notes and more...
+- [Additional Documentation](AdditionalDocs/README.md)
+   - Discover our list of community and vendor sponsored DragonBoard 410c documents
 - [Troubleshooting](Troubleshooting/README.md)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
