@@ -1,7 +1,7 @@
 # Specifications
 
-- [Consumer Edition Specification](../96BoardsCESpecificationv1.0-EA1.pdf)
+- [Consumer Edition Specification](../96Boards-CE-Specification.pdf)
    - Low-cost Hardware Platform Specification
-- [Enterprise Edition Specification](../96BoardsEESpecificationv1.0.pdf)
+- [Enterprise Edition Specification](../96Boards-EE-Specification.pdf)
    - Server Hardware Platform Specification
 - [TV Platform Specification](96Boards-EE-TV-Platform-Specification.pdf)
