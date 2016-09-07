@@ -50,14 +50,12 @@ $ sudo apt-get install libsoc-dev
 **MRAA** ([Read More](https://github.com/intel-iot-devkit/mraa)):
 
 ```shell
-$ sudo apt-get install libmraa0
 $ sudo apt-get install libmraa-dev
 ```
 
 **UPM** ([Read More](https://github.com/intel-iot-devkit/upm)):
 
 ```shell
-$ sudo apt-get install libupm0
 $ sudo apt-get install libupm-dev
 ```
 
