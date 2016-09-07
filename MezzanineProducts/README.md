@@ -12,5 +12,5 @@
    - USB to UART interface to be used with any 96Boards Consumer or Enterprise Edition board
 - [Sensors mezzanine](SensorsMezzanine/README.md)
    -  I/O Expansion board for IoT/Sensor applications, with SoC and Arduino-compatible Grove module interfaces, and Arduino-compatible shield connectors.
-- [Aero Core 2](AeroCore2.md)
+- [Aero Core 2](AeroCore2/README.md)
    - The Aero Core 2 for 96Boards provides an ARM Cortex-M4 microcontroller for MAV control and much more...
