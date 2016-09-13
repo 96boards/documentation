@@ -1,12 +1,14 @@
 ## Enterprise Edition Documentation
 
-Welcome to the official documentation for Enterprise Edition 96Boards, this documentation is written by the 96Boards team at Linaro.
+Welcome to the official documentation for 96Boards, this documentation is written by the 96Boards team at Linaro with community contribution and links to third party material.
 
 ## Contents - Start Here
 
 Select your Enterprise Edition 96Boards device to access all product related resources
 
-- [Cello](Cello/README.md)
-   - Board based on AMD Opteron A1100 Series SoC
+| 96Boards                                | About                                       | Options                                       |
+|:---------------------------------------:|:-------------------------------------------:|:---------------------------------------------:|
+| <img src="http://i.imgur.com/Od6HOwS.jpg" data-canonical-src="http://i.imgur.com/Od6HOwS.jpg" width="200" height="130" /><br> **Cello** | Board based on AMD Opteron A1100 Series SoC                                           | [Documentation](Cello/README.md)<br>          |
+
 
 ***
