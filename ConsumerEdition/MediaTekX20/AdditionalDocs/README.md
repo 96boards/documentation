@@ -4,5 +4,5 @@ Discover our list of community and vendor sponsored MediaTek X20 documents. This
 
 ## User Guides
 
-- User Manual ([View](HardwareUserManual.md))
+- User Manual ([View](UserManual.md))
 

@@ -1,3 +1,0 @@
-## Linux Host
-
-**Currently unavailable**

@@ -1,3 +1,0 @@
-## Windows Host
-
-**Currently unavailable**
