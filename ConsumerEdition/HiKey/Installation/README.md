@@ -11,10 +11,11 @@ Choose and install an operating system on your HiKey. To appropriately follow th
 
 ## Methods of Installation
 
-In most cases, you will be presented with two options when installing your new operating system onto your HiKey:
+In most cases, you will be presented with one or two options when installing your new operating system onto your HiKey:
 
 - SD Card Method
 - Fastboot Method
+- Factory Images Method
 
 Each method has it's own benifits, and requires different levels of experience
 
@@ -57,6 +58,24 @@ Go to the [Downloads page](../Downloads/README.md) to get your bootloader, boot 
 Choose host machine
 
 - [Linux](LinuxFastboot.md)
+
+***
+### Factory Images Method
+
+Factory Images are one of the easier way to install a image onto a device, and is reccomended for new users. It is similar to the fastboot method, but all the binary objects and a flashall.sh script are provided in a single zip file, so one doesn't need to make sure they have the right versions of various binary images, nor remember which order might be required to flash images.
+
+This method requires the following hardware:
+
+- HiKey with power supply
+- Host machine (Linux, Possibly MacOS?)
+- USB to microUSB cable
+- HDMI Monitor with full size HDMI cable (not required to perform flash)
+
+Go to the [Downloads page](../Downloads/README.md) to get your Factory Image zip file.
+
+Choose host machine
+
+- [Linux](LinuxFactoryImage.md)
 
 ***
 
