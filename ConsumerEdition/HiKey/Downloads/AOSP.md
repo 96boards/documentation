@@ -4,12 +4,6 @@
 
 ***
 
-## SD Card image
-
-Not Available...
-
-***
-
 ## Factory Image File
 
 |   Zip file                                            |                                                                              |
