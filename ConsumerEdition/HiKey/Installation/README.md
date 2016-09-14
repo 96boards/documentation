@@ -19,6 +19,8 @@ In most cases, you will be presented with one or two options when installing you
 
 Each method has it's own benifits, and requires different levels of experience
 
+***
+
 ### SD Card Method
 
 The SD card method allows you to place a microSD card into a HiKey to automatically boot and install an operating system onto the eMMC of your board. This method is generally simpler than other methods and should be used by beginners.
