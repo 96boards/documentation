@@ -90,7 +90,7 @@ console=ttyMSM0,115200n8"
 
 > Note: DragonBoard 410c must first be booted into fastboot mode
 
-`$ sudo fastboot boot boot-db410c.img`
+`$ sudo fastboot flash boot boot-db410c.img`
 
 Kernel warning when booting the kernel:
 
