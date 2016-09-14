@@ -63,7 +63,7 @@
 		</tr>
 				<tr>
 			<td> <img src="http://i.imgur.com/kSjTguX.png" data-canonical-src="http://i.imgur.com/kSjTguX.png" width="70" height="50" /> <br> Mediatek X20</td>
-			<td>Application Processor<br>Mediatek X20</td>
+			<td>Application Processor<br>Helio X20</td>
 			<td>2xARM Cortex-A72<br>4xARM Cortex-A53<br>4xARM Cortex-A53</td>
 			<td>10</td>
 			<td>2.3 GHz<br>1.95 GHz<br>1.4 GHz</td>
