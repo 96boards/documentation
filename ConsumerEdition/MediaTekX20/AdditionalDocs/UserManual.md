@@ -166,7 +166,7 @@ The box contains one MediaTek X20 Development Board and a quick start guide.
 
 ## System Block Diagram
 
-<img src="http://i.imgur.com/YPYH7RJ.png" data-canonical-src="http://i.imgur.com/YPYH7RJ.png" width="750" height="480" />
+<img src="http://i.imgur.com/xEAYGx1.png" data-canonical-src="http://i.imgur.com/xEAYGx1.png" width="750" height="480" />
 
 [Back to top](#MediaTek-x20-development-board-hardware-user-manual)
 
