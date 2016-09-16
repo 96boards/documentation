@@ -135,6 +135,7 @@ wlan0     Link encap:Ethernet WHaddr 8d:fd:f0:01:22:d7
           TX packets:22 errors:0 dropped:0 overruns:0 carrier:0
           Collisions:0 txqueuelen:1000
           RX bytes:8264 (8.2 KB) TX bytes:8145 (8.1 KB)
+```
 
 > NOTE: If you are unable to follow this procedure, re-image your DragonBoard 410c device and repeat
 this section.
