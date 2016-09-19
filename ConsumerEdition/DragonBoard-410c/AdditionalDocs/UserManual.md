@@ -78,6 +78,8 @@
 - [Special care when using USB](#special-care-when-using-usb)
 - [Statements regarding FCC](#statements-regarding-fcc)
 
+[Click Here](Images/UserManual) for access to raw images used in this doc.
+
 ***
 
 ## Introduction
