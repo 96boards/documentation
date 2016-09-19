@@ -9,9 +9,9 @@
 
 The DragonBoard 410c (‘410c’) board is a 96Boards compliant community board based on Qualcomm® Snapdragon 400 series of SoC’s.
 
-<img src="" data-canonical-src="" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/DragonBoard410c-Front-SD.jpg" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/DragonBoard410c-Front-SD.jpg" width="250" height="160" />
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/DragonBoard410c-Angle-SD.jpg" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/DragonBoard410c-Angle-SD.jpg" width="250" height="160" />
-<img src="" data-canonical-src="" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/DragonBoard410c-Back-SD.jpg" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/DragonBoard410c-Back-SD.jpg" width="250" height="160" />
  
 The following table lists it's key features:
 
@@ -77,8 +77,8 @@ The following table lists it's key features:
 
 The box contains one DragonBoard 410c and a quick start guide.
 
-<img src="" data-canonical-src="" width="400" height="270" />
-<img src="" data-canonical-src="" width="450" height="250" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/BoxBoard.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/BoxBoard.png" width="400" height="270" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/BoxPamplet.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/BoxPamplet.png" width="450" height="250" />
 
 
 [Back to top](#DragonBoard-410c-user-manual)
@@ -109,8 +109,8 @@ The box contains one DragonBoard 410c and a quick start guide.
 |    18    |           |  GPS Antenna                                              |
 |    19    |  S6       |  (S6) Boot Switches                                       |
 
-<img src="" data-canonical-src="" width="400" height="270" />
-<img src="" data-canonical-src="" width="400" height="270" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/DB410c_Numbered_Front.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/DB410c_Numbered_Front.png" width="400" height="270" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/DB410c_Numbered_Back.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/DB410c_Numbered_Back.png" width="400" height="270" />
 
 [Back to top]()
 
@@ -118,7 +118,7 @@ The box contains one DragonBoard 410c and a quick start guide.
 
 ## System Block Diagram
 
-<img src="" data-canonical-src="" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/BlockDiagram.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/BlockDiagram.png" width="750" height="480" />
 
 [Back to top]()
 
@@ -251,7 +251,7 @@ expansion connector.
 
 ### USB Ports
 
-<img src="" data-canonical-src="" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/USBPorts.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/USBPorts.png" width="750" height="480" />
 
 ### USB Host ports
 
@@ -363,6 +363,8 @@ proper OS User Guide for more information on this process.
 - **Switch 3, ‘USB HOST’**, is described in section 5.8. This switch in not part of the boot configuration.
 - **Switch 4, ‘HDMI SEL’**, is described in section 5.6.1. This switch is not part of the boot configuration.
 
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/BootConfiguration.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/BootConfiguration.png" width="200" height="125" />
+
 ### LED Indicators
 
 The 96Boards specifications calls for six LEDs to be implemented on the board. The specification defines the LEDs color
@@ -398,28 +400,28 @@ The 410c meets this requirement, the following sub-sections cover these connecto
 
 ### Low Speed Expansion Connector
 
-|  410c Signals                                    |96Boards Signals|PIN|PIN|96Boards Signals|  410c Signals                           |
-|:-------------------------------------------------|:---------------|:--|--:|---------------:|----------------------------------------:|
-|    GND                                           |     GND        |1  |2  |GND             |GND                                      |
-|    UART0_CTS_N (APQ GPIO_2)                      |     UART0_CTS  |3  |4  |PWR_BTN_N       |PHONE_ON_N                               |
-|    UART0_TX (APQ GPIO_0)                         |     UART0_TxD  |5  |6  |RST_BTN_N       |PM_RESIN_N                               |
-|    UART0_RX (APQ GPIO_1)                         |     UART0_RxD  |7  |8  |SPI0_SCLK       |SPI0_CLK (APQ GPIO_19)                   |
-|    UART0_RTS_N (APQ GPIO_3)                      |     UART0_RTS  |9  |10 |SPI0_DIN        |SPI0_MISO (APQ GPIO_17)                  |
-|    UART1_TX (APQ GPIO_4)                         |     UART1_TxD  |11 |12 |SPI0_CS         |SPI0_CS_N (APQ GPIO_18)                  |
-|    UART1_RX (APQ GPIO_5)                         |     UART1_RxD  |13 |14 |SPI0_DOUT       |SPI0_MOSI (APQ GPIO_16)                  |
-|    I2C0_SCL (APQ GPIO_7)                         |     I2C0_SCL   |15 |16 |PCM_FS          |LS_EXP_MI2S_WS (APQ GPIO_110)            |
-|    I2C0_SDA (APQ GPIO_6)                         |     I2C0_SDA   |17 |18 |PCM_CLK         |LS_EXP_MI2S_SCK (APQ GPIO_113) (ALPS_INT)|
-|    I2C1_SCL (APQ GPIO_23)                        |     I2C1_SCL   |19 |20 |PCM_DO          |LS_EXP_MI2S_DATA0 (APQ GPIO_114)         |
-|    I2C1_SDA (APQ GPIO_22)                        |     I2C1_SDA   |21 |22 |PCM_DI          |N.C.                                     |
-|    LS_EXP_GPIO_A (APQ GPIO_36) (APQ INT)         |     GPIO-A     |23 |24 |GPIO-B          |LS_EXP_GPIO_B (APQ GPIO_12) (TS_RST_N)   |
-|    LS_EXP_GPIO_C (APQ GPIO_13) (TS_INT_N)        |     GPIO-C     |25 |26 |GPIO-D          |LS_EXP_GPIO_D (APQ GPIO_69) (MAG_INT)    |
-|    LS_EXP_GPIO_E (APQ GPIO_115) (GYRO_ACCL_INT_N)|     GPIO-E     |27 |28 |GPIO-F          |LS_EXP_GPIO_F (PM_MPP_4) (DSI_BLCTRL)    |
-|    LS_EXP_GPIO_G (APQ GPIO_24) (DSI_VSYNC)       |     GPIO-G     |29 |30 |GPIO-H          |LS_EXP_GPIO_H (APQ GPIO_25) (DSI_RST)    |
-|    LS_EXP_GPIO_I (APQ GPIO_35) (CSI0_RST)        |     GPIO-I     |31 |32 |GPIO-J          |LS_EXP_GPIO_J (APQ GPIO_34) (CSI0_PWDN)  |
-|    LS_EXP_GPIO_K (APQ GPIO_28) (CSI1_RST)        |     GPIO-K     |33 |34 |GPIO-L          |LS_EXP_GPIO_L (APQ GPIO_33) (CSI1_PWDN)  |
-|    LS_EXP_1P8                                    |     +1V8       |35 |36 |SYS_DCIN        |SYS_DCIN                                 |
-|    SYS_5P0                                       |     +5V        |37 |38 |SYC_DCIN        |SYS_DCIN                                 |
-|    GND                                           |     GND        |39 |40 |GND             |GND                                      |
+|  410c Signals                                    |96Boards Signals|PIN|PIN|96Boards Signals|  410c Signals                         |
+|:-------------------------------------------------|:---------------|:--|--:|---------------:|--------------------------------------:|
+|    GND                                           |     GND        |1  |2  |GND             |GND                                    |
+|    UART0_CTS_N (APQ GPIO_2)                      |     UART0_CTS  |3  |4  |PWR_BTN_N       |PHONE_ON_N                             |
+|    UART0_TX (APQ GPIO_0)                         |     UART0_TxD  |5  |6  |RST_BTN_N       |PM_RESIN_N                             |
+|    UART0_RX (APQ GPIO_1)                         |     UART0_RxD  |7  |8  |SPI0_SCLK       |SPI0_CLK (APQ GPIO_19)                 |
+|    UART0_RTS_N (APQ GPIO_3)                      |     UART0_RTS  |9  |10 |SPI0_DIN        |SPI0_MISO (APQ GPIO_17)                |
+|    UART1_TX (APQ GPIO_4)                         |     UART1_TxD  |11 |12 |SPI0_CS         |SPI0_CS_N (APQ GPIO_18)                |
+|    UART1_RX (APQ GPIO_5)                         |     UART1_RxD  |13 |14 |SPI0_DOUT       |SPI0_MOSI (APQ GPIO_16)                |
+|    I2C0_SCL (APQ GPIO_7)                         |     I2C0_SCL   |15 |16 |PCM_FS          |LS_EXP_MI2S_WS (APQ GPIO_110)          |
+|    I2C0_SDA (APQ GPIO_6)                         |     I2C0_SDA   |17 |18 |PCM_CLK         |LS_EXP_MI2S_SCK(APQ GPIO_113)(ALPS_INT)|
+|    I2C1_SCL (APQ GPIO_23)                        |     I2C1_SCL   |19 |20 |PCM_DO          |LS_EXP_MI2S_DATA0 (APQ GPIO_114)       |
+|    I2C1_SDA (APQ GPIO_22)                        |     I2C1_SDA   |21 |22 |PCM_DI          |N.C.                                   |
+|    LS_EXP_GPIO_A (APQ GPIO_36) (APQ INT)         |     GPIO-A     |23 |24 |GPIO-B          |LS_EXP_GPIO_B (APQ GPIO_12) (TS_RST_N) |
+|    LS_EXP_GPIO_C (APQ GPIO_13) (TS_INT_N)        |     GPIO-C     |25 |26 |GPIO-D          |LS_EXP_GPIO_D (APQ GPIO_69) (MAG_INT)  |
+|    LS_EXP_GPIO_E (APQ GPIO_115) (GYRO_ACCL_INT_N)|     GPIO-E     |27 |28 |GPIO-F          |LS_EXP_GPIO_F (PM_MPP_4) (DSI_BLCTRL)  |
+|    LS_EXP_GPIO_G (APQ GPIO_24) (DSI_VSYNC)       |     GPIO-G     |29 |30 |GPIO-H          |LS_EXP_GPIO_H (APQ GPIO_25) (DSI_RST)  |
+|    LS_EXP_GPIO_I (APQ GPIO_35) (CSI0_RST)        |     GPIO-I     |31 |32 |GPIO-J          |LS_EXP_GPIO_J (APQ GPIO_34) (CSI0_PWDN)|
+|    LS_EXP_GPIO_K (APQ GPIO_28) (CSI1_RST)        |     GPIO-K     |33 |34 |GPIO-L          |LS_EXP_GPIO_L (APQ GPIO_33) (CSI1_PWDN)|
+|    LS_EXP_1P8                                    |     +1V8       |35 |36 |SYS_DCIN        |SYS_DCIN                               |
+|    SYS_5P0                                       |     +5V        |37 |38 |SYC_DCIN        |SYS_DCIN                               |
+|    GND                                           |     GND        |39 |40 |GND             |GND                                    |
 
 ### UART {0/1} 
 
@@ -781,7 +783,7 @@ rail:
 
 ### 2D Reference Drawing
 
-<img src="" data-canonical-src="" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/2DDrawing.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/2DDrawing.png" width="750" height="480" />
 
 [Back to top]()
 
