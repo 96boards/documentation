@@ -2,6 +2,81 @@
 
 ### Table of Contents
 
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Whats in the Box](#whats-in-the-box)
+- [Board Overview](#board-overview)
+- [System Block Diagram](#system-block-diagram)
+- [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Starting the board for the first time]()
+- [Component Details]()
+   - [Processor]()
+   - [Memory (DRAM)]()
+   - [Micro SDHC]()
+   - [Networking]()
+      - [WiFi]()
+      - [Bluetooth]()
+      - [Worldwide FM Radio]()
+      - [GPS]()
+   - [HDMI]()
+   - [MIPI-DSI]()
+   - [Camera Interface]()
+   - [USB Ports]()
+   - [USB Host Ports]()
+   - [USB Device Ports]()
+   - [Audio]()
+      - [BT Audio]()
+      - [HDMI Audio]()
+   - [DC Power and Battery Power]()
+   - [External Fan Connection]()
+   - [UART]()
+   - [Buttons]()
+      - [Power Button]()
+      - [Volume up]()
+      - [Volume down]()
+      - [Dip-switch]()
+   - [LED Indicators]()
+      - [Two activity LEDs]()
+      - [Four User LEDs]()
+   - [Additional Functionality]()
+- [Expansion Connectors]()
+   - [Low Speed Expansion Connector]()
+      - [UART {0/1}]()
+      - [I2C {0/1}]()
+      - [GPIO {A-L}]()
+      - [SPI 0]()
+      - [PCM/I2S]()
+      - [Power and Reset]()
+      - [Power Supplies]()
+   - [High Speed Expansion Connector]()
+      - [MIPI DSI 0]()
+      - [MIPI CSI {0/1}]()
+      - [I2C {2/3}]()
+      - [SD/SPI]()
+      - [Clocks]()
+      - [USB]()
+      - [HSIC]()
+      - [Reserved]()
+   - [Analog Expansion Connector]()
+      -  [Speaker]()
+      -  [Mic]()
+      -  [Headset]()
+      -  [FM Antenna]()
+- [Power Management Overview]()
+   - [Block Diagram]()
+   - [DC Power Input]()
+   - [Power Source Selection]()
+   - [Power Consumption]()
+   - [Power Sequencing]()
+   - [Voltage Rails]()
+   - [Power Measurements]()
+      - [Power-In measurement]()
+      - [PMIC Power-In measnurement]()
+- [Mechanical Specification]()
+   - [2D Reference Drawing]()
+- [Special care when using USB]()
+- [Statements regarding FCC]()
 
 ***
 
@@ -69,7 +144,7 @@ The following table lists it's key features:
    - Operating Temp: 0°C to +70°C
    - RoHS and Reach compliant
 
-[Back to top](#DragonBoard-410c-user-manual)
+[Back to top](#dragonboard-410c-user-manual)
 
 ***
 
@@ -81,7 +156,7 @@ The box contains one DragonBoard 410c and a quick start guide.
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/BoxPamplet.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/BoxPamplet.png" width="450" height="250" />
 
 
-[Back to top](#DragonBoard-410c-user-manual)
+[Back to top](#dragonboard-410c-user-manual)
 
 ***
 
@@ -112,7 +187,7 @@ The box contains one DragonBoard 410c and a quick start guide.
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/DB410c_Numbered_Front.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/DB410c_Numbered_Front.png" width="400" height="270" />
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/DB410c_Numbered_Back.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/DB410c_Numbered_Back.png" width="400" height="270" />
 
-[Back to top]()
+[Back to top](#dragonboard-410c-user-manual)
 
 ***
 
@@ -120,7 +195,7 @@ The box contains one DragonBoard 410c and a quick start guide.
 
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/BlockDiagram.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/BlockDiagram.png" width="750" height="480" />
 
-[Back to top]()
+[Back to top](#dragonboard-410c-user-manual)
 
 ***
 
@@ -151,7 +226,7 @@ boot up.
 
 > Note: The first boot takes several minutes due to Androids initialization. Subsequent boot times should be faster.
 
-[Back to top]()
+[Back to top](#dragonboard-410c-user-manual)
 
 ***
 
@@ -388,7 +463,7 @@ there is no impact on the physical footprint specifications including height and
 low speed and high speed expansion facilities
 The 410c board implements a few additional functions, which are listed in the following sub-chapters.
 
-[Back to top]()
+[Back to top](#dragonboard-410c-user-manual)
 
 ***
 
@@ -496,7 +571,6 @@ The 410c board routes the RST_BTN_N (named PM_RESIN_N on 410c schematic) signal 
 PMIC. This signal is driven by S4, the on-board reset switch. This signals is a dual purpose, any press lasting less than 10
 seconds serves as Volume Down or Zoom out, a press longer than 10 seconds will reset the board. 
 
-
 ### Power Supplies 
 
 The 96Boards specification calls for three power rails to be present on the Low Speed Expansion Connector:
@@ -516,7 +590,7 @@ LDOs in parallel to provide 110mA on a 1.8V rail which meets the 96Boards requir
 
 SYS_DCIN: Can serves as the board’s main power source or can receive power from the board. 
 
-[Back to top]()
+[Back to top](#dragonboard-410c-user-manual)
 
 ***
 
@@ -637,7 +711,7 @@ Connector.
 The current 410c board implementation does not support this requirement. This issue will be addressed on a future
 revision of the 410c board
 
-[Back to top]()
+[Back to top](#dragonboard-410c-user-manual)
 
 ***
 
@@ -697,7 +771,7 @@ connectivity technologies device:
 - BT 4.0 (BR/EDR/BLE)
 - Worldwide FM radio
 
-[Back to top]()
+[Back to top](#dragonboard-410c-user-manual)
 
 ***
 
@@ -705,7 +779,7 @@ connectivity technologies device:
 
 ### Block Diagram
 
-<img src="" data-canonical-src="" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/PowerManagement.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/PowerManagement.png" width="750" height="480" />
 
 ### DC Power Input
 
@@ -747,7 +821,7 @@ up sequencing.
 
 TBD
 
-[Back to top]()
+[Back to top](#dragonboard-410c-user-manual)
 
 ### Power Measurements
 
@@ -777,15 +851,19 @@ rail:
 2. J10 needs to be soldered to the board.
 3. R124 and R125, 0 ohm 0201 resistors, need to be soldered to the board.
 
+[Back to top](#dragonboard-410c-user-manual)
+
 ***
 
 ## Mechanical Specification
 
 ### 2D Reference Drawing
 
-<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/2DDrawing.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/2DDrawing.png" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/2DDrawing.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/UserManual/2DDrawing.png" width="750" height="800" />
 
-[Back to top]()
+[Back to top](#dragonboard-410c-user-manual)
+
+***
 
 ## Special care when using USB
 
@@ -794,6 +872,10 @@ Please verify that no cable is connected to the MicroUSB type B connector (and t
 the hardware of the 410c board will inform software about the presence of a request to configure the USBOTG to device
 mode. Depending on the software release that is used on the board, the driver may configure the USB Mux to Device
 mode and none of the USB HOST ports will be connected to the SoC.
+
+[Back to top](#dragonboard-410c-user-manual)
+
+***
 
 ## Statements regarding FCC
 
@@ -846,3 +928,5 @@ collocated or operating in conjunction with any other antenna or transmitter.
 Cet appareil se conforme aux limites d'exposition aux rayonnements pour un environnement non contrôlé. L'antenne (s)
 qui est utilize pour cet émetteur doit être installé pour produire une distance de separation d'au moins 20 cm de toutes
 personnes et ne doit pas être installé à proximité ou utilize en conjunction avec une autre antenne ou émetteur.
+
+[Back to top](#dragonboard-410c-user-manual)
