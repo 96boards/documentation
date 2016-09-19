@@ -10,9 +10,9 @@ The HiKey board is the first board to be certified 96Boards Consumer Edition com
 and it’s based around the HiSilicon Kirin 620 (also called Hi6220) SoC, with eight-core ARM
 Cortex-A53 64-bit CPU up to 1.2GHz .
 
-<img src="" data-canonical-src="" width="250" height="160" />
-<img src="" data-canonical-src="" width="250" height="160" />
-<img src="" data-canonical-src="" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/HiKey-Lemaker-Front_SD.jpg" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/HiKey-Lemaker-Front_SD.jpg" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/HiKey-Lemaker-Angle_SD.jpg" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/HiKey-Lemaker-Angle_SD.jpg" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/HiKey-Lemaker-Back_SD.jpg" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/HiKey-Lemaker-Back_SD.jpg" width="250" height="160" />
  
 - **Processor**:
    - HiSilicon Kirin 620 SoC
@@ -65,9 +65,7 @@ Cortex-A53 64-bit CPU up to 1.2GHz .
 The box contains a HiKey board, a power supply adapter cable, a product instruction manual
 and a statement for GPU library.
 
-<img src="" data-canonical-src="" width="400" height="270" />
-<img src="" data-canonical-src="" width="450" height="250" />
-
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/BoxBoardandPamplet.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/BoxBoardandPamplet.png" width="400" height="270" />
 
 [Back to top]()
 
@@ -75,8 +73,8 @@ and a statement for GPU library.
 
 ## Board Overview
 
-<img src="" data-canonical-src="" width="400" height="270" />
-<img src="" data-canonical-src="" width="400" height="270" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/HiKey_Numbered_Front.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/HiKey_Numbered_Front.png" width="550" height="320" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/HiKey_Numbered_Back.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/HiKey_Numbered_Back.png" width="440" height="300" />
 
 [Back to top]()
 
@@ -84,7 +82,7 @@ and a statement for GPU library.
 
 ## System Block Diagram
 
-<img src="" data-canonical-src="" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/BlockDiagram.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/BlockDiagram.png" width="750" height="480" />
 
 [Back to top]()
 
@@ -154,7 +152,6 @@ In addition, there're built-in 32K Crystal and 19.2M Crystal oscillation circuit
 Correspondingly there're also 3-channel 32K digital clock output, 5-channel 19.2M analog
 clock output, and 1-channel 19.2M digital clock output.
 
-
 ### Memory (DRAM)
 
 The HiKey (LeMaker version) uses a LPDDR3 DRAM chip as the memory. It provides 1GB or
@@ -207,6 +204,8 @@ display timings. The ADE supports the RGB parallel interface that can connect to
 interface IPs such as the MIPI DSI and HDMI.
 Below is a block diagram of the HiKey implementation.
 
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/DisplayInterface.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/DisplayInterface.png" width="750" height="480" />
+
 #### HDMI 
 
 The Kirin 620 doesn’t include a built-in HDMI interface. The Kirin 620 deploys the built-in
@@ -244,7 +243,7 @@ J403, one microUSB AB 2.0 host/slave port at J402 and one USB host port availabl
 High Speed Expansion bus. The following block diagram shows the HiKey board
 implementation:
 
-<img src="" data-canonical-src="" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/USBPorts.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/USBPorts.png" width="750" height="480" />
 
 The HiKey board utilizes a single SoC USB interface without USB protocol hardware split
 transfer support. The USB interfaces are therefore subject to the following restrictions:
@@ -271,7 +270,7 @@ An 8V up to 18V power supply at a minimum of 2A rating can be used to provide su
 ### Power Measurement
 
 The 96Boards specification calls for support for measuring power consumptions of the
-board. Please see the detail information in the [Power Management]() section for the HiKey
+board. Please see the detail information in the [Power Management](#power-management) section for the HiKey
 Power Measurement implementation.
 
 ### External Fan Connection
@@ -281,6 +280,13 @@ The HiKey board can drive 5V or 12V cooling fans. The power for these is availab
 ### UART
 
 The HiKey board also has an option for a Debug UART Header. This is normally used by the first stage bootloader developers, and is connected to the UART0 port of the SoC. This is available if a 2x2 male header is installed at J801. See below for the pin out of this header.
+
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/UART.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/UART.png" width="100" height="140" />
+
+| Signal   | Pin  | Pin  | Signal    |
+|:---------|:----:|:----:|----------:|
+| 1.8V     | 1    | 2    | UART0_RX  |
+| DGND     | 3    | 4    | UART0_TX  |
 
 And HiKey also has other UART(UART2 and UART3) on the Low Speed Expansion connector.
 
@@ -329,6 +335,8 @@ The HiKey board features two expansion connectors: one low speed expansion conne
 ### Low Speed Expansion Connector
 
 The low speed expansion connector carries GPIO and other low speed interfaces. The connector is a low profile 40 pin female 2mm receptacle (20x2) of a specified height of 4.5mm height. The low speed expansion brings out 1.8V level SoC signals such as UART2 and UART3, I2C0 and I2C1, GPIO signals as well as SPI, PCM, Reset, 1.8V and Ground.
+
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/LowSpeed_Connector.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/LowSpeed_Connector.png" width="500" height="100" />
 
 The following tables show the Low Speed Expansion Connector pin out:
 
@@ -394,7 +402,6 @@ The 96Boards specification calls for a signal on the Low Speed Expansion Connect
 The MediaTek X20 Development Board routes the PWR_BTN_N (named PWRKEY on schematic) signal to the PWRKEY pin of the PMIC MT6351. This signal is driven by SW3201 as well, the on-board power on push-button switch.  A mezzanine implementation of this signals should not drive it with any voltage, the only allowed operation is to force it to GND to start the board from a sleep mode. 
 The MediaTek X20 Development Board routes the RST_BTN_N (named SYSRSTB on schematic) signal to the SYSRSTB pin of the PMIC MT6351.
 
-
 ### Power Supplies 
 
 The HiKey board routes the PMU_PWRON_N signal to the PWRON_N pin of the
@@ -404,7 +411,6 @@ switch.
 The HiKey board routes the EXP_RSTOUT_N signal to the RSTOUT_N pin of the
 HI6553V100 PMIC.
 
-
 [Back to top]()
 
 ***
@@ -413,6 +419,8 @@ HI6553V100 PMIC.
 
 The HS Expansion connector is a board to board low profile 60 pin receptacle TE part
 number 5177983-2.Pin1 for this header is at the bottom left corner as shown.
+
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/HighSpeed_Connector.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/HighSpeed_Connector.png" width="500" height="100" />
 
 The following table shows the High Speed Expansion Connector pin out:
 
@@ -491,7 +499,7 @@ USB channel 3 from the USB HUB to the High Speed Expansion Connector.
 
 ### Block Diagram
 
-<img src="" data-canonical-src="" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/PowetManagement.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/PowetManagement.png" width="750" height="480" />
 
 The 96Boards specification defines how power arrives to the board and few supplies that
 the board needs to provide. The on board power requirement for each 96Boards
@@ -546,7 +554,7 @@ provide current measurements for the following rails:
 | R306     |        | VDD_4V2    | PMIC                        |
 | R305     |        | SYS_5V     | HDMI, USB                   |
 
-<img src="" data-canonical-src="" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/PowerMeasurement.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/PowerMeasurement.png" width="750" height="480" />
 
 [Back to top]()
 
@@ -556,6 +564,6 @@ provide current measurements for the following rails:
 
 ### 2D Reference Drawing
 
-<img src="" data-canonical-src="" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/2DDrawing.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/2DDrawing.png" width="750" height="480" />
 
 [Back to top]()
