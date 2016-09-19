@@ -62,7 +62,7 @@
       -  [Speaker](#speaker)
       -  [Mic](#mic)
       -  [Headset](#headset)
-      -  [FM Antenna]#(fm-antenna)
+      -  [FM Antenna](#fm-antenna)
 - [Power Management Overview](#power-management-overview)
    - [Block Diagram](#block-diagram)
    - [DC Power Input](#dc-power-input)
