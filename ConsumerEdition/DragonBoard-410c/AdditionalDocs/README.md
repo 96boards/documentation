@@ -4,7 +4,7 @@ Discover our list of community and vendor sponsored DragonBoard 410c documents. 
 
 ## User Guides
 
-- Hardware User Manual ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/HardwareManual_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/HardwareManual_DragonBoard.pdf))
+- User Manual ([View](UserManual.md)
 - Android User Guide ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/AndroidUserGuide_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/AndroidUserGuide_DragonBoard.pdf))
 - Linux User Guide ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/LinuxUserGuide_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/LinuxUserGuide_DragonBoard.pdf))
 
