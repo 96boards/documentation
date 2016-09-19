@@ -111,7 +111,7 @@ Cortex-A53 64-bit CPU up to 1.2GHz .
 - **Environmental**:
    - Operating Temp: 0°C to +70°C
 
-[Back to top]()
+[Back to top](#hikey-user-manual)
 
 ***
 
@@ -122,7 +122,7 @@ and a statement for GPU library.
 
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/BoxBoardandPamplet.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/BoxBoardandPamplet.png" width="400" height="270" />
 
-[Back to top]()
+[Back to top](#hikey-user-manual)
 
 ***
 
@@ -131,7 +131,7 @@ and a statement for GPU library.
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/HiKey_Numbered_Front.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/HiKey_Numbered_Front.png" width="550" height="320" />
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/HiKey_Numbered_Back.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/HiKey_Numbered_Back.png" width="440" height="300" />
 
-[Back to top]()
+[Back to top](#hikey-user-manual)
 
 ***
 
@@ -139,7 +139,7 @@ and a statement for GPU library.
 
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/BlockDiagram.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/BlockDiagram.png" width="750" height="480" />
 
-[Back to top]()
+[Back to top](#hikey-user-manual)
 
 ***
 
@@ -181,7 +181,7 @@ Configuration”.
 Once you plug the power supply into a power outlet the board will start the booting
 process, and you should see Debian/Android boot up.
 
-[Back to top]()
+[Back to top](#hikey-user-manual)
 
 ***
 
@@ -379,7 +379,7 @@ The four user LEDs are surface mount Green Type 0603 LED.
 
 The HiKey board includes the option for soldering a 10 pin header that brings out the SoC signals for JTAG debug. A FTSH-105-01-F-DV header can be populated at J803.
 
-[Back to top]()
+[Back to top](#hikey-user-manual)
 
 ***
 
@@ -466,7 +466,7 @@ switch.
 The HiKey board routes the EXP_RSTOUT_N signal to the RSTOUT_N pin of the
 HI6553V100 PMIC.
 
-[Back to top]()
+[Back to top](#hikey-user-manual)
 
 ***
 
@@ -546,7 +546,7 @@ The 96Boards specification calls for a USB data line interface to be present on 
 Speed Expansion Connector. The HiKey board implements this requirements by routing
 USB channel 3 from the USB HUB to the High Speed Expansion Connector.
 
-[Back to top]()
+[Back to top](#hikey-user-manual)
 
 ***
 
@@ -611,7 +611,7 @@ provide current measurements for the following rails:
 
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/PowerMeasurement.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/PowerMeasurement.png" width="750" height="480" />
 
-[Back to top]()
+[Back to top](#hikey-user-manual)
 
 ***
 
@@ -621,4 +621,4 @@ provide current measurements for the following rails:
 
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/2DDrawing.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/UserManual/2DDrawing.png" width="750" height="480" />
 
-[Back to top]()
+[Back to top](#hikey-user-manual)
