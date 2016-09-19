@@ -4,7 +4,7 @@ Welcome to the official documentation for 96Boards, this documentation is writte
 
 ## Contents - Start Here
 
-Select your platform for a list of supported products and 96Boards specific resources. 
+Select your platform for a list of supported products(Left), or jump to 96Boards specific resources by selecting a board from the list(Right). 
 
 | Platform                                | Description                                 | Boards                                     |
 |:---------------------------------------:|:-------------------------------------------:|:-------------------------------------------|
