@@ -9,8 +9,8 @@
 
 The DragonBoard 410c (‘410c’) board is a 96Boards compliant community board based on Qualcomm® Snapdragon 400 series of SoC’s.
 
-<img src="" data-canonical-src="g" width="250" height="160" />
-<img src=" data-canonical-src="" width="250" height="160" />
+<img src="" data-canonical-src="" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/DragonBoard410c-Angle-SD.jpg" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/DragonBoard410c-Angle-SD.jpg" width="250" height="160" />
 <img src="" data-canonical-src="" width="250" height="160" />
  
 The following table lists it's key features:
