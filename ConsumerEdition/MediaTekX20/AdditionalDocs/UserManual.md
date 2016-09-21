@@ -556,6 +556,34 @@ The pin 60 of the High Speed Expansion Connector is pulled up to VIO18_PMU via 1
 |   15  |   FM_RX_N_6631      |    FM antenna negative output                      |
 |   16  |   AU_HSN            |    Headset negative output                         |
 
+### Speaker 
+The speaker signals are routed from the MT6351 built-in Audio CODEC, the two signals are: 
+- AU_LOLP 
+- AU_LOLN
+
+### Mic 
+The microphone signals are routed to the MT6351 built-in Audio CODEC, the signals are: 
+- AU_VIN0_P  
+- AU_VIN0_N
+- MICBIAS0
+- MICBIAS1 
+
+### Earphone 
+The headset signals are routed from the MT6351 built-in Audio CODEC, the singles are: 
+- AU_HPL
+- AU_HPR
+- ACCDET1
+
+### Headset 
+The headset signals are routed from the MT6351 built-in Audio CODEC, the singles are: 
+- AU_HSP
+- AU_HSN 
+
+### FM Antenna 
+The FM antenna signals are routed to the MT6631 (U5003), an integrated connectivity device. the singles are: 
+- FM_ANT
+- FM_RX_N_6631
+
 [Back to top](#MediaTek-x20-development-board-hardware-user-manual)
 
 ***
