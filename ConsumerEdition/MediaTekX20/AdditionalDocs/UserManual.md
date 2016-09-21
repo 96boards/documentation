@@ -113,7 +113,7 @@ The MediaTek X20 Development Board is a 96Boards compliant community board based
    - Operating Temp: -20°C to +45°C
    - RoHS and Reach compliant
 
-[Back to top](#MediaTek-x20-development-board-hardware-user-manual)
+[Back to top](#mediatek-x20-development-board-hardware-user-manual)
 
 ***
 
@@ -125,7 +125,7 @@ The box contains one MediaTek X20 Development Board and a quick start guide.
 <img src="http://i.imgur.com/GZCNzUW.png" data-canonical-src="http://i.imgur.com/GZCNzUW.png" width="450" height="250" />
 
 
-[Back to top](#MediaTek-x20-development-board-hardware-user-manual)
+[Back to top](#mediatek-x20-development-board-hardware-user-manual)
 
 ***
 
@@ -160,7 +160,7 @@ The box contains one MediaTek X20 Development Board and a quick start guide.
 <img src="http://i.imgur.com/ydQmi5t.png" data-canonical-src="http://i.imgur.com/ydQmi5t.png" width="400" height="270" />
 <img src="http://i.imgur.com/CFM1kTb.png" data-canonical-src="http://i.imgur.com/CFM1kTb.png" width="400" height="270" />
 
-[Back to top](#MediaTek-x20-development-board-hardware-user-manual)
+[Back to top](#mediatek-x20-development-board-hardware-user-manual)
 
 ***
 
@@ -168,7 +168,7 @@ The box contains one MediaTek X20 Development Board and a quick start guide.
 
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20/AdditionalDocs/Images/UserManual/BlockDiagram.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20/AdditionalDocs/Images/UserManual/BlockDiagram.png" width="750" height="480" />
 
-[Back to top](#MediaTek-x20-development-board-hardware-user-manual)
+[Back to top](#mediatek-x20-development-board-hardware-user-manual)
 
 ***
 
@@ -196,7 +196,7 @@ To start the board, follow these simple steps:
 
 > Note: If set the first pin (AUTO_BOOT_SET) of switch SW3205 to the position ON, the Android system will start automatically when the power supply is plugged into the power outlet.
 
-[Back to top](#MediaTek-x20-development-board-hardware-user-manual)
+[Back to top](#mediatek-x20-development-board-hardware-user-manual)
 
 ***
 
@@ -360,7 +360,7 @@ The four user LEDs are surface mount Green in 0603 size located next to the micr
 
 The MediaTek X20 Development Board also has a additional interface (CON9001)for user debugging. It includes JTAG , UART0 and UART1 interface. The position is reserved, but the component is not mounted in the mass production. The component of CON9001 is AXT640124 produced by Panasonic. This interface should be used with the MTK debug board.
 
-[Back to top](#MediaTek-x20-development-board-hardware-user-manual)
+[Back to top](#mediatek-x20-development-board-hardware-user-manual)
 
 ***
 
@@ -452,7 +452,7 @@ The MediaTek X20 Development Board supports these requirements as follows:
  
 - SYS_DCIN  Can serves as the board’s main power source or can receive power from the board. 
 
-[Back to top](#MediaTek-x20-development-board-hardware-user-manual)
+[Back to top](#mediatek-x20-development-board-hardware-user-manual)
 
 ***
 
@@ -531,7 +531,7 @@ The MediaTek X20 Development Board implementation doesn’t support this optiona
 
 The pin 60 of the High Speed Expansion Connector is pulled up to VIO18_PMU via 100K resistor.
 
-[Back to top](#MediaTek-x20-development-board-hardware-user-manual)
+[Back to top](#mediatek-x20-development-board-hardware-user-manual)
 
 ***
 
@@ -584,7 +584,7 @@ The FM antenna signals are routed to the MT6631 (U5003), an integrated connectiv
 - FM_ANT
 - FM_RX_N_6631
 
-[Back to top](#MediaTek-x20-development-board-hardware-user-manual)
+[Back to top](#mediatek-x20-development-board-hardware-user-manual)
 
 ***
 
@@ -662,7 +662,7 @@ The user of the MediaTek X20 Development Board should never apply power to the b
 |              |  DC_IN              | 8 ~ 18                 | 1000           | 8-18V DCIN on LS connector as output              |
 |              |  DC_IN              | 8 ~ 18                 | 3000           | 8-18V DCIN on LS connector as input               |
 
-[Back to top](#MediaTek-x20-development-board-hardware-user-manual)
+[Back to top](#mediatek-x20-development-board-hardware-user-manual)
 
 ***
 
@@ -672,4 +672,4 @@ The user of the MediaTek X20 Development Board should never apply power to the b
 
 <img src="http://i.imgur.com/IdPzJTU.png" data-canonical-src="http://i.imgur.com/IdPzJTU.png" width="750" height="480" />
 
-[Back to top](#MediaTek-x20-development-board-hardware-user-manual)
+[Back to top](#mediatek-x20-development-board-hardware-user-manual)
