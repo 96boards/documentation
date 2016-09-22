@@ -132,7 +132,7 @@ The box contains one MediaTek X20 Development Board and a quick start guide.
 ## Board Overview
 
 | Position |    Reference    | Description                                               |
-|---------:|:---------------:|:----------------------------------------------------------|
+|:--------:|:---------------:|:----------------------------------------------------------|
 |    1     |     CON7001     |   Low Speed Expansion Connector                           |
 |    2     |      U4001      |   8GB EMMC                                                |
 |    3     |      U1001      |   MediaTek X20 MT6797 Soc + 2GB LPDDR3              |
@@ -369,7 +369,7 @@ The MediaTek X20 Development Board also has a additional interface (CON9001)for 
 ### Low Speed Expansion Connector
 
 |  MediaTek X20 Signals  |  96Boards Signals |  PIN  |  PIN  |  96Boards Signals  |  MediaTek X20 Signals  |
-|:--------------------|:------------------|:------|------:|-------------------:|--------------------:|
+|:--------------------|:------------------|:------|------:|:-------------------|:--------------------|
 |    GND              |     GND           |   1   |   2   |    GND             |    GND              |
 |    UCTS0            |     UART0_CTS     |   3   |   4   |    PWR_BTN_N       |    PWRKEY           |
 |    UTXD0            |     UART0_TxD     |   5   |   6   |    RST_BTN_N       |    SYSRSTB          |
@@ -459,7 +459,7 @@ The MediaTek X20 Development Board supports these requirements as follows:
 ## High Speed Expansion Connector
 
 |  MediaTek X20 Signals |   96Boards Signals   |  PIN  |  PIN  |  96Boards Signals  |             MediaTek X20 Signals             |
-|:-------------------|:---------------------|:------|------:|-------------------:|------------------------------------------:|
+|:-------------------|:---------------------|:------|------:|:-------------------|:------------------------------------------|
 |   SPI1_MO          |   SD_DAT0/SPI1_DOUT  |   1   |   2   |   CSI0_C+          |   RCP                                     |
 |   NC               |   SD_DAT1            |   3   |   4   |   CSI0_C-          |   RCN                                     |
 |   NC               |   SD_DAT2            |   5   |   6   |   GND              |   GND                                     |
@@ -538,7 +538,7 @@ The pin 60 of the High Speed Expansion Connector is pulled up to VIO18_PMU via 1
 ## Analog Expansion Connector
 
 |  PIN  |  MediaTek X20 Signals  |    MediaTek X20 Signals                               |
-|------:|--------------------:|---------------------------------------------------:|
+|:------:|:--------------------|:---------------------------------------------------|
 |   1   |   AU_LOLP           |    Positive output of line-out buffer from MT6351  |
 |   2   |   AU_LOLN           |    Negative output of line-out buffer from MT6351  |
 |   3   |   MICBIAS0          |    Microphone bias 0 from MT6351                   |
@@ -557,30 +557,55 @@ The pin 60 of the High Speed Expansion Connector is pulled up to VIO18_PMU via 1
 |   16  |   AU_HSN            |    Headset negative output                         |
 
 ### Speaker 
-The speaker signals are routed from the MT6351 built-in Audio CODEC, the two signals are: 
+The speaker signals are routed from the MT6351 built-in Audio CODEC. It should be connected to an external speaker amplifier. Do not connect it to speaker directly. The two signals are: 
 - AU_LOLP 
 - AU_LOLN
 
+The main parameters are list in table below.
+
+| Symbol |    Parameter                                 | Min. | Typ. | Max. | Unit |
+|:-------|:--------------------------------------------|:-----:|:-----:|:-----:|:-----:|
+| Pout   |Maximum output power@<1% THD @PGA<sub>DL</sub> gain=+3dB  |   	|	60  |	     |  mW  |
+| R<sub>LOAD</sub>	|Output Resistor Load                          |   	|	600 |	     |  Ω   |
+| C<sub>LOAD</sub>   |Output Capacitor Load                         |		|	500 |	     |  pF  |
+| APGR<sub>DL</sub>  |Analog Programmable Gain Range                |  -10 |	    |	  8  |  dB  |
+| APGS<sub>DL</sub>  |Analog Programmable Gain Step                 |   	|  1	 |      |  dB  |
+
+
 ### Mic 
-The microphone signals are routed to the MT6351 built-in Audio CODEC, the signals are: 
+The microphone signals are routed to the MT6351 built-in Audio CODEC. It is an uplink input channel and it can be connected to a MIC or a codec line out. The signals are:  
 - AU_VIN0_P  
 - AU_VIN0_N
-- MICBIAS0
-- MICBIAS1 
+- MICBIAS0(The bias voltage output step size is 0.1V, the range is 1.7~2.1V/2.5~2.7V)
 
 ### Earphone 
-The headset signals are routed from the MT6351 built-in Audio CODEC, the singles are: 
+The earphone signals are routed from the MT6351 built-in Audio CODEC. It can support stereo earphone directly (Single-ended Output, RLOAD=16/32Ω). The singles are: 
 - AU_HPL
 - AU_HPR
 - ACCDET1
+- AU_VIN0_P  
+- AU_VIN0_N
+- MICBIAS0
+
+There are two ways (ACC mode and DCC mode ) to detect the accessory. In DCC mode, the ACCDET1 is not use. And the system can detect the earphone inserting via a EINT (External interrupt GPIO of MT6797 ). In ACC mode, the ACCDET1 should be connected to the positive of MIC input signals (between the bypass capacitor and the earphone jack). It is used to detect the Up key, Down Key and Hook key. For the earphone inserting detection, you also need to use an EINT GPIO.
+The main parameters are list in table below.
+
+|    Parameter                                 | Min. | Typ. | Max. | Unit |
+|:--------------------------------------------|:-----:|:-----:|:-----:|:-----:|
+|4-pole Microphone Detection	|2K|		|14K|	Ω|
+|Microphone impedance detection after 4-pole Microphone plugged-in|
+|MICD_LVL[0]: Up key	|400|	|	620|	Ω|
+|MICD_LVL[1]: Down key	|150|		|320|	Ω|
+|MICD_LVL[2]:Hook key	|0	|	|100|	Ω|
+*Load impedance detection range (ACCDET1) by 1&1.5kΩ (1%) MICBIAS resistors.
 
 ### Headset 
-The headset signals are routed from the MT6351 built-in Audio CODEC, the singles are: 
+The headset signals are routed from the MT6351 built-in Audio CODEC. It can support 16/32Ω receiver directly. The singles are: 
 - AU_HSP
 - AU_HSN 
 
 ### FM Antenna 
-The FM antenna signals are routed to the MT6631 (U5003), an integrated connectivity device. the singles are: 
+The FM antenna signals are routed to the MT6631 (U5003), an integrated connectivity device. The two signals below should be kept in differential trace to audio jack. 
 - FM_ANT
 - FM_RX_N_6631
 
