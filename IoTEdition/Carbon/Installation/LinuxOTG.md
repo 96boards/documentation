@@ -45,9 +45,9 @@ usb 1-2.1: SerialNumber: 3574364C3034
 
 **If you see something similar to the output above, you're in DFU mode.**
 
-####**Step 2**: Build a sample application in Zephyr
+####**Step 2**: Build or Download a sample application in Zephyr
 
-Visit the [Building for Carbon](../Building/README.md) page for instructions on how to build an application for Carbon.
+[Build](../Building/README.md) or [Download](../Downloads/README.md) an application and proceed to **Step 3**
 
 ####**Step 3**: Flash the application to Carbon
 
