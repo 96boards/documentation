@@ -12,15 +12,17 @@ These instructions will show how to build a sample Zephyr application using a Li
 
 ####**Step 0**: Download and setup Zephyr
 - Download and setup the Zephyr development environment from https://www.zephyrproject.org. You can find more information about installing the Zephyr SDK at https://www.zephyrproject.org/doc/getting_started/getting_started.html
-- Since Carbon support is not yet available in upstream Zephyr, download Zephyr from https://github.com/linaro/zephyr:
 
 ```shell
-$ git clone https://github.com/linaro/zephyr
+$ git clone https://gerrit.zephyrproject.org/r/zephyr
 ```
 
 ####**Step 1**: Build the Zephyr shell application
 
-- Build the sample shell application as follows:
+- Since Carbon support is not yet available in upstream Zephyr, download Zephyr from https://github.com/linaro/zephyr:
+
+**Build the sample shell application as follows:**
+
 ```shell
 $ cd zephyr
 $ git remote add linaro https://github.com/linaro/zephyr
