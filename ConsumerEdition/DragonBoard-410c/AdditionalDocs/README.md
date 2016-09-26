@@ -17,6 +17,7 @@ Discover our list of community and vendor sponsored DragonBoard 410c documents. 
 
 #### Application Notes ("How to" documents)
 
+- [Creating a Camera Mezzanine and Camera Flex Circuit for DragonBoard (New!)](https://developer.qualcomm.com/download/db410c/creating-camera-mezzanine-and-camera-flex-circuit-dragonboard.pdf)
 - [Connect ADB over Wi-Fi](http://linaro.co/1EjQEBb)
 - [Use GPIOs on Low Speed Connector](http://linaro.co/1DHtVEb)
 - [Enable Miracast® Wi-Fi Display](http://linaro.co/1EjR36F)
