@@ -1,6 +1,6 @@
 # IoT Edition Documentation
 
-Welcome to the official documentation for IoT Edition 96Boards, these documents an instruction sets are written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
+Welcome to the official documentation for IoT Edition 96Boards, these documents are written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
 
 
