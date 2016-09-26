@@ -10,7 +10,7 @@ Explore what makes your Carbon unique by checking out technical specifications, 
 
 ## On Zephyr
 
-<img src="https://github.com/sdrobertw/Carbon/blob/master/AdditionalDocs/Images/Logos/Zephyr_White.png" data-canonical-src="https://github.com/sdrobertw/Carbon/blob/master/AdditionalDocs/Images/Logos/Zephyr_White.png" width="160" height="80" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Logos/Zephyr_White.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Logos/Zephyr_White.png?raw=true" width="160" height="80" />
 
 - [Zephry Home](https://www.zephyrproject.org/)
 - [Zephyr Documentation](https://www.zephyrproject.org/doc/)
