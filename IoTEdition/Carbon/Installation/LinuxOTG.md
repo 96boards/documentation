@@ -1,13 +1,11 @@
 ## Linux Host
 
-FIXME: We don't know if we'll just ship .bin files or a zip file yet. Everything else is dependent on that..
-
 This section show how to install an operating system to your Carbon using the Flashing over OTG method on a Linux host computer.
 ***
 
 - **Step 1**: Enter the DFU mode
-- **Step 2**: Recall Download Location
-- **Step 3**: Unzip _SD Card Install Image_
+- **Step 2**: Build or Download a sample application in Zephyr
+- **Step 3**: Flash the application to Carbon
 
 
 ***
@@ -60,8 +58,8 @@ The path to your zephyr.bin file will depend on the type of file you have built.
 
 Example:
 
-- Path to disco: /samples/drivers/outdir/96b_carbon/zephyr.bin
-- Path to shell: /samples/shell/outdir/96b_carbon/zephyr.bin
+- Path to disco: /samples/drivers/outdir/96b_carbon/disco.bin
+- Path to shell: /samples/shell/outdir/96b_carbon/shell.bin
  
 ***
 
