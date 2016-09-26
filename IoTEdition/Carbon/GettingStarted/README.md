@@ -27,8 +27,8 @@ Learn about your Carbon board as well as how to prepare and set up for basic use
 
 The following subsections should describe how to get started with the Carbon using the release build shipped with the boards. The Carbon board is ready to use “out of the box” with a preinstalled version of the Zephyr RTOS.
 
-<img src="http://i.imgur.com/R1bMSJ4.png" data-canonical-src="http://i.imgur.com/R1bMSJ4.png" width="300" height="150" />
-<img src="http://i.imgur.com/CIuGOtX.png" data-canonical-src="http://i.imgur.com/CIuGOtX.png" width="300" height="150" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Carbon_Front-SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Carbon_Front-SD.png?raw=true" width="300" height="150" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Carbon_Back_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Carbon_Back_SD.png?raw=true" width="300" height="150" />
 
 ## Features
 
