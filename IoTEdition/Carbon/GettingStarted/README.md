@@ -5,7 +5,7 @@ Learn about your Carbon board as well as how to prepare and set up for basic use
 ## Setup - What you will need
 
 **Need**
-- [Carbon](FIXME: Insert Carbon 96Boards.org landing page link here)
+- [Carbon](http://www.96boards.org/product/carbon/)
    - Board based on the STM32F401RE Processor connected to a nRF51822 bluetooth controller
 - USB to MicroUSB cable (x2)
    - This is needed for serial console interface and USB-OTG (including DFU support)
