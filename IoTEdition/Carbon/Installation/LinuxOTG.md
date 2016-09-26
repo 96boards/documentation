@@ -17,9 +17,11 @@ This section show how to install an operating system to your Carbon using the Fl
 - While holding BOOT0 switch, also press the RST switch (At this point you should be pressing two switches)
 - Release the RST switch, then release the BOOT0 switch.
 
+
 **Run the following command:**
 
 ```shell
+$ sudo apt-get install dfu-util
 $ sudo dfu-util -l
 
 dfu-util 0.8
