@@ -10,7 +10,7 @@ Select your IoT Edition 96Boards device to access all product related resources
 
 | 96Boards            | About              | Options              | 
 |:-------------------:|:------------------:|:--------------------:|
-| <img src="AdditionalDocs/Images/Carbon_Front_SD.png" data-canonical-src="AdditionalDocs/Images/Carbon_Front_SD.png" width="200" height="130" /><br> **Carbon** | Board based on the STM32F401RE Processor <br>connected to a nRF51822 bluetooth controller | [Documentation](Carbon/README.md)<br> |
+| <img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Carbon_Front-SD.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Carbon_Front-SD.png" width="200" height="100" /><br> **Carbon** | Board based on the STM32F401RE Processor and <br>nRF51822 bluetooth controller | [Documentation](Carbon/README.md)<br> |
 
 
 ## 96Boards IoT Extras
