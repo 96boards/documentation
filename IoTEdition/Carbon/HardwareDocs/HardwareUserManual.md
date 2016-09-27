@@ -4,17 +4,17 @@
 
 ### Table of Contents
 
-- [Table of Contents](#table-of-contents)
-- [Introductions](#introduction)
-- [Specifications](#specifications)
-- [Hardware Overview](#hardware-overview)
-- [Pinout Map](#pinout-map)
-- [Connection between nRF51822 and STM32F401](#connection-between-nrf51822-and-stm32f401)
-   - [Hardware Connection](#hardware-connection)
-   - [Serialization software setup](#serialization-software-setup)
-- [How to Upgrade Firmware](#how-to-upgrade-firmware)
-   - [DfuSe Demonstration procedures](#dfuse-demonstration-procedures)
-   - [Download a hex file through UART](#download-a-hex-file-through-uart)
+- Table of Contents
+- Introductions
+- Specifications
+- Hardware Overview
+- Pinout Map
+- Connection between nRF51822 and STM32F401
+   - Hardware Connection
+   - Serialization software setup
+- How to Upgrade Firmware
+   - DfuSe Demonstration procedures
+   - Download a hex file through UART
 
 
 [Click Here](../AdditionalDocs/Images/HardwareUserManual) for access to raw images used in this doc.
@@ -62,8 +62,6 @@ The following table lists it's key features:
    - 2x15pin at 2.54mm pitch Low speed connector
    - Fully compatible with 96Boards IoT standards
 
-[Back to top](#carbon-hardware-user-manual)
-
 ***
 
 ## Specifications
@@ -79,8 +77,6 @@ The following table lists it's key features:
 | Analog Pins                                   | 6                                                  |
 | Analog Input Voltage                          | 0~3.3V                                             |
 | Dimensions                                    | 60x30mm                                            |
-
-[Back to top](#carbon-hardware-user-manual)
 
 ***
 
@@ -106,15 +102,11 @@ The following table lists it's key features:
    - IC2 - STM32F401
    - IC3 - nRF51822
 
-[Back to top](#carbon-hardware-user-manual)
-
 ***
 
 ## PinOut Map
 
 <img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/Carbon_Pinout.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/Carbon_Pinout.png?raw=true" width="600" height="300" />
-
-[Back to top](#carbon-hardware-user-manual)
 
 ***
 
@@ -149,8 +141,6 @@ Hardware connection as below:
 4. Compile the application and download the created.hex file to the connectivity board.
 
 For more details, please refer to [Running a serialized application](http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.s130.api.v2.0.0%2Findex.html)
-
-[Back to top](#carbon-hardware-user-manual)
 
 ***
 
@@ -194,5 +184,3 @@ For more details, please refer to [Running a serialized application](http://info
 <img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/DownloadUART_4-5.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/DownloadUART_4-5.png?raw=true" width="400" height="550" />
 
 <img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/DownloadUART_6.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/DownloadUART_6.png?raw=true" width="400" height="550" />
-
-[Back to top](#carbon-hardware-user-manual)
