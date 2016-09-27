@@ -6,9 +6,10 @@
 
 ## Zephyr Sample OS and Applications
 
-| Application                 | Description                                                                                      |
+| Application                 | Description                                                                            |
 |:----------------------------|:---------------------------------------------------------------------------------------|
 | [Shell](http://builds.96boards.org/snapshots/carbon/las16/shell.bin) | A simple shell application that can be used over UART |
-| [Disco](http://builds.96boards.org/snapshots/carbon/las16/beacon.bin)| A simple LED 'disco' demo                    `|
+| [Disco](http://builds.96boards.org/snapshots/carbon/las16/disco.bin)   | A simple LED 'disco' demo                   |
+| [Beacon](http://builds.96boards.org/snapshots/carbon/las16/beacon.bin) | A simple BLE 'beacon' application           |
 
 Continue to [Installation page](../Installation/README.md)
