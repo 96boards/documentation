@@ -60,7 +60,8 @@ The following subsections should describe how to get started with the MediaTek X
 
 **IMPORTANT NOTES**
 
-HDMI EDID display data is used to determine the best display resolution. On monitors and TVs that support 1080p(or less) this resolution will be selected. This selected mode will work with most but not all monitors/TVs. See below for further information on what to do if your monitor/TV does not display the UI.
+- Uncommon BPS rate of 921600.
+- HDMI EDID display data is used to determine the best display resolution. On monitors and TVs that support 1080p(or less) this resolution will be selected. This selected mode will work with most but not all monitors/TVs. See below for further information on what to do if your monitor/TV does not display the UI.
 There are limitations on the usage of the USB ports on the MediaTek X20 Development Board. Please refer to the Hardware section in the document for further information.
 
 ***
