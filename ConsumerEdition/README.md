@@ -6,7 +6,13 @@ Welcome to the official documentation for Consumer Edition 96Boards, these docum
 
 ## Contents - Start Here
 
-Select your Consumer Edition 96Boards device to access all product related resources
+Select your Consumer Edition 96Boards device to access all product related resources.
+
+<p align="center">
+  <b></b>
+  <a href="#">[Compare 96Boards](CE-Extras/Compare96BoardsCE.md)</a> |
+  <a href="#">[96Boards CE Extras](CE-Extras/README.md)</a> <br>
+  <a></a>
 
 | 96Boards  | About | Options | 
 |:----:|:----:|:----:|
