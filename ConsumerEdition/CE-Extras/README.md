@@ -1,7 +1,7 @@
 # Extras - 96Boards Consumer Edition
 
-- [Compare 96Boards](Compare96BoardsCE.md)
-   - Quickly compare CPU, GPU, and Memory for all available 96Boards
+- [Projects](../Projects/README.md)
+   - Here you will find a list of fun projects intended for all difference skill levels
 - [Configurations](Configuration/README.md)
    - Execute unique configurations to customize your Consumer Edition 96Boards experience
 - [General Purpose Input/Output](GPIO/README.md)
