@@ -2,15 +2,14 @@
 
 Welcome to the official documentation for Consumer Edition 96Boards, these documents are written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
-
-
-## Contents - Start Here
-
-<p align="center">
+<p align="left">
   <b></b>
+  <a href="#">[Documentation Home](../README.md) |
   <a href="#">[Compare 96Boards](CE-Extras/Compare96BoardsCE.md)</a> |
   <a href="#">[96Boards CE Extras](CE-Extras/README.md)</a> |
   <a href="#">[Projects](Projects/README.md)</a>
+
+## Contents - Start Here
 
 Select your Consumer Edition 96Boards device to access all product related resources.
 
