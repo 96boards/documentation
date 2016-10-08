@@ -4,5 +4,9 @@ Are you interested in trying something new with your Consumer Edition 96Boards? 
 
 ***
 
-- Magic 8-Ball
-   - Ever wonder what it would be like to predict the future? Well now you can with this digital version of the 
+- [Magic LCD 8-Ball](Magic8ball.md)
+   - Ever wonder what it would be like to predict the future? Well now you can with this digital version of the iconic magic 8-ball toy.
+- Project 2
+   - Description
+- Project 3
+   - Description
