@@ -234,35 +234,26 @@ boot up.
 
 ### Processor
 
-The Snapdragon 410 APQ8016 is a quad 64-bit ARM Cortex-A53 MPcore Harvard Superscalar core, supports both LP-DDR2
-/ LP-DDR3 SDRAM interface, Hexagon QDSP6, 13.5 MP camera input support, Adreno 306 GPU, 1080p video
-encode/decode, gpsOneGen 8C with GLONASS, Bluetooth 4.1, OpenGL ES 3.0, DirectX, OpenCL, Renderscript Compute,
-FlexRender support.
+The Snapdragon 410 APQ8016 is a quad 64-bit ARM Cortex-A53 MPcore Harvard Superscalar core, supports both LP-DDR2 / LP-DDR3 SDRAM interface, Hexagon QDSP6, 13.5 MP camera input support, Adreno 306 GPU, 1080p video encode/decode, gpsOneGen 8C with GLONASS, Bluetooth 4.1, OpenGL ES 3.0, DirectX, OpenCL, Renderscript Compute, FlexRender support.
 
 ### Memory (DRAM)
 
-The 410c uses a single embedded Multi Chip Package (eMCP) dual function LPDDR3/eMMC memory solution. The installed
-chip provides 8Gbyte of solid state storage and 1Gbyte of LPDDR3.
+The 410c uses a single embedded Multi Chip Package (eMCP) dual function LPDDR3/eMMC memory solution. The installed chip provides 8Gbyte of solid state storage and 1Gbyte of LPDDR3.
 
-- The LPDDR3 is a 32bit width bus implementation interfacing directly to the APQ8016 build-in LPDDR controller.
-The maximum DDR clock is 533Mhz
-- The eMMC is an 8bit implementation interfacing with APQ8016 SDC1 interface supporting eMMC 4.5
-specifications
+- The LPDDR3 is a 32bit width bus implementation interfacing directly to the APQ8016 build-in LPDDR controller. The maximum DDR clock is 533Mhz
+- The eMMC is an 8bit implementation interfacing with APQ8016 SDC1 interface supporting eMMC 4.5 specifications
 
 ### Micro SDHC
 
 The 96Boards specification calls for a microSDHC socket to be present on the board
 
-The 410c board SD slot (J5) signals are routed directly to the APQ8016 SDC2 interface. The slot is a push-push type with a
-dedicated support for card detect signal (many SD slots do not have a dedicated CD pins, they use DATA3 state as the card
-detected signal). The 410c board uses APQ GPIO_38 as the SD_CARD_DET_N.
+The 410c board SD slot (J5) signals are routed directly to the APQ8016 SDC2 interface. The slot is a push-push type with a dedicated support for card detect signal (many SD slots do not have a dedicated CD pins, they use DATA3 state as the card detected signal). The 410c board uses APQ GPIO_38 as the SD_CARD_DET_N.
 
 ### Networking
 
 The 96Boards specifications calls for a WiFi (minimally 802.11g/n) and Bluetooth 4.1 (Bluetooth Low Energy)
 
-The 410c board deployed Qualcomm’s RF chip WCN3620 (U5) solution that integrates three different wireless connectivity
-technologies into a single device, the interfaces are:
+The 410c board deployed Qualcomm’s RF chip WCN3620 (U5) solution that integrates three different wireless connectivity technologies into a single device, the interfaces are:
 
 #### WiFi
 
@@ -270,57 +261,39 @@ WLAN compliant with IEEE 802.11 b/g/n specifications, meeting 96Boards minimal r
 
 #### Bluetooth
 
-Bluetooth compliant with the BT specifications version 4.1 (BR/EDT + BLE), meeting the 96Boards requirements
-for BT
+Bluetooth compliant with the BT specifications version 4.1 (BR/EDT + BLE), meeting the 96Boards requirements for BT
 
 #### Worldwide FM Radio
 
-Worldwide FM radio, this interface is not part of the 96Boards mandatory specification. It is an optional addition
-that has not been tested is not officially supported.
+Worldwide FM radio, this interface is not part of the 96Boards mandatory specification. It is an optional addition that has not been tested is not officially supported.
 
 #### GPS
 
-The GPS implementation is based on Qualcomm WGR7640 GNSS RF receiver (U7) supporting GPS, GLONASS and
-COMPASS. The APQ8016 communicates directly with the WGR7640.
+The GPS implementation is based on Qualcomm WGR7640 GNSS RF receiver (U7) supporting GPS, GLONASS and COMPASS. The APQ8016 communicates directly with the WGR7640.
 
 ### HDMI 
 
-The 96Boards specification calls for an HDMI port to be present on the board. The APQ8016 doesn’t include a built-in
-HDMI interface. The 410c deploys the built-in MIPI-DSI 4 lanes interface as the source for the HDMI output. A peripheral
-DSI to HDMI Bridge (U3, Analog Devices ADV7533) performs this task and it supports a resolution from 480i to 1080p at
-30Hz.
+The 96Boards specification calls for an HDMI port to be present on the board. The APQ8016 doesn’t include a built-in HDMI interface. The 410c deploys the built-in MIPI-DSI 4 lanes interface as the source for the HDMI output. A peripheral DSI to HDMI Bridge (U3, Analog Devices ADV7533) performs this task and it supports a resolution from 480i to 1080p at 30Hz.
 
-While the ADV7533 supports automatic input video format timing detection (CEA-861E), an I2C channel from the APQ8016
-allows the user to configure the operation of this bridge. It is I2C3 interface from the SoC that connects to the bridge.
+While the ADV7533 supports automatic input video format timing detection (CEA-861E), an I2C channel from the APQ8016 allows the user to configure the operation of this bridge. It is I2C3 interface from the SoC that connects to the bridge.
 
-This bridge supports audio as well (meeting the 96Boards requirements to provide audio via HDMI). The 410c uses a single
-bit I2S2 interface from the APQ8016 for this task.
+This bridge supports audio as well (meeting the 96Boards requirements to provide audio via HDMI). The 410c uses a single bit I2S2 interface from the APQ8016 for this task.
 
-Please note that the 96Boards specification calls for a MIPI-DSI interface to be routed to the High Speed Expansion
-connector. Since the APQ8016 has only one MIPI-DSI interface. A muxing device (U11, FSA644UCX) is being use on the
-board. Only one interface, HDMI, or the Expansion MIPI-DSI can be active at a given time. The controlling signal is named
-‘DSI_SW_SEL_APQ’. When this signal is logic low, ‘0’, the MIPI-DSI is routed to the DSI-HDMI Bridge. When
-‘DSI_SW_SEL_APQ’ is logic level high, ‘1’, the MIPI-DSI is routed to the High Speed Expansion connector. This design
-assigned the ‘DSI_SW_SEL_APQ’ function to GPIO_32.
+Please note that the 96Boards specification calls for a MIPI-DSI interface to be routed to the High Speed Expansion connector. Since the APQ8016 has only one MIPI-DSI interface. A muxing device (U11, FSA644UCX) is being use on the board. Only one interface, HDMI, or the Expansion MIPI-DSI can be active at a given time. The controlling signal is named ‘DSI_SW_SEL_APQ’. When this signal is logic low, ‘0’, the MIPI-DSI is routed to the DSI-HDMI Bridge. When ‘DSI_SW_SEL_APQ’ is logic level high, ‘1’, the MIPI-DSI is routed to the High Speed Expansion connector. This design assigned the ‘DSI_SW_SEL_APQ’ function to GPIO_32.
 
-User can overwrite the software control by sliding switch 4 of DipSwitch S6 to the ‘ON’ position. That action forces the DSI
-mux to route the MIPI-DSI to the DSI-HDMI Bridge. The overwrite option exist for the HDMI only, you cannot hardware
-overwrite the mux to the High Speed Expansion connector.
+User can overwrite the software control by sliding switch 4 of DipSwitch S6 to the ‘ON’ position. That action forces the DSI mux to route the MIPI-DSI to the DSI-HDMI Bridge. The overwrite option exist for the HDMI only, you cannot hardware overwrite the mux to the High Speed Expansion connector.
 
 ### MIPI-DSI
 
 The 96Boards specification calls for a MIPI-DSI implementation via the High Speed Expansion Connector.
 
-The 410c implemented a four-lane MIPI_DSI interface meeting this requirement. More information about this
-implementation can be found in chapter 6 High speed expansion connector.
+The 410c implemented a four-lane MIPI_DSI interface meeting this requirement. More information about this implementation can be found in chapter 6 High speed expansion connector.
 
 ### Camera Interface
 
 The 96Boards specification calls for two camera interfaces.
 
-The 410c implements two camera interfaces, one with a four-lane MIPI_CSI interface and one with two-lane MIPI_CSI
-interface, meeting this requirement. More information about this implementation can be found in chapter 6 High speed
-expansion connector.
+The 410c implements two camera interfaces, one with a four-lane MIPI_CSI interface and one with two-lane MIPI_CSI interface, meeting this requirement. More information about this implementation can be found in chapter 6 High speed expansion connector.
 
 ### USB Ports
 
@@ -328,23 +301,11 @@ expansion connector.
 
 ### USB Host ports
 
-The 96Boards specification calls for three USB host ports. The APQ8016 includes a single USBOTG channel. A USB Mux, S1,
-routes this single USB channel either to a USB HUB or to the MicroUSB connector (J4). The control of S1 is done via a
-software controlled GPIO (USB_SW_SEL_PM, GPIO_4 from the board PMIC). When this signal is logic low, ‘0’, the USB data
-lines are routed to the MicroUSB connector and the APQ8016 built-in USBOTG port is set to device mode. When
-‘USB_SW_SEL_PM’ is logic level high, ‘1’, the USB data lines are routed to U10 (a 3-port USB HUB) and the APQ8016 builtin
-USBOTG port is set to host mode. The user can overwrite the software control by sliding switch 3 of DipSwitch S6 to the
-‘ON’ position. That action forces the USB–mux S1 to route the built-in USBOTG data lines to the USB HUB. The overwrite
-option exists for the host mode only, you cannot hardware overwrite the mux to force device mode.
+The 96Boards specification calls for three USB host ports. The APQ8016 includes a single USBOTG channel. A USB Mux, S1, routes this single USB channel either to a USB HUB or to the MicroUSB connector (J4). The control of S1 is done via a software controlled GPIO (USB_SW_SEL_PM, GPIO_4 from the board PMIC). When this signal is logic low, ‘0’, the USB data lines are routed to the MicroUSB connector and the APQ8016 built-in USBOTG port is set to device mode. When ‘USB_SW_SEL_PM’ is logic level high, ‘1’, the USB data lines are routed to U10 (a 3-port USB HUB) and the APQ8016 builtin USBOTG port is set to host mode. The user can overwrite the software control by sliding switch 3 of DipSwitch S6 to the ‘ON’ position. That action forces the USB–mux S1 to route the built-in USBOTG data lines to the USB HUB. The overwrite option exists for the host mode only, you cannot hardware overwrite the mux to force device mode.
 
-**Port 1 of the USB HUB** is routed to J3, a Type ‘A’ USB Host connector. A current limited controller (U4) sets the Power
-Current limit to 1.18A. This port is named HOST2 in the board schematic.
-
-**Port 2 of the USB HUB** is routed to J2, a Type ‘A’ USB Host connector. A current limited controller (U6) sets the Power
-Current limit to 1.18A. This port is named HOST1 in the board schematic
-
-**Port 3 of the USB HUB** is routed to the High Speed Expansion connector. No current limited controller is implemented on
-the board for this channel.
+- **Port 1 of the USB HUB** is routed to J3, a Type ‘A’ USB Host connector. A current limited controller (U4) sets the Power Current limit to 1.18A. This port is named HOST2 in the board schematic.
+- **Port 2 of the USB HUB** is routed to J2, a Type ‘A’ USB Host connector. A current limited controller (U6) sets the Power Current limit to 1.18A. This port is named HOST1 in the board schematic
+- **Port 3 of the USB HUB** is routed to the High Speed Expansion connector. No current limited controller is implemented on the board for this channel.
 
 > Please Note: the board can work in one mode at a time, Host mode or Device mode, not both
 
@@ -358,29 +319,23 @@ Mux to Device mode and none of the USB HOST ports will be connected to the SoC.
 
 The 96Boards specification calls for a USB port to be implemented as an OTG port or a device port. 
 
-The 410c board implements a device port. The port is located at J4, a MicroUSB type B. If an application requires the use of
-the device port, USB_SW_SEL_PM signal must be set to low ‘0’ and the user must verify that switch 3 of Dip Switch S6 is
-set to the ‘OFF’ position.
+The 410c board implements a device port. The port is located at J4, a MicroUSB type B. If an application requires the use of the device port, USB_SW_SEL_PM signal must be set to low ‘0’ and the user must verify that switch 3 of Dip Switch S6 is set to the ‘OFF’ position.
 
 > Please Note: the board can work in one mode at a time, Host mode or Device mode, not both
 
 ### Audio
 
-The 96Boards specifications calls for a minimum of single channel audio through two interfaces, BT and
-HDMI/MHL/DisplayPort
+The 96Boards specifications calls for a minimum of single channel audio through two interfaces, BT and HDMI/MHL/DisplayPort
 
-The 410c meets this requirement and has additional audio channels. More information about these additional channels
-can be found in chapter 4.18 Additional Functionality.
+The 410c meets this requirement and has additional audio channels. More information about these additional channels can be found in chapter 4.18 Additional Functionality.
 
 #### BT Audio
 
-The BT implementation on the 410c is via a MAC in the APQ8016 and an external modem, WCN3620 (U5). A two wire
-interface between the SoC and the modem carries all communication including audio.
+The BT implementation on the 410c is via a MAC in the APQ8016 and an external modem, WCN3620 (U5). A two wire interface between the SoC and the modem carries all communication including audio.
 
 #### HDMI Audio
 
-A 3-wire (audio out only) I2S channel is routed directly from the APQ8016 SoC I2S interface pins to the DSI-HDMI bridge
-(U3)
+A 3-wire (audio out only) I2S channel is routed directly from the APQ8016 SoC I2S interface pins to the DSI-HDMI bridge (U3)
 
 ### DC Power and Battery Power
 
@@ -390,20 +345,15 @@ The 96Boards specification calls for power to be provided to the board in one of
 - An 8V to 18V power from the SYS_DCIN pins on the Low Speed Expansion Connector
 - A USB Type C port at 5V
 
-Please see section 9.1 for detailed information on 410c implementation of DC Power 
-
 ### External Fan Connection
 
-The 96Boards specification calls for support for an external fan. That can be achieved by using the 5V or the SYS_DCIN,
-both present on the Low Speed Expansion connector.
+The 96Boards specification calls for support for an external fan. That can be achieved by using the 5V or the SYS_DCIN, both present on the Low Speed Expansion connector.
 
 ### UART
 
-The 96Boards specification calls for support for one SoC UART and an optional second UART both to be routed to the Low
-Speed Expansion Connector.
+The 96Boards specification calls for support for one SoC UART and an optional second UART both to be routed to the Low Speed Expansion Connector.
 
-The 410c meets these requirements and additionally routes UART0 Tx/Rx lines to an on-board connector (J15). If the user
-wants to use this on-board UART, J15 needs to be soldered to the board as well as R173 and R174 (0 ohm 0201).
+The 410c meets these requirements and additionally routes UART0 Tx/Rx lines to an on-board connector (J15). If the user wants to use this on-board UART, J15 needs to be soldered to the board as well as R173 and R174 (0 ohm 0201).
 
 ### Buttons
 
@@ -428,11 +378,8 @@ The Volume Down button is used to control the output speaker volume of the 410c.
 There is a 4 switch DipSwitch marked S6 located at the bottom side of the 410c board. For normal operation all four
 switched need to be set to the ‘off’ position.
 
-- **Switch 1, ‘USB BOOT’**, when set to ‘on’ position, will force boot over USB connection with a PC. This is only required for
-eMMC boot image upgrade. Please review the proper OS User Guide for more information on this process.
-- **Switch 2, ‘SD BOOT’**, when set to ‘on’ position, will force the SD, J5, to serve as the boot source for the 410c board when
-set. You can use uSD as the main boot source or it can serve as a method for eMMC boot image upgrade. Please review the
-proper OS User Guide for more information on this process.
+- **Switch 1, ‘USB BOOT’**, when set to ‘on’ position, will force boot over USB connection with a PC. This is only required for eMMC boot image upgrade. Please review the proper OS User Guide for more information on this process.
+- **Switch 2, ‘SD BOOT’**, when set to ‘on’ position, will force the SD, J5, to serve as the boot source for the 410c board when set. You can use uSD as the main boot source or it can serve as a method for eMMC boot image upgrade. Please review the proper OS User Guide for more information on this process.
 - **Switch 3, ‘USB HOST’**, is described in section 5.8. This switch in not part of the boot configuration.
 - **Switch 4, ‘HDMI SEL’**, is described in section 5.6.1. This switch is not part of the boot configuration.
 
@@ -522,8 +469,7 @@ these GPIOs may support alternate functions for DSI/CSI control
 The 410c board implements this requirement. 11 GPIOs are routed to the APQ8016 SoC and one GPIO is connected to the
 on-board PMIC.
 
-- GPIO A - Connects to GPIO_36 of APQ8016 SoC, can serves as AQP_INT supporting the 96Boards requirements to
-create a wake-up event for the SoC. It is a 1.8V signal
+- GPIO A - Connects to GPIO_36 of APQ8016 SoC, can serves as AQP_INT supporting the 96Boards requirements to create a wake-up event for the SoC. It is a 1.8V signal
 - GPIO B - Connects to GPIO_12 of APQ8016 SoC. It is a 1.8V signal
 - GPIO C - Connects to GPIO_13 of APQ8016 SoC. It is a 1.8V signal. Can be configured to be an IRQ line
 - GPIO D - Connects to GPIO_69 of APQ8016 SoC. It is a 1.8V signal. Can be configured to be an IRQ line
@@ -743,8 +689,7 @@ The speaker signals are routed from the PM8916 PMIC built-in Audio CODEC, the tw
 The microphone signals are rounded to the PM8916 PMIC Built-In CODEC, the three signals are:
 
 - MIC2_IN - Headset mic
-- MIC3_IN - Second mic, please note that the first microphone input, MIC1_IN is routed from an on-board
-analog microphone (not installed on current 410c builds)
+- MIC3_IN - Second mic, please note that the first microphone input, MIC1_IN is routed from an on-board analog microphone (not installed on current 410c builds)
 - MIC_BIAS1 - Ground reference for PMIC bias
 
 ### Headset
@@ -766,7 +711,6 @@ connectivity technologies device:
 - BT 4.0 (BR/EDR/BLE)
 - Worldwide FM radio
 
-
 ***
 
 ## Power Management Overview
@@ -779,16 +723,17 @@ connectivity technologies device:
 
 The 96Boards specification calls for a power to be provided to the board in one of the following ways:
 
-- An 8V to 18V power from a dedicated DC jack.
+**An 8V to 18V power from a dedicated DC jack.**
+
 The 410c board supports this requirement through the use of J1, ‘SYS_DCIN’ power connector.
 
 > Please note: the SYS_DCIN can be as low as 6.5V on the 410c board.
 
-- An 8V to 18V power from the SYS_DCIN pins on the Low Speed Expansion Connector.
+An 8V to 18V power from the SYS_DCIN pins on the Low Speed Expansion Connector.
 
 > Please note: the SYS_DCIN can be as low as 6.5V on the 410c board. The 410c board supports incoming power through this connector.
 
-- A USB Type C port at 5V.
+A USB Type C port at 5V.
 
 > Please note: The 410c board does not implement a USB Type C port and therefore cannot be powered over USB
 
@@ -878,8 +823,7 @@ Cet appareil se conforme aux principes de licence –exempts RSS de l’Industri
 suivantes :
 
 - l'appareil ne doit pas produire de l’interférence, et
-- l'appareil doit accepter toutes sortes d’interférences, cela incluet l’interférence qui va peut--‐être causer les résul‐
-tats indésirables de l’appareil.
+- l'appareil doit accepter toutes sortes d’interférences, cela incluet l’interférence qui va peut--‐être causer les résul‐ tats indésirables de l’appareil.
 
 This device generates and uses radio waves and if not used properly may cause interference to radio and TV reception. It
 has been tested and found to comply with the limits set by the FCC which are designed to provide reasonable protection
