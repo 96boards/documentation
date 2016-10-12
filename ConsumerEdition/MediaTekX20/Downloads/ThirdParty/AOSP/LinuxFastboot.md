@@ -72,9 +72,10 @@ Once you have ensured the board is detected by your Linux host machine using fas
 
 Please re-visit **Step 1** if you have not already downloaded the appropriate MediaTek X20 operating system images.
 
-Executing the following commands from your command line while within the appropriate directory, will flash each individual component to your MediaTek X20 development board. Once you have done this, the `fastboot reboot` command will reboot your board into your newly installed operating system.
+Executing the following commands from your command lin,e while within the appropriate directory, will flash each individual component to your MediaTek X20 development board. Once you have done this, the `fastboot reboot` command will reboot your board into your newly installed operating system.
 
 ```shell
+$ fastboot flash gpt PGPT
 $ fastboot flash preloader preloader_amt6797_64_open.bin
 $ fastboot flash recovery recovery.img
 $ fastboot flash scp1 tinysys-scp.bin
