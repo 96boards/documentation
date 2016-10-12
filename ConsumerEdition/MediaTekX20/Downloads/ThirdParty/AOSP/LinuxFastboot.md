@@ -18,7 +18,7 @@ In order to proceed with these installation instructions, you will need to downl
 
 |   Tarball          |                                                                                                  |
 |:-------------------|:-------------------------------------------------------------------------------------------------|
-| 96board_v3.tar.gz  | [Download](http://builds.96boards.org/releases/helio-x20/mediatek/aosp/latest/96board_v3.tar.gz) |
+| mediatek-x20-aosp-16.09.xz  | [Download](http://builds.96boards.org/releases/helio-x20/mediatek/aosp/latest/mediatek-x20-aosp-16.09.xz) |
 
 #### **Step 2**: Make sure "fastboot" and "adb" are set up on you Linux host machine
 
