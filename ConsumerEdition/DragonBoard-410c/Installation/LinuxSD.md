@@ -17,7 +17,7 @@ This section show how to install an operating system to your DragonBoard™ 410c
 
 ####**Step 1**: Prepare MicroSD card
 
-- Ensure data from mircoSD card is backed up
+- Ensure data from microSD card is backed up
 - Everything on microSD card will be lost by the end of this procedure.
 
 ####**Step 2**: Find SD Card Device name
