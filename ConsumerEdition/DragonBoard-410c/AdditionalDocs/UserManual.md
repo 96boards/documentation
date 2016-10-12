@@ -239,8 +239,6 @@ The Snapdragon 410 APQ8016 is a quad 64-bit ARM Cortex-A53 MPcore Harvard Supers
 encode/decode, gpsOneGen 8C with GLONASS, Bluetooth 4.1, OpenGL ES 3.0, DirectX, OpenCL, Renderscript Compute,
 FlexRender support.
 
-<PMIC>
-
 ### Memory (DRAM)
 
 The 410c uses a single embedded Multi Chip Package (eMCP) dual function LPDDR3/eMMC memory solution. The installed
