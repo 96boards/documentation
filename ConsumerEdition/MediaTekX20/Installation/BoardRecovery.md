@@ -68,6 +68,7 @@ Step 2. Run fastboot command script file
         #!/bin/bash
         
         fastboot devices
+        fastboot flash gpt PGPT
         fastboot flash preloader preloader_amt6797_64_open.bin
         fastboot flash recovery recovery.img
         fastboot flash scp1 tinysys-scp.bin
