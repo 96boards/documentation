@@ -7,8 +7,8 @@ Explore what makes your DragonBoard 410c unique, technical specifications, schem
 - BOM ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/HardwareDocs/DragonBoard410c_BOM.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/HardwareDocs/DragonBoard410c_BOM.pdf))
 - Schematics ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/HardwareDocs/Schematics_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/HardwareDocs/Schematics_DragonBoard.pdf))
 
-#### Qualcomm Snapdragon 410 Processor documents
+#### Qualcomm Snapdragon 410E Processor documents
 
-- [Snapdragon 410 Device Specification](http://linaro.co/96b-sd410-ds)
-- [Snapdragon 410 GPIO Pin Assignment](http://linaro.co/96b-qc-gpio)
-- [Hardware Register Description for Qualcomm Snapdragon 410 (APQ8016)](http://linaro.co/96b-qc-hrd)
+- [Snapdragon 410E Processor Device Specification](http://linaro.co/96b-sd410-ds)
+- [Snapdragon 410E GPIO Pin Assignment](http://linaro.co/96b-qc-gpio)
+- [Hardware Register Description for Qualcomm Snapdragon 410E (APQ8016E)](http://linaro.co/96b-qc-hrd)
