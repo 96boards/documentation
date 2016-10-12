@@ -63,8 +63,8 @@ $ fastboot devices
 Once you have ensured the board is detected by your Windows host machine using fastboot, proceed to the next step. If you are experiencing issues with this step you may want to:
 
 1. Troubleshoot the fastboot setup on your host machine (**Step 2**)
-2. Attempt a [Board Recovery](../Installation/BoardRecovery.md)
-3. Visit the MediaTek X20 [Troubleshooting Page](../Troubleshooting/README.md) 
+2. Attempt a [Board Recovery](../../../Installation/BoardRecovery.md)
+3. Visit the MediaTek X20 [Troubleshooting Page](../../../Troubleshooting/README.md) 
 
 **Step 5**: Install Operating System update using downloaded files(images) and reboot
 
