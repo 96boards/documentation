@@ -23,7 +23,6 @@ Discover our list of community and vendor sponsored DragonBoard 410c documents. 
 - [Enable Miracast® Wi-Fi Display](http://linaro.co/1EjR36F)
 - [Enabling a USB camera](http://linaro.co/1MkP0Hu)
 - [Enabling a USB to Ethernet adapter](http://bit.ly/1P1hYK0)
-- [Grove Digital Light I2C Sensor Integration](http://linaro.co/db410c-grove)
 - [UART to USB Adapter](http://linaro.co/1iLAdtg)
 - [Interfacing Grove Digital Light I2C Sensor Application Note](https://developer.qualcomm.com/download/db410c/interfacing-grove-digital-light-i2c-sensor-application-note.pdf)
 - [Adding U.FL Antenna Connectors to DragonBoard™ 410c and Validating GPS on Android](http://linaro.co/1XtcfSr)
