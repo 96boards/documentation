@@ -18,6 +18,25 @@ In most cases, you will be presented with two options when installing your new o
 
 Each method has it's own benifits, and requires different levels of experience
 
+### Flashing over USB-UART Method
+
+Flashing over USB-UART is usually easier as only a single USB port can be used for both flashing and console access.
+
+This method requires the following hardware:
+
+- Carbon
+- Host Linux machine
+- USB to microUSB cable
+- stm32flash tool
+
+You may choose to [Downloads](../Downloads/README.md) or [Build](../Building/README.md) an application for your Carbon
+
+Choose host machine
+
+- [Linux](LinuxUART.md)
+
+***
+
 ### Flashing over OTG Method
 
 Flashing over OTG is generally faster and should be used by beginners.
