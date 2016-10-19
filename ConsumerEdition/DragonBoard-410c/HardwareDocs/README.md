@@ -10,5 +10,5 @@ Explore what makes your DragonBoard 410c unique, technical specifications, schem
 #### Qualcomm Snapdragon 410E Processor documents
 
 - [Snapdragon 410E Processor Device Specification](http://linaro.co/96b-sd410-ds)
-- [Snapdragon 410E GPIO Pin Assignment](http://linaro.co/96b-qc-gpio)
+- [Snapdragon 410E GPIO Pin Assignment](https://developer.qualcomm.com/download/db410c/gpio-pin-assignment.pdf)
 - [Hardware Register Description for Qualcomm Snapdragon 410E (APQ8016E)](http://linaro.co/96b-qc-hrd)
