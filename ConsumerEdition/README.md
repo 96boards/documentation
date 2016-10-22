@@ -8,11 +8,9 @@ Welcome to the official documentation for Consumer Edition 96Boards, these docum
 
 Select your Consumer Edition 96Boards device to access all product specific resources. You may also use the links below to compare, and explore a list of 96Boards Consumer Edition extras, this includes instructions for unique board configurations and fun projects.
 
-<p align="left">
-  <b></b>
-  <a href="#">[Compare 96Boards](CE-Extras/Compare96BoardsCE.md)</a> |
-  <a href="#">[96Boards CE Extras](CE-Extras/README.md)</a> |
-  <a href="#">[Projects](Projects/README.md)</a>
+- [Compare 96Boards](CE-Extras/Compare96BoardsCE.md)
+- [96Boards CE Extras](CE-Extras/README.md)
+- [Projects](Projects/README.md)
 
 | 96Boards  | About | Options | 
 |:----:|:----:|:----:|
