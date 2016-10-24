@@ -17,7 +17,7 @@
    - Download a hex file through UART
 
 
-[Click Here](../AdditionalDocs/Images/HardwareUserManual) for access to raw images used in this doc.
+[Click Here](https://github.com/96boards/documentation/tree/master/IoTEdition/Carbon/AdditionalDocs/Images) for access to raw images used in this doc.
 
 ***
 
