@@ -2,12 +2,6 @@
 
 Discover our list of community and vendor sponsored MediaTek X20 documents. This page allows you to explore new and exciting, downloadable documentation, in it's intended, static format.
 
-## User Guides
-
-- User Manual ([View](UserManual.md))
-
-***
-
 ## From MediaTek
 
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20/AdditionalDocs/Images/Logos/MediaTek_Yellow.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20/AdditionalDocs/Images/Logos/MediaTek_Yellow.png" width="150" height="80" />
