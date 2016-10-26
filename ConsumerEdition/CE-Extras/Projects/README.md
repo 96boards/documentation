@@ -1,5 +1,7 @@
 # Projects - Consumer Edition
 
+**PAGE IS UNDER CONSTRUCTION**
+
 Are you interested in trying something new with your Consumer Edition 96Boards? If so, you are in the right place. On this page you will find a list of fun projects intended for all difference skill levels. It's time to expand on your 96Boards experience, click on one of the links below to begin your project.
 
 ***
