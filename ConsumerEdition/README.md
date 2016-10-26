@@ -10,7 +10,7 @@ Select your Consumer Edition 96Boards device to access all product specific reso
 
 - [Compare 96Boards](CE-Extras/Compare96BoardsCE.md)
 - [96Boards CE Extras](CE-Extras/README.md)
-- [Projects](Projects/README.md)
+- [Projects](CE-Extras/Projects/README.md)
 
 | 96Boards  | About | Options | 
 |:----:|:----:|:----:|
