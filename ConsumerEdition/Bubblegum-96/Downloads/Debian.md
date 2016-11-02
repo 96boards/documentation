@@ -18,9 +18,9 @@ Continue to [Installation page](../Installation/README.md)
 
 ## Fastboot files (Advanced users)
 
-|   Bootloader    |    [Download]()    |
+|   Bootloader    |    [Download](https://builds.96boards.org/releases/bubblegum/linaro/u-boot/latest/u-boot-dtb.img)    |
 |:------------------|:-----------------------|
-|Release Notes:     |[Link]()      |
+|Release Notes:     |[Link](https://builds.96boards.org/releases/bubblegum/linaro/u-boot/latest/)      |
 
 |   Boot image    |    [Download](http://builds.96boards.org/releases/bubblegum/linaro/debian/latest/boot.emmc.img.gz)    |
 |:------------------|:-----------------------|
