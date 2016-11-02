@@ -18,16 +18,16 @@ Continue to [Installation page](../Installation/README.md)
 
 ## Fastboot files (Advanced users)
 
-|   Bootloader    |    [Download](http://builds.96boards.org/snapshots/bubblegum/linaro/u-boot/latest/u-boot-dtb.img)    |
+|   Bootloader    |    [Download]()    |
 |:------------------|:-----------------------|
-|Release Notes:     |[Link](http://builds.96boards.org/snapshots/bubblegum/linaro/u-boot/latest/)      |
+|Release Notes:     |[Link]()      |
 
-|   Boot image    |    [Download](http://builds.96boards.org/snapshots/bubblegum/linaro/debian/latest/boot.emmc.img.gz)    |
+|   Boot image    |    [Download](http://builds.96boards.org/releases/bubblegum/linaro/debian/latest/boot.emmc.img.gz)    |
 |:------------------|:-----------------------|
-|Release Notes:     |[Link](http://builds.96boards.org/snapshots/bubblegum/linaro/debian/latest/)      |
+|Release Notes:     |[Link](http://builds.96boards.org/releases/bubblegum/linaro/debian/latest/)      |
 
-|   Rootfs image    |    [Desktop](http://builds.96boards.org/snapshots/bubblegum/linaro/debian/latest/bubblegum-jessie_alip_*.emmc.img.gz) or [Developer](http://builds.96boards.org/snapshots/bubblegum/linaro/debian/latest/bubblegum-jessie_developer_*.emmc.img.gz)   |
+|   Rootfs image    |    [Desktop](http://builds.96boards.org/releases/bubblegum/linaro/debian/latest/bubblegum-jessie_alip_*.emmc.img.gz) or [Developer](http://builds.96boards.org/releases/bubblegum/linaro/debian/latest/bubblegum-jessie_developer_*.emmc.img.gz)   |
 |:------------------|:----------------------------------|
-|Release Notes:     |[Link](http://builds.96boards.org/snapshots/bubblegum/linaro/debian/latest/)      |
+|Release Notes:     |[Link](http://builds.96boards.org/releases/bubblegum/linaro/debian/latest/)      |
 
 Continue to [Installation page](../Installation/README.md)
