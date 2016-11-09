@@ -16,9 +16,13 @@ This section show how to install the Android operating system to your MediaTek X
 
 In order to proceed with these installation instructions, you will need to download all necessary files/images onto your Linux host machine.
 
-|   Tarball          |                                                                                                  |
-|:-------------------|:-------------------------------------------------------------------------------------------------|
-| mediatek-x20-aosp-16.09.xz  | [Download](http://builds.96boards.org/releases/helio-x20/mediatek/aosp/latest/mediatek-x20-aosp-16.09.xz) |
+|   Tarball                             |   Option               |  Description                                                        |
+|:--------------------------------------|:-----------------------|:--------------------------------------------------------------------|
+| mediatek-x20-aosp-16.10-image.tar.xz  | [Download](http://builds.96boards.org/releases/helio-x20/mediatek/aosp/latest/mediatek-x20-aosp-*-image.tar.xz) | This is an "Image only" tarball, here you will find all pre-built images needed for OS installation |
+| mediatek-x20-aosp-16.10-source.tar.xz | [Download](http://builds.96boards.org/releases/helio-x20/mediatek/aosp/latest/mediatek-x20-aosp-*-source.tar.xz) | This download includes source files for building images |
+| mediatek-x20-aosp-16.10.tar.xz | [Download](http://builds.96boards.org/releases/helio-x20/mediatek/aosp/latest/mediatek-x20-aosp-16.10.tar.xz) | This download includes all of the above files, both pre-built images and source |
+
+Visit [builds.96boards.org](http://builds.96boards.org/releases/helio-x20/mediatek/aosp/latest/) for more information on downloads.
 
 #### **Step 2**: Make sure "fastboot" and "adb" are set up on you Linux host machine
 
