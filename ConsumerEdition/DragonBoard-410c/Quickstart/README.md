@@ -40,7 +40,7 @@ The following subsections should describe how to get started with the DragonBoar
 |:---------------------|:-------------------------------------------------------------------------------------------------|
 |  SoC                 | Qualcomm Snapdragon 410                                                                          |
 |  CPU                 | ARM Cortex-A53 Quad-core up to 1.2 GHz per core                                                  |
-|  GPU                 | Qualcomm Adreno 306 @ 400MHz for PC-class graphics with support for Adcanced APIs, including OpenGL ES 3.0, OpenCL, DirectX, and content security                                                                                     |
+|  GPU                 | Qualcomm Adreno 306 @ 400MHz for PC-class graphics with support for Advanced APIs, including OpenGL ES 3.0, OpenCL, DirectX, and content security                                                                                     |
 |  RAM                 | 1GB LPDDR3 SDRAM @ 533MHz                                                                        |
 |  PMU                 | ???                                                                                              |
 |  Storage             | 8GB eMMC 4.51 on board storage and MicroSD card slot                                             |
