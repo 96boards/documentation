@@ -2,6 +2,10 @@
 
 Explore what makes your DragonBoard 410c unique, technical specifications, schematics, hardware notes and more... This page allows you to see what is under the "DragonBoard 410c hood" by offering static documentation published directly from the board vendors.
 
+## User Guides
+
+- Hardware User Manual ([View]() / [Download]())
+
 ## Hardware
 
 - BOM ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/HardwareDocs/DragonBoard410c_BOM.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/HardwareDocs/DragonBoard410c_BOM.pdf))
