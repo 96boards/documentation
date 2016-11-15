@@ -1,50 +1,50 @@
 # MediaTek X20 Development Board Hardware User Manual
 
 ### Table of Contents
-- [Table of Contents](#table-of-contents)
-- [Introduction](#introduction)
-- [What's in the Box](#whats-in-the-box)
-- [Board Overview](#board-overview)
-- [Key Components](#key-components)
-- [System Block Diagram](#system-block-diagram)
-- [Getting Started](#getting-started)
-   - [Prerequisites](#prerequisites)
-   - [Starting the board for the first time](#starting-the-board-for-the-first-time)
-- [Component Details](#component-details)
-   - [Processor](#processor)
-   - [PMIC](#pmic)
-   - [Memory (DRAM)](#memory-dram)
-   - [Storage](#storage)
-   - [Micro SDHC](#micro-sdhc)
-   - [Boot ROM](#boot-rom)
-   - [Networking](#networking)
-   - [WiFi](#wifi)
-   - [Bluetooth](#bluetooth)
-   - [GPS](#gps)
-   - [HDMI](#hdmi)
-   - [MIPI-DSI](#mipi-dsi)
-   - [Camera Interface](#camera-interface)
-   - [USB Ports](#usb-ports)
-   - [USB Host ports](#usb-host-ports)
-   - [USB Device ports](#usb-device-ports)
-   - [Audio](#audio)
-   - [DC Power](#dc-power)
-   - [Power Measurement](#power-measurement)
-   - [External Fan Connection](#external-fan-connection)
-   - [UART](#uart)
-   - [Buttons](#buttons)
-   - [LED Indicators](#led-indicators)
-   - [Additional Functionality](#additional-functionality)
-- [Expansion Connectors](#expansion-connectors)
-   - [Low Speed Expansion Connector](#low-speed-expansion-connector)
-   - [High Speed Expansion Connector](#high-speed-expansion-connector)
-   - [Analog Expansion Connector](#analog-expansion-connector)
-- [Power Management Overview](#power-management-overview)
-   - [Block Diagram](#block-diagram)
-   - [DC Power Input](#dc-power-input)
-   - [Power Source Selection and Sequencing](#power-source-selection-and-sequencing)
-   - [Voltage Rails](#voltage-rails)
-- [Mechanical Specification](#mechanical-specification)
+- Table of Contents
+- Introduction
+- What's in the Box
+- Board Overview
+- Key Components
+- System Block Diagram
+- Getting Started
+   - Prerequisites
+   - Starting the board for the first time
+- Component Details
+   - Processor
+   - PMIC
+   - Memory (DRAM)
+   - Storage
+   - Micro SDHC
+   - Boot ROM
+   - Networking
+   - WiFi
+   - Bluetooth
+   - GPS
+   - HDMI
+   - MIPI-DSI
+   - Camera Interface
+   - USB Ports
+   - USB Host ports
+   - USB Device ports
+   - Audio
+   - DC Power
+   - Power Measurement
+   - External Fan Connection
+   - UART
+   - Buttons
+   - LED Indicators
+   - Additional Functionality
+- Expansion Connectors
+   - Low Speed Expansion Connector
+   - High Speed Expansion Connector
+   - Analog Expansion Connector
+- Power Management Overview
+   - Block Diagram
+   - DC Power Input
+   - Power Source Selection and Sequencing
+   - Voltage Rails
+- Mechanical Specification
 
 ***
 
