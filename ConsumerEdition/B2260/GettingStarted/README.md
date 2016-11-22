@@ -82,8 +82,6 @@ MicroSD card comes preloaded with Debian Linux and can be up and running with a 
 
 ## Updating to a new release or changing your Operating System
 
-<Do not touch this section>
-
 If you are already familiar with the B2260 board and would like to change out the stock operating system, please proceed to one of the following pages:
 
 - [**Downloads page**](../Downloads/README.md): This page lists all Linaro and 3rd party operating systems available for B2260
