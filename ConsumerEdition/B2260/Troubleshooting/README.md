@@ -2,5 +2,7 @@
 
 Please take advantage of the many B2260 resources available to you through 96Boards.
 
-- Report a bug!
- - To report new issues with the B2260 Development Board, please send an email to your ST contact.
+- [Report a bug!](../../../Extras/Report_a_bug.md)
+   - Instructions on how to report bugs for any of our 96Boards hardware and software, this includes the B2260!
+- [Board Recovery](../Installation/BoardRecovery.md)
+   - Bricked board? Many software issues can be fixed with a simple "board recovery"
