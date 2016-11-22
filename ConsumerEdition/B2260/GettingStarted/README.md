@@ -26,6 +26,7 @@ Learn about your B2260 board as well as how to prepare and set up for basic use.
    - For more info see: https://www.96boards.org/products/mezzanine/uarts/
 
 ***
+
 # Out of the Box
 The following subsections describe how to get started with the B2260 using the release build shipped with the board.
 
@@ -34,7 +35,9 @@ The B2260 is supplied with Micro SD card containig a preinstalled version of Deb
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/ST_B2260_Front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/ST_B2260_Front_SD.png?raw=true" width="240" height="276" />
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/ST_B2260_Angle_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/ST_B2260_Angle_SD.png?raw=true" width="276" height="240" />
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/ST_B2260_Back_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/ST_B2260_Back_SD.png?raw=true" width="240" height="276" />
+
 ***
+
 ## Features
 
 |   Component          |   Description|
@@ -62,6 +65,7 @@ The B2260 is supplied with Micro SD card containig a preinstalled version of Deb
 **IMPORTANT NOTES**
 
 - HDMI EDID display data is used to determine the best display resolution. On monitors and TVs that support 1080p (or 1200p) this resolution will be selected. If 1080p is not supported the next available resolution reported by EDID will be used. This selected mode will work with most but not all monitors/TVs.
+
 ***
 
 ## Starting the board for the first time
