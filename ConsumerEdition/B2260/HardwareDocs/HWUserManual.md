@@ -49,22 +49,20 @@ The following table lists its key features:
 - **Mechanical**
    - Dimensions: 85mm x 100mm meeting 96Boards™ Consumer Edition standard dimensions specifications.
 
-[Back to top]()
-
 ***
+
 ## What's in the Box
 The box contains a B2260 Development 96board, a power supply, a power supply adapter, a populated SDCard and a product instruction manual (quick start guide).
 
-<img src="../AdditionalDocs/Images/ST_B2260_Front_SD.png" data-canonical-src="./AdditionalDocs/Images/ST_B2260_Front_SD.png" width="263" height="313" />
-<img src="../AdditionalDocs/Images/ST_B2260_Angle_SD.png" data-canonical-src="./AdditionalDocs/Images/ST_B2260_Angle_SD.png" width="313" height="252" />
-<img src="../AdditionalDocs/Images/ST_B2260_Back_SD.png" data-canonical-src="./AdditionalDocs/Images/ST_B2260_Back_SD.png" width="280" height="313" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/ST_B2260_Front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/ST_B2260_Front_SD.png?raw=true" width="263" height="313" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/ST_B2260_Angle_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/ST_B2260_Angle_SD.png?raw=true" width="313" height="252" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/ST_B2260_Back_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/ST_B2260_Back_SD.png?raw=true" width="280" height="313" />
 
-[Back to top]()
 ***
 
 ## Board Overview
 
-<img src="../AdditionalDocs/Images/ST_B2260_Front_SD_placement.png" data-canonical-src="./AdditionalDocs/Images/ST_B2260_Front_SD_placement.png" width="322" height="385" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/HWUserManual/ST_B2260_Front_SD_placement.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/HWUserManual/ST_B2260_Front_SD_placement.png?raw=true" width="322" height="385" />
 
 
 
@@ -84,7 +82,7 @@ The box contains a B2260 Development 96board, a power supply, a power supply ada
 |    12    | Reset Button                                              |
 |    13    | Bluetooth/WiFi Antenna                                    |
 
-<img src="../AdditionalDocs/Images/ST_B2260_Back_SD_placement.png" data-canonical-src="./AdditionalDocs/Images/ST_B2260_Back_SD_Placement.png" width="348" height="385" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/HWUserManual/ST_B2260_Back_SD_placement.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/HWUserManual/ST_B2260_Back_SD_placement.png?raw=true" width="348" height="385" />
 
 | Position | Description                                               |
 |---------:|-----------------------------------------------------------|
@@ -94,20 +92,17 @@ The box contains a B2260 Development 96board, a power supply, a power supply ada
 |    17    | ST Cannes2-STiH410 Soc                                    |
 |    18    | 2x16b 1GB LPDDR3                                          |
 
-[Back to top]()
-
 ***
 
 ## System Block Diagram
 
-<img src="../AdditionalDocs/Images/SystemBlockDiagram.png" data-canonical-src="./AdditionalDocs/Images/SystemBlockDiagram.png" width="500" height="500" />
-
-[Back to top]()
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/HWUserManual/SystemBlockDiagram.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/HWUserManual/SystemBlockDiagram.png?raw=true" width="500" height="500" />
 
 ## Jumpers/Switch Configurations
 There is no jumper or switch to configure on the ST B2260 Development Board.
 
 ***
+
 ## Getting Started
 ### Prerequisites
 Before power up the  B2260 Development Board for the first time, following material is required:
@@ -146,10 +141,7 @@ To start the board, follow these simple steps:
 - 3- Insert the SDcard
 - 4- Connect the delivered power supply (12V, 5A) to power outlet.
 
-
 The board will start booting process and System will be available after **X** seconds.
-
-[Back to top]()
 
 ***
 
@@ -227,7 +219,7 @@ The ARM Mali-400 MP2 GPU configuration is:
 Display is provided on the B2260 Development Board via HDMI standard Type A connector.<br>
 HDMI full size 1.4b @ 1080p60.
 
-<img src="../AdditionalDocs/Images/DisplayHDMIInterface.png" data-canonical-src="./AdditionalDocs/Images/DisplayHDMIInterface.png" width="894" height="350" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/HWUserManual/DisplayHDMIInterface.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/HWUserManual/DisplayHDMIInterface.png?raw=true" width="894" height="350" />
 
 
 #### MIPI-DSI
@@ -237,6 +229,7 @@ The B2260 Development Board doesn’t include a MIPI-DSI interface.
 ### Camera Interface
 The 96Boards specification calls for two camera interfaces.<br>
 The B2260 Development Board doesn’t include CSI interface.
+
 ***
 
 ### USB Ports
@@ -246,7 +239,7 @@ Following this requirement, on the B2260 Development Board, there are:
 -	One microUSB connector, in device mode by default,
 -	One USB Host provided on the High Speed Expansion connector,
 
-<img src="../AdditionalDocs/Images/USBPort.png" data-canonical-src="./AdditionalDocs/Images/USBPort.png" width="926" height="450" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/HWUserManual/USBPort.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/HWUserManual/USBPort.png?raw=true" width="926" height="450" />
 
 ### Audio
 The 96Boards specifications call for a minimum of single channel audio through two interfaces, BT and HDMI/MHL/DisplayPort.
@@ -339,20 +332,19 @@ They are located between the two USB type A connectors:
 The 96Boards specification does not call for a dedicated JTAG connector. However the B2260 Development Board has JTAG signal routed to J2.<br>
 The J2 connector has a standard 10 pins JTAG connector pitch and is populated on the board as follow.
 
-<img src="../AdditionalDocs/Images/JTAGScheme.png" data-canonical-src="./AdditionalDocs/Images/JTAGScheme.png" width="266" height=84 />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/HWUserManual/JTAGScheme.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/HWUserManual/JTAGScheme.png?raw=true" width="266" height=84 />
 
 
 ### Additional Functionality
+
 **Kept for example, to complete if any other additional Functionality ?**
 *< Use this section to describe any additional functionality you’ve added to the board besides what is mandated in the 96boards spec, each in their own sub-section e.g. JTAG, GPS, Mic, SATA, PCIe, additional expansion connectors >*
-
-[Back to top]()
 
 ***
 ## Expansion Connectors
 Following the 96Boards requirement, two connectors are implemented on the B2260 Development Board, a high and a low speed connectors.
 
-NC refers to Not Connected PIN.
+> Note: NC refers to Not Connected PIN.
 
 ### Low Speed Expansion Connector
 |  B2260 Signals      |  96Boards Signals |  PIN  |  PIN  |  96Boards Signals  |  B2260     Signals  |
@@ -415,44 +407,42 @@ The 96Boards specification calls for three power rails to be present on the Low 
 
 The B2260 Development Board reaches those requirements.
 
-
-[Back to top]()
-
 ***
+
 ### High Speed Expansion Connector
 
 |  B2260 Signals     |   96Boards Signals   |  PIN  |  PIN  |  96Boards Signals  |             B2260 Signals                 |
-|:-------------------|:---------------------|:------|------:|-------------------:|------------------------------------------:|
-|   EXT_SD_DAT0      |   SD_DAT0/SPI1_DOUT  |   1   |   2   |   CSI0_C+          |   NC                                      |
-|   EXT_SD_DAT1      |   SD_DAT1            |   3   |   4   |   CSI0_C-          |   NC                                      |
-|   EXT_SD_DAT2      |   SD_DAT2            |   5   |   6   |   GND              |   GND                                     |
-|   EXT_SD_DAT3      |   SD_DAT3/SPI1_CS    |   7   |   8   |   CSI0_D0+         |   NC                                      |
-|   EXT_SD_SCLK      |   SD_SCLK/SPI1_SCLK  |   9   |   10  |   CSI0_D0-         |   NC                                      |
-|   EXT_SD_CMD       |   SD_CMD/SPI1_DIN    |   11  |   12  |   GND              |   GND                                     |
-|   GND              |   GND                |   13  |   14  |   CSI0_D1+         |   NC                                      |
-|   NC               |   CLK0/CSI0_MCLK     |   15  |   16  |   CCSI0_D1-        |   NC                                      |
-|   NC               |   CLK1/CSI1_MCLK     |   17  |   18  |   GND              |   GND                                     |
-|   GND              |   GND                |   19  |   20  |   CSI0_D2+         |   NC                                      |
-|   NC               |   DSI_CLK+           |   21  |   22  |   CSI0_D2-         |   NC                                      |
-|   NC               |   DSI_CLK-           |   23  |   24  |   GND              |   GND                                     |
-|   GND              |   GND                |   25  |   26  |   CSI0_D3+         |   NC                                      |
-|   NC               |   DSI_D0+            |   27  |   28  |   CSI0_D3-         |   NC                                      |
-|   NC               |   DSI_D0-            |   29  |   30  |   GND              |   GND                                     |
-|   GND              |   GND                |   31  |   32  |   I2C2_SCL         |   I2C2_SCLO                               |
-|   NC               |   DSI_D1+            |   33  |   34  |   I2C2_SCL         |   I2C2_SDAO                               |
-|   NC               |   DSI_D1-            |   35  |   36  |   I2C3_SDA         |   I2C3_SCLO                               |
-|   GND              |   GND                |   37  |   38  |   I2C3_SDA         |   I2C3_SDAO                               |
-|   NC               |   DSI_D2+            |   39  |   40  |   GND              |   GND                                     |
-|   NC               |   DSI_D2-            |   41  |   42  |   CSI1_D0+         |   NC                                      |
-|   GND              |   GND                |   43  |   44  |   CSI1_D0-         |   NC                                      |
-|   NC               |   DSI_D3+            |   45  |   46  |   GND              |   GND                                     |
-|   NC               |   DSI_D3-            |   47  |   48  |   CSI1_D1+         |   NC                                      |
-|   GND              |   GND                |   49  |   50  |   CSI1_D1-         |   NC                                      |
-|   USB_D+           |   USB_D+             |   51  |   52  |   GND              |   GND                                     |
-|   USB_D-           |   USB_D-             |   53  |   54  |   CSI1_C+          |   NC                                      |
-|   GND              |   GND                |   55  |   56  |   CSI1_C-          |   NC                                      |
-|   NC               |   HSIC_STR           |   57  |   58  |   GND              |   GND                                     |
-|   NC               |   HSIC_DATA          |   59  |   60  |   RESERVED         |   10K pull up to 1.8V                     |
+|:-------------------|:---------------------|:------|------:|-------------------:|----------------------------------------:|
+|   EXT_SD_DAT0      |   SD_DAT0/SPI1_DOUT  |   1   |   2   |   CSI0_C+          |   NC                                    |
+|   EXT_SD_DAT1      |   SD_DAT1            |   3   |   4   |   CSI0_C-          |   NC                                    |
+|   EXT_SD_DAT2      |   SD_DAT2            |   5   |   6   |   GND              |   GND                                   |
+|   EXT_SD_DAT3      |   SD_DAT3/SPI1_CS    |   7   |   8   |   CSI0_D0+         |   NC                                    |
+|   EXT_SD_SCLK      |   SD_SCLK/SPI1_SCLK  |   9   |   10  |   CSI0_D0-         |   NC                                    |
+|   EXT_SD_CMD       |   SD_CMD/SPI1_DIN    |   11  |   12  |   GND              |   GND                                   |
+|   GND              |   GND                |   13  |   14  |   CSI0_D1+         |   NC                                    |
+|   NC               |   CLK0/CSI0_MCLK     |   15  |   16  |   CCSI0_D1-        |   NC                                    |
+|   NC               |   CLK1/CSI1_MCLK     |   17  |   18  |   GND              |   GND                                   |
+|   GND              |   GND                |   19  |   20  |   CSI0_D2+         |   NC                                    |
+|   NC               |   DSI_CLK+           |   21  |   22  |   CSI0_D2-         |   NC                                    |
+|   NC               |   DSI_CLK-           |   23  |   24  |   GND              |   GND                                   |
+|   GND              |   GND                |   25  |   26  |   CSI0_D3+         |   NC                                    |
+|   NC               |   DSI_D0+            |   27  |   28  |   CSI0_D3-         |   NC                                    |
+|   NC               |   DSI_D0-            |   29  |   30  |   GND              |   GND                                   |
+|   GND              |   GND                |   31  |   32  |   I2C2_SCL         |   I2C2_SCLO                             |
+|   NC               |   DSI_D1+            |   33  |   34  |   I2C2_SCL         |   I2C2_SDAO                             |
+|   NC               |   DSI_D1-            |   35  |   36  |   I2C3_SDA         |   I2C3_SCLO                             |
+|   GND              |   GND                |   37  |   38  |   I2C3_SDA         |   I2C3_SDAO                             |
+|   NC               |   DSI_D2+            |   39  |   40  |   GND              |   GND                                   |
+|   NC               |   DSI_D2-            |   41  |   42  |   CSI1_D0+         |   NC                                    |
+|   GND              |   GND                |   43  |   44  |   CSI1_D0-         |   NC                                    |
+|   NC               |   DSI_D3+            |   45  |   46  |   GND              |   GND                                   |
+|   NC               |   DSI_D3-            |   47  |   48  |   CSI1_D1+         |   NC                                    |
+|   GND              |   GND                |   49  |   50  |   CSI1_D1-         |   NC                                    |
+|   USB_D+           |   USB_D+             |   51  |   52  |   GND              |   GND                                   |
+|   USB_D-           |   USB_D-             |   53  |   54  |   CSI1_C+          |   NC                                    |
+|   GND              |   GND                |   55  |   56  |   CSI1_C-          |   NC                                    |
+|   NC               |   HSIC_STR           |   57  |   58  |   GND              |   GND                                   |
+|   NC               |   HSIC_DATA          |   59  |   60  |   RESERVED         |   10K pull up to 1.8V                   |
 
 #### MIPI DSI 0
 The 96Boards specification calls for a MIPI-DSI to be present on the High Speed Expansion Connector. A minimum of one lane is required and up to four lanes can be accommodated on the connector.
@@ -489,21 +479,17 @@ The 96Boards specification calls for an optional MIPI-HSIC interface to be prese
 
 The B2260 Development Board implementation doesn't support this requirement.
 
-[Back to top]()
-
 ***
 
 ### Others
 < Use this section to describe any additional expansion connectors and how to use the signals on them>
-
-[Back to top]()
 
 ***
 
 ## Power Management Overview
 ### Block Diagram
 
-<img src="../AdditionalDocs/Images/PowerManagementBlockDiagram.png" data-canonical-src="./AdditionalDocs/Images/PowerManagementBlockDiagram.png" width="612
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/HWUserManual/PowerManagementBlockDiagram.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/HWUserManual/PowerManagementBlockDiagram.png?raw=true" width="612
 " height="613" />
 
 ### DC Power Input
@@ -526,14 +512,12 @@ Please note that on the B2260 Development Board, the power can be as lower as 4.
 ### Voltage Rails
 Please note that there is no independent power domain on the B2260 Development Board therefore no power sequencing. When the SYS_DCIN_12V is powered from 4.2V to 18V, all the Bucks will operate therefore feeding all powers domains.
 
-[Back to top]()
-
 ***
 
 ## Mechanical Specification
 ### 2D Reference Drawing
-<img src="../AdditionalDocs/Images/MechanicalSpecifications.png" data-canonical-src="./AdditionalDocs/Images/MechanicalSpecifications.png" width="576" height="835" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/HWUserManual/MechanicalSpecifications.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/HWUserManual/MechanicalSpecifications.png?raw=true" width="576" height="835" />
 
+***
 
-
-[Back to top]()
+[View/Edit this document in Github](https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/HardwareDocs/HWUserManual.md)
