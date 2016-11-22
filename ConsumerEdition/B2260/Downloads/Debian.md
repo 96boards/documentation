@@ -6,7 +6,7 @@
 
 ## SD Card image
 
-|   SD Card Image   | Build Directory ([Latest](http://builds.96boards.org/snapshots/b2260/linaro/debian/latest/) |
+|   SD Card Image   | Build Directory ([Latest](http://builds.96boards.org/snapshots/b2260/linaro/debian/latest/)) |
 |:------------------|:------------------------------------|
 |  Debian (Alip)  |[Download](http://builds.96boards.org/snapshots/b2260/linaro/debian/latest/b2260-jessie_alip_*.img.gz) |
 |  Debian (Developer)  |[Download](http://builds.96boards.org/snapshots/b2260/linaro/debian/latest/b2260-jessie_developer_*.img.gz) |
