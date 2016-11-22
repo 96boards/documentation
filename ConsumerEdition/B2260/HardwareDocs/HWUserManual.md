@@ -1,6 +1,7 @@
-# B2260 Development 96Board User Manual
+# B2260 Development 96Boards Hardware User Manual
 
 ***
+
 ## Introduction
 The ST B2260 Development Board is a 96Boards compliant community board based on ST Cannes2-STiH410 platform.
 
