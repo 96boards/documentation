@@ -1,7 +1,6 @@
 # Additional Documentation
 
-Discover our list of additional B2260 Development Board documents, containing pictures of the board, hardware notes and the User Manual.
+Discover our list of community and vendor sponsored B2260 documents. This page allows you to explore new and exciting, downloadable documentation, in it's intended, static format.
 
-- [Hardware notes](HardwareNotes.md)
-- [Hardware User Manual](UserManual.md)
+
 
