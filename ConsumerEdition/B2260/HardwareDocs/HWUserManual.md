@@ -335,7 +335,6 @@ The J2 connector has a standard 10 pins JTAG connector pitch and is populated on
 
 ### Additional Functionality
 
-**Kept for example, to complete if any other additional Functionality ?**
 *< Use this section to describe any additional functionality you’ve added to the board besides what is mandated in the 96boards spec, each in their own sub-section e.g. JTAG, GPS, Mic, SATA, PCIe, additional expansion connectors >*
 
 ***
@@ -480,7 +479,7 @@ The B2260 Development Board implementation doesn't support this requirement.
 ***
 
 ### Others
-< Use this section to describe any additional expansion connectors and how to use the signals on them>
+*< Use this section to describe any additional expansion connectors and how to use the signals on them>*
 
 ***
 
