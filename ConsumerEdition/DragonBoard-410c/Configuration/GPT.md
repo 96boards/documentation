@@ -46,8 +46,8 @@ When the command above finishes, your SD card should have the right GPT. You now
 ## Boot an OpenEmbedded image from SD card
 
 You can for example boot one of our OpenEmbedded reference image from the SD card. First download the following files:
-* http://builds.96boards.org/snapshots/reference-platform/openembedded/dragonboard-410c/latest/boot--4.4-r0.1-dragonboard-410c-*.img
-* http://builds.96boards.org/snapshots/reference-platform/openembedded/dragonboard-410c/latest/core-image-minimal-dragonboard-410c-*.rootfs.ext4.gz
+* http://builds.96boards.org/snapshots/reference-platform/openembedded/morty/dragonboard-410c/rpb/latest/boot--*-dragonboard-410c-*.img
+* http://builds.96boards.org/snapshots/reference-platform/openembedded/morty/dragonboard-410c/rpb/latest/rpb-desktop-image-dragonboard-410c-*.rootfs.img.gz
 
 The boot image will by default try to mount the root fs on the eMMC , so we need to modify the root parameter in the bootargs:
 
