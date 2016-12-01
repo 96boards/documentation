@@ -56,7 +56,7 @@ The boot image will by default try to mount the root fs on the eMMC , so we need
 You can now write the boot and rootfs image into the SD card:
 
     sudo dd if=boot-XXX.img of=/dev/XXX8
-    sudo dd if=core-image-minimal-dragonboard-410c-XXX.rootfs.ext4 of=/dev/XXX9
+    sudo dd if=rpb-desktop-image-dragonboard-410c-XXX.rootfs.img of=/dev/XXX9
     
 Where:
 * /dev/XXX8 represents the 'boot' partition on the SD card
