@@ -62,7 +62,7 @@ Choose host machine
 - [Linux](LinuxFastboot.md)
 
 ***
-### Factory Images Method
+### Factory Images Method (currently available for AOSP only)
 
 Factory Images are one of the easier way to install a image onto a device, and is reccomended for new users. It is similar to the fastboot method, but all the binary objects and a flashall.sh script are provided in a single zip file, so one doesn't need to make sure they have the right versions of various binary images, nor remember which order might be required to flash images.
 
