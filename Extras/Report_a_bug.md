@@ -20,6 +20,8 @@ the Reference Software Platform. Please read through the following sections for 
    - HiKey
    - DragonBoard™ 410c
    - Bubblegum96
+   - MediaTek X20
+   - B2260
    - Pre-built Images
 
 **Enterprise Edition bugs:**
