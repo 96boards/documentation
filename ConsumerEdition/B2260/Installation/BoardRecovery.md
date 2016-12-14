@@ -1,5 +1,10 @@
 # B2260 Board Recovery
 
-< This page is extremely important and will vary for each 96Boards, if a user is confronted with a bricked (unusable) board, how might they go about fixing this? Other 96Boards Board Recovery example can be found >
+This page outlines steps needed to recover your B2260 development board from a bricked software state.
+This instruction set is suggested to those who are experiences boot issues due to corruption in the file system and/or other software components.
 
-Not yet available
+## SD card recovery image
+For most users, a board can be recovered from a software failure by reloading the operating system.
+It is then recommended to format the used SDCard and to follow instruction give in the installation page.
+
+If, after re-initialisation of the embedded software, your board does boot any more.It may be an issue in the BootROM. Recommendations is then to contact ST.
