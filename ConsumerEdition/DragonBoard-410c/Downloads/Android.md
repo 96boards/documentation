@@ -8,7 +8,7 @@
 
 |   SD Card Image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/16.03/dragonboard410c_sdcard_install_android-*.zip)    |
 |:------------------|:-----------------------|
-|Release Notes:     |[Link](https://developer.qualcomm.com/download/db410c/android-release-notes.pdf)       |
+|Release Notes:     |[Link](https://developer.qualcomm.com/download/db410c/android_release_notes-LM80-P0436-12_Rev_G.pdf)       |
 
 Continue to [Installation page](../Installation/README.md)
 
@@ -28,6 +28,6 @@ Continue to [Installation page](../Installation/README.md)
 |recovery.img.tar.xz      |[Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/16.03/recovery.img.tar.xz)            |
 |persist.img.tar.xz       |[Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/16.03/persist.img.tar.xz)            |
 |cache.img.tar.xz         |[Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/16.03/cache.img.tar.xz)            |
-|Release Notes:     |[Link](https://developer.qualcomm.com/download/db410c/android-release-notes.pdf)       |
+|Release Notes:     |[Link](https://developer.qualcomm.com/download/db410c/android_release_notes-LM80-P0436-12_Rev_G.pdf)       |
 
 Continue to [Installation page](../Installation/README.md)
