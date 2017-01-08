@@ -8,7 +8,7 @@
 
 |   SD Card Image    |      |
 |:------------------|:-----------------------|
-| Chinese User | [Download](https://pan.baidu.com/s/1c2Hnc3Y); Password: tt5a|
+| Chinese User | [Download](https://pan.baidu.com/s/1jHW2s2U); Password: vgwc|
 | Global User | [Download](https://mega.nz/#!w5YHwYLb!8NdsJXlTyHI_fGK50PvZsLeTifzSc3IQ7IdyRKbjwtM) |
 |Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)       |
 
