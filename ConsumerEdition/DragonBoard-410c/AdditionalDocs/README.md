@@ -6,6 +6,34 @@ Discover our list of community and vendor sponsored DragonBoard 410c documents. 
 
 - Android User Guide ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/AndroidUserGuide_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/AndroidUserGuide_DragonBoard.pdf))
 - Linux User Guide ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/LinuxUserGuide_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/LinuxUserGuide_DragonBoard.pdf))
+- [Hardware Register Description, Qualcomm Snapdragon 410E Processor (APQ 8016)](https://developer.qualcomm.com/download/sd410/hardware-register-description-qualcomm-snapdragon-410.pdf)
+- [PM8916 Hardware Register Description](https://developer.qualcomm.com/download/sd410/pm8916-hardware-register-description.pdf)
+
+***
+
+## Chipset Device Specifications
+
+- [Snapdragon 410E Processor Device Specification](https://developer.qualcomm.com/download/sd410/snapdragon-410-processor-device-specification.pdf)
+- [PM8916/PM8916-1 Power Management IC Device Specification](https://developer.qualcomm.com/download/sd410/pm8916pm8916-1-power-management-ic-device-specification.pdf)
+- [WCN3620 Wireless Connectivity IC Device Specification](https://developer.qualcomm.com/download/sd410/wcn3620-wireless-connectivity-ic-device-specification.pdf)
+- [WGR7640 GNSS RF Receiver IC Device Specification](https://developer.qualcomm.com/download/sd410/wgr7640-gnss-rf-receiver-ic-device-specification.pdf)
+
+***
+
+## Revision Guide
+
+- [WCN3620 Wireless Connectivity IC Device Revision Guide](https://developer.qualcomm.com/download/sd410/wcn3620-wireless-connectivity-ic-device-revision-guide.pdf)
+- [WGR7640 IC Device Revision Guide](https://developer.qualcomm.com/download/sd410/wgr7640-ic-device-revision-guide.pdf)
+
+***
+
+## Design Guidelines
+
+- [WCN3620 Layout Guidelines](https://developer.qualcomm.com/download/sd410/wcn3620-layout-guidelines.pdf)
+- [WCN3620 Wireless Connectivity IC Design Guidelines](https://developer.qualcomm.com/download/sd410/wcn3620-wireless-connectivity-ic-design-guidelines.pdf)
+- [GPS Quality, 19.2 MHz 2520 Package Size, Crystal, and TH+Xtal / Snapdragon 410E](https://developer.qualcomm.com/download/sd410/gps-quality-192-mhz-2520-package-size-crystal-and-thxtal.zip)
+- [WGR7640 IC GNSS RF Receiver Design Guidelines](https://developer.qualcomm.com/download/sd410/wgr7640-ic-gnss-rf-receiver-design-guidelines.pdf)
+- [APQ8016E Processor Design Guidelines](https://developer.qualcomm.com/download/sd410/apq8016e-processor-design-guidelines.pdf)
 
 ***
 
