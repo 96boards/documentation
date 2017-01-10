@@ -2,6 +2,12 @@
 
 Discover our list of community and vendor sponsored DragonBoard 410c documents. This page allows you to explore new and exciting, downloadable documentation, in it's intended, static format.
 
+## On Qualcomm Developer Network
+<img src="http://www.96boards.org/wp-content/uploads/2015/06/QDN-H-RGB-72ppi.gif" data-canonical-src="http://www.96boards.org/wp-content/uploads/2015/06/QDN-H-RGB-72ppi.gif" aligh="right" />
+- [Qualcomm Developer Network](https://developer.qualcomm.com/hardware/dragonboard-410c/tools)
+- [Android Release Notes](https://developer.qualcomm.com/download/db410c/android_release_notes-LM80-P0436-12_Rev_G.pdf)
+- [Android Release Notes for build LA.BR.1.2.4-01810-8x16.0](https://developer.qualcomm.com/download/db410c/android-release-notes-build-labr124-01810-8x160.pdf)
+
 ## User Guides
 
 - Android User Guide ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/AndroidUserGuide_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/AndroidUserGuide_DragonBoard.pdf))
@@ -37,13 +43,7 @@ Discover our list of community and vendor sponsored DragonBoard 410c documents. 
 
 ***
 
-## On Qualcomm Developer Network
-<img src="http://www.96boards.org/wp-content/uploads/2015/06/QDN-H-RGB-72ppi.gif" data-canonical-src="http://www.96boards.org/wp-content/uploads/2015/06/QDN-H-RGB-72ppi.gif" aligh="right" />
-- [Qualcomm Developer Network](https://developer.qualcomm.com/hardware/dragonboard-410c/tools)
-- [Android Release Notes](https://developer.qualcomm.com/download/db410c/android_release_notes-LM80-P0436-12_Rev_G.pdf)
-- [Android Release Notes for build LA.BR.1.2.4-01810-8x16.0](https://developer.qualcomm.com/download/db410c/android-release-notes-build-labr124-01810-8x160.pdf)
-
-#### Application Notes ("How to" documents)
+## Application Notes ("How to" documents)
 
 - [Creating a Camera Mezzanine and Camera Flex Circuit for DragonBoard (New!)](https://developer.qualcomm.com/download/db410c/creating-camera-mezzanine-and-camera-flex-circuit-dragonboard.pdf)
 - [Connect ADB over Wi-Fi](https://developer.qualcomm.com/download/db410c/adb-over-wi-fi-application-note.pdf)
