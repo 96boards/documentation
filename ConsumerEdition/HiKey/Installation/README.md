@@ -13,33 +13,10 @@ Choose and install an operating system on your HiKey. To appropriately follow th
 
 In most cases, you will be presented with one or two options when installing your new operating system onto your HiKey:
 
-- SD Card Method
 - Fastboot Method
 - Factory Images Method
 
 Each method has it's own benifits, and requires different levels of experience
-
-***
-
-### SD Card Method
-
-The SD card method allows you to place a microSD card into a HiKey to automatically boot and install an operating system onto the eMMC of your board. This method is generally simpler than other methods and should be used by beginners.
-
-This method requires the following hardware:
-
-- HiKey with power supply
-- Host machine (Linux, Mac OS X, or Windows)
-- MicroSD card with 4GB or more of storage
-- USB Mouse and/or keyboard
-- HDMI Monitor with full size HDMI cable
-
-Go to the [Downloads page](../Downloads/README.md) to get your SD card image.
-
-Choose host machine
-
-- [Linux](LinuxSD.md)
-- [Mac](MacSD.md)
-- [Windows](WindowsSD.md)
 
 ***
 
