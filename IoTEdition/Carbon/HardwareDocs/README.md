@@ -8,7 +8,7 @@ Explore what makes your Carbon unique, technical specifications, schematics, har
 
 ***
 
-- Schematics ([View](https://github.com/sdrobertw/Carbon/blob/master/HardwareDocs/Carbon_Schematics.pdf) / [Download](https://github.com/sdrobertw/Carbon/raw/master/HardwareDocs/Carbon_Schematics.pdf))
-- Pinout Diagram ([View](https://github.com/sdrobertw/Carbon/blob/master/HardwareDocs/Carbon_Pinout.png) / [Download](https://github.com/sdrobertw/Carbon/raw/master/HardwareDocs/Carbon_Pinout.png))
-- Block Image ([View](https://github.com/sdrobertw/Carbon/blob/master/HardwareDocs/Carbon_Block_V1.png) / [Download](https://github.com/sdrobertw/Carbon/raw/master/HardwareDocs/Carbon_Block_V1.png))
+- Schematics ([View](https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/HardwareDocs/Carbon_Schematics.pdf) / [Download](https://github.com/96boards/documentation/raw/master/IoTEdition/Carbon/HardwareDocs/Carbon_Schematics.pdf))
+- Pinout Diagram ([View](https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/HardwareDocs/Carbon_Pinout.png) / [Download](https://github.com/96boards/documentation/raw/master/IoTEdition/Carbon/HardwareDocs/Carbon_Pinout.png))
+- Block Image ([View](https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/HardwareDocs/Carbon_Block_V1.png) / [Download](https://github.com/96boards/documentation/raw/master/IoTEdition/Carbon/HardwareDocs/Carbon_Block_V1.png))
 
