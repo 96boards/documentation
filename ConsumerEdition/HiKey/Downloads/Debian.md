@@ -6,9 +6,9 @@
 
 ## SD Card image
 
-|   SD Card Image    |    [Desktop](http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_alip_20151130-387.img.gz) or [Developer](http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_developer_20151130-387.img.gz)    |
+|   SD Card Image    |    [Desktop](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-debian-jessie-alip-sdcard-*.img.gz) |
 |:------------------|:-----------------------|
-|Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)       |
+|Release Notes:     |[Link](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/)       |
 
 ### Continue to [Installation page](../Installation/README.md)
 
@@ -18,17 +18,17 @@
 
 |   Bootloader    |        |
 |:------------------|:-----------------------|
-| l-loader.bin      | [Download](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/l-loader.bin)           |
-| fip.bin           | [Download](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/fip.bin)           | 
-| nvme.img          | [Download](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/nvme.img)           | 
-| ptable-linux.img  | [4GB](http://builds.96boards.org/releases/hikey/linaro/debian/latest/ptable-linux-4g.img) / [8GB](http://builds.96boards.org/releases/hikey/linaro/debian/latest/ptable-linux-8g.img)      | 
-| hisi-idt.py       | [Download](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/hisi-idt.py)           | 
+| l-loader.bin      | [Download](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/l-loader.bin)           |
+| fip.bin           | [Download](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/fip.bin)           | 
+| nvme.img          | [Download](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/nvme.img)           | 
+| ptable-linux.img  | [4GB](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-4g.img) / [8GB](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-8g.img)      | 
+| hisi-idt.py       | [Download](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/hisi-idt.py)           | 
 
-|   Boot image    |    [Download](http://builds.96boards.org/releases/hikey/linaro/debian/latest/boot-fat.uefi.img.gz)    |
+|   Boot image    |    [Download](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-boot-linux-*.uefi.img.gz)    |
 |:------------------|:-----------------------|
-|Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)      |
+|Release Notes:     |[Link](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/)      |
 
-|   Rootfs image    |    Desktop([4G](http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_alip_*-4g.emmc.img.gz) / [8G](http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_alip_*-8g.emmc.img.gz)) or Developer([4G](http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_developer_*-4g.emmc.img.gz) / [8G](http://builds.96boards.org/releases/hikey/linaro/debian/latest/hikey-jessie_developer_*-8g.emmc.img.gz))   |
+|   Rootfs image    |    [Desktop](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-rootfs-debian-jessie-alip-*.emmc.img.gz) |
 |:------------------|:----------------------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)      |
 
