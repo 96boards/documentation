@@ -10,6 +10,8 @@ A comprehensive guide to using the [DragonBoard 410c](https://www.96boards.org/p
    - Choose and install an operating system on your DragonBoard 410c
 - [Downloads](Downloads/README.md)
    - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
+- [Useful Guides](Guides/README.md)
+   - These guides will help to get you started with a variety of available on-boards software
 - [Configuration](Configuration/README.md)
    - Execute unique configurations to customize your DragonBoard 410c experience
 - [Hardware Documentation](HardwareDocs/README.md)
