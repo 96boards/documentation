@@ -14,6 +14,8 @@ Discover our list of community and vendor sponsored MediaTek X20 documents. This
 
 ## From Alpha Star
 
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20/AdditionalDocs/Images/Logos/Alpha_Star.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20/AdditionalDocs/Images/Logos/Alpha_Star.png?raw=true" width="150" height="80" />
+
 All links forward to material from https://en.alpha-star.org/wiki
 
 ### Android Development Guide
