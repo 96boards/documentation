@@ -58,7 +58,6 @@ Discover our list of community and vendor sponsored DragonBoard 410c documents. 
 - [Setting Wi-Fi MAC Address on DragonBoard 410c](https://developer.qualcomm.com/download/db410c/setting-wi-fi-mac-address.pdf)
 - [Measuring Power Consumption for DragonBoard™ 410c](https://developer.qualcomm.com/download/db410c/power-measurement-appnote.pdf)
 - [Creating a Camera Mezzanine and Camera Flex Circuit for DragonBoard](https://developer.qualcomm.com/download/db410c/creating-camera-mezzanine-and-camera-flex-circuit-dragonboard.pdf)
-- [Clock plan for APQ8016E](https://developer.qualcomm.com/download/db410c/clock-plan-apq8016e.pdf)
 
 #### Android Porting and Programming Guides
 
