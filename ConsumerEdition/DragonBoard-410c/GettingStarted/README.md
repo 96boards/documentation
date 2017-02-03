@@ -16,7 +16,7 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
 
 **Optional**
 - MicroSD card with adapter
-   - For quick and easy switching between operating systems and extra storage
+   - For quick and easy switching between operating systems, Board recovery and extra storage
 - [Mezzanine Products](../../../MezzanineProducts/README.md)
    - These devices allow you to expand your experience with any 96Boards by adding peripherals and enhancing onboard components
 - USB to MicroUSB cable
