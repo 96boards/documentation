@@ -10,8 +10,6 @@ Discover our list of community and vendor sponsored DragonBoard 410c documents. 
 
 ## User Guides
 
-- Android User Guide ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/AndroidUserGuide_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/AndroidUserGuide_DragonBoard.pdf))
-- Linux User Guide ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/LinuxUserGuide_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/LinuxUserGuide_DragonBoard.pdf))
 - [Hardware Register Description, Qualcomm Snapdragon 410E Processor (APQ 8016)](https://developer.qualcomm.com/download/sd410/hardware-register-description-qualcomm-snapdragon-410.pdf)
 - [PM8916 Hardware Register Description](https://developer.qualcomm.com/download/sd410/pm8916-hardware-register-description.pdf)
 
