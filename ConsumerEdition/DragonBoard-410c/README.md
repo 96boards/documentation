@@ -19,4 +19,8 @@ A comprehensive guide to using the [DragonBoard 410c](https://www.96boards.org/p
 	<td align="center"><a href="Software/README.md">Software</a><br>Get the latest pre-built firmware images</td>
 	<td align="center"><a href="Documentation/README.md">Documentation</a><br>Instructions for building latest firmware images</td>
 </tr>
+<tr>
+	<td align="center"><a href="Software/Downloads/README.md">Downloads</a><br>Get the latest pre-built firmware images</td>
+	<td align="center"><a href="Documentation/GettingStarted/README.md">Getting Started</a><br>Instructions for building latest firmware images</td>
+</tr>
 </table>
