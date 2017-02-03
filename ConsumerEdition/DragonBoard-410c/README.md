@@ -10,5 +10,23 @@ A comprehensive guide to using the [DragonBoard 410c](https://www.96boards.org/p
 | [Installation](Software/Installation/README.md)       | [Useful Guides](Documentation/Guides/README.md)                |
 | [Build from Source](Software/BuildSource/README.md)   | [SoC Documentation](Documentation/AdditionalDocs/README.md)    |
 |                                                       | [Hardware Documentation](Documentation/HardwareDocs/README.md) |
-|                                                       | [Support](Documentation/Troubleshooting/README.md)
+|                                                       | [Support](Documentation/Troubleshooting/README.md)             |
 
+
+
+<table align="center">
+<tr>
+	<th>UEFI/EDK2</td>
+	<td align="center"><a href="Firmware/Download.md">Download</a><br>Get the latest pre-built firmware images</td>
+	<td align="center"><a href="Firmware/Build.md">Build</a><br>Instructions for building latest firmware images</td>
+	<td align="center"><a href="Firmware/Install.md">Install</a><br>Instructions on how to install firmware</td>
+	<td align="center"><a href="Firmware/README.md">Read more</a><br>Learn more about UEFI/EDK2</td>
+</tr>
+<tr>
+	<th>UEFI/EDK2</td>
+	<td align="center"><a href="Firmware/Download.md">Download</a><br>Get the latest pre-built firmware images</td>
+	<td align="center"><a href="Firmware/Build.md">Build</a><br>Instructions for building latest firmware images</td>
+	<td align="center"><a href="Firmware/Install.md">Install</a><br>Instructions on how to install firmware</td>
+	<td align="center"><a href="Firmware/README.md">Read more</a><br>Learn more about UEFI/EDK2</td>
+</tr>
+</table>
