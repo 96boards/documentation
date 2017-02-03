@@ -4,19 +4,11 @@ A comprehensive guide to using the [DragonBoard 410c](https://www.96boards.org/p
 
 ## Contents
 
-- [Getting Started](GettingStarted/README.md)
-   - Learn about your DragonBoard 410c board, how to prepare and set up for basic use
-- [Installation](Installation/README.md)
-   - Choose and install an operating system on your DragonBoard 410c
-- [Downloads](Downloads/README.md)
-   - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
-- [Useful Guides](Guides/README.md)
-   - These guides will help to get you started with a variety of available on-boards software
-- [Configuration](Configuration/README.md)
-   - Execute unique configurations to customize your DragonBoard 410c experience
-- [Hardware Documentation](HardwareDocs/README.md)
-   - Explore what makes your DragonBoard 410c unique, technical specifications, schematics, hardware notes and more...
-- [Additional Documentation](AdditionalDocs/README.md)
-   - Discover our list of sponsored DragonBoard 410c documents, these include User Guides and Application notes
-- [Troubleshooting](Troubleshooting/README.md)
-   - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
+| Software - [View all](Software/README.md)             | Documenation - [View all](Documentation/README.md)             | 
+|:------------------------------------------------------|:---------------------------------------------------------------|
+| [Downloads](Software/Downloads/README.md)             | [Getting Started](Documentation/GettingStarted/README.md)      |
+| [Installation](Software/Installation/README.md)       | [Useful Guides](Documentation/Guides/README.md)                |
+| [Build from Source](Software/BuildSource/README.md)   | [SoC Documentation](Documentation/AdditionalDocs/README.md)    |
+|                                                       | [Hardware Documentation](Documentation/HardwareDocs/README.md) |
+|                                                       | [Support](Documentation/Troubleshooting/README.md)
+
