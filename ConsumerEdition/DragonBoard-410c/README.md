@@ -11,7 +11,7 @@ A comprehensive guide to using the [DragonBoard 410c](https://www.96boards.org/p
 - [Build from Source](BuildSource/README.md)
    - Instructions for building and flashing the components of your favorite operating systems
 
-## Documenation
+## Documentation
 
 - [Getting Started](GettingStarted/README.md)
    - Learn about your DragonBoard 410c board, how to prepare and set up for basic use
