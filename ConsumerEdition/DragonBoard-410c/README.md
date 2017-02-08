@@ -17,7 +17,7 @@ A comprehensive guide to using the [DragonBoard 410c](https://www.96boards.org/p
    - Learn about your DragonBoard 410c board, how to prepare and set up for basic use
 - [Useful Guides](Guides/README.md)
    - These guides will help to get you started with a variety of available on-boards software
-- [SoC Documentation](SoCDocs/README.md)
+- [Vendor Documentation](VendorDocs/README.md)
    - Discover our list of sponsored DragonBoard 410c documents, these include User Guides and Application notes
 - [Hardware Documentation](HardwareDocs/README.md)
    - Explore what makes your DragonBoard 410c unique, technical specifications, schematics, hardware notes and more...
