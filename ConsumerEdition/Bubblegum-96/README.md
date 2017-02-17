@@ -17,8 +17,6 @@ A comprehensive guide to using the [Bubblegum-96](https://www.96boards.org/produ
    - Learn about your Bubblegum-96 board, how to prepare and set up for basic use
 - [Useful Guides](Guides/README.md)
    - These guides will help to get you started with a variety of available on-boards software
-- [Vendor Documentation](VendorDocs/README.md)
-   - Discover our list of sponsored Bubblegum-96 documents, these include User Guides and Application notes
 - [Hardware Documentation](HardwareDocs/README.md)
    - Explore what makes your Bubblegum-96 unique, technical specifications, schematics, hardware notes and more...
 - [Support](Support/README.md)
