@@ -45,7 +45,7 @@ $ lsblk
 
 - When unzipped, you will have a folder with the following contents:
    - Install Image (.img)
-   - Readme
+   - license.txt
 
 ####**Step 5**: Go to directory with _SD Card Install Image_ folder using Terminal
 
