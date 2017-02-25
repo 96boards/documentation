@@ -6,7 +6,7 @@ This library requires libsoc to be installed first.
 
 ```shell
 $ git clone https://github.com/96boards/96BoardsGPIO.git<Enter>
-$ cd 96boardsGPIO<Enter>
+$ cd 96BoardsGPIO<Enter>
 $ ./autogen.sh<Enter>
 $ ./configure<Enter>
 $ make && sudo make install<Enter>
