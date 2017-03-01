@@ -32,9 +32,9 @@ The following subsections describe how to get started with the B2260 using the r
 
 The B2260 is supplied with Micro SD card containig a preinstalled version of Debian, thus should be ready to use out-of-the-box.
 
-<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/ST_B2260_Front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/ST_B2260_Front_SD.png?raw=true" width="240" height="276" />
-<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/ST_B2260_Angle_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/ST_B2260_Angle_SD.png?raw=true" width="276" height="240" />
-<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/ST_B2260_Back_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/ST_B2260_Back_SD.png?raw=true" width="240" height="276" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_Board/ST_B2260_Front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_Board/ST_B2260_Front_SD.png?raw=true" width="240" height="276" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_Board/ST_B2260_Angle_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_Board/ST_B2260_Angle_SD.png?raw=true" width="276" height="240" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_Board/ST_B2260_Back_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_Board/ST_B2260_Back_SD.png?raw=true" width="240" height="276" />
 
 ***
 
@@ -92,7 +92,7 @@ If you are already familiar with the B2260 board and would like to change out th
 - [Installation page](../Installation/README.md): If you already have the images you need, this page has information on how to install the different operating systems onto your B2260 board
 - [Board Recovery](../Installation/BoardRecovery.md)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a successfull board recovery.
-- [Troubleshooting](../Troubleshooting/README.md)
+- [Troubleshooting](../Support/README.md)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
 Back to the [B2260 documentation home page](../README.md)
