@@ -9,10 +9,8 @@ This guide is written by the [96Boards](https://www.96boards.org) team at [Linar
    - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
 - [Installation](Installation/README.md)
    - Choose and install an operating system on your B2260
-- [Build from Source](BuildSource/README.md)
-   - Instructions for building and flashing the components of your favorite operating systems
 
-   ## Documentation
+## Documentation
 
 - [Getting Started](GettingStarted/README.md)
    - Learn about your B2260 board, how to prepare and set up for basic use
