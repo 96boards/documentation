@@ -80,7 +80,7 @@ The following subsections should describe how to get started with the DragonBoar
 - Switch S6 can be found on the reverse side of the board in the bottom right-hand corner.
 - Verify the HDMI cable and USB cables are plugged in, then connect the power supply to the DragonBoard. The board will begin to boot Debian immediately. Note that this may take a minute or two to get to the Debian boot screen on the HDMI Monitor.
 
-Please refer to the DragonBoard 410c [Linux User Guide](../../../dragonboard410c/LinuxUserGuide_DragonBoard.pdf) for further information on working with Linux and some basic programming examples.
+Please refer to the DragonBoard 410c [Linux User Guide](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/LinuxUserGuide_DragonBoard.pdf) for further information on working with Linux and some basic programming examples.
 
 ***
 
