@@ -4,7 +4,7 @@ These guides will help to get you started with a variety of available on-boards 
 
 ## Debian
 
-- Linux User Guide ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/LinuxUserGuide_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/LinuxUserGuide_DragonBoard.pdf))
+- Linux User Guide ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/LinuxUserGuide_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/Guides/LinuxUserGuide_DragonBoard.pdf))
 - [Terminal](Terminal.md)
 - [General Purpose Input / Output](../../CE-Extras/GPIO/README.md)
 - [Video game Emulator](VGEmulator.md)
@@ -19,4 +19,4 @@ These guides will help to get you started with a variety of available on-boards 
 
 ## Android
 
-- Android User Guide ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/AndroidUserGuide_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/AndroidUserGuide_DragonBoard.pdf))
+- Android User Guide ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/AndroidUserGuide_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/Guides/AndroidUserGuide_DragonBoard.pdf))
