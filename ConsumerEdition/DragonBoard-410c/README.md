@@ -8,8 +8,6 @@ A comprehensive guide to using the [DragonBoard 410c](https://www.96boards.org/p
    - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
 - [Installation](Installation/README.md)
    - Choose and install an operating system on your DragonBoard 410c
-- [Build from Source](BuildSource/README.md)
-   - Instructions for building and flashing the components of your favorite operating systems
 
 ## Documentation
 
