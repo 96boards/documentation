@@ -90,13 +90,13 @@ Please refer to the DragonBoard 410c [Android User Guide](https://github.com/96b
 
 If you are already familiar with the DragonBoard 410c and would like to change out the stock operating system, please proceed to one of the following pages:
 
-- [Downloads page](../../Software/Downloads/README.md): This page lists all Linaro and 3rd party operating systems available for the DragonBoard 410c
-- [Installation page](../../Software/Installation/README.md): If you already have the images you need, this page has information on how to install the different operating systems onto your DragonBoard 410c
-- [Board Recovery](../../Software/Installation/BoardRecovery.md)
+- [Downloads page](../../Downloads/README.md): This page lists all Linaro and 3rd party operating systems available for the DragonBoard 410c
+- [Installation page](../../Installation/README.md): If you already have the images you need, this page has information on how to install the different operating systems onto your DragonBoard 410c
+- [Board Recovery](../../Installation/BoardRecovery.md)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
-- [Troubleshooting](../Troubleshooting/README.md)
+- [Support](../Support/README.md)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
-Back to the [DragonBoard 410c documentation home page](../README.md)
+Back to the [DragonBoard 410c documentation home page](../../README.md)
 
 ***
