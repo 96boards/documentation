@@ -1,4 +1,4 @@
-# Quickstart
+# Getting Started
 
 Learn about your MediaTek X20 board as well as how to prepare and set up for basic use
 
