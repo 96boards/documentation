@@ -52,8 +52,6 @@ The following table lists its key features:
 ## What's in the Box
 The box contains a B2260 Development 96board, a power supply, a power supply adapter, a populated SDCard and a product instruction manual (quick start guide).
 
-https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_HWUserManual/DisplayHDMIInterface.png?raw=true
-
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_Board/ST_B2260_Front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_Board/ST_B2260_Front_SD.png?raw=true" width="263" height="313" />
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_Board/ST_B2260_Angle_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_Board/ST_B2260_Angle_SD.png?raw=true" width="313" height="252" />
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_Board/ST_B2260_Back_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_Board/ST_B2260_Back_SD.png?raw=true" width="280" height="313" />
