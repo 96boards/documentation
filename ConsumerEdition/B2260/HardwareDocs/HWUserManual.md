@@ -60,7 +60,7 @@ The box contains a B2260 Development 96board, a power supply, a power supply ada
 
 ## Board Overview
 
-<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_HWUserManual/HWUserManual/ST_B2260_Front_SD_placement.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_HWUserManual/ST_B2260_Front_SD_placement.png?raw=true" width="322" height="385" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_HWUserManual/ST_B2260_Front_SD_placement.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_HWUserManual/ST_B2260_Front_SD_placement.png?raw=true" width="322" height="385" />
 
 
 
