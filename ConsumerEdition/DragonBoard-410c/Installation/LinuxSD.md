@@ -15,12 +15,12 @@ This section show how to install an operating system to your DragonBoard™ 410c
 
 ***
 
-####**Step 1**: Prepare MicroSD card
+#### Step 1: Prepare MicroSD card
 
 - Ensure data from microSD card is backed up
 - Everything on microSD card will be lost by the end of this procedure.
 
-####**Step 2**: Find SD Card Device name
+#### Step 2: Find SD Card Device name
 
 - Use host computer
 - Open "Terminal" application
@@ -36,18 +36,18 @@ $ lsblk
 - Note the newly recognized disk. This will be your SD card.
 - **Remember** your SD card device name, it will be needed in **Step 7**.
 
-####**Step 3**: Recall Download Location
+#### Step 3: Recall Download Location
 
 - Locate SD card install file from [Downloads page](../Downloads/README.md).
 - This file will be needed for the next step.
 
-####**Step 4**: Unzip _SD Card Install Image_
+#### Step 4: Unzip _SD Card Install Image_
 
 - When unzipped, you will have a folder with the following contents:
    - Install Image (.img)
    - license.txt
 
-####**Step 5**: Go to directory with _SD Card Install Image_ folder using Terminal
+#### Step 5: Go to directory with _SD Card Install Image_ folder using Terminal
 
 - Use host computer
 - Open "Terminal" application
@@ -62,7 +62,7 @@ $ cd <extraction directory>
 $ cd /home/YourUserName/Downloads
 ```
 
-####**Step 6**: Locate SD Card Install Image
+#### Step 6: Locate SD Card Install Image
 
 - Make sure you are in the extraction directory
 
@@ -86,7 +86,7 @@ $ cd dragonboard410c_sdcard_install_Y-XX
    - `db410c_sd_install_Y.img`
 - This `.img` file is what will be flashed to your SD Card.
 
-####**Step 7**: Install Image onto SD Card
+#### Step 7: Install Image onto SD Card
 
 **Checklist:**
 
@@ -107,7 +107,7 @@ $ sudo dd if=db410c_sd_install_Y.img of=/dev/XXX bs=4M oflag=sync status=noxfer
 - This command will take some time to execute. Be patient and avoid tampering with the terminal until process has ended.
 - Once SD card is done flashing, remove from host computer and set aside for **Step 8**
 
-####**Step 8**: Prepare DragonBoard 410c with SD card
+#### Step 8: Prepare DragonBoard 410c with SD card
 
 - Make sure DragonBoard™ 410c is unplugged from power
 - Set S6 switch on DragonBoard™ 410c to `0-1-0-0`, "SD Boot switch" should be set to "ON".
@@ -117,7 +117,7 @@ $ sudo dd if=db410c_sd_install_Y.img of=/dev/XXX bs=4M oflag=sync status=noxfer
 - Insert the microSD card into the DragonBoard™ 410c
 - Plug power adaptor into DragonBoard™ 410c, wait for board to boot up.
 
-####**Step 9**: Install image onto DragonBoard 410c
+#### Step 9: Install image onto DragonBoard 410c
 
 <img src="http://i.imgur.com/F18wlgU.png" data-canonical-src="http://i.imgur.com/F18wlgU.png" width="400" height="250"/>
 
