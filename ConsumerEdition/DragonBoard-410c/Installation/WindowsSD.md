@@ -13,27 +13,27 @@ This section show how to install an operating system to your DragonBoard™ 410c
 
 ***
 
-####**Step 1**: Prepare MicroSD card
+#### Step 1: Prepare MicroSD card
 
 - Ensure data from microSD card is backed up
 - Everything on microSD card will be lost by the end of this procedure.
 
-####**Step 2**: Recall Download Location
+#### Step 2: Recall Download Location
 
 - Locate SD card install file from [Downloads page](../Downloads/README.md).
 - This file will be needed for the next step.
 
-####**Step 3**: Unzip _SD Card Install Image_
+#### Step 3: Unzip _SD Card Install Image_
 
 - When unzipped, this download will be a folder with the falling contents
    - Install Image (.img)
    - Readme
 
-####**Step 4**: Download the Win32DiskImager tool
+#### Step 4: Download the Win32DiskImager tool
 
 - Win32DiskImager tool ([Direct Download](https://sourceforge.net/projects/win32diskimager/files/latest/download) / <a href="http://sourceforge.net/projects/win32diskimager/" target="_blank">Go to Site</a>)
 
-####**Step 5**: Use Win32DiskImager tool to flash image onto SD Card
+#### Step 5: Use Win32DiskImager tool to flash image onto SD Card
 
 - Open Win32DiskImager tool
 - Click the folder icon in the top right
@@ -50,7 +50,7 @@ This section show how to install an operating system to your DragonBoard™ 410c
 
 - Eject SD Card and proceed to next **Step**
 
-####**Step 6**: Prepare DragonBoard 410c with SD card
+#### Step 6: Prepare DragonBoard 410c with SD card
 
 - Make sure DragonBoard™ 410c is unplugged from power
 - Set S6 switch on DragonBoard™ 410c to `0-1-0-0`, "SD Boot switch" should be set to "ON".
@@ -60,7 +60,7 @@ This section show how to install an operating system to your DragonBoard™ 410c
 - Insert the microSD card into the DragonBoard™ 410c
 - Plug power adaptor into DragonBoard™ 410c, wait for board to boot up.
 
-####**Step 7**: Install image onto DragonBoard 410c
+#### Step 7: Install image onto DragonBoard 410c
 
 <img src="http://i.imgur.com/F18wlgU.png" data-canonical-src="http://i.imgur.com/F18wlgU.png" width="400" height="250"/>
 
