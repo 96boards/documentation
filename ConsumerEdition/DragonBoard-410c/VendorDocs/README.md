@@ -4,6 +4,7 @@ Discover our list of community and vendor sponsored DragonBoard 410c documents. 
 
 ## On Qualcomm Developer Network
 <img src="http://www.96boards.org/wp-content/uploads/2015/06/QDN-H-RGB-72ppi.gif" data-canonical-src="http://www.96boards.org/wp-content/uploads/2015/06/QDN-H-RGB-72ppi.gif" aligh="right" />
+
 - [Qualcomm Developer Network](https://developer.qualcomm.com/hardware/dragonboard-410c/tools)
 - [Android Release Notes](https://developer.qualcomm.com/download/db410c/android_release_notes-LM80-P0436-12_Rev_G.pdf)
 - [Android Release Notes for build LA.BR.1.2.4-01810-8x16.0](https://developer.qualcomm.com/download/db410c/android-release-notes-build-labr124-01810-8x160.pdf)
