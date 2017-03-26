@@ -1,8 +1,8 @@
 # Specifications
 
-- [Consumer Edition Specification](../96Boards-CE-Specification.pdf)
+- [Consumer Edition Specification](https://github.com/96boards/documentation/blob/master/Specifications/96Boards-CE-Specification.pdf)
    - Low-cost Hardware Platform Specification
-- [Enterprise Edition Specification](../96Boards-EE-Specification.pdf)
+- [Enterprise Edition Specification](https://github.com/96boards/documentation/blob/master/Specifications/96Boards-EE-Specification.pdf)
    - Server Hardware Platform Specification
-- [TV Platform Specification](96Boards-EE-TV-Platform-Specification.pdf)
-- [IoT Specification](96Boards-IE-Specification.pdf)
+- [TV Platform Specification](https://github.com/96boards/documentation/blob/master/Specifications/96Boards-EE-TV-Platform-Specification.pdf)
+- [IoT Specification](https://github.com/96boards/documentation/blob/master/Specifications/96Boards-IE-Specification.pdf)
