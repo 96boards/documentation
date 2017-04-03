@@ -1,4 +1,4 @@
-##Linux Host
+## Linux Host
 
 This section shows how to install new operating system to your HiKey using the fastboot method on a Linux host computer.
 
