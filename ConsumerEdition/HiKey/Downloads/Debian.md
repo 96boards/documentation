@@ -26,7 +26,7 @@
 
 |   Boot image    |    [Download](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-boot-linux-*.uefi.img.gz)    |
 |:------------------|:-----------------------|
-|Release Notes:     |[Link](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/)      |
+|Release Notes:     |[Link](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/)      |
 
 |   Rootfs image    |    [Desktop](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-rootfs-debian-jessie-alip-*.emmc.img.gz) |
 |:------------------|:----------------------------------|
