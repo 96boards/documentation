@@ -11,13 +11,9 @@ This section shows how to install new operating system to your HiKey using the f
 
 ***
 
-**Step 1**: Make sure fastboot is set up on host computer 
+#### **Step 1**: Make sure fastboot is set up on host computer. 
 
-- Android SDK “Tools only” for Linux can be downloaded <a href="http://developer.android.com/sdk" target="_blank">here</a>
-- The Linux “Tools Only” SDK download does not come with fastboot, you will need to use the Android SDK Manager to install platform-tools.
-- To do this follow the “SDK Readme.txt” instructions included in your SDK “Tools Only” download.
-
-If you are still having trouble setting up fastboot, <a href="https://youtu.be/W_zlydVBftA" target="_blank">click here</a> for a short tutorial video
+- Android SDK “Platform-Tools” for Linux can be downloaded <a href="https://developer.android.com/studio/releases/platform-tools.html" target="_blank">here</a>
 
 **Step 2**: Boot HiKey into Fastboot mode using J15 header
 
