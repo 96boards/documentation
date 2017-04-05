@@ -17,7 +17,7 @@ This section shows how to install new operating system to your HiKey using the f
 - The Linux “Tools Only” SDK download does not come with fastboot, you will need to use the Android SDK Manager to install platform-tools.
 - To do this follow the “SDK Readme.txt” instructions included in your SDK “Tools Only” download.
 
-If you are still having trouble setting up fastboot, <a href="https://youtu.be/W_zlydVBftA" target="_blank">click here</a> for a short tutorial video
+Setup Fastboot using this command: sudo apt-get install android-tools-fastboot
 
 **Step 2**: Boot HiKey into Fastboot mode using J15 header
 
@@ -41,7 +41,7 @@ $ sudo fastboot devices
 0123456789abcdef fastboot
 ```
 
->Note: If your HiKey is not being detected by fastboot, you might want to try [Board Recovery](https://github.com/96boards/documentation/wiki/HiKey-Board-Recovery) and return to this step once your board is ready
+>Note: If your HiKey is not being detected by fastboot, you might want to try [Board Recovery](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/Installation/BoardRecovery.md) and return to this step once your board is ready
 
 **Step 3**: Install Operating System update using downloaded files
 
