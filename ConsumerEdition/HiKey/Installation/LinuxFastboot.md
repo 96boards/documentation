@@ -37,7 +37,7 @@ $ sudo fastboot devices
 0123456789abcdef fastboot
 ```
 
->Note: If your HiKey is not being detected by fastboot, you might want to try [Board Recovery](https://github.com/96boards/documentation/wiki/HiKey-Board-Recovery) and return to this step once your board is ready
+>Note: If your HiKey is not being detected by fastboot, you might want to try [Board Recovery](BoardRecovery.md) and return to this step once your board is ready
 
 **Step 3**: Install Operating System update using downloaded files
 
