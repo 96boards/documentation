@@ -17,13 +17,13 @@
 
 ## Fastboot files
   
-|   Bootloader      |                                                                                                          |
+|   Bootloader      |   [Build Folder](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/)    |
 |:------------------|:---------------------------------------------------------------------------------------------------------|
-| l-loader.bin      | [Download](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/l-loader.bin)                |
-| fip.bin           | [Download](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/fip.bin)                     | 
-| nvme.img          | [Download](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/nvme.img)                    | 
-| ptable-aosp.img   | [4GB](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/ptable-aosp-4g.img) / [8GB](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/ptable-aosp-8g.img)                                     | 
-| hisi-idt.py       | [Download](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/hisi-idt.py)                 | 
+| l-loader.bin      | [Download](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/l-loader.bin)                |
+| fip.bin           | [Download](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/fip.bin)                     | 
+| nvme.img          | [Download](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/nvme.img)                    | 
+| ptable-aosp.img   | [4GB](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-aosp-4g.img) / [8GB](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-aosp-8g.img)                                     | 
+| hisi-idt.py       | [Download](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/hisi-idt.py)                 | 
  
  
 |   Latest build files    |    [Build Folder](http://builds.96boards.org/releases/hikey/linaro/aosp/latest/)                  |
