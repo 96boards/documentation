@@ -19,20 +19,15 @@ $ git clone https://gerrit.zephyrproject.org/r/zephyr
 
 ####**Step 1**: Build the Zephyr shell application
 
-- Since Carbon support is not yet available in upstream Zephyr, download Zephyr from https://github.com/linaro/zephyr:
-
 **Build the sample shell application as follows:**
 
 ```shell
 $ cd zephyr
-$ git remote add linaro https://github.com/linaro/zephyr
-$ git remote update
-$ git checkout -t linaro/carbon 
 $ source zephyr-env.sh
-$ make -C samples/shell BOARD=96b_carbon
+$ make -C samples/subsys/shell/shell BOARD=96b_carbon
 ```
 
-The application will be available at ```samples/shell/outdir/96b_carbon/zephyr.bin```.
+The application will be available at ```samples/subsys/shell/shell/outdir/96b_carbon/zephyr.bin```.
 
 #### **Step 2**: Proceed to Installation page for flashing instructions
 
