@@ -30,9 +30,9 @@ Learn about your MediaTek X20 board as well as how to prepare and set up for bas
 
 The following subsections should describe how to get started with the MediaTek X20 using the release build shipped with the boards. The MediaTek X20 Development Board is ready to use “out of the box” with a pre-installed version of Android.
 
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_Board/MediaTek%20X20-Front-SD.jpg?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_Board/MediaTek%20X20-Front-SD.jpg?raw=true" width="250" height="160" />
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_Board/MediaTek%20X20-AngleSide-SD.jpg?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_Board/MediaTek%20X20-AngleSide-SD.jpg?raw=true" width="250" height="160" />
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_Board/MediaTek%20X20-Angle-SD.jpg?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_Board/MediaTek%20X20-Angle-SD.jpg?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20Pro/AdditionalDocs/Images/Images_Board/MediaTek%20X20-Front-SD.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20Pro/AdditionalDocs/Images/Images_Board/MediaTek%20X20-Front-SD.jpg?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20Pro/AdditionalDocs/Images/Images_Board/MediaTek%20X20-AngleSide-SD.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20Pro/AdditionalDocs/Images/Images_Board/MediaTek%20X20-AngleSide-SD.jpg?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20Pro/AdditionalDocs/Images/Images_Board/MediaTek%20X20-Angle-SD.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20Pro/AdditionalDocs/Images/Images_Board/MediaTek%20X20-Angle-SD.jpg?raw=true" width="250" height="160" />
 
 ## Features
 
