@@ -21,7 +21,7 @@ About ~100 tests cases already exist and are maintained by Linaro. It is possibl
  * Writing test case: https://git.linaro.org/qa/test-definitions.git/tree/automated/linux 
  * Test plan sample: https://git.linaro.org/landing-teams/working/qualcomm/lt-ci.git/tree/plans/smoke.yaml
  
-# Using LAVA test-runner to run tests locally
+# Using test-runner to run tests locally
 
 The tests can be run directly on the board, assuming you have installed basic tools such as git, gcc, ... `test-runner` is written in Python and requires `pexpect` and `yaml` modules to be installed as well. To run tests directly on the board, get a prompt and run:
 
