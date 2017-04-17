@@ -16,7 +16,7 @@ About ~100 tests cases already exist and are maintained by Linaro. It is possibl
 # LAVA tests
 
  * LAVA test definition format defined here: https://validation.linaro.org/static/docs/v2/writing-tests.html 
- * Specific guidelines when using `test-runner`: https://git.linaro.org/qa/test-definitions.git/tree/automated/doc/test-writting-guidelines.rst 
+ * Specific guidelines when using `test-runner`: https://git.linaro.org/qa/test-definitions.git/tree/automated/doc/test-writting-guidelines.rst
  * Centralized repo of Linaro test cases: https://git.linaro.org/qa/test-definitions.git/ 
  * Writing test case: https://git.linaro.org/qa/test-definitions.git/tree/automated/linux 
  * Test plan sample: https://git.linaro.org/landing-teams/working/qualcomm/lt-ci.git/tree/plans/smoke.yaml
