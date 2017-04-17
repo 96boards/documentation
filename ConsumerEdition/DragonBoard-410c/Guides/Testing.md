@@ -33,7 +33,7 @@ The tests can be run directly on the board, assuming you have installed basic to
 
 By default the test output are stored in `$HOME/output/`, and the output folder can be configured with `-o` argument.
 
-# Using LAVA test-runner to run tests from host PC
+# Using test-runner to run tests from host PC
 
 It is also possible to run tests from a host PC if the board is available on the network. In that case `test-runner` will connect to the board over SSH, and you need to setup the board so that the host PC can connect to the board over SSH without any prompt (password less connection). To run from the host, run the following commands from the host command prompt:  
 
@@ -54,5 +54,5 @@ Instead of running a test plan with `-p` argument, it is possible to run a singl
 # Test output
 
 At the end of the test run, the following artefact are available in the output folder:
- * `result.csv` and `result.json` which contain summary of test results (including test name, test case ID, test results such as pass, fail, skipped, test measurement, if any, with the associated measurement unit, and the test argument used
+ * `result.csv` and `result.json` which contain summary of test results (including test name, test case ID, test results such as pass, fail, skip, test measurement, if any, with the associated measurement unit, and the test argument used
  * For each test executed, there is a folder which contains the console output of the test run, `stdout.log` as well as all test scripts/data 
