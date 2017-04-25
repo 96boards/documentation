@@ -68,10 +68,6 @@
 		<td>?</td>
 		<td>LPDDR3</td>
 	</tr>
-	<tr>
-			
-		<td colspan="9">&nbsp;</td>
-	</tr>
 </tbody>
 </table>
 
