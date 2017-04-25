@@ -5,7 +5,7 @@ Explore what makes the HiKey960 unique, technical specifications, schematics, ha
 ## Hardware
 
 - Hardware User Manual ([View](HardwareUserManual.md))
-- Schematics ([View](https://github.com/sdrobertw/HiKey960/blob/master/HardwareDocs/HiKey960_Schematics.pdf) / [Download](https://github.com/sdrobertw/HiKey960/raw/master/HardwareDocs/HiKey960_Schematics.pdf))
+- Schematics ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/HardwareDocs/HiKey960_Schematics.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/HiKey960/HardwareDocs/HiKey960_Schematics.pdf))
 
 ## SoC Reference Manuals
 
