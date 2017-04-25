@@ -13,7 +13,7 @@ Learn about your HiKey960 board as well as how to prepare and set up for basic u
    - This is needed for interfacing with fastboot/adb commands
 - [USB Keyboard and Mouse](USBKeyBoardMouse.md)
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
-- [Monitor and HDMI Cable](MonitorHDMI.md)
+- Monitor and HDMI Cable
    - All 96Boards are equiped with a full sized HDMI connector, HDMI capable monitor is recommended
 - Jumpers / DIP Switches
    - J2001 Header on the HiKey960 comes with two pin-jumpers, does not apply for DIP Switches
