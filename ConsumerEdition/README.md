@@ -13,6 +13,7 @@ Select your Consumer Edition 96Boards device to access all product specific reso
 
 | 96Boards  | About | Options | 
 |:----:|:----:|:----:|
+| <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_Board/Hikey960_front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_Board/Hikey960_front_SD.png?raw=true" width="200" height="130" /><br> **HiKey960** | Board based on HiSilicon Kirin 960 processor  | [Documentation](HiKey960/README.md)<br> |
 | <img src="http://i.imgur.com/uKfxuu5.jpg" data-canonical-src="http://i.imgur.com/uKfxuu5.jpg" width="200" height="130" /><br> **HiKey** | Board based on HiSilicon Kirin 6220 processor  | [Documentation](HiKey/README.md)<br> |
 | <img src="http://i.imgur.com/4a5GXRd.png" data-canonical-src="http://i.imgur.com/4a5GXRd.png" width="200" height="130" /><br> **DragonBoard 410c** | Board based on Qualcomm® Snapdragon™ 410 processor  | [Documentation](DragonBoard-410c/README.md)<br>|
 | <img src="http://i.imgur.com/u08Wb6U.png" data-canonical-src="http://i.imgur.com/u08Wb6U.png" width="200" height="130" /><br>**Bubblegum-96** | Board based on Actions Semi S900 Processor  | [Documentation](Bubblegum-96/README.md)<br> |
