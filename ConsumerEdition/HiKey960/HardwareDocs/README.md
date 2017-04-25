@@ -9,13 +9,7 @@ Explore what makes the HiKey960 unique, technical specifications, schematics, ha
 
 ## SoC Reference Manuals
 
-- Brief Data Sheet ([View](https://github.com/sdrobertw/HiKey960/blob/master/HardwareDocs/HiKey960_Brief_Data_Sheet.pdf) / [Download](https://github.com/sdrobertw/HiKey960/raw/master/HardwareDocs/HiKey960_Brief_Data_Sheet.pdf))
-- Interface Control ([View](https://github.com/sdrobertw/HiKey960/blob/master/HardwareDocs/HiKey960_Interface_Control.pdf) / [Download](https://github.com/sdrobertw/HiKey960/raw/master/HardwareDocs/HiKey960_Interface_Control.pdf))
-- Media Processing ([View](https://github.com/sdrobertw/HiKey960/blob/master/HardwareDocs/HiKey960_Media_Processing.pdf) / [Download](https://github.com/sdrobertw/HiKey960/raw/master/HardwareDocs/HiKey960_Media_Processing.pdf))
-- Overall Description ([View](https://github.com/sdrobertw/HiKey960/blob/master/HardwareDocs/HiKey960_Overall_Description.pdf) / [Download](https://github.com/sdrobertw/HiKey960/raw/master/HardwareDocs/HiKey960_Overall_Description.pdf))
-- Processor Unit ([View](https://github.com/sdrobertw/HiKey960/blob/master/HardwareDocs/HiKey960_Processor_Unit.pdf) / [Download](https://github.com/sdrobertw/HiKey960/raw/master/HardwareDocs/HiKey960_Processor_Unit.pdf))
-- Storage Control ([View](https://github.com/sdrobertw/HiKey960/blob/master/HardwareDocs/HiKey960_Storage_Control.pdf) / [Download](https://github.com/sdrobertw/HiKey960/raw/master/HardwareDocs/HiKey960_Storage_Control.pdf))
-- System Control ([View](https://github.com/sdrobertw/HiKey960/blob/master/HardwareDocs/HiKey960_System_Control.pdf) / [Download](https://github.com/sdrobertw/HiKey960/raw/master/HardwareDocs/HiKey960_System_Control.pdf))
+)- SoC Reference Manual ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/HardwareDocs/SoC_Reference_Manual.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/HiKey960/HardwareDocs/SoC_Reference_Manual.pdf
 
 ***
 
