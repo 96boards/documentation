@@ -4,4 +4,4 @@ Instructions for building and flashing the components of your favorite operating
 
 ## Contents
 
-- [AOSP](https://androidsource-dot-devsite.googleplex.com/source/devices)
+- [AOSP](https://source.android.com/source/devices#hikey960)
