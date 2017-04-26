@@ -9,7 +9,7 @@ Explore what makes the HiKey960 unique, technical specifications, schematics, ha
 
 ## SoC Reference Manuals
 
-- SoC Reference Manual ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/HardwareDocs/SoC_Reference_Manual.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/HiKey960/HardwareDocs/SoC_Reference_Manual.pdf)
+- SoC Reference Manual ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/HardwareDocs/SoC_Reference_Manual.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/HiKey960/HardwareDocs/SoC_Reference_Manual.pdf))
 
 ***
 
