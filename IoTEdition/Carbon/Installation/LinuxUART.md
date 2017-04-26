@@ -55,8 +55,8 @@ The path to your zephyr.bin file will depend on the type of file you have built.
 
 Example:
 
-- Path to disco: /samples/drivers/outdir/96b_carbon/disco.bin
-- Path to shell: /samples/shell/outdir/96b_carbon/shell.bin
+- Path to disco: /samples/basic/disco/outdir/96b_carbon/zephyr.bin
+- Path to shell: /samples/shell/outdir/96b_carbon/zephyr.bin
 
 ***
 
