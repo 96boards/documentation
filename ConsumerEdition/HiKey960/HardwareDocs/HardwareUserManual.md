@@ -69,7 +69,7 @@ The HiKey960 Development Board is a 96Boards compliant community board based on 
 - **Memory / Storage**:
    - 32GB UFS flash storage 
    - MicroSD card slot
-   - PCIE Gen2 on M.2 M Key connector
+   - PCIe Gen2 on M.2 M Key connector
 - **Wireless**:
    - WiFi (2.4- and 5-GHz dual band with two antennas)
    - Bluetooh 4.1
