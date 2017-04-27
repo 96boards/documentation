@@ -30,7 +30,7 @@ Learn about your HiKey960 board as well as how to prepare and set up for basic u
 
 # Out of the Box
 
-The following subsections should describe how to get started with the HiKey960 using the release build shipped with the boards. The HiKey960 board is ready to use “out of the box” with a preinstalled version of the Debian Linux distribution.
+The following subsections should describe how to get started with the HiKey960 using the release build shipped with the boards. The HiKey960 board is ready to use “out of the box” with a preinstalled version of AOSP.
 
 <img src="https://github.com/sdrobertw/HiKey960/blob/master/AdditionalDocs/Images/Images_Board/Hikey960_front_SD.png?raw=true" data-canonical-src="https://github.com/sdrobertw/HiKey960/blob/master/AdditionalDocs/Images/Images_Board/Hikey960_front_SD.png?raw=true" width="250" height="160" />
 <img src="https://github.com/sdrobertw/HiKey960/blob/master/AdditionalDocs/Images/Images_Board/Hikey960_angle_SD.png?raw=true" data-canonical-src="https://github.com/sdrobertw/HiKey960/blob/master/AdditionalDocs/Images/Images_Board/Hikey960_angle_SD.png?raw=true" width="250" height="160" />
