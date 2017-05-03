@@ -36,7 +36,7 @@ The MediaTek X20 Development Board is a 96Boards compliant community board based
    * Dual-core ARM@Cortex-A72 MPCoreTM  operating at up to 2.3GHz
    * Quad-core ARM@Cortex-A53 MPCoreTM operating at up to 1.85GHz
    * Quad-core ARM@Cortex-A53 MPCoreTM operating at up to 1.4GHz
-   * Quad-core Mail T880, operating at up to 700MHz
+   * Quad-core Mali-T880, operating at up to 700MHz
    * Two ARM@Cortex-R4 processors operating  at up to 800MHz for MD MCU
    * Embedded connectivity system including WLAN/BT/FM/GPS
 * **Memory / Storage**:
@@ -225,7 +225,7 @@ Component Details
 Processor
 ---------
 
-MT6797 is a highly integrated application processor which uses an industry-leading Tri-Cluster Deca-Core CPU Architecture. The chip integrates Dual-core ARM@Cortex-A72 MPCoreTM  operating at up to 2.3GHz, Quad-core ARM@Cortex-A53 MPCoreTM operating at up to 1.85GHz, Quad-core ARM@Cortex-A53 MPCoreTM  operating at up to 1.4GHz, Quad-core Mail T880 operating at up to 700MHz  and  an ARM@Cortex-R4 MCU . In addition, an extensive set of interfaces and connectivity peripherals are included to interface to cameras, touch-screen displays and MMC/SD cards.MT6797 also embodies wireless communication device, including WLAN, Bluetooth and GPS.
+MT6797 is a highly integrated application processor which uses an industry-leading Tri-Cluster Deca-Core CPU Architecture. The chip integrates Dual-core ARM@Cortex-A72 MPCoreTM  operating at up to 2.3GHz, Quad-core ARM@Cortex-A53 MPCoreTM operating at up to 1.85GHz, Quad-core ARM@Cortex-A53 MPCoreTM  operating at up to 1.4GHz, Quad-core Mali-T880 operating at up to 700MHz  and  an ARM@Cortex-R4 MCU . In addition, an extensive set of interfaces and connectivity peripherals are included to interface to cameras, touch-screen displays and MMC/SD cards.MT6797 also embodies wireless communication device, including WLAN, Bluetooth and GPS.
 
 PMIC
 ----

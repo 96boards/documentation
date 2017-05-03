@@ -62,7 +62,7 @@ X20 platform. It is an expansion board of the MediaTek X20 Development Board. We
    - Dual-core ARM@Cortex-A72 MPCoreTM  operating at up to 2.3GHz
    - Quad-core ARM@Cortex-A53 MPCoreTM operating at up to 1.85GHz
    - Quad-core ARM@Cortex-A53 MPCoreTM operating at up to 1.4GHz
-   - Quad-core Mail T880, operating at up to 700MHz
+   - Quad-core Mali-T880, operating at up to 700MHz
    - Two ARM@Cortex-R4 processors operating  at up to 800MHz for MD MCU
    - Embedded connectivity system including WLAN/BT/FM/GPS
 - **Memory / Storage**:
@@ -207,7 +207,7 @@ MT6797 is a highly integrated application processor which uses an industry-leadi
 - Dual-core ARM@Cortex-A72 MPCoreTM  operating at up to 2.3GHz
 - Quad-core ARM@Cortex-A53 MPCoreTM operating at up to 1.85GHz
 - Quad-core ARM@Cortex-A53 MPCoreTM  operating at up to 1.4GHz
-- Quad-core Mail T880 operating at up to 700MHz
+- Quad-core Mali-T880 operating at up to 700MHz
 - DVFS technology with adaptive operating voltage from 0.7V to 1.2V
 - EMMC 5.1
 - LPDDR-3
