@@ -1,6 +1,6 @@
 # Troubleshooting
 
-Please take advantage of the many HiKey960 resources available to you through 96Boards, MediaTek, and Coursera
+Please take advantage of the many HiKey960 resources available to you through 96Boards.
 
 - [HiKey960 Home page](http://www.96boards.org/product/hikey960)
 - [96Boards HiKey960 Forum](https://discuss.96boards.org/c/products/hikey960)
