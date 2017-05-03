@@ -16,15 +16,15 @@
 
 ## Fastboot files
 
-|   Bootloader    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_linux-*.zip)    |
+|   Bootloader    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_linux-72.zip)    |
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/)      |
 
-|   Boot image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/boot-linaro-jessie-qcom-snapdragon-arm64-*.img.gz)    |
+|   Boot image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/boot-linaro-jessie-qcom-snapdragon-arm64-20161006-144.img.gz)    |
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)      |
 
-|   Rootfs image    |    [Desktop](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-jessie-alip-qcom-snapdragon-arm64-*.img.gz) or [Developer](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-jessie-developer-qcom-snapdragon-arm64-*.img.gz)   |
+|   Rootfs image    |    [Desktop](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-jessie-alip-qcom-snapdragon-arm64-20161006-144.img.gz) or [Developer](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-jessie-developer-qcom-snapdragon-arm64-20161006-144.img.gz)   |
 |:------------------|:----------------------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)      |
 
