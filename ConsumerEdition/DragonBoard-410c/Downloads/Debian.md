@@ -6,7 +6,7 @@
 
 ## SD Card image
 
-|   SD Card Image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_install_debian-*.zip)    |
+|   SD Card Image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_install_debian-*)    |
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)       |
 
