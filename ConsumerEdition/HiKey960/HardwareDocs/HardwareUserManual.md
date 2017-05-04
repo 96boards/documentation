@@ -55,9 +55,9 @@
 The HiKey960 Development Board is a 96Boards compliant community board based on Hisilicon Kirin960 SoC. The following table lists its key features:
 
 
-<img src="https://github.com/sdrobertw/HiKey960/blob/master/AdditionalDocs/Images/Images_Board/Hikey960_front_SD.png?raw=true" data-canonical-src="https://github.com/sdrobertw/HiKey960/blob/master/AdditionalDocs/Images/Images_Board/Hikey960_front_SD.png?raw=true" width="250" height="160" />
-<img src="https://github.com/sdrobertw/HiKey960/blob/master/AdditionalDocs/Images/Images_Board/Hikey960_angle_SD.png?raw=true" data-canonical-src="https://github.com/sdrobertw/HiKey960/blob/master/AdditionalDocs/Images/Images_Board/Hikey960_angle_SD.png?raw=true" width="250" height="160" />
-<img src="https://github.com/sdrobertw/HiKey960/blob/master/AdditionalDocs/Images/Images_Board/Hikey960_back_SD.png?raw=true" data-canonical-src="https://github.com/sdrobertw/HiKey960/blob/master/AdditionalDocs/Images/Images_Board/Hikey960_back_SD.png?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_Board/Hikey960_front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_Board/Hikey960_front_SD.png?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_Board/Hikey960_angle_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_Board/Hikey960_angle_SD.png?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_Board/Hikey960_back_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_Board/Hikey960_back_SD.png?raw=true" width="250" height="160" />
 
 
 
@@ -114,7 +114,7 @@ The HiKey960 Development Board is a 96Boards compliant community board based on 
 
 ## Board Overview
 
-<img src="https://github.com/sdrobertw/HiKey960/blob/master/AdditionalDocs/Images/Images_HWUserManual/HiKey960_Numbered_Front1.PNG?raw=true" data-canonical-src="https://github.com/sdrobertw/HiKey960/blob/master/AdditionalDocs/Images/Images_HWUserManual/HiKey960_Numbered_Front1.PNG?raw=true" width="800" height="500" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_HWUserManual/HiKey960_Numbered_Front1.PNG?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_HWUserManual/HiKey960_Numbered_Front1.PNG?raw=true" width="800" height="500" />
 
 | Position |     Description                                            |
 |---------:|:-----------------------------------------------------------|
@@ -137,14 +137,14 @@ The HiKey960 Development Board is a 96Boards compliant community board based on 
 
 
 
-<img src="https://github.com/sdrobertw/HiKey960/blob/master/AdditionalDocs/Images/Images_HWUserManual/HiKey960_Numbered_Front2.png?raw=true" data-canonical-src="https://github.com/sdrobertw/HiKey960/blob/master/AdditionalDocs/Images/Images_HWUserManual/HiKey960_Numbered_Front2.png?raw=true" width="400" height="270" />
-<img src="https://github.com/sdrobertw/HiKey960/blob/master/AdditionalDocs/Images/Images_HWUserManual/HiKey960_Numbered_Back.png?raw=true" data-canonical-src="https://github.com/sdrobertw/HiKey960/blob/master/AdditionalDocs/Images/Images_HWUserManual/HiKey960_Numbered_Back.png?raw=true" width="400" height="270" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_HWUserManual/HiKey960_Numbered_Front2.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_HWUserManual/HiKey960_Numbered_Front2.png?raw=true" width="400" height="270" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_HWUserManual/HiKey960_Numbered_Back.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_HWUserManual/HiKey960_Numbered_Back.png?raw=true" width="400" height="270" />
 
 ***
 
 ## System Block Diagram
 
-<img src="https://github.com/sdrobertw/HiKey960/blob/master/AdditionalDocs/Images/Images_HWUserManual/BlockDiagram.png?raw=true" data-canonical-src="https://github.com/sdrobertw/HiKey960/blob/master/AdditionalDocs/Images/Images_HWUserManual/BlockDiagram.png?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_HWUserManual/BlockDiagram.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_HWUserManual/BlockDiagram.png?raw=true" width="750" height="480" />
 
 ***
 
