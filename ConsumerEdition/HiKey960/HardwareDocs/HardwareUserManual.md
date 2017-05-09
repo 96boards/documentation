@@ -322,20 +322,20 @@ The Hikey960 Development Board also has a additional interface for user debuggin
 |    GND             |     GND           |   1   |   2   |    GND             | GND                 |
 | UART3_CTS_N        |     UART0_CTS     |   3   |   4   |    PWR_BTN_N       | PWRON_N             |
 | UART3_TXD          |     UART0_TxD     |   5   |   6   |    RST_BTN_N       | EXP_RSTOUT_N        |
-| UART3_RXD          |     UART0_RxD     |   7   |   8   |    SPI0_SCLK       | SPI1_CLK            |
-| UART3_RTS_N        |     UART0_RTS     |   9   |   10  |    SPI0_DIN        | SPI1_DI             |
-| UART5_TXD          |     UART1_TxD     |   11  |   12  |    SPI0_CS         | SPI1_CS_N           |
-| UART5_RXD          |     UART1_RxD     |   13  |   14  |    SPI0_DOUT       | SPI1_DO             |
-| I2C0_SCL           |     I2C0_SCL      |   15  |   16  |    PCM_FS          | CODEC_SSI_DATA      |
-| I2C0_SDA           |     I2C0_SDA      |   17  |   18  |    PCM_CLK         | SLIMBUS_CLK         |
-| I2C7_SCL           |     I2C1_SCL      |   19  |   20  |    PCM_DO          | SLIMBUS_DATA        |
-| I2C7_SDA           |     I2C1_SDA      |   21  |   22  |    PCM_DI          | GPIO_045_CODEC_RST  |
-| GPIO_215           |     GPIO-A        |   23  |   24  |    GPIO-B          | GPIO_216            |
-| GPIO_217           |     GPIO-C        |   25  |   26  |    GPIO-D          | GPIO_218            |
-| GPIO_220           |     GPIO-E        |   27  |   28  |    GPIO-F          | LCD_BL_PWM          |
+| UART3_RXD          |     UART0_RxD     |   7   |   8   |    SPI0_SCLK       | SPI2_CLK            |
+| UART3_RTS_N        |     UART0_RTS     |   9   |   10  |    SPI0_DIN        | SPI2_DI             |
+| UART6_TXD          |     UART1_TxD     |   11  |   12  |    SPI0_CS         | SPI2_CS_N           |
+| UART6_RXD          |     UART1_RxD     |   13  |   14  |    SPI0_DOUT       | SPI2_DO             |
+| I2C0_SCL           |     I2C0_SCL      |   15  |   16  |    PCM_FS          | GPIO_195_I2S0_XFS   |
+| I2C0_SDA           |     I2C0_SDA      |   17  |   18  |    PCM_CLK         | GPIO_194_I2S0_XCLK  |
+| I2C7_SCL           |     I2C1_SCL      |   19  |   20  |    PCM_DO          | GPIO_193_I2S0_DO    |
+| I2C7_SDA           |     I2C1_SDA      |   21  |   22  |    PCM_DI          | GPIO_192_I2S0_DI    |
+| GPIO_208           |     GPIO-A        |   23  |   24  |    GPIO-B          | GPIO_209            |
+| GPIO_210           |     GPIO-C        |   25  |   26  |    GPIO-D          | GPIO_211            |
+| GPIO_212           |     GPIO-E        |   27  |   28  |    GPIO-F          | LCD_BL_PWM          |
 | LCD_TE0            |     GPIO-G        |   29  |   30  |    GPIO-H          | GPIO_040_LCD_RST_N  |
-| GPIO_052_CAM0_RST_N|     GPIO-I        |   31  |   32  |    GPIO-J          | CAM_PDN0            |
-| GPIO_075_CAM1_RST_N|     GPIO-K        |   33  |   34  |    GPIO-L          | CAM_PDN1            |
+| GPIO_052_CAM0_RST_N|     GPIO-I        |   31  |   32  |    GPIO-J          | GPIO_019            |
+| GPIO_075_CAM1_RST_N|     GPIO-K        |   33  |   34  |    GPIO-L          | GPIO_021            |
 | VOUT11_1V8/2V95    |     +1V8          |   35  |   36  |    SYS_DCIN        | SYSDC_IN            |
 | SYS_5V             |     +5V           |   37  |   38  |    SYC_DCIN        | SYSDC_IN            |
 | GND                |     GND           |   39  |   40  |    GND             | GND                 |
