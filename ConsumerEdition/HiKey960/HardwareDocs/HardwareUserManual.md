@@ -343,8 +343,8 @@ The Hikey960 Development Board also has a additional interface for user debuggin
 ### UART {3/6} 
 
 - The 96Boards specifications calls for a 4-wire UART implementation, UART0 and an optimal second 2-wire UART, UART1 on the Low Speed Expansion Connector. 
-- The HiKey960 Development Board implements UART3 as a 4-wire UART that connects directly to the MT6797 SoC. These signals are driven at 1.8V. 
-- The HiKey960 Development Board implements UART6 as a 2-wire UART that connects directly to the MT6797 SoC. These signals are driven at 1.8V. 
+- The HiKey960 Development Board implements UART3 as a 4-wire UART that connects directly to the main SoC. These signals are driven at 1.8V. 
+- The HiKey960 Development Board implements UART6 as a 2-wire UART that connects directly to the main SoC. These signals are driven at 1.8V. 
 
 
 ### I2C {0/1} 
