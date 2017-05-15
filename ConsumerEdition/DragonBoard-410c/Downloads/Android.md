@@ -6,7 +6,7 @@
 
 ## SD Card image
 
-|   SD Card Image    |    [Download](https://builds.96boards.org/releases/dragonboard410c/qualcomm/android/latest/dragonboard410c_sdcard_install_android-118.zip)    |
+|   SD Card Image    |    [Download](https://builds.96boards.org/releases/dragonboard410c/qualcomm/android/latest/dragonboard410c_sdcard_install_android-*.zip)    |
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](https://developer.qualcomm.com/hardware/dragonboard-410c/tools) (under the Software - Android section)       |
 
@@ -16,7 +16,8 @@ Continue to [Installation page](../Installation/README.md)
 
 ## Fastboot files (Advanced users)
 
-|   Bootloader    |    [Download](https://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_android-72.zip)    |
+|   Bootloader    |    [Download](https://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_android-*
+.zip)    |
 |:------------------|:-----------------------|
 |Release Notes:      |   [Link](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/)            |
 
