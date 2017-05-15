@@ -6,7 +6,7 @@
 
 ## Fastboot files (Advanced users)
 
-|   Bootloader    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_linux-*)    |
+|   Bootloader    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_linux-*.zip)    |
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/)      |
 
@@ -14,15 +14,15 @@ Choose one boot image, the root file system you choose will be based on the boot
 
 |   Boot image    |  Build Folder ([RPB](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/) / [RPB-Wayland](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/))   |
 |:------------------|:-----------------------|
-| RPB    | [Download](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/boot-Image--*)   |
-| RPB-Wayland    |  [Download](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/boot-Image--*)  |
+| RPB    | [Download](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/boot-Image--*-dragonboard-410c-*.img)   |
+| RPB-Wayland    |  [Download](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/boot-Image--*-dragonboard-410c-*.img)  |
 
 Only download one root file system (Console or Desktop). You should match the type of rootfs to the boot image you downloaded above. 
 
 |   Rootfs image    |  Build Folder ([RPB](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/) / [RPB-Wayland](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/))    |
 |:------------------|:----------------------------------|
-| RPB  | ([Desktop](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/rpb-desktop-image-dragonboard-410c-20160920202827-22.rootfs.ext4.gz) / [Console](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/rpb-console-image-dragonboard-410c-20160920202827-22.rootfs.ext4.gz))    |
-| RPB-Wayland  | ([Desktop](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/rpb-weston-image-dragonboard-410c-20160920172922-22.rootfs.ext4.gz) / [Console](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/rpb-console-image-dragonboard-410c-20160920172922-22.rootfs.ext4.gz))     |
+| RPB  | ([Desktop](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/rpb-desktop-image-dragonboard-410c-*.rootfs.ext4.gz) / [Console](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/rpb-console-image-dragonboard-410c-*.rootfs.ext4.gz))    |
+| RPB-Wayland  | ([Desktop](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/rpb-weston-image-dragonboard-410c-*.rootfs.ext4.gz) / [Console](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/rpb-console-image-dragonboard-410c-*.rootfs.ext4.gz))     |
 
 Continue to [Installation page](../Installation/README.md)
 
