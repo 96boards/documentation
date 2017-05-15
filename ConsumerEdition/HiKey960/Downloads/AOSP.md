@@ -4,7 +4,7 @@
 
 ***
 
-- Factory image zip: ([Download](http://builds.96boards.org/snapshots/hikey960/linaro/aosp-master/latest/hikey960-linaro-2017.05.08-factory-11ceb8c8.zip) / [View](http://builds.96boards.org/snapshots/hikey960/linaro/aosp-master/latest/))
+- Factory image zip: ([Download](http://builds.96boards.org/snapshots/hikey960/linaro/aosp-master/latest/hikey960-linaro-*-factory-*.zip) / [View](http://builds.96boards.org/snapshots/hikey960/linaro/aosp-master/latest/))
 
 
 
