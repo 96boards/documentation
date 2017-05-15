@@ -6,7 +6,7 @@
 
 ## SD Card image
 
-|   SD Card Image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_install_debian-144.zip)    |
+|   SD Card Image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_install_debian-*.zip)    |
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)       |
 
@@ -16,15 +16,15 @@
 
 ## Fastboot files
 
-|   Bootloader    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_linux-72.zip)    |
+|   Bootloader    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_linux-*.zip)    |
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/)      |
 
-|   Boot image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/boot-linaro-jessie-qcom-snapdragon-arm64-20161006-144.img.gz)    |
+|   Boot image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/boot-linaro-*-qcom-snapdragon-arm64-*.img.gz)    |
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)      |
 
-|   Rootfs image    |    [Desktop](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-jessie-alip-qcom-snapdragon-arm64-20161006-144.img.gz) or [Developer](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-jessie-developer-qcom-snapdragon-arm64-20161006-144.img.gz)   |
+|   Rootfs image    |    [Desktop](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-*-alip-qcom-snapdragon-arm64-*.img.gz) or [Developer](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-*-developer-qcom-snapdragon-arm64-*.img.gz)   |
 |:------------------|:----------------------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)      |
 
