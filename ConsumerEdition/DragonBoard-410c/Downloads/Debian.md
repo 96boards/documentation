@@ -20,7 +20,7 @@
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/)      |
 
-|   Boot image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/boot-linaro-jessie-qcom-snapdragon-arm64-*)    |
+|   Boot image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/boot-linaro-stretch-qcom-snapdragon-arm64-*)    |
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)      |
 
