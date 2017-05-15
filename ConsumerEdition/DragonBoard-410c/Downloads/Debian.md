@@ -6,7 +6,7 @@
 
 ## SD Card image
 
-|   SD Card Image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_install_debian-*.zip)    |
+|   SD Card Image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_install_debian-*)    |
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)       |
 
@@ -16,7 +16,7 @@
 
 ## Fastboot files
 
-|   Bootloader    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_linux-*.zip)    |
+|   Bootloader    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_linux-*)    |
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/)      |
 
@@ -24,7 +24,7 @@
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)      |
 
-|   Rootfs image    |    [Desktop](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-stretch-alip-qcom-snapdragon-arm64-*) or [Developer](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-stretch-developer-qcom-snapdragon-arm64-20170510-233.img.gz)   |
+|   Rootfs image    |    [Desktop](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-stretch-alip-qcom-snapdragon-arm64-*) or [Developer](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-stretch-developer-qcom-snapdragon-arm64-*)   |
 |:------------------|:----------------------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)      |
 
