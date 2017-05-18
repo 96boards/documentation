@@ -9,7 +9,7 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
    - Board based on Qualcomm® Snapdragon™ 410E processor
 
 **Required Addons**
-- [Power adapter](PowerAdapter.md)
+- Power adapter
    - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
 - USB Keyboard and Mouse
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
