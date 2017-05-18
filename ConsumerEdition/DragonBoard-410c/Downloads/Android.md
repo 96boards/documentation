@@ -6,7 +6,7 @@
 
 ## SD Card image
 
-|   SD Card Image    |    [Download](https://builds.96boards.org/releases/dragonboard410c/qualcomm/android/latest/dragonboard410c_sdcard_install_android-*.zip)    |
+|   SD Card Image    |                       |
 |:------------------|:-----------------------|
 | Stable Snapshot 99 | [Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/16.03/dragonboard410c_sdcard_install_android-99.zip)
 | Developer Snapshot 128 | [Download](http://builds.96boards.org/snapshots/dragonboard410c/qualcomm/android/128/dragonboard410c_sdcard_install_android-128.zip)
