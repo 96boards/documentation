@@ -16,7 +16,7 @@ Continue to [Installation page](../Installation/README.md)
 
 ***
 
-## Fastboot files (Advanced users)
+## Fastboot files
 
 |   Bootloader       |    [Download](https://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_android-*.zip)    |
 |:-------------------|:-----------------------|
