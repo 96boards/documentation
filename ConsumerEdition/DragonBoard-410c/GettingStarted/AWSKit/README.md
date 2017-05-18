@@ -7,7 +7,7 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
 **AWS kit includes**
 - [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
    - Board based on Qualcomm® Snapdragon™ 410E processor
-- [Power adapter](PowerAdapter.md)
+- Power adapter
    - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
    
 **Required Addons**
