@@ -619,6 +619,6 @@ provide current measurements for the following rails:
 
 ### 2D Reference Drawing
 
-<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Image/sImages_HWUserManual/2DDrawing.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/Images_HWUserManual/2DDrawing.png" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/Images_HWUserManual/2DDrawing.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/Images_HWUserManual/2DDrawing.png" width="750" height="480" />
 
 [Back to top](#hikey-user-manual)
