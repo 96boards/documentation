@@ -9,7 +9,6 @@
 |   SD Card Image    |                       |
 |:------------------|:-----------------------|
 | Stable Snapshot 99 | [Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/16.03/dragonboard410c_sdcard_install_android-99.zip)
-| Developer Snapshot 128 | [Download](http://builds.96boards.org/snapshots/dragonboard410c/qualcomm/android/128/dragonboard410c_sdcard_install_android-128.zip)
 |Release Notes:     |[Link](https://developer.qualcomm.com/hardware/dragonboard-410c/tools) (under the Software - Android section) |
 
 Continue to [Installation page](../Installation/README.md)
@@ -33,16 +32,3 @@ Continue to [Installation page](../Installation/README.md)
 |Release Notes:     |[Link](https://developer.qualcomm.com/hardware/dragonboard-410c/tools) (under the Software - Android section)    |
 
 Continue to [Installation page](../Installation/README.md)
-
-|   Developer Snapshot 128    |    [Build Folder](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/latest/)       |
-|:----------------------------|:------------------------------------------------------------------------------------------------------|
-|boot.img.tar.xz      |[Download](http://builds.96boards.org/snapshots/dragonboard410c/qualcomm/android/128/boot.img.tar.xz)          |
-|system.img.tar.xz    |[Download](http://builds.96boards.org/snapshots/dragonboard410c/qualcomm/android/128/system.img.tar.xz)        |
-|userdata.img.tar.xz  |[Download](http://builds.96boards.org/snapshots/dragonboard410c/qualcomm/android/128/userdata.img.tar.xz)      |
-|recovery.img.tar.xz  |[Download](http://builds.96boards.org/snapshots/dragonboard410c/qualcomm/android/128/recovery.img.tar.xz)      |
-|persist.img.tar.xz   |[Download](http://builds.96boards.org/snapshots/dragonboard410c/qualcomm/android/128/persist.img.tar.xz)       |
-|cache.img.tar.xz     |[Download](http://builds.96boards.org/snapshots/dragonboard410c/qualcomm/android/128/cache.img.tar.xz)         |
-|Release Notes:       |[Link](https://developer.qualcomm.com/hardware/dragonboard-410c/tools) (under the Software - Android section)  |
-
-Continue to [Installation page](../Installation/README.md)
-
