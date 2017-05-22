@@ -9,6 +9,7 @@ Select your Enterprise Edition 96Boards device to access all product related res
 | 96Boards                                | About                                       | Options                                       |
 |:---------------------------------------:|:-------------------------------------------:|:---------------------------------------------:|
 | <img src="http://i.imgur.com/Od6HOwS.jpg" data-canonical-src="http://i.imgur.com/Od6HOwS.jpg" width="220" height="180" /><br> **Cello** | Board based on AMD Opteron A1100 Series SoC                                           | [Documentation](Cello/README.md)<br>          |
+| <img src="" data-canonical-src="" width="220" height="180" /><br> **Cello** | Board based on HiSilicon Hi3798C V200   | [Documentation](Poplar/README.md)<br>          |
 
 
 ***
