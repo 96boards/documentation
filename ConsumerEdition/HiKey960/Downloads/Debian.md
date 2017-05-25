@@ -19,10 +19,10 @@ Continue to [Installation page](../Installation/README.md)
 |   Bootloader |                        |
 |:-------------|:-----------------------|
 | Comp 1       | [Download]()           |
-| Comp 2       | [Download]()           | 
-| Comp 3       | [Download]()           | 
-| Comp 4       | [Download]()           | 
-| Comp 5       | [Download]()           | 
+| Comp 2       | [Download]()           |
+| Comp 3       | [Download]()           |
+| Comp 4       | [Download]()           |
+| Comp 5       | [Download]()           |
 
 |   Boot image      |    [Download]()        |
 |:------------------|:-----------------------|

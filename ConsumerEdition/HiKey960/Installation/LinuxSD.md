@@ -56,7 +56,7 @@ $ lsblk
 ```shell
 $ cd <extraction directory>
 
-#Example: 
+#Example:
 #<extraction directory> = /home/YourUserName/Downloads
 #For this example we assume the "SD Card Install Image" is in the Downloads folder.
 $ cd /home/YourUserName/Downloads

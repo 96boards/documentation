@@ -67,7 +67,7 @@ The HiKey960 Development Board is a 96Boards compliant community board based on 
    - 3GB LPDDR4 SDRAM
    - Hi6421GWCV530  PMU
 - **Memory / Storage**:
-   - 32GB UFS flash storage 
+   - 32GB UFS flash storage
    - MicroSD card slot
    - PCIe Gen2 on M.2 M Key connector
 - **Wireless**:
@@ -75,7 +75,7 @@ The HiKey960 Development Board is a 96Boards compliant community board based on 
    - Bluetooh 4.1
 - **USB**
    - 2 x USB 3.0 type A (host mode only)
-   - 1 x USB 2.0 type C OTG 
+   - 1 x USB 2.0 type C OTG
 - **Display**
    - 1 x HDMI 1.4 (Type A - full)
    - 1 x 4L-MIPI DSI
@@ -100,10 +100,10 @@ The HiKey960 Development Board is a 96Boards compliant community board based on 
 - **Power Source**
    - Recommend a 12V@2A adapter with a DC plug which has a 4.75mm outer diameter and 1.7mm center pin with standard center-positive (EIAJ-3 Compliant)
 - **OS Support**
-   - AOSP/LINUX 
+   - AOSP/LINUX
 - **Appearance characteristic**
-   - 85mm x 55mm 
- 
+   - 85mm x 55mm
+
 
 ***
 
@@ -165,13 +165,13 @@ Before you power up your HiKey960 Development Board for the first time you will 
 
 #### Known Limitations
 
-#### Starting the board for the first time 
+#### Starting the board for the first time
 
-To start the board, follow these simple steps: 
+To start the board, follow these simple steps:
 
-1. Connect the HiKey960 to your display with the HDMI cable. It is important to do this first because the monitor will not detect the board if it is connected after starting. Ensure that the source for the display is switched to the HDMI port you are using. 
-2. Connect the Express-UartBoard. 
-3. Ensure Auto Power is ON. 
+1. Connect the HiKey960 to your display with the HDMI cable. It is important to do this first because the monitor will not detect the board if it is connected after starting. Ensure that the source for the display is switched to the HDMI port you are using.
+2. Connect the Express-UartBoard.
+3. Ensure Auto Power is ON.
 
 ***
 
@@ -181,11 +181,11 @@ To start the board, follow these simple steps:
 
 - 4 ARM Cortex-A73 MPCore(Big Core 4 2.4G Hz) 4 A53 MPCore(Little Core 1.8G)
 - ARM Mali G71 MP8 3DGPU
- 
+
 ### PMIC
 
 - There are a master PMIC and two slave PMIC for Kirin960 platform.
-- Master PMIC is a power management system chip. 
+- Master PMIC is a power management system chip.
 - One of the slave PMIC is a 4-phase high efficiency buck converter which applied to offer the power of CPU-B, and the other one is used for GPU&CPU-L.
 
 ### Memory (DRAM)
@@ -221,38 +221,38 @@ The Hikey960 Development Board boots up from the UFS.
 
 ## Display Interface
 
-### HDMI 
+### HDMI
 
 - The 96Boards specification calls for an HDMI port to be present on the board. The Kirin960 doesn’t include a built-in HDMI interface.
-- The Hikey960 Development Board deploys the built-in DSI interface as the source for the HDMI output. A peripheral Bridge IC (U1901, ADV7535) performs this task and it supports 1080p at 30Hz. 
+- The Hikey960 Development Board deploys the built-in DSI interface as the source for the HDMI output. A peripheral Bridge IC (U1901, ADV7535) performs this task and it supports 1080p at 30Hz.
 
 ### MIPI-DSI
 
-- The 96Boards specification calls for a MIPI-DSI implementation via the High Speed Expansion Connector. 
+- The 96Boards specification calls for a MIPI-DSI implementation via the High Speed Expansion Connector.
 - The Hikey960 Development Board implements a 4-lane MIPI_DSI interface meeting this requirement. It can support up to 2560*1600@60fps. The Hikey960 Development Board routes the MIPI_DSI interface signals to the DSI-0 interface of the Kirin960.
 
 ### Camera Interface
 
 - The 96Boards specification calls for two camera interfaces.
-- The Hikey960 Development Board supports two camera interfaces, one with a 4-lane MIPI_CSI interface and one with 2-lane MIPI_CSI interface, meeting this requirement. The 4-lane MIPI_CSI interface can support 26M camera and the 2-lane MIPI_CSI interface can support 8M camera. 
+- The Hikey960 Development Board supports two camera interfaces, one with a 4-lane MIPI_CSI interface and one with 2-lane MIPI_CSI interface, meeting this requirement. The 4-lane MIPI_CSI interface can support 26M camera and the 2-lane MIPI_CSI interface can support 8M camera.
 
 ### USB Ports
 
-The Hikey960 Development Board supports a USB OTG port and three USB host ports via a USB MUX. The input channel( D+/D-) of USB MUX is connected to the usb port of the SOC, and the two output channels(1D+/1D-,2D+/2D-) are connected to type C USB port and USB hub respectively. The three USB host ports are connected to the downstream ports of the USB hub.The control of MUX is done via a software controlled GPIO. When this signal is logic low, ‘0’, the USB data lines are routed to the type C USB connector. When ‘USB_SW_SEL’ is logic level high, ‘1’, the USB data lines are routed to USB HUB. 
+The Hikey960 Development Board supports a USB OTG port and three USB host ports via a USB MUX. The input channel( D+/D-) of USB MUX is connected to the usb port of the SOC, and the two output channels(1D+/1D-,2D+/2D-) are connected to type C USB port and USB hub respectively. The three USB host ports are connected to the downstream ports of the USB hub.The control of MUX is done via a software controlled GPIO. When this signal is logic low, ‘0’, the USB data lines are routed to the type C USB connector. When ‘USB_SW_SEL’ is logic level high, ‘1’, the USB data lines are routed to USB HUB.
 
 ### USB Host ports
 
 The Hikey960 Development Board supports three USB host port via a USB hub (U1803 USB5734). Its upstream signal is connected to USB interface of Kirin960.
 
-- Port 1 of the USB HUB is routed to J1702, a Type ‘A’ USB Host connector. A current limited controller (U1704) sets the Power Current limit to 1A.  
-- Port 2 of the USB HUB is routed to J1801, a Type ‘A’ USB Host connector. A current limited controller (U1806) sets the Power Current limit to 1A. 
-- Port 3 of the USB HUB is routed to the High Speed Expansion connector. No current limited controller is implemented on the board for this channel. 
+- Port 1 of the USB HUB is routed to J1702, a Type ‘A’ USB Host connector. A current limited controller (U1704) sets the Power Current limit to 1A.
+- Port 2 of the USB HUB is routed to J1801, a Type ‘A’ USB Host connector. A current limited controller (U1806) sets the Power Current limit to 1A.
+- Port 3 of the USB HUB is routed to the High Speed Expansion connector. No current limited controller is implemented on the board for this channel.
 
 ### USB OTG ports
 
-The Hikey960 Development Board implements a OTG port. The port is located at J1701, a type C USB. 
+The Hikey960 Development Board implements a OTG port. The port is located at J1701, a type C USB.
 
-> Note: The board can work in one mode at a time, Host mode or Device mode, not both. 
+> Note: The board can work in one mode at a time, Host mode or Device mode, not both.
 
 ### Audio
 
@@ -262,7 +262,7 @@ The Hikey960 Development Board has three audio ports: BT, HDMI and I2S.
 
 The Hikey960 Development Board can be powered as follow:
 
-- 8V to 18V supply from a dedicated DC jack(P401) 
+- 8V to 18V supply from a dedicated DC jack(P401)
 
 ### Power Measurement
 
@@ -289,9 +289,9 @@ The Hikey960 Development Board has two UART ports (UART6 / UART3), both present 
 
 The Hikey960 Development Board presents one button. It is Power key which also can be used as Reset key. The power ON/OFF and RESET signals are also routed to the Low Speed Expansion connector.
 
-#### Power Button 
+#### Power Button
 
-The push-button S2201 serves as the power-on/sleep button. Upon applying power to the board, press the power button the board will boot up. Once the board is running you can turn power-off by pressing the power button for more than 3 seconds. If the board is in a sleep mode, pressing the power bottom will wake up the board. Oppositely, if the board is in an active mode, pressing the power bottom will change the board into sleep mode. 
+The push-button S2201 serves as the power-on/sleep button. Upon applying power to the board, press the power button the board will boot up. Once the board is running you can turn power-off by pressing the power button for more than 3 seconds. If the board is in a sleep mode, pressing the power bottom will wake up the board. Oppositely, if the board is in an active mode, pressing the power bottom will change the board into sleep mode.
 
 #### Reset Button
 
@@ -303,8 +303,8 @@ The Hikey960 Development Board has six LEDs.
 
 #### Two activity LEDs
 
-- WiFi activity LED –The Hikey960 Development Board drives this Yellow LED via GPIO205 from Kirin960. 
-- BT activity LED –The Hikey960 Development Board drives this Blue LED via GPIO207 from Kirin960. 
+- WiFi activity LED –The Hikey960 Development Board drives this Yellow LED via GPIO205 from Kirin960.
+- BT activity LED –The Hikey960 Development Board drives this Blue LED via GPIO207 from Kirin960.
 
 #### Four User LEDs
 
@@ -312,7 +312,7 @@ The four user LEDs are surface mount Green in 0603 size located next to the USB 
 
 ### Additional Functionality
 
-The Hikey960 Development Board also has a additional interface for user debugging. It includes JTAG interface. The position is reserved, but the component is not mounted in the mass production. 
+The Hikey960 Development Board also has a additional interface for user debugging. It includes JTAG interface. The position is reserved, but the component is not mounted in the mass production.
 
 ***
 
@@ -343,51 +343,51 @@ The Hikey960 Development Board also has a additional interface for user debuggin
 | SYS_5V             |     +5V           |   37  |   38  |    SYC_DCIN        | SYSDC_IN            |
 | GND                |     GND           |   39  |   40  |    GND             | GND                 |
 
-### UART {3/6} 
+### UART {3/6}
 
-- The 96Boards specifications calls for a 4-wire UART implementation, UART0 and an optimal second 2-wire UART, UART1 on the Low Speed Expansion Connector. 
-- The HiKey960 Development Board implements UART3 as a 4-wire UART that connects directly to the main SoC. These signals are driven at 1.8V. 
-- The HiKey960 Development Board implements UART6 as a 2-wire UART that connects directly to the main SoC. These signals are driven at 1.8V. 
+- The 96Boards specifications calls for a 4-wire UART implementation, UART0 and an optimal second 2-wire UART, UART1 on the Low Speed Expansion Connector.
+- The HiKey960 Development Board implements UART3 as a 4-wire UART that connects directly to the main SoC. These signals are driven at 1.8V.
+- The HiKey960 Development Board implements UART6 as a 2-wire UART that connects directly to the main SoC. These signals are driven at 1.8V.
 
 
-### I2C {0/1} 
+### I2C {0/1}
 
-- The 96Boards specification calls for two I2C interfaces to be implemented on the Low Speed Expansion Connector. 
+- The 96Boards specification calls for two I2C interfaces to be implemented on the Low Speed Expansion Connector.
 - The HiKey960 Development Board implements both interfaces named I2C0 and I2C7. They connect directly to the Kirin960 SoC. Each of the I2C lines is pulled up to VIO18_PMU via 1K resistor.
 
 
 
-### GPIO {A-L} 
+### GPIO {A-L}
 
-The 96Boards specification calls for 12 GPIO lines to be implemented on the Low Speed Expansion Connector. Some of these GPIOs may support alternate functions for DSI/CSI control 
+The 96Boards specification calls for 12 GPIO lines to be implemented on the Low Speed Expansion Connector. Some of these GPIOs may support alternate functions for DSI/CSI control
 The HiKey960 board implements this requirement. All GPIOs are routed to the Kirin960 SoC. Take Low Speed Expansion Connector for reference.
 
-### SPI 0 
+### SPI 0
 
-- The 96Boards specification calls for one SPI bus master to be provided on the Low Speed Expansion Connector. 
-- The HiKey960 Development Board implements a full SPI master with 4 wires, CLK, CS, MOSI and MISO. The signals are connected directly to the Kirin960 SoC and driven at 1.8V. 
+- The 96Boards specification calls for one SPI bus master to be provided on the Low Speed Expansion Connector.
+- The HiKey960 Development Board implements a full SPI master with 4 wires, CLK, CS, MOSI and MISO. The signals are connected directly to the Kirin960 SoC and driven at 1.8V.
 
 ### I2S
 
-- The 96Boards specification calls for one PCM/I2S bus to be provided on the Low Speed Expansion Connector. The CLK, FS and DO signals are required while the DI is optional. 
-- The HiKey960 Development Board implements a I2S interface with 4 wires, CLK, FS, DO and DI. The signals are connected directly to the Kirin960 SoC and driven at 1.8V.  
+- The 96Boards specification calls for one PCM/I2S bus to be provided on the Low Speed Expansion Connector. The CLK, FS and DO signals are required while the DI is optional.
+- The HiKey960 Development Board implements a I2S interface with 4 wires, CLK, FS, DO and DI. The signals are connected directly to the Kirin960 SoC and driven at 1.8V.
 
-### Power and Reset 
+### Power and Reset
 
-- The 96Boards specification calls for a signal on the Low Speed Expansion Connector that can power on/off the board and a signal that serves as a board reset signal. 
-- The HiKey960 Development Board routes the PWR_BTN_N (named PWRKEY on schematic) signal to the PWRKEY pin of the PMIC. This signal is driven by s2201 as well, the on-board power on push-button switch.  A mezzanine implementation of this signals should not drive it with any voltage, the only allowed operation is to force it to GND to start the board from a sleep mode. 
+- The 96Boards specification calls for a signal on the Low Speed Expansion Connector that can power on/off the board and a signal that serves as a board reset signal.
+- The HiKey960 Development Board routes the PWR_BTN_N (named PWRKEY on schematic) signal to the PWRKEY pin of the PMIC. This signal is driven by s2201 as well, the on-board power on push-button switch.  A mezzanine implementation of this signals should not drive it with any voltage, the only allowed operation is to force it to GND to start the board from a sleep mode.
 - The HiKey960 Development Board routes the RST_BTN_N (named exp_rstout_n on schematic) signal to the HRESET_N pin of the PMIC Hi6421.
 
-### Power Supplies 
+### Power Supplies
 
-The 96Boards specification calls for three power rails to be present on the Low Speed Expansion Connector: 
-- +1.8V  Max of 100mA 
-- +5V  Provide a minimum of 5W of power (1A). 
+The 96Boards specification calls for three power rails to be present on the Low Speed Expansion Connector:
+- +1.8V  Max of 100mA
+- +5V  Provide a minimum of 5W of power (1A).
 
-SYS_DCIN  8-18V input with enough current to support all the board functions or the output DCIN from on-board DC Connector able to provide a minimum of 7W of power. 
+SYS_DCIN  8-18V input with enough current to support all the board functions or the output DCIN from on-board DC Connector able to provide a minimum of 7W of power.
 
-The HiKey960 Development Board supports these requirements as follows: 
-- +1.8V  Driven by PMIC up to 150mA. 
+The HiKey960 Development Board supports these requirements as follows:
+- +1.8V  Driven by PMIC up to 150mA.
 - +5V  Driven by a 5A DC-DC buck converter (U403). It also provides the VBUS power to the two USB host connectors (J1702, J1801) and the HDMI 5V power to the HDMI connector (J1901).The remaining capacity provides a total of 7W which meets the 96Boards requirements.
 
 ***
@@ -427,43 +427,43 @@ The HiKey960 Development Board supports these requirements as follows:
 |   NC               |   HSIC_STR           |   57  |   58  |   GND              |   GND                                     |
 |   NC               |   HSIC_DATA          |   59  |   60  |   RESERVED         |   Pull-up  vout2_1v8 |
 
-### MIPI DSI 0 
+### MIPI DSI 0
 
-- The 96Boards specification calls for a MIPI-DSI to be present on the High Speed Expansion Connector. A minimum of one lane is required and up to four lanes can be accommodated on the connector. 
-- The Hikey960 Development Board implementation supports a full four lane (1.2Gbps/lane) MIPI-DSI interface that is routed to the High Speed Expansion Connector. The MIPI-DSI signals are directly connected to DSI-0 of Kirin960. 
+- The 96Boards specification calls for a MIPI-DSI to be present on the High Speed Expansion Connector. A minimum of one lane is required and up to four lanes can be accommodated on the connector.
+- The Hikey960 Development Board implementation supports a full four lane (1.2Gbps/lane) MIPI-DSI interface that is routed to the High Speed Expansion Connector. The MIPI-DSI signals are directly connected to DSI-0 of Kirin960.
 
-### MIPI CSI {0/1} 
+### MIPI CSI {0/1}
 
-- The 96Boards specification calls for two MIPI-CSI interfaces to be present on the High Speed Expansion Connector. Both interfaces are optional. CSI0 interface can be up to four lanes while CSI1 is up to two lanes. 
+- The 96Boards specification calls for two MIPI-CSI interfaces to be present on the High Speed Expansion Connector. Both interfaces are optional. CSI0 interface can be up to four lanes while CSI1 is up to two lanes.
 - The Hikey960 Development Board implementation supports a full four lane MIPI-CSI interface on CSI0 and two lanes of MIPI-CSI on CSI1. All MIPI-CSI signals are routed directly to/from the Kirin960 SoC.  CSI0 can support up to 26M@30fps and CSI1 can support up to 8M@30fps. The max data rate of each lane is 2.5Gbps.
 
 
-### I2C {2/3} 
+### I2C {2/3}
 
-- The 96Boards specification calls for two I2C interfaces to be present on the High Speed Expansion Connector. Both interfaces are optional unless a MIPI-CSI interface has been implemented. Then an I2C interface shall be implemented. 
+- The 96Boards specification calls for two I2C interfaces to be present on the High Speed Expansion Connector. Both interfaces are optional unless a MIPI-CSI interface has been implemented. Then an I2C interface shall be implemented.
 - The Hikey960 Development Board implementation supports two MIPI-CSI interfaces and therefore must support two I2C interfaces,they are ISP_I2C0 and ISP_I2C1. Each of the I2C lines is pulled up to VIO18_PMU via 1K resistor.
 
-### SD/SPI 
+### SD/SPI
 
-- The 96Boards specification calls for an SD interface or a SPI port to be part of the High Speed Expansion Connector. 
-- The Hikey960 Development Board implements a full SPI master with 4 wires (96Boards SPI Configuration), CLK, CS, MOSI and MISO. All the signals are connected directly to the Kirin960 SoC. These signals are driven at 1.8V. 
+- The 96Boards specification calls for an SD interface or a SPI port to be part of the High Speed Expansion Connector.
+- The Hikey960 Development Board implements a full SPI master with 4 wires (96Boards SPI Configuration), CLK, CS, MOSI and MISO. All the signals are connected directly to the Kirin960 SoC. These signals are driven at 1.8V.
 
-### Clocks 
+### Clocks
 
-- The 96Boards specification calls for one or two programmable clock interfaces to be provided on the High Speed Expansion Connector. These clocks may have a secondary function of being CSI0_MCLK and CSI1_MCLK. If these clocks can’t be supported by the SoC than an alternative GPIO or No-Connect is allowed by the specifications. 
-- The Hikey960 Development Board implements two CSI clocks which are connected directly to the Kirin960 SoC. These signals are driven at 1.8V. 
+- The 96Boards specification calls for one or two programmable clock interfaces to be provided on the High Speed Expansion Connector. These clocks may have a secondary function of being CSI0_MCLK and CSI1_MCLK. If these clocks can’t be supported by the SoC than an alternative GPIO or No-Connect is allowed by the specifications.
+- The Hikey960 Development Board implements two CSI clocks which are connected directly to the Kirin960 SoC. These signals are driven at 1.8V.
 
 ### USB
 
-- The 96Boards specification calls for a USB Data line interface to be present on the High Speed Expansion Connector. 
-- The Hikey960 Development Board implements this requirement by routing USB channel 4 from the USB HUB to the High Speed Expansion Connector. 
+- The 96Boards specification calls for a USB Data line interface to be present on the High Speed Expansion Connector.
+- The Hikey960 Development Board implements this requirement by routing USB channel 4 from the USB HUB to the High Speed Expansion Connector.
 
-### HSIC 
+### HSIC
 
-- The 96Boards specification calls for an optional MIPI-HSIC interface to be present on the High Speed Expansion Connector. 
-- The Hikey960 Development Board implementation doesn’t support this optional requirement. 
+- The 96Boards specification calls for an optional MIPI-HSIC interface to be present on the High Speed Expansion Connector.
+- The Hikey960 Development Board implementation doesn’t support this optional requirement.
 
-### Reserved 
+### Reserved
 
 The pin 60 of the High Speed Expansion Connector is pulled up to VIO18_PMU via 100K resistor.
 
@@ -473,8 +473,8 @@ The pin 60 of the High Speed Expansion Connector is pulled up to VIO18_PMU via 1
 
 ### DC Power Input
 
-- An 8V to 18V power from a dedicated DC jack J901. 
-- An 8V to 18V power from the SYS_DCIN pins on the Low Speed Expansion Connector CON7001. 
+- An 8V to 18V power from a dedicated DC jack J901.
+- An 8V to 18V power from the SYS_DCIN pins on the Low Speed Expansion Connector CON7001.
 
 > Note: Please refer to the mechanical size of the DC plug below.The inside diameter of the plug is 1.7mm，the outer diameter of the plug is 4.75mm.The positive electrode of the DC plug is in the inside, and the negative pole is outside.
 
@@ -493,7 +493,7 @@ The pin 60 of the High Speed Expansion Connector is pulled up to VIO18_PMU via 1
 |              |  Vbuck0_0V8         | 0.8                    | 2500           | core power for PERI                              |
 |              |  Vbuck1_1V1         | 1.1                      | 3000           | DRAM and LDO                                    |
 |              |  Vbuck2_1V45          | 1.45                     | 2500           | power for LDO                           |
-|              |  Vbuck3_2V15           | 2.15                    | 2500           | power for LDO                               |                            
+|              |  Vbuck3_2V15           | 2.15                    | 2500           | power for LDO                               |
 | LDO          |  LDO0       | 0.8                    | 300             | UFS,sys                                     |
 |              |  LDO1        | 1.29                  | 300             | HDMI V1P2                                          |
 |              |  LDO2          | 1.8                      | 800            | 1.8V IO                             |
@@ -509,7 +509,7 @@ The pin 60 of the High Speed Expansion Connector is pulled up to VIO18_PMU via 1
 |              |  LDO21          | 1.8                    | 200           | efuse_sys                                           |
 |              |  LDO26         | 1.8                    | 50             | 19.2M XO                                           |
 |              |  LDO29         | 1.2                    | 200            | UFS 1.2V                                          |
-|              | LDO30            | 0.8                      | 300            | UFS 0.8V                               |                                       
+|              | LDO30            | 0.8                      | 300            | UFS 0.8V                               |
 | Other        |  HDMI_5V            | 5                      |            | HDMI output voltage                               |
 |              |  VBUS_HOST1         | 5                      |            | USB host1 output voltage(CON6401)                 |
 |              |  VBUS_HOST2         | 5                      |            | USB host2 output voltage(CON6402)                 |
@@ -519,4 +519,3 @@ The pin 60 of the High Speed Expansion Connector is pulled up to VIO18_PMU via 1
 
 
 ***
-

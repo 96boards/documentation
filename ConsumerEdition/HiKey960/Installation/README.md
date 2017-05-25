@@ -25,4 +25,3 @@ Go to the [Downloads page](../Downloads/README.md) if you have not yet chosen an
 - [Linux](LinuxFastboot.md)
 
 ***
-
