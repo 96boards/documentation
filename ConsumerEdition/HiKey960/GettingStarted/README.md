@@ -63,7 +63,7 @@ Please visit the [HiKey960 Hardware User Manual](../HardwareDocs/HardwareUserMan
 
 **IMPORTANT NOTES**
 
-- HDMI EDID display data is used to determine the best display resolution. On monitors and TVs that support 1080p (or 1200p) this resolution will be selected. If 1080p is not supported the next available resolution reported by EDID will be used. This selected mode will work with **MOST but not all** monitors/TVs. 
+- HDMI EDID display data is used to determine the best display resolution. On monitors and TVs that support 1080p (or 1200p) this resolution will be selected. If 1080p is not supported the next available resolution reported by EDID will be used. This selected mode will work with **MOST but not all** monitors/TVs.
 - As there is only one USB controller on the HiKey960, there are limitations on the usage of the USB ports, such that either the USB-C OTG port **OR** the USB-A/mezzanine ports can be used at one time. If anything is plugged into the USB-C port, the other ports will stop functioning.
 
 ***
@@ -107,7 +107,7 @@ If you are already familiar with the HiKey960 board and would like to change out
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 - [Support](../Support/README.md)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
-   
-***   
+
+***
 
 Return to the [HiKey960 Documentation home page](../README.md)

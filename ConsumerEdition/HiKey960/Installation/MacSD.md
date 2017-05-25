@@ -56,7 +56,7 @@ diskutil list
 ```shell
 cd <extraction directory>
 
-#Example: 
+#Example:
 #<extraction directory> = /Users/YourUserName/Downloads
 #For this example we assume the "SD Card Install Image" is in the Downloads folder.
 cd /Users/YourUserName/Downloads
