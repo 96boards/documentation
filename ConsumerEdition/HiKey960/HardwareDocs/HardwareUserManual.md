@@ -274,6 +274,9 @@ The Hikey960 Development Board has three current sense resistors R401/R413/R408.
 |    R413   |  SYS_5V |  To measure the current of SYS_5V power            |
 |    R408   |  VDD_4V2   |  To measure the current of VDD_4V2 power        |
 
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_HWUserManual/Top-R401-public.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_HWUserManual/Top-R401-public.jpg?raw=true" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_HWUserManual/Bottom-R408-R413-public.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_HWUserManual/Bottom-R408-R413-public.jpg?raw=true" />
+
 ### External Fan Connection
 
 The 96Boards specification calls for support for an external fan. That can be achieved by using the 5V or the SYS_DCIN (12V), both present on the Low Speed Expansion connector.
