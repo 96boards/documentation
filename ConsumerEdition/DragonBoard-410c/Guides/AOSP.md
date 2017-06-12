@@ -30,6 +30,8 @@ Download the firmware setup package from here: https://drive.google.com/open?id=
 
 When needed, hit yes, to agree to license.
 
+Note that using this script is a temporary solution until the proper firmware package is published on 96boards website.
+
 # Building 
 
     source build/envsetup.sh
