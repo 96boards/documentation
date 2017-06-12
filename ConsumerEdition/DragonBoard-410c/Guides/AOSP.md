@@ -40,7 +40,7 @@ Note that using this script is a temporary solution until the proper firmware pa
 
 # Flashing the board
 
-While holding the S4 button, plug the Dragonboard 410c board to enter fastboot mode. Before flashing the Android images, we need to flash the bootloaders and GPT. e.g. download bootloader/ptable:
+While holding the S4 button, power the DragonBoard 410c board to enter fastboot mode. Before flashing the Android images, we need to flash the bootloaders and GPT. e.g. run the following commands:
     
     mkdir ~/db410-bootlaoder
     cd ~/db410-bootlaoder
