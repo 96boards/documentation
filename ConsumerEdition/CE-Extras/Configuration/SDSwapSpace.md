@@ -19,7 +19,7 @@ The following command and prompt will allow you to format your microSD card, thi
 $ sudo gdisk /dev/mmcblk1
 ```
 
-You will be presented with the following prompts. Use provided inputs. Where an input is not offered, simply press <Enter>
+You will be presented with the following prompts. Use provided inputs. Where an input is not offered, simply press < Enter >
 
 ```shell
 Command (? for help): o
