@@ -5,6 +5,8 @@
 - 96Boards Consumer Edition board
 - microSD Card with 8GB or more
 
+**Insert blank microSD Card into the SD Card clot on your 96Boards, partition and mount**
+
 ## Software
 
 - Linaro Debian Operating system
