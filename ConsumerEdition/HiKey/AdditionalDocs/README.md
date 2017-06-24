@@ -4,7 +4,7 @@ Discover our list of community and vendor sponsored DragonBoard 410c documents. 
 
 ## User Guides
 
-- Hardware User Manual - LeMaker ([View](UserManual.md))
+- Hardware User Manual - LeMaker ([View](HardwareUserManual.md))
    - Basic user manual for the LeMaker HiKey with a focus on hardware
 - User Manual - CircuitCo ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/HiKey_User_Guide_CircuitCo.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/HiKey/AdditionalDocs/HiKey_User_Guide_CircuitCo.pdf))
    - Basic user manual for the CircuitCo HiKey with a focus on hardware
