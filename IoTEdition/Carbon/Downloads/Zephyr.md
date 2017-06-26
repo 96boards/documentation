@@ -8,8 +8,9 @@
 
 | Application                 | Description                                                                            |
 |:----------------------------|:---------------------------------------------------------------------------------------|
-| [Shell](http://builds.96boards.org/snapshots/carbon/las16/shell.bin) | A simple shell application that can be used over UART |
-| [Disco](http://builds.96boards.org/snapshots/carbon/las16/disco.bin)   | A simple LED 'disco' demo                   |
-| [Beacon](http://builds.96boards.org/snapshots/carbon/las16/beacon.bin) | A simple BLE 'beacon' application           |
+| [Shell](http://builds.96boards.org/releases/carbon/zephyr-1.8/carbon_shell.bin) | A simple shell application that can be used over UART |
+| [Disco](http://builds.96boards.org/releases/carbon/zephyr-1.8/carbon_blinky.bin)   | A simple LED 'blinky' demo                   |
+| [Beacon](http://builds.96boards.org/releases/carbon/zephyr-1.8/carbon_beacon.bin) | A simple BLE 'beacon' application           |
+| [Radio](http://builds.96boards.org/releases/carbon/zephyr-1.8/carbon_nrf51_radio.hex) | A simple radio transmitter example | 
 
-Continue to [Installation page](../Installation/README.md)
+Continue to [Installation page](../installation/README.md)
