@@ -5,8 +5,8 @@ Learn about your Nitrogen board as well as how to prepare and set up for basic u
 ## Setup - What you will need
 
 **Need**
-- [Nitrogen](http://www.96boards.org/product/nitrogen/)
-   - Board based on the ...
+- Nitrogen
+   - Board based on the nRF52832 microcontroller
 - USB to MicroUSB cable
 
 **Optional**
@@ -25,22 +25,21 @@ The following subsections should describe how to get started with the Nitrogen u
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
-|  SoC                 | STMicroelectronics STM32F401RE                                                                   |
+|  SoC                 | nRF52832                                                                  |
 |  CPU                 | Cortex-M4                                                                                        |
-|  Clock speed         | 84MHz maximum                                                                                    |
+|  Clock speed         | 64MHz                                                                                    |
 |  SRAM                | 96KB                                                                                             |
 |  Storage             | 512KB onboard Flash                                                                              |
-|  Wireless            | nRF51822 Bluetooth                                                                               |
+|  Wireless            | nRF51832 Bluetooth                                                                               |
 |  USB                 | 2 x Micro USB                                                                                    |
-|  Expansion Interface | 30 pin low speed expansion connector: +3.3V, +5V, VCC, GND, UART, I2C, SPI, GPIO x4              |
-|  Digital Out Voltage | 3.3V                                                                                             |
-|  Analog In Voltage   | 0-3.3V                                                                                           |
-|  Analog Pins         | 6                                                                                                |
-|  LED                 | 1 x UART Tx, 1 x UART Rx, 1 x Power, 1 x Bluetooth, 2 x User LEDs                                |
-|  Button              | RST (Reset the STM32F4), BOOT0 (Boot into bootloader for flashing)                               |
-|  Power Source        | micro-USB                                                                                        |
+|  Expansion Interface | 2 x 20pin 2.0mm pitch Low speed connector                |
+|  Digital Out Voltage | 1.8V                                                                                             |
+|  Analog In Voltage   | 1.8V                                                                                           |
+|  Analog Pins         | 4                                                                                                |
 |  OS Support          | Zephyr                                                                                           |
 |  Size                | 60x30mm                                                                                          |
+
+For more information, please refer to the [Hardware User Manual](http://wiki.seeed.cc/BLE_Nitrogen/)
 
 **IMPORTANT NOTES**
 
@@ -50,19 +49,19 @@ The following subsections should describe how to get started with the Nitrogen u
 
 ## Starting the board for the first time
 
-**The Nitrogen comes preloaded with ... and can be up and running with a few simple steps:**
+###### Coming soon...
 
 - 
 
 ***
 
-## Learn to build and flash applications to your Carbon Board
+## Learn to build and flash applications to your Nitrogen Board
 
-It's time to see what your Carbon can do. From here you can learn how to build your own applications, or flash some of our pre-built ones, available on the Downloads page:
+It's time to see what your Nitrogen can do. From here you can learn how to build your own applications, or flash some of our pre-built ones, available on the Downloads page:
 
 - [Downloads page](../downloads/README.md): This page contains prebuilt OS and Application files, simply download and flash to get started!
-- [Building for Carbon](../build/README.md): In a few simple steps, here you will learn how to build and flash your own application to the Carbon.
-- [Installation page](../installation/README.md): Find instructions on how to flash new applications to your Carbon!
+- [Building for Nitrogen](../build/README.md): In a few simple steps, here you will learn how to build and flash your own application to the Nitrogen.
+- [Installation page](../installation/README.md): Find instructions on how to flash new applications to your Nitrogen!
 - [Support](../support/README.md)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
