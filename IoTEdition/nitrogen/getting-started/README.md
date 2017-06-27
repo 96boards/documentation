@@ -49,9 +49,7 @@ For more information, please refer to the [Hardware User Manual](http://wiki.see
 
 ## Starting the board for the first time
 
-###### Coming soon...
-
-- 
+###### Coming soon... 
 
 ***
 
