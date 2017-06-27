@@ -19,8 +19,7 @@ Learn about your Nitrogen board as well as how to prepare and set up for basic u
 
 The following subsections should describe how to get started with the Nitrogen using the release build shipped with the boards. The Nitrogen board is ready to use “out of the box” with a preinstalled version of the Zephyr RTOS.
 
-<img src="" data-canonical-src="" width="300" height="150" />
-<img src="" data-canonical-src="" width="300" height="150" />
+<img src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/nitrogen/additional-docs/images/images-board/nitrogen-front-sd.png?raw=true" data-canonical-src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/nitrogen/additional-docs/images/images-board/nitrogen-front-sd.png?raw=true" width="300" height="150" />
 
 ## Features
 
@@ -45,7 +44,7 @@ The following subsections should describe how to get started with the Nitrogen u
 
 **IMPORTANT NOTES**
 
-- Flashing the nRF51 chip requires a SWD programmer such as a ST-Linkv2 or Segger JLink
+###### Coming soon...
 
 ***
 
