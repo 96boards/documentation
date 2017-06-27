@@ -69,10 +69,10 @@ The following subsections should describe how to get started with the Carbon usi
 
 It's time to see what your Carbon can do. From here you can learn how to build your own applications, or flash some of our pre-built ones, available on the Downloads page:
 
-- [Downloads page](../Downloads/README.md): This page contains prebuilt OS and Application files, simply download and flash to get started!
-- [Building for Carbon](../Building/README.md): In a few simple steps, here you will learn how to build and flash your own application to the Carbon.
-- [Installation page](../Installation/README.md): Find instructions on how to flash new applications to your Carbon!
-- [Troubleshooting](../Troubleshooting/README.md)
+- [Downloads page](../downloads/README.md): This page contains prebuilt OS and Application files, simply download and flash to get started!
+- [Building for Carbon](../build/README.md): In a few simple steps, here you will learn how to build and flash your own application to the Carbon.
+- [Installation page](../installation/README.md): Find instructions on how to flash new applications to your Carbon!
+- [Troubleshooting](../troubleshooting/README.md)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
 Back to the [Carbon documentation home page](../README.md)
