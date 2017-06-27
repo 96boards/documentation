@@ -5,11 +5,9 @@ Learn about your Nitrogen board as well as how to prepare and set up for basic u
 ## Setup - What you will need
 
 **Need**
-- [Nitrogen](http://www.96boards.org/product/Nitrogen/)
+- [Nitrogen](http://www.96boards.org/product/nitrogen/)
    - Board based on the ...
 - USB to MicroUSB cable
-- Switches
-- Pin headers (unpopulated)
 
 **Optional**
 - Mezzanine Products
