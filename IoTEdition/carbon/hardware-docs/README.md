@@ -4,7 +4,7 @@ Explore what makes your Carbon unique, technical specifications, schematics, har
 
 ## Hardware
 
-- Hardware User Manual ([View](HardwareUserManual.md))
+- Hardware User Manual ([View](hardware-user-manual.md))
 
 ***
 

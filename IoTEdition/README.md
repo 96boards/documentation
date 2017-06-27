@@ -2,15 +2,14 @@
 
 Welcome to the official documentation for IoT Edition 96Boards, these documents are written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
-
-
 ## Contents - Start Here
 
 Select your IoT Edition 96Boards device to access all product related resources
 
-| 96Boards            | About              | Options              | 
-|:-------------------:|:------------------:|:--------------------:|
-| <img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Carbon_Front-SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Carbon_Front-SD.png?raw=true" width="200" height="100" /><br> **Carbon** | Board based on the STM32F401RE Processor and <br>nRF51822 bluetooth controller | [Documentation](Carbon/README.md)<br> |
+| 96Boards                                 | About                                                                      | Options                                  | 
+|:----------------------------------------:|:--------------------------------------------------------------------------:|:----------------------------------------:|
+| <img src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-board/carbon-front-sd.png?raw=true" data-canonical-src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-board/carbon-front-sd.png?raw=true" width="200" height="100" /><br> **Carbon** | Board based on the STM32F401RE Processor and <br>nRF51822 bluetooth controller | [Documentation](carbon/README.md)<br> |
+| <img src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/nitrogen/additional-docs/images/images-board/nitrogen-front-sd.png?raw=true" data-canonical-src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/nitrogen/additional-docs/images/images-board/nitrogen-front-sd.png?raw=true" width="200" height="100" /><br> **Nitrogen** | Board based on the nRF52832 microcontroller | [Documentation](nitrogen/README.md)<br> |
 
 ## 96Boards IoT Extras
 
