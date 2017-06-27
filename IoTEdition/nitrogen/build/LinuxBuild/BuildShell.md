@@ -24,13 +24,13 @@ $ git clone https://gerrit.zephyrproject.org/r/zephyr
 ```shell
 $ cd zephyr
 $ source zephyr-env.sh
-$ make -C samples/subsys/shell/shell BOARD=96b_carbon
+$ make -C samples/subsys/shell/shell BOARD=96b_nitrogen
 ```
 
-The application will be available at ```samples/subsys/shell/shell/outdir/96b_carbon/zephyr.bin```.
+The application will be available at ```samples/subsys/shell/shell/outdir/96b_nitrogen/zephyr.bin```.
 
 #### **Step 2**: Proceed to Installation page for flashing instructions
 
 Proceed to flash the Zephyr application binary over USB-UART or USB-DFU. Host machine specific flashing instructions can be found on the "Installation" page, link found below.
 
-- [Installation Page](../../Installation/README.md)
+- [Installation Page](../../installation/README.md)
