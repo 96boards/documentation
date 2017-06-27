@@ -9,7 +9,7 @@ Select your IoT Edition 96Boards device to access all product related resources
 | 96Boards                                 | About                                                                      | Options                                  | 
 |:----------------------------------------:|:--------------------------------------------------------------------------:|:----------------------------------------:|
 | <img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Carbon_Front-SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Carbon_Front-SD.png?raw=true" width="200" height="100" /><br> **Carbon** | Board based on the STM32F401RE Processor and <br>nRF51822 bluetooth controller | [Documentation](Carbon/README.md)<br> |
-| <img src="" data-canonical-src="" width="200" height="100" /><br> **Nitrogen** | Board based on the nRF52832 microcontroller | [Documentation](nitrogen/README.md)<br> |
+| <img src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/nitrogen/additional-docs/images/images-board/nitrogen-front-sd.png?raw=true" data-canonical-src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/nitrogen/additional-docs/images/images-board/nitrogen-front-sd.png?raw=true" width="200" height="100" /><br> **Nitrogen** | Board based on the nRF52832 microcontroller | [Documentation](nitrogen/README.md)<br> |
 
 ## 96Boards IoT Extras
 
