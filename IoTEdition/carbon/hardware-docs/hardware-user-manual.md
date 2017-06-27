@@ -25,8 +25,8 @@
 
 The Carbon board is a 96Boards compliant IoT board based on the STM32F401RET6 in LQFP64 package.
 
-<img src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-board/carbon-front-sd.png?raw=true" data-canonical-src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-board/carbon-front-sd.png?raw=true" width="300" height="150" />
-<img src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-board/carbon-back-sd.png?raw=true" data-canonical-src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-board/carbon-back-sd.png?raw=true" width="300" height="150" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-board/carbon-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-board/carbon-front-sd.png?raw=true" width="300" height="150" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-board/carbon-back-sd.png?raw=true" data-canonical-src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-board/carbon-back-sd.png?raw=true" width="300" height="150" />
 
 
 The following table lists it's key features:
@@ -82,7 +82,7 @@ The following table lists it's key features:
 
 ## Hardware Overview
 
-<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/carbon_numbered_front.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/Carbon_Numbered_Front.png?raw=true" width="600" height="300" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/carbon_numbered_front.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/carbon_numbered_front.png?raw=true" width="600" height="300" />
 
 1. **OTG** - Can be used as USB OTG/HOST and USB device, also used for USB DFU.
 2. **LED Indicators**
@@ -106,7 +106,7 @@ The following table lists it's key features:
 
 ## PinOut Map
 
-<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/Carbon_Pinout.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/carbon_pinout.png?raw=true" width="600" height="300" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/carbon_pinout.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/carbon_pinout.png?raw=true" width="600" height="300" />
 
 ***
 
