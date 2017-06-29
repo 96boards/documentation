@@ -14,7 +14,7 @@ Once running, you should see the USR1 (green) and BT (blue) LEDs blinking, like 
 
 ***
 
-####**Step 0**: Download and setup Zephyr
+#### **Step 0**: Download and setup Zephyr
 
 - Download and setup the Zephyr development environment from https://www.zephyrproject.org. You can find more information about installing the Zephyr SDK at https://www.zephyrproject.org/doc/getting_started/getting_started.html
 
@@ -22,9 +22,7 @@ Once running, you should see the USR1 (green) and BT (blue) LEDs blinking, like 
 $ git clone https://gerrit.zephyrproject.org/r/zephyr
 ```
 
-####**Step 1**: Build the Zephyr disco application
-
-**Build the sample shell application as follows:**
+#### **Step 1**: Build the Zephyr disco application
 
 ```shell
 $ cd zephyr
