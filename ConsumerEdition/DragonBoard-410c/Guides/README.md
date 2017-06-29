@@ -17,6 +17,7 @@ These guides will help to get you started with a variety of available on-boards 
 - [Create custom GPT](GPT.md)
 	- Create a custion GUID Partition table for your DragonBoard 410c
 - [UART Serial Console Access](uart-serial-console.md)
+- [LEDs and Connectors](led-connectors.md)
 
 ## Android
 
