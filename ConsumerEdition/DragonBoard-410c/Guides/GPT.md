@@ -34,12 +34,13 @@ To create the bootable SD card:
     unzip -d qcom_bootloaders dragonboard410c_bootloader_sd_linux.zip
     git clone https://git.linaro.org/landing-teams/working/qualcomm/db-boot-tools.git
     cd db-boot-tools
-    sudo ./mksdcard -o /dev/XXX -p dragonboard410c/linux/partitions.txt \
-     -i ../qcom_bootloaders 
+    sudo ./mksdcard -o /dev/XXX -p dragonboard410c/linux/sdcard.txt \
+     -i ../qcom_bootloaders -s 2G
 
 Notes:
 * /dev/XXX represents your SD card, plugged to your PC. The SD card will be completely erased during this process.  
 * be very cautious about the SD card device name, or you could seriously damage your PC
+* 2G is the size of the SD card image. It can be less than the actual SD card size, but not more.
 
 When the command above finishes, your SD card should have the right GPT. You now need to provision a valid boot image and rootfs onto the SD card.
 
@@ -55,12 +56,13 @@ The boot image will by default try to mount the root fs on the eMMC , so we need
 
 You can now write the boot and rootfs image into the SD card:
 
-    sudo dd if=boot-XXX.img of=/dev/XXX8
+    sudo dd if=boot-XXX.img of=/dev/XXX7
     sudo dd if=rpb-desktop-image-dragonboard-410c-XXX.rootfs.img of=/dev/XXX9
     
 Where:
-* /dev/XXX8 represents the 'boot' partition on the SD card
+* /dev/XXX7 represents the 'boot' partition on the SD card
 * /dev/XXX9 represents the 'rootfs' partition on the SD card
+* you can check the mapping between partition IDs and partition names using `gdisk -l` command
 
 If you insert the SD card into the DragonBoard 410c and set the switch S6-2 (on the back) to ON, you should now be able to boot from SD card.
 

@@ -4,7 +4,7 @@ Explore what makes your B2260 unique, technical specifications, schematics, hard
 
 ## User Guides
 
-- Hardware User Manual ([View](HWUserManual.md))
+- Hardware User Manual ([View](HardwareUserManual.md))
 - Hardware Notes ([View](HardwareNotes.md))
 
 ## Hardware

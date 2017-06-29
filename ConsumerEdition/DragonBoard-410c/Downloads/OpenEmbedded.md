@@ -14,8 +14,8 @@ Choose one boot image, the root file system you choose will be based on the boot
 
 |   Boot image    |  Build Folder ([RPB](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/) / [RPB-Wayland](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/))   |
 |:------------------|:-----------------------|
-| RPB    | [Download](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/boot-Image--4.4-r0-dragonboard-410c-*.img)   |
-| RPB-Wayland    |  [Download](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/boot-Image--4.4-r0-dragonboard-410c-*.img)  |
+| RPB    | [Download](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/boot-Image--*-dragonboard-410c-*.img)   |
+| RPB-Wayland    |  [Download](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/boot-Image--*-dragonboard-410c-*.img)  |
 
 Only download one root file system (Console or Desktop). You should match the type of rootfs to the boot image you downloaded above. 
 

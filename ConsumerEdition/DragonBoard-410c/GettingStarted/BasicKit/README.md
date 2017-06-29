@@ -9,7 +9,7 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
    - Board based on Qualcomm® Snapdragon™ 410E processor
 
 **Required Addons**
-- [Power adapter](PowerAdapter.md)
+- Power adapter
    - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
 - USB Keyboard and Mouse
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
@@ -71,8 +71,8 @@ The following subsections should describe how to get started with the DragonBoar
 
 **The DragonBoard 410c comes preloaded with Android and can be up and running with a few simple steps:**
 
-- Connect the DragonBoard 410c to your [display with the HDMI cable](MonitorHDMI.md). It is important to do this first because the monitor will not detect the board if it is connected after starting. Ensure that the source for the display is switched to the HDMI port you are using.
-- Connect the [USB keyboard and mouse](USBKeyBoardMouse.md). Do not connect the USB OTG port to your computer – this will prevent the keyboard and mouse from operating. The USB OTG port is the micro USB connector on the board.
+- Connect the DragonBoard 410c to your display with the HDMI cable. It is important to do this first because the monitor will not detect the board if it is connected after starting. Ensure that the source for the display is switched to the HDMI port you are using.
+- Connect the USB keyboard and mouse. Do not connect the USB OTG port to your computer – this will prevent the keyboard and mouse from operating. The USB OTG port is the micro USB connector on the board.
 
 ![dipswitch](https://www.96boards.org/wp-content/uploads/2015/04/dip_blue_20150611_142555-300x205.jpg)
 
