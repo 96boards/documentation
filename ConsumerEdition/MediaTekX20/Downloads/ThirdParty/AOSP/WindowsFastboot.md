@@ -35,7 +35,7 @@ If you are still having trouble setting up fastboot and adb, <a href="https://yo
 Before flashing the new Operating System files onto a MediaTek X20 development board, you must first ensure a successful stock Android boot. **For this step you must have adb (Android Debug Bridge) successfully setup on your Windows host machine**.
 
 - Connect the HDMI cable to the MediaTek X20 Development Board connector (marked CON6501) and to the LCD Monitor (Optional)
-- Set the the third pin (USB HOST SET) of switch SW3205 to the position ON and connect the keyboard to USB connector marked CON6402 and the mouse to the USB connector marked CON6401 (It doesn’t matter which order you connect them in.)
+- Set the the third pin (USB HOST SET) of switch SW3205 to the position OFF position and connect the micro-usb to the host machine.
 - Plug the power supply into the power outlet
 - Press down the button (marked SW3201), and keep more than 3 seconds, the Android system will start
 - Verify your MediaTek X20 board is detected using adb with the following command:
