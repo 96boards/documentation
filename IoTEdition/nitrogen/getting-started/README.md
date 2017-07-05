@@ -28,7 +28,7 @@ The following subsections should describe how to get started with the Nitrogen u
 |  SoC                 | nRF52832                                                                  |
 |  CPU                 | Cortex-M4                                                                                        |
 |  Clock speed         | 64MHz                                                                                    |
-|  SRAM                | 96KB                                                                                             |
+|  SRAM                | 64KB                                                                                             |
 |  Storage             | 512KB onboard Flash                                                                              |
 |  Wireless            | In-built Bluetooth                                                                               |
 |  USB                 | 1 x Micro USB                                                                                    |
