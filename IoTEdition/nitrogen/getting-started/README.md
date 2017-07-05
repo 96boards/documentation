@@ -30,9 +30,9 @@ The following subsections should describe how to get started with the Nitrogen u
 |  Clock speed         | 64MHz                                                                                    |
 |  SRAM                | 96KB                                                                                             |
 |  Storage             | 512KB onboard Flash                                                                              |
-|  Wireless            | nRF51832 Bluetooth                                                                               |
-|  USB                 | 2 x Micro USB                                                                                    |
-|  Expansion Interface | 2 x 20pin 2.0mm pitch Low speed connector                |
+|  Wireless            | In-built Bluetooth                                                                               |
+|  USB                 | 1 x Micro USB                                                                                    |
+|  Expansion Interface | 1 x 20pin 2.0mm pitch Low speed connector                |
 |  Digital Out Voltage | 1.8V                                                                                             |
 |  Analog In Voltage   | 1.8V                                                                                           |
 |  Analog Pins         | 4                                                                                                |
