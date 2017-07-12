@@ -110,7 +110,7 @@ If you have a second camera sensor and intend to use it concurrently then link a
 
 Pipeline configuration for the format conversion looks like this:
 
-    sudo media-ctl -d /dev/media1 -l '"msm_csiphy0":1->"msm_csid0":0[1],"msm_csid0":1->"msm_ispif0":0[1],"msm_ispif0":1->"msm_vfe0_rdi0":0[1]'
+    sudo media-ctl -d /dev/media1 -l '"msm_csiphy0":1->"msm_csid0":0[1],"msm_csid0":1->"msm_ispif0":0[1],"msm_ispif0":1->"msm_vfe0_pix":0[1]'
     
 Format configuration for NV16/NV61 output:
 
