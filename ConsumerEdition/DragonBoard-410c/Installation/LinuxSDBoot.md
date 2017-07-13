@@ -5,7 +5,7 @@ This section show how to install the Debian operating system that is bootable fr
 **Prerequisites:**
 
 * A local copy of the `dragonboard410c_sdcard_developer_debian-xyz.zip` where `xyz` will vary based upon the build you are downloading.
-     * Instructions [here](../../Downloads/Debian.md)
+     * Instructions [here](../Downloads/Debian.md)
      
 ## Copy the install image onto the SD Card
 
