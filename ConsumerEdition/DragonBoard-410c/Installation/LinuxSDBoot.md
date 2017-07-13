@@ -1,4 +1,5 @@
 #Create Bootable SD Card
+
 This section show how to install the Debian operating system that is bootable from the SD Card to your DragonBoard™ 410c on a Linux host computer.
 
 **Prerequisites:**
