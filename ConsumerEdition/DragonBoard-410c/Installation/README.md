@@ -48,20 +48,21 @@ Choose host machine to perform installation from:
 ***
 
 ### SD Card Method - Intall and boot from SD Card
-It is possible to place your entire DB410c file system on an SD Card.  The advantages of doing this may include some or all of the following:
+It is possible to place your entire DB410c file system onto a bootable SD Card.  The advantages of doing this may include some or all of the following:
 
 - Instead of being limited to 8GB of internal EMMC for your internal block storage, the user could put a 64GB SDCard(for example) into the system and have that much space for block storage and application installations
 - With the entire Root File System on the SD card, the user can now remove the card and move it to another DB410c for test purposes
 - An additional benefit is the ability to back up the SD Card, thus saving everything on your system down to state (like command history, installed packages, and installed build environments, for example).
-- A disadvantage may be performance depending upon the application. Access times into the SD Card are slower than the internal eMMC.
+
+A disadvantage may be performance depending upon the application. Access times on the SD Card are slower than the internal eMMC.
 
 This method requires the following hardware:
 
-- DragonBoard 410c with power supply
 - Host machine (Linux, Mac OS X, or Windows)
-- MicroSD card with 4GB or more of storage
-- USB Mouse and/or keyboard
-- HDMI Monitor with full size HDMI cable
+- MicroSD card with 4GB or more of storage.  A very large MicroSD card is recommended (64GB was used to verify the functionality herein)
+- DragonBoard 410c with power supply
+     - USB Mouse and/or keyboard
+     - HDMI Monitor with full size HDMI cable
 
 #### Download necessary installation image
 Go to the [Downloads page](../Downloads/README.md) to get your SD card image.
@@ -70,6 +71,8 @@ Go to the [Downloads page](../Downloads/README.md) to get your SD card image.
 Choose host machine to perform installation from:
 
 - [Linux](LinuxSDBoot.md)
+- Mac - tbd
+- Windows - tbd
 ***
 
 ### Fastboot Method
