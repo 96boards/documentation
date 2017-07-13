@@ -1,6 +1,6 @@
 # Carbon Hardware User Manual
 
-<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/Logos/Seeed_Logo_White.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/Logos/Seeed_Logo_White.png?raw=true" width="180" height="50" align="right" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-logos/Seeed_Logo_White.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/Logos/Seeed_Logo_White.png?raw=true" width="180" height="50" align="right" />
 
 ### Table of Contents
 
