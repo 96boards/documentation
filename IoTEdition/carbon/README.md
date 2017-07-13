@@ -15,8 +15,6 @@ A comprehensive guide to using the [Carbon](http://www.96boards.org/product/Carb
 
 - [Getting Started](getting-started/README.md)
    - Learn about your Carbon board, how to prepare and set up for basic use
-- [Useful Guides](guides/README.md)
-   - These guides will help to get you started with a variety of available on-boards software
 - [Hardware Documentation](hardware-docs/README.md)
    - Explore what makes your Carbon unique, technical specifications, schematics, hardware notes and more...
 - [Support](support/README.md)
