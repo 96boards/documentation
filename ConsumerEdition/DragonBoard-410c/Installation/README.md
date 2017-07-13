@@ -36,7 +36,7 @@ This method requires the following hardware:
 - HDMI Monitor with full size HDMI cable
 
 #### Download necessary installation image
-Go to the [Downloads page](../Downloads/README.md) to get your SD card image.
+Go to the [Downloads page](../Downloads/README.md) to get the Debian SD card image.
 
 #### Create Installation SD Card
 Choose host machine to perform installation from:
