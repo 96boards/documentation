@@ -2,7 +2,7 @@
 
 Stand alone DragonBoard 410c will ship with the Android image. If the DragonBoard 410c is purchased as part of a kit, it may have a different pre-loaded operating system.
 
-This guide will help you choose and install an operating system on your DragonBoard 410c.
+This guide will help you choose and install an operating system and installation method on your DragonBoard 410c.
 
 To appropriately follow this installation guide you will need to:
 
@@ -17,12 +17,13 @@ To appropriately follow this installation guide you will need to:
 
 In most cases, you will be presented with two options when installing your new operating system onto your DragonBoard 410c:
 
-- SD Card Method
+- SD Card Method - Install and boot from eMMC
+- SD Card Method - Install and boot from SD Card
 - Fastboot Method
 
 Each method has it's own benifits, and requires different levels of experience
 
-### SD Card Method
+### SD Card Method - Install and boot from eMMC
 
 The SD card method allows you to place a microSD card into a DragonBoard™ 410c to automatically boot and install an operating system onto the eMMC of your board. This method is generally simpler than other methods and should be used by beginners.
 
@@ -34,14 +35,41 @@ This method requires the following hardware:
 - USB Mouse and/or keyboard
 - HDMI Monitor with full size HDMI cable
 
+#### Download necessary installation image
 Go to the [Downloads page](../Downloads/README.md) to get your SD card image.
 
-Choose host machine
+#### Create Installation SD Card
+Choose host machine to perform installation from:
 
 - [Linux](LinuxSD.md)
 - [Mac](MacSD.md)
 - [Windows](WindowsSD.md)
 
+***
+
+### SD Card Method - Intall and boot from SD Card
+It is possible to place your entire DB410c file system on an SD Card.  The advantages of doing this may include some or all of the following:
+
+- Instead of being limited to 8GB of internal EMMC for your internal block storage, the user could put a 64GB SDCard(for example) into the system and have that much space for block storage and application installations
+- With the entire Root File System on the SD card, the user can now remove the card and move it to another DB410c for test purposes
+- An additional benefit is the ability to back up the SD Card, thus saving everything on your system down to state (like command history, installed packages, and installed build environments, for example).
+- A disadvantage may be performance depending upon the application. Access times into the SD Card are slower than the internal eMMC.
+
+This method requires the following hardware:
+
+- DragonBoard 410c with power supply
+- Host machine (Linux, Mac OS X, or Windows)
+- MicroSD card with 4GB or more of storage
+- USB Mouse and/or keyboard
+- HDMI Monitor with full size HDMI cable
+
+#### Download necessary installation image
+Go to the [Downloads page](../Downloads/README.md) to get your SD card image.
+
+#### Create Bootable SD Card
+Choose host machine to perform installation from:
+
+- [Linux](LinuxSDBoot.md)
 ***
 
 ### Fastboot Method
