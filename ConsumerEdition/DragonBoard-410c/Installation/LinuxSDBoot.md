@@ -26,15 +26,15 @@ Upon successful boot, the user will see a command prompt on the HDMI monitor att
 **Congratulations!  You are now booting from the SD Card image.**
 
 ## Additional developer notes
-Now that the system has booted from the SD Card, all development performed will use the SD Card for storage just as if it's the internal emmc or a hard drive.   The user can now customize .bashrc, for example, and these changes will be retained.
+Now that the system has booted from the SD Card, all development performed will use the SD Card for storage just as if it's the internal emmc or a hard drive. The user can now customize .bashrc, for example, and these changes will be retained.
 
-The user can now remove the SD card and put it into another DB410c, set switch S6 to `SD Boot` as described above, and the system will boot as though it's the same system.
+The user can also remove the SD card and put it into another DB410c, set switch S6 to `SD Boot` as described herein, and the system will boot as though it's the same system.
 
-Development can now be done from this portable solution and can easily  extend local block storage capacity beyond the internal 8GB of emmc on the DB410c.  
+Development can now be done from this portable solution and can easily extend local block storage capacity beyond the internal 8GB of emmc on the DB410c.  
 
 The user can also retain a bootable internal emmc.  If the user were to remove the SD card and power cycle, for example, the DB410c will boot from the internal emmc (if there was a previous image installed on it).
 
-### Accessing internal EMMC from SD Card Developer image
+### Hint: Accessing internal EMMC from SD Card Developer image
 If the developer so chooses, the internal emmc can be accessed as follows when the developer has booted from the SD Card image:
 
 * from the command prompt, perform the following to see the names of the emmc (and SD card).
