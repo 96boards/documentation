@@ -1,3 +1,7 @@
+---
+title: Carbon Hardware User Manual
+permalink: /documentation/IoTEdition/carbon/installation/LinuxOTG.md/
+---
 ## Linux Host
 
 This section show how to install an operating system to your Carbon using the Flashing over OTG method on a Linux host computer.
@@ -47,7 +51,7 @@ usb 1-2.1: SerialNumber: 3574364C3034
 
 ####**Step 2**: Build or Download a sample application in Zephyr
 
-[Build](../Building/README.md) or [Download](../Downloads/README.md) an application and proceed to **Step 3**
+[Build](../Building/) or [Download](../Downloads/) an application and proceed to **Step 3**
 
 ####**Step 3**: Flash the application to Carbon
 
@@ -62,7 +66,7 @@ Example:
 
 - Path to disco: /samples/drivers/outdir/96b_carbon/disco.bin
 - Path to shell: /samples/shell/outdir/96b_carbon/shell.bin
- 
+
 ***
 
 **Congratulations! You are now booting your newly compiled operating system and application on your Carbon!**

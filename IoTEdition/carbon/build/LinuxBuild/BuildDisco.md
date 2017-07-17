@@ -1,3 +1,7 @@
+---
+title: How to build the disco Zephyr application from source - Linux Host
+permalink: /documentation/IoTEdition/carbon/build/LinuxBuild/BuildDisco.md/
+---
 ## How to build the disco Zephyr application from source - Linux Host
 
 These instructions can be used to build a simple 'disco' demo using a Linux host machine as a development environment. The demo assumes that 2 LEDs are connected to GPIO outputs of the MCU/board. The sample code is configured to work on Carbon, with LEDs connected to PA15 and PB5 pins.
@@ -38,4 +42,4 @@ The application will be available at ```samples/basic/disco/outdir/96b_carbon/ze
 
 Proceed to flash the Zephyr application binary over USB-UART or USB-DFU. Host machine specific flashing instructions can be found on the "Installation" page, link found below.
 
-- [Installation Page](../../Installation/README.md)
+- [Installation Page](../../Installation/)

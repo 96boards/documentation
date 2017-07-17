@@ -1,3 +1,9 @@
+---
+title: Carbon Hardware User Manual
+permalink: /documentation/IoTEdition/carbon/support/
+redirect_from:
+- /documentation/IoTEdition/carbon/support/README.md/
+---
 # Troubleshooting
 
 Please take advantage of the many Carbon resources available to you through 96Boards, Carbon, and Linaro
