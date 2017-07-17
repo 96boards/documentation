@@ -1,5 +1,8 @@
+---
+title: HiKey960 Development Board User Manual
+permalink: /documentation/ConsumerEdition/HiKey960/HardwareDocs/HardwareUserManual.md/
+---
 # HiKey960 Development Board User Manual
-
 
 ### Table of Contents
 
