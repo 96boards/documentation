@@ -1,3 +1,8 @@
+---
+title: Additional Documentation for MediaTek X20 Pro
+permalink: /documentation/ConsumerEdition/MediaTekX20Pro/AdditionalDocs/
+redirect_from: /documentation/ConsumerEdition/MediaTekX20Pro/AdditionalDocs/README.md/
+---
 # Additional Documentation
 
 Discover our list of community and vendor sponsored MediaTek X20 documents. This page allows you to explore new and exciting, downloadable documentation, in it's intended, static format.
