@@ -1,3 +1,7 @@
+---
+title: Examples for CE Boards
+permalink: /documentation/ConsumerEdition/CE-Extras/GPIO/Examples/GPIO_Examples/Example_1.md/
+---
 # Example #1 - Through the shell
 
 This is the first and simplest example one could execute on a 96Boards. For this example you will access and manipulate the GPIOs via command line using the built in terminal application on your 96Boards. For this example you WILL NOT need any particular library, however, low-speed expansion header pins/GPIOs naming conventions can be significantly simplified by installing the **libsoc** library beforehand.
@@ -32,7 +36,7 @@ Giving yourself superuser access will allow you to modify the GPIOs (if you get 
 Once you have superuser access, navigate to the gpio folder with the following command:
 
 ```shell
-# cd /sys/class/gpio 
+# cd /sys/class/gpio
 ```
 
 From within the GPIO folder there are several naming conventions(mentioned above) which can be used to manipulate each function of the GPIO itself.

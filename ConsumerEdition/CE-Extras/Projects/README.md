@@ -1,3 +1,8 @@
+---
+title: Projects - Consumer Edition
+permalink: /documentation/ConsumerEdition/CE-Extras/Projects/
+redirect_from: /documentation/ConsumerEdition/CE-Extras/Projects/README.md/
+---
 # Projects - Consumer Edition
 
 **PAGE IS UNDER CONSTRUCTION**

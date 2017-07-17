@@ -11,7 +11,7 @@ This section show how to install an operating system to your B2260 using the SD 
 - **Step 2**: Recall Download Location
 - **Step 3**: Unzip _SD Card Install Image_
 - **Step 4**: Download the Win32DiskImager tool
-- **Step 5**: Use Win32DiskImager tool to flash image onto SD Card 
+- **Step 5**: Use Win32DiskImager tool to flash image onto SD Card
 - **Step 6**: Prepare B2260 with SD card
 
 ***

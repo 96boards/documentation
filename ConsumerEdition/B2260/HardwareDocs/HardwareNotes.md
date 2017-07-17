@@ -30,7 +30,7 @@ B2260 Development Board supports an UART Port used for debugging over the low-sp
 
 ### Known Issues
 
-None 
+None
 
 ### Report a Bug
 
