@@ -1,3 +1,8 @@
+---
+title: Linux Host Installation for DragonBoard-410c
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Installation/LinuxSD.md/
+redirect_from: /db410c-getting-started/Installation/LinuxSD.md/
+---
 ## Linux Host
 
 This section show how to install an operating system to your DragonBoard™ 410c using the SD Card method on a Linux host computer.
@@ -38,7 +43,7 @@ $ lsblk
 
 #### Step 3: Recall Download Location
 
-- Locate SD card install file from [Downloads page](../Downloads/README.md).
+- Locate SD card install file from [Downloads page](../Downloads/).
 - This file will be needed for the next step.
 
 #### Step 4: Unzip _SD Card Install Image_
@@ -56,7 +61,7 @@ $ lsblk
 ```shell
 $ cd <extraction directory>
 
-#Example: 
+#Example:
 #<extraction directory> = /home/YourUserName/Downloads
 #For this example we assume the "SD Card Install Image" is in the Downloads folder.
 $ cd /home/YourUserName/Downloads

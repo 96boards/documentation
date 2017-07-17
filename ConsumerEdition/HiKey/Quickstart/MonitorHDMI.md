@@ -1,3 +1,7 @@
+---
+title: Monitor Guide for HiKey
+permalink: /documentation/ConsumerEdition/HiKey/QuickStart/Monitor.md/
+---
 ## Monitor
 
 A standard monitor or TV supporting at least 640x480 resolution is required. Interlaced operation is not currently supported. The maximum resolutions currently supported are 1920x1080p or 1920x1200p.
@@ -42,4 +46,4 @@ Finally, **if you are still having difficulties you can revert to a built-in 720
 [Information on Android To Be Written]
 At the moment resolution is locked at **1280x720p.**(do not use hotkey Alt+PrtScr+g).<br\>
 
-**NOTE:** the fixed settings may not work on all monitors/TVs but have been demonstrated to work on most. 
+**NOTE:** the fixed settings may not work on all monitors/TVs but have been demonstrated to work on most.

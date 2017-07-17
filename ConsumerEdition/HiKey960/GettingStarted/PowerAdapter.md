@@ -1,3 +1,7 @@
+---
+title: Power Adapter with HiKey960
+permalink: /documentation/ConsumerEdition/HiKey960/GettingStarted/PowerAdapter.md/
+---
 ## Power Adapter
 
 The 96Boards Consumer Edition boards require a 8-18V 2A power supply.

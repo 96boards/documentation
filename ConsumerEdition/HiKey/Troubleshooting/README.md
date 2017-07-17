@@ -1,3 +1,8 @@
+---
+title: Troubleshooting for HiKey
+permalink: /documentation/ConsumerEdition/HiKey/Troubleshooting/
+redirect_from: /documentation/ConsumerEdition/HiKey/Troubleshooting/README.md/
+---
 # Troubleshooting
 
 Please take advantage of the many HiKey resources available to you through 96Boards, SeeedStudio, and Coursera
@@ -9,7 +14,7 @@ Please take advantage of the many HiKey resources available to you through 96Boa
 - [LeMaker Wiki](http://wiki.lemaker.org/HiKey(LeMaker_version))
    - This page offers some extra HiKey resources
 - [SeeedStudio](http://www.seeedstudio.com/)
-   - Buy the HiKey here! 
+   - Buy the HiKey here!
 - [Coursera](https://www.coursera.org/specializations/internet-of-things)
    - HiKey uses the same specification! Students from the [University of California San Diego](https://ucsd.edu/) put together an "Internet of Things" (IoT) course focused around the DragonBoard 410c(again, same specification as HiKey!). It is free to audit, or you can purchase the specialization package for a cool certificate!
 - [Report a bug!](../../../Extras/Report_a_bug.md)

@@ -1,3 +1,8 @@
+---
+title: Support HiKey960
+permalink: /documentation/ConsumerEdition/HiKey960/Support/
+redirect_from: /documentation/ConsumerEdition/HiKey960/Support/README.md/
+---
 # Troubleshooting
 
 Please take advantage of the many HiKey960 resources available to you through 96Boards.

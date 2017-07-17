@@ -1,3 +1,10 @@
+---
+title: Support for DragonBoard-410c
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Support/
+redirect_from:
+- /documentation/ConsumerEdition/DragonBoard-410c/Support/README.md/
+- /db410c-getting-started/Support/README.md/
+---
 # Troubleshooting
 
 Please take advantage of the many DragonBoard 410c resources available to you through Qualcomm, 96Boards, Arrow, and Coursera.
