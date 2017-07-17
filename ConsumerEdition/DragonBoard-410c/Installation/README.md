@@ -54,7 +54,7 @@ Choose host machine to perform installation from:
 
 ***
 
-### SD Card Method - Intall and boot from SD Card
+### SD Card Method - Install and boot from SD Card
 It is possible to place your entire DB410c file system onto a bootable SD Card.  The advantages of doing this may include some or all of the following:
 
 - Instead of being limited to 8GB of internal EMMC for your internal block storage, the user could put a 64GB SDCard(for example) into the system and have that much space for block storage and application installations
