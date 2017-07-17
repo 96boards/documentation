@@ -1,3 +1,7 @@
+---
+title: Hardware Notes for B2260
+permalink: /documentation/ConsumerEdition/B2260/HardwareDocs/HardwareNotes.md/
+---
 # Hardware Notes
 
 

@@ -1,3 +1,7 @@
+---
+title: Windows SD for B2260
+permalink: /documentation/ConsumerEdition/B2260/Installation/WindowsSD.md/
+---
 ## Windows Host
 
 This section show how to install an operating system to your B2260 using the SD Card method on a Windows host computer.

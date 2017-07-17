@@ -1,3 +1,9 @@
+---
+title: Hardware Docs for B2260
+permalink: /documentation/ConsumerEdition/B2260/HardwareDocs/
+redirect_from:
+- /documentation/ConsumerEdition/B2260/HardwareDocs/README.md/
+---
 # Hardware Documentation
 
 Explore what makes your B2260 unique, technical specifications, schematics, hardware notes and more... This page allows you to see what is under the "B2260" by offering static documentation published directly from the board vendors.
