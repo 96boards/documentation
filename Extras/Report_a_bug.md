@@ -1,3 +1,7 @@
+---
+title: Report a Bug
+permalink: /documentation/Extras/Report_a_bug.md/
+---
 # How to report a bug
 
 This document provides instructions for reporting bugs on both Consumer and Enterprise Edition boards along with
