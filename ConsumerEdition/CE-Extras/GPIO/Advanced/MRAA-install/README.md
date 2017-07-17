@@ -1,3 +1,8 @@
+---
+title: Install and build MRAA
+permalink: /documentation/ConsumerEdition/CE-Extras/GPIO/Advanced/MRAA-install/
+redirect_from: /documentation/ConsumerEdition/CE-Extras/GPIO/Advanced/MRAA-install/README.md/
+---
 ## Install and build MRAA
 
 ```shell
@@ -20,4 +25,4 @@ $ sudo reboot<Enter>
 
 ***
 
-When you have you have finished installing and building your library, please proceed to the [Examples - Sample code](../../Examples/README.md) page to begin programming.
+When you have you have finished installing and building your library, please proceed to the [Examples - Sample code](../../Examples/) page to begin programming.

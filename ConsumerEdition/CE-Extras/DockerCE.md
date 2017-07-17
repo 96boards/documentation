@@ -1,3 +1,7 @@
+---
+title: Instructions for Installing Docker on a Consumer Edition 96Boards
+permalink: /documentation/ConsumerEdition/CE-Extras/DockerCE.md/
+---
 # Instructions for Installing Docker on a Consumer Edition 96Boards
 
 This document will show you how to install and test the Debian Docker apt package on the 96Boards with 1GB RAM using the Reference Platform Build 16.03 which is [available here](https://github.com/Linaro/documentation/tree/master/Reference-Platform/PreviousReleases/RPB_16.03). This document was created for Docker v1.9.1.
@@ -42,11 +46,11 @@ Running a first container is a case of:
 ![Image2](http://i.imgur.com/4v98PZN.png)
 
 
-This will fetch an image for Ubuntu Xenial from the aarch64 directory at hub.docker.com, and launch it with a shell interactively. Once the image is launched it is called a container and has a container ID. From the container command line prompt, if you type e.g. 
+This will fetch an image for Ubuntu Xenial from the aarch64 directory at hub.docker.com, and launch it with a shell interactively. Once the image is launched it is called a container and has a container ID. From the container command line prompt, if you type e.g.
 
 `$ cat /etc/apt/sources.list`
 
-You should see that you’re in an Ubuntu image rather than the Debian Stretch host. Exiting the shell kills and removes the container. You can launch the same image several times with docker run to have several independent containers. 
+You should see that you’re in an Ubuntu image rather than the Debian Stretch host. Exiting the shell kills and removes the container. You can launch the same image several times with docker run to have several independent containers.
 
 Here are two Ubuntu docker containers running on this 96Boards example. The following command will list all running containers and their status:
 
@@ -65,7 +69,7 @@ You can create a new Docker base image (an image which does not depend on anothe
 
 Here you will see how to do it with a base Stretch aarch64 Docker image.
 
-This example uses a USB thumb drive (at /dev/sda1) on a 96Boards to avoid running out of storage space. The USB drive needs to be mounted with `-o exec`. 
+This example uses a USB thumb drive (at /dev/sda1) on a 96Boards to avoid running out of storage space. The USB drive needs to be mounted with `-o exec`.
 
 ```shell
 $ sudo apt-get install debootstrap

@@ -1,8 +1,12 @@
+---
+title: Example 1 - Grove RGB backlight LCD module
+permalink: /documentation/ConsumerEdition/CE-Extras/GPIO/Examples/I2C_Examples/Example_1.md/
+---
 # Example 1 - Grove RGB backlight LCD module
 
 ## Update 96Boards system
 
-The image on your board might be out of date. This is possible even when using the stock image (the operating system your board was shipped with), or a newly flashed version from the 96Boards.org website. 
+The image on your board might be out of date. This is possible even when using the stock image (the operating system your board was shipped with), or a newly flashed version from the 96Boards.org website.
 
 A few useful commands will help us make sure everything on the board is current:
 
@@ -74,7 +78,7 @@ This can be accessed through the terminal using your favorite text editor. Make 
  * SPDX-License-Identifier: BSD-2-Clause
  */
 
-#include 
+#include
 #include "upm/jhd1313m1.h"
 
 /* Note:
