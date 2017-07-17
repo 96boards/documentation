@@ -1,3 +1,8 @@
+---
+title: Documentation for Sensors Mezzanine
+permalink: /documentation/MezzanineProducts/SensorsMezzanine/
+redirect_from: /documentation/MezzanineProducts/SensorsMezzanine/README.md/
+---
 ## Sensors mezzanine
 
 Available now from [Seeed](http://linaro.co/1KnV9TA): Can be used with any base board compatible with the 96Boards Consumer Edition or Enterprise Edition specifications.
