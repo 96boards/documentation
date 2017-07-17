@@ -1,3 +1,8 @@
+---
+title: Hardware Documentation for HiKey
+permalink: /documentation/ConsumerEdition/HiKey/HardwareDocs/
+redirect_from: /documentation/ConsumerEdition/HiKey/HardwareDocs/README.md/
+---
 # Hardware Documentation
 
 Explore what makes your HiKey unique, technical specifications, schematics, hardware notes and more... This page allows you to see what is under the "HiKey hood" by offering static documentation published directly from the board vendors.
