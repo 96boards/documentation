@@ -1,3 +1,8 @@
+---
+title: Specifications Documentation
+permalink: /documentation/Specifications/
+redirect_from: /documentation/Specifications/README.md/
+---
 # Specifications
 
 - Consumer Edition Specification ([View](https://github.com/96boards/documentation/blob/master/Specifications/96Boards-CE-Specification.pdf) / [Download](https://github.com/96boards/documentation/raw/master/Specifications/96Boards-CE-Specification.pdf))

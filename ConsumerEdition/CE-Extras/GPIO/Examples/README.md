@@ -1,3 +1,8 @@
+---
+title: Examples for CE Boards
+permalink: /documentation/ConsumerEdition/CE-Extras/GPIO/Examples/
+redirect_from: /documentation/ConsumerEdition/CE-Extras/GPIO/Examples/README.md/
+---
 # Examples - Sample Code
 
 ## Contents

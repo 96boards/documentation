@@ -1,4 +1,8 @@
-# Example #2 - Triple library LED push button
+---
+title: Example 2 - Triple library LED push button
+permalink: /documentation/ConsumerEdition/CE-Extras/GPIO/Examples/GPIO_Examples/Example_2.md/
+---
+# Example 2 - Triple library LED push button
 
 This repository, created by Linaro's David Mandala, demonstrates the use of three different libraries using three different scripts. Instructions on how to compile and execute the code can be found in the README.md file which is included in the repository download. Simply clone the repoistory onto your 96Boards and follow README.md instructions.
 

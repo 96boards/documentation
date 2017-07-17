@@ -1,3 +1,7 @@
+---
+title: Hardware User Manual for B2260
+permalink: /documentation/ConsumerEdition/B2260/HardwareDocs/HardwareUserManual.md/
+---
 # B2260 Development 96Boards Hardware User Manual
 
 ## Introduction
