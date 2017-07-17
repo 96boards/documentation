@@ -1,3 +1,8 @@
+---
+title: DragonBoard 410c Board Recovery
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Installation/BoardRecovery.md/
+redirect_from: /db410c-getting-started/
+---
 # DragonBoard 410c Board Recovery
 
 This page outlines steps needed to recover your DragonBoard 410c board from a bricked software state. This instruction set is suggested to those who are experiences boot issues due to a corrution in the file system and/or other software components.
@@ -11,7 +16,7 @@ In most cases this will be your sure-fire way to recover your board from a softw
 - Download [SD Card Recovery image](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_sdcard_rescue-*.zip)
 - Choose host machine under SD card installation instructions from [Installation Page](README.md)
 
-> Note: For those already familiar with the SD card flashing process, 96Boards build folder can be found [here](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/) 
+> Note: For those already familiar with the SD card flashing process, 96Boards build folder can be found [here](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/)
 
 ## Fastboot recovery
 

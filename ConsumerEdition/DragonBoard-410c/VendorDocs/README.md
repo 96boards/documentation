@@ -1,3 +1,10 @@
+---
+title: Vendor Documentation for DragonBoard-410c
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/VendorDocs/
+redirect_from:
+- /documentation/ConsumerEdition/DragonBoard-410c/VendorDocs/README.md/
+- /db410c-getting-started/VendorDocs/README.md/
+---
 # Vendor Documentation
 
 Discover our list of community and vendor sponsored DragonBoard 410c documents. This page allows you to explore new and exciting, downloadable documentation, in it's intended, static format.

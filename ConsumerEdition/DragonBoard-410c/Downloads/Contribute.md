@@ -1,3 +1,8 @@
+---
+title: Contributing to Linaro releases for DragonBoard-410c
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Contribute.md/
+redirect_from: /db410c-getting-started/Downloads/Contribute.md/
+---
 # Contributing to Linaro releases for Dragonboard 410c
 
 This page provides instructions for developers willing to contribute to the Linaro releases for Dragonboard 410c. This is applicable to the following components:
@@ -21,6 +26,5 @@ This is a public mailing open to any developer.
 * When we do kernel upgrade we might not carry external patches, and they will have to be sent and tested again, if they have not been upstreamed in between.
 * When patches add support for new hardware (such as other boards based on the same chipset), Linaro will not test, nor support these additional boards. It will be the submitter responsibility to maintain and test these patches over time, and also answer any support request (on the mailing list, on the forum or on IRC).
 * The mailing list is for patches and code. Regular support will continue to be on the 96boards forum
-* We expect all discussions to be held on the public mailing list and discourage private discussions over emails as much as possible. 
+* We expect all discussions to be held on the public mailing list and discourage private discussions over emails as much as possible.
 * Of course any patches will be reviewed by the maintainers of the involved sub projects, and these developers are responsible to accept or refuse any contribution.
-
