@@ -1,3 +1,7 @@
+---
+title: Hardware User Manual for Poplar
+permalink: /documentation/EnterpriseEdition/Poplar/HardwareDocs/HardwareUserManual.md/
+---
 #  Poplar Hardware User Manual
 
 ### Table of Contents
