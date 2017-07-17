@@ -1,3 +1,7 @@
+---
+title: Using a Power Adapter with MediaTek X20
+permalink: /documentation/ConsumerEdition/MediaTekX20/QuickStart/PowerAdapter.md/
+---
 ## Power Adapter
 
 The 96Boards Consumer Edition boards require a 8-18V 2A power supply.
@@ -10,7 +14,7 @@ Easiest way to prepare your AC adapter for 96Boards is to have the following:
 
 (2) DC plug converter from 5,5 diameter with 2.1 mm center pin to 4.75mm diameter with 1.7mm center pin.
 
-*** 
+***
 
 Many low cost boards use the ubiquitous microUSB cable to deliver 5V power. However, this limits the power capability to only 500mA at 5V by original official USB specification, which is less than 3W (https://en.wikipedia.org/wiki/USB#Power). As more powerful SoCs become available, peak power requirements for the SoC alone can easily exceed 5W.
 

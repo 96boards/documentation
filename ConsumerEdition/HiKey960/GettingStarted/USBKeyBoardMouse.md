@@ -1,3 +1,7 @@
+---
+title: USB Keyboard and Mouse with HiKey960
+permalink: /documentation/ConsumerEdition/HiKey960/GettingStarted/USBKeyBoardMouse.md/
+---
 # USB Keyboard and Mouse
 
 All standard USB Type-A keyboard and mouse should work with any 96Boards. With two available USB type-A ports, it is recommended to use an all-in-one keyboard with built in, multi-touch touchpad. Using one of these all-in-one keyboard/mouse devices will leave an open USB type-A port for other uses.

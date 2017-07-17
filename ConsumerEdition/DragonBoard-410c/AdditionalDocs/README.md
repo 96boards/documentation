@@ -1,3 +1,10 @@
+---
+title: Additional Docs for DragonBoard-410c
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/
+redirect_from:
+- /documentation/ConsumerEdition/DragonBoard-410c/README.md/
+- /db410c-getting-started/README.md/
+---
 # Board Images
 
 Each 96Boards development board must provide six images, 3 x High Definition and 3 x Standard Definition. These images should be sized and named accordingly. These images should be uploaded to this folder and made available to community for viewing and/or download.

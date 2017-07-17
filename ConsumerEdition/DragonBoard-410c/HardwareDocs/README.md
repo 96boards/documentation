@@ -1,3 +1,10 @@
+---
+title: Hardware Documentation for DragonBoard-410c
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/HardwareDocs/
+redirect_from:
+- /documentation/ConsumerEdition/DragonBoard-410c/HardwareDocs/README.md/
+- /db410c-getting-started/HardwareDocs/
+---
 # Hardware Documentation
 
 Explore what makes your DragonBoard 410c unique, technical specifications, schematics, hardware notes and more... This page allows you to see what is under the "DragonBoard 410c hood" by offering static documentation published directly from the board vendors.

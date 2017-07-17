@@ -1,3 +1,7 @@
+---
+title: Bluetooth Guide for HiKey
+permalink: /documentation/ConsumerEdition/HiKey/Guides/Bluetooth.md/
+---
 # Bluetooth
 
 The HiKey board includes built-in Bluetooth 4.0 LE support.
@@ -10,7 +14,7 @@ The blue LED between the microUSB and the Type A USB on the front board edge ind
 
 Bluetooth audio devices are supported on HiKey. Follow normal procedures of connecting a bluetooth device to connect to your board.
 
-Once Bluetooth sound sink is connected, you can open the LXMusic player from the Sound & Video menu. Create a playlist from your music files. Supported audio formats are .mp3 and .ogg. You should now be able to play from the LXMusic player. 
+Once Bluetooth sound sink is connected, you can open the LXMusic player from the Sound & Video menu. Create a playlist from your music files. Supported audio formats are .mp3 and .ogg. You should now be able to play from the LXMusic player.
 
 **NOTE:** LXmusic uses xmms2 as the player backend, you may need to install xmms2 and related plugins if they are not installed, otherwise music may cannot be played.
 

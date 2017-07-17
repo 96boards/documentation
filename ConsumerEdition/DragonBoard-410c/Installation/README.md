@@ -1,3 +1,10 @@
+---
+title: Installation for DragonBoard-410c
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Installation/
+redirect_from:
+- /documentation/ConsumerEdition/DragonBoard-410c/Installation/README.md/
+- /db410c-getting-started/Installation/README.md/
+---
 # Installation
 
 Stand alone DragonBoard 410c will ship with the Android image. If the DragonBoard 410c is purchased as part of a kit, it may have a different pre-loaded operating system.
@@ -87,11 +94,10 @@ This method requires the following hardware:
 - USB Mouse and/or keyboard (not required to perform flash)
 - HDMI Monitor with full size HDMI cable (not required to perform flash)
 
-Go to the [Downloads page](../Downloads/README.md) to get your bootloader, boot image, and root file system image (rootfs).
+Go to the [Downloads page](../Downloads/) to get your bootloader, boot image, and root file system image (rootfs).
 
 Choose host machine
 
 - [Linux](LinuxFastboot.md)
 
 ***
-

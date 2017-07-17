@@ -1,3 +1,9 @@
+---
+title: Carbon Hardware User Manual
+permalink: /documentation/IoTEdition/carbon/installation/
+redirect_from:
+- /documentation/IoTEdition/carbon/installation/README.md/
+---
 # Installation
 
 Choose and install an operating system on your Carbon. To appropriately follow this installation guide you will need to:
@@ -29,7 +35,7 @@ This method requires the following hardware:
 - USB to microUSB cable
 - stm32flash tool
 
-You may choose to [Downloads](../Downloads/README.md) or [Build](../Building/README.md) an application for your Carbon
+You may choose to [Downloads](../Downloads/) or [Build](../Building/) an application for your Carbon
 
 Choose host machine
 
@@ -48,7 +54,7 @@ This method requires the following hardware:
 - USB to microUSB cable
 - dfu-util tool
 
-You may choose to [Downloads](../Downloads/README.md) or [Build](../Building/README.md) an application for your Carbon
+You may choose to [Downloads](../Downloads/) or [Build](../Building/) an application for your Carbon
 
 Choose host machine
 

@@ -1,3 +1,8 @@
+---
+title: Getting Started with HiKey960
+permalink: /documentation/ConsumerEdition/HiKey960/GettingStarted/
+redirect_from: /documentation/ConsumerEdition/HiKey960/GettingStarted/README.md/
+---
 # Getting Started
 
 Learn about your HiKey960 board as well as how to prepare and set up for basic use
@@ -19,7 +24,7 @@ Learn about your HiKey960 board as well as how to prepare and set up for basic u
    - J2001 Header on the HiKey960 comes with two pin-jumpers, does not apply for DIP Switches
 
 **Optional**
-- [Mezzanine Products](../../../MezzanineProducts/README.md)
+- [Mezzanine Products](../../../MezzanineProducts/)
    - These devices allow you to expand your experience with any 96Boards by adding peripherals and enhancing onboard components
 - USB to MicroUSB cable
    - This is needed for serial console interfacing
@@ -81,7 +86,7 @@ Recovery      | Link 3-4 / Switch 2 | open / OFF    | open / OFF    | closed / O
 Fastboot      | Link 5-6 / Switch 3 | open / OFF    | closed / ON   | open / OFF    |
 
 - Normal Mode: Select this mode to have HiKey960 boot OS from onboard storage
-- [Fastboot Mode](../Installation/README.md): Select this mode to flash a new Operating system using the OTG (USB Type-C) port and fastboot commands
+- [Fastboot Mode](../Installation/): Select this mode to flash a new Operating system using the OTG (USB Type-C) port and fastboot commands
 - [Recovery Mode](../Installation/BoardRecovery.md): Select this mode to recover HiKey960 from bricked state. Also use when updating base firmware
 
 ### First boot
@@ -101,13 +106,13 @@ Board should boot up into AOSP.
 If you are already familiar with the HiKey960 board and would like to change out the stock operating system, please proceed to one of the following pages:
 
 - [HiKey960 96Boards Home page](http://www.96boards.org/product/HiKey960/)
-- [Downloads page](../Downloads/README.md): This page lists all Linaro and 3rd party operating systems available for HiKey960
-- [Installation page](../Installation/README.md): If you already have the images you need, this page has information on how to install the different operating systems onto your HiKey960 board
+- [Downloads page](../Downloads/): This page lists all Linaro and 3rd party operating systems available for HiKey960
+- [Installation page](../Installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your HiKey960 board
 - [Board Recovery](../Installation/BoardRecovery.md)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
-- [Support](../Support/README.md)
+- [Support](../Support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
 ***
 
-Return to the [HiKey960 Documentation home page](../README.md)
+Return to the [HiKey960 Documentation home page](../)

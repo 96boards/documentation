@@ -1,3 +1,8 @@
+---
+title: How to hook up an SPI ethernet controller on 96boards
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/EnableSPIEthernetController.md/
+redirect_from: /db410c-getting-started/Guides/EnableSPIEthernetController.md/
+---
 # How to hook up an SPI ethernet controller on 96boards
 
 ## Reference Hardware Setup
@@ -91,7 +96,7 @@ index 6153663..6883e62 100644
                 };
 ```
 
-**NOTE:** 
+**NOTE:**
 - Above patch is based on the `release/qcomlt-4.9` branch of the [Qualcomm LT kernel tree](https://git.linaro.org/landing-teams/working/qualcomm/kernel.git)
 
 #### Rebuilding the kernel

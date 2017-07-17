@@ -1,3 +1,8 @@
+---
+title: Linux Host Installation for DragonBoard-410c
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Installation/LinuxFastboot.md/
+redirect_from: /db410c-getting-started/
+---
 ##Linux Host
 
 This section show how to install a new operating system to your DragonBoard™ 410c using the fastboot method on a Linux host computer.
@@ -15,7 +20,7 @@ This section show how to install a new operating system to your DragonBoard™ 4
 
 ***
 
-#### **Step 1**: Make sure fastboot is set up on host computer. 
+#### **Step 1**: Make sure fastboot is set up on host computer.
 
 - Android SDK “Tools only” for Linux can be downloaded <a href="http://developer.android.com/sdk" target="_blank">here</a>
 - The Linux “Tools Only” SDK download does not come with fastboot, you will need to use the Android SDK Manager to install platform-tools.
@@ -68,7 +73,7 @@ de82318	fastboot
 ```shell
 $ cd <extraction directory>
 
-#Example: 
+#Example:
 cd /Users/YourUserName/Downloads
 #<extraction directory> = /Users/YourUserName/Downloads
 #For this example we assume the "Bootloader" is in the Downloads folder.

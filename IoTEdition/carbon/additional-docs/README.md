@@ -1,3 +1,9 @@
+---
+title: Carbon Additional Documentation
+permalink: /documentation/IoTEdition/carbon/additional-docs/
+redirect_from:
+- /documentation/IoTEdition/carbon/additional-docs/README.md/
+---
 # Additional Documentation
 
 Explore what makes your Carbon unique by checking out technical specifications, schematics, hardware notes and more... This page not only allows you to see what is under the "Carbon hood" but also includes a variety of static user guides inteded to help you get more familiar with your board.

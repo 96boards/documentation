@@ -1,3 +1,7 @@
+---
+title: Hardware User Manual for Nitrogen
+permalink: /documentation/IoTEdition/nitrogen/hardware-docs/hardware-user-manual.md/
+---
 # Carbon Hardware User Manual
 
 <img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Logos/Seeed_Logo_White.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Logos/Seeed_Logo_White.png?raw=true" width="180" height="50" align="right" />

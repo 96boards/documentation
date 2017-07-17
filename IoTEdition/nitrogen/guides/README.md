@@ -1,3 +1,9 @@
+---
+title: Guides for Nitrogen
+permalink: /documentation/IoTEdition/nitrogen/guides/
+redirect_from:
+- /documentation/IoTEdition/nitrogen/guides/README.md/
+---
 # Useful Guides
 
 Explore what makes your Nitrogen unique by checking out technical specifications, schematics, hardware notes and more... This page not only allows you to see what is under the "Nitrogen hood" but also includes a variety of static user guides inteded to help you get more familiar with your board.
