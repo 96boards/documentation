@@ -15,9 +15,9 @@ linux kernel running on DragonBoard410c.
     - [1.1) Installing the Compiler](#11-installing-the-compiler)
 - [2) Enable Overlay Support in Kernel](#2-enable-overlay-support-in-kernel)
     - [2.1) Cloning and Building the kernel](#21-cloning-and-building-the-kernel)
-- [3) Load Overlays Dynamically](#3-add-overlays-dynamically)
+- [3) Load Overlays Dynamically](#3-load-overlays-dynamically)
     - [3.1) Compiling the Overlays](#31-compiling-the-overlays)
-    - [3.2) Loading Overlays via Configfs](#32-inserting-overlays-via-configfs)
+    - [3.2) Loading Overlays via Configfs](#32-loading-overlays-via-configfs)
      
  ***
  
@@ -27,7 +27,7 @@ linux kernel running on DragonBoard410c.
  overlays (dtbo). Overlay support was added to the mainline dtc by v1.4.2 only. But, the one which is available
  as a package in debian based distros is v1.4.0. So, we need to install the compiler from source.
  
- ## 1.2 Installing the Compiler
+ ## 1.1 Installing the Compiler
  
 ```shell
 $ sudo apt-get install flex bison swig
@@ -54,8 +54,8 @@ $ make -j4 Image dtbs
 $ make -j4 modules
 $ make modules_install INSTALL_MOD_STRIP=1 INSTALL_MOD_PATH=<folder>
 ```
-> Note: Replace <folder> with the path of folder to put kernel modules. The built kernel modules needs to be transferred 
-to the root file system, under ***/lib/modules*** folder.
+> Note: Replace < folder > with the path of folder to place kernel modules. Kernel modules needs to be transferred 
+to the root file system, under ***/lib/modules*** folder on DragonBoard410c.
 
 For further instructions on how to create bootable image and flashing onto Dragonboard410c, refer release notes 
 [here](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)
