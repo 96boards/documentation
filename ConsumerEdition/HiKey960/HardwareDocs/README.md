@@ -1,3 +1,8 @@
+---
+title: Hardware Documentation for HiKey960
+permalink: /documentation/ConsumerEdition/HiKey960/HardwareDocs/
+redirect_from: /documentation/ConsumerEdition/HiKey960/HardwareDocs/README.md/
+---
 # Vendor Documentation
 
 Explore what makes the HiKey960 unique, technical specifications, schematics, hardware notes and more... This page allows you to see what is under the "HiKey960 hood" by offering static documentation published directly from the board vendors.
@@ -13,4 +18,4 @@ Explore what makes the HiKey960 unique, technical specifications, schematics, ha
 
 ***
 
-[Return to the HiKey960 Documentation home page](../README.md)
+[Return to the HiKey960 Documentation home page](../)

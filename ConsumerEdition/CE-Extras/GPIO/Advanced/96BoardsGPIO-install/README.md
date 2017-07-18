@@ -1,3 +1,8 @@
+---
+title: Install and build 96BoardsGPIO
+permalink: /documentation/ConsumerEdition/CE-Extras/GPIO/Advanced/96BoardsGPIO-install/
+redirect_from: /documentation/ConsumerEdition/CE-Extras/GPIO/Advanced/96BoardsGPIO-install/README.md/
+---
 ## Install and build 96BoardsGPIO
 
 This library requires libsoc to be installed first.
@@ -22,4 +27,4 @@ $ sudo reboot<Enter>
 
 ***
 
-When you have you have finished installing and building your library, please proceed to the [Examples - Sample code](../../Examples/README.md) page to begin programming.
+When you have you have finished installing and building your library, please proceed to the [Examples - Sample code](../../Examples/) page to begin programming.

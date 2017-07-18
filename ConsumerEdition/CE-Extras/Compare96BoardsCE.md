@@ -1,3 +1,7 @@
+---
+title: Compare Consumer Edition(CE) 96Boards
+permalink: /documentation/ConsumerEdition/CE-Extras/Compare96BoardsCE.md/
+---
 # Compare Consumer Edition(CE) 96Boards
 
 ### Quick Comparison - CPU, GPU, and Memory
@@ -11,7 +15,7 @@
 		<td><b></td>
 		<td colspan="4"><b>RAM</td>
 	</tr>
-</thead>	
+</thead>
 <tbody>
 	<tr>
 		<td><img src="http://i.imgur.com/mKjYKTH.png" data-canonical-src="http://i.imgur.com/mKjYKTH.png" width="135" height="40" /></td>

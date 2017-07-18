@@ -1,3 +1,7 @@
+---
+title: Windows Host Installation for MediaTek X20 Pro
+permalink: /documentation/ConsumerEdition/MediaTekX20Pro/Downloads/ThirdParty/AOSP/WindowsFastboot.md/
+---
 ## Windows Host
 
 This section show how to install the Android operating system to your MediaTek X20 using the fastboot method on a Windows host computer.
@@ -35,7 +39,7 @@ If you are still having trouble setting up fastboot and adb, <a href="https://yo
 Before flashing the new Operating System files onto a MediaTek X20 development board, you must first ensure a successful stock Android boot. **For this step you must have adb (Android Debug Bridge) successfully setup on your Windows host machine**.
 
 - Connect the HDMI cable to the MediaTek X20 Development Board connector (marked CON6501) and to the LCD Monitor (Optional)
-- Set the the third pin (USB HOST SET) of switch SW3205 to the position ON and connect the keyboard to USB connector marked CON6402 and the mouse to the USB connector marked CON6401 (It doesn’t matter which order you connect them in.)
+- Set the the third pin (USB HOST SET) of switch SW3205 to the position OFF position and connect the micro-usb to the host machine.
 - Plug the power supply into the power outlet
 - Press down the button (marked SW3201), and keep more than 3 seconds, the Android system will start
 - Verify your MediaTek X20 board is detected using adb with the following command:
@@ -48,7 +52,7 @@ Once you have ensured the board is detected by your Windows host machine using a
 
 1. Troubleshoot the adb setup on your host machine (**Step 2**)
 2. Attempt a [Board Recovery](../Installation/BoardRecovery.md)
-3. Visit the MediaTek X20 [Troubleshooting Page](../Troubleshooting/README.md) 
+3. Visit the MediaTek X20 [Troubleshooting Page](../Troubleshooting/)
 
 **Step 4**: Boot MediaTek X20 development board into Fastboot mode
 
@@ -68,7 +72,7 @@ Once you have ensured the board is detected by your Windows host machine using f
 
 1. Troubleshoot the fastboot setup on your host machine (**Step 2**)
 2. Attempt a [Board Recovery](../../../Installation/BoardRecovery.md)
-3. Visit the MediaTek X20 [Troubleshooting Page](../../../Troubleshooting/README.md) 
+3. Visit the MediaTek X20 [Troubleshooting Page](../../../Troubleshooting/)
 
 **Step 5**: Install Operating System update using downloaded files(images) and reboot
 
@@ -122,7 +126,7 @@ You can also get it from the link above.
 
 #### **How to build special images**
 
-Execute following commands, build system will automatically create FES folder and come out the special lk.bin, where FES store the needed files for xflash download to target befor entering fastboot mode. 
+Execute following commands, build system will automatically create FES folder and come out the special lk.bin, where FES store the needed files for xflash download to target befor entering fastboot mode.
 
 `$ source build/envsetup.sh`
 
@@ -142,7 +146,7 @@ PATH: \out\target\product\amt6797_64_open\FES
    - You can put it in anywhere, eg, \xflash\bin\win\img
    - The PGPT file can't generated from your build system, so if you build new images, this file should be reserved(it can format the eMMC into constant partition).
 - Special images and scatter file
-   - You can put it in anywhere, eg, \xflash\bin\win\FES. 
+   - You can put it in anywhere, eg, \xflash\bin\win\FES.
    - How to build it? Please see “How to build special images”.
 - fastboot.exe
    - you can put it in normal load folder.
@@ -164,7 +168,7 @@ Step 2. Run fastboot command script file
 - You need write a download script.
 
         Such as xflash.bat
-        
+
         fastboot devices
         fastboot flash gpt PGPT
         fastboot flash preloader preloader_amt6797_64_open.bin
@@ -181,5 +185,5 @@ Step 2. Run fastboot command script file
         fastboot flash cache cache.img
         fastboot flash userdata userdata.img
         fastboot reboot
-        
+
 - Run the download script, download success.

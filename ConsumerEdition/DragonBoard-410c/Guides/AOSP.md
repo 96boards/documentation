@@ -1,3 +1,8 @@
+---
+title: Building Android Open Source Project (AOSP) for Dragonboard 410c
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/AOSP.md/
+redirect_from: /db410c-getting-started/Guides/AOSP.md/
+---
 # Building Android Open Source Project (AOSP) for Dragonboard 410c
 
 This page provides instructions to make a build based on AOSP for Dragonboard 410c. This should be considered work-in-progress, and the following page might be updated at any time with newer (and different) instructions. This is not a complete tutorial for AOSP, and the reader is expected to be familiar with building Android in general. For any general Android issue, please refer to Android documentation and guides.
@@ -12,7 +17,7 @@ In this page, we assume that `<ANDROID_TOP>` is the top level folder for your An
     cd <ANDROID_TOP>
 
 Then run:
-    
+
     repo init -u https://android.googlesource.com/platform/manifest -b master
     cd .repo
     git clone https://github.com/robherring/android_manifest.git -b master local_manifests
@@ -32,7 +37,7 @@ When needed, hit yes, to agree to license.
 
 Note that using this script is a temporary solution until the proper firmware package is published on 96boards website.
 
-# Building 
+# Building
 
     source build/envsetup.sh
     lunch db410c
@@ -41,7 +46,7 @@ Note that using this script is a temporary solution until the proper firmware pa
 # Flashing the board
 
 While holding the S4 button, power the DragonBoard 410c board to enter fastboot mode. Before flashing the Android images, we need to flash the bootloaders and GPT. e.g. run the following commands:
-    
+
     mkdir ~/db410-bootlaoder
     cd ~/db410-bootlaoder
     wget http://builds.96boards.org/snapshots/dragonboard410c/linaro/rescue/75/dragonboard410c_bootloader_emmc_aosp-75.zip
@@ -49,7 +54,7 @@ While holding the S4 button, power the DragonBoard 410c board to enter fastboot 
     ./flashall
 
 We can now flash the Android images.
-    
+
     cd <ANDROID_TOP>
     fastboot flash boot out/target/product/db410c/boot.img
     fastboot flash system out/target/product/db410c/system.img

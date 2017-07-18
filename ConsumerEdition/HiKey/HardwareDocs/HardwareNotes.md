@@ -1,8 +1,11 @@
+---
+title: Hardware Notes for HiKey
+permalink: /documentation/ConsumerEdition/HiKey/HardwareDocs/HardwareNotes.md/
+---
 # Hardware Notes
 
-
 ### CPU Load
- 
+
 The current supplied Linux 3.18-based kernel supports the thermal protection framework and DVFS. This will cause the HiKey CPU core frequencies to be reduced from the maximum 1.2GHz if the thermal setpoint of the SoC is reached. In an extreme case thermal shutoff will occur if DVFS has not been effective at reducing the SoC temperature to an acceptable level.
 
 Higher performance may be obtained by using forced air (fan) cooling on the HiKey board.
@@ -47,10 +50,10 @@ Finally, **if you are still having difficulties you can revert to a built-in 720
 [Information on Android To Be Written]
 At the moment resolution is locked at **1280x720p.**(do not use hotkey Alt+PrtScr+g).<br\>
 
-**NOTE:** the fixed settings may not work on all monitors/TVs but have been demonstrated to work on most. 
+**NOTE:** the fixed settings may not work on all monitors/TVs but have been demonstrated to work on most.
 
 <a name="section-53"></a>
-### USB Ports 
+### USB Ports
 
 There are multiple USB ports on the HiKey board:
 - One microUSB OTG port on the front edge of the board
@@ -76,7 +79,7 @@ In Debian the `usb_speed utility` (use `-h` option for help) is provided to swit
 In the AOSP build a small application is provided (usb-speed-switch) to change between High Speed and Full Speed operation.
 
 <a name="section-54"></a>
-### UART Ports 
+### UART Ports
 
 In Debian, the two 96Boards expansion IO UART serial ports will appear as `/dev/ttyAMA2` and `/dev/ttyAMA3` and are configured at 115200 baud by default. Note: UEFI and kernel console are directed to /dev/ttyAMA3.
 
@@ -89,7 +92,7 @@ Alternatively, you can modify grub.cfg in the boot image to switch to other UART
 
 ***
 
-## Known Issues 
+## Known Issues
 
 The following are known issues on the current release.
 
@@ -103,10 +106,10 @@ The following are known issues on the current release.
 `usb usb1: clear tt 1 (9032) error -22`
 This is under current investigation.
 3. **Apple Bluetooth Keyboards/Mice/Trackpads do not work**
-This is under current investigation. 
+This is under current investigation.
 4. **Attempting BT file transfer on the Debian build freezes the board.**
 This is under current investigation.
-5. **Switching user may cause a blank screen** 
+5. **Switching user may cause a blank screen**
 Clicking on the Switch User button can cause the screen to go blank.
 This is being investigated.
 6. **Iceweasel browser exits after file download complete.**
@@ -115,7 +118,7 @@ When downloading a file using Iceweasel, the download works but the browser exit
 This is being investigated.
 8. **Fastboot flashing on Windows is not supported. Only Linux PC is supported.**
 9. **AOSP build can only work at 720p mode. When using 1080p mode, the color scheme is not stable.**
-10. **Shutdown not working - executing 'reboot -p' from serial console will shutdown the board very quickly, but cannot turn off HDMI monitor, and the signal is still there.** 
+10. **Shutdown not working - executing 'reboot -p' from serial console will shutdown the board very quickly, but cannot turn off HDMI monitor, and the signal is still there.**
 11. **UEFI may hang occasionally when the uSD card is present.**
 12. **Hot plugging an SD card may not work on some UHS class 1 SD cards on AOSP build.**
 13. **Display sleep may not always work on AOSP build.**

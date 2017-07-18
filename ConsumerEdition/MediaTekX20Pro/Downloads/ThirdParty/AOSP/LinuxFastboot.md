@@ -1,3 +1,7 @@
+---
+title: Linux Host Installation for MediaTek X20 Pro
+permalink: /documentation/ConsumerEdition/MediaTekX20Pro/Downloads/ThirdParty/AOSP/LinuxFastboot.md/
+---
 ## Linux Host
 
 This section show how to install the Android operating system to your MediaTek X20 using the fastboot method on a Linux host computer.
@@ -37,7 +41,7 @@ If you are still having trouble setting up fastboot and adb, <a href="https://yo
 Before flashing the new Operating System files onto a MediaTek X20 development board, you must first ensure a successful stock Android boot. **For this step you must have adb (Android Debug Bridge) successfully setup on your Linux host machine**.
 
 - Connect the HDMI cable to the MediaTek X20 Development Board connector (marked CON6501) and to the LCD Monitor (Optional)
-- Set the the third pin (USB HOST SET) of switch SW3205 to the position ON and connect the keyboard to USB connector marked CON6402 and the mouse to the USB connector marked CON6401 (It doesn’t matter which order you connect them in.)
+- Set the the third pin (USB HOST SET) of switch SW3205 to the position OFF position and connect the micro-usb to the host machine.
 - Plug the power supply into the power outlet
 - Press down the button (marked SW3201), and keep more than 3 seconds, the Android system will start
 - Verify your MediaTek X20 board is detected using adb with the following command:
@@ -50,7 +54,7 @@ Once you have ensured the board is detected by your Linux host machine using adb
 
 1. Troubleshoot the adb setup on your host machine (**Step 2**)
 2. Attempt a [Board Recovery](../Installation/BoardRecovery.md)
-3. Visit the MediaTek X20 [Troubleshooting Page](../Troubleshooting/README.md) 
+3. Visit the MediaTek X20 [Troubleshooting Page](../Troubleshooting/)
 
 #### **Step 4**: Boot MediaTek X20 development board into Fastboot mode
 
@@ -70,7 +74,7 @@ Once you have ensured the board is detected by your Linux host machine using fas
 
 1. Troubleshoot the fastboot setup on your host machine (**Step 2**)
 2. Attempt a [Board Recovery](../../../Installation/BoardRecovery.md)
-3. Visit the MediaTek X20 [Troubleshooting Page](../../../Troubleshooting/README.md)
+3. Visit the MediaTek X20 [Troubleshooting Page](../../../Troubleshooting/)
 
 #### **Step 5**: Install Operating System update using downloaded files(images) and reboot
 

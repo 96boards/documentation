@@ -1,3 +1,7 @@
+---
+title: Documentation License
+permalink: /documentation/Specifications/LICENSE.md/
+---
 # Licence
 
 Unless otherwise specified, everything in this repository is covered by the following licence:

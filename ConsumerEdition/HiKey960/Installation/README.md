@@ -1,3 +1,8 @@
+---
+title: Installation for HiKey960
+permalink: /documentation/ConsumerEdition/HiKey960/Installation/
+redirect_from: /documentation/ConsumerEdition/HiKey960/Installation/README.md/
+---
 # Installation
 
 Choose and install an operating system on your HiKey960. To appropriately follow this installation guide, you will need to:
@@ -18,7 +23,7 @@ This method requires the following hardware:
 - Host machine (Linux)
 - USB Type-A (Host Machine) to USB Type-C (HiKey960) cable
 
-Go to the [Downloads page](../Downloads/README.md) if you have not yet chosen and downloaded an OS.
+Go to the [Downloads page](../Downloads/) if you have not yet chosen and downloaded an OS.
 
 **Choose host machine**:
 

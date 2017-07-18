@@ -1,3 +1,8 @@
+---
+title: Support for B2260
+permalink: /documentation/ConsumerEdition/B2260/Support/
+redirect_from: /documentation/ConsumerEdition/B2260/Support/README.md/
+---
 # Troubleshooting
 
 Please take advantage of the many B2260 resources available to you through 96Boards.

@@ -1,3 +1,7 @@
+---
+title: Cross Compile files on x86 Linux host for 96Boards ARM systems
+permalink: /documentation/Extras/CrossCompile/CommandLine.md/
+---
 # Cross Compile files on x86 Linux host for 96Boards ARM systems
 
 This three part set of instructions will walk you through basic commandline cross compilation on a Linux x86 system for ARM 96Boards devices.
@@ -7,7 +11,7 @@ This three part set of instructions will walk you through basic commandline cros
 - Linux host system is used as the cross compiling station
 - Examples were tested on fully updated Ubuntu 15.04 and 16.04 releases
 - Examples depend on matching, latest [libsoc](https://github.com/jackmitch/libsoc) and [libmraa](https://github.com/intel-iot-devkit/mraa) libraries to be installed on both devices (x86 machine, ARM machine)
-   - Libraries should be built from source to ensure they are current and will match. Instructions can be found [here](../ConsumerEdition/GPIO/Advanced/README.md)
+   - Libraries should be built from source to ensure they are current and will match. Instructions can be found [here](../ConsumerEdition/GPIO/Advanced/)
 - Examples were tested on a DragonBoard 410c, but should work with all 96Boards
 
 This material was covered in our [7th OpenHours session](https://youtu.be/eMPG24OgQ-o) and can be paired with [this blog](http://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/).
@@ -18,7 +22,7 @@ This material was covered in our [7th OpenHours session](https://youtu.be/eMPG24
 
 Here you will learn to cross compile a simple application using Linux C and C++ toolchains. Cross compilation will happen on a Linux x86 machine for 96Boards ARM device.
 
-#### Step 1: Update 96Boards (ARM) system and Host (x86 Machine) computer 
+#### Step 1: Update 96Boards (ARM) system and Host (x86 Machine) computer
 
 The image on your board/host computer might be out of date. This is possible even when using the stock images, recent downloads, or a newly flashed versions of any operating system.
 
@@ -48,7 +52,7 @@ $ sudo apt-get dist-upgrade
 ```shell
 $ git pull
 $ autoreconf -i
-$ ./configure --enable-board=<your board name> --with-board-configs 
+$ ./configure --enable-board=<your board name> --with-board-configs
 $ make
 $ sudo make install
 $  sudo ldconfig /usr/local/lib
@@ -70,7 +74,7 @@ $  sudo ldconfig /usr/local/lib
 
 #### Step 3: Install cross compilers on host machine
 
-The following commands will install C and C++ cross compiler toolchains for 32bit and 64bit devices. You only need to install the toolchain that is the correct size for your board.  If your 96Board is a 64bit SoC then only install a 64bit toolchain, if your 96Board is a 32bit board then only install the 32bit toolchain.  This document will use the 64bit toolchain. 
+The following commands will install C and C++ cross compiler toolchains for 32bit and 64bit devices. You only need to install the toolchain that is the correct size for your board.  If your 96Board is a 64bit SoC then only install a 64bit toolchain, if your 96Board is a 32bit board then only install the 32bit toolchain.  This document will use the 64bit toolchain.
 
 **For ARM 32bit toolchain**
 
@@ -256,7 +260,7 @@ SET(CMAKE_SYSTEM_VERSION 1)
 SET(CMAKE_C_COMPILER   /usr/bin/aarch64-linux-gnu-gcc)
 SET(CMAKE_CXX_COMPILER /usr/bin/aarch64-linux-gnu-g++)
 
-# where is the target environment 
+# where is the target environment
 SET(CMAKE_FIND_ROOT_PATH /usr/aarch64-linux-gnu)
 
 # search for programs in the build host directories

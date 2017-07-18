@@ -1,3 +1,10 @@
+---
+title: AudioKit for DragonBoard-410c
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AudioKit/
+redirect_from:
+- /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/AudioKit/README.md/
+- /db410c-getting-started/GettingStarted/AudioKit/README.md/
+---
 # Getting Started
 
 Learn about your DragonBoard™ 410c board as well as how to prepare and set up for basic use
@@ -64,7 +71,7 @@ The following subsections should describe how to get started with the DragonBoar
 
 **IMPORTANT NOTES**
 
-- HDMI EDID display data is used to determine the best display resolution. On monitors and TVs that support 1080p (or 1200p) this resolution will be selected. If 1080p is not supported the next available resolution reported by EDID will be used. This selected mode will work with **MOST but not all** monitors/TVs. 
+- HDMI EDID display data is used to determine the best display resolution. On monitors and TVs that support 1080p (or 1200p) this resolution will be selected. If 1080p is not supported the next available resolution reported by EDID will be used. This selected mode will work with **MOST but not all** monitors/TVs.
 - There are limitations on the usage of the USB ports on the DragonBoard 410c.
 
 ***
@@ -90,13 +97,13 @@ Please refer to the DragonBoard 410c [Android User Guide](https://github.com/96b
 
 If you are already familiar with the DragonBoard 410c and would like to change out the stock operating system, please proceed to one of the following pages:
 
-- [Downloads page](../../Downloads/README.md): This page lists all Linaro and 3rd party operating systems available for the DragonBoard 410c
-- [Installation page](../../Installation/README.md): If you already have the images you need, this page has information on how to install the different operating systems onto your DragonBoard 410c
+- [Downloads page](../../Downloads/): This page lists all Linaro and 3rd party operating systems available for the DragonBoard 410c
+- [Installation page](../../Installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your DragonBoard 410c
 - [Board Recovery](../../Installation/BoardRecovery.md)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
-- [Support](../../Support/README.md)
+- [Support](../../Support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
-Back to the [DragonBoard 410c documentation home page](../../README.md)
+Back to the [DragonBoard 410c documentation home page](../../)
 
 ***

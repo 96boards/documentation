@@ -1,3 +1,7 @@
+---
+title: Blinky Build for Nitrogen
+permalink: /documentation/IoTEdition/nitrogen/build/LinuxBuild/BuildBlinky.md/
+---
 ## How to build the blinky Zephyr application from source - Linux Host
 
 These instructions can be used to build a simple 'blinky' demo using a Linux host machine as a development environment. The demo works by blinking the User LED (USR1) present on Nitrogen board.
@@ -36,4 +40,4 @@ The application will be available at ```samples/basic/blinky/outdir/96b_nitrogen
 
 Proceed to flash the Zephyr application binary over USB-UART or USB-DFU. Host machine specific flashing instructions can be found on the "Installation" page, link found below.
 
-- [Installation Page](../../installation/README.md)
+- [Installation Page](../../installation/)

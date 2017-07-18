@@ -1,3 +1,8 @@
+---
+title: Troubleshooting Cello
+permalink: /documentation/EnterpriseEdition/Cello/Troubleshooting/
+redirect_from: /documentation/EnterpriseEdition/Cello/Troubleshooting/README.md/
+---
 # Troubleshooting
 
 Please take advantage of the many Cello resources available to you through Linaro, LeMaker, and 96Boards

@@ -1,3 +1,7 @@
+---
+title: Linux SD for B2260
+permalink: /documentation/ConsumerEdition/B2260/Installation/LinuxSD.md/
+---
 ## Linux Host
 
 This section describes the process for installing a new Operating System using the SD Card method on a Linux host machine.

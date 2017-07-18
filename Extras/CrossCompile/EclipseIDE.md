@@ -1,3 +1,7 @@
+---
+title: Cross compiling with Eclipse for C and C++
+permalink: /documentation/Extras/CrossCompile/EclipseIDE.md/
+---
 # Cross compiling with Eclipse for C and C++
 
 ## Part 1 - Using Eclipse on X86 Linux to cross compile C & C++ for ARM Linux
@@ -55,8 +59,8 @@ Once download is complete proceed to next step.
 
 #### Step 2: Extract your eclipse download and run the installer
 
-- Open your terminal and change directory to the folder with your download. 
-- Use the tar command to untar the downloaded tar file. 
+- Open your terminal and change directory to the folder with your download.
+- Use the tar command to untar the downloaded tar file.
 - Change directory to the newly untarred eclipse-installer folder
 - Execute the install script and proceed to the next step
 
@@ -83,7 +87,7 @@ $ ./eclipse-inst
 > Note: Installation time for Eclipse is dependent on your internet speed. If you have a poor internet connection, installation may take some time.
 
 - Check box to indicate you trust the eclipse.org certificates
-- When Install is complete you may start up the IDE by clicking the Launch button 
+- When Install is complete you may start up the IDE by clicking the Launch button
 - Once eclipse launches, it will want you to select a workspace.  It is recommend to take the default offered and click OK.
 
 ## Back up Eclipse IDE - (Optional)
@@ -211,7 +215,7 @@ We are going to use the `scp` command to copy the ARM binary file from the X86 m
 #### Step 5: Select Configurations
 
 - Click the “Select all” button
-- Click the “Next” button 
+- Click the “Next” button
 
 #### Step 6: Set Cross GCC Command
 
@@ -262,9 +266,9 @@ Just like using the command line tools you can add library support within Eclips
    - Directory: “`/usr/[pathname as above]/local/include`”
    - Click the “OK” button
 - Click on “Cross GCC Linker”->“Libraries”
-- In the “Libraries -l” section: 
+- In the “Libraries -l” section:
    - Click on the “Add” button (little + sign)
-   - Libraries (-l) “soc” 
+   - Libraries (-l) “soc”
    - Click the “OK” button
 - In the “Library search path (-L)” section:
    - Click on the “Add” button (little + sign)
@@ -301,7 +305,7 @@ When you run it it will execute the board_test libsoc application. Congratulatio
    - Click the “Next” button
 - Select Configurations
    - Click the “Select all” button
-   - Click the “Next” button 
+   - Click the “Next” button
 - Cross GCC Command
    - Cross compiler prefix: “`aarch64-linux-gnu-`” for 64 bit or “`arm-linux-gnueabihf-`” for 32 bit
    - Path: `/usr/bin`
@@ -331,9 +335,9 @@ When you run it it will execute the board_test libsoc application. Congratulatio
    - Directory: “/usr/[pathname as above]/local/include”
    - Click the “OK” button
 - Click on “Cross GCC Linker”->“Libraries”
-- In the “Libraries -l” section: 
+- In the “Libraries -l” section:
    - Click on the “Add” button (little + sign)
-   - Libraries (-l) “mraa” 
+   - Libraries (-l) “mraa”
    - Click the “OK” button
 - In the “Library search path (-L)” section:
    - Click on the “Add” button (little + sign)

@@ -1,3 +1,9 @@
+---
+title: Support for Nitrogen
+permalink: /documentation/IoTEdition/nitrogen/support/
+redirect_from:
+- /documentation/IoTEdition/nitrogen/support/README.md/
+---
 # Support
 
 Please take advantage of the many Nitrogen resources available to you through 96Boards, Zephyr and Linaro
