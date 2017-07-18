@@ -5,7 +5,13 @@ redirect_from: /documentation/mezzanine-docs/README.md/
 ---
 ## Mezzanine Guides
 
-[Mezzanine Guidelines]()
+Mezzanine Design Guidelines ([View](https://github.com/96boards/documentation/blob/master/MezzanineProducts/files/Mezzanine%20design%20guidelines.pdf) / [Download](https://github.com/96boards/documentation/raw/master/MezzanineProducts/files/Mezzanine%20design%20guidelines.pdf))
+
+## General
+
+Coming Soon...
+
+## Boards
 
 - [STM32 Sensor mezzanine board](STM32/)
    - The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU
