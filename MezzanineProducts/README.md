@@ -1,7 +1,7 @@
 ---
 title: Documentation for Mezzanine Products
-permalink: /documentation/MezzanineProducts/
-redirect_from: /documentation/MezzanineProducts/README.md/
+permalink: /documentation/mezzanine-docs/
+redirect_from: /documentation/mezzanine-docs/README.md/
 ---
 ## Mezzanine Products
 
