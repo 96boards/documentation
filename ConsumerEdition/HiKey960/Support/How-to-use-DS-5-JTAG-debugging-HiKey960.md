@@ -27,4 +27,5 @@ $ adb push close_idle.sh /system/
 $ adb shell chmod +x /system/close_idle.sh
 $ adb shell ./system/close_idle.sh
 ```
-3 Connect the board successfully now
+## Step 3
+Connect the board successfully now
