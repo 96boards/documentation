@@ -1,3 +1,9 @@
+---
+title: Instructions for Dynamically Loading Device Tree Overlays into Linux Kernel
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/dt-overlays.md/
+redirect_from: /db410c-getting-started/Guides/dt-overlays.md/
+---
+
 # Instructions for Dynamically Loading Device Tree Overlays into Linux Kernel
 
 This document provides instructions for dynamically loading the device tree overlays (dtbo) into
