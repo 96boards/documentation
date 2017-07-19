@@ -55,13 +55,15 @@ Choose host machine to perform installation from:
 ***
 
 ### SD Card Method - Install and boot from SD Card
-It is possible to place your entire DB410c file system onto a bootable SD Card.  The advantages of doing this may include some or all of the following:
+It is possible to place your entire DragonBoard 410c file system onto a bootable SD Card.  The advantages of doing this may include some or all of the following:
 
-- Instead of being limited to 8GB of internal EMMC for your internal block storage, the user could put a 64GB SDCard(for example) into the system and have that much space for block storage and application installations
-- With the entire Root File System on the SD card, the user can now remove the card and move it to another DB410c for test purposes
+- Instead of being limited to 8GB of internal eMMC for your internal block storage, the user could put a 64GB SDCard(for example) into the system and have that much space for block storage and application installations
+- With the entire Root File System on the SD card, the user can now remove the card and move it to another DragonBoard 410c for test purposes
 - An additional benefit is the ability to back up the SD Card, thus saving everything on your system down to state (like command history, installed packages, and installed build environments, for example).
 
 A disadvantage may be performance depending upon the application. Access times on the SD Card are slower than the internal eMMC.
+
+Note that this installation option only installs a "developer image," i.e. command line only with no desktop installed.  A user would have to install a desktop post-install if that is desired.
 
 This method requires the following hardware:
 
