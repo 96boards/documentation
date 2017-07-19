@@ -47,8 +47,26 @@ the one available in Qualcomm landing page.
 ```shell
 $ export ARCH=arm64
 $ export CROSS_COMPILE=<path to your GCC cross compiler>/aarch64-linux-gnu-
-$ git clone -b configfs-overlay https://github.com/Mani-Sadhasivam/linux-qcom.git
+$ git clone https://github.com/Mani-Sadhasivam/linux-qcom.git
 $ cd linux-qcom
+```
+Now, the QC landing team kernel should be added as a remote in order to fetch the latest changes.
+
+```shell
+$ git remote add source https://git.linaro.org/landing-teams/working/qualcomm/kernel.git
+```
+Fetch latest changes and checkout the release branch
+
+```
+$ git fetch source
+$ git checkout -b kernel-<release> debian-qcom-dragonboard410c-<release>
+```
+> Note: Replace < release > with latest release version found [here](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)
+
+Now merge **configfs_overlay** changes into the **release** branch
+
+```
+$ git merge configfs_overlay
 $ make defconfig distro.config
 $ make -j4 Image dtbs
 $ make -j4 modules
