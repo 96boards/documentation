@@ -1,3 +1,7 @@
+---
+title: Windows Host Installation for MediaTek X20 Pro
+permalink: /documentation/ConsumerEdition/MediaTekX20Pro/Downloads/ThirdParty/AOSP/WindowsFastboot.md/
+---
 ## Windows Host
 
 This section show how to install the Android operating system to your MediaTek X20 using the fastboot method on a Windows host computer.
@@ -48,7 +52,7 @@ Once you have ensured the board is detected by your Windows host machine using a
 
 1. Troubleshoot the adb setup on your host machine (**Step 2**)
 2. Attempt a [Board Recovery](../Installation/BoardRecovery.md)
-3. Visit the MediaTek X20 [Troubleshooting Page](../Troubleshooting/README.md) 
+3. Visit the MediaTek X20 [Troubleshooting Page](../Troubleshooting/)
 
 **Step 4**: Boot MediaTek X20 development board into Fastboot mode
 
@@ -68,7 +72,7 @@ Once you have ensured the board is detected by your Windows host machine using f
 
 1. Troubleshoot the fastboot setup on your host machine (**Step 2**)
 2. Attempt a [Board Recovery](../../../Installation/BoardRecovery.md)
-3. Visit the MediaTek X20 [Troubleshooting Page](../../../Troubleshooting/README.md) 
+3. Visit the MediaTek X20 [Troubleshooting Page](../../../Troubleshooting/)
 
 **Step 5**: Install Operating System update using downloaded files(images) and reboot
 
@@ -122,7 +126,7 @@ You can also get it from the link above.
 
 #### **How to build special images**
 
-Execute following commands, build system will automatically create FES folder and come out the special lk.bin, where FES store the needed files for xflash download to target befor entering fastboot mode. 
+Execute following commands, build system will automatically create FES folder and come out the special lk.bin, where FES store the needed files for xflash download to target befor entering fastboot mode.
 
 `$ source build/envsetup.sh`
 
@@ -142,7 +146,7 @@ PATH: \out\target\product\amt6797_64_open\FES
    - You can put it in anywhere, eg, \xflash\bin\win\img
    - The PGPT file can't generated from your build system, so if you build new images, this file should be reserved(it can format the eMMC into constant partition).
 - Special images and scatter file
-   - You can put it in anywhere, eg, \xflash\bin\win\FES. 
+   - You can put it in anywhere, eg, \xflash\bin\win\FES.
    - How to build it? Please see “How to build special images”.
 - fastboot.exe
    - you can put it in normal load folder.
@@ -164,7 +168,7 @@ Step 2. Run fastboot command script file
 - You need write a download script.
 
         Such as xflash.bat
-        
+
         fastboot devices
         fastboot flash gpt PGPT
         fastboot flash preloader preloader_amt6797_64_open.bin
@@ -181,5 +185,5 @@ Step 2. Run fastboot command script file
         fastboot flash cache cache.img
         fastboot flash userdata userdata.img
         fastboot reboot
-        
+
 - Run the download script, download success.

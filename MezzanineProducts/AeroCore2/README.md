@@ -1,3 +1,8 @@
+---
+title: Documentation for AeroCore2
+permalink: /documentation/MezzanineProducts/AeroCore2/
+redirect_from: /documentation/MezzanineProducts/AeroCore2/README.md/
+---
 ## AeroCore 2 for 96Boards
 
 [Available here](http://link.linaro.org/aerocore2-buy), expanding on the AeroCore 2 product suite, the AeroCore 2 for 96Boards provides MAV control to the 96Boards.

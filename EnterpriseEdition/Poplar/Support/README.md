@@ -1,3 +1,8 @@
+---
+title: Support for Poplar
+permalink: /documentation/EnterpriseEdition/Poplar/Support/
+redirect_from: /documentation/EnterpriseEdition/Poplar/Support/README.md/
+---
 # Troubleshooting
 
 Please take advantage of the many Board-X resources available to you through 96Boards, Tocoding and Linaro

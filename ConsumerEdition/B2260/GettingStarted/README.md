@@ -1,3 +1,9 @@
+---
+title: Getting Started with B2260
+permalink: /documentation/ConsumerEdition/B2260/GettingStarted/
+redirect_from:
+- /documentation/ConsumerEdition/B2260/GettingStarted/README.md/
+---
 # Getting Started
 Learn about your B2260 board as well as how to prepare and set up for basic use.
 
@@ -88,11 +94,11 @@ MicroSD card comes preloaded with Debian Linux and can be up and running with a 
 
 If you are already familiar with the B2260 board and would like to change out the stock operating system, please proceed to one of the following pages:
 
-- [Downloads page](../Downloads/README.md): This page lists all Linaro and 3rd party operating systems available for B2260
-- [Installation page](../Installation/README.md): If you already have the images you need, this page has information on how to install the different operating systems onto your B2260 board
+- [Downloads page](../Downloads/): This page lists all Linaro and 3rd party operating systems available for B2260
+- [Installation page](../Installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your B2260 board
 - [Board Recovery](../Installation/BoardRecovery.md)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a successfull board recovery.
-- [Troubleshooting](../Support/README.md)
+- [Troubleshooting](../Support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
-Back to the [B2260 documentation home page](../README.md)
+Back to the [B2260 documentation home page](../)

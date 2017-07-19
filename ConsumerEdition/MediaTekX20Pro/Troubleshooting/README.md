@@ -1,3 +1,8 @@
+---
+title: Troubleshooting MediaTek X20 Pro
+permalink: /documentation/ConsumerEdition/MediaTekX20Pro/Troubleshooting/
+redirect_from: /documentation/ConsumerEdition/MediaTekX20Pro/Troubleshooting/README.md/
+---
 # Troubleshooting
 
 Please take advantage of the many Helio X20 resources available to you through 96Boards, MediaTek, and Coursera
@@ -7,7 +12,7 @@ Please take advantage of the many Helio X20 resources available to you through 9
 - [MediaTek Forum]()
    - Similar to the 96Boards forum; however, this page will have threads for all MediaTek products
 - [MediaTek](http://mediatek.com/en/news-events/mediatek-news/mediatek-launches-helio-x20-development-board-for-advanced-product-creation-across-markets/)
-   - Buy the Helio X20 here! 
+   - Buy the Helio X20 here!
 - [Coursera](https://www.coursera.org/specializations/internet-of-things)
    - Helio X20 uses the same specification! Students from the [University of California San Diego](https://ucsd.edu/) put together an "Internet of Things" (IoT) course focused around the DragonBoard 410c(again, same specification as Helio X20!). It is free to audit, or you can purchase the specialization package for a cool certificate!
 - [Report a bug!](../../../Report_a_bug.md)

@@ -1,10 +1,14 @@
+---
+title: USB keyboard and mouse for Bubblegum-96
+permalink: /documentation/ConsumerEdition/Bubblegum-96/GettingStarted/USBKeyBoardMouse.md/
+---
 # USB Keyboard and Mouse
 
-All standard USB Type-A keyboard and mouse should work with any 96Boards. With two available USB type-A ports, it is recommended to use an all-in-one keyboard with built in, multi-touch touchpad. Using one of these all-in-one keyboard/mouse devices will leave an open USB type-A port for other uses. 
+All standard USB Type-A keyboard and mouse should work with any 96Boards. With two available USB type-A ports, it is recommended to use an all-in-one keyboard with built in, multi-touch touchpad. Using one of these all-in-one keyboard/mouse devices will leave an open USB type-A port for other uses.
 
 USB extenion hubs can also be used to add ports, for those who need more than two USB type-A devices.
 
-*** 
+***
 
 | **Recommended Devices** |
 |:--|

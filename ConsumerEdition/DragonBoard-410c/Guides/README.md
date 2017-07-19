@@ -1,3 +1,10 @@
+---
+title: Useful Guides for DragonBoard-410c
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/
+redirect_from:
+- /documentation/ConsumerEdition/DragonBoard-410c/Guides/README.md/
+- /db410c-getting-started/Guides/README.md/
+---
 # Useful Guides
 
 These guides will help to get you started with a variety of available on-boards software
@@ -6,7 +13,7 @@ These guides will help to get you started with a variety of available on-boards 
 
 - Linux User Guide ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Guides/LinuxUserGuide_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/DragonBoard-410c/Guides/LinuxUserGuide_DragonBoard.pdf))
 - [Terminal](Terminal.md)
-- [General Purpose Input / Output](../../CE-Extras/GPIO/README.md)
+- [General Purpose Input / Output](../../CE-Extras/GPIO/)
 - [Video game Emulator](VGEmulator.md)
 - [USB Webcam](USBWebcam.md)
 - [Camera Module](CameraModule.md)

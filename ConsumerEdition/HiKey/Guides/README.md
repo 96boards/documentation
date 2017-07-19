@@ -1,6 +1,11 @@
+---
+title: Useful Guides for HiKey
+permalink: /documentation/ConsumerEdition/HiKey/Guides/
+redirect_from: /documentation/ConsumerEdition/HiKey/Guides/README.md/
+---
 ## Configuration
 
-Execute unique configuraions to customize your HiKey experience
+Execute unique configurations to customize your HiKey experience.
 
 ## Helpful Configurations
 
@@ -14,5 +19,5 @@ Execute unique configuraions to customize your HiKey experience
    - For more information on using the USB utility included on your HiKey board.
 - [System LEDs](SystemLEDs.md)
    - Each board LED has a directory in your sys folder. Click here for more information on how to use/toggle
-- [OpenOCD JTAG on HiKey](JTAG/README.md)
+- [OpenOCD JTAG on HiKey](JTAG/)
    - Learn where and how to populate/use the JTAG header on your HiKey

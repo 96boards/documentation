@@ -1,3 +1,8 @@
+---
+title: Setting Wi-Fi MAC Address on DragonBoard 410c
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/WIFIMacAddressSetup.md/
+redirect_from: /db410c-getting-started/Guides/WIFIMacAddressSetup.md/
+---
 # Setting Wi-Fi MAC Address on DragonBoard 410c
 
 This document shows users how to program a unique MAC address into a DragonBoard 410c

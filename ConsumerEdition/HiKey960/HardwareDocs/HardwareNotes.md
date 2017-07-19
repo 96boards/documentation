@@ -1,3 +1,7 @@
+---
+title: Hardware Notes for HiKey960
+permalink: /documentation/ConsumerEdition/HiKey960/HardwareDocs/HardwareNotes.md/
+---
 # Hardware Notes
 
 < populate on April 12th >

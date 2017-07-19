@@ -1,3 +1,7 @@
+---
+title: OpenEmbedded Download for B2260
+permalink: /documentation/ConsumerEdition/B2260/Downloads/OpenEmbedded.md/
+---
 # OpenEmbedded
 
 **OpenEmbedded** is a software framework used for creating Linux distributions aimed for, but not restricted to, embedded devices. Below are pre-built console and desktop images.
@@ -19,4 +23,4 @@
 
 Only download one SD card image (Either Jethro Console, Jethro Desktop, Krogoth Console or Krogoth Desktop).
 
-### Continue to [Installation page](../Installation/README.md)
+### Continue to [Installation page](../Installation/)

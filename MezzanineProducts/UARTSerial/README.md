@@ -1,3 +1,8 @@
+---
+title: Documentation for 96Boards UART Serial Adapter
+permalink: /documentation/MezzanineProducts/UARTSerial/
+redirect_from: /documentation/MezzanineProducts/UARTSerial/README.md/
+---
 ## 96Boards UART Serial Adapter
 
 Available now from [Seeed](http://linaro.co/1KnV9TA): Can be used with any base board compatible with the 96Boards Consumer Edition or Enterprise Edition specifications.
