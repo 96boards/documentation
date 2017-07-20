@@ -58,7 +58,7 @@ First, make sure the internal eMMC is not mounted:
 If the internal eMMC is mounted, unmount it.  Using the mount point provided as an example from the previous section:
 `sudo umount /mnt/Internalemmc`
 
-Now you are ready to create an image of the internal eMMC
+Now you are ready to create an image of the internal eMMC:
 `sudo dd if=/dev/mmcblk0 of=~/sd-card-copy.img bs=4M`
 
 A file should now exist on your SD Card (sd-card-copy.img in this example) that can be used to create an identical image another SD Card or placed in another Dragonboard 410c and re-imaging the internal eMMC.  Again assuming you are still on a Dragonboard 410c that is running out of the SD Card image, do the following to re-image the internal eMMC:
