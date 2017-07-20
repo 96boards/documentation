@@ -19,7 +19,7 @@ redirect_from: /db410c-getting-started/Downloads/Debian.md/
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)       |
 
-### Continue to [Installation page](../../Installation/)
+### Continue to [Installation page](https://github.com/shovanuk/documentation/tree/master/ConsumerEdition/DragonBoard-410c/Installation)
 
 ***
 
