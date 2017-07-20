@@ -65,7 +65,7 @@ If the internal eMMC is mounted, unmount it.  Using the mount point provided as 
 
 `sudo umount /mnt/Internalemmc`
 
-**Warning:** as always, when executing commands such as `dd`, please triple check to make sure you are copying to the correct device!  Commands such as `lsblk` and `fdisk` should be used and understood to assure you don't overwrite unintended devices. At the time of this writing and for the creation of the example commands below, the internal eMMC was determined to be mmcblk0 and the SD Card was mmcblk1.  Please never assume and always verify.
+**Warning:** as always, when executing commands such as `dd`, please triple check to make sure you are copying to the correct device!  Commands such as `lsblk` and `fdisk` should be used and understood to assure you don't overwrite unintended devices. At the time of this writing and for the creation of the example commands below, the internal eMMC was determined to be `/dev/mmcblk0` and the SD Card was `/dev/mmcblk1`.  Please never assume and always verify.
 
 Now you are ready to create an image of the internal eMMC stored as a file on the SD Card. Note that the following commands will take several minutes to execute.
 
