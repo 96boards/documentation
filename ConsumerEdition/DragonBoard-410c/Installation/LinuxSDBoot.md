@@ -50,7 +50,10 @@ sudo mount /dev/mmcblk0p10 /mnt/internalemmc
 The user can now navigate into the internal eMMC through the mount point and easily move information between internal eMMC and the SD Card.
 
 #### Creating an image of the internal eMMC
-In some cases a developer may be interested in duplicating byte-for-byte the internal eMMC.  This section describes one way to do this.  This section assumes the developer has installed and is running their file system from the SD Card.  It also assumes that the SD Card has enough free space to create the duplicated image.
+In some cases a developer may be interested in duplicating byte-for-byte the internal eMMC.  This section describes one way to do this.  
+Prerequisites:
+- This section assumes the developer has installed and is running their file system from the SD Card.  
+- This section also assumes that the SD Card has enough free space to create the duplicated image.
 
 First, make sure the internal eMMC is not mounted:
 
@@ -60,11 +63,15 @@ If the internal eMMC is mounted, unmount it.  Using the mount point provided as 
 
 `sudo umount /mnt/Internalemmc`
 
-Now you are ready to create an image of the internal eMMC:
+**Warning:** as always, when executing commands such as `dd`, please triple check to make sure you are copying to the correct device!  Commands such as `lsblk` and `fdisk` should be used and understood to assure you don't overwrite unintended devices.
+
+Now you are ready to create an image of the internal eMMC stored as a file on the SD Card. Note that the following commands will take several minutes to execute, so catch up on email while waiting:
 
 `sudo dd if=/dev/mmcblk0 of=~/internal-emmc-copy.img bs=4M`
 
-A file should now exist on your SD Card (sd-card-copy.img in this example) that can be used to create an identical image another SD Card or placed in another Dragonboard 410c and re-imaging the internal eMMC.  Again assuming you are still on a Dragonboard 410c that is running out of the SD Card image, do the following to re-image the internal eMMC:
+In the above example mmcblk0 is the internal eMMC and internal-emmc-copy.img is the arbitrary filename used to copy the eMMC image into.
+
+A file should now exist on your SD Card (internal-emmc-copy.img in this example) that can be used to create an identical image of the eMMC from the current Dragonboard 410c into another Dragonboard 410c.  In this example use-case, the user would power down the current Dragonboard 410c, remove the bootable SD Card, place the SD Card in another Dragonboard 410c configured for SD Card boot, power up, and copy the image file created in the previous step into the internal eMMC of the new board to duplicate the configuration from the previous board. This might be beneficial for testing and debugging.  Assuming you have now moved to another Dragonboard 410c that is running out of the SD Card image, execute the following command to re-image the internal eMMC after verifying the eMMC device name is correct:
 
 `sudo dd if=~/internal-emmc-copy.img of=/dev/mmcblk0 bs=4M`
 
