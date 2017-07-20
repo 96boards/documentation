@@ -37,8 +37,10 @@ The user can also retain a bootable internal eMMC.  If the user were to remove t
 ### Hint: Accessing internal eMMC from SD Card Developer image
 If the developer so chooses, the internal eMMC can be accessed as follows when the developer has booted from the SD Card image:
 
-* from the command prompt on the HDMI monitor connected to the DB410c, perform the following to see the name of the eMMC and SD card devices.
-     * `sudo fdisk -l`
+From the command prompt on the HDMI monitor connected to the DB410c, perform the following to see the name of the eMMC and SD card devices.
+
+`sudo fdisk -l`
+
      The user should see two mmc devices.  One will be the internal eMMC and one for the SD Card.  Most likely the internal will be `/dev/mmcblk0` and the SD Card will be `/dev/mmcblk1`
      
 The user can note the `Linux filesystem` partition of the internal eMMC and mount it to access any data the might be there.  For example:
@@ -63,9 +65,9 @@ If the internal eMMC is mounted, unmount it.  Using the mount point provided as 
 
 `sudo umount /mnt/Internalemmc`
 
-**Warning:** as always, when executing commands such as `dd`, please triple check to make sure you are copying to the correct device!  Commands such as `lsblk` and `fdisk` should be used and understood to assure you don't overwrite unintended devices. At the time of this writing, the internal eMMC was determined to be mmcblk0 and the SD Card was mmcblk1.  Please never assume and always verify.
+**Warning:** as always, when executing commands such as `dd`, please triple check to make sure you are copying to the correct device!  Commands such as `lsblk` and `fdisk` should be used and understood to assure you don't overwrite unintended devices. At the time of this writing and for the creation of the example commands below, the internal eMMC was determined to be mmcblk0 and the SD Card was mmcblk1.  Please never assume and always verify.
 
-Now you are ready to create an image of the internal eMMC stored as a file on the SD Card. Note that the following commands will take several minutes to execute, so catch up on email while waiting:
+Now you are ready to create an image of the internal eMMC stored as a file on the SD Card. Note that the following commands will take several minutes to execute.
 
 `sudo dd if=/dev/mmcblk0 of=~/internal-emmc-copy.img bs=4M`
 
