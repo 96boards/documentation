@@ -53,7 +53,7 @@ The user can now navigate into the internal eMMC through the mount point and eas
 In some cases a developer may be interested in duplicating byte-for-byte the internal eMMC.  This section describes one way to do this.  
 Prerequisites:
 - This section assumes the developer has installed and is running their file system from the SD Card.  
-- This section also assumes that the SD Card has enough free space to create the duplicated image.
+- This section also assumes that the SD Card has enough free space to create the duplicated image.  8 GB of free space is a good base assumption although the .img file may end up being smaller.
 
 First, make sure the internal eMMC is not mounted:
 
