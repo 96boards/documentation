@@ -51,9 +51,9 @@ $ git clone -n http://git.linaro.org/landing-teams/working/qualcomm/kernel.git
 $ cd kernel
 $ git checkout -b kernel-<release> debian-qcom-dragonboard410c-<release>
 ```
-> Note: Replace < release > with latest release version found [here](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/
+> Note: Replace < release > with latest release version found [here](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)
 
-Now, custom kernel should be added as a remote in order to fetch the configfs-overlay changes
+Now, custom kernel should be added as a source in order to fetch the configfs-overlay changes
 
 ```shell
 $ git remote add source https://github.com/Mani-Sadhasivam/linux-qcom.git
@@ -66,7 +66,7 @@ $ git fetch source release/qcomlt-4.9+configfs_overlay
 Now merge **configfs_overlay** changes into the **release** branch
 
 ```shell
-$ git merge release/qcomlt-4.9+configfs_overlay
+$ git merge source/release/qcomlt-4.9+configfs_overlay
 ```
 Configfs overlay feature has been enabled by default in **defconfig**
 
