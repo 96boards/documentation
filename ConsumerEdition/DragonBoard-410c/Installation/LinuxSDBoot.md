@@ -53,15 +53,19 @@ The user can now navigate into the internal eMMC through the mount point and eas
 In some cases a developer may be interested in duplicating byte-for-byte the internal eMMC.  This section describes one way to do this.  This section assumes the developer has installed and is running their file system from the SD Card.  It also assumes that the SD Card has enough free space to create the duplicated image.
 
 First, make sure the internal eMMC is not mounted:
+
 `df`
 
 If the internal eMMC is mounted, unmount it.  Using the mount point provided as an example from the previous section:
+
 `sudo umount /mnt/Internalemmc`
 
 Now you are ready to create an image of the internal eMMC:
+
 `sudo dd if=/dev/mmcblk0 of=~/sd-card-copy.img bs=4M`
 
 A file should now exist on your SD Card (sd-card-copy.img in this example) that can be used to create an identical image another SD Card or placed in another Dragonboard 410c and re-imaging the internal eMMC.  Again assuming you are still on a Dragonboard 410c that is running out of the SD Card image, do the following to re-image the internal eMMC:
+
 `sudo dd if=~/sd-card-copy.img of=/dev/mmcblk0 bs=4M`
 
 
