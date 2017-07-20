@@ -44,8 +44,8 @@ If the developer so chooses, the internal eMMC can be accessed as follows when t
 The user can note the `Linux filesystem` partition of the internal eMMC and mount it to access any data the might be there.  For example:
 ```
 sudo mkdir /mnt/Internalemmc
-cd /mnt/internalemmc
-sudo mount /dev/mmcblk0p10 /mnt/internalemmc
+cd /mnt/Internalemmc
+sudo mount /dev/mmcblk0p10 /mnt/Internalemmc
 ```
 The user can now navigate into the internal eMMC through the mount point and easily move information between internal eMMC and the SD Card.
 
