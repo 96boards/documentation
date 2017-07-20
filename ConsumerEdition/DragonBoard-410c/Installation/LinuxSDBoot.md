@@ -41,7 +41,7 @@ From the command prompt on the HDMI monitor connected to the DB410c, perform the
 
 `sudo fdisk -l`
 
-     The user should see two mmc devices.  One will be the internal eMMC and one for the SD Card.  Most likely the internal will be `/dev/mmcblk0` and the SD Card will be `/dev/mmcblk1`
+The user should see two mmc devices.  One will be the internal eMMC and one for the SD Card.  Most likely the internal will be `/dev/mmcblk0` and the SD Card will be `/dev/mmcblk1`
      
 The user can note the `Linux filesystem` partition of the internal eMMC and mount it to access any data the might be there.  For example:
 ```
