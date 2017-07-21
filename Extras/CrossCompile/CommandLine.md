@@ -14,7 +14,7 @@ This three part set of instructions will walk you through basic commandline cros
    - Libraries should be built from source to ensure they are current and will match. Instructions can be found [here](../ConsumerEdition/GPIO/Advanced/)
 - Examples were tested on a DragonBoard 410c, but should work with all 96Boards
 
-This material was covered in our [7th OpenHours session](https://youtu.be/eMPG24OgQ-o) and can be paired with [this blog](http://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/).
+This material was covered in our [7th OpenHours session](https://youtu.be/eMPG24OgQ-o) and can be paired with [this blog](https://www.96boards.org/blog/cross-compile-files-x86-linux-to-96boards/).
 
 ***
 

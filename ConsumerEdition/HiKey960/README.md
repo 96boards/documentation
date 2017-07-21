@@ -5,7 +5,7 @@ redirect_from: /documentation/ConsumerEdition/HiKey960/README.md/
 ---
 # Using the HiKey960
 
-A comprehensive guide to using the [HiKey960](http://www.96boards.org/product/hikey960/) Consumer Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
+A comprehensive guide to using the [HiKey960](https://www.96boards.org/product/hikey960/) Consumer Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
 ## Software
 

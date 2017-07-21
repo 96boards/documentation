@@ -7,7 +7,7 @@ redirect_from:
 
 # Using the Nitrogen
 
-A comprehensive guide to using the [Nitrogen](http://www.96boards.org/product/nitrogen/) IoT Edition board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
+A comprehensive guide to using the [Nitrogen](https://www.96boards.org/product/nitrogen/) IoT Edition board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
 ## Software
 

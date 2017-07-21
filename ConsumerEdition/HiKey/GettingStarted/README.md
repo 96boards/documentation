@@ -10,7 +10,7 @@ Learn about your HiKey board as well as how to prepare and set up for basic use
 ## Setup - What you will need
 
 **Need**
-- [HiKey Development Board](http://www.96boards.org/product/hikey/)
+- [HiKey Development Board](https://www.96boards.org/product/hikey/)
    - Board based on HiSilicon Kirin 6220 processor
 - [Power adapter](PowerAdapter.md)
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter

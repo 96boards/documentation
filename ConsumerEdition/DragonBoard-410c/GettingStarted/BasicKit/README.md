@@ -12,7 +12,7 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
 ## Setup - What you will need
 
 **Basic kit includes**
-- [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
+- [DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/)
    - Board based on Qualcomm® Snapdragon™ 410E processor
 
 **Required Addons**
