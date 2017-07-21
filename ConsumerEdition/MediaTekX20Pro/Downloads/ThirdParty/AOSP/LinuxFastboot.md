@@ -1,6 +1,6 @@
 ---
 title: Linux Host Installation for MediaTek X20 Pro
-permalink: /documentation/ConsumerEdition/MediaTekX20Pro/Downloads/ThirdParty/AOSP/LinuxFastboot.md/
+permalink: /documentation/ConsumerEdition/MediaTekX20Pro/Downloads/ThirdParty/AOSP/LinuxFastboot.md.html
 ---
 ## Linux Host
 

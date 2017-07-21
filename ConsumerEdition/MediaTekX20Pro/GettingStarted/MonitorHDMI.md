@@ -1,6 +1,6 @@
 ---
 title: Using a Monitor with MediaTek X20 Pro
-permalink: /documentation/ConsumerEdition/MediaTekX20Pro/GettingStarted/MonitorHDMI.md/
+permalink: /documentation/ConsumerEdition/MediaTekX20Pro/GettingStarted/MonitorHDMI.md.html
 ---
 ## Monitor
 

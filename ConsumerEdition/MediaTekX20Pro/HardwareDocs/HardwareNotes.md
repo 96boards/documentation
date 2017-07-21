@@ -1,6 +1,6 @@
 ---
 title: Hardware Notes for MediaTek X20 Pro
-permalink: /documentation/ConsumerEdition/MediaTekX20Pro/HardwareDocs/HardwareNotes.md/
+permalink: /documentation/ConsumerEdition/MediaTekX20Pro/HardwareDocs/HardwareNotes.md.html
 ---
 # Hardware Notes
 

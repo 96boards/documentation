@@ -1,6 +1,6 @@
 ---
 title: Board Recovery for MediaTek X20 Pro
-permalink: /documentation/ConsumerEdition/MediaTekX20Pro/Installation/BoardRecovery.md/
+permalink: /documentation/ConsumerEdition/MediaTekX20Pro/Installation/BoardRecovery.md.html
 ---
 # MediaTek X20 Board Recovery
 

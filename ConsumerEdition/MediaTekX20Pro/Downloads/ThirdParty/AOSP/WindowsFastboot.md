@@ -1,6 +1,6 @@
 ---
 title: Windows Host Installation for MediaTek X20 Pro
-permalink: /documentation/ConsumerEdition/MediaTekX20Pro/Downloads/ThirdParty/AOSP/WindowsFastboot.md/
+permalink: /documentation/ConsumerEdition/MediaTekX20Pro/Downloads/ThirdParty/AOSP/WindowsFastboot.md.html
 ---
 ## Windows Host
 
