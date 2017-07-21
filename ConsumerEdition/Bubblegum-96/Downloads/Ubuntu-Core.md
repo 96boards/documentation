@@ -8,7 +8,7 @@ permalink: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Ubuntu-Core.md.
 
 
 ----------
-##**How To Flash Bubblegum-96 With Ubuntu Core**
+## **How To Flash Bubblegum-96 With Ubuntu Core**
 
 The section here will show you how to flash Bubblegum-96 Board with Ubuntu Core on a micro SD card.  
 

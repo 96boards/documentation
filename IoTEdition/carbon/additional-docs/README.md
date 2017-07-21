@@ -10,13 +10,13 @@ Explore what makes your Carbon unique by checking out technical specifications, 
 
 ## User Guides
 
-- Hardware User Manual ([View](../HardwareDocs/HardwareUserManual.md))
+- Hardware User Manual ([View](../hardware-docs/HardwareUserManual.md))
 
 ***
 
 ## On Zephyr
 
-<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Logos/Zephyr_White.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Logos/Zephyr_White.png?raw=true" width="160" height="80" />
+<img src="https://raw.githubusercontent.com/96boards/documentation/master/IoTEdition/carbon/additional-docs/images/images-logos/Zephyr_White.png" data-canonical-src="https://raw.githubusercontent.com/96boards/documentation/master/IoTEdition/carbon/additional-docs/images/images-logos/Zephyr_White.png" width="160" height="80" />
 
 - [Zephry Home](https://www.zephyrproject.org/)
 - [Zephyr Documentation](https://www.zephyrproject.org/doc/)

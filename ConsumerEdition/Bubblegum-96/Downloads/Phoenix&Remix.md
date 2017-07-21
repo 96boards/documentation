@@ -2,7 +2,7 @@
 title: Phoenix&Remix Download for Bubblegum-96
 permalink: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Phoenix&Remix.md.html
 ---
-##Windows Host
+## Windows Host
 
 This section will show you how to flash the Bubblegum-96 Boards with the Phoenix OS.
 
@@ -56,7 +56,7 @@ For Global Users:
 
 Phoenix OS/Remix OS is on your board, time to have some fun. Cheers!
 
-Need more help? Visit the [Troubleshooting](../Troubleshoot/) page or you can easily submit your questions on Bubblegum Support Forum @ [https://www.96boards.org/forums/forum/products/bubblegum96/][5]
+Need more help? Visit the [Troubleshooting](../Support/) page or you can easily submit your questions on Bubblegum Support Forum @ [https://www.96boards.org/forums/forum/products/bubblegum96/][5]
 
 
 
