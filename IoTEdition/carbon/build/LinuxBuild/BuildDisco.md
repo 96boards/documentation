@@ -1,6 +1,6 @@
 ---
 title: How to build the disco Zephyr application from source - Linux Host
-permalink: /documentation/IoTEdition/carbon/build/LinuxBuild/BuildDisco.md/
+permalink: /documentation/IoTEdition/carbon/build/LinuxBuild/BuildDisco.md.html
 ---
 ## How to build the disco Zephyr application from source - Linux Host
 

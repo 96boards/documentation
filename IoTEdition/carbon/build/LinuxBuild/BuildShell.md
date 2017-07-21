@@ -1,6 +1,6 @@
 ---
 title: How to build the Shell Zephyr application from source - Linux Host
-permalink: /documentation/IoTEdition/carbon/build/LinuxBuild/BuildShell.md/
+permalink: /documentation/IoTEdition/carbon/build/LinuxBuild/BuildShell.md.html
 ---
 ## How to build the Shell Zephyr application from source - Linux Host
 

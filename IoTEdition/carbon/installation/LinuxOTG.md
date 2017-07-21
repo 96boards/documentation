@@ -1,6 +1,6 @@
 ---
 title: Carbon Hardware User Manual
-permalink: /documentation/IoTEdition/carbon/installation/LinuxOTG.md/
+permalink: /documentation/IoTEdition/carbon/installation/LinuxOTG.md.html
 ---
 ## Linux Host
 
