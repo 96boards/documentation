@@ -10,15 +10,17 @@ Welcome to the official documentation for 96Boards, this documentation is writte
 
 ## Contents - Start Here
 
-Select your platform for a list of supported products(Left), or jump to 96Boards specific resources by selecting a board from the list(Right). 
+Select your platform for a list of supported products(Left), or jump to 96Boards specific resources by selecting a board from the list(Right).
+<div style="overflow-x:scroll;" markdown="1">
 
 | Platform                                | Description                                 | Boards                                     |
 |:---------------------------------------:|:-------------------------------------------:|:-------------------------------------------|
-|  [**IoT Edition**](IoTEdition/) <br>[<img src="http://i.imgur.com/lCC2QdU.png" data-canonical-src="http://i.imgur.com/lCC2QdU.png" width="240" height="100" />](IoTEdition/)                               | Expand on all 96Boards with new interfaces for IoT, industrial<br>control, and other embedded applications.                          | - [Carbon](IoTEdition/carbon/)<br>- [Nitrogen](IoTEdition/nitrogen/)                                                                     |
-|  [**Consumer Edition**](ConsumerEdition/)<br> [<img src="http://i.imgur.com/QEilCHZ.png" data-canonical-src="http://i.imgur.com/QEilCHZ.png" width="240" height="100" />](ConsumerEdition/) <br>                     | These small, low-cost, and low-power consumer 96Boards<br>are great for developers, makers, and hobbyists!                           | - [HiKey](ConsumerEdition/HiKey/)<br>- [HiKey960](ConsumerEdition/HiKey960/)<br>- [DragonBoard 410c](ConsumerEdition/DragonBoard-410c/)<br>- [Bubblegum-96](ConsumerEdition/Bubblegum-96/)<br>- [MediaTek X20](ConsumerEdition/MediaTekX20/)<br>- [B2260](ConsumerEdition/B2260/)<br>- [MediaTek X20 Pro](ConsumerEdition/MediaTekX20Pro/)    |
-|  [**Enterprise Edition**](EnterpriseEdition/) <br>[<img src="http://i.imgur.com/DLgo1qU.png" data-canonical-src="http://i.imgur.com/DLgo1qU.png" width="240" height="100" />](EnterpriseEdition/)                        | These powerful, reliable, ARM based 96Boards boards are<br>ideal targets for networking and server segments                          | - [Cello](EnterpriseEdition/Cello/)<br>- [Poplar](EnterpriseEdition/Poplar/)                       |
-|  [**Mezzanine**](MezzanineProducts/) <br>[<img src="http://i.imgur.com/FU8ewZf.png" data-canonical-src="http://i.imgur.com/FU8ewZf.png" width="240" height="100" />](MezzanineProducts/)                        | Expand on all 96Boards with new interfaces for IoT,<br>industrial control, and other embedded applications.                          | - [Sensors Mezzanine](MezzanineProducts/SensorsMezzanine/)<br>- [Linker Sprite](MezzanineProducts/LinkerMezzanineStarterKit/)<br>- [More...](MezzanineProducts/)                           |
+|  [**IoT Edition**](IoTEdition/) <br>[<img src="https://i.imgur.com/lCC2QdU.png" data-canonical-src="https://i.imgur.com/lCC2QdU.png" width="240" height="100" />](IoTEdition/)                               | Expand on all 96Boards with new interfaces for IoT, industrial<br>control, and other embedded applications.                          | - [Carbon](IoTEdition/carbon/)<br>- [Nitrogen](IoTEdition/nitrogen/)                                                                     |
+|  [**Consumer Edition**](ConsumerEdition/)<br> [<img src="https://i.imgur.com/QEilCHZ.png" data-canonical-src="https://i.imgur.com/QEilCHZ.png" width="240" height="100" />](ConsumerEdition/) <br>                     | These small, low-cost, and low-power consumer 96Boards<br>are great for developers, makers, and hobbyists!                           | - [HiKey](ConsumerEdition/HiKey/)<br>- [HiKey960](ConsumerEdition/HiKey960/)<br>- [DragonBoard 410c](ConsumerEdition/DragonBoard-410c/)<br>- [Bubblegum-96](ConsumerEdition/Bubblegum-96/)<br>- [MediaTek X20](ConsumerEdition/MediaTekX20/)<br>- [B2260](ConsumerEdition/B2260/)<br>- [MediaTek X20 Pro](ConsumerEdition/MediaTekX20Pro/)    |
+|  [**Enterprise Edition**](EnterpriseEdition/) <br>[<img src="https://i.imgur.com/DLgo1qU.png" data-canonical-src="https://i.imgur.com/DLgo1qU.png" width="240" height="100" />](EnterpriseEdition/)                        | These powerful, reliable, ARM based 96Boards boards are<br>ideal targets for networking and server segments                          | - [Cello](EnterpriseEdition/Cello/)<br>- [Poplar](EnterpriseEdition/Poplar/)                       |
+|  [**Mezzanine**](MezzanineProducts/) <br>[<img src="https://i.imgur.com/FU8ewZf.png" data-canonical-src="https://i.imgur.com/FU8ewZf.png" width="240" height="100" />](MezzanineProducts/)                        | Expand on all 96Boards with new interfaces for IoT,<br>industrial control, and other embedded applications.                          | - [Sensors Mezzanine](MezzanineProducts/SensorsMezzanine/)<br>- [Linker Sprite](MezzanineProducts/LinkerMezzanineStarterKit/)<br>- [More...](MezzanineProducts/)                           |
 
+</div>
 ***
 ## More ...
 
@@ -47,4 +49,4 @@ Based on a work at https://github.com/96Boards/documentation
 
 ***
 
-[View/Edit this page on Github](https://github.com/96boards/documentation/blob/master/README.md)
+[View/Edit this page on Github](https://github.com/96boards/documentation/blob/master/)
