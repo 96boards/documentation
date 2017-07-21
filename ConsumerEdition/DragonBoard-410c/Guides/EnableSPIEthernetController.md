@@ -1,6 +1,6 @@
 ---
 title: How to hook up an SPI ethernet controller on 96boards
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/EnableSPIEthernetController.md/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/EnableSPIEthernetController.md.html
 redirect_from: /db410c-getting-started/Guides/EnableSPIEthernetController.md/
 ---
 # How to hook up an SPI ethernet controller on 96boards

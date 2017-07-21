@@ -1,6 +1,6 @@
 ---
 title: Contributing to Linaro releases for DragonBoard-410c
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Contribute.md/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Contribute.md.html
 redirect_from: /db410c-getting-started/Downloads/Contribute.md/
 ---
 # Contributing to Linaro releases for Dragonboard 410c

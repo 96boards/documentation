@@ -1,6 +1,6 @@
 ---
 title: How to force display resolution and bypass EDID
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/ForceDisplayRes.md/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/ForceDisplayRes.md.html
 redirect_from: /db410c-getting-started/Guides/ForceDisplayRes.md/
 ---
 # How to force display resolution and bypass EDID

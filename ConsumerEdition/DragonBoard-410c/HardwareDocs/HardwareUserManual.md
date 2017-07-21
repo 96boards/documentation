@@ -1,6 +1,6 @@
 ---
 title: DragonBoard 410c Hardware User Manual
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/HardwareDocs/HardwareUserManual.md/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/HardwareDocs/HardwareUserManual.md.html
 redirect_from: /db410c-getting-started/HardwareDocs/HardwareUserManual.md/
 ---
 # DragonBoard 410c User Manual

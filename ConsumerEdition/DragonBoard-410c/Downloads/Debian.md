@@ -1,7 +1,8 @@
 ---
 title: Debian Downloads for DragonBoard-410c
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Debian.md/
-redirect_from: /db410c-getting-started/Downloads/Debian.md/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Debian.md.html
+redirect_from:
+- /db410c-getting-started/Downloads/Debian.md/
 ---
 # Debian
 
@@ -19,7 +20,7 @@ redirect_from: /db410c-getting-started/Downloads/Debian.md/
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)       |
 
-### Continue to [Installation page](./../Installation)
+### Continue to [Installation page](../Installation/)
 
 ***
 
