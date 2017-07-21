@@ -1,6 +1,6 @@
 ---
 title: Power Adapter for Bubblegum-96
-permalink: /documentation/ConsumerEdition/Bubblegum-96/GettingStarted/PowerAdapter.md/
+permalink: /documentation/ConsumerEdition/Bubblegum-96/GettingStarted/PowerAdapter.md.html
 ---
 ## Power Adapter
 

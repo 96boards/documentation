@@ -1,6 +1,6 @@
 ---
 title: Ubuntu Core Download for Bubblegum-96
-permalink: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Ubuntu-Core.md/
+permalink: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Ubuntu-Core.md.html
 ---
 **About Ubuntu Core**
 

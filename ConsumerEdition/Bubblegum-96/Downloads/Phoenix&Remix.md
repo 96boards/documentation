@@ -1,6 +1,6 @@
 ---
 title: Phoenix&Remix Download for Bubblegum-96
-permalink: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Phoenix&Remix.md/
+permalink: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Phoenix&Remix.md.html
 ---
 ##Windows Host
 
