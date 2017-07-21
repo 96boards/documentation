@@ -1,6 +1,6 @@
 ---
 title: Android Open Source Project (AOSP) Downloads for HiKey960
-permalink: /documentation/ConsumerEdition/HiKey960/Downloads/AOSP.md/
+permalink: /documentation/ConsumerEdition/HiKey960/Downloads/AOSP.md.html
 ---
 # Android Open Source Project (AOSP)
 

@@ -1,6 +1,6 @@
 ---
 title: Power Adapter with HiKey960
-permalink: /documentation/ConsumerEdition/HiKey960/GettingStarted/PowerAdapter.md/
+permalink: /documentation/ConsumerEdition/HiKey960/GettingStarted/PowerAdapter.md.html
 ---
 ## Power Adapter
 

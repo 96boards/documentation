@@ -1,6 +1,6 @@
 ---
 title: Linux Host Installation for HiKey960
-permalink: /documentation/ConsumerEdition/HiKey960/Installation/LinuxFastboot.md/
+permalink: /documentation/ConsumerEdition/HiKey960/Installation/LinuxFastboot.md.html
 ---
 # Linux Host
 

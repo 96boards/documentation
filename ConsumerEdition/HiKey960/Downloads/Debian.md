@@ -1,6 +1,6 @@
 ---
 title: Debian Downloads for HiKey960
-permalink: /documentation/ConsumerEdition/HiKey960/Downloads/Debian.md/
+permalink: /documentation/ConsumerEdition/HiKey960/Downloads/Debian.md.html
 ---
 # Debian
 
