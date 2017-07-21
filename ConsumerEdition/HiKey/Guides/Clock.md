@@ -1,6 +1,6 @@
 ---
 title: Clock Guide for HiKey
-permalink: /documentation/ConsumerEdition/HiKey/Guides/Clock.md/
+permalink: /documentation/ConsumerEdition/HiKey/Guides/Clock.md.html
 ---
 # Clock
 

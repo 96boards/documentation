@@ -1,6 +1,6 @@
 ---
 title: OpenEmbedded Downloads for HiKey
-permalink: /documentation/ConsumerEdition/HiKey/Downloads/OpenEmbedded.md/
+permalink: /documentation/ConsumerEdition/HiKey/Downloads/OpenEmbedded.md.html
 ---
 # OpenEmbedded
 

@@ -1,6 +1,6 @@
 ---
 title: Hardware Notes for HiKey
-permalink: /documentation/ConsumerEdition/HiKey/HardwareDocs/HardwareNotes.md/
+permalink: /documentation/ConsumerEdition/HiKey/HardwareDocs/HardwareNotes.md.html
 ---
 # Hardware Notes
 

@@ -1,6 +1,6 @@
 ---
 title: Linux Host Installation for HiKey
-permalink: /documentation/ConsumerEdition/HiKey/Installation/LinuxFastboot.md/
+permalink: /documentation/ConsumerEdition/HiKey/Installation/LinuxFastboot.md.html
 ---
 ## Linux Host
 
