@@ -1,6 +1,6 @@
 ---
 title: Using a Monitor with MediaTek X20
-permalink: /documentation/ConsumerEdition/MediaTekX20/QuickStart/Monitor.md/
+permalink: /documentation/ConsumerEdition/MediaTekX20/GettingStarted/Monitor.md.html
 ---
 ## Monitor
 
