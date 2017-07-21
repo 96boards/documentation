@@ -1,6 +1,6 @@
 ---
 title: Cross Compile files on x86 Linux host for 96Boards ARM systems
-permalink: /documentation/Extras/CrossCompile/CommandLine.md/
+permalink: /documentation/Extras/CrossCompile/CommandLine.md.html
 ---
 # Cross Compile files on x86 Linux host for 96Boards ARM systems
 
