@@ -1,6 +1,6 @@
 ---
 title: Blinky Build for Nitrogen
-permalink: /documentation/IoTEdition/nitrogen/build/LinuxBuild/BuildBlinky.md/
+permalink: /documentation/IoTEdition/nitrogen/build/LinuxBuild/BuildBlinky.md.html
 ---
 ## How to build the blinky Zephyr application from source - Linux Host
 
