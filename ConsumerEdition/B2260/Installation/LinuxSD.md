@@ -1,6 +1,6 @@
 ---
 title: Linux SD for B2260
-permalink: /documentation/ConsumerEdition/B2260/Installation/LinuxSD.md/
+permalink: /documentation/ConsumerEdition/B2260/Installation/LinuxSD.md.html
 ---
 ## Linux Host
 

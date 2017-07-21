@@ -1,6 +1,6 @@
 ---
 title: Debian Download for B2260
-permalink: /documentation/ConsumerEdition/B2260/Downloads/Debian.md/
+permalink: /documentation/ConsumerEdition/B2260/Downloads/Debian.md.html
 ---
 # Debian
 
