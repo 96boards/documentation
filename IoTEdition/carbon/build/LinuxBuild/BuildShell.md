@@ -37,4 +37,4 @@ The application will be available at ```samples/subsys/shell/shell/outdir/96b_ca
 
 Proceed to flash the Zephyr application binary over USB-UART or USB-DFU. Host machine specific flashing instructions can be found on the "Installation" page, link found below.
 
-- [Installation Page](../../Installation/)
+- [Installation Page](../../installation/)
