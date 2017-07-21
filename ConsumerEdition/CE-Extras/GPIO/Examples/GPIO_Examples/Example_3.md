@@ -1,6 +1,6 @@
 ---
 title: Example 3 - Sensor, sensors, and more sensors
-permalink: /documentation/ConsumerEdition/CE-Extras/GPIO/Examples/GPIO_Examples/Example_3.md/
+permalink: /documentation/ConsumerEdition/CE-Extras/GPIO/Examples/GPIO_Examples/Example_3.md.html
 ---
 # Example 3 - Sensor, sensors, and more sensors
 

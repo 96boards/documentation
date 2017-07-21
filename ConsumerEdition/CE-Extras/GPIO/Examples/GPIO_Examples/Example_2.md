@@ -1,6 +1,6 @@
 ---
 title: Example 2 - Triple library LED push button
-permalink: /documentation/ConsumerEdition/CE-Extras/GPIO/Examples/GPIO_Examples/Example_2.md/
+permalink: /documentation/ConsumerEdition/CE-Extras/GPIO/Examples/GPIO_Examples/Example_2.md.html
 ---
 # Example 2 - Triple library LED push button
 

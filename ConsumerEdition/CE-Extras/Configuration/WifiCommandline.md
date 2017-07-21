@@ -1,6 +1,6 @@
 ---
 title: Setting up a WIFI connection via command line on Debian/Ubuntu
-permalink: /documentation/ConsumerEdition/CE-Extras/Configuration/WifiCommandline.md/
+permalink: /documentation/ConsumerEdition/CE-Extras/Configuration/WifiCommandline.md.html
 ---
 # Setting up a WIFI connection via command line on Debian/Ubuntu (Network Manager)
 
