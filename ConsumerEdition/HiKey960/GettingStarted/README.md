@@ -16,7 +16,7 @@ Learn about your HiKey960 board as well as how to prepare and set up for basic u
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter
 - USB Type-A (Host Machine) to USB Type-C (HiKey960) cable
    - This is needed for interfacing with fastboot/adb commands
-- [USB Keyboard and Mouse](USBKeyBoardMouse.md)
+- USB Keyboard and Mouse
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
 - Monitor and HDMI Cable
    - All 96Boards are equiped with a full sized HDMI connector, HDMI capable monitor is recommended
@@ -24,7 +24,7 @@ Learn about your HiKey960 board as well as how to prepare and set up for basic u
    - J2001 Header on the HiKey960 comes with two pin-jumpers, does not apply for DIP Switches
 
 **Optional**
-- [Mezzanine Products](../../../MezzanineProducts/)
+- Mezzanine Products
    - These devices allow you to expand your experience with any 96Boards by adding peripherals and enhancing onboard components
 - USB to MicroUSB cable
    - This is needed for serial console interfacing
