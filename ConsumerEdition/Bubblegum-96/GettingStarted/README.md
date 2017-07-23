@@ -12,17 +12,17 @@ Learn about your Bubblegum-96 board as well as how to prepare and set up for bas
 **Need**
 - [Bubblegum-96 Development Board](https://www.96boards.org/product/bubblegum-96/)
    - Board based on Actions Semi S900 Processor
-- [Power adapter](PowerAdapter.md)
+- Power adapter
    - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
-- [USB Keyboard and Mouse](USBKeyBoardMouse.md)
+- USB Keyboard and Mouse
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
-- [Monitor and HDMI Cable](MonitorHDMI.md)
+- Monitor and HDMI Cable
    - All 96Boards are equiped with a full sized HDMI connector, HDMI capable monitor is recommended
 
 **Optional**
 - MicroSD card with adapter
    - For quick and easy switching between operating systems and extra storage
-- [Mezzanine Products](../../../MezzanineProducts/)
+- Mezzanine Products
    - These devices allow you to expand your experience with any 96Boards by adding peripherals and enhancing onboard components
 - USB to MicroUSB cable
    - This is needed for serial console interface and fastboot/adb commands

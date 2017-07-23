@@ -15,10 +15,11 @@ Select your Consumer Edition 96Boards device to access all product specific reso
 
 - [Compare 96Boards](CE-Extras/Compare96BoardsCE.md)
 - [96Boards CE Extras](CE-Extras/)
+
 <div style="overflow-x:scroll;" markdown="1">
 
-| 96Boards  | About | Options |
-|:----:|:----:|:----:|
+| 96Boards                                         | About                                                  | Options                                              |
+|:------------------------------------------------:|:------------------------------------------------------:|:----------------------------------------------------:|
 | <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_Board/Hikey960_front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_Board/Hikey960_front_SD.png?raw=true" width="200" height="130" /><br> **HiKey960** | Board based on HiSilicon Kirin 960 processor  | [Documentation](HiKey960/)<br> |
 | <img src="https://i.imgur.com/uKfxuu5.jpg" data-canonical-src="https://i.imgur.com/uKfxuu5.jpg" width="200" height="130" /><br> **HiKey** | Board based on HiSilicon Kirin 6220 processor  | [Documentation](HiKey/)<br> |
 | <img src="https://i.imgur.com/4a5GXRd.png" data-canonical-src="https://i.imgur.com/4a5GXRd.png" width="200" height="130" /><br> **DragonBoard 410c** | Board based on Qualcomm® Snapdragon™ 410 processor  | [Documentation](DragonBoard-410c/)<br>|
