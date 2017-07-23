@@ -1,6 +1,6 @@
 ---
 title: Linux Host Installation for MediaTek X20 Pro
-permalink: /documentation/ConsumerEdition/MediaTekX20Pro/Downloads/ThirdParty/AOSP/LinuxFastboot.md/
+permalink: /documentation/ConsumerEdition/MediaTekX20Pro/Downloads/ThirdParty/AOSP/LinuxFastboot.md.html
 ---
 ## Linux Host
 
@@ -53,8 +53,8 @@ $ adb devices
 Once you have ensured the board is detected by your Linux host machine using adb, proceed to the next step. If you are experiencing issues with this step you may want to:
 
 1. Troubleshoot the adb setup on your host machine (**Step 2**)
-2. Attempt a [Board Recovery](../Installation/BoardRecovery.md)
-3. Visit the MediaTek X20 [Troubleshooting Page](../Troubleshooting/)
+2. Attempt a [Board Recovery](../../../Installation/BoardRecovery.md)
+3. Visit the MediaTek X20 [Troubleshooting Page](../../../Troubleshooting/)
 
 #### **Step 4**: Boot MediaTek X20 development board into Fastboot mode
 

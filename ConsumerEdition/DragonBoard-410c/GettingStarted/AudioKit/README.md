@@ -12,7 +12,7 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
 ## Setup - What you will need
 
 **Audio kit includes**
-- [DragonBoard 410c](http://www.96boards.org/product/dragonboard410c/)
+- [DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/)
    - Board based on Qualcomm® Snapdragon™ 410E processor
 - Power adapter
    - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
@@ -41,9 +41,9 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
 
 The following subsections should describe how to get started with the DragonBoard 410c using the release build shipped with the boards. The DragonBoard 410c is ready to use “out of the box” with a preinstalled version of Android (unless otherwise specified).
 
-<img src="http://i.imgur.com/4a5GXRd.png" data-canonical-src="http://i.imgur.com/4a5GXRd.png" width="250" height="160" />
-<img src="http://i.imgur.com/iAbmSuV.png" data-canonical-src="http://i.imgur.com/iAbmSuV.png" width="250" height="160" />
-<img src="http://i.imgur.com/nyVSsa2.png" data-canonical-src="http://i.imgur.com/nyVSsa2.png" width="250" height="160" />
+<img src="https://i.imgur.com/4a5GXRd.png" data-canonical-src="https://i.imgur.com/4a5GXRd.png" width="250" height="160" />
+<img src="https://i.imgur.com/iAbmSuV.png" data-canonical-src="https://i.imgur.com/iAbmSuV.png" width="250" height="160" />
+<img src="https://i.imgur.com/nyVSsa2.png" data-canonical-src="https://i.imgur.com/nyVSsa2.png" width="250" height="160" />
 
 ## Features
 

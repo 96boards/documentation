@@ -1,6 +1,6 @@
 ---
 title: Dragonboard 410c GPT
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/GPT.md/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/GPT.md.html
 redirect_from: /db410c-getting-started/Guides/GPT.md/
 ---
 # Dragonboard 410c GPT

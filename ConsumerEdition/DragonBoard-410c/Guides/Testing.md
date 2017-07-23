@@ -1,6 +1,6 @@
 ---
 title: Testing Guide for DragonBoard-410c
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/Testing.md/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/Testing.md.html
 redirect_from: /db410c-getting-started/Guides/Testing.md/
 ---
 # Introduction

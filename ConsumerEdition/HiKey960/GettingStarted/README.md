@@ -10,9 +10,9 @@ Learn about your HiKey960 board as well as how to prepare and set up for basic u
 ## Setup - What you will need
 
 **Need**
-- [HiKey960](http://www.96boards.org/product/hikey960/)
+- [HiKey960](https://www.96boards.org/product/hikey960/)
    - Board based on the Kirin 960 Processor
-- [Power adapter](http://www.96boards.org/product/power/)
+- [Power adapter](https://www.96boards.org/product/power/)
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter
 - USB Type-A (Host Machine) to USB Type-C (HiKey960) cable
    - This is needed for interfacing with fastboot/adb commands
@@ -105,7 +105,7 @@ Board should boot up into AOSP.
 
 If you are already familiar with the HiKey960 board and would like to change out the stock operating system, please proceed to one of the following pages:
 
-- [HiKey960 96Boards Home page](http://www.96boards.org/product/HiKey960/)
+- [HiKey960 96Boards Home page](https://www.96boards.org/product/HiKey960/)
 - [Downloads page](../Downloads/): This page lists all Linaro and 3rd party operating systems available for HiKey960
 - [Installation page](../Installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your HiKey960 board
 - [Board Recovery](../Installation/BoardRecovery.md)

@@ -1,6 +1,6 @@
 ---
 title: Mac SD for B2260
-permalink: /documentation/ConsumerEdition/B2260/Installation/MacSD.md/
+permalink: /documentation/ConsumerEdition/B2260/Installation/MacSD.md.html
 ---
 ## Mac OS X Host
 

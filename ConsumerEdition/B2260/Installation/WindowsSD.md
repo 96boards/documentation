@@ -1,6 +1,6 @@
 ---
 title: Windows SD for B2260
-permalink: /documentation/ConsumerEdition/B2260/Installation/WindowsSD.md/
+permalink: /documentation/ConsumerEdition/B2260/Installation/WindowsSD.md.html
 ---
 ## Windows Host
 
@@ -47,7 +47,7 @@ This section show how to install an operating system to your B2260 using the SD 
 - This process may take a few minutes, be patient and wait for a completion notice.
 - Upon completion you should see the following pop-up:
 
-<img src="http://i.imgur.com/HzYujlw.png" data-canonical-src="http://i.imgur.com/HzYujlw.png" width="150" height="100"/>
+<img src="https://i.imgur.com/HzYujlw.png" data-canonical-src="https://i.imgur.com/HzYujlw.png" width="150" height="100"/>
 
 - Eject SD Card and proceed to next **Step**
 

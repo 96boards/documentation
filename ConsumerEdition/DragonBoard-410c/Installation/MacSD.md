@@ -1,6 +1,6 @@
 ---
 title: Mac Host Installation for DragonBoard-410c
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/Installation/MacSD.md/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Installation/MacSD.md.html
 redirect_from: /db410c-getting-started/
 ---
 ## Mac OS X Host
@@ -138,7 +138,7 @@ $ sudo umount /dev/<device name>
 
 #### Step 9: Install image onto DragonBoard 410c
 
-<img src="http://i.imgur.com/F18wlgU.png" data-canonical-src="http://i.imgur.com/F18wlgU.png" width="400" height="250"/>
+<img src="https://i.imgur.com/F18wlgU.png" data-canonical-src="https://i.imgur.com/F18wlgU.png" width="400" height="250"/>
 
 - If **Steps 1 - 8** were followed correctly, the above screen should be visible from your DragonBoard™ 410c
 - Select the image to install and click “Install” (or type “i”). OS will be installed into the eMMC memory

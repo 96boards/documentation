@@ -1,6 +1,6 @@
 ---
 title: Linux Host Installation for HiKey
-permalink: /documentation/ConsumerEdition/HiKey/Installation/LinuxFactoryImage.md/
+permalink: /documentation/ConsumerEdition/HiKey/Installation/LinuxFactoryImage.md.html
 ---
 ## Linux Host
 

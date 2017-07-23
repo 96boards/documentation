@@ -1,6 +1,8 @@
 ---
 title: Monitor Guide for HiKey
-permalink: /documentation/ConsumerEdition/HiKey/QuickStart/Monitor.md/
+permalink: /documentation/ConsumerEdition/HiKey/GettingStarted/MonitorHDMI.md.html
+redirect_from:
+  - /documentation/ConsumerEdition/HiKey/Quickstart/MonitorHDMI.md/
 ---
 ## Monitor
 

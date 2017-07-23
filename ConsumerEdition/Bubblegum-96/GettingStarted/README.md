@@ -10,7 +10,7 @@ Learn about your Bubblegum-96 board as well as how to prepare and set up for bas
 ## Setup - What you will need
 
 **Need**
-- [Bubblegum-96 Development Board](http://www.96boards.org/product/bubblegum-96/)
+- [Bubblegum-96 Development Board](https://www.96boards.org/product/bubblegum-96/)
    - Board based on Actions Semi S900 Processor
 - [Power adapter](PowerAdapter.md)
    - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
@@ -35,9 +35,9 @@ Learn about your Bubblegum-96 board as well as how to prepare and set up for bas
 
 The following subsections should describe how to get started with the Bubblegum-96 using the release build shipped with the boards. The Bubblegum-96 board is ready to use “out of the box” with a preinstalled version of Android.
 
-<img src="http://i.imgur.com/eVR3IZv.png" data-canonical-src="http://i.imgur.com/eVR3IZv.png" width="250" height="160" />
-<img src="http://i.imgur.com/gaFuoBk.png" data-canonical-src="http://i.imgur.com/gaFuoBk.png" width="250" height="160" />
-<img src="http://i.imgur.com/XHiHLOl.png" data-canonical-src="http://i.imgur.com/XHiHLOl.png" width="250" height="160" />
+<img src="https://i.imgur.com/eVR3IZv.png" data-canonical-src="https://i.imgur.com/eVR3IZv.png" width="250" height="160" />
+<img src="https://i.imgur.com/gaFuoBk.png" data-canonical-src="https://i.imgur.com/gaFuoBk.png" width="250" height="160" />
+<img src="https://i.imgur.com/XHiHLOl.png" data-canonical-src="https://i.imgur.com/XHiHLOl.png" width="250" height="160" />
 
 ## Features
 

@@ -1,6 +1,6 @@
 ---
 title: Hardware User Manual for MediaTek X20 Pro
-permalink: /documentation/ConsumerEdition/MediaTekX20Pro/HardwareDocs/HardwareUserManual.md/
+permalink: /documentation/ConsumerEdition/MediaTekX20Pro/HardwareDocs/HardwareUserManual.md.html
 ---
 # MediaTek X20 Professional Development Board Hardware User Manual
 

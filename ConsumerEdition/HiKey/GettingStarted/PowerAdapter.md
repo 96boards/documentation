@@ -1,6 +1,8 @@
 ---
 title: Power Adapter Guide for HiKey
-permalink: /documentation/ConsumerEdition/HiKey/QuickStart/PowerAdapter.md/
+permalink: /documentation/ConsumerEdition/HiKey/GettingStarted/PowerAdapter.md.html
+redirect_from:
+  - /documentation/ConsumerEdition/HiKey/Quickstart/PowerAdapter.md/
 ---
 ## Power Adapter
 

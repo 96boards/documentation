@@ -1,6 +1,6 @@
 ---
 title: Linux Host Installation for DragonBoard-410c
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/Installation/LinuxFastboot.md/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Installation/LinuxFastboot.md.html
 redirect_from: /db410c-getting-started/
 ---
 ##Linux Host

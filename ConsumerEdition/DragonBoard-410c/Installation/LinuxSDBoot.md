@@ -1,3 +1,8 @@
+---
+title: Create a Bootable SD Card for DragonBoard-410c
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Installation/LinuxSDBoot.md.html
+redirect_from: /db410c-getting-started/Installation/LinuxSDBoot.md/
+---
 # Create Bootable SD Card
 
 This section show how to install the Debian operating system that is bootable from the SD Card to your DragonBoard™ 410c on a Linux host computer.
@@ -6,7 +11,7 @@ This section show how to install the Debian operating system that is bootable fr
 
 * A local copy of the `dragonboard410c_sdcard_developer_debian-xyz.zip` where `xyz` will vary based upon the build you are downloading.
      * Instructions [here](../Downloads/Debian.md)
-     
+
 ## Copy the install image onto the SD Card
 
 * Copy the install image downloaded onto the SD Card that will be used by following the [SD Card Method](LinuxSD.md) section  and substitute the image file referenced here for the one in those instructions.
@@ -42,7 +47,7 @@ From the command prompt on the HDMI monitor connected to the DB410c, perform the
 `sudo fdisk -l`
 
 The user should see two mmc devices.  One will be the internal eMMC and one for the SD Card.  Most likely the internal will be `/dev/mmcblk0` and the SD Card will be `/dev/mmcblk1`
-     
+
 The user can note the `Linux filesystem` partition of the internal eMMC and mount it to access any data the might be there.  For example:
 ```
 sudo mkdir /mnt/Internalemmc
@@ -76,7 +81,3 @@ In the above example mmcblk0 is the internal eMMC and internal-emmc-copy.img is 
 A file should now exist on your SD Card (internal-emmc-copy.img in this example) that can be used to create an identical image of the eMMC from the current Dragonboard 410c into another Dragonboard 410c.  In this example use-case, the user would power down the current Dragonboard 410c, remove the bootable SD Card, place the SD Card in another Dragonboard 410c configured for SD Card boot, power up, and replicate the eMMC image created in the previous step into the internal eMMC of the new board by executing the command below. This might be beneficial for testing and debugging.  Assuming you have now moved to another Dragonboard 410c that is running out of the SD Card image, execute the following command to re-image the internal eMMC after verifying the eMMC device name is correct:
 
 `sudo dd if=~/internal-emmc-copy.img of=/dev/mmcblk0 bs=4M`
-
-
-       
-

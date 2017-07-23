@@ -1,6 +1,6 @@
 ---
 title: System LEDs Guide for HiKey
-permalink: /documentation/ConsumerEdition/HiKey/Guides/SystemLEDs.md/
+permalink: /documentation/ConsumerEdition/HiKey/Guides/SystemLEDs.md.html
 ---
 # System LEDs
 

@@ -1,6 +1,6 @@
 ---
 title: Bluetooth Guide for HiKey
-permalink: /documentation/ConsumerEdition/HiKey/Guides/Bluetooth.md/
+permalink: /documentation/ConsumerEdition/HiKey/Guides/Bluetooth.md.html
 ---
 # Bluetooth
 

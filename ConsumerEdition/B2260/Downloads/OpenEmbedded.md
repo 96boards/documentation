@@ -1,6 +1,6 @@
 ---
 title: OpenEmbedded Download for B2260
-permalink: /documentation/ConsumerEdition/B2260/Downloads/OpenEmbedded.md/
+permalink: /documentation/ConsumerEdition/B2260/Downloads/OpenEmbedded.md.html
 ---
 # OpenEmbedded
 

@@ -13,4 +13,4 @@ Have your drone text you when i reaches it's waypoint or stream data to your ser
 The 9-axis internal measurement unit, along with an altimeter, monitored in real time by the embedded ARM M4 microcontroller,
 combined with optional geopositioning with the GPS connector, gives you accurate positional feedback from your drone.
 
-For more information, please visit the AeroCore 2 page at [96Boards](http://www.96boards.org/product/aerocore/)
+For more information, please visit the AeroCore 2 page at [96Boards](https://www.96boards.org/product/aerocore/)

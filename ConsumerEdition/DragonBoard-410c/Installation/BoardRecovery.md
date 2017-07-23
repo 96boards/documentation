@@ -1,6 +1,6 @@
 ---
 title: DragonBoard 410c Board Recovery
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/Installation/BoardRecovery.md/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Installation/BoardRecovery.md.html
 redirect_from: /db410c-getting-started/
 ---
 # DragonBoard 410c Board Recovery

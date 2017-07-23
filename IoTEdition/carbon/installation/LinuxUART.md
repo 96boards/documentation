@@ -1,6 +1,6 @@
 ---
 title: Carbon Hardware User Manual
-permalink: /documentation/IoTEdition/carbon/installation/LinuxUART.md/
+permalink: /documentation/IoTEdition/carbon/installation/LinuxUART.md.html
 ---
 ## Linux Host
 

@@ -1,6 +1,6 @@
 ---
 title: Linux Fastboot Installation for Bubblegum-96
-permalink: /documentation/ConsumerEdition/Bubblegum-96/Installation/LinuxFastboot.md/
+permalink: /documentation/ConsumerEdition/Bubblegum-96/Installation/LinuxFastboot.md.html
 ---
 ##Linux Host
 

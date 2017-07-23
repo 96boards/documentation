@@ -1,6 +1,6 @@
 ---
 title: Board Recovery for HiKey960
-permalink: /documentation/ConsumerEdition/HiKey960/Installation/BoardRecovery.md/
+permalink: /documentation/ConsumerEdition/HiKey960/Installation/BoardRecovery.md.html
 ---
 # HiKey 960 Board Recovery
 

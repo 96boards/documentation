@@ -1,6 +1,6 @@
 ---
 title: Examples for CE Boards
-permalink: /documentation/ConsumerEdition/CE-Extras/GPIO/Examples/GPIO_Examples/Example_1.md/
+permalink: /documentation/ConsumerEdition/CE-Extras/GPIO/Examples/GPIO_Examples/Example_1.md.html
 ---
 # Example #1 - Through the shell
 

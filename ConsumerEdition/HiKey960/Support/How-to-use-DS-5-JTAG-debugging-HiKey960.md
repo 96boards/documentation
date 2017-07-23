@@ -1,3 +1,7 @@
+---
+title: How to use PMU hardware events of ARM architecture on HiKey960
+permalink: /documentation/ConsumerEdition/HiKey960/Support/How-to-use-DS-5-JTAG-debugging-HiKey960.md.html
+---
 DS-5 Development Studio is a suite of tools for embedded C/C++ software development on any ARM-based SoC, featuring editor, compilers, debugger and system profiler.
 
 This document describes how to using DS-5 on HiKey960.

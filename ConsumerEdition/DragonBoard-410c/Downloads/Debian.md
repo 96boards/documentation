@@ -1,7 +1,8 @@
 ---
 title: Debian Downloads for DragonBoard-410c
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Debian.md/
-redirect_from: /db410c-getting-started/Downloads/Debian.md/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Debian.md.html
+redirect_from:
+- /db410c-getting-started/Downloads/Debian.md/
 ---
 # Debian
 

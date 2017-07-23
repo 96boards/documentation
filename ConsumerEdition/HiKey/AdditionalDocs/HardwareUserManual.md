@@ -1,6 +1,6 @@
 ---
 title: User Manual for HiKey
-permalink: /documentation/ConsumerEdition/HiKey/AdditionalDocs/HardwareUserManual.md/
+permalink: /documentation/ConsumerEdition/HiKey/AdditionalDocs/HardwareUserManual.md.html
 ---
 # HiKey User Manual
 

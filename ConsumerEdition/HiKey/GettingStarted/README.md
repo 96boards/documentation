@@ -1,6 +1,6 @@
 ---
-title: QuickStart Guides for HiKey
-permalink: /documentation/ConsumerEdition/HiKey/QuickStart/
+title: Getting Started Guides for HiKey
+permalink: /documentation/ConsumerEdition/HiKey/GettingStarted/
 redirect_from: /documentation/ConsumerEdition/HiKey/QuickStart/README.md/
 ---
 # Getting Started
@@ -10,7 +10,7 @@ Learn about your HiKey board as well as how to prepare and set up for basic use
 ## Setup - What you will need
 
 **Need**
-- [HiKey Development Board](http://www.96boards.org/product/hikey/)
+- [HiKey Development Board](https://www.96boards.org/product/hikey/)
    - Board based on HiSilicon Kirin 6220 processor
 - [Power adapter](PowerAdapter.md)
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter
@@ -37,9 +37,9 @@ Learn about your HiKey board as well as how to prepare and set up for basic use
 
 The following subsections should describe how to get started with the HiKey using the release build shipped with the boards. The HiKey board is ready to use “out of the box” with a preinstalled version of the Debian Linux distribution.
 
-<img src="http://i.imgur.com/uKfxuu5.jpg" data-canonical-src="http://i.imgur.com/uKfxuu5.jpg" width="250" height="160" />
-<img src="http://i.imgur.com/g5X5j72.jpg" data-canonical-src="http://i.imgur.com/g5X5j72.jpg" width="250" height="160" />
-<img src="http://i.imgur.com/egwXwjX.jpg" data-canonical-src="http://i.imgur.com/egwXwjX.jpg" width="250" height="160" />
+<img src="https://i.imgur.com/uKfxuu5.jpg" data-canonical-src="https://i.imgur.com/uKfxuu5.jpg" width="250" height="160" />
+<img src="https://i.imgur.com/g5X5j72.jpg" data-canonical-src="https://i.imgur.com/g5X5j72.jpg" width="250" height="160" />
+<img src="https://i.imgur.com/egwXwjX.jpg" data-canonical-src="https://i.imgur.com/egwXwjX.jpg" width="250" height="160" />
 
 ## Features
 

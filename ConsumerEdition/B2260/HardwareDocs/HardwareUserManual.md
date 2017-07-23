@@ -1,6 +1,6 @@
 ---
 title: Hardware User Manual for B2260
-permalink: /documentation/ConsumerEdition/B2260/HardwareDocs/HardwareUserManual.md/
+permalink: /documentation/ConsumerEdition/B2260/HardwareDocs/HardwareUserManual.md.html
 ---
 # B2260 Development 96Boards Hardware User Manual
 
@@ -108,7 +108,7 @@ There is no jumper or switch to configure on the ST B2260 Development Board.
 ## Getting Started
 ### Prerequisites
 Before power up the  B2260 Development Board for the first time, following material is required:
-- **[B2260 Development Board]**(http://www.96boards.org/product/b2260/)
+- **[B2260 Development Board]**(https://www.96boards.org/product/b2260/)
    - Board based on the ST Cannes2-STiH410 Processor.
 - **Power Supply**
    - 96Boards specifications requires a 8V to 18V Power supply ; Recommended: SUN-1200500 by SUNUP electronics.

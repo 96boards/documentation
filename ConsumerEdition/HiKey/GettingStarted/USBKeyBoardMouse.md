@@ -1,6 +1,8 @@
 ---
 title: USB Keyboard and Mouse Guide for HiKey
-permalink: /documentation/ConsumerEdition/HiKey/QuickStart/USBKeyBoardMouse.md/
+permalink: /documentation/ConsumerEdition/HiKey/GettingStarted/USBKeyBoardMouse.md.html
+redirect_from:
+  - /documentation/ConsumerEdition/HiKey/Quickstart/USBKeyBoardMouse.md/
 ---
 # USB Keyboard and Mouse
 
@@ -13,6 +15,6 @@ USB extenion hubs can also be used to add ports, for those who need more than tw
 | **Recommended Devices** |
 |:--|
 | [Logitec Wireless Touch Keyboard K400](http://www.logitech.com/en-us/product/wireless-touch-keyboard-k400r)<br>
-<a href="http://www.logitech.com/en-us/product/wireless-touch-keyboard-k400r" target="_blank"><img src="http://i.imgur.com/FL67FuW.jpg" data-canonical-src="http://i.imgur.com/FL67FuW.jpg" width="300" height="120" /></a> |
+<a href="http://www.logitech.com/en-us/product/wireless-touch-keyboard-k400r" target="_blank"><img src="https://i.imgur.com/FL67FuW.jpg" data-canonical-src="https://i.imgur.com/FL67FuW.jpg" width="300" height="120" /></a> |
 | [iPazzPort Wireless Mini Keyboard](https://www.amazon.com/gp/product/B00KF9LHUI/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1)<br>
-<a href="https://www.amazon.com/gp/product/B00KF9LHUI/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1" target="_blank"><img src="http://i.imgur.com/i4ymRJ0.jpg" data-canonical-src="http://i.imgur.com/i4ymRJ0.jpg" width="200" height="150" /></a> |
+<a href="https://www.amazon.com/gp/product/B00KF9LHUI/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1" target="_blank"><img src="https://i.imgur.com/i4ymRJ0.jpg" data-canonical-src="https://i.imgur.com/i4ymRJ0.jpg" width="200" height="150" /></a> |

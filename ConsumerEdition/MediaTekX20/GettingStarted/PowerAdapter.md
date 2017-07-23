@@ -1,6 +1,6 @@
 ---
 title: Using a Power Adapter with MediaTek X20
-permalink: /documentation/ConsumerEdition/MediaTekX20/QuickStart/PowerAdapter.md/
+permalink: /documentation/ConsumerEdition/MediaTekX20/GettingStarted/PowerAdapter.md.html
 ---
 ## Power Adapter
 

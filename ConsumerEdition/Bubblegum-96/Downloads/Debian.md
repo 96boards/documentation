@@ -1,6 +1,6 @@
 ---
 title: Debian Download for Bubblegum-96
-permalink: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Debian.md/
+permalink: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Debian.md.html
 ---
 # Debian
 

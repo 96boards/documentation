@@ -1,16 +1,16 @@
 ---
-title: QuickStart for MediaTek X20
-permalink: /documentation/ConsumerEdition/MediaTekX20/QuickStart/
-redirect_from: /documentation/ConsumerEdition/MediaTekX20/QuickStart/README.md/
+title: Getting Started with MediaTek X20
+permalink: /documentation/ConsumerEdition/MediaTekX20/GettingStarted/
+redirect_from: /documentation/ConsumerEdition/MediaTekX20/GettingStarted/README.md/
 ---
-# Quickstart
+# Getting Started
 
 Learn about your MediaTek X20 board as well as how to prepare and set up for basic use
 
 ## Setup - What you will need
 
 **Need**
-- [MediaTek X20 Development Board](http://www.96boards.org/products/ce/mediatek-x20/)
+- [MediaTek X20 Development Board](https://www.96boards.org/products/ce/mediatek-x20/)
    - Read about the MediaTek X20 and see where it is available to buy!
 - [Power adapter](https://www.96boards.org/products/accessories/power/)
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter
@@ -35,9 +35,9 @@ Learn about your MediaTek X20 board as well as how to prepare and set up for bas
 
 The following subsections should describe how to get started with the MediaTek X20 using the release build shipped with the boards. The MediaTek X20 Development Board is ready to use “out of the box” with a pre-installed version of Android.
 
-<img src="http://i.imgur.com/Mdjs6Nx.png" data-canonical-src="http://i.imgur.com/Mdjs6Nx.png" width="250" height="160" />
-<img src="http://i.imgur.com/3EleXMR.png" data-canonical-src="http://i.imgur.com/3EleXMR.png" width="250" height="160" />
-<img src="http://i.imgur.com/p1N2nDt.png" data-canonical-src="http://i.imgur.com/p1N2nDt.png" width="250" height="160" />
+<img src="https://i.imgur.com/Mdjs6Nx.png" data-canonical-src="https://i.imgur.com/Mdjs6Nx.png" width="250" height="160" />
+<img src="https://i.imgur.com/3EleXMR.png" data-canonical-src="https://i.imgur.com/3EleXMR.png" width="250" height="160" />
+<img src="https://i.imgur.com/p1N2nDt.png" data-canonical-src="https://i.imgur.com/p1N2nDt.png" width="250" height="160" />
 
 ## Features
 

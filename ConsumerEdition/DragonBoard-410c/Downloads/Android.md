@@ -1,6 +1,6 @@
 ---
 title: Android Downloads for DragonBoard-410c
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Android.md/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Android.md.html
 redirect_from: /db410c-getting-started/Downloads/Android.md/
 ---
 # Android
