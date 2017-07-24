@@ -1,6 +1,6 @@
 ---
 title: Board Recovery for B2260
-permalink: /documentation/ConsumerEdition/B2260/Installation/BoardRecovery.md/
+permalink: /documentation/ConsumerEdition/B2260/Installation/BoardRecovery.md.html
 ---
 # B2260 Board Recovery
 

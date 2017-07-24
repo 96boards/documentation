@@ -1,6 +1,6 @@
 ---
 title: Getting Started Power Adapters for DragonBoard-410c
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/PowerAdapter.md/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/PowerAdapter.md.html
 redirect_from: /db410c-getting-started/GettingStarted/PowerAdapter.md/
 ---
 ## Power Adapter

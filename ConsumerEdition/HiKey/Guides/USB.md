@@ -1,6 +1,6 @@
 ---
 title: USB Guide for HiKey
-permalink: /documentation/ConsumerEdition/HiKey/Guides/USB.md/
+permalink: /documentation/ConsumerEdition/HiKey/Guides/USB.md.html
 ---
 # USB
 

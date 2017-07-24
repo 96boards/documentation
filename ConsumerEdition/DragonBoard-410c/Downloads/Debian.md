@@ -1,7 +1,8 @@
 ---
 title: Debian Downloads for DragonBoard-410c
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Debian.md/
-redirect_from: /db410c-getting-started/Downloads/Debian.md/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Debian.md.html
+redirect_from:
+- /db410c-getting-started/Downloads/Debian.md/
 ---
 # Debian
 
@@ -15,7 +16,7 @@ redirect_from: /db410c-getting-started/Downloads/Debian.md/
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)       |
 
-|   SD Card Image - Install and boot from SD Card    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/http://builds.96boards.org/snapshots/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_developer_debian-*.zip)    |
+|   SD Card Image - Install and boot from SD Card    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_developer_debian-*.zip)    |
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)       |
 

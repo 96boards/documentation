@@ -1,6 +1,6 @@
 ---
 title: Carbon Hardware User Manual
-permalink: /documentation/IoTEdition/carbon/hardware-docs/hardware-user-manual.md/
+permalink: /documentation/IoTEdition/carbon/hardware-docs/hardware-user-manual.md.html
 ---
 # Carbon Hardware User Manual
 

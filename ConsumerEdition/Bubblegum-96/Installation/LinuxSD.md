@@ -1,6 +1,6 @@
 ---
 title: Linux SD Installation for Bubblegum-96
-permalink: /documentation/ConsumerEdition/Bubblegum-96/Installation/LinuxSD.md/
+permalink: /documentation/ConsumerEdition/Bubblegum-96/Installation/LinuxSD.md.html
 ---
 ## How to flash Debian on Bubblegum-96 with SD card
 ---

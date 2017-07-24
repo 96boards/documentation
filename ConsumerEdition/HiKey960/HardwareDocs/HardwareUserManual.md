@@ -1,6 +1,6 @@
 ---
 title: HiKey960 Development Board User Manual
-permalink: /documentation/ConsumerEdition/HiKey960/HardwareDocs/HardwareUserManual.md/
+permalink: /documentation/ConsumerEdition/HiKey960/HardwareDocs/HardwareUserManual.md.html
 ---
 # HiKey960 Development Board User Manual
 
@@ -481,7 +481,7 @@ The pin 60 of the High Speed Expansion Connector is pulled up to VIO18_PMU via 1
 
 > Note: Please refer to the mechanical size of the DC plug below.The inside diameter of the plug is 1.7mm，the outer diameter of the plug is 4.75mm.The positive electrode of the DC plug is in the inside, and the negative pole is outside.
 
-<img src="http://i.imgur.com/7qEu1Jc.png" data-canonical-src="http://i.imgur.com/7qEu1Jc.png" width="250" height="160" />
+<img src="https://i.imgur.com/7qEu1Jc.png" data-canonical-src="https://i.imgur.com/7qEu1Jc.png" width="250" height="160" />
 
 
 ### Voltage Rails

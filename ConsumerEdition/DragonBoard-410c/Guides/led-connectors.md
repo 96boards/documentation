@@ -1,6 +1,6 @@
 ---
 title: Description of LED’s and Connectors
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/led-connectors.md/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/led-connectors.md.html
 redirect_from: /db410c-getting-started/Guides/led-connectors.md/
 ---
 # Description of LED’s and Connectors

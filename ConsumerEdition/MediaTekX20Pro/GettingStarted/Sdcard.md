@@ -1,6 +1,6 @@
 ---
 title: Using a Micro SD Card with MediaTek X20 Pro
-permalink: /documentation/ConsumerEdition/MediaTekX20Pro/GettingStarted/Sdcard.md/
+permalink: /documentation/ConsumerEdition/MediaTekX20Pro/GettingStarted/Sdcard.md.html
 ---
 ## MicroSD card with adapter
 

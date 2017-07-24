@@ -1,6 +1,6 @@
 ---
 title: Hardware User Manual for MediaTek X20
-permalink: /documentation/ConsumerEdition/MediaTekX20/HardwareDocs/HardwareUserManual.md/
+permalink: /documentation/ConsumerEdition/MediaTekX20/HardwareDocs/HardwareUserManual.md.html
 ---
 # MediaTek X20 Development Board Hardware User Manual
 
@@ -56,9 +56,9 @@ permalink: /documentation/ConsumerEdition/MediaTekX20/HardwareDocs/HardwareUserM
 
 The MediaTek X20 Development Board is a 96Boards compliant community board based on MediaTek X20 platform.The following table lists its key features:
 
-<img src="http://i.imgur.com/YEnzcZI.png" data-canonical-src="http://i.imgur.com/YEnzcZI.png" width="250" height="160" />
-<img src="http://i.imgur.com/eKif0Ri.png" data-canonical-src="http://i.imgur.com/eKif0Ri.png" width="250" height="160" />
-<img src="http://i.imgur.com/wRC5tFq.png" data-canonical-src="http://i.imgur.com/wRC5tFq.png" width="250" height="160" />
+<img src="https://i.imgur.com/YEnzcZI.png" data-canonical-src="https://i.imgur.com/YEnzcZI.png" width="250" height="160" />
+<img src="https://i.imgur.com/eKif0Ri.png" data-canonical-src="https://i.imgur.com/eKif0Ri.png" width="250" height="160" />
+<img src="https://i.imgur.com/wRC5tFq.png" data-canonical-src="https://i.imgur.com/wRC5tFq.png" width="250" height="160" />
 
 - **Processor**:
    - MediaTek X20 MT6797
@@ -125,8 +125,8 @@ The MediaTek X20 Development Board is a 96Boards compliant community board based
 
 The box contains one MediaTek X20 Development Board and a quick start guide.
 
-<img src="http://i.imgur.com/YEnzcZI.png" data-canonical-src="http://i.imgur.com/YEnzcZI.png" width="400" height="270" />
-<img src="http://i.imgur.com/GZCNzUW.png" data-canonical-src="http://i.imgur.com/GZCNzUW.png" width="450" height="250" />
+<img src="https://i.imgur.com/YEnzcZI.png" data-canonical-src="https://i.imgur.com/YEnzcZI.png" width="400" height="270" />
+<img src="https://i.imgur.com/GZCNzUW.png" data-canonical-src="https://i.imgur.com/GZCNzUW.png" width="450" height="250" />
 
 
 [Back to top](#mediatek-x20-development-board-hardware-user-manual)
@@ -161,8 +161,8 @@ The box contains one MediaTek X20 Development Board and a quick start guide.
 |    17    |     CON5006     |   GPS Antenna connector                                   |
 |    18    |     SW3205      |   Switch for Auto boot and USB HOST set                   |
 
-<img src="http://i.imgur.com/ydQmi5t.png" data-canonical-src="http://i.imgur.com/ydQmi5t.png" width="400" height="270" />
-<img src="http://i.imgur.com/CFM1kTb.png" data-canonical-src="http://i.imgur.com/CFM1kTb.png" width="400" height="270" />
+<img src="https://i.imgur.com/ydQmi5t.png" data-canonical-src="https://i.imgur.com/ydQmi5t.png" width="400" height="270" />
+<img src="https://i.imgur.com/CFM1kTb.png" data-canonical-src="https://i.imgur.com/CFM1kTb.png" width="400" height="270" />
 
 [Back to top](#mediatek-x20-development-board-hardware-user-manual)
 
@@ -272,7 +272,7 @@ The GPS implementation is based on MTK connectivity chip MT6631 (U5003) supporti
 
 The MediaTek X20 Development Board supports a USB device port and three USB host ports via a USB MUX(U6503). The input channel( D+/D-) of USB MUX is connected to the P0 port of the SOC MT6797, and the two output channels(1D+/1D-,2D+/2D-) are connected to micro USB port and USB hub respectively. The three USB host ports are connected to the downstream ports of the USB hub.The control of U6503 is done via a software controlled GPIO (USB_SW_SEL, EINT9 from the SOC MT6797). When this signal is logic low, ‘0’, the USB data lines are routed to the Micro USB connector and the MT6797 P0 port is set to device mode. When ‘USB_SW_SEL’ is logic level high, ‘1’, the USB data lines are routed to U6401 (a 3-port USB HUB) and the MT6797 P0 port is set to host mode. The user can overwrite the software control by sliding switch 3 of dip-switch SW3205 to the ‘ON’ position. That action forces the USB–MUX (U6503) to route the USB data lines to the USB HUB. The overwrite option exists for the host mode only, you cannot hardware overwrite the MUX to force device mode.
 
-<img src="http://i.imgur.com/IUigl3x.png" data-canonical-src="http://i.imgur.com/IUigl3x.png" width="750" height="480" />
+<img src="https://i.imgur.com/IUigl3x.png" data-canonical-src="https://i.imgur.com/IUigl3x.png" width="750" height="480" />
 
 ### USB Host ports
 
@@ -621,7 +621,7 @@ The FM antenna signals are routed to the MT6631 (U5003), an integrated connectiv
 
 ### Block Diagram
 
-<img src="http://i.imgur.com/EzSF6WF.png" data-canonical-src="http://i.imgur.com/EzSF6WF.png" width="750" height="480" />
+<img src="https://i.imgur.com/EzSF6WF.png" data-canonical-src="https://i.imgur.com/EzSF6WF.png" width="750" height="480" />
 
 ### DC Power Input
 
@@ -630,13 +630,13 @@ The FM antenna signals are routed to the MT6631 (U5003), an integrated connectiv
 
 > Note: Please refer to the mechanical size of the DC plug below.The inside diameter of the plug is 1.7mm，the outer diameter of the plug is 4.75mm.The positive electrode of the DC plug is in the inside, and the negative pole is outside.
 
-<img src="http://i.imgur.com/7qEu1Jc.png" data-canonical-src="http://i.imgur.com/7qEu1Jc.png" width="250" height="160" />
+<img src="https://i.imgur.com/7qEu1Jc.png" data-canonical-src="https://i.imgur.com/7qEu1Jc.png" width="250" height="160" />
 
 ### Power Source Selection and Sequencing
 
 The user of the MediaTek X20 Development Board should never apply power to the board from J901 and the Low Speed Expansion connector at the same time. There is no active or passive mechanism on the MediaTek X20 Development Board to prioritize one source over the other.
 
-<img src="http://i.imgur.com/DDVMyTy.png" data-canonical-src="http://i.imgur.com/DDVMyTy.png" width="750" height="480" />
+<img src="https://i.imgur.com/DDVMyTy.png" data-canonical-src="https://i.imgur.com/DDVMyTy.png" width="750" height="480" />
 
 
 ### Voltage Rails
@@ -699,6 +699,6 @@ The user of the MediaTek X20 Development Board should never apply power to the b
 
 ### 2D Reference Drawing
 
-<img src="http://i.imgur.com/IdPzJTU.png" data-canonical-src="http://i.imgur.com/IdPzJTU.png" width="750" height="480" />
+<img src="https://i.imgur.com/IdPzJTU.png" data-canonical-src="https://i.imgur.com/IdPzJTU.png" width="750" height="480" />
 
 [Back to top](#mediatek-x20-development-board-hardware-user-manual)

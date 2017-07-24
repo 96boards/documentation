@@ -1,6 +1,6 @@
 ---
 title: Contribution Policy
-permalink: /documentation/Extras/ContributionPolicy.md/
+permalink: /documentation/Extras/ContributionPolicy.md.html
 ---
 # Contribution Policy
 

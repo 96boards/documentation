@@ -1,6 +1,6 @@
 ---
 title: Download Zephyr for Nitrogen
-permalink: /documentation/IoTEdition/nitrogen/downloads/Zephyr.md/
+permalink: /documentation/IoTEdition/nitrogen/downloads/Zephyr.md.html
 ---
 # Zephyr
 

@@ -1,6 +1,6 @@
 ---
 title: Linux Host Installation for HiKey960
-permalink: /documentation/ConsumerEdition/HiKey960/Installation/LinuxFastboot.md/
+permalink: /documentation/ConsumerEdition/HiKey960/Installation/LinuxFastboot.md.html
 ---
 # Linux Host
 
@@ -21,9 +21,9 @@ This section show how to install a new operating system to your HiKey960 using t
 
 **Materials**
 
-- [HiKey960](http://www.96boards.org/product/hikey960/)
+- [HiKey960](https://www.96boards.org/product/hikey960/)
 - USB Type-A (Host machine) to USB Type-C (96Boards) cable
-- [96Boards compliant power supply](http://www.96boards.org/product/power/)
+- [96Boards compliant power supply](https://www.96boards.org/product/power/)
 
 **Preperations**
 

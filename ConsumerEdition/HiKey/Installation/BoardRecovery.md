@@ -1,6 +1,6 @@
 ---
 title: BoardRecovery for HiKey
-permalink: /documentation/ConsumerEdition/HiKey/Installation/BoardRecovery.md/
+permalink: /documentation/ConsumerEdition/HiKey/Installation/BoardRecovery.md.html
 ---
 # HiKey Board Recovery
 

@@ -41,7 +41,7 @@ The command above will install the following four packages:
 
 ## Setting up hardware - Connecting Grove RGB backlight LCD
 
-<a href="" align="left" target="_blank"><img src="http://i.imgur.com/ZTatUeB.png" data-canonical-src="http://i.imgur.com/ZTatUeB.png" width="350" height="330" /></a>
+<a href="" align="left" target="_blank"><img src="https://i.imgur.com/ZTatUeB.png" data-canonical-src="https://i.imgur.com/ZTatUeB.png" width="350" height="330" /></a>
 
 ##  Download, build and run sample program:
 

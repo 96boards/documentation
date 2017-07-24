@@ -1,6 +1,6 @@
 ---
 title: Compare Consumer Edition(CE) 96Boards
-permalink: /documentation/ConsumerEdition/CE-Extras/Compare96BoardsCE.md/
+permalink: /documentation/ConsumerEdition/CE-Extras/Compare96BoardsCE.md.html
 ---
 # Compare Consumer Edition(CE) 96Boards
 
@@ -18,7 +18,7 @@ permalink: /documentation/ConsumerEdition/CE-Extras/Compare96BoardsCE.md/
 </thead>
 <tbody>
 	<tr>
-		<td><img src="http://i.imgur.com/mKjYKTH.png" data-canonical-src="http://i.imgur.com/mKjYKTH.png" width="135" height="40" /></td>
+		<td><img src="https://i.imgur.com/mKjYKTH.png" data-canonical-src="https://i.imgur.com/mKjYKTH.png" width="135" height="40" /></td>
 		<td><a href="https://en.wikipedia.org/wiki/System_on_a_chip"><b>SoC</a></td>
 		<td><a href="https://en.wikipedia.org/wiki/ARM_architecture"><b>Architecture&shy;</a></td>
 		<td><a href="https://en.wikipedia.org/wiki/Multi-core_processor"><b>Cores</a></td>
@@ -29,7 +29,7 @@ permalink: /documentation/ConsumerEdition/CE-Extras/Compare96BoardsCE.md/
 		<td><a href="https://en.wikipedia.org/wiki/Random-access_memory"><b>Type</a></td>
 	</tr>
 	<tr>
-		<td> <img src="http://i.imgur.com/0e7lsoO.png" data-canonical-src="http://i.imgur.com/0e7lsoO.png" width="70" height="50" /> <br> HiKey</td>
+		<td> <img src="https://i.imgur.com/0e7lsoO.png" data-canonical-src="https://i.imgur.com/0e7lsoO.png" width="70" height="50" /> <br> HiKey</td>
 		<td>HiSilicon<br>Kirin 620</td>
 		<td>ARM Cortex-A53</td>
 		<td>8</td>
@@ -40,7 +40,7 @@ permalink: /documentation/ConsumerEdition/CE-Extras/Compare96BoardsCE.md/
 		<td>LPDDR3</td>
 	</tr>
 	<tr>
-		<td><img src="http://i.imgur.com/4a5GXRd.png" data-canonical-src="http://i.imgur.com/4a5GXRd.png" width="70" height="50" /> <br> DragonBoard™ 410c</td>
+		<td><img src="https://i.imgur.com/4a5GXRd.png" data-canonical-src="https://i.imgur.com/4a5GXRd.png" width="70" height="50" /> <br> DragonBoard™ 410c</td>
 		<td>Qualcomm<br>Snapdragon 410</td>
 		<td>ARM Cortex-A53</td>
 		<td>4</td>
@@ -51,7 +51,7 @@ permalink: /documentation/ConsumerEdition/CE-Extras/Compare96BoardsCE.md/
 		<td>LPDDR3</td>
 	</tr>
 	<tr>
-		<td> <img src="http://i.imgur.com/ykySoFc.png" data-canonical-src="http://i.imgur.com/ykySoFc.png" width="70" height="50" /> <br> Bubblegum-96</td>
+		<td> <img src="https://i.imgur.com/ykySoFc.png" data-canonical-src="https://i.imgur.com/ykySoFc.png" width="70" height="50" /> <br> Bubblegum-96</td>
 		<td>Actions<br>s900</td>
 		<td>ARM Cortex-A53</td>
 		<td>4</td>
@@ -62,7 +62,7 @@ permalink: /documentation/ConsumerEdition/CE-Extras/Compare96BoardsCE.md/
 		<td>LPDDR3</td>
 	</tr>
 	<tr>
-		<td> <img src="http://i.imgur.com/kSjTguX.png" data-canonical-src="http://i.imgur.com/kSjTguX.png" width="70" height="50" /> <br> Mediatek X20</td>
+		<td> <img src="https://i.imgur.com/kSjTguX.png" data-canonical-src="https://i.imgur.com/kSjTguX.png" width="70" height="50" /> <br> Mediatek X20</td>
 		<td>Application Processor<br>Helio X20</td>
 		<td>2xARM Cortex-A72<br>4xARM Cortex-A53<br>4xARM Cortex-A53</td>
 		<td>10</td>

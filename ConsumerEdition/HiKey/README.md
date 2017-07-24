@@ -18,7 +18,7 @@ A comprehensive guide to using the [HiKey](https://www.96boards.org/products/ce/
 
 ## Documentation
 
-- [Getting Started](Quickstart/)
+- [Getting Started](GettingStarted/)
    - Learn about your HiKey board, how to prepare and set up for basic use
 - [Useful Guides](Guides/)
    - Execute unique configurations to customize your HiKey experience

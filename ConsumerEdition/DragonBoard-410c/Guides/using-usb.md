@@ -1,6 +1,6 @@
 ---
 title: Using USB Guide for DragonBoard-410c
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/using-usb.md/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/using-usb.md.html
 redirect_from: /db410c-getting-started/Guides/using-usb.md/
 ---
 # Using USB

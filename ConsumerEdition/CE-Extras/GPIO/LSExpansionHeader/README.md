@@ -26,12 +26,12 @@ If you are already familiar with the 96Boards low-speed expansion header, the in
 
 The 40 pin low-speed expansion header can be found on the board here (black protrusion, next to the 16 pin analog expansion header holes):
 
-<a href="" align="left" target="_blank"><img src="http://i.imgur.com/k4zh8Mo.png" data-canonical-src="http://i.imgur.com/k4zh8Mo.png" width="255" height="180" /></a>
+<a href="" align="left" target="_blank"><img src="https://i.imgur.com/k4zh8Mo.png" data-canonical-src="https://i.imgur.com/k4zh8Mo.png" width="255" height="180" /></a>
 
 Below is an image of the DragonBoard™ 410c(one of our 96Boards), and a diagram illustrating the interfaces available on the low-speed expansion header. Even though the DragonBoard 410c is used in this example, all 96Boards can be paired to this diagram.
 
-<a href="" align="left" target="_blank"><img src="http://i.imgur.com/yH9s441.png" data-canonical-src="http://i.imgur.com/yH9s441.png" width="180" height="240" /></a>
-<a href="" align="right" target="_blank"><img src="http://i.imgur.com/zo44YPE.jpg" data-canonical-src="http://i.imgur.com/zo44YPE.jpg" width="280" height="220" /></a>
+<a href="" align="left" target="_blank"><img src="https://i.imgur.com/yH9s441.png" data-canonical-src="https://i.imgur.com/yH9s441.png" width="180" height="240" /></a>
+<a href="" align="right" target="_blank"><img src="https://i.imgur.com/zo44YPE.jpg" data-canonical-src="https://i.imgur.com/zo44YPE.jpg" width="280" height="220" /></a>
 
 As you can see, this particular header is home to the many usable GPIO interfaces. In order to follow the [GPIO](), [I2C](), and [SPI]() example guides, you will need access to this header. Members of the 96Boards community and other third party vendors have created a variety of "Mezzanine" products to make accessing these interfaces easier. To read more about the line of Mezzanine products please visit the [Mezzanine Products Page](../../../MezzanineProducts/).
 

@@ -1,13 +1,13 @@
 ---
 title: How to hook up an SPI ethernet controller on 96boards
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/EnableSPIEthernetController.md/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/EnableSPIEthernetController.md.html
 redirect_from: /db410c-getting-started/Guides/EnableSPIEthernetController.md/
 ---
 # How to hook up an SPI ethernet controller on 96boards
 
 ## Reference Hardware Setup
 - [ENC28J60 Ethernet dongle](http://www.ebay.co.uk/itm/MiNi-ENC28J60-Ethernet-LAN-Network-Module-For-Arduino-SPI-AVR-PIC-LPC-STM32-/291694759068?hash=item43ea5ccc9c)
-- [Sensor board](http://www.96boards.org/product/sensors-mezzanine/)
+- [Sensor board](https://www.96boards.org/product/sensors-mezzanine/)
 
 ![](https://fileserver.linaro.org/owncloud/index.php/apps/files_sharing/ajax/publicpreview.php?x=2520&y=446&a=true&file=spi-ethernet-dongle.jpeg&t=k9n30ifZUDdNqru&scalingup=0)
 

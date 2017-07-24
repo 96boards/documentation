@@ -10,7 +10,7 @@ Learn about your Poplar board as well as how to prepare and set up for basic use
 ## Setup - What you will need
 
 **Need**
-- [Poplar Board](http://www.96boards.org/product/poplar/)
+- [Poplar Board](https://www.96boards.org/product/poplar/)
    - Board based on the HiSilicon Hi3798C V200 Processor
 - Power adapter
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter

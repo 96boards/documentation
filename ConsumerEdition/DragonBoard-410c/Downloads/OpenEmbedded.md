@@ -1,6 +1,6 @@
 ---
 title: OpenEmbedded Downloads for DragonBoard-410c
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/OpenEmbedded.md/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/OpenEmbedded.md.html
 redirect_from: /db410c-getting-started/Downloads/OpenEmbedded.md/
 ---
 # OpenEmbedded
@@ -30,4 +30,3 @@ Only download one root file system (Console or Desktop). You should match the ty
 | RPB-Wayland  | ([Desktop](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/rpb-weston-image-dragonboard-410c-*.rootfs.ext4.gz) / [Console](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/rpb-console-image-dragonboard-410c-*.rootfs.ext4.gz))     |
 
 Continue to [Installation page](../Installation/)
-

@@ -5,7 +5,7 @@ redirect_from: /documentation/ConsumerEdition/MediaTekX20/README.md/
 ---
 # Using the MediaTek X20
 
-A comprehensive guide to using the [MediaTek X20](http://www.96boards.org/product/mediatek-x20/) Consumer Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
+A comprehensive guide to using the [MediaTek X20](https://www.96boards.org/product/mediatek-x20/) Consumer Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
 ## Software
 

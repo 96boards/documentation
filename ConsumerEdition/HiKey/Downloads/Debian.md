@@ -1,6 +1,6 @@
 ---
 title: Debian Downloads for HiKey
-permalink: /documentation/ConsumerEdition/HiKey/Downloads/Debian.md/
+permalink: /documentation/ConsumerEdition/HiKey/Downloads/Debian.md.html
 ---
 # Debian
 

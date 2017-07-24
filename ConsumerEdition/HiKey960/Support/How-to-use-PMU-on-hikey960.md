@@ -1,6 +1,6 @@
 ---
 title: How to use PMU hardware events of ARM architecture on HiKey960
-permalink: /documentation/ConsumerEdition/HiKey960/Support/How-to-use-PMU-on-hikey960.md/
+permalink: /documentation/ConsumerEdition/HiKey960/Support/How-to-use-PMU-on-hikey960.md.html
 ---
 This application note describes how to use PMU hardware events of ARM architecture on HiKey960.
 

@@ -1,6 +1,6 @@
 ---
 title: Carbon Downloads - Zephyr
-permalink: /documentation/IoTEdition/carbon/downloads/Zephyr.md/
+permalink: /documentation/IoTEdition/carbon/downloads/Zephyr.md.html
 ---
 # Zephyr
 

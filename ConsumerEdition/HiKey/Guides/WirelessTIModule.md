@@ -1,6 +1,6 @@
 ---
 title: Configuring the wireless TI module (Debian) Guide for HiKey
-permalink: /documentation/ConsumerEdition/HiKey/Guides/WirelessTIModule.md/
+permalink: /documentation/ConsumerEdition/HiKey/Guides/WirelessTIModule.md.html
 ---
 # Configuring the wireless TI module (Debian)
 

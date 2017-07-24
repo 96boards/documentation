@@ -1,6 +1,6 @@
 ---
 title: Windows Host Installation for DragonBoard-410c
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/Installation/WindowsSD.md/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Installation/WindowsSD.md.html
 redirect_from: /db410c-getting-started/Installation/WindowsSD.md/
 ---
 ## Windows Host
@@ -44,14 +44,14 @@ This section show how to install an operating system to your DragonBoard™ 410c
 - Click the folder icon in the top right
 - Find your way to the appropriate `.img` file (This is why you need to remember the location of your extracted image.)
 
-<img src="http://i.imgur.com/cqk6LhL.png" data-canonical-src="http://i.imgur.com/cqk6LhL.png" width="300" height="150"/>
+<img src="https://i.imgur.com/cqk6LhL.png" data-canonical-src="https://i.imgur.com/cqk6LhL.png" width="300" height="150"/>
 
 - Insert your microSD card (through a USB SD card-reader, if necessary)
 - Select the correct device and click "write" There may be a warning about corrupting the device. Click "Yes" to proceed.
 - This process may take a few minutes, be patient and wait for a completion notice.
 - Upon completion you should see the following pop-up:
 
-<img src="http://i.imgur.com/HzYujlw.png" data-canonical-src="http://i.imgur.com/HzYujlw.png" width="150" height="100"/>
+<img src="https://i.imgur.com/HzYujlw.png" data-canonical-src="https://i.imgur.com/HzYujlw.png" width="150" height="100"/>
 
 - Eject SD Card and proceed to next **Step**
 
@@ -67,7 +67,7 @@ This section show how to install an operating system to your DragonBoard™ 410c
 
 #### Step 7: Install image onto DragonBoard 410c
 
-<img src="http://i.imgur.com/F18wlgU.png" data-canonical-src="http://i.imgur.com/F18wlgU.png" width="400" height="250"/>
+<img src="https://i.imgur.com/F18wlgU.png" data-canonical-src="https://i.imgur.com/F18wlgU.png" width="400" height="250"/>
 
 - If **Steps 1 - 6** were followed correctly, the above screen should be visible from your DragonBoard™ 410c
 - Select the image to install and click “Install” (or type “i”). OS will be installed into the eMMC memory

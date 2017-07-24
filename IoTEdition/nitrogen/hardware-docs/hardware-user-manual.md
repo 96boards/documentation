@@ -1,6 +1,6 @@
 ---
 title: Hardware User Manual for Nitrogen
-permalink: /documentation/IoTEdition/nitrogen/hardware-docs/hardware-user-manual.md/
+permalink: /documentation/IoTEdition/nitrogen/hardware-docs/hardware-user-manual.md.html
 ---
 # Carbon Hardware User Manual
 
