@@ -51,4 +51,4 @@ Based on a work at https://github.com/96Boards/documentation
 
 ***
 
-[View/Edit this page on Github](https://github.com/96boards/documentation/blob/master/)
+[View/Edit this page on Github](https://github.com/96boards/documentation/)
