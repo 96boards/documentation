@@ -18,7 +18,7 @@ http://uk.farnell.com/samtec/ftsh-105-01-l-dv/header-1-27mm-smd-10way/dp/1667759
 
 Once the connector is soldered on it should look something like this
 
-![](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/Configuration/JTAG/Screenshot%20(180).png?raw=true)
+![](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/Guides/JTAG/Screenshot%20(180).png?raw=true)
 
 ## JTAG interfaces
 

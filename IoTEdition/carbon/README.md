@@ -6,7 +6,7 @@ redirect_from:
 ---
 # Using the Carbon
 
-A comprehensive guide to using the [Carbon](https://www.96boards.org/product/Carbon/) IoT Edition board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
+A comprehensive guide to using the [Carbon](https://www.96boards.org/product/carbon/) IoT Edition board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
 ## Software
 
