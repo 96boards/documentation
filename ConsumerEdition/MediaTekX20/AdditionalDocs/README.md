@@ -1,7 +1,7 @@
 ---
 title: Additional Documentation for MediaTek X20
-permalink: /documentation/ConsumerEdition/MediaTekX20/
-redirect_from: /documentation/ConsumerEdition/MediaTekX20/README.md/
+permalink: /documentation/ConsumerEdition/MediaTekX20/AdditionalDocs/
+redirect_from: /documentation/ConsumerEdition/MediaTekX20/AdditionalDocs/README.md/
 ---
 # Additional Documentation
 
