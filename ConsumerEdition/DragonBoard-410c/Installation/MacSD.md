@@ -1,7 +1,7 @@
 ---
 title: Mac Host Installation for DragonBoard-410c
 permalink: /documentation/ConsumerEdition/DragonBoard-410c/Installation/MacSD.md.html
-redirect_from: /db410c-getting-started/
+redirect_from: /db410c-getting-started/Installation/MacSD.md/
 ---
 ## Mac OS X Host
 
