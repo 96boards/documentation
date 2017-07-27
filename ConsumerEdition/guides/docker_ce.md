@@ -1,6 +1,7 @@
 ---
 title: Instructions for Installing Docker on a Consumer Edition 96Boards
-permalink: /documentation/ConsumerEdition/CE-Extras/DockerCE.md.html
+permalink: /documentation/ConsumerEdition/guides/docker_ce.md.html
+redirect_from: /documentation/ConsumerEdition/CE-Extras/DockerCE.md.html/
 ---
 # Instructions for Installing Docker on a Consumer Edition 96Boards
 
