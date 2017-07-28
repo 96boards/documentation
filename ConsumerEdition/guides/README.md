@@ -1,6 +1,7 @@
 ---
 title: Guides
 permalink: /documentation/ConsumerEdition/guides/README.md
+redirect_from: /documentation/ConsumerEdition/CE-Extras/README.md/
 ---
 
 # Guides
