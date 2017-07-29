@@ -98,11 +98,24 @@ After flashing, ext4 partition should have populated with Linux Root File System
 ## 2.2) Booting Linux using U-Boot
 
 Now, Linux kernel needs to be complied and placed onto the SD card in order to allow U-Boot to load it. For 
-compiling Linux kernel, refer release notes [here](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)
+compiling Linux kernel, refer release notes [here](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/). 
 After compilation, generate U-Boot compatible Linux Image.
 
 ```shell
-$ ./skales/mkimage -A arm64 -O linux -C none -T kernel -a 0x80080000 -e 0x80080000 -n Dragonboard -d Image uImage
+$ sudo apt-get install u-boot-tools
+$ mkimage -A arm64 -O linux -C none -T kernel -a 0x80080000 -e 0x80080000 -n Dragonboard -d arch/arm64/boot/Image uImage
+```
+> Note: *arch/arm64/boot/Image* is inside the kernel directory
+
+Once the image has been created successfully, you should get something similar to following output
+
+```
+Image Name:   Dragonboard
+Created:      Sat Jul 29 15:15:27 2017
+Image Type:   AArch64 Linux Kernel Image (uncompressed)
+Data Size:    17349120 Bytes = 16942.50 kB = 16.55 MB
+Load Address: 80080000
+Entry Point:  80080000
 ```
 Copy generated **uImage** and **apq8016-sbc.dtb** to */boot* directory in SD card. 
 
