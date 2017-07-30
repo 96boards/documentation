@@ -1,6 +1,7 @@
 ---
 title: Disabling graphics interface (Debian)
-permalink: /documentation/ConsumerEdition/CE-Extras/Configuration/DisableGI.md.html
+permalink: /documentation/ConsumerEdition/guides/disable_gui.md.html
+redirect_from: /documentation/ConsumerEdition/CE-Extras/Configuration/DisableGI.md.html/
 ---
 # Disabling graphics interface (Debian)
 

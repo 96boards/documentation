@@ -10,5 +10,5 @@ Learn how to setup and build a variety of Carbon applications using a Linux host
 
 - [How to build the Shell Zephyr application from source](BuildShell.md)
    - A simple shell application that can be used over UART
-- [How to build the disco Zephyr application from source](BuildDisco.md)
+- [How to build the disco Zephyr application from source](BuildBlinky.md)
    - A simple LED 'disco' demo
