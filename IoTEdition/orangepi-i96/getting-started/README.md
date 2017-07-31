@@ -22,7 +22,7 @@ Learn about your Orange Pi i96 board as well as how to prepare and set up for ba
 
 The following subsections should describe how to get started with the Orange Pi i96 using the release build shipped with the boards. The Orange Pi i96 board is ready to use “out of the box” with a preinstalled version of the Debian Linux distribution.
 
-<img src="" data-canonical-src="" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/orangepi-i96/additional-docs/images/images-board/i96-1.JPG?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/orangepi-i96/additional-docs/images/images-board/i96-1.JPG?raw=true" width="250" height="250" />
 
 ## Features and User Manual
 
