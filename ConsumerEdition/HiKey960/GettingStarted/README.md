@@ -105,7 +105,7 @@ Board should boot up into AOSP.
 
 If you are already familiar with the HiKey960 board and would like to change out the stock operating system, please proceed to one of the following pages:
 
-- [HiKey960 96Boards Home page](https://www.96boards.org/product/HiKey960/)
+- [HiKey960 96Boards Home page](http://www.96boards.org/product/hikey960/)
 - [Downloads page](../Downloads/): This page lists all Linaro and 3rd party operating systems available for HiKey960
 - [Installation page](../Installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your HiKey960 board
 - [Board Recovery](../Installation/BoardRecovery.md)
