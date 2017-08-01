@@ -26,6 +26,10 @@ These guides will help to get you started with a variety of available on-boards 
 - [UART Serial Console Access](uart-serial-console.md)
 - [LEDs and Connectors](led-connectors.md)
 - [Using USB](using-usb.md)
+- [Device Tree Overlay](dt-overlays.md)
+	- Shows how to load device tree overlays using configfs
+- [Linux SD boot using U-Boot](uboot-linux-sd.md)
+	- Shows how to boot Linux from SD card using U-Boot
 
 ## Android
 
