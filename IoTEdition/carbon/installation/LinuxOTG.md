@@ -51,7 +51,7 @@ usb 1-2.1: SerialNumber: 3574364C3034
 
 ####**Step 2**: Build or Download a sample application in Zephyr
 
-[Build](../build/) or [Download](../Downloads/) an application and proceed to **Step 3**
+[Build](../build/) or [Download](../downloads/) an application and proceed to **Step 3**
 
 ####**Step 3**: Flash the application to Carbon
 
