@@ -35,7 +35,7 @@ Before accessing any GPIO, it needs to be exported using the following command:
 
 > Note: Each 96Boards uses different SoC(System On Chip) which has different GPIO pins exported. The following list
 specifies the GPIO pins exported by Linux kernel for different CE boards. For mapping these pins to LS expansion header pins,
-consult the board documentation availabe in [Products page](http://www.96boards.org/products/ce/)
+consult the board documentation availabe in [Products page](https://www.96boards.org/products/ce/)
 
 > **DragonBoard410c:** 36, 12, 13, 69, 115, 4, 24, 25, 35, 34, 28, 33  
 > **HiKey620:** 488, 489, 490, 491, 492, 415, 463, 495, 426, 433, 427, 434  

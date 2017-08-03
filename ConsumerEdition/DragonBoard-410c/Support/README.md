@@ -9,7 +9,7 @@ redirect_from:
 
 Please take advantage of the many DragonBoard 410c resources available to you through Qualcomm, 96Boards, Arrow, and Coursera.
 
-- [DragonBoard 410c Forum](https://www.96boards.org/forums/forum/products/dragonboard410c/)
+- [DragonBoard 410c Forum](https://discuss.96boards.org/c/products/dragonboard410c/)
    - The DragonBoard has its very own 96Boards forum. If you can't find a pre-existing thread that addresses your issue, start your own and let the community help out!
 - [Qualcomm Developer Network](https://developer.qualcomm.com/hardware/dragonboard-410c)
    - This developer network has a DragonBoard landing page with tutorial videos, tools, resources, its own forum, and a projects page
