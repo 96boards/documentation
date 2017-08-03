@@ -1,3 +1,9 @@
+---
+title: Additional Documentation for Orange Pi i96 
+permalink: /documentation/IoTEdition/orangepi-i96/additional-docs/
+redirect_from:
+- /documentation/IoTEdition/orangepi-i96/additional-docs/README.md/
+---
 # Board Images
 
 Each 96Boards development board must provide six images, 3 x High Definition and 3 x Standard Definition. These images should be sized and named accordingly. These images should be uploaded to this folder and made available to community for viewing and/or download.

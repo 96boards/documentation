@@ -1,3 +1,9 @@
+---
+title: Getting Started with Orange Pi i96
+permalink: /documentation/IoTEdition/orangepi-i96/getting-started/
+redirect_from:
+- /documentation/IoTEdition/orangepi-i96/getting-started/README.md/
+---
 # Getting Started
 
 Learn about your Orange Pi i96 board as well as how to prepare and set up for basic use
@@ -56,6 +62,5 @@ If you are already familiar with the Orange Pi i96 board and would like to chang
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
 Back to the [Orange Pi i96 documentation home page](../)
-   
-***   
 
+***   

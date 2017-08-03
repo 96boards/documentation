@@ -1,3 +1,9 @@
+---
+title: Hardware Documentation for Orange Pi i96 
+permalink: /documentation/IoTEdition/orangepi-i96/hardware-docs/
+redirect_from:
+- /documentation/IoTEdition/orangepi-i96/hardware-docs/README.md/
+---
 # Hardware Documentation
 
 Explore what makes your Orange Pi i96 unique, technical specifications, schematics, hardware notes and more... This page allows you to see what is under the "Orange Pi i96 hood" by offering static documentation published directly from the board vendors.

@@ -1,3 +1,9 @@
+---
+title: Downloads for Orange Pi i96 
+permalink: /documentation/IoTEdition/orangepi-i96/downloads/
+redirect_from:
+- /documentation/IoTEdition/orangepi-i96/downloads/README.md/
+---
 ## Downloads
 
 If you would like to switch the Operating System on your Orange Pi i96, update the existing software images on your board, or unbrick your board, this page provides links to some of the latest software downloads.
