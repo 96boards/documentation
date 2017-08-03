@@ -1,3 +1,9 @@
+---
+title: Documentation for Orange Pi i96
+permalink: /documentation/IoTEdition/orangepi-i96/
+redirect_from:
+- /documentation/IoTEdition/orangepi-i96/README.md/
+---
 # Using the Orange Pi i96
 
 A comprehensive guide to using the [Orange Pi i96](https://www.96boards.org/product/i96) Consumer Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.

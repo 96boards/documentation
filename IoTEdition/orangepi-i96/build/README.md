@@ -1,3 +1,9 @@
+---
+title: Build for the Orange Pi i96 
+permalink: /documentation/IoTEdition/orangepi-i96/build/
+redirect_from:
+- /documentation/IoTEdition/orangepi-i96/build/README.md/
+---
 # Build from Source
 
 Learn how to setup and build for the Orange Pi i96.
