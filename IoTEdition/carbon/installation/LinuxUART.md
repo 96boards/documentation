@@ -46,7 +46,7 @@ Device ID    : 0x0433 (STM32F401xD(E))
 
 ####**Step 2**: Build or Download a sample application in Zephyr
 
-[Build](../Building/) or [Download](../Downloads/) an application and proceed to **Step 3**
+[Build](../build/) or [Download](../downloads/) an application and proceed to **Step 3**
 
 ####**Step 3**: Flash the application to Carbon
 
