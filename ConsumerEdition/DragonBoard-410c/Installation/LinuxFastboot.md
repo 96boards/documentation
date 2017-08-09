@@ -21,12 +21,20 @@ This section show how to install a new operating system to your DragonBoard™ 4
 ***
 
 #### **Step 1**: Make sure fastboot is set up on host computer.
+##### You can install fastboot from source or using your distro package manager.
 
-- Android SDK “Tools only” for Linux can be downloaded <a href="http://developer.android.com/sdk" target="_blank">here</a>
-- The Linux “Tools Only” SDK download does not come with fastboot, you will need to use the Android SDK Manager to install platform-tools.
-- To do this follow the “SDK Readme.txt” instructions included in your SDK “Tools Only” download.
+- ###### From source:
+  - Android SDK “Tools only” for Linux can be downloaded <a href="http://developer.android.com/sdk" target="_blank">here</a>
+  - The Linux “Tools Only” SDK download does not come with fastboot, you will need to use the Android SDK Manager to install platform-tools.
+  - To do this follow the “SDK Readme.txt” instructions included in your SDK “Tools Only” download.
 
-If you are still having trouble setting up fastboot, <a href="https://youtu.be/W_zlydVBftA" target="_blank">click here</a> for a short tutorial video
+  If you are still having trouble setting up fastboot, <a href="https://youtu.be/W_zlydVBftA" target="_blank">click here</a> for a short tutorial video
+
+- ###### Or using a distro package manager:
+  ```
+  # Red Hat flavour (Fedora, CentOS)
+  $ sudo yum install android-tools
+  ```
 
 #### **Step 2**: Connect host computer to DragonBoard 410c
 
