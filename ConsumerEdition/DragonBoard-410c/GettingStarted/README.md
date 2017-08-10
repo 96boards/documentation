@@ -4,6 +4,7 @@ permalink: /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/
 redirect_from:
 - /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/README.md/
 - /db410c-getting-started/GettingStarted/README.md/
+- /products/ce/dragonboard410c/started/
 ---
 # Getting Started
 
