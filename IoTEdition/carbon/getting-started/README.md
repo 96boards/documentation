@@ -78,7 +78,7 @@ It's time to see what your Carbon can do. From here you can learn how to build y
 - [Downloads page](../downloads/): This page contains prebuilt OS and Application files, simply download and flash to get started!
 - [Building for Carbon](../build/): In a few simple steps, here you will learn how to build and flash your own application to the Carbon.
 - [Installation page](../installation/): Find instructions on how to flash new applications to your Carbon!
-- [Troubleshooting](../troubleshooting/)
+- [Troubleshooting](../support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
 Back to the [Carbon documentation home page](../)

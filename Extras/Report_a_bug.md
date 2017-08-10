@@ -1,6 +1,7 @@
 ---
 title: Report a Bug
 permalink: /documentation/Extras/Report_a_bug.md.html
+redirect_from: /documentation/Report_a_bug.md
 ---
 # How to report a bug
 

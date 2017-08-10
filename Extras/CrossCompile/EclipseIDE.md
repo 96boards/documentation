@@ -41,9 +41,9 @@ $ sudo apt-get dist-upgrade
 
 Before moving on to the next sections, you will need to install the latest version of the Eclipse integrated development environment (IDE). The following steps will walk you through this process.
 
-#### Step 1: Download Installer from [www.eclipse.org](www.eclipse.org)
+#### Step 1: Download Installer from [www.eclipse.org](http://www.eclipse.org)
 
-To do this we will need to dig our way through download buttons. Using your preferred web browser, go to “[www.eclipse.org](www.eclipse.org)” and click the Download button located at the top-right.
+To do this we will need to dig our way through download buttons. Using your preferred web browser, go to “[www.eclipse.org](http://www.eclipse.org)” and click the Download button located at the top-right.
 
 Insert <Screenshot 87>
 
