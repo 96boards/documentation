@@ -1,6 +1,7 @@
 ---
 title: Carbon Hardware User Manual
 permalink: /documentation/IoTEdition/carbon/hardware-docs/hardware-user-manual.md.html
+redirect_from: /documentation/IoTEdition/carbon/hardware-docs/HardwareUserManual.md
 ---
 # Carbon Hardware User Manual
 
@@ -21,7 +22,7 @@ permalink: /documentation/IoTEdition/carbon/hardware-docs/hardware-user-manual.m
    - Download a hex file through UART
 
 
-[Click Here](https://github.com/96boards/documentation/tree/master/IoTEdition/carbon/additional-docs/Images) for access to raw images used in this doc.
+[Click Here](https://github.com/96boards/documentation/tree/master/IoTEdition/carbon/additional-docs/images/) for access to raw images used in this doc.
 
 ***
 

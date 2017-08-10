@@ -1,6 +1,7 @@
 ---
 title: General Purpose Input/Output
-permalink: /documentation/ConsumerEdition/guides/gpio.md
+permalink: /documentation/ConsumerEdition/guides/gpio.md.html
+redirect_from: /documentation/Extras/ConsumerEdition/GPIO/Advanced/
 ---
 # General Purpose Input/Output
 
@@ -39,7 +40,7 @@ consult the board documentation availabe in [Products page](https://www.96boards
 
 > **DragonBoard410c:** 36, 12, 13, 69, 115, 4, 24, 25, 35, 34, 28, 33  
 > **HiKey620:** 488, 489, 490, 491, 492, 415, 463, 495, 426, 433, 427, 434  
-> **Bubblegum:** 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 155, 154 
+> **Bubblegum:** 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 155, 154
 
 After exporting GPIO, move into that gpio directory
 ```shell

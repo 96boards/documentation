@@ -3,6 +3,7 @@ title: Carbon Hardware User Manual
 permalink: /documentation/IoTEdition/carbon/support/
 redirect_from:
 - /documentation/IoTEdition/carbon/support/README.md/
+- /documentation/IoTEdition/carbon/troubleshooting/
 ---
 # Troubleshooting
 
