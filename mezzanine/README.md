@@ -13,7 +13,7 @@ Coming Soon...
 
 ## Boards
 
-- [STM32 Sensor mezzanine board](STM32/)
+- [STM32 Sensor mezzanine board](stm32/)
    - The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU
 - [Linker mezzanine card starter kit](LinkerMezzanineStarterKit/)
    - 96Boards starter kit with Linker mezzanine card and loft modules
