@@ -1,9 +1,8 @@
 ---
 title: Additional Docs for DragonBoard-410c
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/AdditionalDocs/
 redirect_from:
-- /documentation/ConsumerEdition/DragonBoard-410c/README.md/
-- /db410c-getting-started/README.md/
+- /documentation/ConsumerEdition/DragonBoard-410c/AdditionalDocs/README.md/
 ---
 # Board Images
 
@@ -18,3 +17,9 @@ Each 96Boards development board must provide six images, 3 x High Definition and
 - BoardName_Front_SD
 - BoardName_Back_SD
 - BoardName_Angle_SD
+
+***
+
+[Board Images](Images/Images_Board/)
+[Hardware User Manual Images](Images/Images_HWUserManual/)
+[Wiki Images](Images/Images_Wiki/)

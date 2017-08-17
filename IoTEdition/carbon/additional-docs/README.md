@@ -10,7 +10,7 @@ Explore what makes your Carbon unique by checking out technical specifications, 
 
 ## User Guides
 
-- Hardware User Manual ([View](../hardware-docs/HardwareUserManual.md))
+- Hardware User Manual ([View](../hardware-docs/hardware-user-manual.md))
 
 ***
 
