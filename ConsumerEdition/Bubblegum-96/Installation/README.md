@@ -53,7 +53,7 @@ This method requires the following hardware:
 - Host machine (Ubuntu/Debian system  with kernel version > 3.16.0)
 - USB cable Type-A to Type-A
 - USB to microUSB cable
-- Serial console with converter board (Recommended to use [Serial Console Mezzanine](../../../mezzanine/uartserial/))
+- Serial console with converter board (Recommended to use [Serial Console Mezzanine](../../../MezzanineProducts/UARTSerial/))
 - USB Thumb drive
 - USB Mouse and/or keyboard (not required to perform flash)
 - HDMI Monitor with full size HDMI cable (not required to perform flash)
