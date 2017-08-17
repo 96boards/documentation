@@ -7,29 +7,27 @@ redirect_from:
 ---
 # Compare Consumer Edition(CE) 96Boards
 
-### Quick Comparison - CPU, GPU, and Memory
-
 <table align="center">
 <thead>
 	<tr>
 		<td></td>
-		<td><b></td>
-		<td colspan="3"><b>CPU</td>
-		<td><b></td>
-		<td colspan="4"><b>RAM</td>
+		<td></td>
+		<td colspan="3">CPU</td>
+		<td></td>
+		<td colspan="4">RAM</td>
 	</tr>
 </thead>
 <tbody>
 	<tr>
 		<td><img src="https://i.imgur.com/mKjYKTH.png" data-canonical-src="https://i.imgur.com/mKjYKTH.png" width="135" height="40" /></td>
-		<td><a href="https://en.wikipedia.org/wiki/System_on_a_chip"><b>SoC</a></td>
-		<td><a href="https://en.wikipedia.org/wiki/ARM_architecture"><b>Architecture&shy;</a></td>
-		<td><a href="https://en.wikipedia.org/wiki/Multi-core_processor"><b>Cores</a></td>
-		<td><a href=""><b>Frequency&shy;</a></td>
-		<td><a href="https://en.wikipedia.org/wiki/Graphics_processing_unit"><b>GPU</a></td>
-		<td><a href="https://en.wikipedia.org/wiki/Random-access_memory"><b>Size&shy;</a></td>
-		<td><a href="https://en.wikipedia.org/wiki/Random-access_memory"><b>Data rate</a></td>
-		<td><a href="https://en.wikipedia.org/wiki/Random-access_memory"><b>Type</a></td>
+		<td><a href="https://en.wikipedia.org/wiki/System_on_a_chip">SoC</a></td>
+		<td><a href="https://en.wikipedia.org/wiki/ARM_architecture">Architecture&shy;</a></td>
+		<td><a href="https://en.wikipedia.org/wiki/Multi-core_processor">Cores</a></td>
+		<td><a href="">Frequency&shy;</a></td>
+		<td><a href="https://en.wikipedia.org/wiki/Graphics_processing_unit">GPU</a></td>
+		<td><a href="https://en.wikipedia.org/wiki/Random-access_memory">Size&shy;</a></td>
+		<td><a href="https://en.wikipedia.org/wiki/Random-access_memory">Data rate</a></td>
+		<td><a href="https://en.wikipedia.org/wiki/Random-access_memory">Type</a></td>
 	</tr>
 	<tr>
 		<td> <img src="https://i.imgur.com/0e7lsoO.png" data-canonical-src="https://i.imgur.com/0e7lsoO.png" width="70" height="50" /> <br> HiKey</td>
@@ -89,6 +87,7 @@ redirect_from:
 </tbody>
 </table>
 
+### Quick Comparison - CPU, GPU, and Memory
 ***
 
 ## HiKey
