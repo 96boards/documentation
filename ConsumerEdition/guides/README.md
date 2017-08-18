@@ -1,7 +1,9 @@
 ---
 title: Guides
-permalink: /documentation/ConsumerEdition/guides/README.md
-redirect_from: /documentation/ConsumerEdition/CE-Extras/README.md/
+permalink: /documentation/ConsumerEdition/guides/
+redirect_from:
+ - /documentation/ConsumerEdition/CE-Extras/README.md/
+ - /documentation/ConsumerEdition/guides/README.md/
 ---
 
 # Guides

@@ -15,7 +15,7 @@ This instruction set can be paired with one of our [96Boards Blogs from David Ma
 ## Assumptions
 
 - Knowledge on how to use Eclipse as an Integrated Development Environment (IDE).
-- Previously installed command line cross compilation tools ([Commandline instructions set](Commandline.md))
+- Previously installed command line cross compilation tools ([Commandline instructions set](CommandLine.md))
 - Cross compiling host computer is X86 based running Linux, either Ubuntu 16.04, Debian Jessie, or Debian Testing with Jessie cross compiling tools installed. (other versions of Linux will have issues getting ssh keys working, it can be done but it’s “complex”, I”m will not try to this it here)
 - You are cross compiling for 96Boards - either 32bit or 64bit ARM.
 
@@ -41,9 +41,9 @@ $ sudo apt-get dist-upgrade
 
 Before moving on to the next sections, you will need to install the latest version of the Eclipse integrated development environment (IDE). The following steps will walk you through this process.
 
-#### Step 1: Download Installer from [www.eclipse.org](http://www.eclipse.org)
+#### Step 1: Download Installer from [Eclipse](http://www.eclipse.org/home/index.php)
 
-To do this we will need to dig our way through download buttons. Using your preferred web browser, go to “[www.eclipse.org](http://www.eclipse.org)” and click the Download button located at the top-right.
+To do this we will need to dig our way through download buttons. Using your preferred web browser, go to “[Eclipse](http://www.eclipse.org/home/index.php)” and click the Download button located at the top-right.
 
 Insert <Screenshot 87>
 

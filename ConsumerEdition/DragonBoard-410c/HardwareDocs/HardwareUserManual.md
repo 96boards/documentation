@@ -83,7 +83,7 @@ redirect_from: /db410c-getting-started/HardwareDocs/HardwareUserManual.md/
 - Special care when using USB
 - Statements regarding FCC
 
-[Click Here](/AdditionalDocs/Images) for access to raw images used in this doc.
+[Click Here](../AdditionalDocs/Images/Images_HWUserManual/) for access to raw images used in this doc.
 
 ***
 
