@@ -74,8 +74,8 @@ The following subsections should describe how to get started with the Bubblegum-
 
 **The Bubblegum-96 comes preloaded Android and can be up and running with a few simple steps:**
 
-- Connect the Bubblegum-96 to your [display with the HDMI cable](MonitorHDMI.md). It is important to do this first because the monitor will not detect the board if it is connected after starting. Ensure that the source for the display is switched to the HDMI port you are using
-- Connect the [USB keyboard and mouse](USBKeyBoardMouse.md). Do not connect the USB OTG port to your computer – this will prevent the keyboard and mouse from operating. The USB OTG port is the micro USB connector on the board
+- Connect the Bubblegum-96 to your [display with the HDMI cable](). It is important to do this first because the monitor will not detect the board if it is connected after starting. Ensure that the source for the display is switched to the HDMI port you are using
+- Connect the [USB keyboard and mouse](). Do not connect the USB OTG port to your computer – this will prevent the keyboard and mouse from operating. The USB OTG port is the micro USB connector on the board
 - Connect the power supply to the Bubblegum-96.
 
 Once you plug the power supply into a power outlet, the board will start the booting process. You should see Android boot up.
@@ -90,7 +90,7 @@ If you are already familiar with the Bubblegum-96 board and would like to change
 
 - [Downloads page**](../Downloads/): This page lists all Linaro and 3rd party operating systems available for HiKey
 - [Installation page](../Installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your Bubblegum-06 board
-- [Board Recovery](../Installation/BoardRecovery.md)
+- [Board Recovery]()
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 - [Troubleshooting](../Support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
