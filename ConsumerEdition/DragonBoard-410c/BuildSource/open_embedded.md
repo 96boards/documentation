@@ -6,9 +6,9 @@ This page provides instructions to get started with OpenEmbedded and the Yocto P
 
 This wiki is not an introduction on OpenEmbedded or Yocto Project. If you are not familiar with OpenEmbedded and the Yocto Project, 
 it is very much recommended to read the appropriate documentation first. For example, you can start with:
-* http://openembedded.org/wiki/Main_Page
-* http://yoctoproject.org/
-* https://www.yoctoproject.org/documentation
+* [http://openembedded.org/wiki/Main_Page](http://openembedded.org/wiki/Main_Page)
+* [http://yoctoproject.org/](http://yoctoproject.org/)
+* [https://www.yoctoproject.org/documentation](https://www.yoctoproject.org/documentation)
 
 In this wiki, we assume that the reader is familiar with basic concepts of OpenEmbedded.
 
