@@ -43,12 +43,11 @@ In order to successfully set up your build environment, you will need to install
 
 **Step 2**: Visit the OpenEmbedded (Getting Started) wiki to see which distribution specific dependencies you will need
 
-http://www.openembedded.org/wiki/Getting_started
+[http://www.openembedded.org/wiki/Getting_started](http://www.openembedded.org/wiki/Getting_started)
 
 **Step 3**: Install 96Boards specific dependencies (Case specific)
 
 Setting up the build environment will first search for `whiptail`, if it is not present then it will search for `dialog`. You only need one of the following packages to ensure your setup-environement runs correctly:
-
 
 `$ sudo apt-get install whiptail`
 
@@ -56,19 +55,14 @@ or
 
 `$ sudo apt-get install dialog`
 
-**Please Note**: If you are running Ubuntu 16.04 you will need to add the following line to your `/etc/apt/sources.list`
-
-`deb http://archive.ubuntu.com/ubuntu/ xenial universe`
+**Please Note**: Certain version of Ubuntu / Debian may require the following lines be added to your `/etc/apt/sources.list`. Executing the following commands will append these lines to your source.list.
 
 ```shell
-$ cd /etc/apt/
-#vim text editor is used in this example
-#sudo is used to allow editing, sources.list is set to read only
-$ sudo vim sources.list
+$ echo "deb http://deb.debian.org/debian jessie main" | sudo tee -a /etc/apt/sources.list
+$ echo "deb-src http://deb.debian.org/debian jessie main" | sudo tee -a /etc/apt/sources.list
 ```
 
 All required dependencies should now be installed on your host environment, you are ready to begin your build environment setup.
-
 
 # Setup the build environment
 
