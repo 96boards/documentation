@@ -22,7 +22,7 @@ st time to swapping out your OS
 | [Force display resolution and bypass EDID](ForceDisplayRes.md) | Learn how to force a diplay resolution                                                                                     |
 | [Enabling SPI on Dragonboard 410c with SPIDEV](EnableSPI.md)   | Learn to enable SPI using SPIDEV                                                                                           |
 | [Create custom GPT](GPT.md)                                    | Learn to create a custom GUID Partition table                                                                              |
-| [UART Serial Console Access](uart-serial-console.md            | This guide will walk you through gaining access to the Serial Console available through on board UART                      |
+| [UART Serial Console Access](uart-serial-console.md)           | This guide will walk you through gaining access to the Serial Console available through on board UART                      |
 | [LEDs and Connectors](led-connectors.md)                       | Basic walkthrough of the onboard LEDs and connectors                                                                       |
 | [Using USB](using-usb.md)                                      | An in depth look at the onboard USB connectors and how to use them                                                         |
 | [Device Tree Overlay](dt-overlays.md)                          | Shows how to load device tree overlays using configfs                                                                      |
