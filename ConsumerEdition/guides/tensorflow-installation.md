@@ -77,7 +77,7 @@ or
 - Aarch64 bit device >= 2GB
 - [96Boards Compliant Power Supply](http://www.96boards.org/product/power/)
 
-##2.2 Description
+## 2.2 Description
 
 If you’re installing Tensorflow onto a platform that does not support the installation of Bazel, you can install the core C++ Tensorflow runtimes into a static library. 
 It is important to note that this static library will not contain Python or other language bindings, and will also not contain GPU support. This guide will allow you to compile Tensorflow and Protobuf libraries which can be linked to other external applications.
