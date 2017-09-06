@@ -25,7 +25,7 @@ If Tensorflow is installed through the static libraries then Tensorflows Python 
 
 ***
 
-#1) Tensorflow with Bazel
+# 1) Tensorflow with Bazel
 
 ## 1.1 Hardware requirements
 
