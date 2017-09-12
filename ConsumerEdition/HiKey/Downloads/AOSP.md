@@ -30,11 +30,11 @@ permalink: /documentation/ConsumerEdition/HiKey/Downloads/AOSP.md.html
 | hisi-idt.py       | [Download](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/hisi-idt.py)                 |
 
 
-|   Latest build files    |    [Build Folder](http://builds.96boards.org/releases/hikey/linaro/aosp/latest/)                  |
-|:------------------------|:--------------------------------------------------------------------------------------------------|
-|boot_fat.uefi.img.tar.xz | [Download](http://builds.96boards.org/releases/hikey/linaro/aosp/latest/boot_fat.uefi.img.tar.xz) |
-|system.img.tar.xz        | [Download](http://builds.96boards.org/releases/hikey/linaro/aosp/latest/system.img.tar.xz)        |
-|userdata.img.tar.xz      | [4G](http://builds.96boards.org/releases/hikey/linaro/aosp/latest/userdata-4gb.img.tar.xz) / [8G](http://builds.96boards.org/releases/hikey/linaro/aosp/latest/userdata-8gb.img.tar.xz)                                    |
-|cache.img.tar.xz         | [Download](http://builds.96boards.org/releases/hikey/linaro/aosp/latest/cache.img.tar.xz)         |
+| Latest build files        | [Build Folder](http://builds.96boards.org/snapshots/hikey/linaro/aosp-master/latest/)                 |
+| :------------------------ | :--------------------------------------------------------------------------------------------------   |
+| boot_fat.uefi.img.tar.xz  | [Download](http://builds.96boards.org/snapshots/hikey/linaro/aosp-master/latest/boot_fat.uefi.img.xz) |
+| system.img.tar.xz         | [Download](http://builds.96boards.org/snapshots/hikey/linaro/aosp-master/latest/system.img.xz)        |
+| userdata.img.tar.xz       | [Download](http://builds.96boards.org/snapshots/hikey/linaro/aosp-master/latest/userdata.img.xz)      |
+| cache.img.tar.xz          | [Download](http://builds.96boards.org/snapshots/hikey/linaro/aosp-master/latest/cache.img.xz)         |
 
 ### Continue to [Installation page](../Installation/)
