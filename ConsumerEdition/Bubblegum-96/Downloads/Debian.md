@@ -12,7 +12,7 @@ permalink: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Debian.md.html
 
 |   SD Card Image    |      |
 |:------------------|:-----------------------|
-| Chinese User | [Download](https://pan.baidu.com/s/1jHW2s2U); Password: vgwc|
+| Chinese User | [Download](https://pan.baidu.com/s/1pKMvUbT); Password: u3fx|
 | Global User | [Download](https://mega.nz/#!w5YHwYLb!8NdsJXlTyHI_fGK50PvZsLeTifzSc3IQ7IdyRKbjwtM) |
 |Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)       |
 
