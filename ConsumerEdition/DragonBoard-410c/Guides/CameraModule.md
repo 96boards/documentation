@@ -21,7 +21,7 @@ The OV5645 is a 5MP MIPI CSI2 camera sensor. The driver supports three sensor mo
 * 1920x1080 30fps (cropped from full frame)
 * 1280x960 30fps
 
-The driver was accepted upstream and is expected in the Linux Kernel v4.13. It is also backported in the Linaro releases kernel branches.
+The driver was accepted upstream and was merged in the Linux Kernel v4.12. It is also backported in the Linaro releases kernel branches.
 
 ## CAMSS
 
@@ -60,13 +60,13 @@ The driver supports:
   * Cropping. Configuration of the VFE Encoder Crop module.
 * Concurrent and independent usage of two data inputs - could be camera sensors and/or TG.
 
-The driver is under review in linux-media upstreaming list.
+The driver was accepted upstream and is expected in the Linux Kernel v4.14. It is also backported in the Linaro releases kernel branches.
 
 ## CCI
 
 The CCI is a I2C controller dedicated for camera control.
 
-The current driver is a version which originates from QC Android camera driver and is now separated from the CAMSS driver and compiled on Linux. For this another V4L2 driver and media device are created - this is only a temporary work to enable control on the camera sensor. Proper implementation will follow.
+The driver is implemented as an I2C adapter driver and will be upstreemed.
 
 ## Enable camera
 
@@ -80,11 +80,11 @@ Make sure that the following package is installed:
 
 To ensure that the sensor is properly connected and detected, you can inspect the output of the following command:
 
-    sudo media-ctl -d /dev/media1 -p
+    sudo media-ctl -d /dev/media0 -p
 
 If everything is ok, you should see something like this:
 ````
-- entity 87: ov5645 1-0076 (1 pad, 1 link)
+- entity 87: ov5645 4-0076 (1 pad, 1 link)
              type V4L2 subdev subtype Sensor flags 0
              device node name /dev/v4l-subdev10
         pad0: Source
@@ -98,16 +98,16 @@ If everything is ok, you should see something like this:
 
 You need to configure the Media Controller pipeline: link CSIPHY to CSID, CSID to ISPIF, ISPIF to VFE. Then configure formats on all entities in the pipeline. For direct dump to memory (RDI channels) this looks like this:
 
-    sudo media-ctl -d /dev/media1 -l '"msm_csiphy0":1->"msm_csid0":0[1],"msm_csid0":1->"msm_ispif0":0[1],"msm_ispif0":1->"msm_vfe0_rdi0":0[1]'
-    sudo media-ctl -d /dev/media1 -V '"ov5645 1-0076":0[fmt:UYVY8_2X8/1920x1080 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1920x1080 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1920x1080 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1920x1080 field:none],"msm_vfe0_rdi0":0[fmt:UYVY8_2X8/1920x1080 field:none]'
+    sudo media-ctl -d /dev/media0 -l '"msm_csiphy0":1->"msm_csid0":0[1],"msm_csid0":1->"msm_ispif0":0[1],"msm_ispif0":1->"msm_vfe0_rdi0":0[1]'
+    sudo media-ctl -d /dev/media0 -V '"ov5645 4-0076":0[fmt:UYVY8_2X8/1920x1080 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1920x1080 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1920x1080 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1920x1080 field:none],"msm_vfe0_rdi0":0[fmt:UYVY8_2X8/1920x1080 field:none]'
 
 At this point the pipeline should be configured and ready to be used by any application that supports V4L2. For example, you can use GStreamer to take a JPEG picture:
 
-    gst-launch-1.0 v4l2src device=/dev/video0 num-buffers=1 ! 'video/x-raw,format=UYVY,width=1920,height=1080,framerate=30/1' ! jpegenc ! filesink location=image01.jpg
+    gst-launch-1.0 v4l2src device=/dev/video0 num-buffers=1 ! 'video/x-raw,format=UYVY,width=1920,height=1080' ! jpegenc ! filesink location=image01.jpg
 
 Or you can use GStreamer to show a live preview from the camera:
 
-    gst-launch-1.0 v4l2src ! glimagesink
+    gst-launch-1.0 v4l2src ! 'video/x-raw,format=UYVY,width=1920,height=1080' ! glimagesink
 
 If you have a second camera sensor and intend to use it concurrently then link and configure another pipeline which includes the second camera and the unused entities. Use a v4l2 application the same way only pointing the correct video device node used in this pipeline.
 
@@ -115,15 +115,15 @@ If you have a second camera sensor and intend to use it concurrently then link a
 
 Pipeline configuration for the format conversion looks like this:
 
-    sudo media-ctl -d /dev/media1 -l '"msm_csiphy0":1->"msm_csid0":0[1],"msm_csid0":1->"msm_ispif0":0[1],"msm_ispif0":1->"msm_vfe0_pix":0[1]'
+    sudo media-ctl -d /dev/media0 -l '"msm_csiphy0":1->"msm_csid0":0[1],"msm_csid0":1->"msm_ispif0":0[1],"msm_ispif0":1->"msm_vfe0_pix":0[1]'
 
 Format configuration for NV16/NV61 output:
 
-    sudo media-ctl -d /dev/media1 -V '"ov5645 1-0076":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":1[fmt:UYVY8_2X8/1280x960 field:none]'
+    sudo media-ctl -d /dev/media0 -V '"ov5645 4-0076":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":1[fmt:UYVY8_2X8/1280x960 field:none]'
 
 Format configuration for NV12/NV21 output (the format on msm_vfe0_pix source pad - for NV12/NV21 must be UYVY8_1_5_X8 - must be set explicitly):
 
-    sudo media-ctl -d /dev/media1 -V '"ov5645 1-0076":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":1[fmt:UYVY8_1_5X8/1280x960 field:none]'
+    sudo media-ctl -d /dev/media0 -V '"ov5645 4-0076":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":1[fmt:UYVY8_1_5X8/1280x960 field:none]'
 
 And similar Gstreamer pipeline for a JPEG picture:
 
@@ -133,25 +133,24 @@ And similar Gstreamer pipeline for a JPEG picture:
 
 Format configuration for NV12/NV21 with downscale ratio 2x. The compose element on msm_vfe0_pix sink pad defines the output size from the scaler. Syntax is (left,top)/widthxheight and only width and height are valid as this is scaling only. Downscaling with up to 16x ratio is supported:
 
-    media-ctl -d /dev/media1 -V '"ov5645 1-0076":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none compose:(0,0)/640x480],"msm_vfe0_pix":1[fmt:UYVY8_1_5X8/640x480 field:none]'
+    media-ctl -d /dev/media0 -V '"ov5645 4-0076":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none compose:(0,0)/640x480],"msm_vfe0_pix":1[fmt:UYVY8_1_5X8/640x480 field:none]'
 
 ### Crop
 
 Format configuration for NV12/NV21 with crop of the bottom right corner. The crop element on msm_vfe0_pix source pad defines the cropped area. Syntax is (left,top)/widthxheight and all fields are valid:
 
-    media-ctl -d /dev/media1 -V '"ov5645 1-0076":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":1[fmt:UYVY8_1_5X8/320x240 field:none crop:(960,720)/320x240]'
+    media-ctl -d /dev/media0 -V '"ov5645 4-0076":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":1[fmt:UYVY8_1_5X8/320x240 field:none crop:(960,720)/320x240]'
 
 ### Scale + crop
 
 Format configuration for NV12/NV21 with downscale ratio 2x and crop of the center area. Scaling is done first and then cropping (scaler module is in front of the crop module in the hardware pipeline of the VFE):
 
-    media-ctl -d /dev/media1 -V '"ov5645 1-0076":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none compose:(0,0)/640x480],"msm_vfe0_pix":1[fmt:UYVY8_1_5X8/320x240 field:none crop:(160,120)/320x240]'
+    media-ctl -d /dev/media0 -V '"ov5645 4-0076":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none compose:(0,0)/640x480],"msm_vfe0_pix":1[fmt:UYVY8_1_5X8/320x240 field:none crop:(160,120)/320x240]'
 
 ## Video record pipeline
 
-Starting with XX release a video recording GStreamer pipeline is supported involving the camera and video encoder. Currently this has the following limitations:
+Starting with 17.06 release a video recording GStreamer pipeline is supported involving the camera and video encoder. Currently this has the following limitations:
 
-* The frame data must be vertically aligned to 32 lines. The scale or crop modules in VFE can be used to achieve this.
 * A GStreamer video encoder plugin is needed which is not a part of the release. To enable this the user must patch and rebuild `gstreamer1.0-plugins-good` package - this is recommended for advanced users only. Instructions are available in the release notes.
 
 Example GStreamer pipeline for video recording:
@@ -173,7 +172,7 @@ Then, enable the test generator:
 
 Then, configure the pipeline:
 
-    sudo media-ctl -d /dev/media1 -l '"msm_csid0":1->"msm_ispif0":0[1],"msm_ispif0":1->"msm_vfe0_rdi0":0[1]'
-    sudo media-ctl -d /dev/media1 -V '"msm_csid0":1[fmt:UYVY8_2X8/1920x1080 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1920x1080 field:none],"msm_vfe0_rdi0":0[fmt:UYVY8_2X8/1920x1080 field:none]'
+    sudo media-ctl -d /dev/media0 -l '"msm_csid0":1->"msm_ispif0":0[1],"msm_ispif0":1->"msm_vfe0_rdi0":0[1]'
+    sudo media-ctl -d /dev/media0 -V '"msm_csid0":1[fmt:UYVY8_2X8/1920x1080 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1920x1080 field:none],"msm_vfe0_rdi0":0[fmt:UYVY8_2X8/1920x1080 field:none]'
 
 Finally, you can use any v4l2 application, such as GStreamer.
