@@ -665,18 +665,18 @@ revision of the 410c board
 
 |  PIN  |  Function       |    410c Signals                        |
 |------:|----------------:|---------------------------------------:|
-|   1   |   SPKR_OUT_P    |    PM8916 Audio signal CDC_SPKDRV_P    |
-|   2   |   SPKR_OUT_M    |    PM8916 Audio signal CDC_SPKDRV_M D  |
+|   1   |   SPKR_OUT_P    |   PM8916 Audio signal CDC_SPKDRV_P     |
+|   2   |   SPKR_OUT_M    |   PM8916 Audio signal CDC_SPKDRV_M D   |
 |   3   |   VPH_PWR       |   A 3.7V from U12 buck switcher        |
-|   4   |   GND           |    Ground                              |
+|   4   |   GND           |   Ground                               |
 |   5   |   GND_CFILT     |   PM8916 Audio signal CDC_GND_CFILT    |
-|   6   |   CDC_MIC2_P    |    PM8916 Audio signal CDC_IN2_P       |
-|   7   |   CDC_MIC3_P    |    PM8916 Audio signal CDC_IN3_P       |
-|   8   |   CDC_HPH_R     |    PM8916 Audio signal CDC_HPH_R       |
+|   6   |   CDC_MIC2_P    |   PM8916 Audio signal CDC_IN2_P        |
+|   7   |   CDC_MIC3_P    |   PM8916 Audio signal CDC_IN3_P        |
+|   8   |   CDC_HPH_R     |   PM8916 Audio signal CDC_HPH_R        |
 |   9   |   CDC_HPH_REF   |   PM8916 Audio signal CDC_HPH_REF      |
-|   10  |   CDC_HPH_L     |    PM8916 Audio signal CDC_HPH_L       |
-|   11  |   CDC_MIC_BIAS1 |    PM8916 Audio signal CDC_MIC_BIAS1   |
-|   12  |   N.C.          |                                        |
+|   10  |   CDC_HPH_L     |   PM8916 Audio signal CDC_HPH_L        |
+|   11  |   CDC_HS_DET    |   PM8916 Audio signal CDC_HS_DET       |
+|   12  |   CDC_MIC_BIAS1 |   PM8916 Audio signal CDC_MIC_BIAS1    |
 |   13  |   N.C.          |                                        |
 |   14  |   N.C.          |                                        |
 |   15  |   FM_RX_ANT     |    WCN3620 RF signal FM_HS_RX          |
