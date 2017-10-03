@@ -23,7 +23,7 @@ The DragonBoard 410c comes pre-installed with Android (if purchased in a kit, OS
 Other operating systems supported on DragonBoard 410c, offered by partners.
 
 - [Android](Android.md)
-- [Ubuntu Core](https://developer.ubuntu.com/en/snappy/start/dragonboard-410c/)
+- [Ubuntu Core](https://developer.ubuntu.com/core/get-started/dragonboard-410c)
 - [Windows IoT Core](http://linaro.co/db41db410cwindowsgetstarted)
 
 ***
