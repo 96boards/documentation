@@ -24,6 +24,6 @@ Other operating systems supported on DragonBoard 410c, offered by partners.
 
 - [Android](Android.md)
 - [Ubuntu Core](https://developer.ubuntu.com/en/snappy/start/dragonboard-410c/)
-- [Windows IoT Core](http://linaro.co/db41db410cwindowsgetstarted)
+- [Windows IoT Core](https://developer.microsoft.com/en-us/windows/iot/docs/getstarted/dragonboard/stable/getstartedstep1)
 
 ***
