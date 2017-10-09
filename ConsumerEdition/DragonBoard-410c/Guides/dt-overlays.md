@@ -33,7 +33,7 @@ linux kernel running on DragonBoard410c.
 $ sudo apt-get install flex bison swig
 $ git clone git://git.kernel.org/pub/scm/utils/dtc/dtc.git
 $ cd dtc
-$ make
+$ make -j$(nproc)
 $ sudo make install PREFIX=/usr
 ```
 
@@ -72,8 +72,8 @@ Configfs overlay feature has been enabled by default in **defconfig**
 
 ```shell
 $ make defconfig distro.config
-$ make -j4 Image dtbs
-$ make -j4 modules
+$ make -j$(nproc) Image dtbs
+$ make -j$(nproc) modules
 $ make modules_install INSTALL_MOD_STRIP=1 INSTALL_MOD_PATH=<folder>
 ```
 > Note: Replace < folder > with the path of folder to place kernel modules. Kernel modules needs to be transferred
@@ -96,7 +96,7 @@ sensors should have device tree support enabled for allowing cold plug.
 ```shell
 $ git clone https://github.com/Mani-Sadhasivam/DT-Overlays.git
 $ cd DT-Overlays
-$ make
+$ make -j$(nproc)
 ```
 
 After successful compilation, device tree blobs (dtbo) will be available in ***bin*** directory.
