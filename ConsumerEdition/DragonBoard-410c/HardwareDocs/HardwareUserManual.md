@@ -7,81 +7,81 @@ redirect_from: /db410c-getting-started/HardwareDocs/HardwareUserManual.md/
 
 ### Table of Contents
 
-- Table of Contents
-- Introduction
-- Whats in the Box
-- Board Overview
-- System Block Diagram
-- Getting Started
-   - Prerequisites
-   - Starting the board for the first time
-- Component Details
-   - Processor
-   - Memory (DRAM)
-   - Micro SDHC
-   - Networking
-      - WiFi
-      - Bluetooth
-      - Worldwide FM Radio
-      - GPS
-   - HDMI
-   - MIPI-DSI
-   - Camera Interface
-   - USB Ports
-   - USB Host Ports
-   - USB Device Ports
-   - Audio
-      - BT Audio
-      - HDMI Audio
-   - DC Power and Battery Power
-   - External Fan Connection
-   - UART
-   - Buttons
-      - Power Button
-      - Volume up
-      - Volume down
-      - Dip-switch
-   - LED Indicators
-      - Two activity LEDs
-      - Four User LEDs
-   - Additional Functionality
-- Expansion Connectors
-   - Low Speed Expansion Connector
-      - UART {0/1}
-      - I2C {0/1}
-      - GPIO {A-L}
-      - SPI 0
-      - PCM/I2S
-      - Power and Reset
-      - Power Supplies
-   - High Speed Expansion Connector
-      - MIPI DSI 0
-      - MIPI CSI {0/1}
-      - I2C {2/3}
-      - SD/SPI
-      - Clocks
-      - USB
-      - HSIC
-      - Reserved
-   - Analog Expansion Connector
-      -  Speaker
-      -  Mic
-      -  Headset
-      -  FM Antenna
-- Power Management Overview
-   - Block Diagram
-   - DC Power Input
-   - Power Source Selection
-   - Power Consumption
-   - Power Sequencing
-   - Voltage Rails
-   - Power Measurements
-      - Power-In measurement
-      - PMIC Power-In measnurement
-- Mechanical Specification
-   - 2D Reference Drawing
-- Special care when using USB
-- Statements regarding FCC
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [What's in the Box](#whats-in-the-box)
+- [Board Overview](#board-overview)
+- [System Block Diagram](#system-block-diagram)
+- [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Starting the board for the first time](#starting-the-board-for-the-first-time)
+- [Component Details](#component-details)
+  - [Processor](#processor)
+  - [Memory (DRAM)](#memory-dram)
+  - [Micro SDHC](#micro-sdhc)
+  - [Networking](#networking)
+    - [WiFi](#wifi)
+    - [Bluetooth](#bluetooth)
+    - [Worldwide FM Radio](#worldwide-fm-radio)
+    - [GPS](#gps)
+  - [HDMI](#hdmi)
+  - [MIPI-DSI](#mipi-dsi)
+  - [Camera Interface](#camera-interface)
+  - [USB Ports](#usb-ports)
+  - [USB Host ports](#usb-host-ports)
+  - [USB Device ports](#usb-device-ports)
+  - [Audio](#audio)
+    - [BT Audio](#bt-audio)
+    - [HDMI Audio](#hdmi-audio)
+  - [DC Power and Battery Power](#dc-power-and-battery-power)
+  - [External Fan Connection](#external-fan-connection)
+  - [UART](#uart)
+  - [Buttons](#buttons)
+    - [Power Button](#power-button)
+    - [Volume up](#volume-up)
+    - [Volume down](#volume-down)
+    - [Dip-switch](#dip-switch)
+  - [LED Indicators](#led-indicators)
+    - [Two activity LEDs](#two-activity-leds)
+    - [Four User LEDs](#four-user-leds)
+  - [Additional Functionality](#additional-functionality)
+- [Expansion Connectors](#expansion-connectors)
+  - [Low Speed Expansion Connector](#low-speed-expansion-connector)
+    - [UART {0/1}](#uart-01)
+    - [I2C {0/1}](#i2c-01)
+    - [GPIO {A-L}](#gpio-a-l)
+    - [SPI 0](#spi-0)
+    - [PCM/I2S](#pcmi2s)
+    - [Power and Reset](#power-and-reset)
+    - [Power Supplies](#power-supplies)
+  - [High Speed Expansion Connector](#high-speed-expansion-connector)
+    - [MIPI DSI 0](#mipi-dsi-0)
+    - [MIPI CSI {0/1}](#mipi-csi-01)
+    - [I2C {2/3}](#i2c-23)
+    - [SD/SPI](#sdspi)
+    - [Clocks](#clocks)
+    - [USB](#usb)
+    - [HSIC](#hsic)
+    - [Reserved](#reserved)
+  - [Analog Expansion Connector](#analog-expansion-connector)
+    - [Speaker](#speaker)
+    - [Mic](#mic)
+    - [Headset](#headset)
+    - [FM Antenna](#fm-antenna)
+- [Power Management Overview](#power-management-overview)
+  - [Block Diagram](#block-diagram)
+  - [DC Power Input](#dc-power-input)
+  - [Power Source Selection](#power-source-selection)
+  - [Power Consumption](#power-consumption)
+  - [Power Sequencing](#power-sequencing)
+  - [Voltage Rails](#voltage-rails)
+  - [Power Measurements](#power-measurements)
+    - [Power-In measurement](#power-in-measurement)
+    - [PMIC Power-In measnurement](#pmic-power-in-measnurement)
+- [Mechanical Specification](#mechanical-specification)
+  - [2D Reference Drawing](#2d-reference-drawing)
+- [Special care when using USB](#special-care-when-using-usb)
+- [Statements regarding FCC](#statements-regarding-fcc)
 
 [Click Here](../AdditionalDocs/Images/Images_HWUserManual/) for access to raw images used in this doc.
 
@@ -447,7 +447,7 @@ The 410c meets this requirement, the following sub-sections cover these connecto
 |    SYS_5P0                                       |     +5V        |37 |38 |SYC_DCIN        |SYS_DCIN                               |
 |    GND                                           |     GND        |39 |40 |GND             |GND                                    |
 
-### UART {0/1}
+#### UART {0/1}
 
 The 96Boards specifications calls for a 4-wire UART implementation, UART0 and an optimal second 2-wire UART, UART1 on
 the Low Speed Expansion Connector.
@@ -458,7 +458,7 @@ at 1.8V.
 The 410c board implements UART1 as a 2-wire UART that connects directly to the APQ8016 SoC. These signals are driven
 at 1.8V.
 
-### I2C {0/1}
+#### I2C {0/1}
 
 The 96Boards specification calls for two I2C interfaces to be implemented on the Low Speed Expansion Connector.
 
@@ -466,7 +466,7 @@ The 410c board implements both interfaces, I2C0 and I2C1 that connects directly 
 provided as pull-up for each of the I2C lines per the I2C specifications, these pull-ups are connected to the 1.8V voltage
 rail.
 
-### GPIO {A-L}
+#### GPIO {A-L}
 
 The 96Boards specifications calls for 12 GPIO lines to be implemented on the Low Speed Expansion Connector. Some of
 these GPIOs may support alternate functions for DSI/CSI control
@@ -487,14 +487,14 @@ on-board PMIC.
 - GPIO K - Connects to GPIO_28 of APQ8016 SoC. It is a 1.8V signal. Can be configured to be a CSI1_RST signal.
 - GPIO L - Connects to GPIO_33 of APQ8016 SoC. It is a 1.8V signal. Can be configured to be a CSI1_PWDN signal.
 
-### SPI 0
+#### SPI 0
 
 The 96Boards specification calls for one SPI bus master to be provided on the Low Speed Expansion Connector.
 
 The 410c board implements a full SPI master with 4 wires, CLK, CS, MOSI and MISO all connect directly to the APQ8016
 SoC. These signals are driven at 1.8V.
 
-### PCM/I2S
+#### PCM/I2S
 
 The 96Boards specification calls for one PCM/I2S bus to be provided on the Low Speed Expansion Connector. The CLK, FS
 and DO signals are required while the DI is optional.
@@ -502,7 +502,7 @@ and DO signals are required while the DI is optional.
 The 410c board implements a PCM/I2S with 3 wires, CLK, FS and DO, the optional DI signal is not implemented on the 410c
 board. The I2S signals are connected directly to the APQ8016 SoC. These signals are driven at 1.8V.
 
-### Power and Reset
+#### Power and Reset
 
 The 96Boards specification calls for a signal on the Low Speed Expansion Connector that can power on/off the board and a
 signal that serves as a board reset signal.
@@ -519,7 +519,7 @@ The 410c board routes the RST_BTN_N (named PM_RESIN_N on 410c schematic) signal 
 PMIC. This signal is driven by S4, the on-board reset switch. This signals is a dual purpose, any press lasting less than 10
 seconds serves as Volume Down or Zoom out, a press longer than 10 seconds will reset the board.
 
-### Power Supplies
+#### Power Supplies
 
 The 96Boards specification calls for three power rails to be present on the Low Speed Expansion Connector:
 
@@ -541,7 +541,7 @@ SYS_DCIN: Can serves as the board’s main power source or can receive power fro
 
 ***
 
-## High Speed Expansion Connector
+### High Speed Expansion Connector
 
 |  410c Signals            | 96Boards Signals  |PIN|PIN| 96Boards Signals| 410c Signals          |
 |:-------------------------|:------------------|:--|--:|----------------:|----------------------:|
@@ -576,7 +576,7 @@ SYS_DCIN: Can serves as the board’s main power source or can receive power fro
 |N.C.                      | HSIC_STR          |57 |58 | GND             | GND                   |
 |N.C.                      | HSIC_DATA         |59 |60 | RESERVED        | N.C.                  |  
 
-### MIPI DSI 0
+#### MIPI DSI 0
 
 The 96Boards specification calls for a MIPI-DSI to be present on the High Speed Expansion Connector. A minimum of one
 lane is required and up to four lanes can be accommodated on the connector.
@@ -600,7 +600,7 @@ HDMI bridge for proper functionality.
 > Please note: If configuring the board to use the MIPI-DSI is done via software, the user must verify the switch 4 of
 DipSwitch S6 is set to the ‘off’ position
 
-### MIPI CSI {0/1}
+#### MIPI CSI {0/1}
 
 The 96Boards specification calls for two MIPI-CSI interfaces to be present on the High Speed Expansion Connector. Both
 interfaces are optional. CSI0 interface can be up to four lanes while CSI1 is up to two lanes.
@@ -608,7 +608,7 @@ interfaces are optional. CSI0 interface can be up to four lanes while CSI1 is up
 The current 410c board implementation supports a full four lane MIPI-CSI interface on CSI0 and two lanes of MIPI-CSI on
 CSI1. All MIPI-CSI signals are routed directly to/from the APQ8016.
 
-### I2C {2/3}
+#### I2C {2/3}
 
 The 96Boards specification calls for two I2C interfaces to be present on the High Speed Expansion Connector. Both
 interfaces are optional unless a MIPI-CSI interface has been implemented. Then an I2C interface shall be implemented.
@@ -621,14 +621,14 @@ For MIPI-CSI0 the companion I2C2 is routed directly from the APQ8016. For MIPI-C
 High Speed Expansion Connector. Both interfaces, I2C2 and I2C3 have an on-board 2K pull-up resistors pulled-up to the
 1.8V voltage rail.
 
-### SD/SPI
+#### SD/SPI
 
 The 96Boards specification calls for an SD interface or a SPI port to be part of the High Speed Expansion Connector.
 
 The 410c board implements a full SPI master with 4 wires (96Boards SPI Configuration), CLK, CS, MOSI and MISO all
 connect directly to the APQ8016 SoC. These signals are driven at 1.8V.
 
-### Clocks
+#### Clocks
 
 The 96Boards specification calls for one or two programmable clock interfaces to be provided on the High Speed Expansion
 Connector. These clocks may have a secondary function of being CSI0_MCLK and CSI1_MCLK. If these clocks can’t be
@@ -637,20 +637,20 @@ supported by the SoC than an alternative GPIO or No-Connect is allowed by the sp
 The 410c board implements two CSI clocks, CSI0_MCLK via APQ GPIO_26 and CSI1_MCLK via APQ GPIO_27. These signals
 are driven at 1.8V.
 
-### USB
+#### USB
 
 The 96Boards specification calls for a USB Data line interface to be present on the High Speed Expansion Connector.
 
 The 410c board implements this requirements by routing USB channel 3 from the USB HUB to the High Speed Expansion
 Connector.
 
-### HSIC
+#### HSIC
 
 The 96Boards specification calls for an optional MIPI-HSIC interface to be present on the High Speed Expansion Connector.
 
 The 410c board implementation doesn’t support this optional requirement.
 
-### Reserved
+#### Reserved
 
 The 96Boards specification calls for a 10K pull-up to 1.8V to be connected to pin 60 of the High Speed Expansion
 Connector.
@@ -661,7 +661,7 @@ revision of the 410c board
 
 ***
 
-## Analog Expansion Connector
+### Analog Expansion Connector
 
 |  PIN  |  Function       |    410c Signals                        |
 |------:|----------------:|---------------------------------------:|
@@ -682,14 +682,14 @@ revision of the 410c board
 |   15  |   FM_RX_ANT     |    WCN3620 RF signal FM_HS_RX          |
 |   16  |   N.C.          |                                        |
 
-### Speaker
+#### Speaker
 
 The speaker signals are routed from the PM8916 PMIC built-in Audio CODEC, the two signals are:
 
 - SKPR_DRV_P - Class-D speaker amplifier output+
 - SKPR_DRV_M - Class-D speaker amplifier output-
 
-### Mic
+#### Mic
 
 The microphone signals are rounded to the PM8916 PMIC Built-In CODEC, the three signals are:
 
@@ -697,7 +697,7 @@ The microphone signals are rounded to the PM8916 PMIC Built-In CODEC, the three 
 - MIC3_IN - Second mic, please note that the first microphone input, MIC1_IN is routed from an on-board analog microphone (not installed on current 410c builds)
 - MIC_BIAS1 - Ground reference for PMIC bias
 
-### Headset
+#### Headset
 
 The headset signals are rounded from the PM8916 PMIC Built-In CODEC, one signal is routed from the connector to the
 CODEC, the singles are:
@@ -707,7 +707,7 @@ CODEC, the singles are:
 - HPH_REF - Headphone PA ground sensing
 - HS_DET - Headset detection
 
-### FM Antenna
+#### FM Antenna
 
 The FM_RX_ANT signal is the path for the FM antenna to reach the WCN3620 (u5), an integrated three different
 connectivity technologies device:
