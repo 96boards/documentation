@@ -1,52 +1,50 @@
+---
+title: HiKey960 Development Board User Manual
+permalink: /documentation/ConsumerEdition/HiKey960/HardwareDocs/HardwareUserManual.md.html
+---
 # HiKey960 Development Board User Manual
-
 
 ### Table of Contents
 
-- Table of Contents
-- Introduction
-- What's in the Box
-- Board Overview
-- Key Components
-- System Block Diagram
-- Getting Started
-   - Prerequisites
-   - Starting the board for the first time
-- Component Details
-   - Processor
-   - PMIC
-   - Memory (DRAM)
-   - Storage
-   - Micro SDHC
-   - Boot ROM
-   - Networking
-   - WiFi
-   - Bluetooth
-   - GPS
-   - HDMI
-   - MIPI-DSI
-   - Camera Interface
-   - USB Ports
-   - USB Host ports
-   - USB Device ports
-   - Audio
-   - DC Power
-   - Power Measurement
-   - External Fan Connection
-   - UART
-   - Buttons
-   - LED Indicators
-   - Additional Functionality
-- Expansion Connectors
-   - Low Speed Expansion Connector
-   - High Speed Expansion Connector
-   - Analog Expansion Connector
-- Power Management Overview
-   - Block Diagram
-   - DC Power Input
-   - Power Source Selection and Sequencing
-   - Voltage Rails
-- Mechanical Specification
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [What's in the Box](#whats-in-the-box)
+- [Board Overview](#board-overview)
+- [System Block Diagram](#system-block-diagram)
+- [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Starting the board for the first time](#starting-the-board-for-the-first-time)
+- [Component Details](#component-details)
+   - [Processor](#processor)
+   - [PMIC](#pmic)
+   - [Memory (DRAM)](#memory-dram)
+   - [Storage](#storage)
+   - [Micro SDHC](#micro-sdhc)
+   - [Boot ROM](#boot-rom)
+   - [Networking](#networking)
+   - [WiFi](#wifi)
+   - [Bluetooth](#bluetooth)
+   - [HDMI](#hdmi)
+   - [MIPI-DSI](#mipi-dsi)
+   - [Camera Interface](#camera-interface)
+   - [USB Ports](#usb-ports)
+   - [USB Host ports](#usb-host-ports)
+   - [USB OTG ports](#usb-otg-ports)
+   - [Audio](#audio)
+   - [DC Power](#dc-power)
+   - [Power Measurement](#power-measurement)
+   - [External Fan Connection](#external-fan-connection)
+   - [UART](#uart)
+   - [Buttons](#buttons)
+   - [LED Indicators](#led-indicators)
+   - [Additional Functionality](#additional-functionality)
+- [Expansion Connectors](#expansion-connectors)
+   - [Low Speed Expansion Connector](#low-speed-expansion-connector)
+   - [High Speed Expansion Connector](#high-speed-expansion-connector)
+- [Power Management Overview](#power-management-overview)
+   - [DC Power Input](#dc-power-input)
+   - [Voltage Rails](#voltage-rails)
+
 
 ***
 
@@ -478,7 +476,7 @@ The pin 60 of the High Speed Expansion Connector is pulled up to VIO18_PMU via 1
 
 > Note: Please refer to the mechanical size of the DC plug below.The inside diameter of the plug is 1.7mm，the outer diameter of the plug is 4.75mm.The positive electrode of the DC plug is in the inside, and the negative pole is outside.
 
-<img src="http://i.imgur.com/7qEu1Jc.png" data-canonical-src="http://i.imgur.com/7qEu1Jc.png" width="250" height="160" />
+<img src="https://i.imgur.com/7qEu1Jc.png" data-canonical-src="https://i.imgur.com/7qEu1Jc.png" width="250" height="160" />
 
 
 ### Voltage Rails

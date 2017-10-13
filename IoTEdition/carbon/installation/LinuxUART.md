@@ -1,3 +1,7 @@
+---
+title: Carbon Hardware User Manual
+permalink: /documentation/IoTEdition/carbon/installation/LinuxUART.md.html
+---
 ## Linux Host
 
 This section show how to install an operating system to your Carbon using the Flashing over UART method on a Linux host computer.
@@ -42,7 +46,7 @@ Device ID    : 0x0433 (STM32F401xD(E))
 
 ####**Step 2**: Build or Download a sample application in Zephyr
 
-[Build](../Building/README.md) or [Download](../Downloads/README.md) an application and proceed to **Step 3**
+[Build](../build/) or [Download](../downloads/) an application and proceed to **Step 3**
 
 ####**Step 3**: Flash the application to Carbon
 

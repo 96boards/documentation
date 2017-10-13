@@ -1,11 +1,16 @@
-# Quickstart
+---
+title: Getting Started with MediaTek X20
+permalink: /documentation/ConsumerEdition/MediaTekX20/GettingStarted/
+redirect_from: /documentation/ConsumerEdition/MediaTekX20/GettingStarted/README.md/
+---
+# Getting Started
 
 Learn about your MediaTek X20 board as well as how to prepare and set up for basic use
 
 ## Setup - What you will need
 
 **Need**
-- [MediaTek X20 Development Board](http://www.96boards.org/products/ce/mediatek-x20/)
+- [MediaTek X20 Development Board](https://www.96boards.org/products/ce/mediatek-x20/)
    - Read about the MediaTek X20 and see where it is available to buy!
 - [Power adapter](https://www.96boards.org/products/accessories/power/)
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter
@@ -17,7 +22,7 @@ Learn about your MediaTek X20 board as well as how to prepare and set up for bas
 **Optional**
 - MicroSD card with adapter
    - For quick and easy switching between operating systems and extra storage
-- [Mezzanine Products](../../../MezzanineProducts/README.md)
+- [Mezzanine Products](../../../MezzanineProducts/)
    - These devices allow you to expand your experience with any 96Boards by adding peripherals and enhancing onboard components
 - USB to MicroUSB cable
    - This is needed for serial console interface and fastboot/adb commands
@@ -30,9 +35,9 @@ Learn about your MediaTek X20 board as well as how to prepare and set up for bas
 
 The following subsections should describe how to get started with the MediaTek X20 using the release build shipped with the boards. The MediaTek X20 Development Board is ready to use “out of the box” with a pre-installed version of Android.
 
-<img src="http://i.imgur.com/Mdjs6Nx.png" data-canonical-src="http://i.imgur.com/Mdjs6Nx.png" width="250" height="160" />
-<img src="http://i.imgur.com/3EleXMR.png" data-canonical-src="http://i.imgur.com/3EleXMR.png" width="250" height="160" />
-<img src="http://i.imgur.com/p1N2nDt.png" data-canonical-src="http://i.imgur.com/p1N2nDt.png" width="250" height="160" />
+<img src="https://i.imgur.com/Mdjs6Nx.png" data-canonical-src="https://i.imgur.com/Mdjs6Nx.png" width="250" height="160" />
+<img src="https://i.imgur.com/3EleXMR.png" data-canonical-src="https://i.imgur.com/3EleXMR.png" width="250" height="160" />
+<img src="https://i.imgur.com/p1N2nDt.png" data-canonical-src="https://i.imgur.com/p1N2nDt.png" width="250" height="160" />
 
 ## Features
 
@@ -83,10 +88,9 @@ There are limitations on the usage of the USB ports on the MediaTek X20 Developm
 
 If you are already familiar with the MediaTek X20 board and would like to change out the stock operating system please proceed to one of the following pages:
 
-- [Downloads page**](../Downloads/README.md): This page lists all Linaro and 3rd party operating systems available for MediaTek X20
-- [Installation page](../Installation/README.md): If you already have the images you need, this page has information on how to install the different operating systems onto your MediaTek X20 board
+- [Downloads page**](../Downloads/): This page lists all Linaro and 3rd party operating systems available for MediaTek X20
+- [Installation page](../Installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your MediaTek X20 board
 - [Board Recovery](../Installation/BoardRecovery.md)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
-- [Troubleshooting](../Troubleshooting/README.md)
+- [Troubleshooting](../Troubleshooting/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
-

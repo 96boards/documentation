@@ -1,3 +1,8 @@
+---
+title: Mac Host Installation for DragonBoard-410c
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Installation/MacSD.md.html
+redirect_from: /db410c-getting-started/Installation/MacSD.md/
+---
 ## Mac OS X Host
 
 This section show how to install an operating system to your DragonBoard™ 410c using the SD Card method on a Mac OS X host computer.
@@ -38,7 +43,7 @@ diskutil list
 
 #### Step 3: Recall Download Location
 
-- Locate SD card install file that you got from [Downloads page](../Downloads/README.md).
+- Locate SD card install file that you got from [Downloads page](../Downloads/).
 - This file will be needed for the next step.
 
 #### Step 4: Unzip _SD Card Install Image_
@@ -56,7 +61,7 @@ diskutil list
 ```shell
 cd <extraction directory>
 
-#Example: 
+#Example:
 #<extraction directory> = /Users/YourUserName/Downloads
 #For this example we assume the "SD Card Install Image" is in the Downloads folder.
 cd /Users/YourUserName/Downloads
@@ -105,9 +110,9 @@ $ sudo sync
 
 - `if=db410c_sd_install_Y.img`: should match the name of the image that was downloaded.
 - `of=/dev/XXX`: XXX should match the name of the SD Card device name from **Step 2**. Be sure to use the device name without the partition name. For example, 'of=/dev/disk1'
-- If you get an error message "Resource Busy", you will need to unmount the SD card without removing it from the host computer. 
+- If you get an error message "Resource Busy", you will need to unmount the SD card without removing it from the host computer.
   - Option 1:
-  - In the Applications folder, find and click on the Utilities folder. 
+  - In the Applications folder, find and click on the Utilities folder.
   - Click on the Disk Utility program to run it
   - Select the device that represents the SD card
   - Click on `unmount` and leave the SD card in the computer
@@ -117,7 +122,7 @@ $ sudo sync
 ```shell
 $ sudo umount /dev/<device name>
 ```
-  
+
 - This command will take some time to execute. Be patient and avoid tampering with the terminal until process has ended.
 - Once SD card is done flashing, remove from host computer and set aside for **Step 8** You may see a popup window that tells you the device is _Not readable by the operating system_. Ignore the message and remove the MicroSD card from the host computer.
 
@@ -133,7 +138,7 @@ $ sudo umount /dev/<device name>
 
 #### Step 9: Install image onto DragonBoard 410c
 
-<img src="http://i.imgur.com/F18wlgU.png" data-canonical-src="http://i.imgur.com/F18wlgU.png" width="400" height="250"/>
+<img src="https://i.imgur.com/F18wlgU.png" data-canonical-src="https://i.imgur.com/F18wlgU.png" width="400" height="250"/>
 
 - If **Steps 1 - 8** were followed correctly, the above screen should be visible from your DragonBoard™ 410c
 - Select the image to install and click “Install” (or type “i”). OS will be installed into the eMMC memory

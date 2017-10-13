@@ -1,3 +1,8 @@
+---
+title: Downloads for Bubblegum-96
+permalink: /documentation/ConsumerEdition/Bubblegum-96/Downloads/
+redirect_from: /documentation/ConsumerEdition/Bubblegum-96/Downloads/README.md.html
+---
 ## Downloads
 
 This page provides links to the latest software downloads.

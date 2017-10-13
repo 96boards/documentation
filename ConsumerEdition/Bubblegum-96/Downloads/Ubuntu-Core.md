@@ -1,10 +1,14 @@
+---
+title: Ubuntu Core Download for Bubblegum-96
+permalink: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Ubuntu-Core.md.html
+---
 **About Ubuntu Core**
 
 > Snappy Ubuntu Core is a new rendition of Ubuntu with transactional updates - a minimal server image with the same libraries as today’s Ubuntu, but applications are provided through a simpler mechanism.
 
 
 ----------
-##**How To Flash Bubblegum-96 With Ubuntu Core**
+## **How To Flash Bubblegum-96 With Ubuntu Core**
 
 The section here will show you how to flash Bubblegum-96 Board with Ubuntu Core on a micro SD card.  
 
@@ -32,7 +36,7 @@ Because Ubuntu Core only can be flashed on Ubuntu 16.04LTS, you need to make sur
 If you have already had Ubuntu 16.04LTS, please skip this step, otherwise, please do the following command in a terminal.  
 ```shell
 $sudo apt-get update
-$sudo update-manager -d 
+$sudo update-manager -d
 ```
 And then, upgrade your system.  
 
@@ -86,9 +90,9 @@ This step is quite important, because it will boot into the OS which is on the b
 - Execute `lsusb` on host PC.  
    - You will find a device ID 10d6:10d6 if Bubblegum96  board has entered adfu-mode  
    - If Bubblegum96 board has not entered ADFU mode,  retry step 1-7  
- 
+
  *Note: About the serial console.Before doing anythingeverything, please make sure you have already install the serial console. If not, please install that use the following command.*  
-        
+
 ```shell
 $sudo apt-get install minicom
 ```
@@ -127,8 +131,8 @@ Password: ubuntu
 
 
 
-        
-        
+
+
 
   [1]: https://mega.nz/#!dsplDRbB!X_su5fKFOWeGJ6Yurf7X6wKqnnOPnno-Fw-2smiWrGE
   [2]: http://builds.96boards.org/snapshots/bubblegum/linaro/u-boot/latest/u-boot-dtb.img

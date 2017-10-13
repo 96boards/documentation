@@ -1,3 +1,7 @@
+---
+title: Linux Fastboot Installation for Bubblegum-96
+permalink: /documentation/ConsumerEdition/Bubblegum-96/Installation/LinuxFastboot.md.html
+---
 ##Linux Host
 
 This section show how to install a new operating system to your Bubblegum-96 using the fastboot method on a Linux host computer.
@@ -65,18 +69,18 @@ Once you have downloaded the appropriate files, continue to **Step 5**
 ### **Step 5:** Enter adfu mode
 
 - Make sure bubblegum-96 board is in power off mode
-- Plug in the UART debug board and connect serial console to the host PC. 
-   - Set baud rate to be 115200, 
+- Plug in the UART debug board and connect serial console to the host PC.
+   - Set baud rate to be 115200,
    - Set (8N1) – [8bit data, No-parity, & 1 stop bit].
 - Connect the host PC with Bubblegum-96 USB3.0 port via type USB A-A cable.
    - USB3.0 port on Bubblegum96 board is the blue port
    - Tthis cable won’t provide Power, so will notwont boot up the board
-- Hold down the ADFU key on the Bubblegum96 board while… 
+- Hold down the ADFU key on the Bubblegum96 board while…
 
 - Plug in power to the Bubblegum96 board.
-- Continue to hold down ADFU down the ADFU key for 2-4 seconds after the power has been plugged in 
+- Continue to hold down ADFU down the ADFU key for 2-4 seconds after the power has been plugged in
 - Release the ADFU key
-- Execute `lsusb` on host PC. 
+- Execute `lsusb` on host PC.
    - You will find a device ID 10d6:10d6 if Bubblegum96  board has entered adfu-mode
    - If Bubblegum96 board has not entered ADFU mode,  retry step 1-7
 
@@ -120,7 +124,7 @@ Please press `Enter` when system bootup, and it will show `“owl>”` prompt on
 
 _**[ Device (96board)]**_
 
-Execute `run create_gpt` to reconstruct the gpt table and it will show 
+Execute `run create_gpt` to reconstruct the gpt table and it will show
 
 `Writing GPT: success!.`
 
@@ -140,19 +144,19 @@ Please make sure you have already installed fastboot tool on your PC, if not, ru
 After that, continue flashing Bubblegum-96.
 
 `$ sudo fastboot flash BOOT boot.emmc.img`
-	
+
 **Note:** `boot.emmc.img` is a vfat format image, it contains kernel image, initramfs image, device tree blob, logo image used by u-boot
 
 ### **Step 9:** Flash the root file system (rootfs)
 
-The rootfs image of 96board is named as bubblegum-jessie_alip_20160224-12_r1.emmc.img 
+The rootfs image of 96board is named as bubblegum-jessie_alip_20160224-12_r1.emmc.img
 The name could be different from what you have downloaded.
 
 _**[Host PC]**_
 
 `$ sudo fastboot flash SYSTEM bubblegum-jessie_alip_20160224-12_r1.emmc.img`
 
-**This step takes around 2 minutes or more depend on the image size.** 
+**This step takes around 2 minutes or more depend on the image size.**
 
 ### **Step 10:** Create bootloader.img and flash using fastboot
 

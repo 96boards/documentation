@@ -1,3 +1,7 @@
+---
+title: System LEDs Guide for HiKey
+permalink: /documentation/ConsumerEdition/HiKey/Guides/SystemLEDs.md.html
+---
 # System LEDs
 
 Each board led has a directory in /sys/class/leds. By default the LEDs use the following triggers:

@@ -1,3 +1,8 @@
+---
+title: Enabling SPI on Dragonboard 410c with SPIDEV
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/EnableSPI.md.html
+redirect_from: /db410c-getting-started/Guides/EnableSPI.md/
+---
 # Enabling SPI on Dragonboard 410c with SPIDEV
 
 This tutorial will show how to build and flash a DragonBoard 410c boot image with SPI enabled using SPIDEV.
@@ -122,5 +127,4 @@ Loopback test:
 $ ./spi-test -CHO -D /dev/spidev0.0  0xaa,0xbb,0xcc,0,0,0,0,0 --loop
  AA BB CC 00 00 00 00 00
  AA BB CC 00 00 00 00 00
-``` 
- 
+```

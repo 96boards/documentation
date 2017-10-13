@@ -12,20 +12,20 @@ Introduction
 
 The MediaTek X20 Development Board is a 96Boards compliant community board based on MediaTek X20 platform.The following table lists its key features:
 
-.. image:: http://i.imgur.com/YEnzcZI.png
+.. image:: https://i.imgur.com/YEnzcZI.png
     :width: 250px
     :align: left
     :height: 160px
     :scale: 50 %
     :alt: alternate text
 
-.. image:: http://i.imgur.com/eKif0Ri.png
+.. image:: https://i.imgur.com/eKif0Ri.png
     :width: 250px
     :align: center
     :height: 160px
     :alt: alternate text
 
-.. image:: http://i.imgur.com/wRC5tFq.png
+.. image:: https://i.imgur.com/wRC5tFq.png
     :width: 250px
     :align: right
     :height: 160px
@@ -99,14 +99,14 @@ What's in the Box
 
 The box contains one MediaTek X20 Development Board and a quick start guide.
 
-.. image:: http://i.imgur.com/YEnzcZI.png
+.. image:: https://i.imgur.com/YEnzcZI.png
     :width: 250px
     :align: left
     :height: 160px
     :scale: 50 %
     :alt: alternate text
 
-.. image:: http://i.imgur.com/GZCNzUW.png
+.. image:: https://i.imgur.com/GZCNzUW.png
     :width: 250px
     :align: left
     :height: 160px
@@ -150,14 +150,14 @@ Board Overview
      18          SW3205          Switch for Auto boot and USB HOST set                   
  =========  ================= ===========================================================
 
-.. image:: http://i.imgur.com/ydQmi5t.png
+.. image:: https://i.imgur.com/ydQmi5t.png
     :width: 250px
     :align: left
     :height: 160px
     :scale: 50 %
     :alt: alternate text
 
-.. image:: http://i.imgur.com/CFM1kTb.png
+.. image:: https://i.imgur.com/CFM1kTb.png
     :width: 250px
     :align: left
     :height: 160px
@@ -173,7 +173,7 @@ Board Overview
 System Block Diagram
 ====================
 
-.. image:: http://i.imgur.com/YPYH7RJ.png
+.. image:: https://i.imgur.com/YPYH7RJ.png
     :width: 250px
     :align: left
     :height: 160px
@@ -303,7 +303,7 @@ USB Ports
 
 The MediaTek X20 Development Board supports a USB device port and three USB host ports via a USB MUX(U6503). The input channel( D+/D-) of USB MUX is connected to the P0 port of the SOC MT6797, and the two output channels(1D+/1D-,2D+/2D-) are connected to micro USB port and USB hub respectively. The three USB host ports are connected to the downstream ports of the USB hub.The control of U6503 is done via a software controlled GPIO (USB_SW_SEL, EINT9 from the SOC MT6797). When this signal is logic low, ‘0’, the USB data lines are routed to the Micro USB connector and the MT6797 P0 port is set to device mode. When ‘USB_SW_SEL’ is logic level high, ‘1’, the USB data lines are routed to U6401 (a 3-port USB HUB) and the MT6797 P0 port is set to host mode. The user can overwrite the software control by sliding switch 3 of dip-switch SW3205 to the ‘ON’ position. That action forces the USB–MUX (U6503) to route the USB data lines to the USB HUB. The overwrite option exists for the host mode only, you cannot hardware overwrite the MUX to force device mode. 
 
-.. image:: http://i.imgur.com/IUigl3x.png
+.. image:: https://i.imgur.com/IUigl3x.png
     :width: 250px
     :align: left
     :height: 160px
@@ -653,7 +653,7 @@ Power Management Overview
 Block Diagram
 -------------
 
-.. image:: http://i.imgur.com/EzSF6WF.png
+.. image:: https://i.imgur.com/EzSF6WF.png
     :width: 250px
     :align: left
     :height: 160px
@@ -668,7 +668,7 @@ DC Power Input
 
 > Note: Please refer to the mechanical size of the DC plug below.The inside diameter of the plug is 1.7mm，the outer diameter of the plug is 4.75mm.The positive electrode of the DC plug is in the inside, and the negative pole is outside.
 
-.. image:: http://i.imgur.com/7qEu1Jc.png
+.. image:: https://i.imgur.com/7qEu1Jc.png
     :width: 250px
     :align: left
     :height: 160px
@@ -680,7 +680,7 @@ Power Source Selection and Sequencing
 
 The user of the MediaTek X20 Development Board should never apply power to the board from J901 and the Low Speed Expansion connector at the same time. There is no active or passive mechanism on the MediaTek X20 Development Board to prioritize one source over the other.
 
-.. image:: http://i.imgur.com/DDVMyTy.png
+.. image:: https://i.imgur.com/DDVMyTy.png
     :width: 250px
     :align: left
     :height: 160px
@@ -798,7 +798,7 @@ Mechanical Specification
 2D Reference Drawing
 --------------------
 
-.. image:: http://i.imgur.com/IdPzJTU.png
+.. image:: https://i.imgur.com/IdPzJTU.png
     :width: 250px
     :align: left
     :height: 160px

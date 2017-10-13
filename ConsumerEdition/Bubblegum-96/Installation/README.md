@@ -1,3 +1,8 @@
+---
+title: Installation for Bubblegum-96
+permalink: /documentation/ConsumerEdition/Bubblegum-96/Installation/
+redirect_from: /documentation/ConsumerEdition/Bubblegum-96/Installation/README.md/
+---
 # Installation
 
 This guide will help you choose and install an operating system on your Bubblegum-96.
@@ -30,7 +35,7 @@ This method requires the following hardware:
 - Host machine (Linux Host)
 - MicroSD card with 4GB or more of storage
 
-Go to the [Downloads page](../Downloads/README.md) to get your SD card image.
+Go to the [Downloads page](../Downloads/) to get your SD card image.
 
 Choose Host machine
 
@@ -48,12 +53,12 @@ This method requires the following hardware:
 - Host machine (Ubuntu/Debian system  with kernel version > 3.16.0)
 - USB cable Type-A to Type-A
 - USB to microUSB cable
-- Serial console with converter board (Recommended to use [Serial Console Mezzanine](../../../MezzanineProducts/96Boards%20UART%20Serial%20Adapter/README.md))
+- Serial console with converter board (Recommended to use [Serial Console Mezzanine](../../../MezzanineProducts/UARTSerial/))
 - USB Thumb drive
 - USB Mouse and/or keyboard (not required to perform flash)
 - HDMI Monitor with full size HDMI cable (not required to perform flash)
 
-Go to the [Downloads page](../Downloads/README.md) to get your bootloader, boot image, and root file system image (rootfs).
+Go to the [Downloads page](../Downloads/) to get your bootloader, boot image, and root file system image (rootfs).
 
 Choose host machine
 

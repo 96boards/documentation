@@ -1,4 +1,9 @@
-##Linux Host
+---
+title: Linux Host Installation for DragonBoard-410c
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Installation/LinuxFastboot.md.html
+redirect_from: /db410c-getting-started/
+---
+## Linux Host
 
 This section show how to install a new operating system to your DragonBoard™ 410c using the fastboot method on a Linux host computer.
 
@@ -15,13 +20,24 @@ This section show how to install a new operating system to your DragonBoard™ 4
 
 ***
 
-#### **Step 1**: Make sure fastboot is set up on host computer. 
+#### **Step 1**: Make sure fastboot is set up on host computer.
+##### You can install fastboot from source or using your distro package manager.
 
-- Android SDK “Tools only” for Linux can be downloaded <a href="http://developer.android.com/sdk" target="_blank">here</a>
-- The Linux “Tools Only” SDK download does not come with fastboot, you will need to use the Android SDK Manager to install platform-tools.
-- To do this follow the “SDK Readme.txt” instructions included in your SDK “Tools Only” download.
+- ###### From source:
+  - Android SDK “Tools only” for Linux can be downloaded <a href="https://developer.android.com/studio/releases/platform-tools.html" target="_blank">here</a>
+  - The Linux “Tools Only” SDK download does not come with fastboot, you will need to use the Android SDK Manager to install platform-tools.
+  - To do this follow the “SDK Readme.txt” instructions included in your SDK “Tools Only” download.
 
-If you are still having trouble setting up fastboot, <a href="https://youtu.be/W_zlydVBftA" target="_blank">click here</a> for a short tutorial video
+  If you are still having trouble setting up fastboot, <a href="https://youtu.be/W_zlydVBftA" target="_blank">click here</a> for a short tutorial video
+
+- ###### Or using a distro package manager:
+  ```
+  # Red Hat flavour (Fedora, CentOS)
+  $ sudo yum install android-tools
+  
+  # Debian (Ubuntu)
+  $ sudo apt-get install android-tools
+  ```
 
 #### **Step 2**: Connect host computer to DragonBoard 410c
 
@@ -68,7 +84,7 @@ de82318	fastboot
 ```shell
 $ cd <extraction directory>
 
-#Example: 
+#Example:
 cd /Users/YourUserName/Downloads
 #<extraction directory> = /Users/YourUserName/Downloads
 #For this example we assume the "Bootloader" is in the Downloads folder.
@@ -85,7 +101,14 @@ cd dragonboard410c_bootloader_emmc_linux-40
 $ ./flashall
 ```
 
-Now that the bootloader is setup, we will flash all remaining parts of the operating system. In order to do this we will be using the fastboot commands that are now readily available to us in our Terminal command line.
+The bootloader has now been flashed to the eMMC.  Rebooting will
+launch the newly-flashed boot loader, which will allow us to flash
+the remaining parts of the operating system.
+
+```shell
+# Reboot the system so we can flash the rest.
+$ sudo fastboot reboot
+```
 
 #### **Step 5**: Recall location of all downloaded files
 
@@ -98,7 +121,7 @@ Recall location of all downloaded files from the downloads page, files will be d
 ###### **Android**: Recall location of `boot.img.tar.xz`, `system.img.tar.xz`, `userdata.img.tar.xz`, `recovery.img.tar.xz`, `persist.img.tar.xz`, `cache.img.tar.xz`, downloaded from the downloads page
 - All of these files should have been downloaded from the downloads page
 
-#### **Step 6**: Unzip both all files
+#### **Step 6**: Unzip both files
 
 #### **Step 7**: Flash all images to the DragonBoard 410c
 
@@ -112,7 +135,7 @@ Recall location of all downloaded files from the downloads page, files will be d
 ```shell
 # (Once again) Check to make sure fastboot device connected
 $ sudo fastboot devices
-# It will show similar to bellow if the device is connected successfully
+# It will show similar to below if the device is connected successfully
 de82318	fastboot
 
 # cd to the directory the boot image and  were extracted

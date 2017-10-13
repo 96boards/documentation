@@ -1,3 +1,7 @@
+---
+title: How to use PMU hardware events of ARM architecture on HiKey960
+permalink: /documentation/ConsumerEdition/HiKey960/Support/How-to-use-PMU-on-hikey960.md.html
+---
 This application note describes how to use PMU hardware events of ARM architecture on HiKey960.
 
 Written by: Jumana MP <Jumana.MP@arm.com>
@@ -12,7 +16,7 @@ Perf binary can be obtained from:
 https://github.com/ARM-software/workload-automation/tree/master/wlauto/instrumentation/perf/bin
 
 ## Usage
-Example test would be checking if PMU events get counted on the device. 
+Example test would be checking if PMU events get counted on the device.
 To make sure that kernel supports generating perf data, run the following on the device as root:
 ```
 echo -1 > /proc/sys/kernel/perf_event_paranoid

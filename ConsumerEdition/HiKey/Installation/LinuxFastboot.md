@@ -1,3 +1,7 @@
+---
+title: Linux Host Installation for HiKey
+permalink: /documentation/ConsumerEdition/HiKey/Installation/LinuxFastboot.md.html
+---
 ## Linux Host
 
 This section shows how to install new operating system to your HiKey using the fastboot method on a Linux host computer.
@@ -11,7 +15,7 @@ This section shows how to install new operating system to your HiKey using the f
 
 ***
 
-#### **Step 1**: Make sure fastboot is set up on host computer. 
+#### **Step 1**: Make sure fastboot is set up on host computer.
 
 - Android SDK “Platform-Tools” for Linux can be downloaded <a href="https://developer.android.com/studio/releases/platform-tools.html" target="_blank">here</a>
 

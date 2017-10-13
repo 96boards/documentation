@@ -1,9 +1,13 @@
+---
+title: Configuring the wireless TI module (Debian) Guide for HiKey
+permalink: /documentation/ConsumerEdition/HiKey/Guides/WirelessTIModule.md.html
+---
 # Configuring the wireless TI module (Debian)
 
 Using the right WiFi (TI wl1835mod) module config for HiKey (avoid bugs like https://bugs.96boards.org/show_bug.cgi?id=202)
 
 ```shell
-root@linaro-alip:~# configure-device.sh 
+root@linaro-alip:~# configure-device.sh
 
 Please provide the following information.
 

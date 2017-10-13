@@ -1,3 +1,7 @@
+---
+title: Debian Download for Bubblegum-96
+permalink: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Debian.md.html
+---
 # Debian
 
 **Debian Linux** is a desktop/window or console (command line) based development environment comprised of some basic programs and utilities. Development can happen directly on the board, and within the OS. While applications and programs can be built directly on the board, they can also be built remotely and cross-compiled for the particular system.
@@ -8,11 +12,11 @@
 
 |   SD Card Image    |      |
 |:------------------|:-----------------------|
-| Chinese User | [Download](https://pan.baidu.com/s/1jHW2s2U); Password: vgwc|
+| Chinese User | [Download](https://pan.baidu.com/s/1pKMvUbT); Password: u3fx|
 | Global User | [Download](https://mega.nz/#!w5YHwYLb!8NdsJXlTyHI_fGK50PvZsLeTifzSc3IQ7IdyRKbjwtM) |
 |Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)       |
 
-Continue to [Installation page](../Installation/README.md)
+Continue to [Installation page](../Installation/)
 
 ***
 
@@ -30,4 +34,4 @@ Continue to [Installation page](../Installation/README.md)
 |:------------------|:----------------------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/bubblegum/linaro/debian/latest/)      |
 
-Continue to [Installation page](../Installation/README.md)
+Continue to [Installation page](../Installation/)

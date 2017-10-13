@@ -1,3 +1,7 @@
+---
+title: Board Recovery for B2260
+permalink: /documentation/ConsumerEdition/B2260/Installation/BoardRecovery.md.html
+---
 # B2260 Board Recovery
 
 This page outlines steps needed to recover your B2260 development board from a bricked software state.

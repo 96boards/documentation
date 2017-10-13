@@ -1,3 +1,9 @@
+---
+title: Getting Started with Carbon
+permalink: /documentation/IoTEdition/carbon/getting-started/
+redirect_from:
+- /documentation/IoTEdition/carbon/getting-started/README.md/
+---
 # Getting Started
 
 Learn about your Carbon board as well as how to prepare and set up for basic use
@@ -5,7 +11,7 @@ Learn about your Carbon board as well as how to prepare and set up for basic use
 ## Setup - What you will need
 
 **Need**
-- [Carbon](http://www.96boards.org/product/carbon/)
+- [Carbon](https://www.96boards.org/product/carbon/)
    - Board based on the STM32F401RE Processor connected to a nRF51822 bluetooth controller
 - USB to MicroUSB cable (x2)
    - This is needed for serial console interface and USB-OTG (including DFU support)
@@ -69,12 +75,12 @@ The following subsections should describe how to get started with the Carbon usi
 
 It's time to see what your Carbon can do. From here you can learn how to build your own applications, or flash some of our pre-built ones, available on the Downloads page:
 
-- [Downloads page](../downloads/README.md): This page contains prebuilt OS and Application files, simply download and flash to get started!
-- [Building for Carbon](../build/README.md): In a few simple steps, here you will learn how to build and flash your own application to the Carbon.
-- [Installation page](../installation/README.md): Find instructions on how to flash new applications to your Carbon!
-- [Troubleshooting](../troubleshooting/README.md)
+- [Downloads page](../downloads/): This page contains prebuilt OS and Application files, simply download and flash to get started!
+- [Building for Carbon](../build/): In a few simple steps, here you will learn how to build and flash your own application to the Carbon.
+- [Installation page](../installation/): Find instructions on how to flash new applications to your Carbon!
+- [Troubleshooting](../support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
-Back to the [Carbon documentation home page](../README.md)
-   
+Back to the [Carbon documentation home page](../)
+
 ***   

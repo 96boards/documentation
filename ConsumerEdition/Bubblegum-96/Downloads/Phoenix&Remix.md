@@ -1,4 +1,8 @@
-##Windows Host
+---
+title: Phoenix&Remix Download for Bubblegum-96
+permalink: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Phoenix&Remix.md.html
+---
+## Windows Host
 
 This section will show you how to flash the Bubblegum-96 Boards with the Phoenix OS.
 
@@ -15,7 +19,7 @@ Before flashing the board you need to prepare the following items.
 
 - Bubblegum-96 board
 - USB cable Type-A to Type-A
-- A qualified power supply 
+- A qualified power supply
 - A charger, 9V is good
 - HDMI cable
 - A display with the HDMI socket
@@ -35,7 +39,7 @@ For Global Users:
 ### **Step2:** Prepare your hardware
 - Use the USB cable to connect your Bubblegum-96 board with a Windows computer, DO NOT POWER ON.
 - Boot board into ADFU mode.
- - Connect host PC (Windows) to Bubblegum-96 via **USB3.0** port (blue one) via USB type A-A cable. Host PC CAN be USB2.0 or USB3.0. 
+ - Connect host PC (Windows) to Bubblegum-96 via **USB3.0** port (blue one) via USB type A-A cable. Host PC CAN be USB2.0 or USB3.0.
  - Press ADFU key and then plug in power. Hold the ADFU key for 3-5 seconds, or until the program recognizes the board. There will be a signal for new hardware on the screen, you should now be in ADFU mode.
 
 ### **Step3:** Burn the image onto the Bubblegum-96 board
@@ -50,19 +54,19 @@ For Global Users:
 2. Power on
 3. When the words ‘initial the Phoenix OS’(or Remix logo) on the screen, it means you have flashed the board successfully.
 
-Phoenix OS/Remix OS is on your board, time to have some fun. Cheers! 
+Phoenix OS/Remix OS is on your board, time to have some fun. Cheers!
 
-Need more help? Visit the [Troubleshooting](../Troubleshoot/README.md) page or you can easily submit your questions on Bubblegum Support Forum @ [http://www.96boards.org/forums/forum/products/bubblegum96/][5]
+Need more help? Visit the [Troubleshooting](../Support/) page or you can easily submit your questions on Bubblegum Support Forum @ [https://discuss.96boards.org/c/products/bubblegum96/][5]
 
 
 
- 
- 
+
+
 
 
   [1]: http://pan.baidu.com/s/1qYL4ETY
   [2]: http://pan.baidu.com/s/1c2Fh81E
   [3]: https://mega.nz/#!8lRl1BYR!ixCnKG6PDGLnIuGtRue3pyATnpb8VlR0cavecTpICwk
   [4]: https://mega.nz/#!FoJX1ZJS!ZI4AynHpBHizb0Z0AzK2aM9xH-vPRr3vnFugxUj2oyc
-  [5]: http://www.96boards.org/forums/forum/products/bubblegum96/
+  [5]: https://discuss.96boards.org/c/products/bubblegum96/
   [6]: https://mega.nz/#!E4BBiLJT!GWD9Mj8Vzg_oh_m-A16IFHJIG3N5W7aizcsPpeZwEQg

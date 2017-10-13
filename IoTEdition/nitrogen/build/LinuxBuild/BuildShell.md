@@ -1,3 +1,7 @@
+---
+title: Shell Build for Nitrogen
+permalink: /documentation/IoTEdition/nitrogen/build/LinuxBuild/BuildShell.md.html
+---
 ## How to build the Shell Zephyr application from source - Linux Host
 
 These instructions will show how to build a sample Zephyr application using a Linux Host machine as a development environment.
@@ -31,4 +35,4 @@ The application will be available at ```samples/subsys/shell/shell/outdir/96b_ni
 
 Proceed to flash the Zephyr application binary over USB-UART or USB-DFU. Host machine specific flashing instructions can be found on the "Installation" page, link found below.
 
-- [Installation Page](../../installation/README.md)
+- [Installation Page](../../installation/)

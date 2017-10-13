@@ -1,6 +1,10 @@
+---
+title: Hardware User Manual for Nitrogen
+permalink: /documentation/IoTEdition/nitrogen/hardware-docs/hardware-user-manual.md.html
+---
 # Carbon Hardware User Manual
 
-<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Logos/Seeed_Logo_White.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Logos/Seeed_Logo_White.png?raw=true" width="180" height="50" align="right" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-logos/Seeed_Logo_White.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-logos/Seeed_Logo_White.png?raw=true" width="180" height="50" align="right" />
 
 ### Table of Contents
 
@@ -17,7 +21,7 @@
    - Download a hex file through UART
 
 
-[Click Here](https://github.com/96boards/documentation/tree/master/IoTEdition/Carbon/AdditionalDocs/Images) for access to raw images used in this doc.
+[Click Here](https://github.com/96boards/documentation/tree/master/IoTEdition/carbon/additional-docs/Images) for access to raw images used in this doc.
 
 ***
 
@@ -25,8 +29,8 @@
 
 The Carbon board is a 96Boards compliant IoT board based on the STM32F401RET6 in LQFP64 package.
 
-<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Carbon_Front-SD.png?raw=true" data-canonical-src="hhttps://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Carbon_Front-SD.png?raw=true" width="300" height="150" />
-<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Carbon_Back_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/Carbon_Back_SD.png?raw=true" width="300" height="150" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/Images/Carbon_Front-SD.png?raw=true" data-canonical-src="hhttps://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/Images/Carbon_Front-SD.png?raw=true" width="300" height="150" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/Images/Carbon_Back_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/Images/Carbon_Back_SD.png?raw=true" width="300" height="150" />
 
 
 The following table lists it's key features:
@@ -82,7 +86,7 @@ The following table lists it's key features:
 
 ## Hardware Overview
 
-<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/Carbon_Numbered_Front.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/Carbon_Numbered_Front.png?raw=true" width="600" height="300" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/Carbon_Numbered_Front.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/Carbon_Numbered_Front.png?raw=true" width="600" height="300" />
 
 1. **OTG** - Can be used as USB OTG/HOST and USB device, also used for USB DFU.
 2. **LED Indicators**
@@ -106,7 +110,7 @@ The following table lists it's key features:
 
 ## PinOut Map
 
-<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/Carbon_Pinout.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/Carbon_Pinout.png?raw=true" width="600" height="300" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/Carbon_Pinout.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/Carbon_Pinout.png?raw=true" width="600" height="300" />
 
 ***
 
@@ -158,7 +162,7 @@ For more details, please refer to [Running a serialized application](http://info
 6. Click the “Upgrade” button (Item 2 in following figure) to start upgrading file content to the memory.
 7. Click the “Verify” button (Item 3 in following figure) to verify if the data was successfully downloaded.
 
-<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/DfuSe_Demo.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/DfuSe_Demo.png?raw=true" width="400" height="550" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/DfuSe_Demo.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/DfuSe_Demo.png?raw=true" width="400" height="550" />
 
 #### How to generate DFU files from S19/Hex/Bin files
 
@@ -175,12 +179,12 @@ For more details, please refer to [Running a serialized application](http://info
 2. Run the “Demonstrator GUI” application (Start -> All Programs -> STMicroelectronics -> Demonstrator GUI).
 3. Follow the steps below to download the firmware.
 
-<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/DownloadUART_1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/DownloadUART_1.png?raw=true" width="400" height="550" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/DownloadUART_1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/DownloadUART_1.png?raw=true" width="400" height="550" />
 
-<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/DownloadUART_2.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/DownloadUART_2.png?raw=true" width="400" height="550" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/DownloadUART_2.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/DownloadUART_2.png?raw=true" width="400" height="550" />
 
-<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/DownloadUART_3.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/DownloadUART_3.png?raw=true" width="400" height="550" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/DownloadUART_3.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/DownloadUART_3.png?raw=true" width="400" height="550" />
 
-<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/DownloadUART_4-5.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/DownloadUART_4-5.png?raw=true" width="400" height="550" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/DownloadUART_4-5.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/DownloadUART_4-5.png?raw=true" width="400" height="550" />
 
-<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/DownloadUART_6.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/Carbon/AdditionalDocs/Images/HardwareUserManual/DownloadUART_6.png?raw=true" width="400" height="550" />
+<img src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/DownloadUART_6.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-hw-user-manual/DownloadUART_6.png?raw=true" width="400" height="550" />

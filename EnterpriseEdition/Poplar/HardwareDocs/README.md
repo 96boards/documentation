@@ -1,3 +1,8 @@
+---
+title: Hardware Documentation for Poplar
+permalink: /documentation/EnterpriseEdition/Poplar/HardwareDocs/
+redirect_from: /documentation/EnterpriseEdition/Poplar/HardwareDocs/README.md/
+---
 # Hardware Documentation
 
 Explore what makes your Poplar unique, technical specifications, schematics, hardware notes and more... This page allows you to see what is under the "Poplar hood" by offering static documentation published directly from the board vendors.

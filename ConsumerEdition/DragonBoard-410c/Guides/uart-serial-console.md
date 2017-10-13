@@ -1,3 +1,8 @@
+---
+title: Setting Up the UART console for DragonBoard-410c
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/uart-serial-console.md.html
+redirect_from: /db410c-getting-started/Guides/uart-serial-console.md/
+---
 # Setting Up the UART console
 
 A UART serial console can be optionally connected from a host PC USB port
@@ -57,7 +62,7 @@ to access the DB410c serial console:
 sudo screen /dev/<path of the FTDI> 115200
 ```
 
-Note: The default speed of UART1 is 115200 Baud on the DB410c. 
+Note: The default speed of UART1 is 115200 Baud on the DB410c.
 
 - Once the above has been executed, power on the DB410c and the user
   will see boot sequence text scroll in the console on the host PC

@@ -1,15 +1,19 @@
+---
+title: Hardware Notes for MediaTek X20
+permalink: /documentation/ConsumerEdition/MediaTekX20/HardwareDocs/HardwareNotes.md.html
+---
 # Hardware Notes
 
 
 ### CPU Load
- 
+
 The current supplied Linux 3.18-based kernel supports the thermal protection framework and DVFS. If the thermal setpoint of the SoC is reached, the 2*A72/2.5GHz will reduce the core frequencies intelligently or shut down to reduce the power consumption. In an extreme case thermal shutoff will occur if DVFS has not been effective at reducing the SoC temperature to an acceptable level.
 
 Higher performance may be obtained by using forced air (fan) cooling on the MediaTek X20 Development Board.
 
 ### HDMI Port
 
-The HDMI port on MediaTek X20 Development Board supports TVs and Monitors with an HDMI interface at display resolutions of 1920*1080 pixels down to 640*480 pixels. Note that interlaced display modes are not currently supported. The mobile SoC used on the MediaTek X20 Development Board does not have sufficiently flexible clocking arrangements to support allpossible HDMI timings specified by monitors. 
+The HDMI port on MediaTek X20 Development Board supports TVs and Monitors with an HDMI interface at display resolutions of 1920*1080 pixels down to 640*480 pixels. Note that interlaced display modes are not currently supported. The mobile SoC used on the MediaTek X20 Development Board does not have sufficiently flexible clocking arrangements to support allpossible HDMI timings specified by monitors.
 
 Note also that these modes are preferred and will be tried (in this order) first if they exist in EDID:
 
@@ -19,7 +23,7 @@ Note also that these modes are preferred and will be tried (in this order) first
 | 1280*720            | 16:9           | TV           |           
 | 720*480         | 4:3           | Monitor           |           
 
-### USB Ports 
+### USB Ports
 
 There are multiple USB ports on the MediaTek X20 Development Board:
    - One microUSB OTG port on the front edge of the board
@@ -40,11 +44,11 @@ In order to address this limitation the USB ports are by default configured into
 
 A switch is provided to change between USB 2.0 and USB Hub.
 
-### UART Ports 
+### UART Ports
 
-MediaTek X20 supports a UART Port used for debugging, the Baud Rate for this interface should be set to 921600. 
+MediaTek X20 supports a UART Port used for debugging, the Baud Rate for this interface should be set to 921600.
 
-## Known Issues 
+## Known Issues
 
 The following are known issues on the current release.
 

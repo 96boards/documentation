@@ -1,3 +1,8 @@
+---
+title: Setting Wi-Fi MAC Address on DragonBoard 410c
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/WIFIMacAddressSetup.md.html
+redirect_from: /db410c-getting-started/Guides/WIFIMacAddressSetup.md/
+---
 # Setting Wi-Fi MAC Address on DragonBoard 410c
 
 This document shows users how to program a unique MAC address into a DragonBoard 410c
@@ -80,7 +85,7 @@ computer command line).
 - **Option 1:** On the board, look at the Wi-Fi advanced settings and ensure that your MAC
 address is correct (as seen on the sticker).
 
-<img src="http://i.imgur.com/ba1mIqK.png" data-canonical-src="http://i.imgur.com/ba1mIqK.png" width="850" height="480" />
+<img src="https://i.imgur.com/ba1mIqK.png" data-canonical-src="https://i.imgur.com/ba1mIqK.png" width="850" height="480" />
 
 - **Option 2**: This method allows you to continue working in the shell (through the host
 computer) without needing to hook up a display or mouse to confirm the changed MAC
@@ -93,7 +98,7 @@ interface. The output will include information such as:
 
 `$ wlan0 UP [IP] [NETMASK] [MAC], etc.`
 
-<img src="http://i.imgur.com/9Pk0swl.png" data-canonical-src="http://i.imgur.com/9Pk0swl.png" width="850" height="150" />
+<img src="https://i.imgur.com/9Pk0swl.png" data-canonical-src="https://i.imgur.com/9Pk0swl.png" width="850" height="150" />
 
 ***
 

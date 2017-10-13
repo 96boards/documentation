@@ -1,3 +1,7 @@
+---
+title: Mac SD for B2260
+permalink: /documentation/ConsumerEdition/B2260/Installation/MacSD.md.html
+---
 ## Mac OS X Host
 
 This section show how to install an operating system to your B2260 using the SD Card method on a Mac OS X host computer.

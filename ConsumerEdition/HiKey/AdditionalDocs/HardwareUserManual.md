@@ -1,3 +1,7 @@
+---
+title: User Manual for HiKey
+permalink: /documentation/ConsumerEdition/HiKey/AdditionalDocs/HardwareUserManual.md.html
+---
 # HiKey User Manual
 
 ### Table of Contents
@@ -68,7 +72,7 @@ Cortex-A53 64-bit CPU up to 1.2GHz .
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/Images_Board/HiKey-Lemaker-Front_SD.jpg" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/Images_Board/HiKey-Lemaker-Front_SD.jpg" width="250" height="160" />
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/Images_Board/HiKey-Lemaker-Angle_SD.jpg" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/Images_Board/HiKey-Lemaker-Angle_SD.jpg" width="250" height="160" />
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/Images_Board/HiKey-Lemaker-Back_SD.jpg" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/Images_Board/HiKey-Lemaker-Back_SD.jpg" width="250" height="160" />
- 
+
 - **Processor**:
    - HiSilicon Kirin 620 SoC
    - Integrated octa-core 64-bit ARM Cortex-A53 CPU up to 1.2 GHz per core
@@ -104,7 +108,7 @@ Cortex-A53 64-bit CPU up to 1.2GHz .
    - Android 6.0
    - Linux based on Debian
    - OpenEmbedded
-- **Mechanical**: 
+- **Mechanical**:
    - Dimensions: 54mm by 85mm meeting 96Boards™Consumer Edition standard dimensions specifications.
 - Power:
    - 8V-18V@2A input
@@ -166,7 +170,7 @@ If a mixture of High Speed and Low/Full speed devices are attached the devices w
 operate correctly. This also applies if any hubs are attached to the ports.
 
 
-#### Starting the board for the first time 
+#### Starting the board for the first time
 
 To start the board, follow these simple steps:
 
@@ -261,7 +265,7 @@ Below is a block diagram of the HiKey implementation.
 
 <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/Images_HWUserManual/DisplayInterface.png" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/Images_HWUserManual/DisplayInterface.png" width="750" height="480" />
 
-#### HDMI 
+#### HDMI
 
 The Kirin 620 doesn’t include a built-in HDMI interface. The Kirin 620 deploys the built-in
 MIPI-DSI 4 lanes interface as the source for the HDMI output. A peripheral DSI to HDMI
@@ -418,7 +422,7 @@ The following tables show the Low Speed Expansion Connector pin out:
 |  SYS_5V             |     +5V           |   37  |   38  |    SYC_DCIN        | SYSDC_IN            |
 |  DGND               |     GND           |   39  |   40  |    GND             | DGND                |
 
-### UART {0/1} 
+### UART {0/1}
 
 The HiKey board implements UART2 as a 4-wire UART that connects directly to the Kirin
 620. These signals are driven at 1.8V.
@@ -427,11 +431,11 @@ The HiKey board implements UART3 as a 2-wire UART that connects directly to the 
 620. These signals are driven at 1.8V.
 
 
-### I2C {0/1} 
+### I2C {0/1}
 
 The HiKey board implements both interfaces, I2C0 and I2C1 that connects directly to the Kirin 620
 
-### GPIO {A-L} 
+### GPIO {A-L}
 
 The Kirin 620 has 20 groups of general-purpose input/output (GPIO) pins, including
 GPIO0−GPIO2 in the power-on area of the system-on-chip (SoC) system and GPIO3−GPIO19
@@ -440,7 +444,7 @@ pins, and there are 160 GPIO pins in total. The GPIO pins are used to generate o
 signals or collect input signals for specific applications. The GPIO3−GPIO19 pins are
 multiplexed with other functional pins.
 
-### SPI 0 
+### SPI 0
 
 The HiKey board implements a full SPI master with 4 wires, CLK, CS, MOSI and MISO all
 connect directly to the Kirin 620.
@@ -451,13 +455,13 @@ The HiKey board implements a PCM with 3 wires, CLK, FS and DO, the optional DI s
 not implemented on the HiKey board. The I2S signals are connected directly to the Kirin
 620.
 
-### Power and Reset 
+### Power and Reset
 
-The 96Boards specification calls for a signal on the Low Speed Expansion Connector that can power on/off the board and a signal that serves as a board reset signal. 
-The MediaTek X20 Development Board routes the PWR_BTN_N (named PWRKEY on schematic) signal to the PWRKEY pin of the PMIC MT6351. This signal is driven by SW3201 as well, the on-board power on push-button switch.  A mezzanine implementation of this signals should not drive it with any voltage, the only allowed operation is to force it to GND to start the board from a sleep mode. 
+The 96Boards specification calls for a signal on the Low Speed Expansion Connector that can power on/off the board and a signal that serves as a board reset signal.
+The MediaTek X20 Development Board routes the PWR_BTN_N (named PWRKEY on schematic) signal to the PWRKEY pin of the PMIC MT6351. This signal is driven by SW3201 as well, the on-board power on push-button switch.  A mezzanine implementation of this signals should not drive it with any voltage, the only allowed operation is to force it to GND to start the board from a sleep mode.
 The MediaTek X20 Development Board routes the RST_BTN_N (named SYSRSTB on schematic) signal to the SYSRSTB pin of the PMIC MT6351.
 
-### Power Supplies 
+### Power Supplies
 
 The HiKey board routes the PMU_PWRON_N signal to the PWRON_N pin of the
 HI6553V100 PMIC. This signal is driven by S601 as well, the on-board power on push-button
@@ -512,7 +516,7 @@ The following table shows the High Speed Expansion Connector pin out:
 | NOT USED       |   HSIC_STR           |   57  |   58  |   GND              | DGND                |
 | NOT USED       |   HSIC_DATA          |   59  |   60  |   RESERVED         | 100K PU TO LDO5_1V8 |
 
-### MIPI DSI 2 
+### MIPI DSI 2
 
 The 96Boards specification calls for a MIPI-DSI to be present on the High Speed Expansion
 Connector. A minimum of one lane is required and up to four lanes can be accommodated
@@ -529,7 +533,7 @@ Bridge.
 When ‘ DSI_SEL_GPIO0_1’ is logic level high, ‘1’, the MIPI-DSI is routed to the High Speed
 Expansion connector.
 
-### MIPI CSI {0/1} 
+### MIPI CSI {0/1}
 
 The 96Boards specification calls for two MIPI-CSI interfaces to be present on the High
 

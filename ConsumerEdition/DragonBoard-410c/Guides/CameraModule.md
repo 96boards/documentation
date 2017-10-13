@@ -1,3 +1,8 @@
+---
+title: Using CSI camera with a Dragonboard-410c
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/CameraModule.md.html
+redirect_from: /db410c-getting-started/Guides/CameraModule.md/
+---
 # Using CSI camera
 
 ## Introduction
@@ -103,15 +108,15 @@ At this point the pipeline should be configured and ready to be used by any appl
 Or you can use GStreamer to show a live preview from the camera:
 
     gst-launch-1.0 v4l2src ! glimagesink
-    
+
 If you have a second camera sensor and intend to use it concurrently then link and configure another pipeline which includes the second camera and the unused entities. Use a v4l2 application the same way only pointing the correct video device node used in this pipeline.
 
 ### Format conversion
 
 Pipeline configuration for the format conversion looks like this:
 
-    sudo media-ctl -d /dev/media1 -l '"msm_csiphy0":1->"msm_csid0":0[1],"msm_csid0":1->"msm_ispif0":0[1],"msm_ispif0":1->"msm_vfe0_rdi0":0[1]'
-    
+    sudo media-ctl -d /dev/media1 -l '"msm_csiphy0":1->"msm_csid0":0[1],"msm_csid0":1->"msm_ispif0":0[1],"msm_ispif0":1->"msm_vfe0_pix":0[1]'
+
 Format configuration for NV16/NV61 output:
 
     sudo media-ctl -d /dev/media1 -V '"ov5645 1-0076":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":1[fmt:UYVY8_2X8/1280x960 field:none]'

@@ -1,3 +1,8 @@
+---
+title: OpenOCD JTAG Guide for HiKey
+permalink: /documentation/ConsumerEdition/HiKey/Guides/JTAG/
+redirect_from: /documentation/ConsumerEdition/HiKey/Guides/JTAG/README.md/
+---
 # OpenOCD JTAG and HiKey
 
 Hikey provides an unpopulated JTAG connector on its underside. It is relatively easy to hand solder on a proper connector and to use inexpensive JTAG interfaces to communicate with the board.
@@ -13,7 +18,7 @@ http://uk.farnell.com/samtec/ftsh-105-01-l-dv/header-1-27mm-smd-10way/dp/1667759
 
 Once the connector is soldered on it should look something like this
 
-![](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/Configuration/JTAG/Screenshot%20(180).png?raw=true)
+![](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/Guides/JTAG/Screenshot%20(180).png?raw=true)
 
 ## JTAG interfaces
 
@@ -183,7 +188,7 @@ and in u-boot force the processor to jump to this address (which is the start of
     Err:   serial
     Net:   Net Initialization Skipped
     No ethernet found.
-    Hit any key to stop autoboot:  0 
+    Hit any key to stop autoboot:  0
     # go 0x35000000
     ## Starting application at 0x35000000 ...
 
@@ -197,7 +202,7 @@ you can see in OpenOCD telnet we hit the breakpoint
 now remove the breakpoint so we can try single stepping
 
     rbp 0x35000000
-    
+
 ### Single stepping
 
 _Currently it is not possible to resume the target once Linux has booted (although it can be halted and examined). At present single stepping is only effective for bootloader development._
@@ -306,13 +311,13 @@ cpsr: 0x800003c9 pc: 0x3ef7e908
 MMU: disabled, D-Cache: disabled, I-Cache: disabled
 
     > mdw 0x35000000 10
-    0x35000000: 1400000a d503201f 35000000 00000000 00042938 00000000 00042938 00000000 
-    0x35000020: 0009e030 00000000 
+    0x35000000: 1400000a d503201f 35000000 00000000 00042938 00000000 00042938 00000000
+    0x35000020: 0009e030 00000000
     > resume
 
 and then validate with u-boot
 
-    # md.l 0x35000000 10 
+    # md.l 0x35000000 10
     35000000: 1400000a d503201f 35000000 00000000    ..... .....5....
     35000010: 00042938 00000000 00042938 00000000    8)......8)......
     35000020: 0009e030 00000000 10003ec0 d5384241    0........>..AB8.
@@ -338,7 +343,7 @@ statically linked address 0x35000000. On my system it gets relocated to
     19	{
     (gdb) bt
     #0  do_version (cmdtp=0x3ef8c0c0, flag=0, argc=1, argv=0x3e746850) at ../common/cmd_version.c:19
-    #1  0x000000003ef604a8 in cmd_call (argv=0x3e746850, argc=1, 
+    #1  0x000000003ef604a8 in cmd_call (argv=0x3e746850, argc=1,
 
 ## What isn't working
 
@@ -348,5 +353,3 @@ Better still debug and fix it!
 
 Sometimes I hit the following GDB assertion when doing a backtrace in U-Boot
 * /cbuild/slaves/oorts/crosstool-ng/builds/aarch64-linux-gnu-linux/.build/src/gdb-linaro-7.6.1-2013.10/gdb/regcache.c:178: internal-error: register_size: Assertion `regnum >= 0 && regnum < (gdbarch_num_regs (gdbarch) + gdbarch_num_pseudo_regs (gdbarch))' failed.
-
-

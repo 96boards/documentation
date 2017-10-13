@@ -1,3 +1,8 @@
+---
+title: Getting Started with Poplar
+permalink: /documentation/EnterpriseEdition/Poplar/GettingStarted/
+redirect_from: /documentation/EnterpriseEdition/Poplar/GettingStarted/README.md/
+---
 # Getting Started
 
 Learn about your Poplar board as well as how to prepare and set up for basic use
@@ -5,7 +10,7 @@ Learn about your Poplar board as well as how to prepare and set up for basic use
 ## Setup - What you will need
 
 **Need**
-- [Poplar Board](http://www.96boards.org/product/poplar/)
+- [Poplar Board](https://www.96boards.org/product/poplar/)
    - Board based on the HiSilicon Hi3798C V200 Processor
 - Power adapter
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter
@@ -58,10 +63,9 @@ If you are already familiar with the Poplar board and would like to change out t
 
 - [Board Recovery](https://github.com/Linaro/poplar-tools/blob/latest/build_instructions.md)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
-- [Support](../Support/README.md)
+- [Support](../Support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
-Back to the [Poplar documentation home page](../README.md)
-   
-***   
+Back to the [Poplar documentation home page](../)
 
+***   

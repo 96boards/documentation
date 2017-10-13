@@ -1,4 +1,9 @@
-#How to force display resolution and bypass EDID
+---
+title: How to force display resolution and bypass EDID
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/ForceDisplayRes.md.html
+redirect_from: /db410c-getting-started/Guides/ForceDisplayRes.md/
+---
+# How to force display resolution and bypass EDID
 
 ## Abstract
 
@@ -14,8 +19,8 @@ This is a Linux kernel feature that can be used:
     /lib/firmware directory or one of the provided built-in
     data sets. This may be necessary, if the graphics adapter or
     monitor are unable to provide appropriate EDID data. Since this
-    feature is provided as a workaround for broken hardware, it is 
-    disabled by default. 
+    feature is provided as a workaround for broken hardware, it is
+    disabled by default.
 
 Details and instructions how to build your own EDID data are given in [Documentation/EDID/HOWTO.txt](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/EDID/HOWTO.txt).
 
@@ -43,13 +48,13 @@ In order to use this kernel feature, the following kernel config must be enabled
 
 Note: it is enabled by default on DragonBoard 410c Linux releases from http://builds.96boards.org/releases/dragonboard410c/linaro/debian/.
 
-The name of the custom EDID file needs to be given in the kernel boot arguments. 
+The name of the custom EDID file needs to be given in the kernel boot arguments.
 
 #### Using a DragonBoard 410c release
 
 If you are using a binary release for DragonBoard 410c from Linaro/96boards, you do not need to recompile the Linux kernel in order to modify the bootargs. You can follow the next instructions:
 
-##### Download the boot image 
+##### Download the boot image
 
 Identify which release or build you are running and download the released boot image. This file is usually called ` boot-linaro-jessie-qcom-snapdragon-arm64-xxx.img.gz` and can be found for example in http://builds.96boards.org/releases/dragonboard410c/linaro/debian/. Once you have the file, you need to unzip it.
 

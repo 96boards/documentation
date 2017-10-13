@@ -1,3 +1,8 @@
+---
+title: Android Downloads for DragonBoard-410c
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Android.md.html
+redirect_from: /db410c-getting-started/Downloads/Android.md/
+---
 # Android
 
 **Android** is a mobile/tablet platform environment. This environment is primarily used to test applications/software developed remotely on a host computer using an assortment of IDE’s(integrated development environments) and SDK’s(software development kits). This DragonBoard 410c Android image is rich in features and optimized for functionality.
@@ -11,7 +16,7 @@
 | Stable Snapshot 99 | [Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/16.03/dragonboard410c_sdcard_install_android-99.zip)
 |Release Notes:     |[Link](https://developer.qualcomm.com/hardware/dragonboard-410c/tools) (under the Software - Android section) |
 
-Continue to [Installation page](../Installation/README.md)
+Continue to [Installation page](../Installation/)
 
 ***
 
@@ -31,4 +36,4 @@ Continue to [Installation page](../Installation/README.md)
 |cache.img.tar.xz         |[Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/16.03/cache.img.tar.xz)    |
 |Release Notes:     |[Link](https://developer.qualcomm.com/hardware/dragonboard-410c/tools) (under the Software - Android section)    |
 
-Continue to [Installation page](../Installation/README.md)
+Continue to [Installation page](../Installation/)

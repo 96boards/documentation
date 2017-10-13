@@ -1,3 +1,7 @@
+---
+title: Hardware Notes for B2260
+permalink: /documentation/ConsumerEdition/B2260/HardwareDocs/HardwareNotes.md.html
+---
 # Hardware Notes
 
 
@@ -26,7 +30,7 @@ B2260 Development Board supports an UART Port used for debugging over the low-sp
 
 ### Known Issues
 
-None 
+None
 
 ### Report a Bug
 

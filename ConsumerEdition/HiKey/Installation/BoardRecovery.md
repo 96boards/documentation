@@ -1,11 +1,15 @@
+---
+title: BoardRecovery for HiKey
+permalink: /documentation/ConsumerEdition/HiKey/Installation/BoardRecovery.md.html
+---
 # HiKey Board Recovery
 
 This page outlines steps needed to recover your HiKey board from a bricked software state. This instruction set is suggested to those who are experiences boot issues due to a corrution in the file system and/or other software components.
 
-## Installing a Bootloader 
+## Installing a Bootloader
 
-For most users a board can be “recovered” from a software failure by reloading the operating system. However, if the primary bootloader in the eMMC flash memory has been corrupted then the bootloader will need to be re-installed. This section describes how to reinstall the primary bootloader. 
- 
+For most users a board can be “recovered” from a software failure by reloading the operating system. However, if the primary bootloader in the eMMC flash memory has been corrupted then the bootloader will need to be re-installed. This section describes how to reinstall the primary bootloader.
+
 #### Choose your Operating System and download the following files
 
 Build Folders <a href="http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/" target="_blank">Debian</a>
@@ -15,7 +19,7 @@ Build Folders <a href="http://builds.96boards.org/releases/reference-platform/de
 |:----------------------------:|
 | [l-loader.bin](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/l-loader.bin)  |  
 |  [fip.bin](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/fip.bin)           |  
-| [nvme.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/nvme.img)          | 
+| [nvme.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/nvme.img)          |
 | [ptable-linux-4g.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-4g.img) or [ptable-linux-8g.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-8g.img)     |
 
 #### You will also need the boot partition for the OS Image you want to run
@@ -41,7 +45,7 @@ $ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06
 $ gunzip boot-fat.uefi.img.gz
 ```
 
-#### Make sure fastboot is set up on host computer 
+#### Make sure fastboot is set up on host computer
 
 - Android SDK “Tools only” for Linux can be downloaded <a href="http://developer.android.com/sdk" target="_blank">here</a>
 - The Linux “Tools Only” SDK download does not come with fastboot, you will need to use the Android SDK Manager to install platform-tools.

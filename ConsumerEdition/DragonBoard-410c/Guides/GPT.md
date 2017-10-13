@@ -1,3 +1,8 @@
+---
+title: Dragonboard 410c GPT
+permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/GPT.md.html
+redirect_from: /db410c-getting-started/Guides/GPT.md/
+---
 # Dragonboard 410c GPT
 
 This page provides information to create a custom GUID Partition Table(GPT) for DragonBoard 410c. Note that flashing your own GPT will result in loss of data on the eMMC, make sure that you know what you are doing.
@@ -58,7 +63,7 @@ You can now write the boot and rootfs image into the SD card:
 
     sudo dd if=boot-XXX.img of=/dev/XXX7
     sudo dd if=rpb-desktop-image-dragonboard-410c-XXX.rootfs.img of=/dev/XXX9
-    
+
 Where:
 * /dev/XXX7 represents the 'boot' partition on the SD card
 * /dev/XXX9 represents the 'rootfs' partition on the SD card
