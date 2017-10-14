@@ -1,7 +1,7 @@
 ---
 title: Documentation for Mezzanine Products
-permalink: /documentation/MezzanineProducts/
-redirect_from: /documentation/MezzanineProducts/README.md/
+permalink: /documentation/mezzanine/
+redirect_from: /documentation/mezzanine/README.md/
 ---
 ## Mezzanine Guides
 
@@ -13,13 +13,13 @@ Coming Soon...
 
 ## Boards
 
-- [STM32 Sensor mezzanine board](STM32/)
+- [STM32 Sensor mezzanine board](stm32/)
    - The STM32 Sensor board is a 96Boards mezzanine board based around the STM32F446 MCU
-- [Linker mezzanine card starter kit](LinkerMezzanineStarterKit/)
+- [Linker mezzanine card starter kit](linkspritesensorkit/)
    - 96Boards starter kit with Linker mezzanine card and loft modules
-- [96Boards UART Serial Adapter](UARTSerial/)
+- [96Boards UART Serial Adapter](uartserial/)
    - USB to UART interface to be used with any 96Boards Consumer or Enterprise Edition board
-- [Sensors mezzanine](SensorsMezzanine/)
+- [Sensors mezzanine](sensors-mezzanine/)
    -  I/O Expansion board for IoT/Sensor applications, with SoC and Arduino-compatible Grove module interfaces, and Arduino-compatible shield connectors.
-- [Aero Core 2](AeroCore2/)
+- [Aero Core 2](aerocore2/)
    - The Aero Core 2 for 96Boards provides an ARM Cortex-M4 microcontroller for MAV control and much more...

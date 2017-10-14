@@ -1,5 +1,5 @@
 ---
 title: Documentation for Ethernet Mezzanine
-permalink: /documentation/MezzanineProducts/ethernetcard/
-redirect_from: /documentation/MezzanineProducts/ethernetcard/README.md/
+permalink: /documentation/mezzanine/ethernetcard/
+redirect_from: /documentation/mezzanine/ethernetcard/README.md/
 ---
