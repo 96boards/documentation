@@ -1,7 +1,7 @@
 ---
 title: Documentation for MIPI Camera Card
-permalink: /documentation/MezzanineProducts/mipiadapter/
-redirect_from: /documentation/MezzanineProducts/mipiadapter/README.md/
+permalink: /documentation/mezzanine/mipiadapter/
+redirect_from: /documentation/mezzanine/mipiadapter/README.md/
 ---
 ## MIPI Camera Mezzanine for 96Boards
 

@@ -1,7 +1,7 @@
 ---
 title: Documentation for AeroCore2
-permalink: /documentation/MezzanineProducts/AeroCore2/
-redirect_from: /documentation/MezzanineProducts/AeroCore2/README.md/
+permalink: /documentation/mezzanine/aerocore2/
+redirect_from: /documentation/mezzanine/aerocore2/README.md/
 ---
 ## AeroCore 2 for 96Boards
 
