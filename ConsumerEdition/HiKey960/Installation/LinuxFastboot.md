@@ -56,7 +56,7 @@ Jumper Pin 5-6 = DIP switch 3                     |
 
 Most release-level devices should not require this step to updating the base firmware, so this step mostly applies to pre-release boards, and can be skipped (head on to **Step 4** of the instructions). However, if your board does not boot after being flashed, its advised to do a recovery flash to ensure lower-level firmware components are properly flashed.
 
-Instructions on how to do a recovery flash of the base firmware are kept in a seperate repository and can be found [here](https://github.com/96boards-hikey/tools-images-hikey960/blob/master/)
+Instructions on how to do a recovery flash of the base firmware are kept in a seperate repository and can be found [here](https://github.com/96boards-hikey/tools-images-hikey960)
 
 ## Step 4: Boot HiKey 960 into fastboot mode
 
