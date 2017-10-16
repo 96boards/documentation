@@ -5,8 +5,8 @@ redirect_from: /documentation/ConsumerEdition/CE-Extras/Configuration/WifiComman
 ---
 # Setting up a WIFI connection via command line on Debian/Ubuntu (Network Manager)
 
-In case you don't have a HDMI monitor around and got UART access to the board (e.g. [UART adapter board](https://www.96boards.org/products/mezzanine/uarts/) or [Sensors Mezzanine
-](https://www.96boards.org/products/mezzanine/sensors-mezzanine/)), there are quite a few easy ways for you to configure a wireless connection, so you can then remotely access your board without any extra cables (besides the power adapter).
+In case you don't have a HDMI monitor around and got UART access to the board (e.g. [UART adapter board](https://www.96boards.org/product/uartserial/) or [Sensors Mezzanine
+](https://www.96boards.org/product/sensors-mezzanine/)), there are quite a few easy ways for you to configure a wireless connection, so you can then remotely access your board without any extra cables (besides the power adapter).
 
 To show the overall status of NetworkManager:
 
