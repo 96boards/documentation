@@ -5,7 +5,7 @@ redirect_from: /documentation/EnterpriseEdition/Cello/README.md/
 ---
 # Using the Cello
 
-A comprehensive guide to using the [Cello](https://www.96boards.org/products/ee/cello/) Enterprise Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
+A comprehensive guide to using the [Cello](https://www.96boards.org/products/ee/) Enterprise Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
 ## Contents
 

@@ -5,7 +5,7 @@ redirect_from: /documentation/ConsumerEdition/CE-Extras/DockerCE.md.html/
 ---
 # Instructions for Installing Docker on a Consumer Edition 96Boards
 
-This document will show you how to install and test the Debian Docker apt package on the 96Boards with 1GB RAM using the Reference Platform Build 16.03 which is [available here](https://github.com/Linaro/documentation/tree/master/Reference-Platform/PreviousReleases/RPB_16.03). This document was created for Docker v1.9.1.
+This document will show you how to install and test the Debian Docker apt package on the 96Boards with 1GB RAM using the Reference Platform Build 16.03 which is [available here](https://github.com/Linaro/documentation/tree/master/Reference-Platform/Releases/RPB_16.03). This document was created for Docker v1.9.1.
 
 This material was covered in our [6th OpenHours session](https://youtu.be/lvv7CbXOHtw) and can be paired with [this blog](https://www.96boards.org/blog/installing-docker-aarch64-96boards-ce/).
 

@@ -14,6 +14,6 @@ Explore what makes your MediaTek X20 unique, technical specifications, schematic
 
 ## Hardware
 
-- Schematics ([View](https://github.com/sdrobertw/x20Pro/blob/master/HardwareDocs/MediaTekX20Pro_Schematics.pdf) / [Download](https://github.com/sdrobertw/x20Pro/raw/master/HardwareDocs/MediaTekX20Pro_Schematics.pdf))
-- Board Placement ([View](https://github.com/sdrobertw/x20Pro/blob/master/HardwareDocs/MediaTekX20Pro_BoardPlacement.pdf) / [Download](https://github.com/sdrobertw/x20Pro/raw/master/HardwareDocs/MediaTekX20Pro_BoardPlacement.pdf))
-- Board 2D Drawing ([View](https://github.com/sdrobertw/x20Pro/blob/master/HardwareDocs/MediaTekX20%20Pro_Board_2D%20Drawing.rar) / [Download](https://github.com/sdrobertw/x20Pro/raw/master/HardwareDocs/MediaTekX20%20Pro_Board_2D%20Drawing.rar))
+- Schematics ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20Pro/HardwareDocs/MediaTekX20Pro_Schematics.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/MediaTekX20Pro/HardwareDocs/MediaTekX20Pro_Schematics.pdf))
+- Board Placement ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20Pro/HardwareDocs/MediaTekX20Pro_BoardPlacement.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/MediaTekX20Pro/HardwareDocs/MediaTekX20Pro_BoardPlacement.pdf))
+- Board 2D Drawing ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20Pro/HardwareDocs/MediaTekX20%20Pro_Board_2D%20Drawing.rar) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/MediaTekX20Pro/HardwareDocs/MediaTekX20%20Pro_Board_2D%20Drawing.rar))

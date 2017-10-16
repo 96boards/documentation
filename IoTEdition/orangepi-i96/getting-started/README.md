@@ -11,7 +11,7 @@ Learn about your Orange Pi i96 board as well as how to prepare and set up for ba
 ## Setup - What you will need
 
 **Need**
-- [Orange Pi i96](https://www.96boards.org/product/i96/)
+- [Orange Pi i96](https://www.96boards.org/product/orangepi-i96/)
    - Board based on the RDA8810PL ARM Cortex-A5
 - TF Card (microSD Card)
    - 8GB or bigger ; class 10. Branded TF cards which are much more reliable are the good choice
