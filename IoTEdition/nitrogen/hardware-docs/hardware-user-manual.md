@@ -21,7 +21,7 @@ permalink: /documentation/IoTEdition/nitrogen/hardware-docs/hardware-user-manual
    - Download a hex file through UART
 
 
-[Click Here](https://github.com/96boards/documentation/tree/master/IoTEdition/carbon/additional-docs/Images) for access to raw images used in this doc.
+[Click Here](https://github.com/96boards/documentation/tree/master/IoTEdition/carbon/additional-docs/images) for access to raw images used in this doc.
 
 ***
 
