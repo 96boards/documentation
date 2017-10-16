@@ -1,7 +1,7 @@
 ---
 title: Documentation for Sensors Mezzanine
-permalink: /documentation/MezzanineProducts/SensorsMezzanine/
-redirect_from: /documentation/MezzanineProducts/SensorsMezzanine/README.md/
+permalink: /documentation/mezzanine/sensors-mezzanine/
+redirect_from: /documentation/mezzanine/sensors-mezzanine/README.md/
 ---
 ## Sensors mezzanine
 

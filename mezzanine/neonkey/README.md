@@ -1,7 +1,7 @@
 ---
 title: Documentation for NeonKey
-permalink: /documentation/MezzanineProducts/neonkey/
-redirect_from: /documentation/MezzanineProducts/neonkey/README.md/
+permalink: /documentation/mezzanine/neonkey/
+redirect_from: /documentation/mezzanine/neonkey/README.md/
 ---
 ## NeonKey for 96Boards
 
