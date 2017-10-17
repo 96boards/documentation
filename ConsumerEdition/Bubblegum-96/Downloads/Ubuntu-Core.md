@@ -48,7 +48,7 @@ ubuntu-core_bubblegum_2016****.img
 For global users: [https://mega.nz/#!dsplDRbB!X_su5fKFOWeGJ6Yurf7X6wKqnnOPnno-Fw-2smiWrGE][1]  
 For Chinese users: [http://pan.baidu.com/s/1mizsWM8][3]  
 
-U-boot-dtb.img: [http://builds.96boards.org/snapshots/bubblegum/linaro/u-boot/latest/u-boot-dtb.img][2]
+U-boot-dtb.img: [http://builds.96boards.org/releases/bubblegum/linaro/u-boot/latest/u-boot-dtb.img][2]
 
 And create the linaro-adfu-tool with the following command:  
 ```shell
@@ -130,10 +130,6 @@ Password: ubuntu
 
 
 
-
-
-
-
   [1]: https://mega.nz/#!dsplDRbB!X_su5fKFOWeGJ6Yurf7X6wKqnnOPnno-Fw-2smiWrGE
-  [2]: http://builds.96boards.org/snapshots/bubblegum/linaro/u-boot/latest/u-boot-dtb.img
+  [2]: https://builds.96boards.org/releases/bubblegum/linaro/u-boot/latest/
   [3]: http://pan.baidu.com/s/1mizsWM8

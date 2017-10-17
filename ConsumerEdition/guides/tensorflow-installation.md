@@ -1,3 +1,7 @@
+---
+title: Tensorflow Installation Guide
+permalink: /documentation/ConsumerEdition/guides/tensorflow-installation.md.html
+---
 # Tensorflow Installation Guide
 
 Tensorflow is an open source software library used for computation of data flow graphs, with applications in deep neural networks research and machine learning. 

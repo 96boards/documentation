@@ -42,7 +42,7 @@ GPIO3-1 | Link 5-6 | open
 
 Link 1-2 causes HiKey to auto-power up when power is installed. Link 3-4 causes the HiKey SoC internal ROM to start up in at a special "install bootloader" mode which will install a supplied bootloader from the microUSB OTG port into RAM, and will present itself to a connected PC as a ttyUSB device.
 
-Please refer to the [Hardware User Guide](https://www.96boards.org/wp-content/uploads/2015/02/HiKey_User_Guide_Rev0.2.pdf) (Chapter 1. Settings Jumper) for more information on the HiKey link options.
+Please refer to the [Hardware User Guide](https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/HiKey_User_Guide_CircuitCo.pdf) (Chapter 1. Settings Jumper) for more information on the HiKey link options.
 
 #### Connect the HiKey power supply to the board.
 

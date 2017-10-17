@@ -1,6 +1,6 @@
 ---
 title: MRAA Library for 96Boards
-permalink: /documentation/ConsumerEdition/guides/mraa.md
+permalink: /documentation/ConsumerEdition/guides/mraa.md.html
 ---
 # MRAA Library for 96Boards
 
