@@ -1,11 +1,10 @@
 ---
-title: MRAA Library for 96Boards
-permalink: /documentation/ConsumerEdition/guides/mraa.md.html
+title: Guides
+permalink: /documentation/ConsumerEdition/guides/mraa/install.md.html
 ---
-# MRAA Library for 96Boards
 
-96Boards supports [MRAA library](https://github.com/intel-iot-devkit/mraa) which is used for accessing on board peripherals. 
-96Boards enabled pre-built libraries are easy to get, and in some cases might already be included in your current build image. 
+# Installation guide for MRAA library on 96Boards CE
+
 Following instructions provides information about installing the MRAA library as a package and building from source.
 
 ## Update 96Boards system
