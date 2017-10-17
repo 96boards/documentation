@@ -5,7 +5,7 @@ redirect_from: /documentation/ConsumerEdition/HiKey/README.md/
 ---
 # Using the HiKey
 
-A comprehensive guide to using the [HiKey](https://www.96boards.org/products/ce/hikey/) Consumer Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
+A comprehensive guide to using the [HiKey](https://www.96boards.org/product/hikey/) Consumer Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
 ## Software
 
