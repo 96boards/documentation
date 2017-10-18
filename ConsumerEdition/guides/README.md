@@ -24,3 +24,5 @@ Welcome to the 96Boards-Consumer Edition Guides section. This document provides 
    - For those without an HDMI monitor, learn how to set up your 96Boards WiFi connection using the serial console.
 - [Disable Graphical Interface (Debian)](disable_gui.md)
    - Disable X11 stack when the graphical interface is not needed.
+- [Create Swap Space using ZRAM or RAM Compression](zram_swapspace.md)
+   - Setup Swap Space using ZRAM or RAM Compression
