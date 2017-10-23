@@ -30,8 +30,8 @@ Learn about your i.MX7 96 board as well as how to prepare and set up for basic u
 
 The following subsections should describe how to get started with the i.MX7 96 using the release build shipped with the boards.
 
-<img src="https://github.com/sdrobertw/meercat/blob/master/additional-docs/images/images-board/iMX7-96-front.jpg?raw=true" data-canonical-src="https://github.com/sdrobertw/meercat/blob/master/additional-docs/images/images-board/iMX7-96-front.jpg?raw=true" width="250" height="160" />
-<img src="https://github.com/sdrobertw/meercat/blob/master/additional-docs/images/images-board/iMX7-96-back.jpg?raw=true" data-canonical-src="https://github.com/sdrobertw/meercat/blob/master/additional-docs/images/images-board/iMX7-96-back.jpg?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/imx7-96/additional-docs/images/images-board/iMX7-96-front.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/imx7-96/additional-docs/images/images-board/iMX7-96-front.jpg?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/imx7-96/additional-docs/images/images-board/iMX7-96-back.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/imx7-96/additional-docs/images/images-board/iMX7-96-back.jpg?raw=true" width="250" height="160" />
 
 ## Features
 
