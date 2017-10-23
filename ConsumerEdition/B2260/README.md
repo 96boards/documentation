@@ -6,7 +6,7 @@ layout: empty-container-page
 ---
 # Using the B2260
 
-Here is a comprehensive guide to use the [B2260](https://www.96boards.org/product/b2260/) Consumer Edition development board.<br>
+Here is a comprehensive guide to use the B2260 Consumer Edition development board.<br>
 This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
 ## Software

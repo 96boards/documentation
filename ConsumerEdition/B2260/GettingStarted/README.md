@@ -10,11 +10,11 @@ Learn about your B2260 board as well as how to prepare and set up for basic use.
 ## Setup - Hardware
 
 **Required**
-- [B2260](https://www.96boards.org/product/b2260/)
+- [B2260](https://96boards.org/products/ce/)
    - Board based on the Cannes2-STiH410 SoC
 - Power Supply
    - 12V supply required, recommended minimum 2A
-   - For more info see: https://www.96boards.org/products/accessories/power/
+   - For more info see: https://www.96boards.org/product/power/
 - USB Keyboard and Mouse
    - 96board CE specification requires two USB-A connectors, thus all 96Boards can be simultaneously equipped with a keyboard and mouse without the need for an external USB hub
 - Monitor and HDMI Cable

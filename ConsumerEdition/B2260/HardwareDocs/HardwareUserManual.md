@@ -112,7 +112,7 @@ Before power up the  B2260 Development Board for the first time, following mater
    - Board based on the ST Cannes2-STiH410 Processor.
 - **Power Supply**
    - 96Boards specifications requires a 8V to 18V Power supply ; Recommended: SUN-1200500 by SUNUP electronics.
-   -  a Jack adaptor ; Recommended:  https://www.96boards.org/products/accessories/power/.
+   -  a Jack adaptor ; Recommended:  https://www.96boards.org/product/power/.
 - **USB Keyboard and Mouse**
    - With two USB-A connectors, all 96Boards can be equiped with a full sized AZERTY keyboard and mouse.
 - **Monitor and HDMI-HDMI Cable**
@@ -521,4 +521,4 @@ Please note that there is no independent power domain on the B2260 Development B
 
 ***
 
-[View/Edit this document in Github](https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/HardwareDocs/HWUserManual.md)
+[View/Edit this document in Github](https://github.com/96boards/documentation/tree/master/ConsumerEdition/B2260/HardwareDocs/HardwareUserManual.md)
