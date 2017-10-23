@@ -4,6 +4,6 @@ Explore what makes your i.MX7-96 unique, technical specifications, schematics, h
 
 ## Hardware
 
-- Hardware User Manual ([View](https://github.com/sdrobertw/meercat/blob/master/hardware-docs/files/iMX7-user-guide.pdf) / [Download](https://github.com/sdrobertw/meercat/raw/master/hardware-docs/files/iMX7-user-guide.pdf))
-- Schematics ([View](https://github.com/sdrobertw/meercat/blob/master/hardware-docs/files/iMX7-96-schematics.pdf) / [Download](https://github.com/sdrobertw/meercat/raw/master/hardware-docs/files/iMX7-96-schematics.pdf))
-- BoM ([View](https://github.com/sdrobertw/meercat/blob/master/hardware-docs/files/iMX7-96-bom.pdf) / [Download](https://github.com/sdrobertw/meercat/raw/master/hardware-docs/files/iMX7-96-bom.pdf))
+- Hardware User Manual ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/imx7-96/hardware-docs/files/iMX7-user-guide.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/imx7-96/hardware-docs/files/iMX7-user-guide.pdf))
+- Schematics ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/imx7-96/hardware-docs/files/iMX7-96-schematics.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/imx7-96/hardware-docs/files/iMX7-96-schematics.pdf))
+- BoM ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/imx7-96/hardware-docs/files/iMX7-96-bom.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/imx7-96/hardware-docs/files/iMX7-96-bom.pdf))
