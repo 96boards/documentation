@@ -8,8 +8,6 @@ A comprehensive guide to using the [i.MX7 96](https://www.96boards.org/product/i
    - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
 - [Installation](installation/README.md)
    - Choose and install an operating system on your i.MX7 96
-- [Build from Source](build/README.md)
-   - Instructions for building and flashing the components of your favorite operating systems
 
 ## Documenation
 
