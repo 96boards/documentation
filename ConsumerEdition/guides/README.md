@@ -12,7 +12,7 @@ Welcome to the 96Boards-Consumer Edition Guides section. This document provides 
 
 - [General Purpose Input/Output](gpio.md)
    - Learn how to use GPIO present on 96Boards CE
-- [MRAA Library for 96Boards](mraa.md)
+- [MRAA Library for 96Boards](mraa/)
    - Instructions for installing and using MRAA library for 96boards
 - [Compare Consumer Edition(CE) 96Boards](compare_96boards_ce.md)
    - Generic comparision guide for 96Boards CE family
