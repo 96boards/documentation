@@ -23,4 +23,5 @@ Mezzanine Design Guidelines ([View](https://github.com/sdrobertw/documentation/b
 | <img src="ethernetcard/ethernet-card-high-res.png" data-canonical-src="ethernetcard/ethernet-card-high-res.png" width="200" height="200" /><br> **Ethernet Mezzanine** | The PoE + Mezzanine Board is a solution that enables the 96Boards to be powered over Ethernet  | [Documentation](https://www.96boards.org/product/ethernetcard/)<br> |
 | <img src="mipiadapter/MIPI_Front_with_Camera.jpg" data-canonical-src="mipiadapter/MIPI_Front_with_Camera.jpg" width="200" height="200" /><br> **MIPI Adapter Mezzanine - AiStarVision** | With this adapter, you can easily integrate image sensors into your camera projects.   | [Documentation](https://www.96boards.org/product/mipiadapter/)<br> |
 | <img src="neonkey/neonkey-front-sd.JPG" data-canonical-src="neonkey/neonkey-front-sd.JPG" width="200" height="200" /><br> **NeonKey** | Neonkey is the sensor hub platform for all 96Boards compliant family products  | [Documentation](https://www.96boards.org/product/neonkey/)<br> |
+
 </div>
