@@ -5,7 +5,7 @@ redirect_from: /documentation/mezzanine/README.md/
 ---
 ## Mezzanine Guides
 
-Mezzanine Design Guidelines ([View](https://github.com/sdrobertw/documentation/blob/master/mezzanine/files/mezzanine-design-guidelines.pdf) / [Download](https://github.com/sdrobertw/documentation/raw/master/mezzanine/files/mezzanine-design-guidelines.pdf))
+Mezzanine Design Guidelines ([View](https://github.com/96boards/documentation/blob/master/mezzanine/files/mezzanine-design-guidelines.pdf) / [Download](https://github.com/96boards/documentation/raw/master/mezzanine/files/mezzanine-design-guidelines.pdf))
 
 ## Boards
 
