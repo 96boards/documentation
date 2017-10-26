@@ -1,3 +1,7 @@
+---
+title: Documentation for i.MX7 96
+permalink: /documentation/ConsumerEdition/imx7-96/
+---
 # Using the i.MX7 96
 
 A comprehensive guide to using the [i.MX7 96](https://www.96boards.org/product/imx7-96/) Consumer Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
