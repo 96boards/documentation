@@ -18,6 +18,6 @@ The MediaTek X20 Pro comes pre-installed with Android. If you would like to swit
 
 Other operating systems supported on MediaTek X20 Pro, offered by partners.
 
-- [Android](ThirdParty/AOSP/)
+- [Android](AOSP/)
 
 ***

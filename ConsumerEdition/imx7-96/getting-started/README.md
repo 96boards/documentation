@@ -1,3 +1,7 @@
+---
+title: Getting Started with i.MX7 96
+permalink: /documentation/ConsumerEdition/imx7-96/getting-started/
+---
 # Getting Started
 
 Learn about your i.MX7 96 board as well as how to prepare and set up for basic use
@@ -83,6 +87,5 @@ If you are already familiar with the i.MX7 96 board and would like to change out
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
 Back to the [i.MX7 96 documentation home page](../README.md)
-   
-***   
 
+***   
