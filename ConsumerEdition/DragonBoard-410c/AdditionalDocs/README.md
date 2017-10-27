@@ -19,7 +19,3 @@ Each 96Boards development board must provide six images, 3 x High Definition and
 - BoardName_Angle_SD
 
 ***
-
-[Board Images](Images/Images_Board/)
-[Hardware User Manual Images](Images/Images_HWUserManual/)
-[Wiki Images](Images/Images_Wiki/)
