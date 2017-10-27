@@ -83,7 +83,7 @@ redirect_from: /db410c-getting-started/HardwareDocs/HardwareUserManual.md/
 - [Special care when using USB](#special-care-when-using-usb)
 - [Statements regarding FCC](#statements-regarding-fcc)
 
-[Click Here](../AdditionalDocs/Images/Images_HWUserManual/) for access to raw images used in this doc.
+[Click Here](https://github.com/96boards/documentation/tree/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images) for access to raw images used in this doc.
 
 ***
 
