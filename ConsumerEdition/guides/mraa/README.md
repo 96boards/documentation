@@ -13,14 +13,14 @@ peripherals in 96Boards CE platforms.
 - [Installation guide](install.md)
    - Learn how to install mraa library on 96Boards CE
 
-- [Using GPIO](gpio/)
+- [Using GPIO](gpio/README.md)
    - Examples on how to use GPIO using mraa library
 
-- [Using I2C](i2c/)
+- [Using I2C](i2c/README.md)
    - Examples on how to use I2C using mraa library
 
-- [Using LED](led/)
+- [Using LED](led/README.md)
    - Examples on how to use on board LED using mraa library
 
-- [Using UART](uart/)
+- [Using UART](uart/README.md)
    - Examples on how to use UART using mraa library
