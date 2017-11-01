@@ -7,6 +7,5 @@ redirect_from:
 ---
 # Build from Source
 
-Instructions for building and flashing the components of your favorite operating systems, some instructions may be hosted on third party websites.
-
-## Contents
+- [OpenEmbedded/Yocto](open_embedded.md)
+   - Create custom distribution based on OpenEmbedded/Yocto
