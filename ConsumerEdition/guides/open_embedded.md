@@ -62,11 +62,13 @@ or
 
 `$ sudo apt-get install dialog`
 
-**Please Note**: Certain version of Ubuntu / Debian may require the following lines be added to your `/etc/apt/sources.list`. Executing the following commands will append these lines to your source.list.
+**Please Note**: If you are running Ubuntu 16.04 you will need to add the following source to your `/etc/apt/sources.list`. 
+`deb http://archive.ubuntu.com/ubuntu/ xenial universe`
+
+Executing the following command will append the source to your sources.list file.
 
 ```shell
-$ echo "deb http://deb.debian.org/debian jessie main" | sudo tee -a /etc/apt/sources.list
-$ echo "deb-src http://deb.debian.org/debian jessie main" | sudo tee -a /etc/apt/sources.list
+$ echo "deb http://archive.ubuntu.com/ubuntu/ xenial universe" | sudo tee -a /etc/apt/sources.list
 ```
 
 All required dependencies should now be installed on your host environment, you are ready to begin your build environment setup.
