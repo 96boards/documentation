@@ -7,100 +7,26 @@ redirect_from:
 ---
 # Compare Consumer Edition(CE) 96Boards
 
-<table align="center">
-<thead>
-	<tr>
-		<td></td>
-		<td colspan="5"><a href="https://en.wikipedia.org/wiki/System_on_a_chip"><b>SoC</a></td>
-		<td colspan="2"><a href="https://en.wikipedia.org/wiki/Random-access_memory"><b>RAM</a></td>
-		<td colspan="2"><b>On-Board Storage</td>
-	</tr>
-</thead>
-<tbody>
-	<tr>
-		<td><img src="https://i.imgur.com/mKjYKTH.png" data-canonical-src="https://i.imgur.com/mKjYKTH.png" width="135" height="40" /></td>
-		<td><b>Name</td>
-		<td><a href="https://en.wikipedia.org/wiki/ARM_architecture"><b>CPU Architecture&shy;</a></td>
-		<td><a href="https://en.wikipedia.org/wiki/Multi-core_processor"><b>CPU Cores</a></td>
-		<td><a href=""><b>CPU Frequency&shy;</a></td>
-		<td><a href="https://en.wikipedia.org/wiki/Graphics_processing_unit"><b>GPU</a></td>
-		<td><b>Size&shy;</td>
-		<td><b>Type</td>
-		<td><b>Size&shy;</td>
-		<td><b>Type</td>
-	</tr>
-	<tr>
-		<td> <img src="https://i.imgur.com/0e7lsoO.png" data-canonical-src="https://i.imgur.com/0e7lsoO.png" width="70" height="50" /> <br><b>HiKey</td>
-		<td>HiSilicon<br>Kirin 620</td>
-		<td>ARM Cortex-A53</td>
-		<td>8</td>
-		<td>1.2 GHz</td>
-		<td>Mali-450 MP4</td>
-		<td>1 GB /<br> 2 GB</td>
-		<td>LPDDR3</td>
-		<td>8 GB</td>
-		<td>eMMC</td>
-	</tr>
-	<tr>
-		<td><img src="https://i.imgur.com/4a5GXRd.png" data-canonical-src="https://i.imgur.com/4a5GXRd.png" width="70" height="50" /> <br><b>DragonBoard™ 410c</td>
-		<td>Qualcomm<br>Snapdragon 410</td>
-		<td>ARM Cortex-A53</td>
-		<td>4</td>
-		<td>1.2 GHz</td>
-		<td>Qualcomm<br>Adreno 306</td>
-		<td>1 GB</td>
-		<td>LPDDR3</td>
-		<td>8 GB</td>
-		<td>eMMC 4.5</td>
-	</tr>
-	<tr>
-		<td> <img src="https://i.imgur.com/ykySoFc.png" data-canonical-src="https://i.imgur.com/ykySoFc.png" width="70" height="50" /> <br><b>Bubblegum-96</td>
-		<td>Actions<br>s900</td>
-		<td>ARM Cortex-A53</td>
-		<td>4</td>
-		<td>1.8 GHz</td>
-		<td>PowerVR G6230</td>
-		<td>2 GB</td>
-		<td>LPDDR3</td>
-		<td>8 GB</td>
-		<td>eMMC 4.5</td>
-	</tr>
-	<tr>
-		<td> <img src="https://i.imgur.com/kSjTguX.png" data-canonical-src="https://i.imgur.com/kSjTguX.png" width="70" height="50" /> <br><b>Mediatek X20 /<br>Mediatek X20 Pro</td>
-		<td>Mediatek<br>Helio X20</td>
-		<td>2x ARM Cortex-A72<br>4x ARM Cortex-A53<br>4x ARM Cortex-A53</td>
-		<td>10</td>
-		<td>2.3 GHz<br>1.95 GHz<br>1.4 GHz</td>
-		<td>Mali-T880</td>
-		<td>2 GB</td>
-		<td>LPDDR3</td>
-		<td>8 GB</td>
-		<td>eMMC 5.1</td>
-	</tr>
-	<tr>
-	<td><img src="https://www.96boards.org/product/ce/hikey960/images/hikey-960-SD-front.jpg" data-canonical-src="https://www.96boards.org/product/ce/hikey960/images/hikey-960-SD-front.jpg" width="70" height="50" /> <br><b>HiKey960</td>
-	<td>HiSilicon<br>Kirin 960</td>
-	<td>4x ARM Cortex-A73<br>4x ARM Cortex-A53</td>
-	<td>8</td>
-	<td>2.3 GHz<br>1.8 GHz</td>
-	<td>Mali G71 MP8</td>
-	<td>3 GB</td>
-	<td>LPDDR4</td>
-	<td>32 GB</td>
-	<td>UFS</td>
-	</tr>
-	<tr>
-	<td><img src="https://www.96boards.org/product/ce/imx7-96/images/iMX7-96-front.jpg" data-canonical-src="https://www.96boards.org/product/ce/imx7-96/images/iMX7-96-front.jpg" width="70" height="50" /> <br><b>IMX7-96 </td>
-	<td>i.MX7	Dual</td>
-	<td>2x ARM Cortex-A7<br>1x ARM Cortex-M4</td>
-	<td>2 CPUs + <br>1 MCU</td>
-	<td>1.2 GHz<br>200MHz</td>
-	<td>N/A</td>
-	<td>512 MB</td>
-	<td>DRAM</td>
-	<td>SD Card Only</td>
-	<td>N/A</td>
-	</tr>
-	<tr>
-</tbody>
-</table>
+<style>
+#compare96 img{
+	width: 100px;
+	height:auto;
+}
+#compare96 {
+	overflow-x: scroll;
+}
+</style>
+
+<div id="compare96" markdown="1">
+
+|| [**SoC**](https://en.wikipedia.org/wiki/System_on_a_chip) ||||[**RAM**](https://en.wikipedia.org/wiki/Random-access_memory)||On-Board Storage||
+|--- |--- |--- |--- |--- |--- |--- |--- |--- |
+||**Name**|[**CPU Architecture**](https://en.wikipedia.org/wiki/ARM_architecture)|[**CPU Cores**](https://en.wikipedia.org/wiki/Multi-core_processor)|[**CPU Frequency**](https://github.com/ric96/documentation/blob/275748f2635b966f00136e2b759d2c2bd2e310c9/ConsumerEdition/guides)|[**GPU**](https://en.wikipedia.org/wiki/Graphics_processing_unit)|**Size**|**Type**|**Size**|**Type**|
+|![](https://camo.githubusercontent.com/aadc55103f71df7589c7779a42c6b48a4169f42a/68747470733a2f2f692e696d6775722e636f6d2f3065376c736f4f2e706e67)**HiKey**|HiSiliconKirin 620|ARM Cortex-A53|8|1.2 GHz|Mali-450 MP4|1 GB / 2 GB|LPDDR3|8 GB|eMMC|
+|![](https://camo.githubusercontent.com/7902ed47de34d0fab11ab2b0365cb3a755a7294d/68747470733a2f2f692e696d6775722e636f6d2f346135475852642e706e67)**DragonBoard™ 410c**|QualcommSnapdragon 410|ARM Cortex-A53|4|1.2 GHz|QualcommAdreno 306|1 GB|LPDDR3|8 GB|eMMC 4.5|
+|![](https://camo.githubusercontent.com/bc6a94eafda70ed442440575ba0ef695b2958a35/68747470733a2f2f692e696d6775722e636f6d2f796b79536f46632e706e67)**Bubblegum-96**|Actionss900|ARM Cortex-A53|4|1.8 GHz|PowerVR G6230|2 GB|LPDDR3|8 GB|eMMC 4.5|
+|![](https://camo.githubusercontent.com/dd741cc5ee85800775fed8469aafe2eca3fd8963/68747470733a2f2f692e696d6775722e636f6d2f6b536a546775582e706e67)**Mediatek X20 /Mediatek X20 Pro**|MediatekHelio X20|2x ARM Cortex-A724x ARM Cortex-A534x ARM Cortex-A53|10|2.3 GHz1.95 GHz1.4 GHz|Mali-T880|2 GB|LPDDR3|8 GB|eMMC 5.1|
+|![](https://camo.githubusercontent.com/66c1ddf9ab8735adf5a1db32b9479a44be6f5db4/68747470733a2f2f7777772e3936626f617264732e6f72672f70726f647563742f63652f68696b65793936302f696d616765732f68696b65792d3936302d53442d66726f6e742e6a7067)**HiKey960**|HiSiliconKirin 960|4x ARM Cortex-A734x ARM Cortex-A53|8|2.3 GHz1.8 GHz|Mali G71 MP8|3 GB|LPDDR4|32 GB|UFS|
+|![](https://camo.githubusercontent.com/0b86c34b6450a413eb232fcce4e3d7d12212fea0/68747470733a2f2f7777772e3936626f617264732e6f72672f70726f647563742f63652f696d78372d39362f696d616765732f694d58372d39362d66726f6e742e6a7067)**IMX7-96**|i.MX7	Dual|2x ARM Cortex-A71x ARM Cortex-M4|2 CPUs + 1 MCU|1.2 GHz200MHz|N/A|512 MB|DRAM|SD Card Only|N/A|
+
+</div>
