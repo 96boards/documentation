@@ -6,6 +6,7 @@ redirect_from:
 - /documentation/ConsumerEdition/CE-Extras/Compare96BoardsCE.md.html/
 ---
 # Compare Consumer Edition(CE) 96Boards
+<div>
 
 <table align="center">
 <thead>
@@ -104,3 +105,5 @@ redirect_from:
 	<tr>
 </tbody>
 </table>
+
+</div>
