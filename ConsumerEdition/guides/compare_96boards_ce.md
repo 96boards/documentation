@@ -93,7 +93,7 @@ redirect_from:
 	<td><img src="https://www.96boards.org/product/ce/imx7-96/images/iMX7-96-front.jpg" data-canonical-src="https://www.96boards.org/product/ce/imx7-96/images/iMX7-96-front.jpg" width="70" height="50" /> <br><b>IMX7-96 </td>
 	<td>i.MX7	Dual</td>
 	<td>2x ARM Cortex-A7<br>1x ARM Cortex-M4</td>
-	<td>2 + 1</td>
+	<td>2 CPUs + <br>1 MCU</td>
 	<td>1.2 GHz<br>200MHz</td>
 	<td>N/A</td>
 	<td>512 MB</td>
