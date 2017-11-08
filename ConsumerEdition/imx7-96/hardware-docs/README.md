@@ -1,3 +1,7 @@
+---
+title: Hardware Documentation for i.MX7 96
+permalink: /documentation/ConsumerEdition/imx7-96/hardware-docs/
+---
 # Hardware Documentation
 
 Explore what makes your i.MX7-96 unique, technical specifications, schematics, hardware notes and more... This page allows you to see what is under the "i.MX7-96 hood" by offering static documentation published directly from the board vendors.
