@@ -1,6 +1,6 @@
 ---
 title: Instructions to Build AOSP for Hikey and Hikey960 with Neonkey Enabled
-permalink: /documentation/mezzanine/guides/neonkey-aosp-build.md.html
+permalink: /documentation/mezzanine/neonkey/guides/neonkey-aosp-build.md.html
 ---
 
 # Instructions to Build AOSP for Hikey and Hikey960 with Neonkey Enabled
