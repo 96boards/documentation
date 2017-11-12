@@ -7,132 +7,26 @@ redirect_from:
 ---
 # Compare Consumer Edition(CE) 96Boards
 
-<table align="center">
-<thead>
-	<tr>
-		<td></td>
-		<td colspan="5"><a href="https://en.wikipedia.org/wiki/System_on_a_chip"><b>SoC</a></td>
-		<td colspan="2"><a href="https://en.wikipedia.org/wiki/Random-access_memory"><b>RAM</a></td>
-		<td colspan="2"><b>On-Board Storage</td>
-	</tr>
-</thead>
-<tbody>
-	<tr>
-		<td><img src="https://i.imgur.com/mKjYKTH.png" data-canonical-src="https://i.imgur.com/mKjYKTH.png" width="135" height="40" /></td>
-		<td><b>Name</td>
-		<td><a href="https://en.wikipedia.org/wiki/ARM_architecture"><b>CPU Architecture&shy;</a></td>
-		<td><a href="https://en.wikipedia.org/wiki/Multi-core_processor"><b>CPU Cores</a></td>
-		<td><a href="">CPU Frequency&shy;</a></td>
-		<td><a href="https://en.wikipedia.org/wiki/Graphics_processing_unit"><b>GPU</a></td>
-		<td><b>Size&shy;</td>
-		<td><b>Type</td>
-		<td><b>Size&shy;</td>
-		<td><b>Type</td>
-	</tr>
-	<tr>
-		<td> <img src="https://i.imgur.com/0e7lsoO.png" data-canonical-src="https://i.imgur.com/0e7lsoO.png" width="70" height="50" /> <br><b>HiKey</td>
-		<td>HiSilicon<br>Kirin 620</td>
-		<td>ARM Cortex-A53</td>
-		<td>8</td>
-		<td>1.2 GHz</td>
-		<td>Mali-450 MP4</td>
-		<td>1 GB /<br> 2 GB</td>
-		<td>LPDDR3</td>
-		<td>8 GB</td>
-		<td>eMMC</td>
-	</tr>
-	<tr>
-		<td><img src="https://i.imgur.com/4a5GXRd.png" data-canonical-src="https://i.imgur.com/4a5GXRd.png" width="70" height="50" /> <br><b>DragonBoard™ 410c</td>
-		<td>Qualcomm<br>Snapdragon 410</td>
-		<td>ARM Cortex-A53</td>
-		<td>4</td>
-		<td>1.2 GHz</td>
-		<td>Qualcomm<br>Adreno 306</td>
-		<td>1 GB</td>
-		<td>LPDDR3</td>
-		<td>8 GB</td>
-		<td>eMMC 4.5</td>
-	</tr>
-	<tr>
-		<td> <img src="https://i.imgur.com/ykySoFc.png" data-canonical-src="https://i.imgur.com/ykySoFc.png" width="70" height="50" /> <br><b>Bubblegum-96</td>
-		<td>Actions<br>s900</td>
-		<td>ARM Cortex-A53</td>
-		<td>4</td>
-		<td>1.8 GHz</td>
-		<td>PowerVR G6230</td>
-		<td>2 GB</td>
-		<td>LPDDR3</td>
-		<td>8 GB</td>
-		<td>eMMC 4.5</td>
-	</tr>
-	<tr>
-		<td> <img src="https://i.imgur.com/kSjTguX.png" data-canonical-src="https://i.imgur.com/kSjTguX.png" width="70" height="50" /> <br><b>Mediatek X20 /<br>Mediatek X20 Pro</td>
-		<td>Mediatek<br>Helio X20</td>
-		<td>2x ARM Cortex-A72<br>4x ARM Cortex-A53<br>4x ARM Cortex-A53</td>
-		<td>10</td>
-		<td>2.3 GHz<br>1.95 GHz<br>1.4 GHz</td>
-		<td>Mali-T880</td>
-		<td>2 GB</td>
-		<td>LPDDR3</td>
-		<td>8 GB</td>
-		<td>eMMC 5.1</td>
-	</tr>
-	<tr>
-	<td><img src="https://www.96boards.org/product/ce/hikey960/images/hikey-960-SD-front.jpg" data-canonical-src="https://www.96boards.org/product/ce/hikey960/images/hikey-960-SD-front.jpg" width="70" height="50" /> <br><b>HiKey960</td>
-	<td>HiSilicon<br>Kirin 960</td>
-	<td>4x ARM Cortex-A73<br>4x ARM Cortex-A53</td>
-	<td>8</td>
-	<td>2.3 GHz<br>1.8 GHz</td>
-	<td>Mali G71 MP8</td>
-	<td>3 GB</td>
-	<td>LPDDR4</td>
-	<td>32 GB</td>
-	<td>UFS</td>
-	</tr>
-	<tr>
-	<td><img src="https://www.96boards.org/product/ce/imx7-96/images/iMX7-96-front.jpg" data-canonical-src="https://www.96boards.org/product/ce/imx7-96/images/iMX7-96-front.jpg" width="70" height="50" /> <br><b>IMX7-96 </td>
-	<td>i.MX7	Dual</td>
-	<td>2x ARM Cortex-A7<br>1x ARM Cortex-M4</td>
-	<td>2 CPUs + <br>1 MCU</td>
-	<td>1.2 GHz<br>200MHz</td>
-	<td>N/A</td>
-	<td>512 MB</td>
-	<td>DRAM</td>
-	<td>SD Card Only</td>
-	<td>N/A</td>
-	</tr>
-	<tr>
-</tbody>
-</table>
+<style>
+#compare96 img{
+	width: 100px;
+	height:auto;
+}
+#compare96 {
+	overflow-x: scroll;
+}
+</style>
 
-### Quick Comparison - CPU, GPU, and Memory
-***
+<div id="compare96" markdown="1">
 
-## HiKey
+|| [**SoC**](https://en.wikipedia.org/wiki/System_on_a_chip) ||||[**RAM**](https://en.wikipedia.org/wiki/Random-access_memory)||On-Board Storage||
+|--- |--- |--- |--- |--- |--- |--- |--- |--- |
+||**Name**|[**CPU Architecture**](https://en.wikipedia.org/wiki/ARM_architecture)|[**CPU Cores**](https://en.wikipedia.org/wiki/Multi-core_processor)|[**CPU Frequency**](https://github.com/ric96/documentation/blob/275748f2635b966f00136e2b759d2c2bd2e310c9/ConsumerEdition/guides)|[**GPU**](https://en.wikipedia.org/wiki/Graphics_processing_unit)|**Size**|**Type**|**Size**|**Type**|
+|![](https://camo.githubusercontent.com/aadc55103f71df7589c7779a42c6b48a4169f42a/68747470733a2f2f692e696d6775722e636f6d2f3065376c736f4f2e706e67)**HiKey**|HiSiliconKirin 620|ARM Cortex-A53|8|1.2 GHz|Mali-450 MP4|1 GB / 2 GB|LPDDR3|8 GB|eMMC|
+|![](https://camo.githubusercontent.com/7902ed47de34d0fab11ab2b0365cb3a755a7294d/68747470733a2f2f692e696d6775722e636f6d2f346135475852642e706e67)**DragonBoard™ 410c**|QualcommSnapdragon 410|ARM Cortex-A53|4|1.2 GHz|QualcommAdreno 306|1 GB|LPDDR3|8 GB|eMMC 4.5|
+|![](https://camo.githubusercontent.com/bc6a94eafda70ed442440575ba0ef695b2958a35/68747470733a2f2f692e696d6775722e636f6d2f796b79536f46632e706e67)**Bubblegum-96**|Actionss900|ARM Cortex-A53|4|1.8 GHz|PowerVR G6230|2 GB|LPDDR3|8 GB|eMMC 4.5|
+|![](https://camo.githubusercontent.com/dd741cc5ee85800775fed8469aafe2eca3fd8963/68747470733a2f2f692e696d6775722e636f6d2f6b536a546775582e706e67)**Mediatek X20 /Mediatek X20 Pro**|MediatekHelio X20|2x ARM Cortex-A724x ARM Cortex-A534x ARM Cortex-A53|10|2.3 GHz1.95 GHz1.4 GHz|Mali-T880|2 GB|LPDDR3|8 GB|eMMC 5.1|
+|![](https://camo.githubusercontent.com/66c1ddf9ab8735adf5a1db32b9479a44be6f5db4/68747470733a2f2f7777772e3936626f617264732e6f72672f70726f647563742f63652f68696b65793936302f696d616765732f68696b65792d3936302d53442d66726f6e742e6a7067)**HiKey960**|HiSiliconKirin 960|4x ARM Cortex-A734x ARM Cortex-A53|8|2.3 GHz1.8 GHz|Mali G71 MP8|3 GB|LPDDR4|32 GB|UFS|
+|![](https://camo.githubusercontent.com/0b86c34b6450a413eb232fcce4e3d7d12212fea0/68747470733a2f2f7777772e3936626f617264732e6f72672f70726f647563742f63652f696d78372d39362f696d616765732f694d58372d39362d66726f6e742e6a7067)**IMX7-96**|i.MX7	Dual|2x ARM Cortex-A71x ARM Cortex-M4|2 CPUs + 1 MCU|1.2 GHz200MHz|N/A|512 MB|DRAM|SD Card Only|N/A|
 
-The HiKey board was the first board to be certified 96Boards Consumer Edition compatible. Two versions of this board are available: the original from CircuitCo and a new version in 1GB and 2GB variants from LeMaker. The board is based around the HiSilicon Kirin 620 eight-core ARM® Cortex-A53 64-bit SoC running at 1.2GHz and delivering over 10,000 Dhrystone VAX MIPS total performance. The SoC also delivers high performance 3D graphics support with its ARM Mali-450-MP4 GPU.
-
-800MHz LPDDR3 DRAM (1GB in the CircuitCo version and a choice of 1GB or 2GB from LeMaker), 8GB eMMC Flash Storage and the standard 96Boards microSD v3.0 socket provide high performance. Flexible storage options and connectivity are available through 802.11b/g/n WiFi, Bluetooth® 4.0 LE, three high speed USB 2.0 ports (1 OTG), an HDMI 1.3 1080p video output with audio, and Maker, DSI display and CSI camera interfaces. The board is the standard 96Boards credit-card form factor powered by an 8-18V DC 2A power supply.
-
-***
-
-## DragonBoard™ 410c
-
-The DragonBoard™ 410c by Arrow Electronics is the first development board based on a mid-tier Qualcomm® Snapdragon™ 400 series processor. The board is designed to build a software ecosystem around the Snapdragon™ 410 processor, as well as offering uses in education, prototyping, and commercial embedded computing products. Featuring the 64-bit capable Snapdragon 410 quad-core ARM® Cortex® A53 processor, the DragonBoard™ 410c supports Android 5.1, Linux based on Debian and Windows 10. It offers advanced processing power, integrated WiFi, Bluetooth®, and GPS, all packed into a board the size of a credit card. The board supports feature-rich functionality, including multimedia, with the Adreno™ 306 GPU for PC-class graphics, integrated ISP with up to 13 MP camera support, and 1080p HD video playback and capture with H.264 (AVC).
-
-The DragonBoard™ 410c is an ideal foundation for prototyping and includes 1GB 533MHz LPDDR3 memory, 8GB eMMC 4.5 storage and a micro SD card slot, as well as one 40-pin low speed and one 60-pin high speed expansion connector, and the footprint for an optional analog expansion connector for stereo headset/line-out, speakers and analog line-in. The board can be made compatible with Arduino using an add-on mezzanine board.
-
-The DragonBoard™ 410c has the rich feature set and mid-tier accessibility to enable wide-ranging embedded and Internet of Everything (IoE) applications, including the next generation of robotics, cameras, medical devices, vending machines, smart buildings, digital signage, casino gaming consoles, and much more.
-
-***
-
-## Bubblegum-96
-
-The Bubblegum-96 board was first shown in mid 2015 at trade shows in Asia. Since then,  Actions has been working with Linaro to finalize the software support and ensure the best possible performance. Sporting an optimized Actions s900 Quad-core ARM® 64-bit Cortex-A53 processor running at 1.8GHz and 600MHz PowerVR G6230 high-quality graphics with 2GB of DRAM and USB 3.0 support, this board is expected to deliver top of the line performance and superior gaming.
-In addition to standard 96Boards features, the board will offer integrated HDMI with Ultra 4K output, Full HD video capture (1080P@60fps H.264) and ARM® TrustZone® security support.
-
-***
-
-## Mediatek X20 and X20 Professional
-
-The Mediatek X20 Development Board is a 96Boards compliant community board based on the MediaTek X20 series of SoCs. X20 is a highly integrated application processor that includes Dual-core ARM Cortex-A72 processors operating at up to 2.3GHz, Quad-core ARM Cortex-A53 processors operating at up to 1.95GHz, Quad-core ARM Cortex-A53 processors operating at up to 1.4GHz and a Mali-T880 GPU operating at up to 800MHz. In addition, an extensive set of interfaces and connectivity peripherals are included to interface to cameras, touch-screen displays and MMC/SD cards. It also fully supports wireless communication, including WLAN, Bluetooth and GPS.
+</div>
