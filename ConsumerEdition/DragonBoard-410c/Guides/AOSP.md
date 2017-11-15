@@ -72,9 +72,9 @@ cd ..
 cd <KERNEL_TOP>
 fastboot flash boot boot-db410c.img
 cd <ANDROID_TOP>
-fastboot flash system out/target/product/db410c/system.img
-fastboot flash cache out/target/product/db410c/cache.img
-fastboot flash userdata out/target/product/db410c/userdata.img
+fastboot flash system out/target/product/linaro_arm64/system.img
+fastboot flash cache out/target/product/linaro_arm64/cache.img
+fastboot flash userdata out/target/product/linaro_arm64/userdata.img
 fastboot reboot
 ```
 # Booting into Android
