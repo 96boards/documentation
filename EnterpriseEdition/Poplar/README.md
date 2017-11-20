@@ -12,7 +12,7 @@ A comprehensive guide to using the [Poplar](https://www.96boards.org/product/pop
 - [Build from Source](BuildSource/)
    - Instructions for building and flashing the components of your favorite operating systems
 
-## Documetation
+## Documentation
 
 - [Getting Started](GettingStarted/)
    - Learn about your Poplar board, how to prepare and set up for basic use
