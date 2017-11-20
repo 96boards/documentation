@@ -10,4 +10,25 @@ Following examples are provided to use LED using MRAA library.
 2. mraa_led.cpp
 3. mraa_led.py
 
-Each examples consists of the compilation instruction and usage description.
+**Usage:**
+
+> Prerequisite: Debian running on 96Boards CE with libmraa installed
+
+* Copy the examples to 96Boards CE
+* Build the C/C++ examples:
+```shell
+$ gcc mraa_led.c -o led_c
+$ g++ mraa_led.cpp -o led_c++
+```
+* Execute the examples:
+```shell
+$ sudo ./led_c
+$ sudo ./led_c++
+$ sudo python mraa_led.py
+```
+
+**Expected Behaviour:**
+
+1. Reads maximum brightness value for USER1 led and turns it
+ON/OFF depending on current state. 
+2. Finally sets led trigger to heartbeat.
