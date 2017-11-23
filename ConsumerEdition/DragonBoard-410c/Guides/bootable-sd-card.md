@@ -11,6 +11,7 @@ This page provides information to create a bootable SD card for DragonBoard410c.
 - [1) Software Required](#1-software-required)
 - [2) Partition SD card](#2-partition-sd-card)
 - [3) Booting OpenEmbedded image](#3-booting-openembedded-image)
+- [4) Booting Debian image](#4-booting-debian-image)
 
 # 1) Software Required
 
@@ -73,6 +74,52 @@ You can now write the boot and rootfs image into the SD card:
 ```shell
 $ sudo dd if=boot-XXX.img of=/dev/XXX7
 $ sudo dd if=rpb-desktop-image-dragonboard-410c-XXX.rootfs.img of=/dev/XXX9
+```
+
+Where:
+* /dev/XXX7 represents the 'boot' partition on the SD card
+* /dev/XXX9 represents the 'rootfs' partition on the SD card
+* you can check the mapping between partition IDs and partition names using `gdisk -l` command
+
+If you insert the SD card into the DragonBoard410c and set the switch S6-2 (on the back) to ON, you should now be able to boot from SD card.
+
+# 4) Booting Debian image
+
+Download boot and root images from:
+  - **Release:** http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/
+    - Boot File: boot-sdcard-linaro-stretch-qcom-snapdragon-arm64-XXX.img.gz
+    - Root File: 	linaro-stretch-alip-qcom-snapdragon-arm64-XXX.img.gz
+
+
+  - **Snapshot:** http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/
+    - Boot File: boot-sdcard-linaro-buster-dragonboard-410c-XXX.img.gz
+    - Root File: linaro-buster-alip-dragonboard-410c-XXX.img.gz
+
+
+  For Example:
+  ```shell
+  $ wget http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/boot-sdcard-linaro-stretch-qcom-snapdragon-arm64-20171016-283.img.gz
+  $ wget http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-stretch-alip-qcom-snapdragon-arm64-20171016-283.img.gz
+  ```
+  And then extract the images
+  ```shell
+  $ gunzip boot-sdcard-linaro-stretch-qcom-snapdragon-arm64-20171016-283.img.gz
+  $ gunzip linaro-stretch-alip-qcom-snapdragon-arm64-20171016-283.img.gz
+  ```
+
+Since we are already downloading the boot-sdcard-xxx.img.gz, we do not need to modify the boot parameters.
+
+You can now write the boot and rootfs image into the SD card:
+
+```shell
+$ sudo dd if=boot-sdcard-XXX.img of=/dev/XXX7
+$ sudo simg2img linaro-stretch-alip-XXX.img /dev/XXX9
+```
+NOTE: you may need to install the ```simg2img``` package using:
+```shell
+$ sudo apt install simg2img
+# OR
+$ sudo apt install android-tools-fsutils
 ```
 
 Where:
