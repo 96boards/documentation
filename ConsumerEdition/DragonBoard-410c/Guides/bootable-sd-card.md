@@ -11,15 +11,16 @@ This page provides information to create a bootable SD card for DragonBoard410c.
 - [1) Software Required](#1-software-required)
 - [2) Partition SD card](#2-partition-sd-card)
 - [3) Booting OpenEmbedded image](#3-booting-openembedded-image)
+- [4) Booting Debian image](#4-booting-debian-image)
 
 # 1) Software Required
 
 For booting from SD card we need to have patched version of LK bootloader, Boot image and a Root file system. These could be downloaded using the following commands:
 
 ```shell
-$ wget http://builds.96boards.org/snapshots/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_sd_linux-*.zip -O dragonboard410c_bootloader_sd_linux.zip
-$ wget http://builds.96boards.org/snapshots/reference-platform/openembedded/morty/dragonboard-410c/rpb/latest/boot--*-dragonboard-410c-*.img
-$ wget http://builds.96boards.org/snapshots/reference-platform/openembedded/morty/dragonboard-410c/rpb/latest/rpb-desktop-image-dragonboard-410c-*.rootfs.img.gz
+$ wget http://builds.96boards.org/snapshots/dragonboard410c/linaro/rescue/latest/dragonboard-410c-bootloader-sd-linux-*.zip -O dragonboard410c_bootloader_sd_linux.zip
+$ wget http://builds.96boards.org/snapshots/dragonboard410c/linaro/openembedded/morty/latest/rpb/boot--*-dragonboard-410c-*.img
+$ wget http://builds.96boards.org/snapshots/dragonboard410c/linaro/openembedded/morty/latest/rpb/rpb-desktop-image-dragonboard-410c-*.rootfs.img.gz
 $ gunzip rpb-desktop-image-dragonboard-410c-XXX.rootfs.img.gz
 ```
 
@@ -81,3 +82,48 @@ Where:
 * you can check the mapping between partition IDs and partition names using `gdisk -l` command
 
 If you insert the SD card into the DragonBoard410c and set the switch S6-2 (on the back) to ON, you should now be able to boot from SD card.
+
+# 4) Booting Debian image
+
+Download boot and root images from:
+  - **Release:** http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/
+  ```
+  $ wget http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/boot-sdcard-linaro-stretch-qcom-snapdragon-arm64-*.img.gz
+  $ wget http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-stretch-alip-qcom-snapdragon-arm64-*.img.gz
+  ```
+
+
+  - **Snapshot:** http://builds.96boards.org/snapshots/dragonboard410c/linaro/debian/latest/
+  ```shell
+  $ wget https://builds.96boards.org/snapshots/dragonboard410c/linaro/debian/latest/boot-sdcard-linaro-*-dragonboard-410c-*.img.gz
+  $ wget https://builds.96boards.org/snapshots/dragonboard410c/linaro/debian/latest/linaro-*-alip-dragonboard-410c-*.img.gz
+  ```
+  And then extract the images using ```gunzip```
+
+  Example:
+  ```shell
+  $ gunzip boot-sdcard-linaro-stretch-qcom-snapdragon-arm64-*.img.gz
+  $ gunzip linaro-stretch-alip-qcom-snapdragon-arm64-*.img.gz
+  ```
+
+Since we are already downloading the boot-sdcard-xxx.img.gz, we do not need to modify the boot parameters.
+
+You can now write the boot and rootfs image into the SD card:
+
+```shell
+$ sudo dd if=boot-sdcard-XXX.img of=/dev/XXX7
+$ sudo simg2img linaro-stretch-alip-XXX.img /dev/XXX9
+```
+NOTE: you may need to install the ```simg2img``` package using:
+```shell
+$ sudo apt install simg2img
+# OR
+$ sudo apt install android-tools-fsutils
+```
+
+Where:
+* /dev/XXX7 represents the 'boot' partition on the SD card
+* /dev/XXX9 represents the 'rootfs' partition on the SD card
+* you can check the mapping between partition IDs and partition names using `gdisk -l` command
+
+If you insert the SD card into the DragonBoard410c and set the switch S6-2 (on the back) to ON, you should now be able to boot to Debian from the SD Card.
