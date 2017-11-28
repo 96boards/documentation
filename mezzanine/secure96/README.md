@@ -1,8 +1,8 @@
 ---
-title: Documentation for Linker Mezzanine Starter Kit
-permalink: /documentation/mezzanine/linkspritesensorkit/
-redirect_from: /documentation/mezzanine/linkspritesensorkit/README.md/
+title: Documentation for Secure96 Mezzanine
+permalink: /documentation/mezzanine/secure96/
+redirect_from: /documentation/mezzanine/secure96/README.md/
 ---
-## Linker mezzanine card starter kit
+## Secure96 Mezzanine
 
 Coming Soon...
