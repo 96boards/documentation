@@ -1,6 +1,6 @@
 ---
 title: Using Multiple USB Cameras on a single USB Hub
-permalink: /documentation/ConsumerEdition/DragonBoard-410c/Guides/multi-usb-camera.md.html
+permalink: /documentation/ConsumerEdition/guides/multi-usb-camera.md.html
 ---
 
 # Using Multiple USB Cameras on a single USB Hub
@@ -13,7 +13,6 @@ This page provides information to connect and use multiple USB webcams on a sing
 - [2) Software Required](#2-software-required)
 - [3) Hardware Required](#3-hardware-required)
 - [4) Using Multiple USB Cameras](#4-using-multiple-usb-cameras)
-- [5) Footnotes](#5-footnotes)
 
 # 1) Update 96Boards system
 
@@ -57,6 +56,10 @@ $ sudo apt install vlc
 
 - The theoretical bandwidth of a USB 2.0 Hub is 480mbps or ~60MBps. Adding a USB HUB divides that bandwidth across our three cameras giving us approximately ~20MBps per camera. S the trick is to make sure we are well within that limit.
 
+- Although this guide follows ```vlc```, the concept can be applied to any other software using v4l2 driver.
+
+- Majority of the webcams are compatible with this guide, although there are some webcams that do not play well and allocate bandwidth for large uncompressed frames regardless of what data they actually transmit. Such webcams will not work with this guide. More info on this bug, where cameras over request bandwidth can be found here: http://www.ideasonboard.org/uvc/faq/#faq7
+
 - On VLC if we directly use ```v4l2:///dev/video0```, we get the RAW and Uncompressed sensor data from the webcam that ends up hogging the bandwidth
 
 - Next step is to use compressed data using ```v4l2:///dev/video0:chroma=mjpg``` which gives us a compressed MJPEG data stream, it is still not enough.
@@ -65,12 +68,8 @@ $ sudo apt install vlc
 
 - From this point on we could either keep reducing the resolution or reduce the frame rate in half ```v4l2:///dev/video0:chroma=mjpg:width=640:height=480:fps=15```, this allows me to stream from upto three Webcams.
 
-- NOTE: replace video0 with video1, video2 or the device id for your webcam.
+- Replace video0 with video1, video2 or the device id for your webcam.
 
-# 5) Footnotes
-
-- **Note 1:** Although this guide follows ```vlc```, the concept can be applied to any other software using v4l2 driver.
-- **Note 2:** Majority of the webcams are compatible with this guide, although there are some webcams that do not play well with v4l2 and will send uncompressed data stream irrespective of the command. Such webcams will not work with this guide.
-- **Note 3** This is a trial an error process and depends upon the exact setup, some more tweaking may be necessary depending upon you setup.
+> This is a trial an error process and depends upon the exact setup, some more tweaking may be necessary depending upon you setup.
 
 - **References: ** https://wiki.videolan.org/Documentation:Modules/v4l2/
