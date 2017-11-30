@@ -15,7 +15,7 @@ This page provides information to connect and use multiple USB webcams on a sing
 - [4) Using Multiple USB Cameras](#4-using-multiple-usb-cameras)
 - [5) Footnotes](#5-footnotes)
 
-# Update 96Boards system
+# 1) Update 96Boards system
 
 The image on your board might be out of date. This is possible even when using the stock image (the operating system your board was shipped with), or a newly flashed version from the 96Boards.org website.
 
