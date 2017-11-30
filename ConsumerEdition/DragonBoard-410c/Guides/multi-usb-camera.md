@@ -9,12 +9,35 @@ This page provides information to connect and use multiple USB webcams on a sing
 
 # Table of Contents
 
-- [1) Software Required](#1-software-required)
-- [2) Hardware Required](#2-hardware-required)
-- [3) Using Multiple USB Cameras](#3-using-multiple-usb-cameras)
-- [4) Footnotes](#4-footnotes)
+- [1) Update 96Boards system](#1-update-96boards-system)
+- [2) Software Required](#2-software-required)
+- [3) Hardware Required](#3-hardware-required)
+- [4) Using Multiple USB Cameras](#4-using-multiple-usb-cameras)
+- [5) Footnotes](#5-footnotes)
 
-# 1) Software Required
+# Update 96Boards system
+
+The image on your board might be out of date. This is possible even when using the stock image (the operating system your board was shipped with), or a newly flashed version from the 96Boards.org website.
+
+A few useful commands will help us make sure everything on the board is current:
+
+- **apt-get update**: Downloads package lists from online repositories and "updates" them to get information on the newest versions of packages and their dependencies.
+- **apt-get upgrade**: Fetches and installs newest package versions which currently exist on the system. APT must know about these new versions by way of 'apt-get update'
+- **apt-get dist-upgrade**: In addition to performing the function of upgrade, this option also intelligently handles changing dependencies with new versions of packages
+
+**Commands:**
+
+```shell
+$ sudo apt-get update
+
+$ sudo apt-get upgrade
+
+$ sudo apt-get dist-upgrade
+```
+
+> Note: If at any point during this process you are prompted with a 'Y/N', select Y and press Enter.
+
+# 2) Software Required
 - Install v4l-utils
 ```shell
 $ sudo apt install v4l-utils
@@ -25,12 +48,12 @@ $ sudo apt install v4l-utils
 $ sudo apt install vlc
 ```
 
-# 2) Hardware Required
+# 3) Hardware Required
 - DragonBoard-410c
 - USB 2.0 Hub
 - 2 or more USB Webcams, Logitech C720 Recommended
 
-# 3) Using Multiple USB Cameras
+# 4) Using Multiple USB Cameras
 
 - The theoretical bandwidth of a USB 2.0 Hub is 480mbps or ~60MBps. Adding a USB HUB divides that bandwidth across our three cameras giving us approximately ~20MBps per camera. S the trick is to make sure we are well within that limit.
 
@@ -44,7 +67,7 @@ $ sudo apt install vlc
 
 - NOTE: replace video0 with video1, video2 or the device id for your webcam.
 
-# 4) Footnotes
+# 5) Footnotes
 
 - **Note 1:** Although this guide follows ```vlc```, the concept can be applied to any other software using v4l2 driver.
 - **Note 2:** Majority of the webcams are compatible with this guide, although there are some webcams that do not play well with v4l2 and will send uncompressed data stream irrespective of the command. Such webcams will not work with this guide.
