@@ -115,7 +115,7 @@ for setting up the build environment for individual boards:
 > Note: If you accepted the EULA, when building an image for DragonBoard410c all proprietary firmware are installed automatically
 > in `/lib/firmware`, and a copy of the EULA is added as `/etc/license.txt`. If you did not accept the EULA, the firmwares
 > are not downloaded, and not installed into the image. You can manually manage the firmware and download them separately 
-> from [Qualcomm Developer Network](https://developer.qualcomm.com/download/linux-ubuntu-board-support-package-v1.1.zip).
+> from [Qualcomm Developer Network](https://developer.qualcomm.com/download/db410c/linux-ubuntu-board-support-package-v1.1.zip).
 
 ### Hikey
 
