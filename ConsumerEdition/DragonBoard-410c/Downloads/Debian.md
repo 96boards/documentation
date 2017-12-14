@@ -12,13 +12,15 @@ redirect_from:
 
 ## SD Card image
 
-| SD Card Image - Install and boot from eMMC    | Release Notes:           |
-|:----------------------------------------------|:-------------------------|
-|[Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_install_debian-*.zip)|[View](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)       |
+| SD Card Image - Install and boot from eMMC                                                                                             |
+|:---------------------------------------------------------------------------------------------------------------------------------------|
+|[Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_install_debian-*.zip)        |
+|[Release Notes](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)                                              |
 
-| SD Card Image - Install and boot from SD Card | Release Notes:           |
-|:----------------------------------------------|:-------------------------|
-|    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_developer_debian-*.zip)    | [View](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)       |
+| SD Card Image - Install and boot from SD Card                                                                                          |
+|:---------------------------------------------------------------------------------------------------------------------------------------| 
+| [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_developer_debian-*.zip)     |
+| [Release Notes](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)                                             |
 
 ### Continue to [Installation page](../Installation/)
 
@@ -26,16 +28,20 @@ redirect_from:
 
 ## Fastboot files
 
-|   Bootloader      | Release Notes:         |
-|:------------------|:-----------------------|
-| [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_linux-*.zip)     |[View](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/)      |
+| Bootloader                                                                                                                             |
+|:---------------------------------------------------------------------------------------------------------------------------------------|
+| [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_linux-*.zip)       |
+| [Release Notes](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/)                                             |
 
-|   Boot image      | Release Notes:         |
-|:------------------|:-----------------------|
-| [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/boot-linaro-*-qcom-snapdragon-arm64-*.img.gz)    |[View](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)      |
+| Boot image                                                                                                                             |
+|:---------------------------------------------------------------------------------------------------------------------------------------|
+| [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/boot-linaro-*-qcom-snapdragon-arm64-*.img.gz)      |
+| [Release Notes](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)                                             |
 
-|   Rootfs image    | Release Notes:         |
-|:------------------|:-----------------------|
-| [Desktop](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-*-alip-qcom-snapdragon-arm64-*.img.gz) or [Developer](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-*-developer-qcom-snapdragon-arm64-*.img.gz)    |[View](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)      |
+| Rootfs image                                                                                                                           |
+|:---------------------------------------------------------------------------------------------------------------------------------------|
+| [Desktop](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-*-alip-qcom-snapdragon-arm64-*.img.gz)       |
+| [Developer](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-*-developer-qcom-snapdragon-arm64-*.img.gz)|
+| [Release Notes](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)                                             |
 
 ### Continue to [Installation page](../Installation/)
