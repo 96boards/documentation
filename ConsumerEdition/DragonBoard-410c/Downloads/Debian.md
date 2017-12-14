@@ -12,12 +12,12 @@ redirect_from:
 
 ## SD Card image
 
-| SD Card Image - Install and boot from eMMC                                                                                             |
+| (Option 1) SD Card Image - Install and boot from eMMC                                                                                  |
 |:---------------------------------------------------------------------------------------------------------------------------------------|
 |[Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_install_debian-*.zip)        |
 |[Release Notes](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)                                              |
 
-| SD Card Image - Install and boot from SD Card                                                                                          |
+| (Option 2) SD Card Image - Install and boot from SD Card                                                                               |
 |:---------------------------------------------------------------------------------------------------------------------------------------| 
 | [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_developer_debian-*.zip)     |
 | [Release Notes](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)                                             |
