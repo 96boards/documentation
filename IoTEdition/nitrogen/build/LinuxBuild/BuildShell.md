@@ -26,7 +26,12 @@ $ git clone https://gerrit.zephyrproject.org/r/zephyr
 ```shell
 $ cd zephyr
 $ source zephyr-env.sh
-$ make -C samples/subsys/shell/shell BOARD=96b_nitrogen
+$ cd samples/subsys/shell/shell
+$ mkdir build
+$ cd build
+$ cmake -DBOARD=96b_nitrogen ..
+$ make
+$ sudo make flash
 ```
 
 The application will be available at ```samples/subsys/shell/shell/outdir/96b_nitrogen/zephyr.bin```.
