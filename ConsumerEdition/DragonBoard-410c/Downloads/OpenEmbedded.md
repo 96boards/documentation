@@ -16,20 +16,18 @@ redirect_from: /db410c-getting-started/Downloads/OpenEmbedded.md/
 | [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_linux-*.zip)        |
 | [Release Notes](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/)      |
 
-Choose one boot image, the root file system you choose will be based on the boot image you download here:
+Choose between RPB and RPB-Wayland. You will need a 
 
 | RPB                                                                                                                                     |
 |:----------------------------------------------------------------------------------------------------------------------------------------|
 | [Boot Image](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/boot-Image--*-dragonboard-410c-*.img)                                                                                                               |
-| [Option 1 - Desktop](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/rpb-desktop-image-dragonboard-410c-*.rootfs.ext4.gz)                                                                                                    |
-| [Option 2 - Console](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/rpb-console-image-dragonboard-410c-*.rootfs.ext4.gz)                                                                                                    |
+| [Desktop rootfs](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/rpb-desktop-image-dragonboard-410c-*.rootfs.ext4.gz) or [Console rootfs](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/rpb-console-image-dragonboard-410c-*.rootfs.ext4.gz)                                                       |
 | [Build Folder](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/)                         |
 
 | RPB-Wayland                                                                                                                             |
 |:----------------------------------------------------------------------------------------------------------------------------------------|
 | [Boot Image](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/boot-Image--*-dragonboard-410c-*.img)                                                                                                               |
-| [Option 2 - Desktop](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/rpb-weston-image-dragonboard-410c-*.rootfs.ext4.gz)                                                                                              |
-| [Option 2 - Console](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/rpb-console-image-dragonboard-410c-*.rootfs.ext4.gz)                                                                                              |
+| [Desktop rootfs](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/rpb-weston-image-dragonboard-410c-*.rootfs.ext4.gz) or [Console rootfs](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/rpb-console-image-dragonboard-410c-*.rootfs.ext4.gz)                                               |
 | [Build Folder](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/)                 |
 
 > NOTE: Only download one root file system (Console or Desktop). You should match the type of rootfs to the boot image you downloaded above.
