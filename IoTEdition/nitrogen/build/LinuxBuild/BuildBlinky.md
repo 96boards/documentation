@@ -39,7 +39,7 @@ $ make
 $ sudo make flash
 ```
 
-The application will be available at ```samples/basic/blinky/outdir/96b_nitrogen/zephyr.hex```.
+The application will be available at ```samples/basic/blinky/build/zephyr/zephyr.hex```.
 
 #### **Step 2**: Proceed to Installation page for flashing instructions
 
