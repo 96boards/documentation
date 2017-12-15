@@ -34,7 +34,7 @@ $ make
 $ sudo make flash
 ```
 
-The application will be available at ```samples/subsys/shell/shell/outdir/96b_nitrogen/zephyr.bin```.
+The application will be available at ```samples/subsys/shell/shell/build/zephyr/zephyr.hex```.
 
 #### **Step 2**: Proceed to Installation page for flashing instructions
 
