@@ -13,4 +13,3 @@ The B2260 Development Board comes pre-installed with Debian Linux distribution. 
 ### Linaro supported operating systems
 
 - [Debian](Debian.md)
-- [OpenEmbedded](OpenEmbedded.md)
