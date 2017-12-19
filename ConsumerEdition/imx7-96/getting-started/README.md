@@ -71,8 +71,7 @@ Coming soon...
 
 ## Starting the board for the first time
 
-Follow instructions as outlined in the [i.MX7 96 Hardware User Manual]()https://github.com/sdrobertw/meercat/blob/master/hardware-docs/files/iMX7-user-guide.pdf. For more information and support, you may also want to visit the [i.MX7 96 Software Guide]()https://github.com/sdrobertw/meercat/blob/master/guides/files/iMX7-96-software-guide.pdf
-
+Follow instructions as outlined in the [i.MX7 96 Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/imx7-96/hardware-docs/files/iMX7-user-guide.pdf). For more information and support, you may also want to visit the [i.MX7 96 Software Guide](https://github.com/96boards/documentation/blob/master/ConsumerEdition/imx7-96/guides/files/iMX7-96-software-guide.pdf).
 ***
 
 ## What's Next?
