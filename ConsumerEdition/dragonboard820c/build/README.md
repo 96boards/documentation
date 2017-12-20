@@ -4,8 +4,6 @@ Page under construction...
 
 ## Contents
 
-- [Debian]()
-- [OpenEmbedded]()
-- [Android]()
+Coming Soon...
 
 
