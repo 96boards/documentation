@@ -18,7 +18,6 @@ st time to swapping out your OS
 |:----------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------|
 | [Terminal](Terminal.md)                                          | Learn the  basics, how to access your terminal & getting started with basic commands. Includes links to external resources |
 | [General Purpose Input / Output](../../guides/gpio.md)           | This all extensive I/O guide bridges across all 96Boards consumer edition boards.                                          |
-| [USB Webcam](USBWebcam.md)                                       | Get your basic USB camera setup running                                                                                    |
 | [Force display resolution and bypass EDID](ForceDisplayRes.md)   | Learn how to force a diplay resolution                                                                                     |
 | [Enabling SPI on Dragonboard 410c with SPIDEV](EnableSPI.md)     | Learn to enable SPI using SPIDEV                                                                                           |
 | [Create custom GPT](GPT.md)                                      | Learn to create a custom GUID Partition table                                                                              |
