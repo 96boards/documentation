@@ -4,20 +4,20 @@ A comprehensive guide to using the [DragonBoard 820c](https://www.96boards.org/p
 
 ## Software
 
-- [Downloads](Downloads/README.md)
+- [Downloads](downloads/README.md)
    - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
-- [Installation](Installation/README.md)
+- [Installation](installation/README.md)
    - Choose and install an operating system on your DragonBoard 820c
-- [Build from Source](BuildSource/README.md)
+- [Build from Source](build/README.md)
    - Instructions for building and flashing the components of your favorite operating systems
 
 ## Documenation
 
-- [Getting Started](GettingStarted/README.md)
+- [Getting Started](getting-started/README.md)
    - Learn about your DragonBoard 820c board, how to prepare and set up for basic use
-- [Useful Guides](Guides/README.md)
+- [Useful Guides](guides/README.md)
    - These guides will help to get you started with a variety of available on-boards software
-- [Vendor Documentation](VendorDocs/README.md)
+- [Vendor Documentation](vendor-docs/README.md)
    - Discover our list of sponsored DragonBoard 820c documents, these include User Guides and Application notes
 - [Hardware Documentation](HardwareDocs/README.md)
    - Explore what makes your DragonBoard 820c unique, technical specifications, schematics, hardware notes and more...

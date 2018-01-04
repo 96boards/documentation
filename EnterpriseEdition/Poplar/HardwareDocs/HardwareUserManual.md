@@ -43,7 +43,7 @@ permalink: /documentation/EnterpriseEdition/Poplar/HardwareDocs/HardwareUserManu
 
 ## Introduction
 
-The 96Boards Poplar board is the first TV board to be certified 96Boards Consumer Edition compatible from Tocoding Ltd., and it's based around the Hisilicon Hi3798C V200 SoC, with  Quad-core ARM Cortex-A53 64-bit CPU up to 2.0GHz .  
+The 96Boards Poplar board is the first TV board to be certified 96Boards Enterprise Edition compatible from Tocoding Ltd., and it's based around the Hisilicon Hi3798C V200 SoC, with  Quad-core ARM Cortex-A53 64-bit CPU up to 2.0GHz .  
 
 - **Processor**:
    - HiSilicon Hi3798C V200 SoC
@@ -142,7 +142,7 @@ The 96Boards Poplar board is the first TV board to be certified 96Boards Consume
    - Linux
 - **Power Mechanical and Environmental
    - Power: 12V@2A input
-   - Dimensions: 54mm by 85mm meeting 96Boards™Consumer Edition standard dimensions specifications.
+   - Dimensions: 160mm by 120mm meeting 96Boards™ Enterprise Edition standard dimensions specifications.
    - Operating Temp: 0°C to +70°C
 
 ***

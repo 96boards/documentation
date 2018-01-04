@@ -5,7 +5,7 @@ redirect_from: /documentation/EnterpriseEdition/Poplar/README.md/
 ---
 # Using the Poplar
 
-A comprehensive guide to using the [Poplar](https://www.96boards.org/product/poplar/) Consumer Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
+A comprehensive guide to using the [Poplar](https://www.96boards.org/product/poplar/) Enterprise Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
 ## Software
 
