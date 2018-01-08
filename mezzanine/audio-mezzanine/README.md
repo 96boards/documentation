@@ -49,8 +49,8 @@ This [Audio Mezzanine Board](https://www.96boards.org/products/mezzanine/sensors
 
 # 2) Guides
 - [1) Beginners Guides](./biginner_guides/README.md)
-  - [1.1) Guide1](./biginner_guides/getting_started.md)
-  - [1.2) Guide2](./biginner_guides/guide2.md)
+  - [1.1) Getting Started Guide](./biginner_guides/getting_started.md)
+  - [1.2) Analog Audio Out Guide](./biginner_guides/audio_out.md)
   - [1.3) Use Case Index](./biginner_guides/toc_usecases.md)
 - [2) Advanced Guides](./advanced_guides/README.md)
   - [2.1) Guide1](./advanced_guides/guide1.md)
