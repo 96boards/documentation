@@ -21,4 +21,7 @@ A comprehensive guide to using the [Poplar](https://www.96boards.org/product/pop
 - [Support](Support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers   
 
+## Guides
+
+  - [Gigabit NAS](Guides/gigabit_nas.md)
 ***
