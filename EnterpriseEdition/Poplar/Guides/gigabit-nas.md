@@ -76,6 +76,7 @@ We need Debian installed on the poplar to get our NAS running, there are two way
     directory mask = 0771
     read only = no
     ```
+    
   - Add new user:
     - ```sudo useradd ghost -m -G users```
     - Set Password for the new user: ```sudo passwd ghost```
