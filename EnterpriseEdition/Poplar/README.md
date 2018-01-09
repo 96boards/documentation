@@ -23,5 +23,5 @@ A comprehensive guide to using the [Poplar](https://www.96boards.org/product/pop
 
 ## Guides
 
-  - [Gigabit NAS](Guides/gigabit_nas.md)
+  - [Gigabit NAS](Guides/gigabit-nas.md)
 ***
