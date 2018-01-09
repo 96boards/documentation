@@ -9,3 +9,6 @@
   - VLC:
     - Install: ```sudo apt install vlc```
     - Playback: [Start] -> [Sound & Video] -> [VLC]
+
+# Enable Digital Microphone
+- https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/Guides/enable-dmic.md.html
