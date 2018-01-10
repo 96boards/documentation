@@ -16,7 +16,7 @@ This is an example of how to display text on the Grove RGB LCD module and change
 - Audio Mezzanine
 - [Grove - LCD RGB Backlight](http://wiki.seeed.cc/Grove-LCD_RGB_Backlight/)
 
-> Note: We are using Grove Sensors for this example, but the same can be reproduced using regular sensors and the Level Shifted Low Speed Header.
+> Note: We are using Grove Sensors for this example, but the same can be reproduced using regular sensors and the Level Shifted Low Speed Header.  If you want to refer pin numbering take a look at: https://www.96boards.org/pinout/
 
 ## 1.2) Hardware Setup
 - Make sure SW2 is set to 5v

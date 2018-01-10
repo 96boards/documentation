@@ -19,7 +19,7 @@ The pins on connectors I/H and F/E are connected to GPIO pins on the baseboard a
 - [5v Grove Relay](http://wiki.seeed.cc/Grove-Relay/)
 - [5v Grove Touch Sensor](http://wiki.seeed.cc/Grove-Touch_Sensor/)
 
-> Note: We are using Grove Sensors for this example, but the same can be reproduced using regular sensors and the Level Shifted Low Speed Header.
+> Note: We are using Grove Sensors for this example, but the same can be reproduced using regular sensors and the Level Shifted Low Speed Header. If you want to refer pin numbering take a look at: https://www.96boards.org/pinout/
 
 ## 1.2) Hardware Setup
 - Make sure SW2 is set to 5v
@@ -51,7 +51,7 @@ void sig_handler(int signo)
 }
 int main(int argc, char* argv[])
 {
-    mraa::Gpio* touch_gpio = new mraa::Gpio(29);
+    mraa::Gpio* touch_gpio = new mraa::Gpio(30);
     mraa::Gpio* relay_gpio = new mraa::Gpio(27);
     mraa::Result response;
     int touch;
