@@ -48,11 +48,11 @@ This [Audio Mezzanine Board](https://www.96boards.org/products/mezzanine/sensors
 - Pass through stacking connectors so that other Mezzanine cards may be stacked on top of the Audio Mezzanine.
 
 # 2) Guides
-- [1) Beginners Guides](./biginner-guides/README.md)
-  - [1.1) Getting Started Guide](./biginner-guides/getting-started.md)
-  - [1.2) Analog Audio Out Guide](./biginner-guides/audio-out.md)
-  - [1.3) Use Case Index](./biginner-guides/toc-usecases.md)
-- [2) Advanced Guides](./advanced-guides/README.md)
-  - [2.1) GPIO Guide](./advanced-guides/gpio-guide.md)
-  - [2.2) I2C Guide](./advanced-guides/i2c-guide.md)
-  - [2.3) Use Case Index](./advanced-guides/toc-usecases.md)
+- [1) Beginners Guides](guides/biginner-guides/README.md)
+  - [1.1) Getting Started Guide](guides/biginner-guides/getting-started.md)
+  - [1.2) Analog Audio Out Guide](guides/biginner-guides/audio-guides.md)
+  - [1.3) Use Case Index](guides/biginner-guides/toc-usecases.md)
+- [2) Advanced Guides](guides/advanced-guides/README.md)
+  - [2.1) GPIO Guide](guides/advanced-guides/gpio-guide.md)
+  - [2.2) I2C Guide](guides/advanced-guides/i2c-guide.md)
+  - [2.3) Use Case Index](guides/advanced-guides/toc-usecases.md)
