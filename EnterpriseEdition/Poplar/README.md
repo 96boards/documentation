@@ -22,4 +22,5 @@ A comprehensive guide to using the [Poplar](https://www.96boards.org/product/pop
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers   
 - [Useful Guides](Guides/)
   - These guides will help to get you started with a variety of available on-boards software
+  
 ***
