@@ -1,3 +1,8 @@
+---
+title: Audio Mezzanine Audio Guides
+permalink: /documentation/mezzanine/audio-mezzanine/Guides/beginner-guides/audio-guides.md.html
+---
+
 # Set Audio Output to Audio Mezzanine 3.5mm Jack
 1. Navigate to [Start] -> [Sound & Video] -> [PulseAudio Volume Control]
 2. Select Port as "Headphones Playback" from the drop-down list

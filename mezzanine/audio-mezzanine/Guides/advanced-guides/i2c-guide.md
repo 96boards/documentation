@@ -1,3 +1,8 @@
+---
+title: Audio Mezzanine I2C Guide
+permalink: /documentation/mezzanine/audio-mezzanine/Guides/advanced-guides/i2c-guide.md.html
+---
+
 # Hello World with the RGB LCD
 This is an example of how to display text on the Grove RGB LCD module and change the color of the backlight. The example is written in C++, but could easily be implemented using Python or Java.
 

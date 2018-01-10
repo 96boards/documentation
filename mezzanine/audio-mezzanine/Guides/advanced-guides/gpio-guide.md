@@ -1,3 +1,8 @@
+---
+title: Audio Mezzanine GPIO Guide
+permalink: /documentation/mezzanine/audio-mezzanine/Guides/advanced-guides/gpio-guide.md.html
+---
+
 # Touch Sensor and Relay
 Build a system that toggles a relay on and off when the touch sensor is tapped using Linux GPIO IO.
 

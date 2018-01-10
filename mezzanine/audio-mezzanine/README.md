@@ -10,7 +10,7 @@ redirect_from: /documentation/mezzanine/audio-mezzanine/README.md/
   - [1.1) About the 96Boards Audio Mezzanine](#11-about-the-96bBoards-audio-mezzanine)
   - [1.2) Specifications](#12-specifications)
   - [1.3) Features](#13-features)
-- [2) Guides Index](#2-guides-index)
+- [2) Useful Guides](#2-useful-guides)
 
 # 1) Introduction
 ## 1.1) About the 96Boards Audio Mezzanine
@@ -47,10 +47,4 @@ This [Audio Mezzanine Board](https://www.96boards.org/products/mezzanine/sensors
 - Power and Reset/Volume down buttons
 - Pass through stacking connectors so that other Mezzanine cards may be stacked on top of the Audio Mezzanine.
 
-# 2) Guides
-- [1) Beginners Guides](guides/beginner-guides/README.md)
-  - [1.1) Getting Started Guide](guides/beginner-guides/getting-started.md)
-  - [1.2) Analog Audio Out Guide](guides/beginner-guides/audio-guides.md)
-- [2) Advanced Guides](guides/advanced-guides/README.md)
-  - [2.1) GPIO Guide](guides/advanced-guides/gpio-guide.md)
-  - [2.2) I2C Guide](guides/advanced-guides/i2c-guide.md)
+# 2) [Useful Guides](Guides/)
