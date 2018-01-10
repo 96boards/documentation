@@ -1,6 +1,6 @@
 ---
 title: Useful Guides for Poplar
-permalink:
+permalink: /documentation/EnterpriseEdition/Poplar/Guides/
 ---
 # Useful Guides
 
