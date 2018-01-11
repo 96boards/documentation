@@ -1,3 +1,7 @@
+---
+title: 96boards Sensors Mezzanine
+permalink: /documentation/mezzanine/sensors-mezzanine/
+---
 # About 96Boards
 
 96Boards is the first open specification to define a platform for the delivery of compatible, lowcost,
