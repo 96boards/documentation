@@ -1,9 +1,9 @@
+---
+title: Build Source for DragonBoard-410c
+permalink: /documentation/ConsumerEdition/dragonboard820c/build/
+---
+
 # Build from Source
 
-Page under construction...
-
-## Contents
-
-Coming Soon...
-
-
+- [Linux Kernel](linux-kernel.md)
+   - Build Linux Kernel from Source
