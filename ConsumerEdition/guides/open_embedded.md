@@ -10,7 +10,7 @@ This page provides the board agnostic instructions to get started with OpenEmbed
 
 # Introduction
 
-This wiki is not an introduction on OpenEmbedded or Yocto Project. If you are not familiar with OpenEmbedded and the Yocto Project, 
+This wiki is not an introduction on OpenEmbedded or Yocto Project. If you are not familiar with OpenEmbedded and the Yocto Project,
 it is very much recommended to read the appropriate documentation first. For example, you can start with:
 * [http://openembedded.org/wiki/Main_Page](http://openembedded.org/wiki/Main_Page)
 * [http://yoctoproject.org/](http://yoctoproject.org/)
@@ -18,7 +18,7 @@ it is very much recommended to read the appropriate documentation first. For exa
 
 In this wiki, we assume that the reader is familiar with basic concepts of OpenEmbedded.
 
-The support for a dedicated board is available in the dedicated BSP Layer. These layers have been tested with OpenEmbedded 
+The support for a dedicated board is available in the dedicated BSP Layer. These layers have been tested with OpenEmbedded
 Core layer, and are expected to work with any other standard layers and of course any OpenEmbedded based distributions.
 
 ## OE Layers
@@ -62,7 +62,7 @@ or
 
 `$ sudo apt-get install dialog`
 
-**Please Note**: If you are running Ubuntu 16.04 you will need to add the following source to your `/etc/apt/sources.list`. 
+**Please Note**: If you are running Ubuntu 16.04 you will need to add the following source to your `/etc/apt/sources.list`.
 `deb http://archive.ubuntu.com/ubuntu/ xenial universe`
 
 Executing the following command will append the source to your sources.list file.
@@ -79,11 +79,12 @@ Before building the OE images, it is important to set up partition layout and fl
 eMMC partitions and update Bootloader for the corresponding boards:
 
 1. [Dragonboard410c](../DragonBoard-410c/BuildSource/open_embedded.md#updating-emmc-partitions-and-bootloader)
+2. [Dragonboard820c](../dragonboard820c/build/open-embedded.md#updating-ufs-partitions-and-bootloader)
 2. [Hikey](../HiKey/BuildSource/open_embedded.md#updating-emmc-partitions-and-bootloader)
 
 # Setup the build environment
 
-The BSPs layers can be used with any OE based distribution, such as Poky. The following instructions are provided to get started with OpenEmbedded Reference Software Platforms. 
+The BSPs layers can be used with any OE based distribution, such as Poky. The following instructions are provided to get started with OpenEmbedded Reference Software Platforms.
 
 To manage the various git trees and the OpenEmbedded environment, a repo manifest is provided. If you do not have `repo` installed on your host machine, you first need to install it, using the following instructions (or similar):
 
@@ -114,16 +115,21 @@ for setting up the build environment for individual boards:
 
 > Note: If you accepted the EULA, when building an image for DragonBoard410c all proprietary firmware are installed automatically
 > in `/lib/firmware`, and a copy of the EULA is added as `/etc/license.txt`. If you did not accept the EULA, the firmwares
-> are not downloaded, and not installed into the image. You can manually manage the firmware and download them separately 
+> are not downloaded, and not installed into the image. You can manually manage the firmware and download them separately
 > from [Qualcomm Developer Network](https://developer.qualcomm.com/download/db410c/linux-ubuntu-board-support-package-v1.1.zip).
+
+### Dragonboard820c
+
+ * you will be prompted to choose the target MACHINE, pick `dragonboard-820c`
+ * you will be prompted to choose the distro, for now, it is recommended to use `rpb`
 
 ### Hikey
 
  * you will be prompted to choose the target MACHINE, pick `hikey`
  * you will be prompted to choose the distro, for now, it is recommended to use `rpb`
 
-The script `setup-environment` will create sane default configuration files in <build folder>/conf, you can inspect them and 
-modify them if needed. Note that conf/local.conf and conf/bblayers.conf are symlink , and under source control. So it is 
+The script `setup-environment` will create sane default configuration files in <build folder>/conf, you can inspect them and
+modify them if needed. Note that conf/local.conf and conf/bblayers.conf are symlink , and under source control. So it is
 generally better not to modify them, and use conf/site.conf and conf/auto.conf instead.
 
 # Build a minimal, console-only image
@@ -133,7 +139,7 @@ To build a console image, you can run:
 ```shell
 $ bitbake rpb-console-image
 ```
-At the end of the build, your build artifacts will be found under `tmp-rpb-glibc/deploy/images/MACHINE`. The two artifacts you will 
+At the end of the build, your build artifacts will be found under `tmp-rpb-glibc/deploy/images/MACHINE`. The two artifacts you will
 use to update your board are:
 * `rpb-console-image-MACHINE.ext4.gz` and
 * `boot-MACHINE.uefi.img
@@ -143,7 +149,8 @@ use to update your board are:
 ### Flashing build artifacts:
 
 1. [Dragonboard410c](../DragonBoard-410c/BuildSource/open_embedded.md#flashing-build-artifacts)
-2. [Hikey](../HiKey/BuildSource/open_embedded.md#flashing-build-artifacts)
+2. [Dragonboard820c](../dragonboard820c/build/open-embedded.md#flashing-build-artifacts)
+3. [Hikey](../HiKey/BuildSource/open_embedded.md#flashing-build-artifacts)
 
 # Build a simple X11 image
 
@@ -158,7 +165,8 @@ as `rpb-desktop-image-MACHINE.ext4`.
 ### Flashing build artifacts:
 
 1. [Dragonboard410c](../DragonBoard-410c/BuildSource/open_embedded.md#flashing-build-artifacts)
-2. [Hikey](../HiKey/BuildSource/open_embedded.md#flashing-build-artifacts)
+2. [Dragonboard820c](../dragonboard820c/build/open-embedded.md#flashing-build-artifacts)
+3. [Hikey](../HiKey/BuildSource/open_embedded.md#flashing-build-artifacts)
 
 Then, you can finally start the X server and run any graphical application:
 
@@ -189,26 +197,26 @@ glxgears
 ```
 # Build a sample Wayland/Weston image
 
-For Wayland/weston, it is needed to change the DISTRO and use `rpb-wayland` instead of `rpb`. The main reason is that in 
-the `rpb-wayland` distro, the support for X11 is completely removed. So, in a new terminal prompt, setup a new environment 
+For Wayland/weston, it is needed to change the DISTRO and use `rpb-wayland` instead of `rpb`. The main reason is that in
+the `rpb-wayland` distro, the support for X11 is completely removed. So, in a new terminal prompt, setup a new environment
 and make sure to use `rpb-wayland` for DISTRO, then, you can run a sample image with:
 
 ```shell
 $ bitbake rpb-weston-image
 ```
-This image includes a few additional features, such as `systemd`, `connman` which makes it simpler to use. 
-Once built, the image will be available at `tmp-rpb-glibc/deploy/images/MACHINE/` as 
-`rpb-weston-image-MACHINE.ext4`. 
+This image includes a few additional features, such as `systemd`, `connman` which makes it simpler to use.
+Once built, the image will be available at `tmp-rpb-glibc/deploy/images/MACHINE/` as
+`rpb-weston-image-MACHINE.ext4`.
 
 ### Flashing build artifacts:
 
 1. [Dragonboard410c](../DragonBoard-410c/BuildSource/open_embedded.md#flashing-build-artifacts)
-2. [Hikey](../HiKey/BuildSource/open_embedded.md#flashing-build-artifacts)
+2. [Dragonboard820c](../dragonboard820c/build/open-embedded.md#flashing-build-artifacts)
+3. [Hikey](../HiKey/BuildSource/open_embedded.md#flashing-build-artifacts)
 
-If you boot this image on the board, you should get a command prompt on the HDMI monitor. A user called `linaro` exists 
+If you boot this image on the board, you should get a command prompt on the HDMI monitor. A user called `linaro` exists
 (and has no password). Once logged in a VT, you run start weston with:
 
     weston-launch
 
 And that should get you to the Weston desktop shell.
-
