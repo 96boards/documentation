@@ -26,7 +26,7 @@ This page provides the instructions for creating a smb(Samba) based NAS leveragi
 # 2) Software Required
 
 We need Debian installed on the poplar to get our NAS running, there are two ways to install Debian:
-- 1 [Official Build Instructions](https://github.com/96boards-poplar/Documentation/blob/master/build_instructions.md)
+- 1 [Official Build Instructions](https://github.com/96boards-poplar/Documentation/blob/master/debian_build_instructions.md)
 - 2 [Daniel Thompson's USB Image Creator](https://github.com/daniel-thompson/poplar-usbstick)
 
 > Note: Since OS installation is out of the scope for this guide, feel free to ask around the [96boards forum](https://discuss.96boards.org/) or on IRC freenode #96boards
