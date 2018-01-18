@@ -1,6 +1,6 @@
 ---
 title: Audio Mezzanine Audio Guides
-permalink: /documentation/mezzanine/audio-mezzanine/Guides/beginner-guides/audio-guides.md.html
+permalink: /documentation/mezzanine/audio-mezzanine/guides/beginner-guides/audio-guides.md.html
 ---
 
 # Set Audio Output to Audio Mezzanine 3.5mm Jack

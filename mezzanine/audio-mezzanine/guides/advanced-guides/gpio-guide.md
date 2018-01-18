@@ -1,6 +1,6 @@
 ---
 title: Audio Mezzanine GPIO Guide
-permalink: /documentation/mezzanine/audio-mezzanine/Guides/advanced-guides/gpio-guide.md.html
+permalink: /documentation/mezzanine/audio-mezzanine/guides/advanced-guides/gpio-guide.md.html
 ---
 
 # Touch Sensor and Relay

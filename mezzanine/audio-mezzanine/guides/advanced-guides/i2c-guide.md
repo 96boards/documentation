@@ -1,6 +1,6 @@
 ---
 title: Audio Mezzanine I2C Guide
-permalink: /documentation/mezzanine/audio-mezzanine/Guides/advanced-guides/i2c-guide.md.html
+permalink: /documentation/mezzanine/audio-mezzanine/guides/advanced-guides/i2c-guide.md.html
 ---
 
 # Hello World with the RGB LCD

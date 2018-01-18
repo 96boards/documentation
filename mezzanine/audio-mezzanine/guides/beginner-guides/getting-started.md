@@ -1,6 +1,6 @@
 ---
 title: Audio Mezzanine Getting Started Guides
-permalink: /documentation/mezzanine/audio-mezzanine/Guides/beginner-guides/getting-started.md.html
+permalink: /documentation/mezzanine/audio-mezzanine/guides/beginner-guides/getting-started.md.html
 ---
 
 # Basic Setup Guide
