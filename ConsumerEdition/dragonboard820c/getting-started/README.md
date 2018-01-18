@@ -74,7 +74,7 @@ illuminate.
 > NOTE: The first boot takes 3-4 minutes due to first time initialization. Subsequent boot times should be faster in
 the range of 1-2 minutes.
 
-For more information and support, you may also want to visit the [i.MX7 96 Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/dragonboard820c/hardware-docs/files/db820c-user-guide.pdf).
+For more information and support, you may also want to visit the [DragonBoard 820c Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/dragonboard820c/hardware-docs/files/db820c-user-guide.pdf).
 
 ***
 
