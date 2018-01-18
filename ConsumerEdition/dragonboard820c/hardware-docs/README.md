@@ -4,15 +4,4 @@ Explore what makes your DragonBoard 820c unique, technical specifications, schem
 
 ## User Guides
 
-- Hardware User Manual ([View]() / [Download]())
-
-## Hardware
-
-- BOM ([View]() / [Download]())
-- Schematics ([View]() / [Download]())
-
-#### Qualcomm Snapdragon 820E Processor documents
-
-- [Snapdragon 820E Processor Device Specification]()
-- [Snapdragon 820E GPIO Pin Assignment]()
-- [Hardware Register Description for Qualcomm Snapdragon 820E (APQXXXXE)]()
+- Hardware User Manual ([View](https://github.com/96boards/documentation/blob/master/ConsumerEdition/dragonboard820c/hardware-docs/files/db820c-user-guide.pdf) / [Download](https://github.com/96boards/documentation/raw/master/ConsumerEdition/dragonboard820c/hardware-docs/files/db820c-user-guide.pdf))
