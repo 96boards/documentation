@@ -47,4 +47,4 @@ This [Audio Mezzanine Board](https://www.96boards.org/products/mezzanine/sensors
 - Power and Reset/Volume down buttons
 - Pass through stacking connectors so that other Mezzanine cards may be stacked on top of the Audio Mezzanine.
 
-# 2) [Useful Guides](Guides/)
+# 2) [Useful Guides](guides/)
