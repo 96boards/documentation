@@ -60,11 +60,22 @@ The following subsections should describe how to get started with the DragonBoar
 
 ## Starting the board for the first time
 
-**The DragonBoard 820c comes preloaded with Android and can be up and running with a few simple steps:**
+**To start the board, follow these simple steps:**
 
-< Extract this content from the Hardware User Manual >
+- step 1. Connect the HDMI cable to the 820c HDMI connector (marked J6) and to the LCD Monitor.
+- step 2. Connect the mouse and keyboard to the 820C USB connectors marked J2 and. (It doesn’t matter which order
+you connect them in. You can also connect via an external USB Hub.)
+- step 3. Ensure that the boot switches S1 are set to ‘0000’, all in Off position.
+- step 4. Connect the power supply to power connector J1.
+- step 5. Plug the power supply into a power outlet.
 
-- 
+The board will start the booting process, and you should see Linux boot up. The ’power up’ blue LED ‘DS10’ should
+illuminate.
+
+> NOTE: The first boot takes 3-4 minutes due to first time initialization. Subsequent boot times should be faster in
+the range of 1-2 minutes.
+
+For more information and support, you may also want to visit the [i.MX7 96 Hardware User Manual](https://github.com/96boards/documentation/blob/master/ConsumerEdition/dragonboard820c/hardware-docs/files/db820c-user-guide.pdf).
 
 ***
 
