@@ -42,7 +42,6 @@ The following subsections should describe how to get started with the DragonBoar
 |  GPU                 | Qualcomm® Adreno™ 530 624MHz GPU for PC-class graphics with support for advanced APIs, including OpenGL ES 3.1+, OpenCL, DirectX, and content security       |
 |  RAM                 | 3GB LPDDR4 1866MHz                                                                                        |
 |  Storage             | 32GB UFS 2.0, SD 3.0 (UHS-I)                                                                              |
-|  Ethernet Port       |                                                                               |
 |  Wireless            | WLAN 2x2 802.11 b/g/n/ac 2.4 and 5GHz with on-board dual band WLAN antennas<br>Bluetooth v4.1 with on-board antenna<br>GPS with On-board GPS antenna    |
 |  USB                 | One USB 2.0 micro B (device mode only), Two USB 3.0 (host mode only)                                      |
 |  Video               | 4K UltraHD@30fps video playback and capture with H.264 (AVC) and H.265 (HEVC)  |
@@ -62,12 +61,12 @@ The following subsections should describe how to get started with the DragonBoar
 
 **To start the board, follow these simple steps:**
 
-- step 1. Connect the HDMI cable to the 820c HDMI connector (marked J6) and to the LCD Monitor.
-- step 2. Connect the mouse and keyboard to the 820C USB connectors marked J2 and. (It doesn’t matter which order
+- Step 1: Connect the HDMI cable to the 820c HDMI connector (marked J6) and to the LCD Monitor.
+- Step 2: Connect the mouse and keyboard to the 820C USB connectors marked J2 and. (It doesn’t matter which order
 you connect them in. You can also connect via an external USB Hub.)
-- step 3. Ensure that the boot switches S1 are set to ‘0000’, all in Off position.
-- step 4. Connect the power supply to power connector J1.
-- step 5. Plug the power supply into a power outlet.
+- Step 3: Ensure that the boot switches S1 are set to ‘0000’, all in Off position.
+- Step 4: Connect the power supply to power connector J1.
+- Step 5: Plug the power supply into a power outlet.
 
 The board will start the booting process, and you should see Linux boot up. The ’power up’ blue LED ‘DS10’ should
 illuminate.
