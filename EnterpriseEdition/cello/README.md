@@ -1,7 +1,10 @@
 ---
 title: Cello Documentation
-permalink: /documentation/EnterpriseEdition/Cello/
-redirect_from: /documentation/EnterpriseEdition/Cello/README.md/
+permalink: /documentation/EnterpriseEdition/cello/
+redirect_from:
+- /documentation/EnterpriseEdition/Cello/README.md/
+- /documentation/EnterpriseEdition/Cello/
+- /documentation/EnterpriseEdition/cello/README.md
 ---
 # Using the Cello
 
@@ -9,7 +12,7 @@ A comprehensive guide to using the [Cello](https://www.96boards.org/products/ee/
 
 ## Contents
 
-- [Quickstart](Quickstart/)
+- [Quickstart](quickstart/)
    - Learn about yourCello board, how to prepare and set up for basic use
-- [Troubleshooting](Troubleshooting/)
+- [Troubleshooting](troubleshooting/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
