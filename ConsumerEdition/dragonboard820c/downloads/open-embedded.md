@@ -1,3 +1,7 @@
+---
+title: DragonBoard820c OpenEmbedded
+permalink: /documentation/ConsumerEdition/dragonboard820c/downloads/open-embedded.md.html
+---
 # OpenEmbedded
 
 **OpenEmbedded** is a software framework used for creating Linux distributions aimed for, but not restricted to, embedded devices. Below are pre-built console and desktop images of Debian with their respective bootloader and boot image. If desired, these images can be recreated by following the build from source instructions found [here](https://github.com/Linaro/documentation/blob/master/Reference-Platform/CECommon/OEYocto.md) (Note: this link will take you to the Linaro Github)
