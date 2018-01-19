@@ -1,7 +1,10 @@
 ---
 title: Troubleshooting Cello
-permalink: /documentation/EnterpriseEdition/Cello/Troubleshooting/
-redirect_from: /documentation/EnterpriseEdition/Cello/Troubleshooting/README.md/
+permalink: /documentation/EnterpriseEdition/cello/troubleshooting/
+redirect_from:
+- /documentation/EnterpriseEdition/Cello/Troubleshooting/README.md/
+- /documentation/EnterpriseEdition/Cello/Troubleshooting/
+- /documentation/EnterpriseEdition/cello/troubleshooting/README.md/
 ---
 # Troubleshooting
 

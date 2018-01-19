@@ -1,7 +1,10 @@
 ---
 title: Quickstart with Cello
-permalink: /documentation/EnterpriseEdition/Cello/Quickstart/
-redirect_from: /documentation/EnterpriseEdition/Cello/Quickstart/README.md/
+permalink: /documentation/EnterpriseEdition/cello/quickstart/
+redirect_from:
+- /documentation/EnterpriseEdition/Cello/Quickstart/README.md/
+- /documentation/EnterpriseEdition/cello/quickstart/README.md/
+- /documentation/EnterpriseEdition/Cello/Quickstart/
 ---
 ## Quickstart
 
