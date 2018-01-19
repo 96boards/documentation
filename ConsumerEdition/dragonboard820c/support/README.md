@@ -1,3 +1,7 @@
+---
+title: DragonBoard™ 820c Troubleshooting
+permalink: /documentation/ConsumerEdition/dragonboard820c/hardware-docs/
+---
 # Troubleshooting
 
 Please take advantage of the many DragonBoard 820c resources available to you through Qualcomm, 96Boards, Arrow, and Coursera.
@@ -12,5 +16,5 @@ Please take advantage of the many DragonBoard 820c resources available to you th
    - DragonBoard 820c uses a very similar specification! Students from the University of California San Diego put together an "Internet of Things" (IoT) course focused around the DragonBoard 410c. It is free to audit, or you can purchase the specialization package for a cool certificate!
 - [Report a bug!](../../../Report_a_bug.md)
    - Instructions on how to report bugs for any of our 96Boards hardware and software, this includes the DragonBoard 820c!
-- [Board Recovery](../Installation/BoardRecovery.md)
+- [Board Recovery](../installation/board-recovery.md)
    - Bricked board? Many software issues can be fixed with a simple "board recovery"

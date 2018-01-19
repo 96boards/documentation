@@ -1,3 +1,7 @@
+---
+title: DragonBoard™ 820c Linux Host Installation
+permalink: /documentation/ConsumerEdition/dragonboard820c/installation/linux-sd.md.html
+---
 ## Linux Host
 
 This section show how to install an operating system to your DragonBoard™ 410c using the SD Card method on a Linux host computer.

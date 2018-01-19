@@ -1,6 +1,6 @@
 ---
 title: Audio Mezzanine Beginner Guides 
-permalink: /documentation/mezzanine/audio-mezzanine/Guides/advanced-guides/
+permalink: /documentation/mezzanine/audio-mezzanine/Guides/beginner-guides/
 ---
 # Beginner Guides
 
