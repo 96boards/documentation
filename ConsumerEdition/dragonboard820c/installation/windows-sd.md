@@ -1,3 +1,7 @@
+---
+title: DragonBoard™ 820c Windows Host Installation
+permalink: /documentation/ConsumerEdition/dragonboard820c/installation/windows-sd.md.html
+---
 ## Windows Host
 
 This section show how to install an operating system to your DragonBoard™ 410c using the SD Card method on a Windows host computer.

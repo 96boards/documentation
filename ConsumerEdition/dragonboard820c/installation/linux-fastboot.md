@@ -1,3 +1,7 @@
+---
+title: DragonBoard™ 820c Linux Fastboot
+permalink: /documentation/ConsumerEdition/dragonboard820c/installation/linux-fastboot.md.html
+---
 ##Linux Host
 
 This section show how to install a new operating system to your DragonBoard™ 410c using the fastboot method on a Linux host computer.

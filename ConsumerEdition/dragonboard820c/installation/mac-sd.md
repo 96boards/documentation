@@ -1,3 +1,7 @@
+---
+title: DragonBoard™ 820c Mac OS X Host Installation
+permalink: /documentation/ConsumerEdition/dragonboard820c/installation/mac-sd.md.html
+---
 ## Mac OS X Host
 
 This section show how to install an operating system to your DragonBoard™ 410c using the SD Card method on a Mac OS X host computer.
