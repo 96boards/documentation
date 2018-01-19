@@ -1,3 +1,7 @@
+---
+title: DragonBoard820c Android
+permalink: /documentation/ConsumerEdition/dragonboard820c/downloads/android.md.html
+---
 # Android
 
 **Android** is a mobile/tablet platform environment. This environment is primarily used to test applications/software developed remotely on a host computer using an assortment of IDE’s(integrated development environments) and SDK’s(software development kits). This DragonBoard 410c Android image is rich in features and optimized for functionality.

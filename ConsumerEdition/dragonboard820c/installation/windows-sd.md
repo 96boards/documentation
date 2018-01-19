@@ -24,7 +24,7 @@ This section show how to install an operating system to your DragonBoard™ 410c
 
 ####**Step 2**: Recall Download Location
 
-- Locate SD card install file from [Downloads page](../Downloads/README.md).
+- Locate SD card install file from [Downloads page](../downloads/).
 - This file will be needed for the next step.
 
 ####**Step 3**: Unzip _SD Card Install Image_

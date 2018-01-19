@@ -10,9 +10,9 @@ The DragonBoard 820c comes pre-installed with Android (if purchased in a kit, OS
 
 ### Linaro supported operating systems
 
-- [Debian](Debian.md)
-- [Android](Android.md)
-- [OpenEmbedded](OpenEmbedded.md)
+- [Debian](debian.md)
+- [Android](android.md)
+- [OpenEmbedded](open-embedded.md)
 
 ***
 
