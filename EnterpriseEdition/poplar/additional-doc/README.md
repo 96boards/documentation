@@ -1,7 +1,10 @@
 ---
 title: Additional Documentation for Poplar
-permalink: /documentation/EnterpriseEdition/Poplar/AdditionalDocs/
-redirect_from: /documentation/EnterpriseEdition/Poplar/AdditionalDocs/README.md/
+permalink: /documentation/EnterpriseEdition/Poplar/additional-doc/
+redirect_from:
+- /documentation/EnterpriseEdition/Poplar/AdditionalDocs/README.md/
+- /documentation/EnterpriseEdition/Poplar/AdditionalDocs/
+- /documentation/EnterpriseEdition/Poplar/additional-doc/README.md
 ---
 # Additional Documentation
 

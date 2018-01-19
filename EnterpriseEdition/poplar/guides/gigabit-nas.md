@@ -1,6 +1,7 @@
 ---
 title: Create a Gigabit NAS
-permalink: /documentation/EnterpriseEdition/Poplar/Guides/gigabit-nas.md.html
+permalink: /documentation/EnterpriseEdition/Poplar/guides/gigabit-nas.md.html
+redirect_from: /documentation/EnterpriseEdition/Poplar/Guides/gigabit-nas.md.html
 ---
 
 # Create a Gigabit Network Attached Storage using Poplar

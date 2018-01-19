@@ -1,7 +1,10 @@
 ---
 title: Hardware Documentation for Poplar
-permalink: /documentation/EnterpriseEdition/Poplar/HardwareDocs/
-redirect_from: /documentation/EnterpriseEdition/Poplar/HardwareDocs/README.md/
+permalink: /documentation/EnterpriseEdition/poplar/hardware-docs/
+redirect_from:
+- /documentation/EnterpriseEdition/Poplar/HardwareDocs/README.md/
+- /documentation/EnterpriseEdition/Poplar/HardwareDocs/
+- /documentation/EnterpriseEdition/poplar/hardware-docs/README.md
 ---
 # Hardware Documentation
 
@@ -9,7 +12,7 @@ Explore what makes your Poplar unique, technical specifications, schematics, har
 
 ## User Guides
 
-- Hardware User Manual ([View](HardwareUserManual.md))
+- Hardware User Manual ([View](hw-user-manual.md))
 
 #### Hardware
 

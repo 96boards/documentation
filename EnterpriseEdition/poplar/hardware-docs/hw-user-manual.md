@@ -1,6 +1,7 @@
 ---
 title: Hardware User Manual for Poplar
-permalink: /documentation/EnterpriseEdition/Poplar/HardwareDocs/HardwareUserManual.md.html
+permalink: /documentation/EnterpriseEdition/poplar/hardware-docs/hw-user-manual.md.html
+redirect_from: /documentation/EnterpriseEdition/Poplar/HardwareDocs/HardwareUserManual.md.html
 ---
 #  Poplar Hardware User Manual
 
@@ -157,13 +158,13 @@ The box contains a 96Boards Poplar board, a product guarantee card and three jum
 
 ### Key Components
 
-<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Poplar_Named_Front.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Poplar_Named_Front.png?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Poplar_Named_Front.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Poplar_Named_Front.png?raw=true" width="750" height="480" />
 
 ***
 
 ## Application Block Diagram
 
-<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/BlockDiagram_Application.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/BlockDiagram_Application.png?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/BlockDiagram_Application.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/BlockDiagram_Application.png?raw=true" width="750" height="480" />
 
 ***
 
@@ -171,7 +172,7 @@ The box contains a 96Boards Poplar board, a product guarantee card and three jum
 
 The 96Boards Poplar board allows system to boot from the SPI flash, NAND flash, fSD, eMMC, or SPI NAND flash. Jumper J21 BOOTSEL0, Jumper J20 BOOTSEL1, and Jumper J19 BOOTSEL2 work together to select the boot mode.
 
-<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/JumperConfig.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/JumperConfig.png?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/JumperConfig.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/JumperConfig.png?raw=true" width="250" height="160" />
 
 The value of BOOTSEL2, BOOTSEL1, or BOOTSEL0 is as follows:
 
@@ -272,7 +273,7 @@ The 96Boards Poplar board uses a small size and low power module for IEEE 802.11
 
 The WiFi hardware block Diagram is followed:
 
-<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/BlockDiagram_WIFI.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/BlockDiagram_WIFI.png?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/BlockDiagram_WIFI.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/BlockDiagram_WIFI.png?raw=true" width="750" height="480" />
 
 #### Bluetooth
 
@@ -347,37 +348,37 @@ The 96Boards Poplar board has six buttons.
 
 #### RECOVERY key S1
 
-<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Button_Recovery.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Button_Recovery.png?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Button_Recovery.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Button_Recovery.png?raw=true" width="250" height="160" />
 
 This key can be used to update the board’s software
 
 #### STB_KEY button S2
 
-<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Button_STB_KEY.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Button_STB_KEY.png?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Button_STB_KEY.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Button_STB_KEY.png?raw=true" width="250" height="160" />
 
 This key can be used to let the board enter standby mode
 
 #### USB_BOOT button S3
 
-<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Button_USB_BOOT.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Button_USB_BOOT.png?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Button_USB_BOOT.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Button_USB_BOOT.png?raw=true" width="250" height="160" />
 
 This key can be used to boot from USB flash disk.
 
 #### RST_BIN_N button S4
 
-<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Button_RST_BIN_N.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Button_RST_BIN_N.png?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Button_RST_BIN_N.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Button_RST_BIN_N.png?raw=true" width="250" height="160" />
 
 This key can be used to reset.
 
 #### POWER button S6
 
-<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Button_Power.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Button_Power.png?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Button_Power.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Button_Power.png?raw=true" width="250" height="160" />
 
 The power button can be used to power up, power down. A press and release will then power off the board.
 
 #### WIFI_WPS button S8
 
-<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Button_WIFI_WPS.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Button_WIFI_WPS.png?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Button_WIFI_WPS.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Button_WIFI_WPS.png?raw=true" width="250" height="160" />
 
 < description >
 
@@ -385,7 +386,7 @@ The power button can be used to power up, power down. A press and release will t
 
 The 96Boards Poplar board specifications calls for six LEDs to be implemented on the board.  The specification defines the LEDs color and mechanical location on the board. There are two status LEDs and four User LEDs on the HiKey board. The user LEDs can be programmed by the SoC directly.
 
-<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/LED_Indicators.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/LED_Indicators.png?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/LED_Indicators.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/LED_Indicators.png?raw=true" width="250" height="160" />
 
 #### Two activity LEDs
 
@@ -415,7 +416,7 @@ The GPIO module has the following features:
 
 ### PCIE Expansion Connector
 
-<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Connector_PCIE.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Connector_PCIE.png?raw=true" width="750" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Connector_PCIE.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Connector_PCIE.png?raw=true" width="750" height="160" />
 
 The peripheral component interconnect express (PCIe) module is used for extending the SATA interface, Ethernet port, and Wi-Fi devices.
 
@@ -433,21 +434,21 @@ The PCIe controller has the following features:
 
 The Smart Card module board is optinal supplied.
 
-<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Connector_Smart_Card_1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Connector_Smart_Card_1.png?raw=true" width="750" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Connector_Smart_Card_1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Connector_Smart_Card_1.png?raw=true" width="750" height="160" />
 
-<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Connector_Smart_Card_2.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Connector_Smart_Card_2.png?raw=true" width="400" height="500" />
+<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Connector_Smart_Card_2.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Connector_Smart_Card_2.png?raw=true" width="400" height="500" />
 
 ### TS Connector
 
 The tuner module board and is optionally supplied.  
 
-<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Connector_TS_1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Connector_TS_1.png?raw=true" width="750" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Connector_TS_1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Connector_TS_1.png?raw=true" width="750" height="160" />
 
-<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Connector_TS_2.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Connector_TS_2.png?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Connector_TS_2.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Connector_TS_2.png?raw=true" width="750" height="480" />
 
 ### Low Speed Expansion Connector
 
-<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Connector_Low_Speed.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/Connector_Low_Speed.png?raw=true" width="750" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Connector_Low_Speed.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/Connector_Low_Speed.png?raw=true" width="750" height="160" />
 
 |  Poplar Signals   |  PIN  |  PIN  |  Poplar Signals     |
 |:------------------|:------|------:|--------------------:|
@@ -478,4 +479,4 @@ The tuner module board and is optionally supplied.
 
 < Add a drawing showing the mechanical layout, dimensions, distance between mounting holes, max. component height >
 
-<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/2DDrawing.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/Poplar/AdditionalDocs/Images/Images_HWUserManual/2DDrawing.png?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/2DDrawing.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/EnterpriseEdition/poplar/additional-doc/images/images-hw-user-manual/2DDrawing.png?raw=true" width="750" height="480" />
