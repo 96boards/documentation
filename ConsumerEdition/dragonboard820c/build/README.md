@@ -7,3 +7,5 @@ permalink: /documentation/ConsumerEdition/dragonboard820c/build/
 
 - [Linux Kernel](linux-kernel.md)
    - Build Linux Kernel from Source
+- [OpenEmbedded](open-embedded.md)
+   - Create custom distribution based on OpenEmbedded
