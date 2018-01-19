@@ -10,10 +10,10 @@ permalink: /documentation/ConsumerEdition/B2260/Downloads/Debian.md.html
 
 ## SD Card image
 
-|   SD Card Image   | Build Directory ([Latest](http://builds.96boards.org/snapshots/b2260/linaro/debian/latest/)) |
+|   SD Card Image   | Build Directory ([Latest]()http://builds.96boards.org/snapshots/b2260/linaro/debian/latest/) |
 |:------------------|:------------------------------------|
-|  Debian (Alip)  |[Download](http://builds.96boards.org/snapshots/b2260/linaro/debian/latest/b2260-stretch_alip_*.img.gz) |
-|  Debian (Developer)  |[Download](http://builds.96boards.org/snapshots/b2260/linaro/debian/latest/b2260-stretch_developer_*.img.gz) |
+|  Debian (Alip)  |[Download]()http://builds.96boards.org/snapshots/b2260/linaro/debian/latest/b2260-stretch_alip_*.img.gz |
+|  Debian (Developer)  |[Download]()http://builds.96boards.org/snapshots/b2260/linaro/debian/latest/b2260-stretch_developer_*.img.gz |
 
 ### Continue to [Installation page](../Installation/)
 
