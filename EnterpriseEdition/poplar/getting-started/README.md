@@ -1,7 +1,10 @@
 ---
 title: Getting Started with Poplar
-permalink: /documentation/EnterpriseEdition/Poplar/GettingStarted/
-redirect_from: /documentation/EnterpriseEdition/Poplar/GettingStarted/README.md/
+permalink: /documentation/EnterpriseEdition/poplar/getting-started/
+redirect_from:
+- /documentation/EnterpriseEdition/Poplar/GettingStarted/README.md/
+- /documentation/EnterpriseEdition/Poplar/GettingStarted/
+- /documentation/EnterpriseEdition/poplar/getting-started/README.md
 ---
 # Getting Started
 
@@ -63,7 +66,7 @@ If you are already familiar with the Poplar board and would like to change out t
 
 - [Board Recovery](https://github.com/96boards-poplar/Documentation/blob/master/debian_build_instructions.md)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
-- [Support](../Support/)
+- [Support](../support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
 Back to the [Poplar documentation home page](../)

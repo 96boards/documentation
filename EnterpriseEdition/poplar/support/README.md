@@ -1,7 +1,10 @@
 ---
 title: Support for Poplar
-permalink: /documentation/EnterpriseEdition/Poplar/Support/
-redirect_from: /documentation/EnterpriseEdition/Poplar/Support/README.md/
+permalink: /documentation/EnterpriseEdition/poplar/support/
+redirect_from:
+- /documentation/EnterpriseEdition/Poplar/Support/README.md/
+- /documentation/EnterpriseEdition/Poplar/Support/
+- /documentation/EnterpriseEdition/poplar/support/README.md
 ---
 # Troubleshooting
 
