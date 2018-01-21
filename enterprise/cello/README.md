@@ -4,7 +4,7 @@ permalink: /documentation/enterprise/cello/
 redirect_from:
 - /documentation/EnterpriseEdition/Cello/README.md/
 - /documentation/EnterpriseEdition/Cello/
--/documentation/enterprise/cello/README.md
+- /documentation/enterprise/cello/README.md
 ---
 # Using the Cello
 
