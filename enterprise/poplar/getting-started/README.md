@@ -1,6 +1,6 @@
 ---
 title: Getting Started with Poplar
-permalink: /documentation/EnterpriseEdition/poplar/getting-started/
+permalink: /documentation/enterprise/poplar/getting-started/
 redirect_from:
 - /documentation/EnterpriseEdition/Poplar/GettingStarted/README.md/
 - /documentation/EnterpriseEdition/Poplar/GettingStarted/
