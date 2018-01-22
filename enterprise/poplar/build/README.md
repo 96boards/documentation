@@ -1,6 +1,6 @@
 ---
 title: BuildSource for Poplar
-permalink: /documentation/EnterpriseEdition/poplar/build/
+permalink: /documentation/enterprise/poplar/build/
 redirect_from:
 - /documentation/EnterpriseEdition/Poplar/BuildSource/README.md/
 - /documentation/enterprise/poplar/build/README.md/
