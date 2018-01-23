@@ -1,8 +1,8 @@
 ---
 title: Hardware Documentation for BPai96
-permalink: /documentation/IoTEdition/bpai96/hardware-docs/
+permalink: /documentation/iot/bpai96/hardware-docs/
 redirect_from:
-- /documentation/IoTEdition/bpai96/hardware-docs/README.md/
+- /documentation/iot/bpai96/hardware-docs/README.md/
 ---
 # Hardware Documentation
 

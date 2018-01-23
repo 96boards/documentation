@@ -1,8 +1,8 @@
 ---
 title: Guides for BPai96
-permalink: /documentation/IoTEdition/bpai96/guides/
+permalink: /documentation/iot/bpai96/guides/
 redirect_from:
-- /documentation/IoTEdition/bpai96/guides/README.md/
+- /documentation/iot/bpai96/guides/README.md/
 ---
 # Useful Guides
 
@@ -11,5 +11,3 @@ Explore what makes your BPai96 unique by checking out technical specifications, 
 ## BPai96
 
 Coming soon...
-
-

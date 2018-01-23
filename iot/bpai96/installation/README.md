@@ -1,8 +1,8 @@
 ---
 title: Installation for BPai96
-permalink: /documentation/IoTEdition/bpai96/installation/
+permalink: /documentation/iot/bpai96/installation/
 redirect_from:
-- /documentation/IoTEdition/bpai96/installation/README.md/
+- /documentation/iot/bpai96/installation/README.md/
 ---
 # Installation
 

@@ -1,8 +1,8 @@
 ---
 title: Support for BPai96
-permalink: /documentation/IoTEdition/bpai96/support/
+permalink: /documentation/iot/bpai96/support/
 redirect_from:
-- /documentation/IoTEdition/bpai96/support/README.md/
+- /documentation/iot/bpai96/support/README.md/
 ---
 # Support
 

@@ -1,8 +1,8 @@
 ---
 title: Getting Started with BPai96
-permalink: /documentation/IoTEdition/bpai96/getting-started/
+permalink: /documentation/iot/bpai96/getting-started/
 redirect_from:
-- /documentation/IoTEdition/bpai96/getting-started/README.md/
+- /documentation/iot/bpai96/getting-started/README.md/
 ---
 # Getting Started
 

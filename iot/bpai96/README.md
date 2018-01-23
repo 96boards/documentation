@@ -1,8 +1,8 @@
 ---
 title: BPai96 Documentation
-permalink: /documentation/IoTEdition/bpai96/
+permalink: /documentation/iot/bpai96/
 redirect_from:
-- /documentation/IoTEdition/bpai96/README.md/
+- /documentation/iot/bpai96/README.md/
 ---
 
 # Using the BPai96
