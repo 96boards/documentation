@@ -1,6 +1,6 @@
 ---
-title: Nitrogen Additional Docs
-permalink: /documentation/iot/nitrogen/additional-docs/
+title: BPai96 Additional Docs
+permalink: /documentation/iot/bpai96/additional-docs/
 redirect_from:
-- /documentation/iot/nitrogen/additional-docs/README.md/
+- /documentation/iot/bpai96/additional-docs/README.md/
 ---
