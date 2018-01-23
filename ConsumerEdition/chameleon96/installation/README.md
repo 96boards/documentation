@@ -1,3 +1,7 @@
+---
+title: Chameleon96 Installation
+permalink: /documentation/ConsumerEdition/chameleon96/installation/
+---
 # Installation
 
 Choose and install an operating system on your Board X. To appropriately follow this installation guide you will need to:
@@ -34,9 +38,7 @@ Go to the [Downloads page](../downloads/README.md) to get your SD card image.
 
 Choose host machine
 
-- [Linux](linux-sd.md)
-- [Mac](mac-sd.md)
-- [Windows](windows-sd.md)
+Coming soon...
 
 ***
 
@@ -56,7 +58,7 @@ Go to the [Downloads page](../downloads/README.md) to get your bootloader, boot 
 
 Choose host machine
 
-- [Linux](linux-fastboot.md)
+Coming soon...
 
 ***
 

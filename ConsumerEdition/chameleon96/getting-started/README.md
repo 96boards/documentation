@@ -1,3 +1,7 @@
+---
+title: Getting Started with the Chameleon96
+permalink: /documentation/ConsumerEdition/chameleon96/getting-started/
+---
 # Getting Started
 
 Learn about your Chameleon96 board as well as how to prepare and set up for basic use

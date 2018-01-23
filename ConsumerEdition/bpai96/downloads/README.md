@@ -1,9 +1,9 @@
 ---
-title: Downloads for BananaPi
-permalink: /documentation/IoTEdition/bpi-96/downloads/
+title: Downloads for BPai96
+permalink: /documentation/IoTEdition/bpai96/downloads/
 redirect_from:
-- /documentation/IoTEdition/bpi-96/downloads/README.md/
+- /documentation/IoTEdition/bpai96/downloads/README.md/
 ---
 ## Downloads
 
-Unknown...
+Coming soon...

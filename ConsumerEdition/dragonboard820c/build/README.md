@@ -1,5 +1,5 @@
 ---
-title: Build Source for DragonBoard-410c
+title: Build Source for DragonBoard 820c
 permalink: /documentation/ConsumerEdition/dragonboard820c/build/
 ---
 

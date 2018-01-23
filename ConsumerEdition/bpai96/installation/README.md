@@ -1,11 +1,11 @@
 ---
-title: Installation for Banana Pi
-permalink: /documentation/IoTEdition/bpi-96/installation/
+title: Installation for BPai96
+permalink: /documentation/IoTEdition/bpai96/installation/
 redirect_from:
-- /documentation/IoTEdition/bpi-96/installation/README.md/
+- /documentation/IoTEdition/bpai96/installation/README.md/
 ---
 # Installation
 
-Choose and install an operating system on your Banana Pi. These instructions can also be used to flash sample OS and applications (pre-built binaries from [downloads page](../downloads/))
+Choose and install an operating system on your BPai96. These instructions can also be used to flash sample OS and applications (pre-built binaries from [downloads page](../downloads/))
 
-< Unknown >
+Coming soon...

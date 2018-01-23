@@ -1,18 +1,18 @@
 ---
-title: Getting Started with Nitrogen
-permalink: /documentation/IoTEdition/bpi-96/getting-started/
+title: Getting Started with BPai96
+permalink: /documentation/IoTEdition/bpai96/getting-started/
 redirect_from:
-- /documentation/IoTEdition/bpi-96/getting-started/README.md/
+- /documentation/IoTEdition/bpai96/getting-started/README.md/
 ---
 # Getting Started
 
-Learn about your Nitrogen board as well as how to prepare and set up for basic use
+Learn about your BPai96 board as well as how to prepare and set up for basic use
 
 ## Setup - What you will need
 
 **Need**
 
-Unknown...
+Coming soon...
 
 **Optional**
 - Mezzanine Products
@@ -22,9 +22,7 @@ Unknown...
 
 # Out of the Box
 
-Unknown...
-
-<img src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/nitrogen/additional-docs/images/images-board/nitrogen-front-sd.png?raw=true" data-canonical-src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/nitrogen/additional-docs/images/images-board/nitrogen-front-sd.png?raw=true" width="300" height="150" />
+Coming soon...
 
 ## Features
 
@@ -44,30 +42,32 @@ Unknown...
 |  OS Support          |                                                                                                  |
 |  Size                |                                                                                                  |
 
-For more information, please refer to the [Hardware User Manual]() < unknown >
+For more information, please refer to the [Hardware User Manual]()
 
 **IMPORTANT NOTES**
 
-###### Coming soon...
+Coming soon...
 
 ***
 
 ## Starting the board for the first time
 
-###### Coming soon...
+Coming soon...
 
 ***
 
-## Find out more about your Banana Pi board
+## What's Next?
 
-It's time to see what your Banana Pi can do. From here you can learn how to build your own applications, or flash some of our pre-built ones, available on the Downloads page:
+If you are already familiar with the BPai96 board and would like to change out the stock operating system, please proceed to one of the following pages:
 
-- [Downloads page](../downloads/): This page contains prebuilt OS and Application files, simply download and flash to get started!
-- [Building for Nitrogen](../build/): In a few simple steps, here you will learn how to build and flash your own application to the Nitrogen.
-- [Installation page](../installation/): Find instructions on how to flash new applications to your Nitrogen!
-- [Support](../support/)
-   - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
+- [Downloads page](../downloads/): This page lists all Linaro and 3rd party operating systems available for the BPai96
+- [Installation page](../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your BPai96
+- [Board Recovery](../installation/board-recovery.md)
+   - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
+- [Troubleshooting](../support/)
 
-Back to the [Banana Pi documentation home page](../)
+- From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
+
+Back to the [BPai96 documentation home page](../)
 
 ***   

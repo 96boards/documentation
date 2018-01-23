@@ -1,3 +1,7 @@
+---
+title: Using the Chameleon96
+permalink: /documentation/ConsumerEdition/chameleon96/
+---
 # Using the Chameleon96
 
 A comprehensive guide to using the [Chameleon96](https://www.96boards.org/product/chameleon96/) Consumer Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.

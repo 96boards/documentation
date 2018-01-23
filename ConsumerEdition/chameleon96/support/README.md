@@ -1,3 +1,7 @@
+---
+title: Chameleon96 Troubleshooting
+permalink: /documentation/ConsumerEdition/chameleon96/support/
+---
 # Support
 
 Please take advantage of the many Chameleon96 resources available to you through 96Boards

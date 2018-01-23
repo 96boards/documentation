@@ -1,5 +1,5 @@
 ---
-title: Getting Started with the DragonBoard™ 820c
+title: Getting Started with the DragonBoard 820c
 permalink: /documentation/ConsumerEdition/dragonboard820c/getting-started/
 ---
 # Getting Started
