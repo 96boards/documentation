@@ -1,5 +1,5 @@
 ---
-title: DragonBoard™ 820c Troubleshooting
+title: DragonBoard 820c Support
 permalink: /documentation/ConsumerEdition/dragonboard820c/support/
 ---
 # Troubleshooting

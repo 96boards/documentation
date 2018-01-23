@@ -1,5 +1,5 @@
 ---
-title: DragonBoard820c Debian
+title: DragonBoard 820c Debian
 permalink: /documentation/ConsumerEdition/dragonboard820c/downloads/debian.md.html
 ---
 # Debian

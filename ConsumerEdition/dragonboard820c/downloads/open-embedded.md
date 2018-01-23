@@ -1,5 +1,5 @@
 ---
-title: DragonBoard820c OpenEmbedded
+title: DragonBoard 820c OpenEmbedded
 permalink: /documentation/ConsumerEdition/dragonboard820c/downloads/open-embedded.md.html
 ---
 # OpenEmbedded

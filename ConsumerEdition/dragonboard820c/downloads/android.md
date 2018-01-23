@@ -1,5 +1,5 @@
 ---
-title: DragonBoard820c Android
+title: DragonBoard 820c Android
 permalink: /documentation/ConsumerEdition/dragonboard820c/downloads/android.md.html
 ---
 # Android

@@ -1,5 +1,5 @@
 ---
-title: Using the DragonBoard™ 820c
+title: Using the DragonBoard 820c
 permalink: /documentation/ConsumerEdition/dragonboard820c/
 ---
 

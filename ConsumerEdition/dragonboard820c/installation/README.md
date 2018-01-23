@@ -1,5 +1,5 @@
 ---
-title: DragonBoard820c Installation
+title: DragonBoard 820c Installation
 permalink: /documentation/ConsumerEdition/dragonboard820c/installation/
 ---
 # Installation
@@ -42,9 +42,7 @@ Go to the [Downloads page](../downloads/) to get your SD card image.
 
 Choose host machine
 
-- [Linux](linux-sd.md)
-- [Mac](mac-sd.md)
-- [Windows](windows-sd.md)
+Comning soon...
 
 ***
 
@@ -64,7 +62,7 @@ Go to the [Downloads page](../downloads/) to get your bootloader, boot image, an
 
 Choose host machine
 
-- [Linux](linux-fastboot.md)
+Coming soon...
 
 ***
 
