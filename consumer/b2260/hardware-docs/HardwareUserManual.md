@@ -57,15 +57,15 @@ The following table lists its key features:
 ## What's in the Box
 The box contains a B2260 Development 96board, a power supply, a power supply adapter, a populated SDCard and a product instruction manual (quick start guide).
 
-<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_Board/ST_B2260_Front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_Board/ST_B2260_Front_SD.png?raw=true" width="263" height="313" />
-<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_Board/ST_B2260_Angle_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_Board/ST_B2260_Angle_SD.png?raw=true" width="313" height="252" />
-<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_Board/ST_B2260_Back_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/B2260/AdditionalDocs/Images/Images_Board/ST_B2260_Back_SD.png?raw=true" width="280" height="313" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-board/sd/ST_B2260_Front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-board/sd/ST_B2260_Front_SD.png?raw=true" width="263" height="313" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-board/sd/ST_B2260_Angle_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-board/sd/ST_B2260_Angle_SD.png?raw=true" width="313" height="252" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-board/sd/ST_B2260_Back_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-board/sd/ST_B2260_Back_SD.png?raw=true" width="280" height="313" />
 
 ***
 
 ## Board Overview
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-doc/images/images-hw-user-manual/ST_B2260_Front_SD_placement.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-doc/images/images-hw-user-manual/ST_B2260_Front_SD_placement.png?raw=true" width="322" height="385" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-hw-user-manual/ST_B2260_Front_SD_placement.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-hw-user-manual/ST_B2260_Front_SD_placement.png?raw=true" width="322" height="385" />
 
 
 
@@ -85,7 +85,7 @@ The box contains a B2260 Development 96board, a power supply, a power supply ada
 |    12    | Reset Button                                              |
 |    13    | Bluetooth/WiFi Antenna                                    |
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-doc/images/images-hw-user-manual/ST_B2260_Back_SD_placement.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-doc/images/images-hw-user-manual/ST_B2260_Back_SD_placement.png?raw=true" width="348" height="385" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-hw-user-manual/ST_B2260_Back_SD_placement.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-hw-user-manual/ST_B2260_Back_SD_placement.png?raw=true" width="348" height="385" />
 
 | Position | Description                                               |
 |---------:|-----------------------------------------------------------|
@@ -99,7 +99,7 @@ The box contains a B2260 Development 96board, a power supply, a power supply ada
 
 ## System Block Diagram
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-doc/images/images-hw-user-manual/SystemBlockDiagram.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-doc/images/images-hw-user-manual/SystemBlockDiagram.png?raw=true" width="500" height="500" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-hw-user-manual/SystemBlockDiagram.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-hw-user-manual/SystemBlockDiagram.png?raw=true" width="500" height="500" />
 
 ## Jumpers/Switch Configurations
 There is no jumper or switch to configure on the ST B2260 Development Board.
@@ -222,7 +222,7 @@ The ARM Mali-400 MP2 GPU configuration is:
 Display is provided on the B2260 Development Board via HDMI standard Type A connector.<br>
 HDMI full size 1.4b @ 1080p60.
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-doc/images/images-hw-user-manual/DisplayHDMIInterface.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-doc/images/images-hw-user-manual/DisplayHDMIInterface.png?raw=true" width="894" height="350" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-hw-user-manual/DisplayHDMIInterface.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-hw-user-manual/DisplayHDMIInterface.png?raw=true" width="894" height="350" />
 
 
 #### MIPI-DSI
@@ -242,7 +242,7 @@ Following this requirement, on the B2260 Development Board, there are:
 -	One microUSB connector, in device mode by default,
 -	One USB Host provided on the High Speed Expansion connector,
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-doc/images/images-hw-user-manual/USBPort.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-doc/images/images-hw-user-manual/USBPort.png?raw=true" width="926" height="450" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-hw-user-manual/USBPort.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-hw-user-manual/USBPort.png?raw=true" width="926" height="450" />
 
 ### Audio
 The 96Boards specifications call for a minimum of single channel audio through two interfaces, BT and HDMI/MHL/DisplayPort.
@@ -335,7 +335,7 @@ They are located between the two USB type A connectors:
 The 96Boards specification does not call for a dedicated JTAG connector. However the B2260 Development Board has JTAG signal routed to J2.<br>
 The J2 connector has a standard 10 pins JTAG connector pitch and is populated on the board as follow.
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-doc/images/images-hw-user-manual/JTAGScheme.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-doc/images/images-hw-user-manual/JTAGScheme.png?raw=true" width="266" height=84 />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-hw-user-manual/JTAGScheme.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-hw-user-manual/JTAGScheme.png?raw=true" width="266" height=84 />
 
 
 ### Additional Functionality
@@ -491,7 +491,7 @@ The B2260 Development Board implementation doesn't support this requirement.
 ## Power Management Overview
 ### Block Diagram
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-doc/images/images-hw-user-manual/PowerManagementBlockDiagram.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-doc/images/images-hw-user-manual/PowerManagementBlockDiagram.png?raw=true" width="612
+<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-hw-user-manual/PowerManagementBlockDiagram.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-hw-user-manual/PowerManagementBlockDiagram.png?raw=true" width="612
 " height="613" />
 
 ### DC Power Input
@@ -518,7 +518,7 @@ Please note that there is no independent power domain on the B2260 Development B
 
 ## Mechanical Specification
 ### 2D Reference Drawing
-<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-doc/images/images-hw-user-manual/MechanicalSpecifications.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-doc/images/images-hw-user-manual/MechanicalSpecifications.png?raw=true" width="576" height="835" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-hw-user-manual/MechanicalSpecifications.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-hw-user-manual/MechanicalSpecifications.png?raw=true" width="576" height="835" />
 
 ***
 

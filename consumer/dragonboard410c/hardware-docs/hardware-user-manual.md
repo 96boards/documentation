@@ -95,9 +95,9 @@ https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/a
 
 The DragonBoard 410c (‘410c’) board is a 96Boards compliant community board based on Qualcomm® Snapdragon 400 series of SoC’s.
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/DragonBoard410c-Front-SD.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/DragonBoard410c-Front-SD.jpg?raw=true" width="250" height="160" />
-<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/DragonBoard410c-Angle-SD.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/DragonBoard410c-Angle-SD.jpg?raw=true" width="250" height="160" />
-<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/DragonBoard410c-Back-SD.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/DragonBoard410c-Back-SD.jpg?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-front-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-front-sd.jpg?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-angle-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-angle-sd.jpg?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-back-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-back-sd.jpg?raw=true" width="250" height="160" />
 
 The following table lists it's key features:
 

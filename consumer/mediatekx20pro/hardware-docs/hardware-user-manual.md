@@ -58,9 +58,9 @@ redirect_from: /documentation/ConsumerEdition/MediaTekX20Pro/HardwareDocs/Hardwa
 
 X20 platform. It is an expansion board of the MediaTek X20 Development Board. We added more extensions on it, for example: a 4-lane DSI, a 4-lane CSI and a RF expansion interface. The following table lists its key features:
 
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_Board/MediaTek%20X20-Front-SD.jpg?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_Board/MediaTek%20X20-Front-SD.jpg?raw=true" width="250" height="160" />
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_Board/MediaTek%20X20-AngleSide-SD.jpg?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_Board/MediaTek%20X20-AngleSide-SD.jpg?raw=true" width="250" height="160" />
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_Board/MediaTek%20X20-Angle-SD.jpg?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_Board/MediaTek%20X20-Angle-SD.jpg?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/images-board/sd/mediatekx20pro-front-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/images-board/sd/mediatekx20pro-front-sd.jpg?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/images-board/sd/mediatekx20pro-angle-side-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/images-board/sd/mediatekx20pro-angle-side-sd.jpg?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/images-board/sd/mediatekx20pro-angle-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/images-board/sd/mediatekx20pro-angle-sd.jpg?raw=true" width="250" height="160" />
 
 - **Processor**:
    - MediaTek X20 MT6797
@@ -134,7 +134,7 @@ X20 platform. It is an expansion board of the MediaTek X20 Development Board. We
 
 The box contains one MediaTek X20 Professional Board and a quick start guide.
 
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_Board/MediaTek%20X20-Front-SD.jpg?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_Board/MediaTek%20X20-Front-SD.jpg?raw=true" width="400" height="270" />
+<img src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/images-board/sd/mediatekx20pro-front-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/images-board/sd/mediatekx20pro-front-sd.jpg?raw=true" width="400" height="270" />
 
 ***
 
@@ -164,14 +164,14 @@ The box contains one MediaTek X20 Professional Board and a quick start guide.
 |    20    |   CON3101       |   RF Expansion Connector 1                                                       |
 |    21    |  CON3102        |   RF Expansion Connector 2                                                       |
 
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/X20Pro_Numbered_Front.jpg?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/X20Pro_Numbered_Front.jpg?raw=true" width="400" height="270" />
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/X20Pro_Numbered_Back.jpg?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/X20Pro_Numbered_Back.jpg?raw=true" width="400" height="270" />
+<img src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/X20Pro_Numbered_Front.jpg?raw=true" data-canonical-src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/X20Pro_Numbered_Front.jpg?raw=true" width="400" height="270" />
+<img src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/X20Pro_Numbered_Back.jpg?raw=true" data-canonical-src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/X20Pro_Numbered_Back.jpg?raw=true" width="400" height="270" />
 
 ***
 
 ## System Block Diagram
 
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/BlockDiagram.png?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/BlockDiagram.png?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/BlockDiagram.png?raw=true" data-canonical-src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/BlockDiagram.png?raw=true" width="750" height="480" />
 
 ***
 
@@ -304,7 +304,7 @@ If the switch 1 and 3 of the dip-switch SW3205 are both on the 'OFF' position, t
 If the switch 1 of the dip-switch SW3205 is on the 'ON' position and the switch 3 of the dip-switch SW3205 is on the 'OFF' position, the software is set to device mode. At this time, if you want to use the host mode, you need to force the switch 3 of the dip-switch SW3205 to the 'ON' position.
 
 
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/USBPorts.jpg?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/USBPorts.jpg?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/USBPorts.jpg?raw=true" data-canonical-src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/USBPorts.jpg?raw=true" width="750" height="480" />
 
 ### USB Host ports
 
@@ -325,11 +325,11 @@ The MediaTek X20 Professional Board implements a device port. The port is locate
 
 The MediaTek X20 Professional Board has four audio ports: BT, HDMI, PCM and analog port. The analog port which connected to MT6351 includes a stereo handset IO and two analog audio outputs. The internal audio CODEC block diagrams of MT6351 are listed below.
 
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/AudioHeader_Uplink.png?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/AudioHeader_Uplink.png?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/AudioHeader_Uplink.png?raw=true" data-canonical-src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/AudioHeader_Uplink.png?raw=true" width="750" height="480" />
 
 **Audio/Speech uplink and accessory detection**
 
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/AudioHeader_Downlink.png?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/AudioHeader_Downlink.png?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/AudioHeader_Downlink.png?raw=true" data-canonical-src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/AudioHeader_Downlink.png?raw=true" width="750" height="480" />
 
 **Audio/Speech downlink and headphone detection**
 
@@ -621,7 +621,7 @@ The MediaTek X20 Professional Board has two USIM interfaces on CON7102.These can
 ### ADC
 The MediaTek X20 Professional Board has three ADC inputs on CON7102.All these ADC signals are routed to the ADC MUX of MT6797. The MUX connects with one 12-bit A/D converter which converts the input signal to 12-bit digital data.
 
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/ADC.png?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/ADC.png?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/ADC.png?raw=true" data-canonical-src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/ADC.png?raw=true" width="750" height="480" />
 
 ### GPIO
 
@@ -696,11 +696,11 @@ The main parameters are list in table below.
 
 For earphone application, please refer to the circuit below.
 
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/ACC_Schematic.png?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/ACC_Schematic.png?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/ACC_Schematic.png?raw=true" data-canonical-src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/ACC_Schematic.png?raw=true" width="750" height="480" />
 
 **ACC mode schematic diagram**
 
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/DCC_Schematic.png?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/DCC_Schematic.png?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/DCC_Schematic.png?raw=true" data-canonical-src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/DCC_Schematic.png?raw=true" width="750" height="480" />
 
 **DCC nide schematic diagram
 
@@ -724,7 +724,7 @@ There are two 60-pin connectors(CON3101 ,CON3102) on the bottom of the board, wh
 
 ### Block Diagram
 
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/PowerManagement_BlockDiagram.png?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/PowerManagement_BlockDiagram.png?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/PowerManagement_BlockDiagram.png?raw=true" data-canonical-src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/PowerManagement_BlockDiagram.png?raw=true" width="750" height="480" />
 
 ### DC Power Input
 
@@ -733,13 +733,13 @@ There are two 60-pin connectors(CON3101 ,CON3102) on the bottom of the board, wh
 
 > Note: Please refer to the mechanical size of the DC plug below. The inside diameter of the plug is 1.7mm，the outer diameter of the plug is 4.75mm.The positive electrode of the DC plug is in the inside, and the negative pole is outside.
 
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/DC_Power_Plug.png?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/DC_Power_Plug.png?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/DC_Power_Plug.png?raw=true" data-canonical-src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/DC_Power_Plug.png?raw=true" width="250" height="160" />
 
 ### Power Source Selection and Sequencing
 
 The user of the MediaTek X20 Professional Board should never apply power to the board from J901 and the Low Speed Expansion connector at the same time. There is no active or passive mechanism on the MediaTek X20 Professional Board to prioritize one source over the other.
 
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/PowerSource_Sequencing.png?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/PowerSource_Sequencing.png?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/PowerSource_Sequencing.png?raw=true" data-canonical-src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/PowerSource_Sequencing.png?raw=true" width="750" height="480" />
 
 
 ### Voltage Rails
@@ -800,4 +800,4 @@ The user of the MediaTek X20 Professional Board should never apply power to the 
 
 The MediaTek X20 Professional Board is compliant with the 96boards mechanical specification. For the detail size, please see the MediaTek X20 Professional Board 2D Drawing.
 
-<img src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/2DDrawing.png?raw=true" data-canonical-src="https://github.com/96boards/x20Pro/blob/master/AdditionalDocs/Images/Images_HWUserManual/2DDrawing.png?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/2DDrawing.png?raw=true" data-canonical-src="https://github.com/96boards/mediatekx20pro/blob/master/additional-Doc/images/Images_HWUserManual/2DDrawing.png?raw=true" width="750" height="480" />

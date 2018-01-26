@@ -3,7 +3,7 @@ title: Enabling SPI on Dragonboard 410c with SPIDEV
 permalink: /documentation/consumer/dragonboard410c/guides/enable-spi.md.html
 redirect_from:
 - /db410c-getting-started/Guides/EnableSPI.md/
-/documentation/ConsumerEdition/DragonBoard-410c/Guides/EnableSPI.md.html
+- /documentation/ConsumerEdition/DragonBoard-410c/Guides/EnableSPI.md.html
 ---
 
 # Enabling SPI on Dragonboard 410c with SPIDEV
