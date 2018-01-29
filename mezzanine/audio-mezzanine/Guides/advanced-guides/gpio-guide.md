@@ -34,7 +34,7 @@ The pins on connectors I/H and F/E are connected to GPIO pins on the baseboard a
 # 2) Software
 
 ## 2.1) Software Setup
-- Make sure you are on the latest Debian build for DragonBoard-410c: https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/Installation/
+- Make sure you are on the latest Debian build for DragonBoard-410c: https://www.96boards.org/documentation/consumer/dragonboard410c/installation/
 - Make sure to follow [this guide](https://www.96boards.org/blog/install-96boardgpio-libsoc-libmraa-new-image/) to install MRAA and UPM Packages.
 
 ## 2.2) Write build and run the Code

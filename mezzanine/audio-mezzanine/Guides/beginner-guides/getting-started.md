@@ -48,7 +48,7 @@ permalink: /documentation/mezzanine/audio-mezzanine/Guides/beginner-guides/getti
 
 # 2 Software Setup
 1. Latest Build of Debian for Dragonboard 410c
-https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/Installation/
+https://www.96boards.org/documentation/consumer/dragonboard410c/installation/
 
 2. Update the Debian Installation
 ```shell

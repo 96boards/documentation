@@ -1,6 +1,6 @@
 ---
 title: Shell Build for Nitrogen
-permalink: /documentation/linux/nitrogen/build/linux/build-shell.md.html
+permalink: /documentation/iot/nitrogen/build/linux/build-shell.md.html
 redirect_from: /documentation/IoTEdition/nitrogen/build/LinuxBuild/BuildShell.md.html
 ---
 ## How to build the Shell Zephyr application from source - Linux Host
