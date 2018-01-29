@@ -45,11 +45,11 @@ and provide common software foundations for all.
 http://www.linaro.org
 
 Updates may be made to this guide over time. You can download the most recent version of
-this document from the sample code repository on GitHub: 
+this document from the sample code repository on GitHub:
 https://github.com/96boards/Starter_Kit_for_96Boards
 
 Copyright (c) 2016 by Linaro, Ltd. This document is released under a Creative Commons
-Attribution-ShareAlike 4.0 International License. 
+Attribution-ShareAlike 4.0 International License.
 
 ***
 
@@ -225,16 +225,16 @@ baseboard. You can find instructions for installing Debian in your baseboard’s
 
 Installing Debian on the CircuitCo or LeMaker HiKey:
 
-https://www.96boards.org/documentation/ConsumerEdition/HiKey/Installation/
+https://www.96boards.org/documentation/consumer/hiKey/installation/
 
 Qualcomm Dragonboard 410C User Guide:
 
-https://www.96boards.org/documentation/ConsumerEdition/DragonBoard-410c/Installation/
+https://www.96boards.org/documentation/consumer/dragonboard410c/installation/
 
 ## Step 2: Attach Sensors Adapter
 
 **STOP:**  Before continuing, make sure to intall the 4 mounting standoffs included in the kit onto the sensor mezzanine as shown in the picture below to prevent the electrical damage to the mezzanine and/or the 96Board:
-<img src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Mounting.jpg" /> 
+<img src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Mounting.jpg" />
 
 Remove power and connect the sensors mezzanine to the baseboard. Use the 7mm
 standoffs included in this kit to keep the boards the correct distance apart.
@@ -249,7 +249,7 @@ may also damage your baseboard.
 **Option 1: Connect a monitor, keyboard and mouse**
 The 96Boards Debian images come with a desktop environment available for download (such as LXQt). It
 can be used as a normal Linux desktop computer if you attach a keyboard, mouse and
-monitor. Use the “Terminal” application to get a command prompt. 
+monitor. Use the “Terminal” application to get a command prompt.
 
 **Option 2: Serial console**
 The sensors board has a USB to Serial interface for connecting to the baseboard's serial
@@ -322,13 +322,13 @@ v5.5.1
 ## Install I/O Libaries
 For the purposes of these sample excercises, the user needs to install the following packages to build from source:
 
-```shell 
+```shell
 $ sudo apt-get install libsoc-dev
 # Note: install libsoc prior to libmraa
 $ sudo apt-get install libmraa-dev
 # Note: install libmraa prior to libmupm
 $ sudo apt-get install libupm-dev
-``` 
+```
 
 There is a [blog on the 96boards website](https://www.96boards.org/search/?q=libmraa&fields.label=96Boards) entitled "How do you install 96BoardGPIO, libsoc and libmraa on a new image?" that goes into more detail on how to install them, but the below instructions should work.  Also note there may be cases where it's required to update these libraries even if they are shown as being already installed.
 
@@ -489,7 +489,7 @@ int main(int argc, char* argv[])
 	string str1 = "96Boards!";
 	string str2 = "Grove Sensors!";
 	string str3 = "Linaro!";
-	
+
 	lcd = new upm::Jhd1313m1(I2C_BUS, 0x3e, 0x62);
 
 	if ((argc >= 2) && (argv[1] != NULL))
@@ -582,7 +582,7 @@ int main(int argc, char* argv[])
     response = relay_gpio->dir(mraa::DIR_OUT);
     if (response != mraa::SUCCESS)
         return 1;
-    
+
     relay_gpio->write(relay_state);
 
     while (running) {
@@ -639,7 +639,7 @@ Arduino toolchain to program the microcontroller.
 ## Step 1: Setup the Hardware
 
 - Attach the Grove Button to connector A0.
-- Attach the Grove LED to connector D3. 
+- Attach the Grove LED to connector D3.
 
 <img src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Example_Button_LED.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Example_Button_LED.png?raw=true" />
 
@@ -676,7 +676,7 @@ void loop()
         delay(100);
     }
     last_button = button;
-} 
+}
 ```
 Add the Arduino.mk Makefile to the same directory
 
@@ -843,7 +843,7 @@ run: upload
 ```
 
 This example also utilises an additional library to control the DHT component. You’ll need
-to clone the following repository, then move the DHT files into your projects directory: 
+to clone the following repository, then move the DHT files into your projects directory:
 
 ```shell
 $ git clone https://github.com/Seeed-Studio/Grove_Temperature_And_Humidity_Sensor.git
@@ -863,14 +863,14 @@ $ make run
 
 And to exit, use Ctrl + C
 
-** Potential build errors / work-arounds** 
-1)  Build Error: 
+** Potential build errors / work-arounds**
+1)  Build Error:
 ImportError: No module named pyupm_i2clcd
                Makefile:3: recipe for target 'run' failed
-               
+
 Fix: Need to add path to PYTHONPATH
 	`PYTHONPATH=$PYTHONPATH:/usr/lib/aarch64-linux-gnu/python2.7/site-packages`
-	
+
 2) Build Error
 File "/usr/lib/aarch64-linux-gnu/python2.7/site-packages/pyupm_i2clcd.py", line 985
 SyntaxError: Non-ASCII character '\xc3' in file /usr/lib/aarch64-linux-gnu/python2.7/site-packages/pyupm_i2clcd.py on line 986, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
@@ -1042,7 +1042,7 @@ http://www.seeedstudio.com/wiki/Grove_-_Starter_Kit_v3
 Just about all of the examples in Seeed Studio’s Arduino starter kit will work with the
 96Boards Sensor board. You can get the sketch demos from:
 
-https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_for_Arduino 
+https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_for_Arduino
 
 **Dexter Industries GrovePi+ Starter Kit**
 

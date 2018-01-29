@@ -54,9 +54,9 @@ redirect_from: /documentation/ConsumerEdition/HiKey960/HardwareDocs/HardwareUser
 The HiKey960 Development Board is a 96Boards compliant community board based on Hisilicon Kirin960 SoC. The following table lists its key features:
 
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-board/hikey960-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-board/hikey960-front-sd.png?raw=true" width="250" height="160" />
-<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-board/hikey960-angle-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-board/hikey960-angle-sd.png?raw=true" width="250" height="160" />
-<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-board/hikey960-back-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-board/hikey960-back-sd.png?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-board/sd/hikey960-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-board/sd/hikey960-front-sd.png?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-board/sd/hikey960-angle-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-board/sd/hikey960-angle-sd.png?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-board/sd/hikey960-back-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-board/sd/hikey960-back-sd.png?raw=true" width="250" height="160" />
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Carbon Hardware User Manual
-permalink: /documentation/IoTEdition/carbon/installation/
+permalink: /documentation/iot/carbon/installation/
 redirect_from:
 - /documentation/IoTEdition/carbon/installation/README.md/
 ---

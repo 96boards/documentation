@@ -1,6 +1,6 @@
 ---
 title: Documentation for Orange Pi i96
-permalink: /documentation/IoTEdition/orangepi-i96/
+permalink: /documentation/iot/orangepi-i96/
 redirect_from:
 - /documentation/IoTEdition/orangepi-i96/README.md/
 - /documentation/IoTEdition/orangepi-i96/
