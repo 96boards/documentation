@@ -1,9 +1,10 @@
 ---
 title: Compare Consumer Edition(CE) 96Boards
-permalink: /documentation/ConsumerEdition/guides/compare_96boards_ce.md.html
+permalink: /documentation/consumer/guides/compare_96boards_ce.md.html
 redirect_from:
 - /documentation/ConsumerEdition/CE-Extras/Compare96BoardsCE.md
 - /documentation/ConsumerEdition/CE-Extras/Compare96BoardsCE.md.html/
+- /documentation/ConsumerEdition/guides/compare_96boards_ce.md.html
 ---
 # Compare Consumer Edition(CE) 96Boards
 

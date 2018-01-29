@@ -1,6 +1,7 @@
 ---
 title: AOSP Build Guide Index
-permalink: /documentation/ConsumerEdition/guides/aosp-index.md.html
+permalink: /documentation/consumer/guides/aosp-index.md.html
+redirect_from: /documentation/ConsumerEdition/guides/aosp-index.md.html
 ---
 
 # AOSP(Android Open Source Project) Documentation Index & Setup Guide

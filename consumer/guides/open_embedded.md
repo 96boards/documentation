@@ -1,6 +1,7 @@
 ---
 title: Generic OpenEmbedded/Yocto Guide for 96Boards Platforms
-permalink: /documentation/ConsumerEdition/guides/open_embedded.md.html
+permalink: /documentation/consumer/guides/open_embedded.md.html
+redirect_from: /documentation/ConsumerEdition/guides/open_embedded.md.html
 ---
 
 ## OpenEmbedded and Yocto

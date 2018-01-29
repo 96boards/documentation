@@ -1,6 +1,7 @@
 ---
 title: Using Multiple USB Cameras on a single USB Hub
-permalink: /documentation/ConsumerEdition/guides/multi-usb-camera.md.html
+permalink: /documentation/consumer/guides/multi-usb-camera.md.html
+redirect_from: /documentation/ConsumerEdition/guides/multi-usb-camera.md.html
 ---
 
 # Using Multiple USB Cameras on a single USB Hub

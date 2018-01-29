@@ -1,7 +1,9 @@
 ---
 title: General Purpose Input/Output
-permalink: /documentation/ConsumerEdition/guides/gpio.md.html
-redirect_from: /documentation/Extras/ConsumerEdition/GPIO/Advanced/
+permalink: /documentation/consumer/guides/gpio.md.html
+redirect_from:
+- /documentation/Extras/ConsumerEdition/GPIO/Advanced/
+- /documentation/ConsumerEdition/guides/gpio.md.html
 ---
 # General Purpose Input/Output
 

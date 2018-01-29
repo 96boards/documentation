@@ -1,6 +1,7 @@
 ---
 title: Examples on how to use UART using mraa library
-permalink: /documentation/ConsumerEdition/guides/mraa/uart/
+permalink: /documentation/consumer/guides/mraa/uart/
+redirect_from: /documentation/ConsumerEdition/guides/mraa/uart/
 ---
 # Examples on how to use UART using mraa library
 

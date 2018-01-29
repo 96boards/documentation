@@ -1,6 +1,7 @@
 ---
 title: Guides
-permalink: /documentation/ConsumerEdition/guides/mraa/install.md.html
+permalink: /documentation/consumer/guides/mraa/install.md.html
+redirect_from: /documentation/ConsumerEdition/guides/mraa/install.md.html
 ---
 
 # Installation guide for MRAA library on 96Boards CE

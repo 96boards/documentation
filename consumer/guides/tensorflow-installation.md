@@ -1,14 +1,15 @@
 ---
 title: Tensorflow Installation Guide
-permalink: /documentation/ConsumerEdition/guides/tensorflow-installation.md.html
+permalink: /documentation/consumer/guides/tensorflow-installation.md.html
+redirect_from: /documentation/ConsumerEdition/guides/tensorflow-installation.md.html
 ---
 # Tensorflow Installation Guide
 
-Tensorflow is an open source software library used for computation of data flow graphs, with applications in deep neural networks research and machine learning. 
+Tensorflow is an open source software library used for computation of data flow graphs, with applications in deep neural networks research and machine learning.
 There are many interesting applications for Tensorflow including: [searching and filtering](https://github.com/agermanidis/thingscoop), [art creation](https://github.com/cysmith/neural-style-tf) ,[reinforcement learning](http://www.danielslater.net/2016/03/deep-q-learning-pong-with-tensorflow.html) , and [many more](https://github.com/jtoy/awesome-tensorflow).
 
-This tutorial will describe two ways of installing Tensorflow: By installing and using Bazel (currently only on devices > 2GB), or through the Tensorflow static libraries. 
-If Tensorflow is installed through the static libraries then Tensorflows Python wrapper will not be included so it cannot be used through Python. 
+This tutorial will describe two ways of installing Tensorflow: By installing and using Bazel (currently only on devices > 2GB), or through the Tensorflow static libraries.
+If Tensorflow is installed through the static libraries then Tensorflows Python wrapper will not be included so it cannot be used through Python.
 
 # Table of Contents
 
@@ -65,13 +66,13 @@ $ unzip bazel-0.4.5-dist.zip -d bazel-0.4.5
 $ cd bazel-0.4.5
 ```
 
-Next you must modify the bazel source file to be compatible with aarch64. This [tutorial](http://zhiyisun.github.io/2017/02/15/Running-Google-Machine-Learning-Library-Tensorflow-On-ARM-64-bit-Platform.html) describes the step by step the modifications which must be made to the source code. 
+Next you must modify the bazel source file to be compatible with aarch64. This [tutorial](http://zhiyisun.github.io/2017/02/15/Running-Google-Machine-Learning-Library-Tensorflow-On-ARM-64-bit-Platform.html) describes the step by step the modifications which must be made to the source code.
 
 After Bazel is installed, you may either continue following the instructions from the Bazel tutorial for installing Tensorflow, or go to the [tensorflow website]( https://www.tensorflow.org/install/install_sources#ConfigureInstallation) and install tensorflow from source.
 
 # 2) Tensorflow With Static Libraries
 
-(no Python bindings) 
+(no Python bindings)
 (Compiled on 96boards Hikey LeMaker edition)
 
 ## 2.1 Hardware Requirements
@@ -83,7 +84,7 @@ or
 
 ## 2.2 Description
 
-If you’re installing Tensorflow onto a platform that does not support the installation of Bazel, you can install the core C++ Tensorflow runtimes into a static library. 
+If you’re installing Tensorflow onto a platform that does not support the installation of Bazel, you can install the core C++ Tensorflow runtimes into a static library.
 It is important to note that this static library will not contain Python or other language bindings, and will also not contain GPU support. This guide will allow you to compile Tensorflow and Protobuf libraries which can be linked to other external applications.
 
 The work below is based on the Raspberry Pi installation on the [Static installation guide]( https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/makefile) from github, and it will include details on issues I ran into as well as a benchmark test provided by the above guide.
@@ -151,4 +152,3 @@ If you make any changes in the dependencies or wish to install a different versi
 ```shell
 $ make -f tensorflow/contrib/makefile/Makefile clean
 ```
-

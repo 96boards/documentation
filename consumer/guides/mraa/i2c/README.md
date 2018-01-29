@@ -1,6 +1,7 @@
 ---
 title: Examples on how to use I2C using mraa library
-permalink: /documentation/ConsumerEdition/guides/mraa/i2c/
+permalink: /documentation/consumer/guides/mraa/i2c/
+redirect_from: /documentation/ConsumerEdition/guides/mraa/i2c/
 ---
 # Examples on how to use I2C using mraa library
 
@@ -30,4 +31,4 @@ $ sudo python mraa_i2c.py
 
 **Expected Behaviour:**
 
-Checks for MPU6050 sensor at I2C bus 0. 
+Checks for MPU6050 sensor at I2C bus 0.

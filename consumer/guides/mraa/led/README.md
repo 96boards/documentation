@@ -1,6 +1,7 @@
 ---
 title: Examples on how to use on board LED using mraa library
-permalink: /documentation/ConsumerEdition/guides/mraa/led/
+permalink: /documentation/consumer/guides/mraa/led/
+redirect_from: /documentation/ConsumerEdition/guides/mraa/led/
 ---
 # Examples on how to use on board LED using mraa library
 
@@ -30,5 +31,5 @@ $ sudo python mraa_led.py
 **Expected Behaviour:**
 
 1. Reads maximum brightness value for USER1 led and turns it
-ON/OFF depending on current state. 
+ON/OFF depending on current state.
 2. Finally sets led trigger to heartbeat.

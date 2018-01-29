@@ -1,6 +1,7 @@
 ---
 title: Create Swap Space using ZRAM or RAM Compression
-permalink: /documentation/ConsumerEdition/guides/zram_swapspace.md.html
+permalink: /documentation/consumer/guides/zram_swapspace.md.html
+redirect_from: /documentation/ConsumerEdition/guides/zram_swapspace.md.html
 ---
 # Create Swap Space using ZRAM or RAM Compression
 

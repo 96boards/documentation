@@ -1,6 +1,7 @@
 ---
 title: Examples on how to use GPIO using mraa library
-permalink: /documentation/ConsumerEdition/guides/mraa/gpio/
+permalink: /documentation/consumer/guides/mraa/gpio/
+redirect_from: /documentation/ConsumerEdition/guides/mraa/gpio/
 ---
 # Examples on how to use GPIO using mraa library
 
@@ -30,4 +31,3 @@ $ sudo python mraa_gpio.py
 **Expected Behaviour:**
 
 Toggles GPIO23 and GPIO24 on Low Speed expansion header.
- 

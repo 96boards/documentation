@@ -1,7 +1,9 @@
 ---
 title: Create Swap Space on an SD Card
-permalink: /documentation/ConsumerEdition/guides/sd_swapspace.md.html
-redirect_from: /documentation/ConsumerEdition/CE-Extras/Configuration/SDSwapSpace.md.html/
+permalink: /documentation/consumer/guides/sd_swapspace.md.html
+redirect_from:
+- /documentation/ConsumerEdition/CE-Extras/Configuration/SDSwapSpace.md.html/
+- /documentation/ConsumerEdition/guides/sd_swapspace.md.html
 ---
 # Create Swap Space on an SD Card
 
