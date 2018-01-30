@@ -57,7 +57,7 @@ For Global Users:
 
 Phoenix OS/Remix OS is on your board, time to have some fun. Cheers!
 
-Need more help? Visit the [Troubleshooting](../Support/) page or you can easily submit your questions on Bubblegum Support Forum @ [https://discuss.96boards.org/c/products/bubblegum96/][5]
+Need more help? Visit the [Troubleshooting](../support/) page or you can easily submit your questions on Bubblegum Support Forum @ [https://discuss.96boards.org/c/products/bubblegum96/][5]
 
 
 

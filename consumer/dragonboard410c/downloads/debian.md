@@ -23,7 +23,7 @@ redirect_from:
 | [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_developer_debian-*.zip)     |
 | [Release Notes](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)                                             |
 
-#### Continue to [Installation page](../Installation/)
+#### Continue to [Installation page](../installation/)
 
 ***
 

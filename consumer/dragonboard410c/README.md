@@ -15,9 +15,9 @@ A comprehensive guide to using the [DragonBoard 410c](https://www.96boards.org/p
 
 - [Downloads](downloads/)
    - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
-- [Installation](dnstallation/)
+- [Installation](installation/)
    - Choose and install an operating system on your DragonBoard 410c
-- [Build from Source](duild/)
+- [Build from Source](build/)
    - Instructions for building and flashing the components of your favorite operating systems
 
 ## Documentation

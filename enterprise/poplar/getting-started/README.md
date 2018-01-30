@@ -56,7 +56,7 @@ Coming soon...
 
 ## Starting the board for the first time
 
-Before starting your Poplar for the first time, it is suggested to build and flash the appropriate software. Instructions on how to do this can be found [HERE](https://github.com/96boards-poplar/Documentation/blob/master/debian_build_instructions.md)
+Before starting your Poplar for the first time, it is suggested to build and flash the appropriate software. Instructions on how to do this can be found [HERE](https://github.com/96boards-poplar/Documentation)
 
 ***
 
@@ -64,7 +64,7 @@ Before starting your Poplar for the first time, it is suggested to build and fla
 
 If you are already familiar with the Poplar board and would like to change out the stock operating system, please proceed to one of the following pages:
 
-- [Board Recovery](https://github.com/96boards-poplar/Documentation/blob/master/debian_build_instructions.md)
+- [Board Recovery](https://github.com/96boards-poplar/Documentation/)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 - [Support](../support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers

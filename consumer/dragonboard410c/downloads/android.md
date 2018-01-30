@@ -18,7 +18,7 @@ redirect_from:
 | [Snapshot 99](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/16.03/dragonboard410c_sdcard_install_android-99.zip) |
 | [Release Notes](https://developer.qualcomm.com/hardware/dragonboard-410c/tools) (under the Software - Android section)                  |
 
-#### Continue to [Installation page](../Installation/)
+#### Continue to [Installation page](../installation/)
 
 ***
 

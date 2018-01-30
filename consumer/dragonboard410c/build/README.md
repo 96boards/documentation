@@ -9,5 +9,5 @@ redirect_from:
 ---
 # Build from Source
 
-- [OpenEmbedded/Yocto](open_embedded.md)
+- [OpenEmbedded/Yocto](open-embedded.md)
    - Create custom distribution based on OpenEmbedded/Yocto

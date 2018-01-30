@@ -51,7 +51,7 @@ Jumper Pin 5-6 = DIP switch 3                     |
 **Host Linux Machine**
 
 - Android SDK “Platform-Tools” for Linux can be downloaded <a href="https://developer.android.com/studio/releases/platform-tools.html" target="_blank">here</a>
-- Download appropriate operating system images from ["Downloads page"](../Downloads/)
+- Download appropriate operating system images from ["Downloads page"](../downloads/)
 
 ## Step 3: Flash base firmware (only if necessary)
 

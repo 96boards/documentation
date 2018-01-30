@@ -40,9 +40,9 @@ The following subsections describe how to get started with the B2260 using the r
 
 The B2260 is supplied with Micro SD card containig a preinstalled version of Debian, thus should be ready to use out-of-the-box.
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-board/ST_B2260_Front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/B2260/additional-docs/images/images-board/ST_B2260_Front_SD.png?raw=true" width="240" height="276" />
-<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-board/ST_B2260_Angle_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/B2260/additional-docs/images/images-board/ST_B2260_Angle_SD.png?raw=true" width="276" height="240" />
-<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-board/ST_B2260_Back_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-board/ST_B2260_Back_SD.png?raw=true" width="240" height="276" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-board/sd/ST_B2260_Front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/B2260/additional-docs/images/images-board/sd/ST_B2260_Front_SD.png?raw=true" width="240" height="276" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-board/sd/ST_B2260_Angle_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/B2260/additional-docs/images/images-board/sd/ST_B2260_Angle_SD.png?raw=true" width="276" height="240" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-board/sd/ST_B2260_Back_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-board/sd/ST_B2260_Back_SD.png?raw=true" width="240" height="276" />
 
 ***
 

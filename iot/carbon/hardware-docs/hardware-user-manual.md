@@ -33,8 +33,8 @@ redirect_from:
 
 The Carbon board is a 96Boards compliant IoT board based on the STM32F401RET6 in LQFP64 package.
 
-<img src="https://github.com/96boards/documentation/blob/master/iot/carbon/additional-docs/images/images-board/carbon-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/carbon/additional-docs/images/images-board/carbon-front-sd.png?raw=true" width="300" height="150" />
-<img src="https://github.com/96boards/documentation/blob/master/iot/carbon/additional-docs/images/images-board/carbon-back-sd.png?raw=true" data-canonical-src="https://github.com/sdrobertw/documentation/blob/master/iot/carbon/additional-docs/images/images-board/carbon-back-sd.png?raw=true" width="300" height="150" />
+<img src="https://github.com/96boards/documentation/blob/master/iot/carbon/additional-docs/images/images-board/sd/carbon-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/carbon/additional-docs/images/images-board/sd/carbon-front-sd.png?raw=true" width="300" height="150" />
+<img src="https://github.com/96boards/documentation/blob/master/iot/carbon/additional-docs/images/images-board/sd/carbon-back-sd.png?raw=true" data-canonical-src="https://github.com/sdrobertw/documentation/blob/master/iot/carbon/additional-docs/images/images-board/sd/carbon-back-sd.png?raw=true" width="300" height="150" />
 
 
 The following table lists it's key features:

@@ -1,6 +1,6 @@
 ---
 title: Android Open Source Project (AOSP) Downloads for MediaTek X20
-permalink: /documentation/consumer/mediatekx20pro/downloads/thirdparty/aosp/
+permalink: /documentation/consumer/mediatekx20pro/downloads/third-party/aosp/
 redirect_from:
 - /documentation/ConsumerEdition/MediaTekX20Pro/Downloads/ThirdParty/AOSP/README.md/
 - /documentation/ConsumerEdition/MediaTekX20Pro/Downloads/ThirdParty/AOSP/

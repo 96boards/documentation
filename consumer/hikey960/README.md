@@ -16,7 +16,7 @@ A comprehensive guide to using the [HiKey960](https://www.96boards.org/product/h
    - Choose and install an operating system on your HiKey960
 - [Downloads](downloads/)
    - This page provides links to the latest pre-built software downloads
-- [Build from Source](build-source/)
+- [Build from Source](build/)
    - Instructions for building and flashing the components of your favorite operating systems
 
 ## Documentation
