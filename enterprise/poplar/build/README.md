@@ -12,5 +12,5 @@ Instructions for building and flashing the components of your favorite operating
 
 ## Contents
 
-- [Linaro Debian (Developer)](https://github.com/96boards-poplar/Documentation/blob/master/debian_build_instructions.md)
-   - This link will take you to seperate Linaro repository with build, and flashing instructions.
+- [Linaro Debian (Developer) and AOSP](https://github.com/96boards-poplar/Documentation/)
+   - This link will take you to separate Linaro repository with build, and flashing instructions for both Debian and AOSP.

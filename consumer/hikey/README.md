@@ -1,6 +1,6 @@
 ---
 title: Documentation for HiKey
-permalink: /documentation/consumer/HiKey/
+permalink: /documentation/consumer/hikey/
 redirect_from: /documentation/ConsumerEdition/HiKey/README.md/
 ---
 # Using the HiKey

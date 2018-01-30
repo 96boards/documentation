@@ -39,7 +39,7 @@ You may choose to [Downloads](../downloads/) or [Build](../build/) an applicatio
 
 Choose host machine
 
-- [Linux](LinuxUART.md)
+- [Linux](linux-uart.md)
 
 ***
 
@@ -58,6 +58,6 @@ You may choose to [Downloads](../downloads/) or [Build](../build/) an applicatio
 
 Choose host machine
 
-- [Linux](LinuxOTG.md)
+- [Linux](linux-otg.md)
 
 ***

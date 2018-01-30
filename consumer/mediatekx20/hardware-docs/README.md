@@ -12,7 +12,7 @@ Explore what makes your MediaTek X20 unique, technical specifications, schematic
 
 ## User Guides
 
-- Hardware User Manual ([View](HardwareUserManual.md))
+- Hardware User Manual ([View](hardware-user-manual.md))
 
 
 ## Hardware

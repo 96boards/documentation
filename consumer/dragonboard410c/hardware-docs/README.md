@@ -13,7 +13,7 @@ Explore what makes your DragonBoard 410c unique, technical specifications, schem
 
 ## User Guides
 
-- Hardware User Manual ([View](HardwareUserManual.md) / [Download](https://github.com/96boards/documentation/raw/master/consumer/dragonboard410c/hardware-docs/HardwareManual_DragonBoard.pdf))
+- Hardware User Manual ([View](hardware-user-manual.md) / [Download](https://github.com/96boards/documentation/raw/master/consumer/dragonboard410c/hardware-docs/HardwareManual_DragonBoard.pdf))
 
 ## Hardware
 

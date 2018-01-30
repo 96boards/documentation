@@ -1,6 +1,6 @@
 ---
 title: Linux Build for Nitrogen
-permalink: /documentation/iot/nitrogen/build/LinuxBuild/
+permalink: /documentation/iot/nitrogen/build/linux/
 redirect_from:
 - /documentation/IoTEdition/nitrogen/build/LinuxBuild/README.md/
 - /documentation/IoTEdition/nitrogen/build/LinuxBuild/

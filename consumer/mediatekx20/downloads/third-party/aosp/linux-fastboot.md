@@ -1,6 +1,6 @@
 ---
 title: Linux Host Downloads for MediaTek X20
-permalink: /documentation/consumer/mediatekx20/downloads/thirdparty/aosp/linux-fastboot.md.html
+permalink: /documentation/consumer/mediatekx20/downloads/third-party/aosp/linux-fastboot.md.html
 redirect_from: /documentation/ConsumerEdition/MediaTekX20/Downloads/ThirdParty/AOSP/LinuxFastboot.md.html
 ---
 ## Linux Host

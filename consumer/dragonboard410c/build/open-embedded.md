@@ -22,9 +22,9 @@ relatively recent Linux distribution on your development host, it probably alrea
 the `fastboot` utility (it might be named something like `android-tools` or `android-tools-fastboot`) so go ahead and
 install it on your development host.
 
-The procedure for booting Dragonboard410c into `fastboot` mode is given [here](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Installation/LinuxFastboot.md#step-3-boot-dragonboard-410c-into-fastboot-mode).
+The procedure for booting Dragonboard410c into `fastboot` mode is given [here](../installation/linux-fastboot.md#step-3-boot-dragonboard-410c-into-fastboot-mode).
 After getting into fastboot mode, update eMMC partition using the downloaded bootloader package by following
-instructions [here](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Installation/LinuxFastboot.md#step-4-flash-bootloader)
+instructions [here](../installation/linux-fastboot.md#step-4-flash-bootloader)
 
 At this point your eMMC has the following partition layout:
 

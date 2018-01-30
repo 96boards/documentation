@@ -35,8 +35,8 @@ Learn about your Carbon board as well as how to prepare and set up for basic use
 
 The following subsections should describe how to get started with the Carbon using the release build shipped with the boards. The Carbon board is ready to use “out of the box” with a preinstalled version of the Zephyr RTOS.
 
-<img src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-board/carbon-front-sd.png?raw=true" data-canonical-src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-board/carbon-front-sd.png?raw=true" width="300" height="150" />
-<img src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-board/carbon-front-sd.png?raw=true" data-canonical-src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-board/carbon-back-sd.png?raw=true" width="300" height="150" />
+<img src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-board/sd/carbon-front-sd.png?raw=true" data-canonical-src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-board/sd/carbon-front-sd.png?raw=true" width="300" height="150" />
+<img src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-board/sd/carbon-front-sd.png?raw=true" data-canonical-src="https://github.com/sdrobertw/documentation/blob/master/IoTEdition/carbon/additional-docs/images/images-board/sd/carbon-back-sd.png?raw=true" width="300" height="150" />
 
 ## Features
 

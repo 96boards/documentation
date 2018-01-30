@@ -1,6 +1,6 @@
 ---
 title: Windows Fastboot for MediaTek X20
-permalink: /documentation/consumer/mediatekx20/downloads/thirdparty/aosp/windows-fastboot.md.html
+permalink: /documentation/consumer/mediatekx20/downloads/third-party/aosp/windows-fastboot.md.html
 redirect_from: /documentation/ConsumerEdition/MediaTekX20/Downloads/ThirdParty/AOSP/WindowsFastboot.md.html
 ---
 ## Windows Host
