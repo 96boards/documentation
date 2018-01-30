@@ -32,7 +32,7 @@ st time to swapping out your OS
 | [OV5645 Camera Module Guide](camera-module.md)                      | A guide on how to use the OV5645 camera module                                                                             |
 | [Customize EMMC Partition](customize-emmc-partition.md)             | A guide on customizing the emmc partition table                                                                            |
 | [Enable DMIC Support](enable-dmic.md)                               | Instruction to enable DMIC(Digital MICrophone)                                                                             |
-| [Enable SPI Ethernet Controller](nnable-spi-ethernet-controller.md) | Instructions to connect and enable SPI Ethernet Controllers                                                                |
+| [Enable SPI Ethernet Controller](enable-spi-ethernet-controller.md) | Instructions to connect and enable SPI Ethernet Controllers                                                                |
 | [Running LAVA Tests](testing.md)                                    | How to utilize the Linaro test suite on Dragonboard 410c                                                                   |
 
 ## Android
