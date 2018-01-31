@@ -9,7 +9,7 @@ Learn about your Chameleon96 board as well as how to prepare and set up for basi
 ## Setup - What you will need
 
 **Need**
-- [Chameleon96](https://www.96boards.org/product/chameleon96/)
+- [Chameleon96](../../chameleon96/)
    - Board based on the XXXXXXX Processor
 - Power adapter](PowerAdapter.md)
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter

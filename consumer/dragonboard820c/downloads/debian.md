@@ -10,7 +10,7 @@ permalink: /documentation/consumer/dragonboard820c/downloads/debian.md.html
 
 ## SD Card image
 
-|   SD Card Image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_install_debian-*.zip)    |
+|   SD Card Image    |    Download    |
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)       |
 
@@ -20,15 +20,15 @@ permalink: /documentation/consumer/dragonboard820c/downloads/debian.md.html
 
 ## Fastboot files (Advanced users)
 
-|   Bootloader    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_linux-*.zip)    |
+|   Bootloader    |    Download    |
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/)      |
 
-|   Boot image    |    [Download](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/boot-linaro-jessie-qcom-snapdragon-arm64-*.img.gz)    |
+|   Boot image    |    Download    |
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)      |
 
-|   Rootfs image    |    [Desktop](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-jessie-alip-qcom-snapdragon-arm64-*.img.gz) or [Developer](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-jessie-developer-qcom-snapdragon-arm64-*.img.gz)   |
+|   Rootfs image    |    Download or Download   |
 |:------------------|:----------------------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)      |
 

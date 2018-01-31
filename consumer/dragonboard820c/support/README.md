@@ -6,9 +6,9 @@ permalink: /documentation/consumer/dragonboard820c/support/
 
 Please take advantage of the many DragonBoard 820c resources available to you through Qualcomm, 96Boards, Arrow, and Coursera.
 
-- [DragonBoard 820c Forum](http://www.96boards.org/forums/forum/products/dragonboard820c/)
+- [DragonBoard 820c Forum](https://discuss.96boards.org/c/products/dragonboard820c)
    - The DragonBoard has its very own 96Boards forum. If you can't find a pre-existing thread that addresses your issue, start your own and let the community help out!
-- [Qualcomm Developer Network](https://developer.qualcomm.com/hardware/dragonboard-820c)
+- [Qualcomm Developer Network](../support/)
    - This developer network has a DragonBoard landing page with tutorial videos, tools, resources, its own forum, and a projects page
 - [Arrow](https://www.arrow.com)
    - Buy the DragonBoard 820c here! If you run into any issues, you can speak with a representative, they should be able to point you in the right direction

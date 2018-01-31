@@ -9,7 +9,7 @@ Learn about your DragonBoard™ 820c board as well as how to prepare and set up 
 ## Setup - What you will need
 
 **Need**
-- [DragonBoard 820c](http://www.96boards.org/product/dragonboard820c/)
+- [DragonBoard 820c](../../dragonboard820c/)
    - Board based on Qualcomm® Snapdragon™ 820E processor
 - Power adapter
    - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
@@ -78,7 +78,7 @@ illuminate.
 > NOTE: The first boot takes 3-4 minutes due to first time initialization. Subsequent boot times should be faster in
 the range of 1-2 minutes.
 
-For more information and support, you may also want to visit the [DragonBoard 820c Hardware User Manual](https://github.com/96boards/documentation/blob/master/consumer/dragonboard820c/hardware-docs/files/db820c-user-guide.pdf).
+For more information and support, you may also want to visit the [DragonBoard 820c Hardware User Manual](../hardware-docs/).
 
 ***
 

@@ -5,7 +5,7 @@ permalink: /documentation/consumer/dragonboard820c/
 
 # Using the DragonBoard™ 820c
 
-A comprehensive guide to using the [DragonBoard 820c](https://www.96boards.org/products/dragonboard820c/) Consumer Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
+A comprehensive guide to using the [DragonBoard 820c](../dragonboard820c/) Consumer Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
 ## Software
 
