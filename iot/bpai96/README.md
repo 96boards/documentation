@@ -7,7 +7,7 @@ redirect_from:
 
 # Using the BPai96
 
-A comprehensive guide to using the [BPai96](https://www.96boards.org/product/bpai96/) IoT Edition board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
+A comprehensive guide to using the [BPai96](../bpai96/) IoT Edition board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
 ## Software
 
