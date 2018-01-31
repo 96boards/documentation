@@ -7,7 +7,7 @@ redirect_from: /documentation/ConsumerEdition/HiKey/BuildSource/open_embedded.md
 # OpenEmbedded and Yocto
 
 This page provides the Hikey specific instructions for flashing OpenEmbedded and Yocto images. For instructions on building
-the OE/Yocto images, please visit the generic [OpenEmbedded guide](../../guides/open-embedded.md).
+the OE/Yocto images, please visit the generic [OpenEmbedded guide](../../guides/open_embedded.md).
 
 # Updating eMMC partitions and Bootloader
 

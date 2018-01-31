@@ -41,7 +41,7 @@ GPIO3-1 | Link 5-6 | closed
 $ sudo fastboot devices
 0123456789abcdef fastboot
 ```
->Note: If your HiKey is not being detected by fastboot, you might want to try [Board Recovery](BoardRecovery.md) and return to this step once your board is ready
+>Note: If your HiKey is not being detected by fastboot, you might want to try [Board Recovery](board-recovery.md) and return to this step once your board is ready
 
 **Step 3**: Install Operating System update using downloaded files
 

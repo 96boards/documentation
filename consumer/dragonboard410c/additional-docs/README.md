@@ -1,6 +1,6 @@
 ---
 title: Additional Docs for DragonBoard-410c
-permalink: /documentation/consumer/DragonBoard-410c/AdditionalDocs/
+permalink: /documentation/consumer/dragonboard410c/additional-docs/
 redirect_from:
 - /documentation/ConsumerEdition/DragonBoard-410c/AdditionalDocs/README.md/
 ---

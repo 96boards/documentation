@@ -1,6 +1,6 @@
 ---
 title: Third Party Downloads for MediaTek X20
-permalink: /documentation/consumer/mediatekx20pro/downloads/thirdparty/
+permalink: /documentation/consumer/mediatekx20pro/downloads/third-party/
 redirect_from:  /documentation/ConsumerEdition/MediaTekX20Pro/Downloads/ThirdParty/
 ---
 ## Third Party Downloads

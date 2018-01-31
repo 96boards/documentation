@@ -16,7 +16,7 @@ redirect_from: /documentation/ConsumerEdition/HiKey/Downloads/AOSP.md.html
 |   HiKey Package                                   | [Download](https://developers.google.com/android/nexus/images-preview#hikey) |
 
 
-### Continue to [Installation page](../Installation/)
+### Continue to [Installation page](../installation/)
 
 ***
 

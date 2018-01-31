@@ -28,4 +28,4 @@ Only download one root file system (Console or Desktop). You should match the ty
 | RPB  | ([Desktop](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/rpb-desktop-image-dragonboard-410c-*.rootfs.ext4.gz) / [Console](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/rpb-console-image-dragonboard-410c-*.rootfs.ext4.gz))    |
 | RPB-Wayland  | ([Desktop](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/rpb-weston-image-dragonboard-410c-*.rootfs.ext4.gz) / [Console](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/rpb-console-image-dragonboard-410c-*.rootfs.ext4.gz))     |
 
-Continue to [Installation page](../Installation/README.md)
+Continue to [Installation page](../installation)

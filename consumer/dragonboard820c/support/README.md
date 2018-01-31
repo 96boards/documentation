@@ -14,7 +14,7 @@ Please take advantage of the many DragonBoard 820c resources available to you th
    - Buy the DragonBoard 820c here! If you run into any issues, you can speak with a representative, they should be able to point you in the right direction
 - [Coursera](https://www.coursera.org/specializations/internet-of-things)
    - DragonBoard 820c uses a very similar specification! Students from the University of California San Diego put together an "Internet of Things" (IoT) course focused around the DragonBoard 410c. It is free to audit, or you can purchase the specialization package for a cool certificate!
-- [Report a bug!](/documentation/Extras/Report_a_bug.md)
+- [Report a bug!](../../../Extras/Report_a_bug.md)
    - Instructions on how to report bugs for any of our 96Boards hardware and software, this includes the DragonBoard 820c!
 - [Board Recovery](../installation/board-recovery.md)
    - Bricked board? Many software issues can be fixed with a simple "board recovery"
