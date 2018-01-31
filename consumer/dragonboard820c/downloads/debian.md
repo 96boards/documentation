@@ -14,7 +14,7 @@ permalink: /documentation/consumer/dragonboard820c/downloads/debian.md.html
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)       |
 
-### Continue to [Installation page](../Installation/README.md)
+### Continue to [Installation page](../installation)
 
 ***
 
@@ -32,4 +32,4 @@ permalink: /documentation/consumer/dragonboard820c/downloads/debian.md.html
 |:------------------|:----------------------------------|
 |Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)      |
 
-### Continue to [Installation page](../Installation/README.md)
+### Continue to [Installation page](../installation)

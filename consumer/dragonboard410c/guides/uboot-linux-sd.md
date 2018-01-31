@@ -69,7 +69,7 @@ Flash the generated boot image onto Dragonboard using Fastboot method
 $ sudo fastboot flash boot u-boot.img
 ```
 > Note: Instructions on getting Dragonboard into fastboot mode is provided
-[here](https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/Installation/LinuxFastboot.md#step-3-boot-dragonboard-410c-into-fastboot-mode)
+[here](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/installation/linux-fastboot.md#step-3-boot-dragonboard-410c-into-fastboot-mode)
 
 # 2) Booting Linux Kernel
 

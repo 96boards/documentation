@@ -14,7 +14,7 @@ permalink: /documentation/consumer/dragonboard820c/downloads/android.md.html
 |:------------------|:-----------------------|
 |Release Notes:     |[Link](https://developer.qualcomm.com/download/db410c/android-release-notes.pdf)       |
 
-Continue to [Installation page](../Installation/README.md)
+Continue to [Installation page](../installation)
 
 ***
 
@@ -34,4 +34,4 @@ Continue to [Installation page](../Installation/README.md)
 |cache.img.tar.xz         |[Download](http://builds.96boards.org/releases/dragonboard410c/qualcomm/android/16.03/cache.img.tar.xz)            |
 |Release Notes:     |[Link](https://developer.qualcomm.com/download/db410c/android-release-notes.pdf)       |
 
-Continue to [Installation page](../Installation/README.md)
+Continue to [Installation page](../installation)

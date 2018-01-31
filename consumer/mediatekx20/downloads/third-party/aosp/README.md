@@ -4,7 +4,7 @@ permalink: /documentation/consumer/mediatekx20/downloads/third-party/aosp/
 redirect_from:
 - /documentation/ConsumerEdition/MediaTekX20/Downloads/ThirdParty/AOSP/README.md/
 - /documentation/ConsumerEdition/MediaTekX20/Downloads/ThirdParty/AOSP/
-- /documentation/consumer/mediatekx20/downloads/thirdparty/aosp/README.md/
+- /documentation/consumer/mediatekx20/downloads/third-party/aosp/README.md/
 - /documentation/ConsumerEdition/MediaTekX20/Downloads/ThirdParty/
 ---
 # Android Open Source Project (AOSP)
