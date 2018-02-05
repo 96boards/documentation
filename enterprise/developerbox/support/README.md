@@ -8,7 +8,7 @@ redirect_from:
 
 Please take advantage of the many available Developer Box resources
 
-- [Developer Box Forum](https://discuss.96boards.org/c/products/developerbox/)
+- Developer Box Forum
    - The Developer ox has its very own 96Boards forum. If you can't find a pre-existing thread that addresses your issue, start your own and let the community help out!
 - [Report a bug!](../../../Extras/Report_a_bug.md)
    - Instructions on how to report bugs for any of our 96Boards hardware and software, this includes the Developer Box!

@@ -11,7 +11,7 @@ Learn about your Developer Box board as well as how to prepare and set up for ba
 ## Setup - What you will need
 
 **Basic kit includes**
-- [DragonBoard 410c](https://www.96boards.org/product/developerbox/)
+- Developer Box
    - Board based on XXX processor
 
 **Required Addons**

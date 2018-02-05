@@ -6,7 +6,7 @@ redirect_from:
 ---
 # Using the Develoer Box
 
-A comprehensive guide to using the [Devloper ox](https://www.96boards.org/product/developerbox) Enterprise Edition developer box. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
+A comprehensive guide to using the Devloper Box Enterprise Edition developer box. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
 ## Software
 

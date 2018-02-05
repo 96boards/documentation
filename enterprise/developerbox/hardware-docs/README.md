@@ -12,12 +12,12 @@ Explore what makes your Developer Box unique, technical specifications, schemati
 
 Coming soon...
 
-- Hardware User Manual ([View](hardware-user-manual.md) / [Download]())
+- Hardware User Manual (View / Download)
 
 ## Hardware
 
 Coming soon...
 
-- BOM ([View]() / [Download]())
-- Schematics ([View]() / [Download]())
+- BOM (View / Download)
+- Schematics (View / Download)
 
