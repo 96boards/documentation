@@ -1,6 +1,6 @@
 ---
 title: Hardware Documentation for Developer Box
-permalink: /documentation/enerprise/developerbox/hardware-docs/
+permalink: /documentation/enterprise/developerbox/hardware-docs/
 redirect_from:
 
 ---

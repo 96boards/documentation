@@ -1,8 +1,8 @@
 ---
-title: Additional Docs for DragonBoard-410c
-permalink: /documentation/consumer/dragonboard410c/additional-docs/
+title: Developer Box
+permalink: /documentation/enterprise/developerbox/additional-docs/
 redirect_from:
-- /documentation/ConsumerEdition/DragonBoard-410c/AdditionalDocs/README.md/
+
 ---
 # Board Images
 
