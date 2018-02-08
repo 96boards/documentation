@@ -2,7 +2,7 @@
 title: Using the Developer Box
 permalink: /documentation/enterprise/developerbox/
 redirect_from:
-
+- /documentation/enterprise/developerbox/README.md
 ---
 # Using the Develoer Box
 

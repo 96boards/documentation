@@ -2,7 +2,7 @@
 title: Developer Box
 permalink: /documentation/enterprise/developerbox/additional-docs/
 redirect_from:
-
+- /documentation/enterprise/developerbox/additional-docs/README.md
 ---
 # Board Images
 

@@ -2,7 +2,7 @@
 title: Downloads for Developer Box
 permalink: /documentation/enterprise/developerbox/downloads/
 redirect_from:
-
+- /documentation/enterprise/developerbox/downloads/README.md
 ---
 ## Downloads
 

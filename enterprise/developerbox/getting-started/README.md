@@ -2,7 +2,7 @@
 title: Getting Started with your Developer ox
 permalink: /documentation/enterprise/developerbox/getting-started/basic-kit/
 redirect_from:
-
+- /documentation/enterprise/developerbox/getting-started/basic-kit/README.md
 ---
 # Getting Started
 

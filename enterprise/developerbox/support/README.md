@@ -2,7 +2,7 @@
 title: Support for Developer Box
 permalink: /documentation/enterprise/developerbox/support/
 redirect_from:
-
+- /documentation/enterprise/developerbox/support/README.md
 ---
 # Troubleshooting
 
