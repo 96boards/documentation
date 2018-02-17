@@ -86,7 +86,7 @@ To ensure that the sensor is properly connected and detected, you can inspect th
 
 If everything is ok, you should see something like this:
 ````
-- entity 87: ov5645 4-0076 (1 pad, 1 link)
+- entity 87: ov5645 4-003b (1 pad, 1 link)
              type V4L2 subdev subtype Sensor flags 0
              device node name /dev/v4l-subdev10
         pad0: Source
@@ -101,7 +101,7 @@ If everything is ok, you should see something like this:
 You need to configure the Media Controller pipeline: link CSIPHY to CSID, CSID to ISPIF, ISPIF to VFE. Then configure formats on all entities in the pipeline. For direct dump to memory (RDI channels) this looks like this:
 
     sudo media-ctl -d /dev/media0 -l '"msm_csiphy0":1->"msm_csid0":0[1],"msm_csid0":1->"msm_ispif0":0[1],"msm_ispif0":1->"msm_vfe0_rdi0":0[1]'
-    sudo media-ctl -d /dev/media0 -V '"ov5645 4-0076":0[fmt:UYVY8_2X8/1920x1080 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1920x1080 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1920x1080 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1920x1080 field:none],"msm_vfe0_rdi0":0[fmt:UYVY8_2X8/1920x1080 field:none]'
+    sudo media-ctl -d /dev/media0 -V '"ov5645 4-003b":0[fmt:UYVY8_2X8/1920x1080 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1920x1080 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1920x1080 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1920x1080 field:none],"msm_vfe0_rdi0":0[fmt:UYVY8_2X8/1920x1080 field:none]'
 
 At this point the pipeline should be configured and ready to be used by any application that supports V4L2. For example, you can use GStreamer to take a JPEG picture:
 
@@ -121,11 +121,11 @@ Pipeline configuration for the format conversion looks like this:
 
 Format configuration for NV16/NV61 output:
 
-    sudo media-ctl -d /dev/media0 -V '"ov5645 4-0076":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":1[fmt:UYVY8_2X8/1280x960 field:none]'
+    sudo media-ctl -d /dev/media0 -V '"ov5645 4-003b":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":1[fmt:UYVY8_2X8/1280x960 field:none]'
 
 Format configuration for NV12/NV21 output (the format on msm_vfe0_pix source pad - for NV12/NV21 must be UYVY8_1_5_X8 - must be set explicitly):
 
-    sudo media-ctl -d /dev/media0 -V '"ov5645 4-0076":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":1[fmt:UYVY8_1_5X8/1280x960 field:none]'
+    sudo media-ctl -d /dev/media0 -V '"ov5645 4-003b":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":1[fmt:UYVY8_1_5X8/1280x960 field:none]'
 
 And similar Gstreamer pipeline for a JPEG picture:
 
@@ -135,19 +135,19 @@ And similar Gstreamer pipeline for a JPEG picture:
 
 Format configuration for NV12/NV21 with downscale ratio 2x. The compose element on msm_vfe0_pix sink pad defines the output size from the scaler. Syntax is (left,top)/widthxheight and only width and height are valid as this is scaling only. Downscaling with up to 16x ratio is supported:
 
-    media-ctl -d /dev/media0 -V '"ov5645 4-0076":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none compose:(0,0)/640x480],"msm_vfe0_pix":1[fmt:UYVY8_1_5X8/640x480 field:none]'
+    media-ctl -d /dev/media0 -V '"ov5645 4-003b":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none compose:(0,0)/640x480],"msm_vfe0_pix":1[fmt:UYVY8_1_5X8/640x480 field:none]'
 
 ### Crop
 
 Format configuration for NV12/NV21 with crop of the bottom right corner. The crop element on msm_vfe0_pix source pad defines the cropped area. Syntax is (left,top)/widthxheight and all fields are valid:
 
-    media-ctl -d /dev/media0 -V '"ov5645 4-0076":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":1[fmt:UYVY8_1_5X8/320x240 field:none crop:(960,720)/320x240]'
+    media-ctl -d /dev/media0 -V '"ov5645 4-003b":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":1[fmt:UYVY8_1_5X8/320x240 field:none crop:(960,720)/320x240]'
 
 ### Scale + crop
 
 Format configuration for NV12/NV21 with downscale ratio 2x and crop of the center area. Scaling is done first and then cropping (scaler module is in front of the crop module in the hardware pipeline of the VFE):
 
-    media-ctl -d /dev/media0 -V '"ov5645 4-0076":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none compose:(0,0)/640x480],"msm_vfe0_pix":1[fmt:UYVY8_1_5X8/320x240 field:none crop:(160,120)/320x240]'
+    media-ctl -d /dev/media0 -V '"ov5645 4-003b":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csiphy0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_csid0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_ispif0":0[fmt:UYVY8_2X8/1280x960 field:none],"msm_vfe0_pix":0[fmt:UYVY8_2X8/1280x960 field:none compose:(0,0)/640x480],"msm_vfe0_pix":1[fmt:UYVY8_1_5X8/320x240 field:none crop:(160,120)/320x240]'
 
 ## Video record pipeline
 
