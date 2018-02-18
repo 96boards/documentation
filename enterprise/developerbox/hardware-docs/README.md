@@ -2,7 +2,7 @@
 title: Hardware Documentation for Developer Box
 permalink: /documentation/enterprise/developerbox/hardware-docs/
 redirect_from:
-- /documentation/enterprise/developerbox/hardware-docs/README.md
+
 ---
 # Hardware Documentation
 
