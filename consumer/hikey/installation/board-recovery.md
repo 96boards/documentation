@@ -1,7 +1,9 @@
 ---
 title: BoardRecovery for HiKey
 permalink: /documentation/consumer/hikey/installation/board-recovery.md.html
-redirect_from: /documentation/ConsumerEdition/HiKey/Installation/BoardRecovery.md.html
+redirect_from:
+- /documentation/ConsumerEdition/HiKey/Installation/BoardRecovery.md.html
+- /documentation/consumer/hikey/installation/board-recovery.md
 ---
 # HiKey Board Recovery
 
@@ -13,37 +15,44 @@ For most users a board can be “recovered” from a software failure by reloadi
 
 #### Choose your Operating System and download the following files
 
-Build Folders <a href="http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/" target="_blank">Debian</a>
+- **Build Folders [UEFI debug](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/)**
+
+|  Debian                      |
+|:----------------------------:|
+| [l-loader.bin](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/l-loader.bin)  |  
+|  [fip.bin](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/fip.bin)           |  
+| [nvme.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/nvme.img)          |
+| [ptable-linux-4g.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-4g.img) or [ptable-linux-8g.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-8g.img)     |
+
+- **Build Folders [UEFI release](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/)**
 
 
 |  Debian                      |
 |:----------------------------:|
-| [l-loader.bin](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/l-loader.bin)  |  
-|  [fip.bin](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/fip.bin)           |  
-| [nvme.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/nvme.img)          |
-| [ptable-linux-4g.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-4g.img) or [ptable-linux-8g.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-8g.img)     |
-
-#### You will also need the boot partition for the OS Image you want to run
-
-- [boot-linux.uefi.img](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-boot-linux-*.uefi.img.gz) (For Debian)
+| [l-loader.bin](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/l-loader.bin)  |  
+|  [fip.bin](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/fip.bin)           |  
+| [nvme.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/nvme.img)          |
+| [ptable-linux-4g.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/ptable-linux-4g.img) or [ptable-linux-8g.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/ptable-linux-8g.img)     |
 
 You can do this from your browser(above links) or from the command prompt(below commands):
 
 For a full recovery you will need: **l-loader.bin**, **fip.bin**, **nvme.img**, **hikey-boot-linux-*.uefi.img.gz**, and the appropriate **p-table image**(this is board specific)
 
+- Debug Builds
 ```shell
-$ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/l-loader.bin
-$ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/fip.bin
-$ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-4g.img
-$ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/ptable-linux-8g.img
-$ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/nvme.img
-$ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/hikey-boot-linux-*.uefi.img.gz
+$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/l-loader.bin
+$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/fip.bin
+$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-4g.img
+$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-8g.img
+$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/nvme.img
 ```
-
-#### Uncompress the boot image as follows:
-
+- Release Builds
 ```shell
-$ gunzip boot-fat.uefi.img.gz
+$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/l-loader.bin
+$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/fip.bin
+$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/ptable-linux-4g.img
+$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/ptable-linux-8g.img
+$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/nvme.img
 ```
 
 #### Make sure fastboot is set up on host computer
@@ -88,12 +97,12 @@ $ dmesg
 
 #### Download hisi-idt.py "download tool" for the HiKey
 
-[hisi-idt.py](http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/hisi-idt.py) is the download tool for the HiKey. This is used to install the bootloader as follows:
+[hisi-idt.py](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/hisi-idt.py) is the download tool for the HiKey. This is used to install the bootloader as follows:
 
 This script can also be downloaded using the wget command in your commandline:
 
 ```
-$ wget http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/hisi-idt.py
+$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/hisi-idt.py
 ```
 
 #### Run the script to initially prepare fastboot
@@ -131,7 +140,6 @@ $ sudo python hisi-idt.py -d /dev/ttyUSB0 --img1=l-loader.bin (again, remember t
 $ sudo fastboot flash ptable ptable-linux-8g.img
 $ sudo fastboot flash fastboot fip.bin
 $ sudo fastboot flash nvme nvme.img
-$ sudo fastboot flash boot boot-fat.uefi.img (boot image file name can change based on build)
 ```
 
 Once this has been completed the bootloader has been installed into eMMC.

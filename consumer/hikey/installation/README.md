@@ -65,3 +65,20 @@ Choose host machine
 - [Linux](linux-factory-image.md)
 
 ***
+
+### SD Card Boot
+
+HiKey can boot directly from as SD Card. This is however limited to Debian and doesn't extend to AOSP.
+
+This method requires the following hardware:
+
+- HiKey with power supply
+- Host machine (Linux, Possibly MacOS?)
+- USB to microUSB cable
+- USB to UART 1v8 compatible or UART Mezzanine
+
+Choose host machine
+
+- [Linux](linux-sd-boot.md)
+
+***
