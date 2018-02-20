@@ -12,20 +12,20 @@ permalink: /documentation/consumer/dragonboard820c/downloads/open-embedded.md.ht
 
 |   Bootloader    |    Download    |
 |:------------------|:-----------------------|
-|Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/)      |
+|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/)      |
 
 Choose one boot image, the root file system you choose will be based on the boot image you download here:
 
-|   Boot image    |  Build Folder ([RPB](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/) / [RPB-Wayland](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/))   |
+|   Boot image    |  Build Folder ([RPB](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/morty/latest/rpb/) / [RPB-Wayland](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/morty/latest/rpb-wayland/))   |
 |:------------------|:-----------------------|
-| RPB    | Download   |
-| RPB-Wayland    |  Download  |
+| RPB    | [Download](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/morty/latest/rpb/boot--4.11-r0-dragonboard-820c-*.img)   |
+| RPB-Wayland    |  [Download](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/morty/latest/rpb-wayland/boot--4.11-r0-dragonboard-820c-*.img)  |
 
 Only download one root file system (Console or Desktop). You should match the type of rootfs to the boot image you downloaded above.
 
-|   Rootfs image    |  Build Folder ([RPB](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb/) / [RPB-Wayland](http://builds.96boards.org/releases/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/))    |
+|   Rootfs image    |  Build Folder ([RPB](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/morty/latest/rpb/) / [RPB-Wayland](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/morty/latest/rpb-wayland/))    |
 |:------------------|:----------------------------------|
-| RPB  | (Download / [Download)    |
-| RPB-Wayland  | (Download / Download)     |
+| RPB  | [Downloads Desktop](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/morty/latest/rpb/rpb-desktop-image-dragonboard-820c-*.rootfs.ext4.gz)/[Download Console](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/morty/latest/rpb/rpb-console-image-dragonboard-820c-*.rootfs.ext4.gz)    |
+| RPB-Wayland  | [Download Desktop](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/morty/latest/rpb-wayland/rpb-weston-image-dragonboard-820c-*.rootfs.ext4.gz)/[Download](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/morty/latest/rpb-wayland/rpb-console-image-dragonboard-820c-*.rootfs.ext4.gz)     |
 
 Continue to [Installation page](../installation)
