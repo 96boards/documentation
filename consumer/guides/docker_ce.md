@@ -26,7 +26,7 @@ This was the standard 96Boards kernel from the 16.03 Reference Platform Build, i
 
 With the overlays for the Reference Platform Build, you can run Docker on Debian Jessie, this is the distro version supported by the Reference Platform Build.  You are now ready to install Docker. The instructions on docker.com point you to adding x86-based package repos to sources.list.d, which is problematic for obvious reasons. Please skip those and use the standard Debian repositories with:
 
-`$ sudo apt-get install docker-engine `
+`$ sudo apt-get install docker-ce `
 
 This will install Docker version 1.9.1.
 
