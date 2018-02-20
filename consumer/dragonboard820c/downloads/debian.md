@@ -12,7 +12,7 @@ permalink: /documentation/consumer/dragonboard820c/downloads/debian.md.html
 
 |   SD Card Image    |    Download    |
 |:------------------|:-----------------------|
-|Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)       |
+|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/debian/latest/)       |
 
 ### Continue to [Installation page](../installation)
 
@@ -22,14 +22,14 @@ permalink: /documentation/consumer/dragonboard820c/downloads/debian.md.html
 
 |   Bootloader    |    Download    |
 |:------------------|:-----------------------|
-|Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/)      |
+|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/)      |
 
 |   Boot image    |    Download    |
 |:------------------|:-----------------------|
-|Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)      |
+|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/debian/latest/)      |
 
 |   Rootfs image    |    Download or Download   |
 |:------------------|:----------------------------------|
-|Release Notes:     |[Link](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)      |
+|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/debian/latest/)      |
 
 ### Continue to [Installation page](../installation)
