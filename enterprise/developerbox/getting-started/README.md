@@ -1,6 +1,6 @@
 ---
-title: Getting Started with your Developer ox
-permalink: /documentation/enterprise/developerbox/getting-started/basic-kit/
+title: Getting Started with your Developer Box
+permalink: /documentation/enterprise/developerbox/getting-started/
 redirect_from:
 
 ---
