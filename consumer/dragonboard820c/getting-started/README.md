@@ -39,24 +39,26 @@ The following subsections should describe how to get started with the DragonBoar
 
 ## Features
 
-|   Component          |   Description                                                                                             |
-|:---------------------|:----------------------------------------------------------------------------------------------------------|
-|  SoC                 | Qualcomm Snapdragon 820                                                                                   |
-|  CPU                 | Quad-core Qualcomm® Kryo™at up to 2.15GHz per core, 64-Bit capable                                        |
-|  GPU                 | Qualcomm® Adreno™ 530 624MHz GPU for PC-class graphics with support for advanced APIs, including OpenGL ES 3.1+, OpenCL, DirectX, and content security       |
-|  RAM                 | 3GB LPDDR4 1866MHz                                                                                        |
-|  Storage             | 32GB UFS 2.0, SD 3.0 (UHS-I)                                                                              |
-|  Wireless            | WLAN 2x2 802.11 b/g/n/ac 2.4 and 5GHz with on-board dual band WLAN antennas<br>Bluetooth v4.1 with on-board antenna<br>GPS with On-board GPS antenna    |
-|  USB                 | One USB 2.0 micro B (device mode only), Two USB 3.0 (host mode only)                                      |
+|   Component          |   Description                                                                  |
+|:---------------------|:-------------------------------------------------------------------------------|
+|  SoC                 | Qualcomm® Snapdragon™ 820E                                                     |
+|  CPU                 | Snapdragon 820E embedded platform, custom 64-bit Kryo quad-core CPU up to 2.35GHz , 14nm FinFET process technology                                                  |
+|  GPU                 | Adreno™ 530 GPU OpenGL ES 3.1 + AEP, OpenCL2.0 Full1, Vulcan, Renderscript, 64-bit virtual addressing                                                                                  |
+|  RAM                 | Dual-channel PoP LPDDR4 1866MHz                                                |
+|  Storage             | 32GB UFS 2.0 and SD 3.0 (UHS-I)                                                |
+|  Ethernet Port       | GbE Ethernet connection                                                        |
+|  Wireless            | WLAN 802.11ac and Bluetooth 4.2                                                |
+|  USB                 | One USB 2.0 micro B (device mode only)<br>Two USB 3.0 (host mode only)                                                                 |
+|  Display             | 4k60 FPS decode 10-bit over HDMI 2.0 4K30<br>Miracast 2.0 streaming HEVC 10-bit and VP9<br>decode Direct Stream Video for Wireless<br>Display, 3:1 Frame Buffer Compression ratio       |
 |  Video               | 4K UltraHD@30fps video playback and capture with H.264 (AVC) and H.265 (HEVC)  |
-|  Audio               | PCM/AAC+/MP3/WMA, ECNS, Audio+ post-processing (optional)                                                 |
-|  Camera              | Integrated Dual ISP with support for 3 image sensors up to 28MP                                           |
-|  Expansion Interface | MINI PCIe, One 40-pin Low Speed (LS) expansion connector, Two 60-pin High Speed (HS) expansion connector, One 16 pin audio expansion connector, Camera connector based upon 96boards camera interface addendum. 30 pin connector ZIF connector with 4L-CSI, DC power, 5V and 3.3V supply, camera control signals, I2C.  |
-|  LED                 | 4 - user controllable, 2 - for radios (BT and WLAN activity)                                              |
-|  Button              | Power/Reset, Volume up, Volume down                                                                       |
-|  Power Source        | Input voltage: +6.5V to +18V                                                                              |
-|  OS Support          | Linux Debian                                                                                              |
-|  Size                | 100mm by 85mm meeting 96Boards™ Consumer Edition ’extended’ dimensions specifications                     |
+|  Audio               | PCM/AAC+/MP3/WMA, ECNS, Audio+ post-processing (optional)                      |
+|  Camera              | Integrated Dual ISP with support for 3 image sensors up to 28MP                |
+|  Expansion Interface | Expansion Connectors:<br>1x 96boards 40 pin Low-Speed connector (UART x2, SPI, I2S, I2C x2, GPIO x12, DC power)<br>1x 96boards 60 pin High-Speed connector (4L-MIPI DSI, USB,I2C x2, 2L+4L-MIPI CSI)<br>2x Analog expansion connector (headset, speaker via sound-wire interface, microphones, line-outs)<br>1x 60 pin High-Speed connector (secondary 4L-MIPI DSI, SSC serial busses, TSIF – connection available only in hardware)<br>I/O Interfaces:<br>HDMI Full-size Type A connector (4K@60fps)<br>1x USB 2.0 micro B (device mode only), 2x USB 2.0 type A (host mode only), micro SD card slot<br>1x GbE RJ45, 1x PCIe HMC, headset                                                |
+|  LED                 | 6 LED indicators<br>4 - user controllable<br>2 - for radios (BT and WLAN activity) |
+|  Button              | Power/Reset<br>Volume Up<br>Volume down                                                                   |
+|  Power Source        | 96Boards compliant power supply                  |
+|  OS Support          | Linux Debian today<br>Linux OpenEmbedded – later 2018                          |
+|  Size                | 100mm by 85mm meeting 96Boards™ Consumer Edition ’extended’ dimensions specifications.               |
 
 
 ***
