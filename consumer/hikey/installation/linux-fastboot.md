@@ -10,17 +10,22 @@ This section shows how to install new operating system to your HiKey using the f
 ***
 
 - **Step 1**: Make sure fastboot is set up on host computer
-- **Step 2**: Boot HiKey into Fastboot mode using J15 header
-- **Step 3**: Install Operating System update using downloaded files
-- **Step 4**: Reboot HiKey into new OS
+- **Step 2**: Make sure you have the latest bootloader installed
+- **Step 3**: Boot HiKey into Fastboot mode using J15 header
+- **Step 4**: Install Operating System update using downloaded files
+- **Step 5**: Reboot HiKey into new OS
 
 ***
 
 #### **Step 1**: Make sure fastboot is set up on host computer.
 
-- Android SDK “Platform-Tools” for Linux can be downloaded <a href="https://developer.android.com/studio/releases/platform-tools.html" target="_blank">here</a>
+- [Android SDK “Platform-Tools” for Linux can be downloaded](https://developer.android.com/studio/releases/platform-tools.html)
 
-**Step 2**: Boot HiKey into Fastboot mode using J15 header
+#### **Step 2**: Make sure you have the latest bootloader installed.
+
+  - [Board Recovery](board-recovery.md)
+
+#### **Step 3**: Boot HiKey into Fastboot mode using J15 header
 
 - Link pins 1 and 2
 - Link pins 5 and 6
@@ -43,17 +48,31 @@ $ sudo fastboot devices
 ```
 >Note: If your HiKey is not being detected by fastboot, you might want to try [Board Recovery](board-recovery.md) and return to this step once your board is ready
 
-**Step 3**: Install Operating System update using downloaded files
+#### **Step 3**: Install Operating System update using downloaded files
 
 >**NOTE:** the ptable must be flashed first. Wait for a few seconds after the reboot command to allow the bootloader to restart using the new partition table.
 
 ###### Debian Linux
 
+- Download and decompress Files
 ```shell
-$ sudo fastboot flash ptable <ptable_FILE_NAME>.img
+# BOOT IMAGE
+$ wget http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/boot-linaro-stretch-developer-hikey-*.img.gz -O boot-linaro-stretch-developer-hikey.img.gz
+$ gunzip boot-linaro-stretch-developer-hikey.img.gz
+# ROOTFS IMAGE
+$ wget http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/rootfs-linaro-stretch-developer-hikey-*.img.gz -O rootfs-linaro-stretch-developer-hikey.img.gz
+$ gunzip rootfs-linaro-stretch-developer-hikey.img.gz
+# PTABLE IMAGE FOR 8GB EMMC
+$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-8g.img
+# PTABLE IMAGE FOR 4GB EMMC
+$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-4g.img
+```
+- Flash eMMC
+```shell
+$ sudo fastboot flash ptable ptable-linux-8g.img #OR ptable-linux-4g.img
 $ sudo fastboot reboot
-$ sudo fastboot flash boot <boot_FILE_NAME>.uefi.img
-$ sudo fastboot flash system hikey-jessie_alip_2015MMDD-nnn-Xg.emmc.img
+$ sudo fastboot flash boot boot-linaro-stretch-developer-hikey.img
+$ sudo fastboot flash system rootfs-linaro-stretch-developer-hikey.img
 ```
 
 ###### AOSP
