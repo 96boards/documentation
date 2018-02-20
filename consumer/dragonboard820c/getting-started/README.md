@@ -9,7 +9,7 @@ Learn about your DragonBoard™ 820c board as well as how to prepare and set up 
 ## Setup - What you will need
 
 **Need**
-- [DragonBoard 820c](../../dragonboard820c/)
+- [DragonBoard 820c](https://www.96boards.org/product/dragonboard820c/)
    - Board based on Qualcomm® Snapdragon™ 820E processor
 - Power adapter
    - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
@@ -34,8 +34,8 @@ Learn about your DragonBoard™ 820c board as well as how to prepare and set up 
 
 The following subsections should describe how to get started with the DragonBoard 820c using the release build shipped with the boards. The DragonBoard 820c is ready to use “out of the box” with a preinstalled version of Android (unless otherwise specified).
 
-<img class="lazyload" src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-front-sd.png?raw=true" width="480" height="250" />
-<img class="lazyload" src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-back-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-back-sd.png?raw=true" width="480" height="250" />
+<img class="lazyload" src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-front-sd.png?raw=true" width="330" height="300" />
+<img class="lazyload" src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-back-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-back-sd.png?raw=true" width="330" height="300" />
 
 ## Features
 
