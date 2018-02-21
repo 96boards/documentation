@@ -10,26 +10,31 @@ permalink: /documentation/consumer/dragonboard820c/downloads/debian.md.html
 
 ## SD Card image
 
-|   SD Card Image    |    Download    |
-|:------------------|:-----------------------|
-|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/debian/latest/)       |
+| SD Card Image - Install and boot from eMMC                                                                                             |
+|:---------------------------------------------------------------------------------------------------------------------------------------|
+|[Download](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/dragonboard-820c-sdcard-rescue-*.zip)              |
+|[Release Notes](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/)                                             |
 
 ### Continue to [Installation page](../installation)
 
 ***
 
-## Fastboot files (Advanced users)
+## Fastboot files
 
-|   Bootloader    |    Download    |
-|:------------------|:-----------------------|
-|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/)      |
+| Bootloader                                                                                                                             |
+|:---------------------------------------------------------------------------------------------------------------------------------------|
+| [Download](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/dragonboard-820c-bootloader-ufs-linux-*.zip)       |
+| [Release Notes](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/)                                             |
 
-|   Boot image    |    Download    |
-|:------------------|:-----------------------|
-|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/debian/latest/)      |
+| Boot image                                                                                                                              |
+|:----------------------------------------------------------------------------------------------------------------------------------------|
+| [Download](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/debian/latest/boot-linaro-*-dragonboard-820c-*.img.gz)       |
+| [Release Notes](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/debian/latest/)                                             |
 
-|   Rootfs image    |    Download or Download   |
-|:------------------|:----------------------------------|
-|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/debian/latest/)      |
+| Rootfs image                                                                                                                            |
+|:----------------------------------------------------------------------------------------------------------------------------------------|
+| [Desktop](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/debian/latest/linaro-*-alip-dragonboard-820c-*.img.gz)            |
+| [Developer](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/debian/latest/linaro-*-developer-dragonboard-820c-*.img.gz)     |
+| [Release Notes](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/debian/latest/)                                             |
 
 ### Continue to [Installation page](../installation)
