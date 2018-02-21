@@ -15,8 +15,8 @@ In most cases this will be your sure-fire way to recover your board from a softw
 - Download [SD Card Recovery image](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/dragonboard-820c-sdcard-rescue-*.zip)
 - Choose host machine under SD card installation instructions from [Installation Page](../installation/)
 
-> Note: For those already familiar with the SD card flashing process, 96Boards build folder can be found [here](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/)
+> Note: For those already familiar with the SD card flashing process, 96Boards build folder can be found [here](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/)
 
 ## Fastboot recovery
 
-In many cases, simply re-flashing the bootloader, boot image, and root file system, using the [fastboot method](../installation/#fastboot-method) is enough. While the generic fastboot method might not always work due to certain complications, the sd card recovery image is always available (as seen above).
+In many cases, simply re-flashing the bootloader, boot image, and root file system, using the fastboot method is enough. While the generic fastboot method might not always work due to certain complications, the sd card recovery image is always available (as seen above).
