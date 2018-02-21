@@ -2,7 +2,6 @@
 title: Carbon Hardware Documentation
 permalink: /documentation/iot/carbon/hardware-docs/
 redirect_from:
-- /documentation/IoTEdition/carbon/hardware-docs/README.md/
 - /documentation/IoTEdition/carbon/hardware-docs/README.md
 ---
 # Hardware Documentation
