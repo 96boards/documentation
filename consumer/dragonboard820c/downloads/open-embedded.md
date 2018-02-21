@@ -27,13 +27,13 @@ Choose one boot image, the root file system you choose will be based on the boot
 
 Only download one root file system (Console or Desktop). You should match the type of rootfs to the boot image you downloaded above.
 
-| Rootfs image (RPB)                                                    |                                                   |
-|:----------------------------------------------------------------------|:-----------------------------------------------------------------------------|
+| Rootfs image (RPB)                                                                                                                                       |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Desktop](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/morty/latest/rpb/rpb-desktop-image-dragonboard-820c-*.rootfs.ext4.gz) | 
 | [Developer](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/morty/latest/rpb/rpb-console-image-dragonboard-820c-*.rootfs.ext4.gz) |
 
-| Rootfs image (RPB-Wayland)                                                                 | 
-|:----------------------------------------------------------------------|:-----------------------------------------------------------------------------|
+| Rootfs image (RPB-Wayland)                                                                                                                                      | 
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Desktop](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/morty/latest/rpb-wayland/rpb-weston-image-dragonboard-820c-*.rootfs.ext4.gz) | 
 | [Developer](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/morty/latest/rpb-wayland/rpb-console-image-dragonboard-820c-*.rootfs.ext4.gz) |
 
