@@ -42,7 +42,9 @@ Go to the [Downloads page](../downloads/) to get your SD card image.
 
 Choose host machine
 
-Comning soon...
+- [Linux]()
+- [Mac]() 
+- [Windows]()
 
 ***
 
