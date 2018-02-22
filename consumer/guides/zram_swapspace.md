@@ -14,7 +14,7 @@ It is not as fast as actual RAM, but it is close enough for the speed degradatio
 
 ## Software
 
-- Linaro Debian Operating system snapshot Builds (http://builds.96boards.org/snapshots/)
+- Linaro Debian Operating system snapshot Builds (http://snapshots.linaro.org/96boards/)
 - If you are not using the DragonBoard410c, you will need to rebuild the kernel using ```CONFIG_ZRAM=m``` and ```CONFIG_ZSMALLOC=m``` Kconfig option.
 
 ## Steps
