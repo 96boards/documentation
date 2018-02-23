@@ -6,14 +6,21 @@ redirect_from:
 ---
 ## Downloads
 
-The Developerbox comes pre-installed with XXX (if purchased in a kit, OS can differ). If you would like to switch Operating Systems, update the existing software images on your board, or unbrick your board, this page provides links to the latest software downloads.
+The Developerbox comes pre-installed with system firmware (based on 
+Trusted Firmware and EDK2) but without an operating system installed.
+This page provides links to the latest software downloads for
+Developerbox.
 
 ***
 
+### Linaro supported system firmware
+
+ * [EDK2](edk2.md)
+
 ### Linaro supported operating systems
 
-Coming Soon...
-
+ * [Debian](debian.md)
+ 
 ***
 
 ### Third Party Operating Systems
