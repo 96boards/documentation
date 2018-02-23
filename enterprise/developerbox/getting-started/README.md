@@ -1,17 +1,17 @@
 ---
-title: Getting Started with your Developer Box
+title: Getting Started with your Developerbox
 permalink: /documentation/enterprise/developerbox/getting-started/
 redirect_from:
 
 ---
 # Getting Started
 
-Learn about your Developer Box board as well as how to prepare and set up for basic use
+Learn about your Developerbox board as well as how to prepare and set up for basic use
 
 ## Setup - What you will need
 
 **Basic kit includes**
-- Developer Box
+- Developerbox
    - Board based on XXX processor
 
 **Required Addons**
@@ -36,7 +36,7 @@ Learn about your Developer Box board as well as how to prepare and set up for ba
 
 # Out of the Box
 
-The following subsections should describe how to get started with the Developer Box using the release build shipped with the boards. The Developer Box is ready to use “out of the box” with a preinstalled version of XXX (unless otherwise specified).
+The following subsections should describe how to get started with the Developerbox using the release build shipped with the boards. The Developerbox is ready to use “out of the box” with a preinstalled version of XXX (unless otherwise specified).
 
 <img src="" data-canonical-src="" width="250" height="160" />
 <img src="" data-canonical-src="" width="250" height="160" />
@@ -80,15 +80,15 @@ Coming soon...
 
 ## Whats Next?
 
-If you are already familiar with the Developer Box and would like to change out the stock operating system, please proceed to one of the following pages:
+If you are already familiar with the Developerbox and would like to change out the stock operating system, please proceed to one of the following pages:
 
-- [Downloads page](../downloads/): This page lists all Linaro and 3rd party operating systems available for the Developer Box
-- [Installation page](../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your Developer Box
+- [Downloads page](../downloads/): This page lists all Linaro and 3rd party operating systems available for the Developerbox
+- [Installation page](../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your Developerbox
 - [Board Recovery](../installation/board-recovery.md)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 - [Support](../support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
-Back to the [Developer Box documentation home page](../)
+Back to the [Developerbox documentation home page](../)
 
 ***

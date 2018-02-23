@@ -1,12 +1,12 @@
 ---
-title: Hardware Documentation for Developer Box
+title: Hardware Documentation for Developerbox
 permalink: /documentation/enterprise/developerbox/hardware-docs/
 redirect_from:
 
 ---
 # Hardware Documentation
 
-Explore what makes your Developer Box unique, technical specifications, schematics, hardware notes and more... This page allows you to see what is under the "Developer Box hood" by offering static documentation published directly from the board vendors.
+Explore what makes your Developerbox unique, technical specifications, schematics, hardware notes and more... This page allows you to see what is under the "Developerbox hood" by offering static documentation published directly from the board vendors.
 
 ## User Guides
 

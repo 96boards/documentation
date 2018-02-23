@@ -1,5 +1,5 @@
 ---
-title: Installation for Developer Box
+title: Installation for Developerbox
 permalink: /documentation/enterprise/developerbox/installation/
 redirect_from:
 
