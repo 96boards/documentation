@@ -15,7 +15,7 @@ A comprehensive guide to using the 96Boards Enterprise Edition Developerbox. Thi
 - [Installation](installation/)
    - Choose and install an operating system on your Developerbox
 - [Build from Source](build/)
-   - Instructions for building and flashing the components of your favorite operating systems
+   - Instructions for building and flashing the Developerbox system firmware
 
 ## Documentation
 
