@@ -8,9 +8,7 @@ Explore what makes your Chameleon96 unique, technical specifications, schematics
 
 ## Hardware
 
-Coming soon...
-
-- Hardware User Guide ([View]() / [Download]())
-- Schematics ([View]() / [Download]())
-- Network Guide ([View]() / [Download]())
-- Software Guide ([View]() / [Download]())
+- Hardware User Guide ([View](https://github.com/96boards/documentation/blob/master/consumer/chameleon96/hardware-docs/files/chameleon96-user-guide.pdf) / [Download](https://github.com/96boards/documentation/raw/master/consumer/chameleon96/hardware-docs/files/chameleon96-user-guide.pdf))
+- Schematics ([View](https://github.com/96boards/documentation/blob/master/consumer/chameleon96/hardware-docs/files/chameleon96-schematics.pdf) / [Download](https://github.com/96boards/documentation/raw/master/consumer/chameleon96/hardware-docs/files/chameleon96-schematics.pdf))
+- Network Guide ([View](https://github.com/96boards/documentation/blob/master/consumer/chameleon96/guides/files/chameleon96_network-guide.pdf) / [Download](https://github.com/96boards/documentation/raw/master/consumer/chameleon96/guides/files/chameleon96_network-guide.pdf))
+- Software Guide ([View](https://github.com/96boards/documentation/blob/master/consumer/chameleon96/guides/files/chameleon96-software-guide.pdf) / [Download](https://github.com/96boards/documentation/raw/master/consumer/chameleon96/guides/files/chameleon96-software-guide.pdf))
