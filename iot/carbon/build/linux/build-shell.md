@@ -29,12 +29,26 @@ $ git clone https://gerrit.zephyrproject.org/r/zephyr
 ```shell
 $ cd zephyr
 $ source zephyr-env.sh
-$ make -C samples/subsys/shell/shell BOARD=96b_carbon
+$ cd samples/subsys/shell
+$ mkdir outdir; cd outdir
+$ cmake -DBOARD=96b_carbon ..
+$ make
 ```
 
-The application will be available at ```samples/subsys/shell/shell/outdir/96b_carbon/zephyr.bin```.
+#### **Step 2**: Flashing
 
-#### **Step 2**: Proceed to Installation page for flashing instructions
+- Connect the micro-USB cable to the OTG port
+- Press the BOOT0 switch and hold
+- While holding BOOT0 switch, also press the RST switch (At this point you should be pressing two switches)
+- Release the RST switch, then release the BOOT0 switch.
+
+```shell
+$ sudo make flash
+```
+
+#### Proceed to Installation page for legacy flashing instructions
+
+The application will be available at ```samples/subsys/shell/shell/outdir/96b_carbon/zephyr.bin```.
 
 Proceed to flash the Zephyr application binary over USB-UART or USB-DFU. Host machine specific flashing instructions can be found on the "Installation" page, link found below.
 
