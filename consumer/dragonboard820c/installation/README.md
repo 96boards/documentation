@@ -4,8 +4,6 @@ permalink: /documentation/consumer/dragonboard820c/installation/
 ---
 # Installation
 
-Stand alone DragonBoard 820c will ship with the Android image. If the DragonBoard 820c is purchased as part of a kit, it may have a different pre-loaded operating system.
-
 This guide will help you choose and install an operating system on your DragonBoard 820c.
 
 To appropriately follow this installation guide you will need to:

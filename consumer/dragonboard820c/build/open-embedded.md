@@ -14,11 +14,12 @@ To make sure that the UFS partitions and Bootloader is up to date follow our [Bo
 
 # Install fastboot
 
-Whether your board is using the Android UFS partition layout or the Linux partition UFS layout, you will use the
-Android `fastboot` utility on your development host for managing the board's UFS partitions. If you are using a
-relatively recent Linux distribution on your development host, it probably already has a package that includes
-the `fastboot` utility (it might be named something like `android-tools` or `android-tools-fastboot`) so go ahead and
-install it on your development host.
+You will use the Android `fastboot` utility on your development host for
+managing the board's UFS partitions. If you are using a relatively
+recent Linux distribution on your development host, it probably already
+has a package that includes the `fastboot` utility (it might be named
+something like `android-tools` or `android-tools-fastboot`) so go ahead
+and install it on your development host.
 
 # Flashing build artifacts
 

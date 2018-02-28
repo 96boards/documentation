@@ -32,7 +32,7 @@ Learn about your DragonBoard™ 820c board as well as how to prepare and set up 
 
 # Out of the Box
 
-The following subsections should describe how to get started with the DragonBoard 820c using the release build shipped with the boards. The DragonBoard 820c is ready to use “out of the box” with a preinstalled version of Android (unless otherwise specified).
+The following subsections should describe how to get started with the DragonBoard 820c using the release build shipped with the boards.
 
 <img class="lazyload" src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-front-sd.png?raw=true" width="330" height="300" />
 <img class="lazyload" src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-back-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-back-sd.png?raw=true" width="330" height="300" />

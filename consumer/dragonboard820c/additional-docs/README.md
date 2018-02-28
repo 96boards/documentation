@@ -18,7 +18,6 @@ Explore what makes your DragonBoard 820c unique by checking out technical specif
 
 ## User Guides
 
-- Android User Guide ([View]() / [Download]())
 - Linux User Guide ([View]() / [Download]())
 
 ***
@@ -27,7 +26,6 @@ Explore what makes your DragonBoard 820c unique by checking out technical specif
 <img src="http://www.96boards.org/wp-content/uploads/2015/06/QDN-H-RGB-72ppi.gif" data-canonical-src="http://www.96boards.org/wp-content/uploads/2015/06/QDN-H-RGB-72ppi.gif" aligh="right" />
 
 - [Qualcomm Developer Network](http://linaro.co/1HBLyQM)
-- [Android Release Notes]()
 
 #### Application Notes ("How to" documents)
 
