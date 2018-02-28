@@ -1,5 +1,5 @@
 ---
-title: Useful Guides for the Developer Box
+title: Useful Guides for the Developerbox
 permalink: /documentation/enterprise/developerbox/guides/
 redirect_from:
 

@@ -1,5 +1,5 @@
 ---
-title: Developer Box
+title: Developerbox
 permalink: /documentation/enterprise/developerbox/additional-docs/
 redirect_from:
 
