@@ -1,8 +1,6 @@
 ---
 title: Using the Developerbox
 permalink: /documentation/enterprise/developerbox/
-redirect_from:
-
 ---
 # Using the Developerbox
 
