@@ -58,7 +58,7 @@ If you are using a binary release for DragonBoard 410c from Linaro/96boards, you
 
 ##### Download the boot image
 
-Identify which release or build you are running and download the released boot image. This file is usually called ` boot-linaro-jessie-qcom-snapdragon-arm64-xxx.img.gz` and can be found for example in http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/. Once you have the file, you need to unzip it.
+Identify which release or build you are running and download the corresponding boot image. This file is usually called `boot-linaro-xxx-dragonboard-410c-yyy.img.gz` and can be found for example in http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/. Once you have the file, you need to unzip it.
 
 ##### Modify the boot image to use different bootargs
 
