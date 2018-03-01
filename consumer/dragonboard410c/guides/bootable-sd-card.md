@@ -87,10 +87,10 @@ If you insert the SD card into the DragonBoard410c and set the switch S6-2 (on t
 # 4) Booting Debian image
 
 Download boot and root images from:
-  - **Release:** http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/
+  - **Release:** http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/latest/
   ```
-  $ wget http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/boot-sdcard-linaro-stretch-qcom-snapdragon-arm64-*.img.gz
-  $ wget http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-stretch-alip-qcom-snapdragon-arm64-*.img.gz
+  $ wget http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/latest/boot-sdcard-linaro-stretch-qcom-snapdragon-arm64-*.img.gz
+  $ wget http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/latest/linaro-stretch-alip-qcom-snapdragon-arm64-*.img.gz
   ```
 
 

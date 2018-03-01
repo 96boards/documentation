@@ -34,6 +34,6 @@ redirect_from: /documentation/ConsumerEdition/HiKey/Downloads/Debian.md.html
 
 |   Rootfs image    |    [Desktop](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/rootfs-linaro-stretch-developer-hikey-*.img.gz) |
 |:------------------|:----------------------------------|
-|Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)      |
+|Release Notes:     |[Link](http://releases.linaro.org/96boards/hikey/linaro/debian/latest/)      |
 
 ### Continue to [Installation page](../installation/)

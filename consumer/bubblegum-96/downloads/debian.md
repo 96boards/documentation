@@ -15,7 +15,6 @@ redirect_from: /documentation/ConsumerEdition/Bubblegum-96/Downloads/Debian.md.h
 |:------------------|:-----------------------|
 | Chinese User | [Download](https://pan.baidu.com/s/1pKMvUbT); Password: u3fx|
 | Global User | [Download](https://mega.nz/#!w5YHwYLb!8NdsJXlTyHI_fGK50PvZsLeTifzSc3IQ7IdyRKbjwtM) |
-|Release Notes:     |[Link](http://builds.96boards.org/releases/hikey/linaro/debian/latest/)       |
 
 Continue to [Installation page](../installation/)
 
@@ -23,16 +22,16 @@ Continue to [Installation page](../installation/)
 
 ## Fastboot files (Advanced users)
 
-|   Bootloader    |    [Download](https://builds.96boards.org/releases/bubblegum/linaro/u-boot/latest/u-boot-dtb.img)    |
+|   Bootloader    |    [Download](https://releases.linaro.org/96boards/bubblegum/linaro/u-boot/latest/u-boot-dtb.img)    |
 |:------------------|:-----------------------|
-|Release Notes:     |[Link](https://builds.96boards.org/releases/bubblegum/linaro/u-boot/latest/)      |
+|Release Notes:     |[Link](https://releases.linaro.org/96boards/bubblegum/linaro/u-boot/latest/)      |
 
-|   Boot image    |    [Download](http://builds.96boards.org/releases/bubblegum/linaro/debian/latest/boot.emmc.img.gz)    |
+|   Boot image    |    [Download](http://releases.linaro.org/96boards/bubblegum/linaro/debian/latest/boot.emmc.img.gz)    |
 |:------------------|:-----------------------|
-|Release Notes:     |[Link](http://builds.96boards.org/releases/bubblegum/linaro/debian/latest/)      |
+|Release Notes:     |[Link](http://releases.linaro.org/96boards/bubblegum/linaro/debian/latest/)      |
 
-|   Rootfs image    |    [Desktop](http://builds.96boards.org/releases/bubblegum/linaro/debian/latest/bubblegum-jessie_alip_*.emmc.img.gz) or [Developer](http://builds.96boards.org/releases/bubblegum/linaro/debian/latest/bubblegum-jessie_developer_*.emmc.img.gz)   |
+|   Rootfs image    |    [Desktop](http://releases.linaro.org/96boards/bubblegum/linaro/debian/latest/bubblegum-jessie_alip_*.emmc.img.gz) or [Developer](http://releases.linaro.org/96boards/bubblegum/linaro/debian/latest/bubblegum-jessie_developer_*.emmc.img.gz)   |
 |:------------------|:----------------------------------|
-|Release Notes:     |[Link](http://builds.96boards.org/releases/bubblegum/linaro/debian/latest/)      |
+|Release Notes:     |[Link](http://releases.linaro.org/96boards/bubblegum/linaro/debian/latest/)      |
 
 Continue to [Installation page](../installation/)

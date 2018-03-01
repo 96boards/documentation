@@ -13,8 +13,8 @@ redirect_from: /documentation/IoTEdition/nitrogen/downloads/Zephyr.md.html
 
 | Application                 | Description                                                                            |
 |:----------------------------|:---------------------------------------------------------------------------------------|
-| [Shell](http://builds.96boards.org/releases/nitrogen/zephyr-1.8/nitrogen_shell.hex) | A simple shell application that can be used over UART |
-| [Disco](http://builds.96boards.org/releases/nitrogen/zephyr-1.8/nitrogen_blinky.hex)   | A simple LED 'blinky' demo                   |
-| [Beacon](http://builds.96boards.org/releases/nitrogen/zephyr-1.8/nitrogen_beacon.hex) | A simple BLE 'beacon' application           |
+| [Shell](http://releases.linaro.org/96boards/nitrogen/zephyr-1.8/nitrogen_shell.hex) | A simple shell application that can be used over UART |
+| [Disco](http://releases.linaro.org/96boards/nitrogen/zephyr-1.8/nitrogen_blinky.hex)   | A simple LED 'blinky' demo                   |
+| [Beacon](http://releases.linaro.org/96boards/nitrogen/zephyr-1.8/nitrogen_beacon.hex) | A simple BLE 'beacon' application           |
 
 Continue to [Installation page](../installation/)

@@ -13,7 +13,7 @@ the OE/Yocto images, please visit the generic [OpenEmbedded guide](../../guides/
 
 Build artifacts from your OE build will be flashed into the on-board eMMC (in contrast to some other boards which run their images from an SDcard). The OpenEmbedded BSP layer assumes that the _Linux_ Bootloaders and eMMC partition layout are used on the
 board (not the _Android_ ones; by default HiKey comes pre-configured with the Android eMMC partition layout).
-You can download the latest Linux bootloader binaries from [here](http://builds.96boards.org/releases/hikey/linaro/binaries/latest/).
+You can download the latest Linux bootloader binaries from [here](http://releases.linaro.org/96boards/hikey/linaro/binaries/latest/).
 
 Whether your board is using the Android eMMC partition layout or the Linux partition eMMC layout, you will use the
 Android `fastboot` utility on your development host for managing the board's eMMC partitions. If you are using a
