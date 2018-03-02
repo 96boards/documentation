@@ -8,4 +8,4 @@ Explore what makes your DragonBoard 820c unique, technical specifications, schem
 
 ## User Guides
 
-- Hardware User Manual ([View](https://github.com/96boards/documentation/blob/master/consumer/dragonboard820c/hardware-docs/files/db820c-hw-user-manual.pdf) / [Download](https://github.com/96boards/documentation/raw/master/consumer/dragonboard820c/hardware-docs/files/db820c-hw-user-manual.pdf))
+- Hardware User Manual ([View](/consumer/dragonboard820c/hardware-docs/files/db820c-hw-user-manual.pdf) / [Download](https://github.com/96boards/documentation/raw/master/consumer/dragonboard820c/hardware-docs/files/db820c-hw-user-manual.pdf))
