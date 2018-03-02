@@ -100,7 +100,7 @@ After flashing, ext4 partition should have populated with Linux Root File System
 ## 2.2) Booting Linux using U-Boot
 
 Now, Linux kernel needs to be complied and placed onto the SD card in order to allow U-Boot to load it. For
-compiling Linux kernel, refer release notes [here](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/).
+compiling Linux kernel, refer release notes [here](http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/latest/).
 After compilation, generate U-Boot compatible Linux Image.
 
 ```shell

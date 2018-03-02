@@ -50,7 +50,7 @@ $ cd kernel
 $ git checkout -b kernel-<RELEASE> debian-qcom-dragonboard410c-<RELEASE>
 ```
 > Note: Replace < RELEASE > with latest release version found
-[here](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)
+[here](http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/latest/)
 
 2. Add SPIDEV nodes to device tree
 
@@ -102,10 +102,10 @@ Now, prepare the boot image.
 ```shell
 $ git clone git://codeaurora.org/quic/kernel/skales
 $ ./skales/dtbTool -o dt.img -s 2048 arch/arm64/boot/dts/qcom/
-$ wget http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/initrd.img-<KERNELRELEASE>-linaro-lt-qcom
-$ wget http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/Image
-$ ./skales/mkbootimg --kernel Image \
-                   --ramdisk initrd.img.<KERNELRELEASE>-linaro-lt-qcom \
+$ wget http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/latest/initrd.img-* -O initrd.img
+$ wget http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/latest/vmlinuz-* -O vmlinuz
+$ ./skales/mkbootimg --kernel vmlinuz \
+                   --ramdisk initrd.img \
                    --output boot-db410c.img \
                    --dt dt.img \
                    --pagesize 2048 \
@@ -113,21 +113,18 @@ $ ./skales/mkbootimg --kernel Image \
                    --cmdline "root=/dev/disk/by-partlabel/rootfs rw rootwait console=ttyMSM0,115200n8"
 ```
 
-> Note: Replace < KERNELRELEASE > with latest kernel release version found
-[here](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/).
-
 # 4) Flashing boot and roofs image
 
 Boot Dragonboard410c into fastboot mode by following the
 [instructions](https://www.96boards.org/documentation/consumer/dragonboard410c/installation/linux-fastboot.md.html).
 
 1. Download latest `rootfs` image from
-[here](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-*-alip-qcom-snapdragon-arm64-*.img.gz).
+[here](http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/latest/linaro-*-alip-*.img.gz).
 2. Flash boot and rootfs images onto Dragonboard410c
 
 ```shell
 $ sudo fastboot flash boot boot-db410c.img
-$ sudo fastboot flash rootfs linaro-<DEBIANRELEASE>-alip-qcom-snapdragon-arm64-<BUILD>.img
+$ sudo fastboot flash rootfs linaro-<DEBIANRELEASE>-alip-<BUILD>.img
 ```
 > Note: Replace < DEBIANRELEASE > and < BUILD > according to the downloaded rootfs image.
 

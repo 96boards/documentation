@@ -53,7 +53,7 @@ $ git clone -n http://git.linaro.org/landing-teams/working/qualcomm/kernel.git
 $ cd kernel
 $ git checkout -b kernel-<release> debian-qcom-dragonboard410c-<release>
 ```
-> Note: Replace < release > with latest release version found [here](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)
+> Note: Replace < release > with latest release version found [here](http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/latest/)
 
 Now, custom kernel should be added as a source in order to fetch the configfs-overlay changes
 
@@ -82,7 +82,7 @@ $ make modules_install INSTALL_MOD_STRIP=1 INSTALL_MOD_PATH=<folder>
 to the root file system, under ***/lib/modules*** folder on DragonBoard410c.
 
 For further instructions on how to create bootable image and flashing onto Dragonboard410c, refer release notes
-[here](http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/)
+[here](http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/latest/)
 
 # 3) Load Overlays Dynamically
 

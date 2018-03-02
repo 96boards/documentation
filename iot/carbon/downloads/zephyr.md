@@ -13,9 +13,9 @@ redirect_from: /documentation/IoTEdition/carbon/downloads/Zephyr.md.html
 
 | Application                 | Description                                                                            |
 |:----------------------------|:---------------------------------------------------------------------------------------|
-| [Shell](http://builds.96boards.org/releases/carbon/zephyr-1.8/carbon_shell.bin) | A simple shell application that can be used over UART |
-| [Disco](http://builds.96boards.org/releases/carbon/zephyr-1.8/carbon_blinky.bin)   | A simple LED 'blinky' demo                   |
-| [Beacon](http://builds.96boards.org/releases/carbon/zephyr-1.8/carbon_beacon.bin) | A simple BLE 'beacon' application           |
-| [Radio](http://builds.96boards.org/releases/carbon/zephyr-1.8/carbon_nrf51_radio.hex) | A simple radio transmitter example |
+| [Shell](http://releases.linaro.org/96boards/carbon/zephyr-1.8/carbon_shell.bin) | A simple shell application that can be used over UART |
+| [Disco](http://releases.linaro.org/96boards/carbon/zephyr-1.8/carbon_blinky.bin)   | A simple LED 'blinky' demo                   |
+| [Beacon](http://releases.linaro.org/96boards/carbon/zephyr-1.8/carbon_beacon.bin) | A simple BLE 'beacon' application           |
+| [Radio](http://releases.linaro.org/96boards/carbon/zephyr-1.8/carbon_nrf51_radio.hex) | A simple radio transmitter example |
 
 Continue to [Installation page](../installation/)

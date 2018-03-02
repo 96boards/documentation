@@ -87,24 +87,24 @@ If you insert the SD card into the DragonBoard410c and set the switch S6-2 (on t
 # 4) Booting Debian image
 
 Download boot and root images from:
-  - **Release:** http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/
+  - **Release:** http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/latest/
   ```
-  $ wget http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/boot-sdcard-linaro-stretch-qcom-snapdragon-arm64-*.img.gz
-  $ wget http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/linaro-stretch-alip-qcom-snapdragon-arm64-*.img.gz
+  $ wget http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/latest/boot-sdcard-linaro-*.img.gz
+  $ wget http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/latest/linaro-*-alip-*.img.gz
   ```
 
 
-  - **Snapshot:** http://builds.96boards.org/snapshots/dragonboard410c/linaro/debian/latest/
+  - **Snapshot:** http://snapshots.linaro.org/96boards/dragonboard410c/linaro/debian/latest/
   ```shell
-  $ wget https://builds.96boards.org/snapshots/dragonboard410c/linaro/debian/latest/boot-sdcard-linaro-*-dragonboard-410c-*.img.gz
-  $ wget https://builds.96boards.org/snapshots/dragonboard410c/linaro/debian/latest/linaro-*-alip-dragonboard-410c-*.img.gz
+  $ wget http://snapshots.linaro.org/96boards/dragonboard410c/linaro/debian/latest/boot-sdcard-linaro-*.img.gz
+  $ wget http://snapshots.linaro.org/96boards/dragonboard410c/linaro/debian/latest/linaro-*-alip-*.img.gz
   ```
   And then extract the images using ```gunzip```
 
   Example:
   ```shell
-  $ gunzip boot-sdcard-linaro-stretch-qcom-snapdragon-arm64-*.img.gz
-  $ gunzip linaro-stretch-alip-qcom-snapdragon-arm64-*.img.gz
+  $ gunzip boot-sdcard-linaro-*.img.gz
+  $ gunzip linaro-*-alip-*.img.gz
   ```
 
 Since we are already downloading the boot-sdcard-xxx.img.gz, we do not need to modify the boot parameters.
