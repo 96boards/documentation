@@ -13,7 +13,7 @@ the OE/Yocto images, please refer the generic [OpenEmbedded guide](../../guides/
 
 Build artifacts from your OE build will be flashed into the on-board eMMC (in contrast to some other boards which run their images from an SDcard). The OpenEmbedded BSP layer assumes that the _Linux_ Bootloaders and eMMC partition layout are used on the
 board (not the _Android_ ones; by default DragonBoards come pre-configured with the Android eMMC partition layout).
-You can download the latest Linux bootloader package for Dragonboard410c from [here](http://builds.96boards.org/releases/dragonboard410c/linaro/rescue/latest/)
+You can download the latest Linux bootloader package for Dragonboard410c from [here](http://releases.linaro.org/96boards/dragonboard410c/linaro/rescue/latest/)
 to your development host, it will be named something like `dragonboard410c_bootloader_emmc_linux-<version>.zip`.
 
 Whether your board is using the Android eMMC partition layout or the Linux partition eMMC layout, you will use the
