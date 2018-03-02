@@ -22,15 +22,15 @@ Choose between RPB and RPB-Wayland. You will need to download the "boot image" a
 
 | RPB                                                                                                                                     |
 |:----------------------------------------------------------------------------------------------------------------------------------------|
-| [Boot Image](http://releases.linaro.org/96boards/reference-platform/openembedded/dragonboard410c/latest/rpb/boot-Image--*-dragonboard-410c-*.img)                                                                                                               |
-| [Desktop](http://releases.linaro.org/96boards/reference-platform/openembedded/dragonboard410c/latest/rpb/rpb-desktop-image-dragonboard-410c-*.rootfs.ext4.gz) or [Console](http://releases.linaro.org/96boards/reference-platform/openembedded/dragonboard410c/latest/rpb/rpb-console-image-dragonboard-410c-*.rootfs.ext4.gz)                                                       |
-| [Build Folder](http://releases.linaro.org/96boards/reference-platform/openembedded/dragonboard410c/latest/rpb/)                         |
+| [Boot Image](https://releases.linaro.org/96boards/dragonboard410c/linaro/openembedded/latest/rpb/boot--*-dragonboard-410c-*.img)                                                                                                               |
+| [Desktop](https://releases.linaro.org/96boards/dragonboard410c/linaro/openembedded/latest/rpb/rpb-desktop-image-dragonboard-410c-*.rootfs.ext4.gz) or [Console](https://releases.linaro.org/96boards/dragonboard410c/linaro/openembedded/latest/rpb/rpb-console-image-dragonboard-410c-*.rootfs.ext4.gz)                                                       |
+| [Build Folder](https://releases.linaro.org/96boards/dragonboard410c/linaro/openembedded/latest/)                         |
 
 | RPB-Wayland                                                                                                                             |
 |:----------------------------------------------------------------------------------------------------------------------------------------|
-| [Boot Image](http://releases.linaro.org/96boards/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/boot-Image--*-dragonboard-410c-*.img)                                                                                                               |
-| [Desktop](http://releases.linaro.org/96boards/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/rpb-weston-image-dragonboard-410c-*.rootfs.ext4.gz) or [Console](http://releases.linaro.org/96boards/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/rpb-console-image-dragonboard-410c-*.rootfs.ext4.gz)                                               |
-| [Build Folder](http://releases.linaro.org/96boards/reference-platform/openembedded/dragonboard410c/latest/rpb-wayland/)                 |
+| [Boot Image](https://releases.linaro.org/96boards/dragonboard410c/linaro/openembedded/latest/rpb-wayland/boot--*-dragonboard-410c-*.img)                                                                                                               |
+| [Desktop](https://releases.linaro.org/96boards/dragonboard410c/linaro/openembedded/latest/rpb-wayland/rpb-weston-image-dragonboard-410c-*.rootfs.ext4.gz) or [Console](https://releases.linaro.org/96boards/dragonboard410c/linaro/openembedded/latest/rpb-wayland/rpb-console-image-dragonboard-410c-*.rootfs.ext4.gz)                                               |
+| [Build Folder](https://releases.linaro.org/96boards/dragonboard410c/linaro/openembedded/latest/)                 |
 
 > NOTE: Only download one root file system (Console or Desktop). You should match the type of rootfs to the boot image you downloaded above.
 
