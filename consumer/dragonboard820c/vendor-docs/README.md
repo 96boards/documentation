@@ -9,3 +9,4 @@ Discover our list of community and vendor sponsored DragonBoard 410c documents. 
 ## On Qualcomm Developer Network
 
 - [Qualcomm Developer Network](https://developer.qualcomm.com/hardware/dragonboard-820c)
+- [QDN Tools and Resources](https://developer.qualcomm.com/hardware/snapdragon-820e/tools)
