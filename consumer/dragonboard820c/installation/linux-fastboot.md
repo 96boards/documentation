@@ -113,9 +113,9 @@ Once the images are extracted, those can be flashed using fastboot:
 
 ```shell
 $ sudo fastboot flash boot boot-linaro-buster-dragonboard-820c-BUILD.img
-$ sudo fastboot flash userdata linaro-buster-alip-dragonboard-820c-BUILD.img
+$ sudo fastboot flash rootfs linaro-buster-alip-dragonboard-820c-BUILD.img
 			(or)
-$ sudo fastboot flash userdata linaro-buster-developer-dragonboard-820c-BUILD.img
+$ sudo fastboot flash rootfs linaro-buster-developer-dragonboard-820c-BUILD.img
 ```
 > Note: Replace **BUILD#** in the above commands with the image build number.
 
@@ -127,4 +127,4 @@ If all steps went fine and you have flashed `ALIP` image, you should now have a 
 
 Initial support for DragonBoard 820c has been added into the OpenEmbedded QCOM BSP later, including the appropriate kernel recipe. To build an image for Dragonboard 820c , simply follow the same instructions as usual, from [Dragonboard-410c-OpenEmbedded-and-Yocto](https://github.com/Linaro/documentation/blob/master/Reference-Platform/CECommon/OE.md). When you select the MACHINE to build for, pick `dragonboard-820c`.
 
-The board has been added to the Linaro Reference Platform OpenEmbedded builds, and prebuilt images for this board are available here: http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/morty/latest/.
+The board has been added to the Linaro Reference Platform OpenEmbedded builds, and prebuilt images for this board are available here: http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/rocko/latest/.
