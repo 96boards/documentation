@@ -53,5 +53,5 @@ for instructions to create such an image. Only change required is to replace
 the command line with below:
 
 ```shell
-export cmdline="root=/dev/sda9 rw rootwait console=ttyMSM0,115200n8"
+export cmdline="root=/dev/sda7 rw rootwait console=ttyMSM0,115200n8"
 ```
