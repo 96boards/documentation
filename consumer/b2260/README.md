@@ -5,7 +5,6 @@ redirect_from:
 - /documentation/ConsumerEdition/B2260/README.md/
 - /documentation/ConsumerEdition/B2260/
 - /documentation/consumer/b2260/README.md
-layout: empty-container-page
 ---
 # Using the B2260
 
