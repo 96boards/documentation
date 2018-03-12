@@ -13,24 +13,24 @@ redirect_from: /documentation/ConsumerEdition/HiKey/Downloads/OpenEmbedded.md.ht
 
 |   Bootloader    |   |
 |:------------------|:-----------------------|
-| l-loader.bin      | [Download](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb/bootloader/l-loader.bin)           |
-| fip.bin           | [Download](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb/bootloader/fip.bin)           |
-| nvme.img          | [Download](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb/bootloader/nvme.img)           |
-| ptable-linux.img  | [4GB](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb/bootloader/ptable-linux-4g.img) / [8GB](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb/bootloader/ptable-linux-8g.img)      |
-| hisi-idt.py       | [Download](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb/bootloader/hisi-idt.py)           |
+| l-loader.bin      | [Download](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb/bootloader/l-loader.bin)           |
+| fip.bin           | [Download](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb/bootloader/fip.bin)           |
+| nvme.img          | [Download](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb/bootloader/nvme.img)           |
+| ptable-linux.img  | [4GB](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb/bootloader/ptable-linux-4g.img) / [8GB](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb/bootloader/ptable-linux-8g.img)      |
+| hisi-idt.py       | [Download](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb/bootloader/hisi-idt.py)           |
 
 Choose one boot image, the root file system you choose will be based on the boot image you download here:
 
-|   Boot image    |  Build Folder ([RPB](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb/) / [RPB-Wayland](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb-wayland/))   |
+|   Boot image    |  Build Folder ([RPB](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb/) / [RPB-Wayland](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb-wayland/))   |
 |:------------------|:-----------------------|
-| RPB    | [Download](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb/boot-0.0+AUTOINC+76c7cfcc22-bdec62eeb8-r0-hikey-*.uefi.img)   |
-| RPB-Wayland    |  [Download](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb-wayland/boot-0.0+AUTOINC+76c7cfcc22-bdec62eeb8-r0-hikey-*.uefi.img)  |
+| RPB    | [Download](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb/boot-0.0+AUTOINC+76c7cfcc22-bdec62eeb8-r0-hikey-*.uefi.img)   |
+| RPB-Wayland    |  [Download](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb-wayland/boot-0.0+AUTOINC+76c7cfcc22-bdec62eeb8-r0-hikey-*.uefi.img)  |
 
 Only download one root file system (Console or Desktop). You should match the type of rootfs to the boot image you downloaded above.
 
-|   Rootfs image    |  Build Folder ([RPB](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb/) / [RPB-Wayland](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb-wayland/))    |
+|   Rootfs image    |  Build Folder ([RPB](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb/) / [RPB-Wayland](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb-wayland/))    |
 |:------------------|:----------------------------------|
-| RPB  | ([Desktop](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb/rpb-desktop-image-hikey-*.rootfs.ext4.gz) / [Console](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb/rpb-console-image-hikey-*.rootfs.ext4.gz))    |
-| RPB-Wayland  | ([Desktop](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb-wayland/rpb-weston-image-hikey-*.rootfs.ext4.gz) / [Console](http://builds.96boards.org/releases/reference-platform/openembedded/hikey/latest/rpb-wayland/rpb-console-image-hikey-*.rootfs.ext4.gz))     |
+| RPB  | ([Desktop](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb/rpb-desktop-image-hikey-*.rootfs.ext4.gz) / [Console](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb/rpb-console-image-hikey-*.rootfs.ext4.gz))    |
+| RPB-Wayland  | ([Desktop](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb-wayland/rpb-weston-image-hikey-*.rootfs.ext4.gz) / [Console](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb-wayland/rpb-console-image-hikey-*.rootfs.ext4.gz))     |
 
 ### Continue to [Installation page](../installation/)
