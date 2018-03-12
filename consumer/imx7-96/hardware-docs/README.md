@@ -1,14 +1,28 @@
 ---
-title: Hardware Documentation for i.MX7 96
-permalink: /documentation/consumer/imx7-96/hardware-docs/
-redirect_from: /documentation/ConsumerEdition/imx7-96/hardware-docs/
+title: Hardware Documentation for DragonBoard-410c
+permalink: /documentation/consumer/dragonboard410c/hardware-docs/
+redirect_from:
+- /documentation/ConsumerEdition/DragonBoard-410c/HardwareDocs/README.md/
+- /documentation/ConsumerEdition/DragonBoard-410c/HardwareDocs/
+- /documentation/consumer/dragonboard410c/hardware-docs/README.md/
+- /db410c-getting-started/HardwareDocs/
 ---
 # Hardware Documentation
 
-Explore what makes your i.MX7-96 unique, technical specifications, schematics, hardware notes and more... This page allows you to see what is under the "i.MX7-96 hood" by offering static documentation published directly from the board vendors.
+Explore what makes your DragonBoard 410c unique, technical specifications, schematics, hardware notes and more... This page allows you to see what is under the "DragonBoard 410c hood" by offering static documentation published directly from the board vendors.
+
+## User Guides
+
+- Hardware User Manual ([View](hardware-user-manual.md) / [Download](https://github.com/96boards/documentation/raw/master/consumer/dragonboard410c/hardware-docs/HardwareManual_DragonBoard.pdf))
 
 ## Hardware
 
-- Hardware User Manual ([View](https://github.com/96boards/documentation/blob/master/consumer/imx7-96/hardware-docs/files/iMX7-user-guide.pdf) / [Download](https://github.com/96boards/documentation/raw/master/consumer/imx7-96/hardware-docs/files/iMX7-user-guide.pdf))
-- Schematics ([View](https://github.com/96boards/documentation/blob/master/consumer/imx7-96/hardware-docs/files/iMX7-96-schematics.pdf) / [Download](https://github.com/96boards/documentation/raw/master/consumer/imx7-96/hardware-docs/files/iMX7-96-schematics.pdf))
-- BoM ([View](https://github.com/96boards/documentation/blob/master/consumer/imx7-96/hardware-docs/files/iMX7-96-bom.pdf) / [Download](https://github.com/96boards/documentation/raw/master/consumer/imx7-96/hardware-docs/files/iMX7-96-bom.pdf))
+- BOM ([View](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/hardware-docs/DragonBoard410c_BOM.pdf) / [Download](https://github.com/96boards/documentation/raw/master/consumer/dragonboard410c/hardware-docs/DragonBoard410c_BOM.pdf))
+- Schematics ([View](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/hardware-docs/Schematics_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/consumer/dragonboard410c/hardware-docs/Schematics_DragonBoard.pdf))
+
+#### Qualcomm Snapdragon 410E Processor documents
+
+- [Snapdragon 410E Processor Device Specification](http://linaro.co/96b-sd410-ds)
+- [Snapdragon 410E GPIO Pin Assignment](https://developer.qualcomm.com/download/db410c/gpio-pin-assignment.pdf)
+- [Hardware Register Description for Qualcomm Snapdragon 410E (APQ8016E)](http://linaro.co/96b-qc-hrd)
+- [Snapdragon 410E Processor APQ8016E Clock Plan](https://developer.qualcomm.com/download/db410c/clock-plan-apq8016e.pdf)

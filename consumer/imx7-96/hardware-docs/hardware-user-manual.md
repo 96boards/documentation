@@ -1,238 +1,239 @@
 ---
-title: Hardware User Manual for i.MX7 96
-permalink: /documentation/consumer/imx7-96/hardware-docs/hardware-user-manual.md.html
-redirect_from: /documentation/ConsumerEdition/imx7-96/hardware-docs/hardware-user-manual.md.html
-
+title: DragonBoard 410c Hardware User Manual
+permalink: /documentation/consumer/dragonboard410c/hardware-docs/hardware-user-manual.md.html
+redirect_from:
+- /db410c-getting-started/HardwareDocs/HardwareUserManual.md/
+- /documentation/ConsumerEdition/DragonBoard-410c/HardwareDocs/HardwareUserManual.md.html
 ---
-# Board-X Development Board User Manual
+# DragonBoard 410c User Manual
 
 ### Table of Contents
+
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
 - [What's in the Box](#whats-in-the-box)
 - [Board Overview](#board-overview)
-- [Key Components](#key-components)
 - [System Block Diagram](#system-block-diagram)
 - [Getting Started](#getting-started)
-   - [Prerequisites](#prerequisites)
-   - [Starting the board for the first time](#starting-the-board-for-the-first-time)
+    - [Prerequisites](#prerequisites)
+    - [Starting the board for the first time](#starting-the-board-for-the-first-time)
 - [Component Details](#component-details)
-   - [Processor](#processor)
-   - [PMIC](#pmic)
-   - [Memory (DRAM)](#memory-dram)
-   - [Storage](#storage)
-   - [Micro SDHC](#micro-sdhc)
-   - [Boot ROM](#boot-rom)
-   - [Networking](#networking)
-   - [WiFi](#wifi)
-   - [Bluetooth](#bluetooth)
-   - [GPS](#gps)
-   - [HDMI](#hdmi)
-   - [MIPI-DSI](#mipi-dsi)
-   - [Camera Interface](#camera-interface)
-   - [USB Ports](#usb-ports)
-   - [USB Host ports](#usb-host-ports)
-   - [USB Device ports](#usb-device-ports)
-   - [Audio](#audio)
-   - [DC Power](#dc-power)
-   - [Power Measurement](#power-measurement)
-   - [External Fan Connection](#external-fan-connection)
-   - [UART](#uart)
-   - [Buttons](#buttons)
-   - [LED Indicators](#led-indicators)
-   - [Additional Functionality](#additional-functionality)
+  - [Processor](#processor)
+  - [Memory (DRAM)](#memory-dram)
+  - [Micro SDHC](#micro-sdhc)
+  - [Networking](#networking)
+    - [WiFi](#wifi)
+    - [Bluetooth](#bluetooth)
+    - [Worldwide FM Radio](#worldwide-fm-radio)
+    - [GPS](#gps)
+  - [HDMI](#hdmi)
+  - [MIPI-DSI](#mipi-dsi)
+  - [Camera Interface](#camera-interface)
+  - [USB Ports](#usb-ports)
+  - [USB Host ports](#usb-host-ports)
+  - [USB Device ports](#usb-device-ports)
+  - [Audio](#audio)
+    - [BT Audio](#bt-audio)
+    - [HDMI Audio](#hdmi-audio)
+  - [DC Power and Battery Power](#dc-power-and-battery-power)
+  - [External Fan Connection](#external-fan-connection)
+  - [UART](#uart)
+  - [Buttons](#buttons)
+    - [Power Button](#power-button)
+    - [Volume up](#volume-up)
+    - [Volume down](#volume-down)
+    - [Dip-switch](#dip-switch)
+  - [LED Indicators](#led-indicators)
+    - [Two activity LEDs](#two-activity-leds)
+    - [Four User LEDs](#four-user-leds)
+  - [Additional Functionality](#additional-functionality)
 - [Expansion Connectors](#expansion-connectors)
-   - [Low Speed Expansion Connector](#low-speed-expansion-connector)
-   - [High Speed Expansion Connector](#high-speed-expansion-connector)
-   - [Analog Expansion Connector](#analog-expansion-connector)
+  - [Low Speed Expansion Connector](#low-speed-expansion-connector)
+    - [UART {0/1}](#uart-01)
+    - [I2C {0/1}](#i2c-01)
+    - [GPIO {A-L}](#gpio-a-l)
+    - [SPI 0](#spi-0)
+    - [PCM/I2S](#pcmi2s)
+    - [Power and Reset](#power-and-reset)
+    - [Power Supplies](#power-supplies)
+  - [High Speed Expansion Connector](#high-speed-expansion-connector)
+    - [MIPI DSI 0](#mipi-dsi-0)
+    - [MIPI CSI {0/1}](#mipi-csi-01)
+    - [I2C {2/3}](#i2c-23)
+    - [SD/SPI](#sdspi)
+    - [Clocks](#clocks)
+    - [USB](#usb)
+    - [HSIC](#hsic)
+    - [Reserved](#reserved)
+  - [Analog Expansion Connector](#analog-expansion-connector)
+    - [Speaker](#speaker)
+    - [Mic](#mic)
+    - [Headset](#headset)
+    - [FM Antenna](#fm-antenna)
 - [Power Management Overview](#power-management-overview)
-   - [Block Diagram](#block-diagram)
-   - [DC Power Input](#dc-power-input)
-   - [Power Source Selection and Sequencing](#power-source-selection-and-sequencing)
-   - [Voltage Rails](#voltage-rails)
+  - [Block Diagram](#block-diagram)
+  - [DC Power Input](#dc-power-input)
+  - [Power Source Selection](#power-source-selection)
+  - [Power Consumption](#power-consumption)
+  - [Power Sequencing](#power-sequencing)
+  - [Voltage Rails](#voltage-rails)
+  - [Power Measurements](#power-measurements)
+    - [Power-In measurement](#power-in-measurement)
+    - [PMIC Power-In measnurement](#pmic-power-in-measnurement)
 - [Mechanical Specification](#mechanical-specification)
+  - [2D Reference Drawing](#2d-reference-drawing)
+- [Special care when using USB](#special-care-when-using-usb)
+- [Statements regarding FCC](#statements-regarding-fcc)
+
+[Click Here](https://github.com/96boards/documentation/tree/master/consumer/dragonboard410c/additional-docs/images) for access to raw images used in this doc.
 
 ***
 
+https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/DragonBoard410c-Front-SD.jpg?raw=true
+
 ## Introduction
 
-< A list of key features and components on the board >
+The DragonBoard 410c (‘410c’) board is a 96Boards compliant community board based on Qualcomm® Snapdragon 400 series of SoC’s.
 
-The Board-X Development Board is a 96Boards compliant community board based on MediaTek Board-X platform.The following table lists its key features:
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-front-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-front-sd.jpg?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-angle-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-angle-sd.jpg?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-back-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-back-sd.jpg?raw=true" width="250" height="160" />
 
-< Please send the appropriate images to robert.wolff@linaro.org >
-
-<img src="http://i.imgur.com/Mdjs6Nx.png" data-canonical-src="http://i.imgur.com/Mdjs6Nx.png" width="250" height="160" />
-<img src="http://i.imgur.com/3EleXMR.png" data-canonical-src="http://i.imgur.com/3EleXMR.png" width="250" height="160" />
-<img src="http://i.imgur.com/p1N2nDt.png" data-canonical-src="http://i.imgur.com/p1N2nDt.png" width="250" height="160" />
-
-< Example below - MediaTek X20 >
+The following table lists it's key features:
 
 - **Processor**:
-   - MediaTek HELIO X20 MT6797
-   - Dual-core ARM@Cortex-A72 MPCoreTM  operating at up to 2.3GHz
-   - Quad-core ARM@Cortex-A53 MPCoreTM operating at up to 1.85GHz
-   - Quad-core ARM@Cortex-A53 MPCoreTM operating at up to 1.4GHz
-   - Quad-core Mail T880, operating at up to 700MHz
-   - Two ARM@Cortex-R4 processors operating  at up to 800MHz for MD MCU
-   - Embedded connectivity system including WLAN/BT/FM/GPS
+   - Qualcomm Snapdragon 410
+   - Quad-core ARM® Cortex® A53 at up to 1.2 GHz per core
+   - 64-Bit capable
+   - Qualcomm Adreno 306 400MHz GPU for PC-class graphics with support for
+   - Advanced APIs, including OpenGL ES 3.0, OpenCL, DirectX, and content security
 - **Memory / Storage**:
-   - 2GB LPDDR3 2CH, 933MHz
-   - 8GB eMMC 5.1
-   - SD 3.0 (Micro SD card slot)
+   - 1GB LPDDR3, 533MHz
+   - 8GB eMMC 4.51
+   - SD 3.0 (UHS-I)
 - **Video**:
-   - HEVC decoder 2160p@30fps
-   - VP9 decoder 2160p@30fps
-   - H.264 decoder  2160p@30fps
-   - Sorenson H.263/ H.263 decoder: 1080p@60fps/40Mbps
-   - MPEG-4 SP/ASP decoder: 1080p@60fps/40Mbps
-   - DIVX4/ DIVX5/ DIVX6/ DIVX HD/XVID decoder: 1080p@60fps/40Mbps
-   - MPEG-4 encoder: Simple profile D1@30fps
-   - H.263 encoder: Simple profile D1@30fps
-   - H.264 encoder:  High profile 2160p@30fps
-   - HEVC encoder:  Main profile 2160p@30fps
+   - 1080p@30fps HD video playback and capture with H.264 (AVC), and 720p
+   - Playback with H.265 (HEVC)
 - **Camera Support**:
-   - Main camera IO supports 25M camera module
-   - Sub camera IO supports 8M camera module
+   - Integrated ISP with support for image sensors up to 13MP
 - **Audio**:
-   - Audio encoding: AMR-NB, AMR-WB,AAC,OGG,ADPCM
-   - Audio decoding:WAV,MP3,MP2,AAC,AMR-NB,AMR-WB,MIDI,Vorbis,APE,AAC-plus v1/2,FLAC,WMA,ADPCM
+   - PCM/AAC+/MP3/WMA, ECNS, Audio+ post-processing (optional)
 - **Connectivity**:
-   - WLAN 802.11a/b/g/n 2.4GHz and 5GHz(On-board BT and WLAN antenna )
-   - Bluetooth 4.1 +HS compliant
-   - GPS (with antenna connector)
+   - WLAN 802.11 b/g/n 2.4GHz
+   - Bluetooth 4.1
    - One USB 2.0 micro B (device mode only)
    - Two USB 2.0 (host mode only)
+   - GPS
+   - On-board GPS antenna
+   - On-board BT and WLAN antenna
 - **I/O Interfaces**:
    - One 40-pin Low Speed (LS) expansion connector
       - UART, SPI, I2S, I2C x2, GPIO x12, DC power
    - One 60-pin High Speed (HS) expansion connector
       - 4L-MIPI DSI, USB, I2C x2, 2L+4L-MIPI CSI
-   - One 16-pin analog expansion connector
+   - One 16-pin analog expansion header
       - Stereo headset/line-out, speaker and analog line-in
+   - Footprint for one optional 16-pin analog expansion connector for stereo headset/line-out, speaker and analog line-in
+   - The board can be made compatible with Arduino using an add-on mezzanine board
 - **EXternal Storage**:
-   - Micro SD card slot (SD 3.0)
+   - Micro SD card slot
 - **User Interface**:
-   - 4 Buttons :Power/Reset/Volume Up/down
+   - 4 Buttons: Power/Reset/Volume Up/down
    - 6 LED indicators
       -  4 -user controllable
       -  2 -for radios (BT and WLAN activity)
 - **OS Support**:
-   - Android 6.0
+   - Android 5.1
+   - Linux based on Debian
+   - OpenEmbedded
+   - Windows IoT Core
+   - Ubuntu Snappy Core
 - **Mechanical**:
-   - Dimensions: 54mm by 85mm meeting 96Boards™ Consumer Edition standard dimensions specifications.
+   - Power: +6.5V to +18V
+   - Dimensions: 54mm by 85mm meeting 96Boards™ Consumer Edition standard dimensions specifications
 - **Environmental**:
-   - Operating Temp: -20°C to +45°C
+   - Operating Temp: 0°C to +70°C
    - RoHS and Reach compliant
-
-[Back to top]()
 
 ***
 
 ## What's in the Box
 
-< Add Pictures of the board, cables, sd cards, manual supplied in the box - This example shows the MediaTek X20 along side a picture of the user manual which comes in the box >
+The box contains one DragonBoard 410c and a quick start guide.
 
-< Please send any images to robert.wolff@linaro.org >
-
-The box contains one Helio X20 Development Board and a quick start guide.
-
-<img src="http://i.imgur.com/Mdjs6Nx.png" data-canonical-src="http://i.imgur.com/Mdjs6Nx.png" width="400" height="270" />
-<img src="http://i.imgur.com/GZCNzUW.png" data-canonical-src="http://i.imgur.com/GZCNzUW.png" width="450" height="250" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxBoard.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxBoard.png?raw=true" width="400" height="270" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxPamplet.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxPamplet.png?raw=true" width="450" height="250" />
 
 
-[Back to top]()
+
 
 ***
 
 ## Board Overview
 
-< Add Pictures of the front, 45 degree angle front, and back of the board identifyinf the locations of key components on the board >
+| Position | Reference | Description                                               |
+|---------:|:----------|:----------------------------------------------------------|
+|    1     |  J8       |  (J8) Low Speed Expansion Connector                       |
+|    2     |           |  APQ8016 Snapdragon Processor                             |
+|    3     |  U9       |  (U9) Power Management PMIC                               |
+|    4     |  J7       |  (J7) Analog Expansion Connector                          |
+|    5     |           |  WLAN/Bluetooth/GPS                                       |
+|    6     |  J1       |  (J1) Power Jack                                          |
+|    7     |  J5       |  (J5) uSD Card Socket                                     |
+|    8     |  J6       |  (J6) HDMI Type A Port                                    |
+|    9     |  J9       |  (J9) High Speed Connector                                |
+|    10    |  J4       |  (J4) Micro USB Type B Connector                          |
+|    11    |           |  Bluetooth/WLAN LED's                                     |
+|    12    |  J3       |  (J3) USB Host 2 Connector                                |
+|    13    |           |  User LED's 1-4                                           |
+|    14    |  J2       |  (J2) USB Host 1 Connector                                |
+|    15    |  S3-4     |  (S3-4) Vol+/Vol- Buttons                                 |
+|    16    |  S2       |  (S2) Power Button                                        |
+|    17    |           |  Bluetooth/WLAN Antenna                                   |
+|    18    |           |  GPS Antenna                                              |
+|    19    |  S6       |  (S6) Boot Switches                                       |
 
-| Position |    Reference    | Description                                               |
-|---------:|:---------------:|:----------------------------------------------------------|
-|    1     |     CON7001     |   Low Speed Expansion Connector                           |
-|    2     |      U4001      |   8GB EMMC                                                |
-|    3     |      U1001      |   MediaTek Helio X20 MT6797 Soc + 2GB LPDDR3              |
-|    4     |      U2001      |   PMIC  MT6351                                            |
-|    5     |      U1001      |   Analog Expansion Connector                              |
-|    6     |      U5003      |   WLAN/Bluetooth/GPS                                      |
-|    7     |      J901       |   Power Outlet                                            |
-|    8     |     CON4101     |   Micro SD Card Socket                                    |
-|    9     |     CON6501     |   HDMI Type A Port                                        |
-|    10    |     CON7101     |   High Speed Connector                                    |
-|    11    |     CON6403     |   Micro USB Type B Connecto                               |
-|    12    | LED3201-LED3204 |   Can be defined by user                                  |
-|          |     LED3205     |   LED3205 is WLAN LED                                     |
-|          |     LED3206     |   LED3206 is Bluetooth LED                                |
-|    13    |     CON6402     |   USB Host2 Connector                                     |
-|    14    |     CON6401     |   USB Host1 Connector                                     |
-|    15    |      SW3201     |   Power Button                                            |
-|          |      SW3202     |   Vol up Button                                           |
-|          |      SW3203     |   Vol down Button                                         |
-|          |      SW3204     |   Reset Button                                            |
-|    16    |     ANT5001     |   Bluetooth/WLAN Antenna                                  |
-|    17    |     CON5006     |   GPS Antenna connector                                   |
-|    18    |     SW3205      |   Switch for Auto boot and USB HOST set                   |
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Front.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Front.png?raw=true" width="400" height="270" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Back.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Back.png?raw=true" width="400" height="270" />
 
-< Please send any images to robert.wolff@linaro.org >
 
-<img src="http://i.imgur.com/ydQmi5t.png" data-canonical-src="http://i.imgur.com/ydQmi5t.png" width="400" height="270" />
-<img src="http://i.imgur.com/CFM1kTb.png" data-canonical-src="http://i.imgur.com/CFM1kTb.png" width="400" height="270" />
-
-[Back to top]()
 
 ***
 
 ## System Block Diagram
 
-< Add a block diagram identifying how components on the board are connected to the SoC >
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BlockDiagram.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BlockDiagram.png?raw=true" width="750" height="480" />
 
-< Please send any images to robert.wolff@linaro.org >
-
-<img src="http://i.imgur.com/YPYH7RJ.png" data-canonical-src="http://i.imgur.com/YPYH7RJ.png" width="750" height="480" />
-
-[Back to top]()
 
 ***
-
-## Jumpers/Switch Configurations
-
-< Add a diagram of the various Jumper banks and/or DIP switches and their meaning. Add a note on what should be the default settings for normal operation >
 
 ## Getting Started
 
 #### Prerequisites
 
-< Add a list of things needed to switch ON the board with the default SW >
+Before you power up your DragonBoard 410c for the first time you will need the following:
 
-Before you power up your Helio X20 Development Board for the first time you will need the following:
-
-- Helio X20 Development Board.
-- A 96Boards compliant power supply (sold separately ).
-- A HDMI or DVI LCD Monitor that supports a resolution of 1080P/60Hz.
+- DragonBoard 410c
+- A 96Boards compliant power supply (sold separately by Arrow).
+- A HDMI or DVI LCD Monitor that supports a resolution of 1080P/30Hz.
 - HDMI-HDMI cable or HDMI-DVI cable to connect the board to the Monitor.
 - A computer keyboard with USB interface.
 - A computer mouse with USB interface.
 
-#### Known Limitations
-
-< Add a list of HW/SW limitations (e.g. OTG and Type A USB can’t be use simultaneously) >
-
 #### Starting the board for the first time
-
-< Add a list of steps to switch ON the board for the first time including any warnings about jumper positions, connecting cables. A picture/block diagram showing how to connect the board for development is welcome >
 
 To start the board, follow these simple steps:
 
-1. Connect the HDMI cable to the Helio X20 Development Board connector (marked CON6501) and to the LCD Monitor.
-2. Set the the third pin (USB HOST SET) of switch SW3205 to the position ON and connect the keyboard to USB connector marked CON6402 and the mouse to the USB connector marked CON6401. (It doesn’t matter which order you connect them in. )
-3. Plug the power supply into the power outlet.
-4. Press down the button (marked SW3201), and keep more than 3 seconds, the Android system will start.
+1. Connect the HDMI cable to the 410c HDMI connector (marked J6) and to the LCD Monitor
+2. Connect the keyboard to the boards USB connector marked J3 and the mouse to the USB connector marked J2. (It doesn’t matter which order you connect them in. You can also connect via an external USB Hub.)
+3. Ensure that the boot switches S6 are set to ‘0000’, all in Off position
+4. Connect the power supply to power connector J1.
 
-> Note: If set the first pin (AUTO_BOOT_SET) of switch SW3205 to the position ON, the Android system will start automatically when the power supply is plugged into the power outlet.
+Once you plug the power supply into a power outlet the board will start the booting process, and you should see Android
+boot up.
 
-[Back to top]()
+> Note: The first boot takes several minutes due to Androids initialization. Subsequent boot times should be faster.
+
 
 ***
 
@@ -240,451 +241,482 @@ To start the board, follow these simple steps:
 
 ### Processor
 
-< A short section describing the properties of the application processor >
-
-MT6797 is a highly integrated application processor which uses an industry-leading Tri-Cluster Deca-Core CPU Architecture. The chip integrates Dual-core ARM@Cortex-A72 MPCoreTM  operating at up to 2.3GHz, Quad-core ARM@Cortex-A53 MPCoreTM operating at up to 1.85GHz, Quad-core ARM@Cortex-A53 MPCoreTM  operating at up to 1.4GHz, Quad-core Mail T880 operating at up to 700MHz  and  an ARM@Cortex-R4 MCU . In addition, an extensive set of interfaces and connectivity peripherals are included to interface to cameras, touch-screen displays and MMC/SD cards.MT6797 also embodies wireless communication device, including WLAN, Bluetooth and GPS.
-
-### PMIC
-
-< A short section describing the properties of the PMIC and part of the schematic and description of what regulators power what components >
-
-- There are a PMIC and two dedicated DC - DC converters for MT6797 platform.
-- MT6351 is a power management system chip, containing 8 buck converters and 31 LDOs.
-- DA9214 is a 4-phase high efficiency buck converter. It is applied to offer the kernel power of APU.
-
-FAN53555 is high efficiency step-down switching regulator. It is applied to offer the DVDD power of GPU.
+The Snapdragon 410 APQ8016 is a quad 64-bit ARM Cortex-A53 MPcore Harvard Superscalar core, supports both LP-DDR2 / LP-DDR3 SDRAM interface, Hexagon QDSP6, 13.5 MP camera input support, Adreno 306 GPU, 1080p video encode/decode, gpsOneGen 8C with GLONASS, Bluetooth 4.1, OpenGL ES 3.0, DirectX, OpenCL, Renderscript Compute, FlexRender support.
 
 ### Memory (DRAM)
 
-< A short section describing how this board satisfied the 96board spec for RAM memory, clock speeds >
+The 410c uses a single embedded Multi Chip Package (eMCP) dual function LPDDR3/eMMC memory solution. The installed chip provides 8Gbyte of solid state storage and 1Gbyte of LPDDR3.
 
-The Helio X20 Development Board provides 2GB LPDDR3-SDRAM which is a 2-channel and 32bit width bus implementation interfacing directly to the MT6797 build-in LPDDR controller. The maximum DDR clock is 933MHz. It is mounted over the MT6797 using pop technology.
-
-### Storage
-
-< It is mandatory to support a minimum of 4GB of storage through onboard flash, USB storage, Micro SDHC or SATA interface below >
-
-The Helio X20 Development Board provides an 8GB EMMC which is compliant with EMMC 5.1.
+- The LPDDR3 is a 32bit width bus implementation interfacing directly to the APQ8016 build-in LPDDR controller. The maximum DDR clock is 533Mhz
+- The eMMC is an 8bit implementation interfacing with APQ8016 SDC1 interface supporting eMMC 4.5 specifications
 
 ### Micro SDHC
 
-< A short section describing the properties of the uSDHC socket >
+The 96Boards specification calls for a microSDHC socket to be present on the board
 
-The Helio X20 Development Board SD slot signals are routed directly to the MT6797 MSDC1 interface. It meets the SD3.0 standard.
-
-### Boot ROM
-
-< A short section describing how this board satisfied the 96board spec for boot ROM flash specification version >
-
-The Helio X20 Development Board boots up from the EMMC.
+The 410c board SD slot (J5) signals are routed directly to the APQ8016 SDC2 interface. The slot is a push-push type with a dedicated support for card detect signal (many SD slots do not have a dedicated CD pins, they use DATA3 state as the card detected signal). The 410c board uses APQ GPIO_38 as the SD_CARD_DET_N.
 
 ### Networking
 
+The 96Boards specifications calls for a WiFi (minimally 802.11g/n) and Bluetooth 4.1 (Bluetooth Low Energy)
+
+The 410c board deployed Qualcomm’s RF chip WCN3620 (U5) solution that integrates three different wireless connectivity technologies into a single device, the interfaces are:
+
 #### WiFi
 
-< A short section describing the properties of WiFi chip, what additional features are supported >
-
-- Dual-band (2.4/5GHz) single stream 802.11 a/b/g/n/ac RF, 20/40/80MHz bandwidth.
-- Integrated 2.4GHz PA with max. 20dBm CCK output power, 5GHz PA OFDM 54Mbps output power 17dBm and VHT80 MCS9 output power 15dBm.
-- Typical Rx sensitivity :-76.5dBm at both 11g 54Mbps mode and 11a 54Mbps mode,-62dBm at 11ac VHT80 MCS9 mode
-- Integrated power detector to support per packet Tx power control
-
-The Helio X20 Development Board also has a RF connector to connect the external antenna or other RF device. If you want to use this function, you should put the R5072 on with 0ohm resistor and remove the R5071 from the board.
+WLAN compliant with IEEE 802.11 b/g/n specifications, meeting 96Boards minimal requirements for WiFi.
 
 #### Bluetooth
 
-< A short section describing the properties of BLE chip, what additional features are supported >
+Bluetooth compliant with the BT specifications version 4.1 (BR/EDT + BLE), meeting the 96Boards requirements for BT
 
-- Bluetooth specification V2.1+EDR, 3.0+HS and 4.1+HS compliant
-- Integrated PA with 8dBm (class 1) transmit power
-- Typical Rx sensitivity: GFSK -94dBm, DQPSK -93dBm, 8-DPSK -87.5dBm.
+#### Worldwide FM Radio
+
+Worldwide FM radio, this interface is not part of the 96Boards mandatory specification. It is an optional addition that has not been tested is not officially supported.
 
 #### GPS
 
-< A short section describing the properties of GPS chip, what additional features are supported >
-
-The GPS implementation is based on MTK connectivity chip MT6631 (U5003) supporting GPS, Galileo, Glonass and Beidou. It can receive GPS, Galileo, Beidou / Glonass simultaneously for more accurate positioning. But there is no GPS antenna on the board. You need to connect an external antenna to the RF connector CON5006.
-
-## Display Interface
-
-< A short section describing the how the board satisfies this requirement and if there are limitations when a mezzanine display board is connected. It is highly recommended to provide a block diagram showing how the SoC, external connectors and intermediate drivers/convertors are wired up >
+The GPS implementation is based on Qualcomm WGR7640 GNSS RF receiver (U7) supporting GPS, GLONASS and COMPASS. The APQ8016 communicates directly with the WGR7640.
 
 ### HDMI
 
-- The 96Boards specification calls for an HDMI port to be present on the board. The MT6797 doesn’t include a built-in HDMI interface.
-- The Helio X20 Development Board deploys the built-in DPI interface as the source for the HDMI output. A peripheral Bridge IC (U6502, MT8193) performs this task and it supports a resolution from 480i to 1080p at 30Hz.
+The 96Boards specification calls for an HDMI port to be present on the board. The APQ8016 doesn’t include a built-in HDMI interface. The 410c deploys the built-in MIPI-DSI 4 lanes interface as the source for the HDMI output. A peripheral DSI to HDMI Bridge (U3, Analog Devices ADV7533) performs this task and it supports a resolution from 480i to 1080p at 30Hz.
+
+While the ADV7533 supports automatic input video format timing detection (CEA-861E), an I2C channel from the APQ8016 allows the user to configure the operation of this bridge. It is I2C3 interface from the SoC that connects to the bridge.
+
+This bridge supports audio as well (meeting the 96Boards requirements to provide audio via HDMI). The 410c uses a single bit I2S2 interface from the APQ8016 for this task.
+
+Please note that the 96Boards specification calls for a MIPI-DSI interface to be routed to the High Speed Expansion connector. Since the APQ8016 has only one MIPI-DSI interface. A muxing device (U11, FSA644UCX) is being use on the board. Only one interface, HDMI, or the Expansion MIPI-DSI can be active at a given time. The controlling signal is named ‘DSI_SW_SEL_APQ’. When this signal is logic low, ‘0’, the MIPI-DSI is routed to the DSI-HDMI Bridge. When ‘DSI_SW_SEL_APQ’ is logic level high, ‘1’, the MIPI-DSI is routed to the High Speed Expansion connector. This design assigned the ‘DSI_SW_SEL_APQ’ function to GPIO_32.
+
+User can overwrite the software control by sliding switch 4 of DipSwitch S6 to the ‘ON’ position. That action forces the DSI mux to route the MIPI-DSI to the DSI-HDMI Bridge. The overwrite option exist for the HDMI only, you cannot hardware overwrite the mux to the High Speed Expansion connector.
 
 ### MIPI-DSI
 
-- The 96Boards specification calls for a MIPI-DSI implementation via the High Speed Expansion Connector.
-- The Helio X20 Development Board implements a 4-lane MIPI_DSI interface meeting this requirement. It can support up to FHD(1080p@60fps). The Helio X20 Development Board routes the MIPI_DSI interface signals to the DSI-0 interface of the MT6797.
+The 96Boards specification calls for a MIPI-DSI implementation via the High Speed Expansion Connector.
+
+The 410c implemented a four-lane MIPI_DSI interface meeting this requirement. More information about this implementation can be found in chapter 6 High speed expansion connector.
 
 ### Camera Interface
 
-< A short section describing if the board satisfies this requirement and how. It is highly recommended to provide a block diagram showing how the SoC, external connectors and intermediate drivers/convertors are wired up >
+The 96Boards specification calls for two camera interfaces.
 
-- The 96Boards specification calls for two camera interfaces.
-- The Helio X20 Development Board supports two camera interfaces, one with a 4-lane MIPI_CSI interface and one with 2-lane MIPI_CSI interface, meeting this requirement. The 4-lane MIPI_CSI interface can support 25M camera and the 2-lane MIPI_CSI interface can support 8M camera.
+The 410c implements two camera interfaces, one with a four-lane MIPI_CSI interface and one with two-lane MIPI_CSI interface, meeting this requirement. More information about this implementation can be found in chapter 6 High speed expansion connector.
 
 ### USB Ports
 
-< A short section describing the how the board satisfies these requirements, the type of ports available and if there are limitations e.g. host and slave ports can’t be used simultaneously >
-
-The Helio X20 Development Board supports a USB device port and three USB host ports via a USB MUX(U6503). The input channel( D+/D-) of USB MUX is connected to the P0 port of the SOC MT6797, and the two output channels(1D+/1D-,2D+/2D-) are connected to micro USB port and USB hub respectively. The three USB host ports are connected to the downstream ports of the USB hub.The control of U6503 is done via a software controlled GPIO (USB_SW_SEL, EINT9 from the SOC MT6797). When this signal is logic low, ‘0’, the USB data lines are routed to the Micro USB connector and the MT6797 P0 port is set to device mode. When ‘USB_SW_SEL’ is logic level high, ‘1’, the USB data lines are routed to U6401 (a 3-port USB HUB) and the MT6797 P0 port is set to host mode. The user can overwrite the software control by sliding switch 3 of dip-switch SW3205 to the ‘ON’ position. That action forces the USB–MUX (U6503) to route the USB data lines to the USB HUB. The overwrite option exists for the host mode only, you cannot hardware overwrite the MUX to force device mode.
-
-< Please send any images to robert.wolff@linaro.org >
-
-<img src="http://i.imgur.com/IUigl3x.png" data-canonical-src="http://i.imgur.com/IUigl3x.png" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/USBPorts.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/USBPorts.png?raw=true" width="750" height="480" />
 
 ### USB Host ports
 
-< Example >
+The 96Boards specification calls for three USB host ports. The APQ8016 includes a single USBOTG channel. A USB Mux, S1, routes this single USB channel either to a USB HUB or to the MicroUSB connector (J4). The control of S1 is done via a software controlled GPIO (USB_SW_SEL_PM, GPIO_4 from the board PMIC). When this signal is logic low, ‘0’, the USB data lines are routed to the MicroUSB connector and the APQ8016 built-in USBOTG port is set to device mode. When ‘USB_SW_SEL_PM’ is logic level high, ‘1’, the USB data lines are routed to U10 (a 3-port USB HUB) and the APQ8016 builtin USBOTG port is set to host mode. The user can overwrite the software control by sliding switch 3 of DipSwitch S6 to the ‘ON’ position. That action forces the USB–mux S1 to route the built-in USBOTG data lines to the USB HUB. The overwrite option exists for the host mode only, you cannot hardware overwrite the mux to force device mode.
 
-The Helio X20 Development Board supports three USB host port via a USB2.0 hub (U6401 USB2513-AEZG). Its upstream signal is connected to USB_P0 interface of MT6797.
+- **Port 1 of the USB HUB** is routed to J3, a Type ‘A’ USB Host connector. A current limited controller (U4) sets the Power Current limit to 1.18A. This port is named HOST2 in the board schematic.
+- **Port 2 of the USB HUB** is routed to J2, a Type ‘A’ USB Host connector. A current limited controller (U6) sets the Power Current limit to 1.18A. This port is named HOST1 in the board schematic
+- **Port 3 of the USB HUB** is routed to the High Speed Expansion connector. No current limited controller is implemented on the board for this channel.
 
-- Port 1 of the USB HUB is routed to CON6401, a Type ‘A’ USB Host connector. A current limited controller (U6402) sets the Power Current limit to 1.18A.  
-- Port 2 of the USB HUB is routed to CON6402, a Type ‘A’ USB Host connector. A current limited controller (U6403) sets the Power Current limit to 1.18A.
-- Port 3 of the USB HUB is routed to the High Speed Expansion connector. No current limited controller is implemented on the board for this channel.
+> Please Note: the board can work in one mode at a time, Host mode or Device mode, not both
+
+> Please Note: Since the APQ8016 has only a single USBOTG channel, care needs to be taken when the USB HOST function is
+to be used. Please verify that no cable is connected to the MicroUSB type B connector (and to a host on the other side of
+the cable) as the hardware of the 410c board will inform software about the presence of a request to configure the
+USBOTG to device mode. Depending on the software release that is used on the board, the driver may configure the USB
+Mux to Device mode and none of the USB HOST ports will be connected to the SoC.
 
 ### USB Device ports
 
-< Example >
+The 96Boards specification calls for a USB port to be implemented as an OTG port or a device port.
 
-The Helio X20 Development Board implements a device port. The port is located at CON6403, a Micro USB type B. It is routed to USB_P0 interface of MT6797.
+The 410c board implements a device port. The port is located at J4, a MicroUSB type B. If an application requires the use of the device port, USB_SW_SEL_PM signal must be set to low ‘0’ and the user must verify that switch 3 of Dip Switch S6 is set to the ‘OFF’ position.
 
-> Note: the board can work in one mode at a time, Host mode or Device mode, not both.
+> Please Note: the board can work in one mode at a time, Host mode or Device mode, not both
 
 ### Audio
 
-< A short section describing the how the board satisfies these requirements and any additional functionality exposed >
+The 96Boards specifications calls for a minimum of single channel audio through two interfaces, BT and HDMI/MHL/DisplayPort
 
-The Helio X20 Development Board has four audio ports: BT, HDMI, PCM and analog port. The analog port which connected to MT6351 includes a stereo handset IO and two analog audio outputs.
+The 410c meets this requirement and has additional audio channels. More information about these additional channels can be found in chapter 4.18 Additional Functionality.
 
-### DC Power
+#### BT Audio
 
-< A short section describing the how the board satisfies these requirements and if there are any limitations >
+The BT implementation on the 410c is via a MAC in the APQ8016 and an external modem, WCN3620 (U5). A two wire interface between the SoC and the modem carries all communication including audio.
 
-The Helio X20 Development Board can be powered by two ways:
+#### HDMI Audio
 
-- 8V to 18V supply from a dedicated DC jack(J901)
-- 8V to 18V supply from the DC_IN pins on the Low Speed Expansion Connector(CON7001)
+A 3-wire (audio out only) I2S channel is routed directly from the APQ8016 SoC I2S interface pins to the DSI-HDMI bridge (U3)
 
-### Power Measurement
+### DC Power and Battery Power
 
-< A short section describing the how the board satisfies these requirements, any precautions to take while measuring and any additional measurement points that are exposed >
+The 96Boards specification calls for power to be provided to the board in one of the following ways:
 
-The Helio X20 Development Board has three current sense resistors R916\ R923\ R924.
-
-| Reference |  Net    |  Description                                       |
-|:----------|:--------|:---------------------------------------------------|
-|    R916   |  DC_IN  |  To measure the current of total base board power  |
-|    R923   |  SYS_5V |  To measure the current of SYS_5V power            |
-|    R924   |  VBAT   |  To measure the current of VBAT power              |
+- An 8V to 18V power from a dedicated DC jack
+- An 8V to 18V power from the SYS_DCIN pins on the Low Speed Expansion Connector
+- A USB Type C port at 5V
 
 ### External Fan Connection
 
-< A short section describing the how the board satisfies these requirements >
-
-The 96Boards specification calls for support for an external fan. That can be achieved by using the 5V or the SYS_DCIN (12V), both present on the Low Speed Expansion connector.
+The 96Boards specification calls for support for an external fan. That can be achieved by using the 5V or the SYS_DCIN, both present on the Low Speed Expansion connector.
 
 ### UART
 
-< A short section describing the how the board satisfies these requirements and if the UART is routed to a onboard header as well, steps to enable the functionality >
+The 96Boards specification calls for support for one SoC UART and an optional second UART both to be routed to the Low Speed Expansion Connector.
 
-The Helio X20 Development Board has two UART ports (UART1 / UART0), both present on the Low Speed Expansion connector. They are routed to the UART1 (UART1_TxD, UART1_RxD) and UART0 (UART0_TxD, UART0_RxD, UART0_CTS, UART0_RTS) interface of MT6797 separately. The UART1 is used for the serial console output.
+The 410c meets these requirements and additionally routes UART0 Tx/Rx lines to an on-board connector (J15). If the user wants to use this on-board UART, J15 needs to be soldered to the board as well as R173 and R174 (0 ohm 0201).
 
 ### Buttons
 
-< A short section describing the how the board satisfies these requirements, possible configuration of button behaviour through a switch or jumper >
+The 96Boards specification calls for the present of two buttons, a Power on/sleep button and a Reset button.
 
-The Helio X20 Development Board presents four buttons. They are Power key,VOL up key,VOL down key and Reset key. The power ON/OFF and RESET signals are also routed to the Low Speed Expansion connector.
+The 410c meets these requirements. Please see section 10 for detailed information on the buttons of the 410c board.
 
 #### Power Button
 
-< Example >
-
-The push-button SW3201 serves as the power-on/sleep button. Upon applying power to the board, press the power button for more than 3 seconds, the board will boot up. Once the board is running you can turn power-off by pressing the power button for more than 3 seconds. If the board is in a sleep mode, pressing the power bottom will wake up the board. Oppositely, if the board is in an active mode, pressing the power bottom will change the board into sleep mode.
-
-#### Reset Button
-
-< Example >
-
-The push-button SW3204 serves as the hardware reset button. press the button for more than 1 seconds,the system will be rebooted.
+The push-button serves as the power-on/sleep button. Upon applying power to the board, press the power button for more than 3 seconds, the board will boot up. Once the board is running you can turn power-off by pressing the power button for more than 3 seconds. If the board is in a sleep mode, pressing the power bottom will wake up the board. Oppositely, if the board is in an active mode, pressing the power bottom will change the board into sleep mode.
 
 #### Volume up
 
-< Example >
-
-The Volume UP button is used to control the output speaker volume of the Helio X20 Development Board.
+The Volume UP button is used to control the output speaker volume of the 410c.
 
 #### Volume down
 
-< Example >
+The Volume Down button is used to control the output speaker volume of the 410c.
 
-The Volume Down button is used to control the output speaker volume of the Helio X20 Development Board.
+#### Dip-switch
+
+There is a 4 switch DipSwitch marked S6 located at the bottom side of the 410c board. For normal operation all four
+switched need to be set to the ‘off’ position.
+
+- **Switch 1, ‘USB BOOT’**, when set to ‘on’ position, will force boot over USB connection with a PC. This is only required for eMMC boot image upgrade. Please review the proper OS User Guide for more information on this process.
+- **Switch 2, ‘SD BOOT’**, when set to ‘on’ position, will force the SD, J5, to serve as the boot source for the 410c board when set. You can use uSD as the main boot source or it can serve as a method for eMMC boot image upgrade. Please review the proper OS User Guide for more information on this process.
+- **Switch 3, ‘USB HOST’**, is described in section 5.8. This switch in not part of the boot configuration.
+- **Switch 4, ‘HDMI SEL’**, is described in section 5.6.1. This switch is not part of the boot configuration.
+
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BootConfiguration.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BootConfiguration.png?raw=true" width="200" height="125" />
 
 ### LED Indicators
 
-< A short section describing the how the board satisfies these requirements,  what the use-configurable LEDs are configured to do, how to change them >
-
-The Helio X20 Development Board has six LEDs.
+The 96Boards specifications calls for six LEDs to be implemented on the board. The specification defines the LEDs color
+and mechanical location on the board.
 
 #### Two activity LEDs
 
-< Example >
-
-- WiFi activity LED –The Helio X20 Development Board drives this Yellow LED via BPI_BUS12, an IO from MT6797.
-- BT activity LED –The Helio X20 Development Board drives this Blue LED via BPI_BUS13, an IO from MT6797.
+- WiFi activity LED – 410c board drives this Yellow LED via MPP_2, an IO from the PMIC.
+- BT activity LED – 410c board drives this Blue LED via MPP_3, an IO from the PMIC
 
 #### Four User LEDs
 
-< Example >
-
-The four user LEDs are surface mount Green in 0603 size located next to the micro USB connector. The Helio X20 Development Board drives the four LEDs from the MT6797 GPIO: BPI_BUS8, BPI_BUS9，BPI_BUS10 and BPI_BUS11.
+The four user LEDs are surface mount Green in 0603 size located next to the two USB type A connector and labeled ‘USER
+LEDS 4 3 2 1’. The 410c board drives two LEDs from the SoC GPIO, APQ GPIO_21 and APQ GPIO_120. The other two User
+LEDs are driven by the PMIC via PM GPIO_1 and PM GPIO_2.
 
 ### Additional Functionality
 
-< Use this section to describe any additional functionality you’ve added to the board besides what is mandated in the 96boards spec, each in their own sub-section e.g. JTAG, GPS, Mic, SATA, PCIe, additional expansion connectors >
+The 96Boards specifications allows for additional functionality provided that all mandatory functionality is available and
+there is no impact on the physical footprint specifications including height and do not prevent the use of the 96Boards CE
+low speed and high speed expansion facilities
+The 410c board implements a few additional functions, which are listed in the following sub-chapters.
 
-The Helio X20 Development Board also has a additional interface (CON9001)for user debugging. It includes JTAG , UART0 and UART1 interface. The position is reserved, but the component is not mounted in the mass production. The component of CON9001 is AXT640124 produced by Panasonic. This interface should be used with the MTK debug board.
-
-[Back to top]()
 
 ***
 
 ## Expansion Connectors
 
+The 96Boards specification calls for two Expansion Connectors, a Low Speed and a High Speed.
+
+The 410c meets this requirement, the following sub-sections cover these connectors.
+
 ### Low Speed Expansion Connector
 
-< Add a table that maps the 96boards signals on the low-speed connector to the SoC signals. Mention the voltage level as a courtesy though they’re defined to be 1.8V in the spec. Add any notes as applicable on how to use the various outputs with relevant schematics >
+|  410c Signals                                    |96Boards Signals|PIN|PIN|96Boards Signals|  410c Signals                         |
+|:-------------------------------------------------|:---------------|:--|--:|---------------:|--------------------------------------:|
+|    GND                                           |     GND        |1  |2  |GND             |GND                                    |
+|    UART0_CTS_N (APQ GPIO_2)                      |     UART0_CTS  |3  |4  |PWR_BTN_N       |PHONE_ON_N                             |
+|    UART0_TX (APQ GPIO_0)                         |     UART0_TxD  |5  |6  |RST_BTN_N       |PM_RESIN_N                             |
+|    UART0_RX (APQ GPIO_1)                         |     UART0_RxD  |7  |8  |SPI0_SCLK       |SPI0_CLK (APQ GPIO_19)                 |
+|    UART0_RTS_N (APQ GPIO_3)                      |     UART0_RTS  |9  |10 |SPI0_DIN        |SPI0_MISO (APQ GPIO_17)                |
+|    UART1_TX (APQ GPIO_4)                         |     UART1_TxD  |11 |12 |SPI0_CS         |SPI0_CS_N (APQ GPIO_18)                |
+|    UART1_RX (APQ GPIO_5)                         |     UART1_RxD  |13 |14 |SPI0_DOUT       |SPI0_MOSI (APQ GPIO_16)                |
+|    I2C0_SCL (APQ GPIO_7)                         |     I2C0_SCL   |15 |16 |PCM_FS          |LS_EXP_MI2S_WS (APQ GPIO_110)          |
+|    I2C0_SDA (APQ GPIO_6)                         |     I2C0_SDA   |17 |18 |PCM_CLK         |LS_EXP_MI2S_SCK(APQ GPIO_113)(ALPS_INT)|
+|    I2C1_SCL (APQ GPIO_23)                        |     I2C1_SCL   |19 |20 |PCM_DO          |LS_EXP_MI2S_DATA0 (APQ GPIO_114)       |
+|    I2C1_SDA (APQ GPIO_22)                        |     I2C1_SDA   |21 |22 |PCM_DI          |N.C.                                   |
+|    LS_EXP_GPIO_A (APQ GPIO_36) (APQ INT)         |     GPIO-A     |23 |24 |GPIO-B          |LS_EXP_GPIO_B (APQ GPIO_12) (TS_RST_N) |
+|    LS_EXP_GPIO_C (APQ GPIO_13) (TS_INT_N)        |     GPIO-C     |25 |26 |GPIO-D          |LS_EXP_GPIO_D (APQ GPIO_69) (MAG_INT)  |
+|    LS_EXP_GPIO_E (APQ GPIO_115) (GYRO_ACCL_INT_N)|     GPIO-E     |27 |28 |GPIO-F          |LS_EXP_GPIO_F (PM_MPP_4) (DSI_BLCTRL)  |
+|    LS_EXP_GPIO_G (APQ GPIO_24) (DSI_VSYNC)       |     GPIO-G     |29 |30 |GPIO-H          |LS_EXP_GPIO_H (APQ GPIO_25) (DSI_RST)  |
+|    LS_EXP_GPIO_I (APQ GPIO_35) (CSI0_RST)        |     GPIO-I     |31 |32 |GPIO-J          |LS_EXP_GPIO_J (APQ GPIO_34) (CSI0_PWDN)|
+|    LS_EXP_GPIO_K (APQ GPIO_28) (CSI1_RST)        |     GPIO-K     |33 |34 |GPIO-L          |LS_EXP_GPIO_L (APQ GPIO_33) (CSI1_PWDN)|
+|    LS_EXP_1P8                                    |     +1V8       |35 |36 |SYS_DCIN        |SYS_DCIN                               |
+|    SYS_5P0                                       |     +5V        |37 |38 |SYC_DCIN        |SYS_DCIN                               |
+|    GND                                           |     GND        |39 |40 |GND             |GND                                    |
 
-|  Helio X20 Signals  |  96Boards Signals |  PIN  |  PIN  |  96Boards Signals  |  Helio X20 Signals  |
-|:--------------------|:------------------|:------|------:|-------------------:|--------------------:|
-|    GND              |     GND           |   1   |   2   |    GND             |    GND              |
-|    UCTS0            |     UART0_CTS     |   3   |   4   |    PWR_BTN_N       |    PWRKEY           |
-|    UTXD0            |     UART0_TxD     |   5   |   6   |    RST_BTN_N       |    SYSRSTB          |
-|    URXD0            |     UART0_RxD     |   7   |   8   |    SPI0_SCLK       |    SPI0_CK          |
-|    URTS0            |     UART0_RTS     |   9   |   10  |    SPI0_DIN        |    SPI0_MI          |
-|    UTXD1            |     UART1_TxD     |   11  |   12  |    SPI0_CS         |    SPI0_CS          |
-|    URXD1            |     UART1_RxD     |   13  |   14  |    SPI0_DOUT       |    SPI0_MO          |
-|    SCL4             |     I2C0_SCL      |   15  |   16  |    PCM_FS          |    PCM0_SYNC        |
-|    SDA4             |     I2C0_SDA      |   17  |   18  |    PCM_CLK         |    PCM0_CLK         |
-|    SCL5             |     I2C1_SCL      |   19  |   20  |    PCM_DO          |    PCM0_DO          |
-|    SDA5             |     I2C1_SDA      |   21  |   22  |    PCM_DI          |    PCM0_DI          |
-|    EINT16           |     GPIO-A        |   23  |   24  |    GPIO-B          |    EINT5            |
-|    EINT4            |     GPIO-C        |   25  |   26  |    GPIO-D          |    EINT3            |
-|    EINT2            |     GPIO-E        |   27  |   28  |    GPIO-F          |    EINT1            |
-|    DSI_TE           |     GPIO-G        |   29  |   30  |    GPIO-H          |    LCM_RST          |
-|    CAM_RST0         |     GPIO-I        |   31  |   32  |    GPIO-J          |    CAM_PDN0         |
-|    CAM_RST1         |     GPIO-K        |   33  |   34  |    GPIO-L          |    CAM_PDN1         |
-|    VIO18_PMU        |     +1V8          |   35  |   36  |    SYS_DCIN        |    DC_IN            |
-|    SYS_5V           |     +5V           |   37  |   38  |    SYC_DCIN        |    DC_IN            |
-|    GND              |     GND           |   39  |   40  |    GND             |    GND              |
+#### UART {0/1}
 
-### UART {0/1}
+The 96Boards specifications calls for a 4-wire UART implementation, UART0 and an optimal second 2-wire UART, UART1 on
+the Low Speed Expansion Connector.
 
-< Example >
+The 410c board implements UART0 as a 4-wire UART that connects directly to the APQ8016 SoC. These signals are driven
+at 1.8V.
 
-- The 96Boards specifications calls for a 4-wire UART implementation, UART0 and an optimal second 2-wire UART, UART1 on the Low Speed Expansion Connector.
-- The Helio X20 Development Board implements UART0 as a 4-wire UART that connects directly to the MT6797 SoC. These signals are driven at 1.8V.
-- The Helio X20 Development Board implements UART1 as a 2-wire UART that connects directly to the MT6797 SoC. These signals are driven at 1.8V.
+The 410c board implements UART1 as a 2-wire UART that connects directly to the APQ8016 SoC. These signals are driven
+at 1.8V.
 
-### I2C {0/1}
+#### I2C {0/1}
 
-< Example >
+The 96Boards specification calls for two I2C interfaces to be implemented on the Low Speed Expansion Connector.
 
-- The 96Boards specification calls for two I2C interfaces to be implemented on the Low Speed Expansion Connector.
-- The Helio X20 Development Board implements both interfaces named I2C4 and I2C5. They connect directly to the MT6797 SoC. Each of the I2C lines is pulled up to VIO18_PMU via 4.7K resistor.
+The 410c board implements both interfaces, I2C0 and I2C1 that connects directly to the APQ8016SoC. A 2K resistor is
+provided as pull-up for each of the I2C lines per the I2C specifications, these pull-ups are connected to the 1.8V voltage
+rail.
 
-### GPIO {A-L}
+#### GPIO {A-L}
 
-< Example >
+The 96Boards specifications calls for 12 GPIO lines to be implemented on the Low Speed Expansion Connector. Some of
+these GPIOs may support alternate functions for DSI/CSI control
 
-The 96Boards specification calls for 12 GPIO lines to be implemented on the Low Speed Expansion Connector. Some of these GPIOs may support alternate functions for DSI/CSI control
+The 410c board implements this requirement. 11 GPIOs are routed to the APQ8016 SoC and one GPIO is connected to the
+on-board PMIC.
 
-The Helio X20 board implements this requirement. All GPIOs are routed to the MT6797 SoC.
+- GPIO A - Connects to GPIO_36 of APQ8016 SoC, can serves as AQP_INT supporting the 96Boards requirements to create a wake-up event for the SoC. It is a 1.8V signal
+- GPIO B - Connects to GPIO_12 of APQ8016 SoC. It is a 1.8V signal
+- GPIO C - Connects to GPIO_13 of APQ8016 SoC. It is a 1.8V signal. Can be configured to be an IRQ line
+- GPIO D - Connects to GPIO_69 of APQ8016 SoC. It is a 1.8V signal. Can be configured to be an IRQ line
+- GPIO E - Connects to GPIO_115 of APQ8016 SoC. It is a 1.8V signal. Can be configured to be an IRQ line
+- GPIO F - Connects to MPP_4 of PM8916 PMIC. It is a 1.8V signal. Can be configured to be the DSI backlight control
+- GPIO G - Connects to GPIO_24 of APQ8016 SoC. It is a 1.8V signal. Can be configured to be DSI VSYNC signal.
+- GPIO H - Connects to GPIO_25 of APQ8016 SoC. It is a 1.8V signal. Can be configured to be a DSI_RST signal.
+- GPIO I - Connects to GPIO_35 of APQ8016 SoC. It is a 1.8V signal. Can be configured to be a CSI0_RST signal.
+- GPIO J - Connects to GPIO_34 of APQ8016 SoC. It is a 1.8V signal. Can be configured to be a CSI0_PWDN signal.
+- GPIO K - Connects to GPIO_28 of APQ8016 SoC. It is a 1.8V signal. Can be configured to be a CSI1_RST signal.
+- GPIO L - Connects to GPIO_33 of APQ8016 SoC. It is a 1.8V signal. Can be configured to be a CSI1_PWDN signal.
 
-- GPIO A -Connects to EINT16 of MT6797 SoC, can serves as external interrupt supporting the 96Boards requirements to create a wake-up event for the SoC. It is a 1.8V signal.
-- GPIO B -Connects to EINT5 of MT6797 SoC, can serves as external interrupt supporting the 96Boards requirements to create a wake-up event for the SoC. It is a 1.8V signal.
-- GPIO C -Connects to EINT4 of MT6797 SoC, can serves as external interrupt supporting the 96Boards requirements to create a wake-up event for the SoC. It is a 1.8V signal.
-- GPIO D -Connects to EINT3 of MT6797 SoC, can serves as external interrupt supporting the 96Boards requirements to create a wake-up event for the SoC. It is a 1.8V signal.  
-- GPIO E -Connects to EINT2 of MT6797 SoC, can serves as external interrupt supporting the 96Boards requirements to create a wake-up event for the SoC. It is a 1.8V signal.
-- GPIO F -Connects to EINT1 of MT6797 SoC, can serves as external interrupt supporting the 96Boards requirements to create a wake-up event for the SoC. It is a 1.8V signal.
-- GPIO G -Connects to DSI_TE of MT6797 SoC, can serves as DSI_TE or GPIO179. It is a 1.8V signal.
-- GPIO H -Connects to LCM_RST of MT6797 SoC, can serves as LCM_RST or GPIO180. It is a 1.8V signal.
-- GPIO I -Connects to CAM_RST0 of MT6797 SoC, can serves as CAM_RST0 or GPIO32. It is a 1.8V signal.
-- GPIO J -Connects to CAM_PDN0 of MT6797 SoC, can serves as CAM_PDN0 or GPIO28. It is a 1.8V signal.
-- GPIO K -Connects to CAM_RST1 of MT6797 SoC, can serves as CAM_RST1 or GPIO33. It is a 1.8V signal.
-- GPIO L -Connects to CAM_PDN1 of MT6797 SoC, can serves as CAM_PDN1 or GPIO29. It is a 1.8V signal.
+#### SPI 0
 
-### SPI 0
+The 96Boards specification calls for one SPI bus master to be provided on the Low Speed Expansion Connector.
 
-< Example >
+The 410c board implements a full SPI master with 4 wires, CLK, CS, MOSI and MISO all connect directly to the APQ8016
+SoC. These signals are driven at 1.8V.
 
-- The 96Boards specification calls for one SPI bus master to be provided on the Low Speed Expansion Connector.
-- The Helio X20 Development Board implements a full SPI master with 4 wires, CLK, CS, MOSI and MISO. The signals are connected directly to the MT6797 SoC and driven at 1.8V.
+#### PCM/I2S
 
-### PCM/I2S
+The 96Boards specification calls for one PCM/I2S bus to be provided on the Low Speed Expansion Connector. The CLK, FS
+and DO signals are required while the DI is optional.
 
-< Example >
+The 410c board implements a PCM/I2S with 3 wires, CLK, FS and DO, the optional DI signal is not implemented on the 410c
+board. The I2S signals are connected directly to the APQ8016 SoC. These signals are driven at 1.8V.
 
-- The 96Boards specification calls for one PCM/I2S bus to be provided on the Low Speed Expansion Connector. The CLK, FS and DO signals are required while the DI is optional.
-- The Helio X20 Development Board implements a PCM/I2S interface with 4 wires, CLK, FS, DO and DI. The signals are connected directly to the MT6797 SoC and driven at 1.8V.  
+#### Power and Reset
 
-### Power and Reset
+The 96Boards specification calls for a signal on the Low Speed Expansion Connector that can power on/off the board and a
+signal that serves as a board reset signal.
 
-< Example >
+The 410c board routes the PWR_BTN_N (named PHONE_ON_N on 410c schematic) signal to the KYPDPWR_N pin of the
+PM8916 PMIC. This signal is driven by S2 as well, the on-board power on push-button switch. Please note that the push
+button only provides an On/Sleep function and not OFF functionality.
 
-- The 96Boards specification calls for a signal on the Low Speed Expansion Connector that can power on/off the board and a signal that serves as a board reset signal.
-- The Helio X20 Development Board routes the PWR_BTN_N (named PWRKEY on schematic) signal to the PWRKEY pin of the PMIC MT6351. This signal is driven by SW3201 as well, the on-board power on push-button switch.  A mezzanine implementation of this signals should not drive it with any voltage, the only allowed operation is to force it to GND to start the board from a sleep mode.
-- The Helio X20 Development Board routes the RST_BTN_N (named SYSRSTB on schematic) signal to the SYSRSTB pin of the PMIC MT6351.
+A mezzanine implementation of this signals should not drive it with any voltage, the only allowed operation is to force it to
+GND to start the board from a sleep mode. A board shutdown will occur when this signal is held to ground for more than
+15 seconds (based on the current Android release).
 
+The 410c board routes the RST_BTN_N (named PM_RESIN_N on 410c schematic) signal to the RESIN_N pin of the PM8916
+PMIC. This signal is driven by S4, the on-board reset switch. This signals is a dual purpose, any press lasting less than 10
+seconds serves as Volume Down or Zoom out, a press longer than 10 seconds will reset the board.
 
-### Power Supplies
-
-< Example >
+#### Power Supplies
 
 The 96Boards specification calls for three power rails to be present on the Low Speed Expansion Connector:
-- +1.8V  Max of 100mA
-- +5V  Provide a minimum of 5W of power (1A).
 
-SYS_DCIN  8-18V input with enough current to support all the board functions or the output DCIN from on-board DC Connector able to provide a minimum of 7W of power.
+- +1.8V : Max of 100mA
+- +5V : Able to provide a minimum of 5W of power (1A).
+- SYS_DCIN : 9-18V input with enough current to support all the board functions or the output DCIN from onboard DC Connector able to provide a minimum of 7W of power.
 
-The Helio X20 Development Board supports these requirements as follows:
-- +1.8V  Driven by PMIC MT6351 up to  1000mA.  It is the system IO power (VIO18_PMU), and it can supply power up to 200mA to the Low Speed Expansion Connector.
-- +5V  Driven by a 6A DC-DC buck converter (U901). It also provides the VBUS power to the two USB host connectors (CON6401, CON6402) and the HDMI 5V power to the HDMI connector (CON6501).The remaining capacity provides a max current of 2A to the Low Speed Expansion Connector, for a total of 10W which meets the 96Boards requirements.
+The 410c board supports these requirements as follows:
 
-SYS_DCIN  Can serves as the board’s main power source or can receive power from the board.
++1.8V : Driven by two PMIC LDOs, LDO15 and LDO16, each can provide 55mA. The PM8916 allows connecting the two
+LDOs in parallel to provide 110mA on a 1.8V rail which meets the 96Boards requirement.
 
-[Back to top]()
++5V : Driven by the 4A 5.0V buck switcher (U13). This buck switcher powers both USB limit current devices (each at
+1.18A max). The remaining capacity provides a max current of 1.64A to the Low Speed Expansion Connector, for a total of
+8.2W which meets the 96Boards requirements.
+
+SYS_DCIN: Can serves as the board’s main power source or can receive power from the board.
+
 
 ***
 
-## High Speed Expansion Connector
+### High Speed Expansion Connector
 
-< Add a table that maps the 96boards signals on the high-speed connector to the SoC signals. Mention the voltage level as a courtesy though they’re defined to be 1.8V in the spec. Add any notes as applicable on how to use the various outputs with relevant schematics>
+|  410c Signals            | 96Boards Signals  |PIN|PIN| 96Boards Signals| 410c Signals          |
+|:-------------------------|:------------------|:--|--:|----------------:|----------------------:|
+|SPI1_MOSI (APQ GPIO_8)    | SD_DAT0/SPI1_DOUT |1  |2  | CSI0_C+         | MIPI_CSI0_CLK_P       |
+|N.C                       | SD_DAT1           |3  |4  | CSI0_C-         | MIPI_CSI0_CLK_M       |
+|N.C                       | SD_DAT2           |5  |6  | GND             | GND                   |
+|SPI1_CS_N (APQ GPIO_10)   | SD_DAT3/SPI1_CS   |7  |8  | CSI0_D0+        | MIPI_CSI0_DATA0_P     |
+|SPI1_CLK (APQ GPIO_11)    | SD_SCLK/SPI1_SCLK |9  |10 | CSI0_D0-        | MIPI_CSI0_DATA0_M     |
+|SPI1_MISO (APQ GPIO_9)    | SD_CMD/SPI1_DIN   |11 |12 | GND             | GND                   |
+|GND                       | GND               |13 |14 | CSI0_D1+        | MIPI_CSI0_DATA1_P     |
+|CSI0_MCLK (APQ GPIO_26)   | CLK0/CSI0_MCLK    |15 |16 | CCSI0_D1-       | MIPI_CSI0_DATA1_M     |
+|CSI1_MCLK (APQ GPIO_27)   | CLK1/CSI1_MCLK    |17 |18 | GND             | GND                   |
+|GND                       | GND               |19 |20 | CSI0_D2+        | MIPI_CSI0_DATA2_P     |
+|MIPI_DSI0_CLK_P_EXP_CONN  | DSI_CLK+          |21 |22 | CSI0_D2-        | MIPI_CSI0_DATA2_M     |
+|MIPI_DSI0_CLK_M_EXP_CONN  | DSI_CLK-          |23 |24 | GND             | GND                   |
+|GND                       | GND               |25 |26 | CSI0_D3+        | MIPI_CSI0_DATA3_P     |
+|MIPI_DSI0_DATA0_P_EXP_CONN| DSI_D0+           |27 |28 | CSI0_D3-        | MIPI_CSI0_DATA3_M     |
+|MIPI_DSI0_DATA0_M_EXP_CONN| DSI_D0-           |29 |30 | GND             | GND                   |
+|GND                       | GND               |31 |32 | I2C2_SCL        | I2C2_SCL (APQ GPIO_30)|
+|MIPI_DSI0_DATA1_P_EXP_CONN| DSI_D1+           |33 |34 | I2C2_SCL        | I2C2_SDA (APQ GPIO_29)|
+|MIPI_DSI0_DATA1_M_EXP_CONN| DSI_D1-           |35 |36 | I2C3_SDA        | I2C3_SCL (APQ GPIO_15)|
+|GND                       | GND               |37 |38 | I2C3_SDA        | I2C3_SDA (APQ GPIO_14)|
+|MIPI_DSI0_DATA2_P_EXP_CONN| DSI_D2+           |39 |40 | GND             | GND                   |
+|MIPI_DSI0_DATA2_M_EXP_CONN| DSI_D2-           |41 |42 | CSI1_D0+        | MIPI_CSI1_DATA0_P     |
+|GND                       | GND               |43 |44 | CSI1_D0-        | MIPI_CSI1_DATA0_M     |
+|MIPI_DSI0_DATA3_P_EXP_CONN| DSI_D3+           |45 |46 | GND             | GND                   |
+|MIPI_DSI0_DATA3_M_EXP_CONN| DSI_D3-           |47 |48 | CSI1_D1+        | MIPI_CSI1_DATA1_P     |
+|GND                       | GND               |49 |50 | CSI1_D1-        | MIPI_CSI1_DATA1_M     |
+|USB_HS_D_P_EXP            | USB_D+            |51 |52 | GND             | GND                   |
+|USB_HS_D_M_EXP            | USB_D-            |53 |54 | CSI1_C+         | MIPI_CSI1_CLK_P       |
+|GND                       | GND               |55 |56 | CSI1_C-         | MIPI_CSI1_CLK_M       |
+|N.C.                      | HSIC_STR          |57 |58 | GND             | GND                   |
+|N.C.                      | HSIC_DATA         |59 |60 | RESERVED        | N.C.                  |  
 
-|  Helio X20 Signals |   96Boards Signals   |  PIN  |  PIN  |  96Boards Signals  |             Helio X20 Signals             |
-|:-------------------|:---------------------|:------|------:|-------------------:|------------------------------------------:|
-|   SPI1_MO          |   SD_DAT0/SPI1_DOUT  |   1   |   2   |   CSI0_C+          |   RCP                                     |
-|   NC               |   SD_DAT1            |   3   |   4   |   CSI0_C-          |   RCN                                     |
-|   NC               |   SD_DAT2            |   5   |   6   |   GND              |   GND                                     |
-|   SPI1_CS          |   SD_DAT3/SPI1_CS    |   7   |   8   |   CSI0_D0+         |   RDP0                                    |
-|   SPI1_CK          |   SD_SCLK/SPI1_SCLK  |   9   |   10  |   CSI0_D0-         |   RDN0                                    |
-|   SPI1_MI          |   SD_CMD/SPI1_DIN    |   11  |   12  |   GND              |   GND                                     |
-|   GND              |   GND                |   13  |   14  |   CSI0_D1+         |   RDP1                                    |
-|   CAM_CLK0         |   CLK0/CSI0_MCLK     |   15  |   16  |   CCSI0_D1-        |   RDN1                                    |
-|   CAM_CLK1         |   CLK1/CSI1_MCLK     |   17  |   18  |   GND              |   GND                                     |
-|   GND              |   GND                |   19  |   20  |   CSI0_D2+         |   RDP2                                    |
-|   TCP              |   DSI_CLK+           |   21  |   22  |   CSI0_D2-         |   RDN2                                    |
-|   TCN              |   DSI_CLK-           |   23  |   24  |   GND              |   GND                                     |
-|   GND              |   GND                |   25  |   26  |   CSI0_D3+         |   RDP3                                    |
-|   TDP0             |   DSI_D0+            |   27  |   28  |   CSI0_D3-         |   RDN3                                    |
-|   TDN0             |   DSI_D0-            |   29  |   30  |   GND              |   GND                                     |
-|   GND              |   GND                |   31  |   32  |   I2C2_SCL         |   SCL2                                    |
-|   TDP1             |   DSI_D1+            |   33  |   34  |   I2C2_SCL         |   SDA2                                    |
-|   TDN1             |   DSI_D1-            |   35  |   36  |   I2C3_SDA         |   SCL3                                    |
-|   GND              |   GND                |   37  |   38  |   I2C3_SDA         |   SDA3                                    |
-|   TDP2             |   DSI_D2+            |   39  |   40  |   GND              |   GND                                     |
-|   TDN2             |   DSI_D2-            |   41  |   42  |   CSI1_D0+         |   RDP0_A                                  |
-|   GND              |   GND                |   43  |   44  |   CSI1_D0-         |   RDN0_A                                  |
-|   TDP3             |   DSI_D3+            |   45  |   46  |   GND              |   GND                                     |
-|   TDN3             |   DSI_D3-            |   47  |   48  |   CSI1_D1+         |   RDP1_A                                  |
-|   GND              |   GND                |   49  |   50  |   CSI1_D1-         |   RDN1_A                                  |
-|   USB_DP_P1_EXP    |   USB_D+             |   51  |   52  |   GND              |   GND                                     |
-|   USB_DM_P1_EXP    |   USB_D-             |   53  |   54  |   CSI1_C+          |   RCP_A                                   |
-|   GND              |   GND                |   55  |   56  |   CSI1_C-          |   RCN_A                                   |
-|   NC               |   HSIC_STR           |   57  |   58  |   GND              |   GND                                     |
-|   NC               |   HSIC_DATA          |   59  |   60  |   RESERVED         |   Pull-up  to VIO18_PMU<br>via 100K resistor |
+#### MIPI DSI 0
 
-### MIPI DSI 0
+The 96Boards specification calls for a MIPI-DSI to be present on the High Speed Expansion Connector. A minimum of one
+lane is required and up to four lanes can be accommodated on the connector.
 
-< Example >
+The 410c board implementation supports a full four lane MIPI-DSI interface that is routed to the High Speed Expansion
+Connector. Since the APQ8016 has only single MIPI-DSI interface and it may be used to drive the DSI-HDMI Bridge, DSI
+muxing is required.
 
-- The 96Boards specification calls for a MIPI-DSI to be present on the High Speed Expansion Connector. A minimum of one lane is required and up to four lanes can be accommodated on the connector.
-- The Helio X20 Development Board implementation supports a full four lane (1.2Gbps/lane) MIPI-DSI interface that is routed to the High Speed Expansion Connector. The MIPI-DSI signals are directly connected to DSI-0 of MT6797.
+A muxing device, U11 (FSA644UCK) is used on the board. Only one interface, HDMI, or the Expansion MIPI-DSI can be
+active at a given time. The controlling signal is named ‘DSI_SW_SEL_APQ’. When this signal is logic low, ‘0’, the MIPI-DSI is
+routed to the DSI-HDMI Bridge.
 
-### MIPI CSI {0/1}
+When ‘DSI_SW_SEL_APQ’ is logic level high, ‘1’, the MIPI-DSI is routed to the High Speed Expansion connector. This design
+assigned the ‘DSI_SW_SEL_APQ’ function to GPIO_32.
 
-< Example >
+The user can override the software control by sliding switch 4 of DipSwitch S6 to the ‘ON’ position. That action forces the
+DSI mux to route the MIPI-DSI to the DSI-HDMI Bridge. The override option exists for HDMI only. You cannot force the mux
+to the High Speed Expansion connector. While hardware forces the ESI Mux to the HDMI, software must configure the
+HDMI bridge for proper functionality.
 
-- The 96Boards specification calls for two MIPI-CSI interfaces to be present on the High Speed Expansion Connector. Both interfaces are optional. CSI0 interface can be up to four lanes while CSI1 is up to two lanes.
-- The Helio X20 Development Board implementation supports a full four lane MIPI-CSI interface on CSI0 and two lanes of MIPI-CSI on CSI1. All MIPI-CSI signals are routed directly to/from the MT6797SoC.  CSI0 can support up to 25M@30fps and CSI1 can support up to 8M@30fps. The max data rate of each lane is 2.5Gbps.
+> Please note: If configuring the board to use the MIPI-DSI is done via software, the user must verify the switch 4 of
+DipSwitch S6 is set to the ‘off’ position
 
+#### MIPI CSI {0/1}
 
-### I2C {2/3}
+The 96Boards specification calls for two MIPI-CSI interfaces to be present on the High Speed Expansion Connector. Both
+interfaces are optional. CSI0 interface can be up to four lanes while CSI1 is up to two lanes.
 
-< Example >
+The current 410c board implementation supports a full four lane MIPI-CSI interface on CSI0 and two lanes of MIPI-CSI on
+CSI1. All MIPI-CSI signals are routed directly to/from the APQ8016.
 
-- The 96Boards specification calls for two I2C interfaces to be present on the High Speed Expansion Connector. Both interfaces are optional unless a MIPI-CSI interface has been implemented. Then an I2C interface shall be implemented.
-- The Helio X20 Development Board implementation supports two MIPI-CSI interfaces and therefore must support two I2C interfaces. For MIPI-CSI0 the companion I2C2 is routed directly from the MT6797SoC. For MIPI-CSI1, the companion I2C is I2C3. Each of the I2C lines is pulled up to VIO18_PMU via 4.7K resistor.
+#### I2C {2/3}
 
-### SD/SPI
+The 96Boards specification calls for two I2C interfaces to be present on the High Speed Expansion Connector. Both
+interfaces are optional unless a MIPI-CSI interface has been implemented. Then an I2C interface shall be implemented.
 
-< Example >
+The current 410c board implementation supports two MIPI-CSI interfaces and therefore must support two I2C interfaces.
 
-- The 96Boards specification calls for an SD interface or a SPI port to be part of the High Speed Expansion Connector.
-- The Helio X20 Development Board implements a full SPI master with 4 wires (96Boards SPI Configuration), CLK, CS, MOSI and MISO. All the signals are connected directly to the MT6797 SoC. These signals are driven at 1.8V.
+For MIPI-CSI0 the companion I2C2 is routed directly from the APQ8016. For MIPI-CSI1, the companion I2C is I2C3.
 
-### Clocks
+> Note: You will need to add R61 and R62, 0 ohm 0201 resistors, to the board to support the routing of I2C3 interface to the
+High Speed Expansion Connector. Both interfaces, I2C2 and I2C3 have an on-board 2K pull-up resistors pulled-up to the
+1.8V voltage rail.
 
-< Example >
+#### SD/SPI
 
-- The 96Boards specification calls for one or two programmable clock interfaces to be provided on the High Speed Expansion Connector. These clocks may have a secondary function of being CSI0_MCLK and CSI1_MCLK. If these clocks can’t be supported by the SoC than an alternative GPIO or No-Connect is allowed by the specifications.
-- The Helio X20 Development Board implements two CSI clocks which are connected directly to the MT6797 SoC. These signals are driven at 1.8V.
+The 96Boards specification calls for an SD interface or a SPI port to be part of the High Speed Expansion Connector.
 
-### USB
+The 410c board implements a full SPI master with 4 wires (96Boards SPI Configuration), CLK, CS, MOSI and MISO all
+connect directly to the APQ8016 SoC. These signals are driven at 1.8V.
 
-< Example >
+#### Clocks
 
-- The 96Boards specification calls for a USB Data line interface to be present on the High Speed Expansion Connector.
-- The Helio X20 Development Board implements this requirement by routing USB channel 3 from the USB HUB to the High Speed Expansion Connector.
+The 96Boards specification calls for one or two programmable clock interfaces to be provided on the High Speed Expansion
+Connector. These clocks may have a secondary function of being CSI0_MCLK and CSI1_MCLK. If these clocks can’t be
+supported by the SoC than an alternative GPIO or No-Connect is allowed by the specifications.
 
-### HSIC
+The 410c board implements two CSI clocks, CSI0_MCLK via APQ GPIO_26 and CSI1_MCLK via APQ GPIO_27. These signals
+are driven at 1.8V.
 
-< Example >
+#### USB
 
-- The 96Boards specification calls for an optional MIPI-HSIC interface to be present on the High Speed Expansion Connector.
-- The Helio X20 Development Board implementation doesn’t support this optional requirement.
+The 96Boards specification calls for a USB Data line interface to be present on the High Speed Expansion Connector.
 
-### Reserved
+The 410c board implements this requirements by routing USB channel 3 from the USB HUB to the High Speed Expansion
+Connector.
 
-< Example >
+#### HSIC
 
-The pin 60 of the High Speed Expansion Connector is pulled up to VIO18_PMU via 100K resistor.
+The 96Boards specification calls for an optional MIPI-HSIC interface to be present on the High Speed Expansion Connector.
 
-[Back to top]()
+The 410c board implementation doesn’t support this optional requirement.
+
+#### Reserved
+
+The 96Boards specification calls for a 10K pull-up to 1.8V to be connected to pin 60 of the High Speed Expansion
+Connector.
+
+The current 410c board implementation does not support this requirement. This issue will be addressed on a future
+revision of the 410c board
+
 
 ***
 
-## Others
+### Analog Expansion Connector
 
-< Use this section to describe any additional expansion connectors and how to use the signals on them>
+|  PIN  |  Function       |    410c Signals                        |
+|------:|----------------:|---------------------------------------:|
+|   1   |   SPKR_OUT_P    |   PM8916 Audio signal CDC_SPKDRV_P     |
+|   2   |   SPKR_OUT_M    |   PM8916 Audio signal CDC_SPKDRV_M D   |
+|   3   |   VPH_PWR       |   A 3.7V from U12 buck switcher        |
+|   4   |   GND           |   Ground                               |
+|   5   |   GND_CFILT     |   PM8916 Audio signal CDC_GND_CFILT    |
+|   6   |   CDC_MIC2_P    |   PM8916 Audio signal CDC_IN2_P        |
+|   7   |   CDC_MIC3_P    |   PM8916 Audio signal CDC_IN3_P        |
+|   8   |   CDC_HPH_R     |   PM8916 Audio signal CDC_HPH_R        |
+|   9   |   CDC_HPH_REF   |   PM8916 Audio signal CDC_HPH_REF      |
+|   10  |   CDC_HPH_L     |   PM8916 Audio signal CDC_HPH_L        |
+|   11  |   CDC_HS_DET    |   PM8916 Audio signal CDC_HS_DET       |
+|   12  |   CDC_MIC_BIAS1 |   PM8916 Audio signal CDC_MIC_BIAS1    |
+|   13  |   N.C.          |                                        |
+|   14  |   N.C.          |                                        |
+|   15  |   FM_RX_ANT     |    WCN3620 RF signal FM_HS_RX          |
+|   16  |   N.C.          |                                        |
 
-## Analog Expansion Connector
+#### Speaker
 
-< Example >
+The speaker signals are routed from the PM8916 PMIC built-in Audio CODEC, the two signals are:
 
-|  PIN  |  Helio X20 Signals  |    Helio X20 Signals                               |
-|------:|--------------------:|---------------------------------------------------:|
-|   1   |   AU_LOLP           |    Positive output of line-out buffer from MT6351  |
-|   2   |   AU_LOLN           |    Negative output of line-out buffer from MT6351  |
-|   3   |   MICBIAS0          |    Microphone bias 0 from MT6351                   |
-|   4   |   GND               |    Ground                                          |
-|   5   |   AUDREFN           |    Audio reference ground                          |
-|   6   |   MICBIAS1          |    Microphone bias 1 from MT6351                   |
-|   7   |   AU_VIN0_P         |    Microphone channel 0 positive input             |
-|   8   |   AU_HPR            |    Earphone right channel output                   |
-|   9   |   AU_VIN0_N         |    Microphone channel 0 negative input             |
-|   10  |   AU_HPL            |    Earphone left channel output                    |
-|   11  |   GND               |    Ground                                          |
-|   12  |   ACCDET1           |    Accessory detection 1 input                     |
-|   13  |   FM_ANT            |    FM antenna positive input                       |
-|   14  |   AU_HSP            |    Headset positive output                         |
-|   15  |   FM_RX_N_6631      |    FM antenna negative output                      |
-|   16  |   AU_HSN            |    Headset negative output                         |
+- SKPR_DRV_P - Class-D speaker amplifier output+
+- SKPR_DRV_M - Class-D speaker amplifier output-
 
-[Back to top]()
+#### Mic
+
+The microphone signals are rounded to the PM8916 PMIC Built-In CODEC, the three signals are:
+
+- MIC2_IN - Headset mic
+- MIC3_IN - Second mic, please note that the first microphone input, MIC1_IN is routed from an on-board analog microphone (not installed on current 410c builds)
+- MIC_BIAS1 - Ground reference for PMIC bias
+
+#### Headset
+
+The headset signals are rounded from the PM8916 PMIC Built-In CODEC, one signal is routed from the connector to the
+CODEC, the singles are:
+
+- HPH_R - Headphone PA right channel output
+- HPH_L - Headphone PA left channel output
+- HPH_REF - Headphone PA ground sensing
+- HS_DET - Headset detection
+
+#### FM Antenna
+
+The FM_RX_ANT signal is the path for the FM antenna to reach the WCN3620 (u5), an integrated three different
+connectivity technologies device:
+
+- WLAN IEE802.11 b/g/n
+- BT 4.0 (BR/EDR/BLE)
+- Worldwide FM radio
 
 ***
 
@@ -692,105 +724,146 @@ The pin 60 of the High Speed Expansion Connector is pulled up to VIO18_PMU via 1
 
 ### Block Diagram
 
-< Please provide a block diagram showing how power is routed from various sources to PMIC and then to SoC, expansion connectors, the intermediate regulators >
-
-< Please send any images to robert.wolff@linaro.org >
-
-<img src="http://i.imgur.com/EzSF6WF.png" data-canonical-src="http://i.imgur.com/EzSF6WF.png" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/PowerManagement.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/PowerManagement.png?raw=true" width="750" height="480" />
 
 ### DC Power Input
 
-< Additional details and schematics related to power conditioning circuitry to allow hobbyists from power from other sources >
+The 96Boards specification calls for a power to be provided to the board in one of the following ways:
 
-- An 8V to 18V power from a dedicated DC jack J901.
-- An 8V to 18V power from the SYS_DCIN pins on the Low Speed Expansion Connector CON7001.
+**An 8V to 18V power from a dedicated DC jack.**
 
-> Note: Please refer to the mechanical size of the DC plug below.The inside diameter of the plug is 1.7mm，the outer diameter of the plug is 4.75mm.The positive electrode of the DC plug is in the inside, and the negative pole is outside.
+The 410c board supports this requirement through the use of J1, ‘SYS_DCIN’ power connector.
 
-< Please send any images to robert.wolff@linaro.org >
+> Please note: the SYS_DCIN can be as low as 6.5V on the 410c board.
 
-<img src="http://i.imgur.com/7qEu1Jc.png" data-canonical-src="http://i.imgur.com/7qEu1Jc.png" width="250" height="160" />
+An 8V to 18V power from the SYS_DCIN pins on the Low Speed Expansion Connector.
 
-### Power Source Selection and Sequencing
+> Please note: the SYS_DCIN can be as low as 6.5V on the 410c board. The 410c board supports incoming power through this connector.
 
-< Describe any priority mechanism in selection of power source if any and the sequence in which power will be provided to the various components before getting to the SoC. Describe any customisation if possible. A sequence diagram will also be useful to provide >
+A USB Type C port at 5V.
 
-The user of the Helio X20 Development Board should never apply power to the board from J901 and the Low Speed Expansion connector at the same time. There is no active or passive mechanism on the Helio X20 Development Board to prioritize one source over the other.
+> Please note: The 410c board does not implement a USB Type C port and therefore cannot be powered over USB
 
-< Please send any images to robert.wolff@linaro.org >
+### Power Source Selection
 
-<img src="http://i.imgur.com/DnnDJkk.png" data-canonical-src="http://i.imgur.com/DnnDJkk.png" width="750" height="480" />
+Following the information in section 9.1, the 410c board has only two sources for board incoming power. The 96Boards
+specification calls for only one power source to be applied to the board at any given time. Following this requirement, the
+user of the 410c board should never apply power to the board from J1 and the Low Speed Expansion connector at the
+same time. There is no active or passive mechanism on the 410c board to prioritize one source over the other.
 
+### Power Consumption
+
+TBD
+
+### Power Sequencing
+
+Upon applying power to the 410c board (either one of the two sources), both buck regulators will be enabled and will start
+regulating their target voltages. When the output of U12 is on, it will power the on-board PMIC, the PM8916. This PMIC
+has four buck regulators, one boost regulator and 20 LDOs. The sequencing of all power rails is set within the PM8916
+configuration scheme during the production of this part. The user has no access to alter, modify or change the PMIC power
+up sequencing.
 
 ### Voltage Rails
 
-< List of independent voltage rails from the PMIC, what components the provide power to, voltage values and schematic showing how the core and peripheral power is supplied on the board. Also useful to note the probe points where these voltages can be measured >
+TBD
 
-| Circuit Type | Net Name            | Default ON Voltage(V)  | Iout Max (mA)  | Expected use                                      |
-|--------------|---------------------|------------------------|----------------|---------------------------------------------------|
-| BUCK         |  SYS_5V             | 5                      | 6000           | system 5V                                         |
-|              |  VBAT               | 4.2                    | 6000           | system power                                      |
-|              |  DVDD_PROC1         | 0.6 ~ 1.3              | 10000          | Core power for Processor of MT6797                |
-|              |  DVDD_PROC2         | 0.6 ~ 1.3              | 10000          |                                                   |
-|              |  DVDD_GPU           | 0.6 ~ 1.3              | 5000           | Core power for GPU of MT6797                      |
-|              |  DVDD_MODEM         | 0.9                    | 1200           | BB1&AP MCU of MT6797                              |
-|              |  VDRAM_PMU          | 1                      | 3000           | DRAM of MT6797                                    |
-|              |  DVDD_CORE          | 1                      | 3000           | core AP Core of MT6797                            |
-|              |  DVDD_MDI           | 0.9                    | 1200           | BB2(LTE) of MT6797                                |
-|              |  DVDD_SRAM_MD       | 1                      | 1200           | MD Memory of MT6797                               |
-|              |  VS1_PMU            | 2                      | 2000           | Low Dropout LDO input                             |
-|              |  VS2+PMU            | 1.4                    | 2000           | Low Dropout LDO input                             |
-| LDO          |  VTCXO28_PMU        | 2.8                    | 40             | DAC of MT6797                                     |
-|              |  VTCXO24_PMU        | 2.375                  | 40             | NOT USE                                           |
-|              |  VSIM1_PMU          | 3                      | 100            | AVDD_USB_P1 of MT6797                             |
-|              |  VSIM2_PMU          | 3                      | 100            | DVDD28_SIM2 of MT6797                             |
-|              |  VCN18_PMU          | 1.8                    | 200            | connectivity                                      |
-|              |  VCN28_PMU          | 2.8                    | 40             | connectivity                                      |
-|              |  VCN33_PMU          | 3.3                    | 500            | connectivity                                      |
-|              |  VDRAM_LDO_PMU      | 1.21                   | 1200           | NOT USE                                           |
-|              |  VMIPI_PMU          | 1.8                    | 200            | MT8193                                            |
-|              |  VUSB33_PMU         | 3.07                   | 100            | USB power                                         |
-|              |  VUSB10_PMU         | 0.9                    | 300            | AP Analog module                                  |
-|              |  VIO28_PMU          | 2.8                    | 200            | TCXO                                              |
-|              |  VIO18_PMU          | 1.8                    | 1000           | 1.8V IO                                           |
-|              |  VBIF28_PMU         | 2.8                    | 20             | NOT USE                                           |
-|              |  VEFUSE_PMU         | 1.8                    | 200            | AP EFUSE                                          |
-|              |  VMC_PMU            | 3                      | 200            | DVDD of memory card                               |
-|              |  VMCH_PMU           | 3                      | 200            | SD card                                           |
-|              |  VEMC_3V3_PMU       | 3                      | 800            | EMMC                                              |
-|              |  VLDO28_PMU         | 2.8                    | 800            | MT8193                                            |
-|              |  VIBR_PMU           | 3                      | 200            | MT8193                                            |
-|              |  VGP3_PMU           | 1 ~ 1.8                | 300            | NOT USE                                           |
-|              |  VDCXO_PMU          | 2.2                    | 40             | NOT USE                                           |
-|              |  VA18               | 1.8                    | 300            | Audio/ABB                                         |
-|              |  VSRAM_PROC_PMU     | 0.6 ~ 1.2              | 250            | CPU1 SRAM power of MT6797                         |
-|              |  VRF12_PMU          | 1.2                    | 145            | MT8193                                            |
-|              |  VRTC               | 2.8                    | 2              | RTC                                               |
-|              |  3V3_LDO            | 3.3                    | 1000           | HDMI                                              |
-| Other        |  HDMI_5V            | 5                      | 700            | HDMI output voltage                               |
-|              |  VBUS_HOST1         | 5                      | 1200           | USB host1 output voltage(CON6401)                 |
-|              |  VBUS_HOST2         | 5                      | 1200           | USB host2 output voltage(CON6402)                 |
-|              |  VIO18_PMU          | 1.8                    | 200            | 1.8V on LS connector                              |
-|              |  SYS_5V             | 5                      | 2000           | 5V on LS connector                                |
-|              |  DC_IN              | 8 ~ 18                 | 1000           | 8-18V DCIN on LS connector as output              |
-|              |  DC_IN              | 8 ~ 18                 | 3000           | 8-18V DCIN on LS connector as input               |
+### Power Measurements
 
-[Back to top]()
+The 96Boards specification calls for a minimum of one current sense resistor to be placed on the board permitting a basic
+power measurement functions.
+
+The 410c implements two different power measurements.
+
+#### Power-In measurement
+
+A 0.1ohm resistor is placed inline to the SYS_DCIN power line coming from J1 (please note that this power in measurement
+only works for SYS_DCIN from J1, it will not measure SYS_DCIN applied from the Low Speed Expansion Connector). Placing
+a probe over this resistor will provide a voltage measurement of the voltage drop across the resistor. Dividing this
+measurement by 0.1 will give you the amount of the current flowing into the board. The board provides a means to use
+ARM Energy probe for this measurement, please verify that JP3 and JP4 are each shorted and J10 is soldered to the board
+to take advantage of this probe.
+
+#### PMIC Power-In measnurement
+
+A 0.1ohm resistor should replace the existing inline 0 ohm resistor on VPH_PWR line, the output of U12 buck regulator
+that feeds the PMIC. Placing a probe over this resistor will provide a voltage measurement of the voltage drop across the
+resistor. Dividing this value by 0.1 will give you the amount of the current flowing into the PMIC. The board provides a
+means to use an ARM Energy probe for this measurement, the following steps are requires to get this probe measuring this
+rail:
+
+1. **Remove R122 and R123 from the board to prevent a short between SYS_DCIN and VPH_PWR**
+2. J10 needs to be soldered to the board.
+3. R124 and R125, 0 ohm 0201 resistors, need to be soldered to the board.
 
 ***
 
 ## Mechanical Specification
 
-< Add a drawing showing the mechanical layout, dimensions, distance between mounting holes, max. component height >
-
-< Please send any images to robert.wolff@linaro.org >
-
 ### 2D Reference Drawing
 
-< Example >
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/2DDrawing.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/2DDrawing.png?raw=true" width="750" height="800" />
 
-< Please send any images to robert.wolff@linaro.org >
 
-<img src="http://i.imgur.com/IdPzJTU.png" data-canonical-src="http://i.imgur.com/IdPzJTU.png" width="750" height="480" />
+***
 
-[Back to top]()
+## Special care when using USB
+
+Since the APQ8016 has a single USBOTG channel, care needs to be taken when the USB HOST function is to be used.
+Please verify that no cable is connected to the MicroUSB type B connector (and to a host on the other side of the cable) as
+the hardware of the 410c board will inform software about the presence of a request to configure the USBOTG to device
+mode. Depending on the software release that is used on the board, the driver may configure the USB Mux to Device
+mode and none of the USB HOST ports will be connected to the SoC.
+
+
+***
+
+## Statements regarding FCC
+
+###### FCC Label Warning
+
+This device complies with Part 15 of the FCC Rules. Operation is subject to the following two conditions:
+
+- This device may not cause harmful interference.
+- This device must accept any interference received, including interference that may cause undesired operation.
+
+Cet appareil se conforme aux principes de licence –exempts RSS de l’Industrie de Canada. Gestion dépende des conditions
+suivantes :
+
+- l'appareil ne doit pas produire de l’interférence, et
+- l'appareil doit accepter toutes sortes d’interférences, cela incluet l’interférence qui va peut--‐être causer les résul‐ tats indésirables de l’appareil.
+
+This device generates and uses radio waves and if not used properly may cause interference to radio and TV reception. It
+has been tested and found to comply with the limits set by the FCC which are designed to provide reasonable protection
+against such interference.
+
+###### Caution
+
+Arrow Electronics, Inc. (“Arrow”) is not responsible for any radio or TV interference caused by unauthorized modifications
+to this equipment. Changes or modifications not expressly approved Arrow could void the user’s authority to operate the
+equipment.
+
+###### FCC Warning Statement
+
+**Note**: This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to Part 15
+of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference in a residential
+installation. This equipment generates uses and can radiate radio frequency energy and, if not installed and used in
+accordance with the instructions, may cause harmful interference to radio communications. However, there is no
+guarantee that interference will not occur in a particular installation. If this equipment does cause harmful interference to
+radio or television reception, which can be determined by turning the equipment off and on, the user is encouraged to try
+to correct the interference by one or more of the following measures:
+
+- Reorient or relocate the receiving antenna.
+- Increase the separation between the equipment and receiver.
+- Connect the equipment into an outlet on a circuit different from that to which the receiver is connected.
+
+Consult the dealer or an experienced radio/television technician for help.
+
+###### CAN ICES-3 (B) NMB-3 (B)
+
+This equipment complies with radiation exposure limits set forth for uncontrolled environment. The antenna(s) used for
+this transmitter must be installed to provide a separation distance of at least 20 cm from all persons and must not be
+collocated or operating in conjunction with any other antenna or transmitter.
+
+Cet appareil se conforme aux limites d'exposition aux rayonnements pour un environnement non contrôlé. L'antenne (s)
+qui est utilize pour cet émetteur doit être installé pour produire une distance de separation d'au moins 20 cm de toutes
+personnes et ne doit pas être installé à proximité ou utilize en conjunction avec une autre antenne ou émetteur.
