@@ -1,15 +1,12 @@
 ---
-title: Using the DragonBoard™ 410c
-permalink: /documentation/consumer/dragonboard410c/
-redirect_from:
-- /documentation/ConsumerEdition/DragonBoard-410c/README.md/
-- /documentation/ConsumerEdition/DragonBoard-410c/
-- /documentation/consumer/dragonboard410c/README.md/
-- /db410c-getting-started/
+title: Documentation for i.MX7 96
+permalink: /documentation/consumer/imx7-96/
+redirect_from:  /documentation/ConsumerEdition/imx7-96/
 ---
-# Using the DragonBoard™ 410c
+# Using the i.MX7 96
 
-A comprehensive guide to using the [DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/) Consumer Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
+A comprehensive guide to using the [i.MX7 96](https://www.96boards.org/product/imx7-96/) Consumer Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) and [NovTech Team](http://www.novtech.com/) with community contributions and links to third-party content.
+
 
 ## Software
 
@@ -23,14 +20,14 @@ A comprehensive guide to using the [DragonBoard 410c](https://www.96boards.org/p
 ## Documentation
 
 - [Getting Started](getting-started/)
-   - Learn about your DragonBoard 410c board, how to prepare and set up for basic use
+   - Learn about your i.MX7 96 board, how to prepare and set up for basic use
 - [Useful Guides](guides/)
    - These guides will help to get you started with a variety of available on-boards software
 - [Vendor Documentation](vendor-docs/)
    - Discover our list of sponsored DragonBoard 410c documents, these include User Guides and Application notes
 - [Hardware Documentation](hardware-docs/)
-   - Explore what makes your DragonBoard 410c unique, technical specifications, schematics, hardware notes and more...
+   - Explore what makes your i.MX7 96 unique, technical specifications, schematics, hardware notes and more...
 - [Support](support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 - [Contribute](downloads/contribute.md)
-   - How to contribute patches into the Dragonboard 410c software releases
+   - How to contribute patches into the i.MX7 96 software releases

@@ -93,7 +93,7 @@ https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/a
 
 ## Introduction
 
-The DragonBoard 410c (‘410c’) board is a 96Boards compliant community board based on Qualcomm® Snapdragon 400 series of SoC’s.
+i.MX7 96Boards - Meerkat™ board, based on the NXP® i.MX7D SoC, is a member of 96Boards community and complies with all Consumer Edition board specifications.
 
 <img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-front-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-front-sd.jpg?raw=true" width="250" height="160" />
 <img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-angle-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-angle-sd.jpg?raw=true" width="250" height="160" />
@@ -102,54 +102,48 @@ The DragonBoard 410c (‘410c’) board is a 96Boards compliant community board 
 The following table lists it's key features:
 
 - **Processor**:
-   - Qualcomm Snapdragon 410
-   - Quad-core ARM® Cortex® A53 at up to 1.2 GHz per core
-   - 64-Bit capable
-   - Qualcomm Adreno 306 400MHz GPU for PC-class graphics with support for
-   - Advanced APIs, including OpenGL ES 3.0, OpenCL, DirectX, and content security
+   - NXP<sup>®</sup> i.MX7D processor
+   - Dual-core ARM<sup>®</sup> Cortex-A7 at up to 1.2GHz per core
+   - Single-core ARM<sup>®</sup> Cortex-M4 at up to 200Mhz
 - **Memory / Storage**:
-   - 1GB LPDDR3, 533MHz
-   - 8GB eMMC 4.51
-   - SD 3.0 (UHS-I)
+   - 512MB DDR3L
+   - 4 to 64 GB microSD
 - **Video**:
-   - 1080p@30fps HD video playback and capture with H.264 (AVC), and 720p
-   - Playback with H.265 (HEVC)
+   - Up to 1080p@30fps HD
 - **Camera Support**:
-   - Integrated ISP with support for image sensors up to 13MP
+   - MIPI-CSI (Mobile Industry Processor Interface - Camera Serial Interface) 2x lane
 - **Audio**:
-   - PCM/AAC+/MP3/WMA, ECNS, Audio+ post-processing (optional)
+  - HDMI Audio
+  - Bluetooth Audio
+  - I2S 4Wire interface via expansion connector
 - **Connectivity**:
-   - WLAN 802.11 b/g/n 2.4GHz
-   - Bluetooth 4.1
-   - One USB 2.0 micro B (device mode only)
-   - Two USB 2.0 (host mode only)
-   - GPS
-   - On-board GPS antenna
-   - On-board BT and WLAN antenna
+  - WLAN 802.11 b/g/n 2.4GHz
+  - Bluetooth 4.1
+  - Two USB 2.0 HOST A type
+  - One USB 2.0 OTG micro AB
+  - 1 USB 2.0 Host via expansion connector
+  -  USB 2.0 HSIC via expansion connector
+
 - **I/O Interfaces**:
    - One 40-pin Low Speed (LS) expansion connector
-      - UART, SPI, I2S, I2C x2, GPIO x12, DC power
+     - UART x2, SPI, I2S, I2C x2, GPIO x12, DC power. (Interfaces can be configured as CAN, PWM and other peripherals based on the i.MX7D PINMUX function)<sup>1</sup>
    - One 60-pin High Speed (HS) expansion connector
-      - 4L-MIPI DSI, USB, I2C x2, 2L+4L-MIPI CSI
-   - One 16-pin analog expansion header
-      - Stereo headset/line-out, speaker and analog line-in
-   - Footprint for one optional 16-pin analog expansion connector for stereo headset/line-out, speaker and analog line-in
-   - The board can be made compatible with Arduino using an add-on mezzanine board
-- **EXternal Storage**:
+     - SDHC/SDIO, MIPI DSI (two lanes), MIPI CSI (two lanes), I2C, GPIO x3, USB 2.0 HOST & USB 2.0 HSIC
+   - The board can be made compatible with Arduino using an add-on mezzanine board.
+- **External Storage**:
    - Micro SD card slot
+   - SDHC Interface via expansion connector
 - **User Interface**:
-   - 4 Buttons: Power/Reset/Volume Up/down
-   - 6 LED indicators
-      -  4 -user controllable
-      -  2 -for radios (BT and WLAN activity)
+   - Power Button
+   - Reset Button
+   - 6 LED Indicators
+     - 4 – user controllable
+     -  2 – for radios (BT and WLAN activity)
 - **OS Support**:
-   - Android 5.1
-   - Linux based on Debian
-   - OpenEmbedded
-   - Windows IoT Core
-   - Ubuntu Snappy Core
+   - Linux OS, terminal base (BuildRoot build)
+   -  Linux OS, GUI (Yocto build)
 - **Mechanical**:
-   - Power: +6.5V to +18V
+   - +5V to +42VDC (exceeding 96Boards specifications)
    - Dimensions: 54mm by 85mm meeting 96Boards™ Consumer Edition standard dimensions specifications
 - **Environmental**:
    - Operating Temp: 0°C to +70°C
@@ -159,7 +153,12 @@ The following table lists it's key features:
 
 ## What's in the Box
 
-The box contains one DragonBoard 410c and a quick start guide.
+- i.MX7 96Boards - Meerkat™
+- SD card with Linux image
+- Power supply
+- UART to USB cable
+- Quick Start Guide
+
 
 <img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxBoard.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxBoard.png?raw=true" width="400" height="270" />
 <img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxPamplet.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxPamplet.png?raw=true" width="450" height="250" />
@@ -168,19 +167,19 @@ The box contains one DragonBoard 410c and a quick start guide.
 
 
 ***
-
+<!---
 ## Board Overview
 
 | Position | Reference | Description                                               |
 |---------:|:----------|:----------------------------------------------------------|
 |    1     |  J8       |  (J8) Low Speed Expansion Connector                       |
-|    2     |           |  APQ8016 Snapdragon Processor                             |
-|    3     |  U9       |  (U9) Power Management PMIC                               |
-|    4     |  J7       |  (J7) Analog Expansion Connector                          |
-|    5     |           |  WLAN/Bluetooth/GPS                                       |
-|    6     |  J1       |  (J1) Power Jack                                          |
-|    7     |  J5       |  (J5) uSD Card Socket                                     |
-|    8     |  J6       |  (J6) HDMI Type A Port                                    |
+|    2     |           |  APQ8016 Snapdragon Processor                                |
+|    3     |  U9       |  (U9) Power Management PMIC                                 |
+|    4     |  J7       |  (J7) Analog Expansion Connector                              |
+|    5     |           |  WLAN/Bluetooth/GPS                                                  |
+|    6     |  J1       |  (J1) Power Jack                                                          |
+|    7     |  J5       |  (J5) uSD Card Socket                                                 |
+|    8     |  J6       |  (J6) HDMI Type A Port                                                    |
 |    9     |  J9       |  (J9) High Speed Connector                                |
 |    10    |  J4       |  (J4) Micro USB Type B Connector                          |
 |    11    |           |  Bluetooth/WLAN LED's                                     |
@@ -196,7 +195,7 @@ The box contains one DragonBoard 410c and a quick start guide.
 <img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Front.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Front.png?raw=true" width="400" height="270" />
 <img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Back.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Back.png?raw=true" width="400" height="270" />
 
-
+-->
 
 ***
 
