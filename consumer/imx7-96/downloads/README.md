@@ -5,7 +5,7 @@ redirect_from: /documentation/ConsumerEdition/imx7-96/downloads/
 ---
 ## Downloads
 
-The i.MX7 96 comes pre-installed with Linux graphical desktop based on xfce. If you would like to switch the Operating System, update the existing software images on your board, or unbrick your board, this page provides links to the latest software downloads.
+The i.MX7 96Board comes pre-installed with Linux graphical desktop based on xfce. If you would like to switch the Operating System, update the existing software images on your board, or unbrick your board, this page provides links to the latest software downloads.
 
 ***
 
