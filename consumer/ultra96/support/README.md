@@ -7,3 +7,4 @@ Please take advantage of the many Ultra96 resources available to you through Xil
 - [Report a bug!](../../../Report_a_bug.md)
    - Instructions on how to report bugs for any of our 96Boards hardware and software, this includes the Ultra96!
 - [Avnet ZedBoard](http://zedboard.org/forums/ultra96-hardware-design)
+   - For hardware related questions and Xilinx development flow inquiries
