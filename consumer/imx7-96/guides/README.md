@@ -1,12 +1,9 @@
 ---
-title: Useful Guides for DragonBoard-410c
-permalink: /documentation/consumer/dragonboard410c/guides/
-redirect_from:
-- /documentation/ConsumerEdition/DragonBoard-410c/Guides/README.md/
-- /documentation/ConsumerEdition/DragonBoard-410c/Guides/
-- /documentation/consumer/dragonboard410c/guides/README.md/
-- /db410c-getting-started/Guides/README.md/
+title: Useful Guides for i.MX7 96
+permalink: /documentation/consumer/imx7-96/guides/
+redirect_from: /documentation/ConsumerEdition/imx7-96/guides/
 ---
+
 # Useful Guides
 
 These guides will help to get you started with a variety of available on-boards software

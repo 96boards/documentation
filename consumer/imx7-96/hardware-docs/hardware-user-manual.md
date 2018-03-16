@@ -159,11 +159,11 @@ The following table lists it's key features:
 - UART to USB cable
 - Quick Start Guide
 
-
+<!---
 <img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxBoard.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxBoard.png?raw=true" width="400" height="270" />
 <img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxPamplet.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxPamplet.png?raw=true" width="450" height="250" />
 
-
+-->
 
 
 ***
@@ -195,7 +195,7 @@ The following table lists it's key features:
 <img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Front.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Front.png?raw=true" width="400" height="270" />
 <img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Back.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Back.png?raw=true" width="400" height="270" />
 
--->
+
 
 ***
 
@@ -205,55 +205,71 @@ The following table lists it's key features:
 
 
 ***
-
+-->
 ## Getting Started
 
 #### Prerequisites
 
-Before you power up your DragonBoard 410c for the first time you will need the following:
+Before you power up your Meerkat™ for the first time you will need the following:
 
-- DragonBoard 410c
-- A 96Boards compliant power supply (sold separately by Arrow).
-- A HDMI or DVI LCD Monitor that supports a resolution of 1080P/30Hz.
-- HDMI-HDMI cable or HDMI-DVI cable to connect the board to the Monitor.
+- i.MX7 96Boards - Meerkat™
+- A 96Boards compliant power supply (included in the kit).
+- An HDMI Monitor that supports a resolution of 1080P/30Hz.
+- HDMI-HDMI cable to connect the board to the Monitor.
 - A computer keyboard with USB interface.
 - A computer mouse with USB interface.
+- An SD card with Linux Image (SD card included in the kit)
+
+#### Known Limitations
+
+< Add a list of HW/SW limitations (e.g. OTG and Type A USB can’t be use simultaneously) >
 
 #### Starting the board for the first time
 
 To start the board, follow these simple steps:
 
-1. Connect the HDMI cable to the 410c HDMI connector (marked J6) and to the LCD Monitor
-2. Connect the keyboard to the boards USB connector marked J3 and the mouse to the USB connector marked J2. (It doesn’t matter which order you connect them in. You can also connect via an external USB Hub.)
-3. Ensure that the boot switches S6 are set to ‘0000’, all in Off position
-4. Connect the power supply to power connector J1.
+** The SD card delivered with your Meerkat™ has a graphical desktop based on xfce.  **
+- Connect a 1080P monitor to the HDMI connector. It is important to do this first because the monitor may not detect the board if it is connected after starting. Ensure that the source for the display is switched to the HDMI port you are using.
+- Connect the USB keyboard and mouse.
+- Ensure that the dipswitch is set to the factory default (1-1, i.e. all the switches are on)
+- The dipswitch can be found on the reverse side of the board.
+- Connect the power supply to an outlet and the board, the board will boot to a GUI desktop.
 
-Once you plug the power supply into a power outlet the board will start the booting process, and you should see Android
-boot up.
+Once you plug the power supply into a power outlet the board will start the booting process, and you should see Linux boot up.
 
-> Note: The first boot takes several minutes due to Androids initialization. Subsequent boot times should be faster.
+> Note: If the dipswitch on the reverse side of the board is in 0-0 position the board will not boot until Power on (PWR-ON) button is pushed.
+> Note: For initial network setup follow the instructions here []
 
+[Back to top]()
 
 ***
-
+<!---
 ## Component Details
 
 ### Processor
 
-The Snapdragon 410 APQ8016 is a quad 64-bit ARM Cortex-A53 MPcore Harvard Superscalar core, supports both LP-DDR2 / LP-DDR3 SDRAM interface, Hexagon QDSP6, 13.5 MP camera input support, Adreno 306 GPU, 1080p video encode/decode, gpsOneGen 8C with GLONASS, Bluetooth 4.1, OpenGL ES 3.0, DirectX, OpenCL, Renderscript Compute, FlexRender support.
+The i.MX 7Dual family of processors represents NXP latest achievement in high-performance processing for low-power requirements with a high degree of functional integration. It is a multi-market applications processor designed to enable secure and portable applications within the Internet of Things. It boasts a powerful Dual-core ARM Cortex A7, 1.2 GHz clock speed per core with heterogeneous multicore processing capabilities, the Arm Cortex-M4 core, external & flash memory support, and dual gigabit Ethernet controller supporting AVB.
+
+### PMIC
+
+< A short section describing the properties of the PMIC and part of the schematic and description of what regulators power what components >
+
+- There are a PMIC and two dedicated DC - DC converters for MT6797 platform.
+- MT6351 is a power management system chip, containing 8 buck converters and 31 LDOs.
+- DA9214 is a 4-phase high efficiency buck converter. It is applied to offer the kernel power of APU.
+
+FAN53555 is high efficiency step-down switching regulator. It is applied to offer the DVDD power of GPU.
 
 ### Memory (DRAM)
-
-The 410c uses a single embedded Multi Chip Package (eMCP) dual function LPDDR3/eMMC memory solution. The installed chip provides 8Gbyte of solid state storage and 1Gbyte of LPDDR3.
-
-- The LPDDR3 is a 32bit width bus implementation interfacing directly to the APQ8016 build-in LPDDR controller. The maximum DDR clock is 533Mhz
-- The eMMC is an 8bit implementation interfacing with APQ8016 SDC1 interface supporting eMMC 4.5 specifications
+- 512MB ISSI DDR3
+- 4 to 64 GB microSD
+- 256KB SRAM    add more info for memory
 
 ### Micro SDHC
 
 The 96Boards specification calls for a microSDHC socket to be present on the board
 
-The 410c board SD slot (J5) signals are routed directly to the APQ8016 SDC2 interface. The slot is a push-push type with a dedicated support for card detect signal (many SD slots do not have a dedicated CD pins, they use DATA3 state as the card detected signal). The 410c board uses APQ GPIO_38 as the SD_CARD_DET_N.
+The 410c board microSD slot signals are routed directly to the APQ8016 SDC2 interface. The slot is a push-push type with a dedicated support for card detect signal (many SD slots do not have a dedicated CD pins, they use DATA3 state as the card detected signal). The 410c board uses APQ GPIO_38 as the SD_CARD_DET_N.
 
 ### Networking
 
@@ -268,14 +284,6 @@ WLAN compliant with IEEE 802.11 b/g/n specifications, meeting 96Boards minimal r
 #### Bluetooth
 
 Bluetooth compliant with the BT specifications version 4.1 (BR/EDT + BLE), meeting the 96Boards requirements for BT
-
-#### Worldwide FM Radio
-
-Worldwide FM radio, this interface is not part of the 96Boards mandatory specification. It is an optional addition that has not been tested is not officially supported.
-
-#### GPS
-
-The GPS implementation is based on Qualcomm WGR7640 GNSS RF receiver (U7) supporting GPS, GLONASS and COMPASS. The APQ8016 communicates directly with the WGR7640.
 
 ### HDMI
 
@@ -365,29 +373,20 @@ The 410c meets these requirements and additionally routes UART0 Tx/Rx lines to a
 
 The 96Boards specification calls for the present of two buttons, a Power on/sleep button and a Reset button.
 
-The 410c meets these requirements. Please see section 10 for detailed information on the buttons of the 410c board.
+The Meerkat™ meets these requirements. Please see section 10 for detailed information on the buttons of the Meerkat™.
 
 #### Power Button
 
 The push-button serves as the power-on/sleep button. Upon applying power to the board, press the power button for more than 3 seconds, the board will boot up. Once the board is running you can turn power-off by pressing the power button for more than 3 seconds. If the board is in a sleep mode, pressing the power bottom will wake up the board. Oppositely, if the board is in an active mode, pressing the power bottom will change the board into sleep mode.
 
-#### Volume up
-
-The Volume UP button is used to control the output speaker volume of the 410c.
-
-#### Volume down
-
-The Volume Down button is used to control the output speaker volume of the 410c.
 
 #### Dip-switch
 
-There is a 4 switch DipSwitch marked S6 located at the bottom side of the 410c board. For normal operation all four
-switched need to be set to the ‘off’ position.
+There is a 2 switch DipSwitch marked SW3 located at the bottom side of the Meerkat™. For normal operation both of the switches need to be set to the ‘on’ position.
 
-- **Switch 1, ‘USB BOOT’**, when set to ‘on’ position, will force boot over USB connection with a PC. This is only required for eMMC boot image upgrade. Please review the proper OS User Guide for more information on this process.
-- **Switch 2, ‘SD BOOT’**, when set to ‘on’ position, will force the SD, J5, to serve as the boot source for the 410c board when set. You can use uSD as the main boot source or it can serve as a method for eMMC boot image upgrade. Please review the proper OS User Guide for more information on this process.
-- **Switch 3, ‘USB HOST’**, is described in section 5.8. This switch in not part of the boot configuration.
-- **Switch 4, ‘HDMI SEL’**, is described in section 5.6.1. This switch is not part of the boot configuration.
+- 0-0 position
+- 1-0 position
+- 1-1 position
 
 <img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BootConfiguration.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BootConfiguration.png?raw=true" width="200" height="125" />
 
@@ -398,13 +397,13 @@ and mechanical location on the board.
 
 #### Two activity LEDs
 
-- WiFi activity LED – 410c board drives this Yellow LED via MPP_2, an IO from the PMIC.
-- BT activity LED – 410c board drives this Blue LED via MPP_3, an IO from the PMIC
+- WiFi activity LED – Meerkat™ board drives this Yellow LED via MPP_2, an IO from the PMIC. update the info
+- BT activity LED – Meerkat™ board drives this Blue LED via MPP_3, an IO from the PMIC
 
 #### Four User LEDs
 
-The four user LEDs are surface mount Green in 0603 size located next to the two USB type A connector and labeled ‘USER
-LEDS 4 3 2 1’. The 410c board drives two LEDs from the SoC GPIO, APQ GPIO_21 and APQ GPIO_120. The other two User
+The four user LEDs are surface mount Green in 0805 size located next to the two USB type A connector and labeled ‘USER
+LEDS 4 3 2 1’. The Meerkat™ board drives two LEDs from the SoC GPIO, APQ GPIO_21 and APQ GPIO_120. The other two User
 LEDs are driven by the PMIC via PM GPIO_1 and PM GPIO_2.
 
 ### Additional Functionality
@@ -412,16 +411,18 @@ LEDs are driven by the PMIC via PM GPIO_1 and PM GPIO_2.
 The 96Boards specifications allows for additional functionality provided that all mandatory functionality is available and
 there is no impact on the physical footprint specifications including height and do not prevent the use of the 96Boards CE
 low speed and high speed expansion facilities
-The 410c board implements a few additional functions, which are listed in the following sub-chapters.
+The Meerkat™ board implements a few additional functions, which are listed in the following sub-chapters.
 
+-->
 
+<!---
 ***
 
 ## Expansion Connectors
 
 The 96Boards specification calls for two Expansion Connectors, a Low Speed and a High Speed.
 
-The 410c meets this requirement, the following sub-sections cover these connectors.
+The Meerkat™ meets this requirement, the following sub-sections cover these connectors.
 
 ### Low Speed Expansion Connector
 
@@ -453,17 +454,17 @@ The 410c meets this requirement, the following sub-sections cover these connecto
 The 96Boards specifications calls for a 4-wire UART implementation, UART0 and an optimal second 2-wire UART, UART1 on
 the Low Speed Expansion Connector.
 
-The 410c board implements UART0 as a 4-wire UART that connects directly to the APQ8016 SoC. These signals are driven
+The Meerkat™ board implements UART0 as a 4-wire UART that connects directly to the APQ8016 SoC. These signals are driven
 at 1.8V.
 
-The 410c board implements UART1 as a 2-wire UART that connects directly to the APQ8016 SoC. These signals are driven
+The Meerkat™ board implements UART1 as a 2-wire UART that connects directly to the APQ8016 SoC. These signals are driven
 at 1.8V.
 
 #### I2C {0/1}
 
 The 96Boards specification calls for two I2C interfaces to be implemented on the Low Speed Expansion Connector.
 
-The 410c board implements both interfaces, I2C0 and I2C1 that connects directly to the APQ8016SoC. A 2K resistor is
+The Meerkat™ board implements both interfaces, I2C0 and I2C1 that connects directly to the APQ8016SoC. A 2K resistor is
 provided as pull-up for each of the I2C lines per the I2C specifications, these pull-ups are connected to the 1.8V voltage
 rail.
 
@@ -813,7 +814,7 @@ the hardware of the 410c board will inform software about the presence of a requ
 mode. Depending on the software release that is used on the board, the driver may configure the USB Mux to Device
 mode and none of the USB HOST ports will be connected to the SoC.
 
-
+-->
 ***
 
 ## Statements regarding FCC

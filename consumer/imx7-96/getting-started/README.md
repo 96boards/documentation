@@ -71,7 +71,7 @@ community and embedded product manufacturers.
 
 ## Starting the board for the first time
 
-**The SD card delivered with your Meerkat<sup>®</sup> has a graphical desktop based on xfce. **
+** The SD card delivered with your Meerkat<sup>®</sup> has a graphical desktop based on xfce.  **
 - Connect a 1080P monitor to the HDMI connector. It is important to do this first because the monitor may not detect the board if it is connected after starting. Ensure that the source for the display is switched to the HDMI port you are using.
 - Connect the USB keyboard and mouse.
 - Ensure that the dipswitch is set to the factory default (1-1, i.e. all the switches are on)
