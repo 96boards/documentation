@@ -69,4 +69,4 @@ This directory contains the following directories:
 
  - When completed, you should see something like this:
 
- <img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-software/completed-compilation-buildroot.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-software/completed-compilation-buildroot.png?raw=true" width="250" height="160" />
+ <img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-software/completed-compilation-buildroot.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-software/completed-compilation-buildroot.png?raw=true" width="500" height="320" />
