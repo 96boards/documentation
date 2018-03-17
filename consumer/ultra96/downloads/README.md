@@ -14,6 +14,6 @@ Operating systems supported on Ultra96, offered by Linaro.
 
 ### Third Party Operating Systems
 
-- [Linux](linux.md)
+- [PetaLinux](peta-linux.md)
 
 ***
