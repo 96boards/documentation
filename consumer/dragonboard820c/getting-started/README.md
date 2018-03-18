@@ -86,7 +86,7 @@ For more information and support, you may also want to visit the [DragonBoard 82
 
 ## What's Next?
 
-If you are already familiar with the i.MX7 96 board and would like to change out the stock operating system, please proceed to one of the following pages:
+If you are already familiar with the DragonBoard™ 820c and would like to change out the stock operating system, please proceed to one of the following pages:
 
 - [Downloads page](../downloads/): This page lists all Linaro and 3rd party operating systems available for the DragonBoard 820c
 - [Installation page](../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your DragonBoard 820c
