@@ -6,9 +6,9 @@ Learn about your Ultra96 board as well as how to prepare and set up for basic us
 
 **Need**
 - [Ultra96](http://www.96boards.org/product/ultra96/)
-   - Board based on XXXXX processor
+   - Board based on Xilinx Zynq UltraScale+ MPSoC ZU3EG A484
 - Power adapter
-   - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
+   - 96Boards specifications requires a 8V-18V with 2000mA Power adapter
 - USB Keyboard and Mouse
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
 - Monitor and HDMI Cable
