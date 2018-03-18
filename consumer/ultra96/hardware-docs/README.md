@@ -9,5 +9,8 @@ Explore what makes your Ultra96 unique, technical specifications, schematics, ha
 
 ## Hardware
 
-- BOM [View]()(.pdf)
-- Schematics [View]()(.pdf)
+- Schematics [View](/documentation/consumer/dragonboard820c/hardware-docs/files/ultra96-schematics.pdf) (.pdf)
+- Assembly [View](/documentation/consumer/dragonboard820c/hardware-docs/files/ultra96-assembly.pdf) (.pdf)
+- Bill of Materials [View](/documentation/consumer/dragonboard820c/hardware-docs/files/ultra96-bom.pdf) (.pdf)
+- Layout [View](/documentation/consumer/dragonboard820c/hardware-docs/files/ultra96-layout.pdf) (.pdf)
+- Mechanical and Drill [View](/documentation/consumer/dragonboard820c/hardware-docs/files/ultra96-mechanical.pdf) (.pdf)
