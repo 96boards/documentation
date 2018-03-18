@@ -23,8 +23,8 @@ Choose one boot image, the root file system you choose will be based on the boot
 
 |   Boot image    |  Build Folder ([RPB](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb/) / [RPB-Wayland](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb-wayland/))   |
 |:------------------|:-----------------------|
-| RPB    | [Download](http://releases.linaro.org/reference-platform/embedded/hikey/16.12/rpb/boot-0.0+AUTOINC+76c7cfcc22-bdec62eeb8-r0-hikey-*.uefi.img)   |
-| RPB-Wayland    |  [Download](http://releases.linaro.org/reference-platform/embedded/hikey/16.12/rpb-wayland/boot-0.0+AUTOINC+76c7cfcc22-bdec62eeb8-r0-hikey-*.uefi.img)  |
+| RPB    | [Download](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb/boot*.uefi.img)   |
+| RPB-Wayland    |  [Download](https://releases.linaro.org/reference-platform/embedded/hikey/latest/rpb-wayland/boot*.uefi.img)  |
 
 Only download one root file system (Console or Desktop). You should match the type of rootfs to the boot image you downloaded above.
 
