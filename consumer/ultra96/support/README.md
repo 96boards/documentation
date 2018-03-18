@@ -1,3 +1,8 @@
+---
+title: Ultra96 Support
+permalink: /documentation/consumer/ultra96/support/
+---
+
 # Troubleshooting
 
 Please take advantage of the many Ultra96 resources available to you through Xilinx, 96Boards, and Avnet.

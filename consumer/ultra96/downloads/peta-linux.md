@@ -1,5 +1,7 @@
-# Peta-Linux
-
+---
+title: Ultra96 PetaLinux
+permalink: /documentation/consumer/ultra96/downloads/peta-linux.md.html
+---
 Peta-Linux is...
 
 ***

@@ -1,3 +1,8 @@
+---
+title: Getting Started with the Ultra96
+permalink: /documentation/consumer/ultra96/getting-started/
+---
+
 # Getting Started
 
 Learn about your Ultra96 board as well as how to prepare and set up for basic use

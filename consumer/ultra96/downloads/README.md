@@ -1,3 +1,8 @@
+---
+title: Ultra96 Downloads
+permalink: /documentation/consumer/ultra96/downloads/
+---
+
 ## Downloads
 
 The Ultra96 comes with a pre-flashed MicroSD Card (if purchased in a kit, OS can differ). If you would like to switch the Operating System, update the existing software images on your board, or unbrick your board, this page provides links to the latest software downloads.
