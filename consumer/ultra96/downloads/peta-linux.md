@@ -2,12 +2,12 @@
 
 Peta-Linux is...
 
-
 ***
 
 ## Pre-Built image
 
 | Download and Install                                                                                   |
 |:-------------------------------------------------------------------------------------------------------|
-|[Download]()                                  b                                                         |
+|[Download]()                                                                                            |
 |[Release Notes]()                                                                                       |
+|[Previous Releases]()                                                                                   |
