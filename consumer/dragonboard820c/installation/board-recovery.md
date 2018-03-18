@@ -35,15 +35,18 @@ This is provided in source code, and it needs to be compiled locally. It uses li
 
 To compile qdl project, it should be as simple as running make command in the top level folder of the project.
 
-### Connecting the board in USB flashing mode
+### Connecting the board in USB flashing mode (aka EDL mode)
 
-In order to force the DB820c to boot on USB, you need to configure S1 switch properly. S1 is on the back of the board underneath the micro SD slot.
+In order to force the DB820c to boot on USB (EDL mode), you need to configure S1 switch properly. S1 is on the back of the board underneath the micro SD slot. 
 
-If you have a P2 board (or above, which is the most likely situation), set it to `ON,OFF,OFF,ON`. Otherwise if you have a P1 board, set it to `ON,ON,OFF,ON`
+*Warning*: putting the device into EDL mode while the device is powered or when USB is plugged can cause damage to the board, the actual root cause is under investigation, and a hardware fix will be implemented in newer board revision.
 
-Then:
-* Connect a USB cable from the micro USB to your PC.
-* Connect UART console
+* Power off the board and make sure no USB cable is plugged into the board
+* Set switch S1 to `ON,OFF,OFF,ON`. If you have a P1 board (very unlikely) you need to set to `ON,ON,OFF,ON`.
+* Connect the debug UART / serial console to your Linux PC, if not done already
+* Connect the micro USB cable (J4) between the Linux PC and the board
+* Open UART/serial console
+* Power on the device
 
 ### Flashing the device
 
@@ -89,10 +92,10 @@ It should take a few seconds. And you should eventually get something like that:
 
 If the flashing process succeeded, all the right bootloaders and partition table should have been set. And fastboot can now be used to flash Linux root file system. The first thing to try is to get into fastboot, to make sure the flashing completed properly.
 
-* Power off the board
+* Power off the board and make sure no USB cable is plugged into the board
 * Set Switch S1 to `OFF,OFF,OFF,OFF`. If you have a P1 board (very unlikely) you may need to use `OFF,ON,OFF,OFF`.
 * Connect the debug UART / serial console to your Linux PC, if not done already
-* Connect the micro USB cable (J4) to your Linux PC.
+* Connect the micro USB cable (J4) between the Linux PC and the board
 * Open UART/serial console
 * Power on the device
 
