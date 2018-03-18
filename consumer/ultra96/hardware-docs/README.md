@@ -4,7 +4,8 @@ Explore what makes your Ultra96 unique, technical specifications, schematics, ha
 
 ## User Guides
 
-- Hardware User Manual [View]()(.pdf)
+- Hardware User Manual - Coming soon...
+- Product Brief [View](/documentation/consumer/dragonboard820c/hardware-docs/files/ultra96-product-brief.pdf) (.pdf)
 
 ## Hardware
 
