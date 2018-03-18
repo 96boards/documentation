@@ -5,12 +5,12 @@ Explore what makes your Ultra96 unique, technical specifications, schematics, ha
 ## User Guides
 
 - Hardware User Manual - Coming soon...
-- Product Brief [View](/documentation/consumer/dragonboard820c/hardware-docs/files/ultra96-product-brief.pdf) (.pdf)
+- Product Brief [View](/documentation/consumer/ultra96/hardware-docs/files/ultra96-product-brief.pdf) (.pdf)
 
 ## Hardware
 
-- Schematics [View](/documentation/consumer/dragonboard820c/hardware-docs/files/ultra96-schematics.pdf) (.pdf)
-- Assembly [View](/documentation/consumer/dragonboard820c/hardware-docs/files/ultra96-assembly.pdf) (.pdf)
-- Bill of Materials [View](/documentation/consumer/dragonboard820c/hardware-docs/files/ultra96-bom.pdf) (.pdf)
-- Layout [View](/documentation/consumer/dragonboard820c/hardware-docs/files/ultra96-layout.pdf) (.pdf)
-- Mechanical and Drill [View](/documentation/consumer/dragonboard820c/hardware-docs/files/ultra96-mechanical.pdf) (.pdf)
+- Schematics [View](/documentation/consumer/ultra96/hardware-docs/files/ultra96-schematics.pdf) (.pdf)
+- Assembly [View](/documentation/consumer/ultra96/hardware-docs/files/ultra96-assembly.pdf) (.pdf)
+- Bill of Materials [View](/documentation/consumer/ultra96/hardware-docs/files/ultra96-bom.pdf) (.pdf)
+- Layout [View](/documentation/consumer/ultra96/hardware-docs/files/ultra96-layout.pdf) (.pdf)
+- Mechanical and Drill [View](/documentation/consumer/ultra96/hardware-docs/files/ultra96-mechanical.pdf) (.pdf)
