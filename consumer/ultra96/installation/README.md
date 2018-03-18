@@ -39,6 +39,6 @@ Go to the [Downloads page](../downloads/README.md) to get your SD card image.
 
 Choose host machine
 
-- [Linux](LinuxSD.md)
-- [Mac](MacSD.md)
-- [Windows](WindowsSD.md)
+- [Linux](linux-sd.md)
+- [Mac](mac-sd.md)
+- [Windows](windows-sd.md)
