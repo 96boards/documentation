@@ -1,3 +1,8 @@
+---
+title: Getting Started with the Ultra96
+permalink: /documentation/consumer/ultra96/getting-started/
+---
+
 # Getting Started
 
 Learn about your Ultra96 board as well as how to prepare and set up for basic use
@@ -5,7 +10,7 @@ Learn about your Ultra96 board as well as how to prepare and set up for basic us
 ## Setup - What you will need
 
 **Need**
-- [Ultra96](http://www.96boards.org/product/ultra96/)
+- Ultra96
    - Board based on Xilinx Zynq UltraScale+ MPSoC ZU3EG A484
 - Power adapter
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter

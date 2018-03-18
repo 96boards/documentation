@@ -1,3 +1,8 @@
+---
+title: Ultra96 Hardware Documentation
+permalink: /documentation/consumer/ultra96/hardware-docs/
+---
+
 # Hardware Documentation
 
 Explore what makes your Ultra96 unique, technical specifications, schematics, hardware notes and more... This page allows you to see what is under the "Ultra96 hood" by offering static documentation published directly from the board vendors.

@@ -1,3 +1,7 @@
+---
+title: Ultra96 Installation
+permalink: /documentation/consumer/ultra96/installation/
+---
 # Installation
 
 The Ultra96 comes preloaded with Linux. This guide will help you choose and install an operating system on your Ultra96.
