@@ -9,7 +9,7 @@ Explore what makes your Ultra96 unique, technical specifications, schematics, ha
 
 ## User Guides
 
-- Hardware User Manual - Coming soon...
+- Hardware User Manual [View](/documentation/consumer/ultra96/hardware-docs/files/ultra96-hardware-user-guide.pdf) (.pdf)
 - Product Brief [View](/documentation/consumer/ultra96/hardware-docs/files/ultra96-product-brief.pdf) (.pdf)
 
 ## Hardware
@@ -19,6 +19,5 @@ Explore what makes your Ultra96 unique, technical specifications, schematics, ha
 - Bill of Materials [View](http://www.zedboard.org/sites/default/files/documentations/AES-ULTRA96-G%20BOM%20REV%201%20180315.pdf) (.pdf)
 - Layout [View](http://www.zedboard.org/sites/default/files/documentations/AES-ULTRA96-G%20layout%20180315.pdf) (.pdf)
 - Mechanical and Drill [View](http://www.zedboard.org/sites/default/files/documentations/AES-ULTRA96-G%20Mechanical%20and%20Drill%20180315.pdf) (.pdf)
-- [Layout](http://www.zedboard.org/sites/default/files/documentations/AES-ULTRA96-G%20layout%20180315.pdf)
-- [Power Analysis](http://www.zedboard.org/sites/default/files/documentations/Ultra96_XPE_2016_4.zip)
-- [Net Length](http://www.zedboard.org/sites/default/files/documentations/AES-ULTRA96-G%20net%20length%20180315.txt)
+- Power Analysis [View](http://www.zedboard.org/sites/default/files/documentations/Ultra96_XPE_2016_4.zip) (.pdf)
+- Net Length [View](http://www.zedboard.org/sites/default/files/documentations/AES-ULTRA96-G%20net%20length%20180315.txt) (.pdf)
