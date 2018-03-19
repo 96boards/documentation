@@ -10,16 +10,18 @@ Learn about your Ultra96 board as well as how to prepare and set up for basic us
 ## Setup - What you will need
 
 **Need**
-- Ultra96
+
+- [Ultra96](https://www.96boards.org/product/ultra96/)
    - Board based on Xilinx Zynq UltraScale+ MPSoC ZU3EG A484
 - Power adapter
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter
+
+**Optional**
+
 - USB Keyboard and Mouse
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
 - Monitor and HDMI Cable
    - All 96Boards are equiped with a full sized HDMI connector, HDMI capable monitor is recommended
-
-**Optional**
 - MicroSD card with adapter
    - For quick and easy switching between operating systems and extra storage
 - Mezzanine Products
@@ -33,7 +35,7 @@ Learn about your Ultra96 board as well as how to prepare and set up for basic us
 
 # Out of the Box
 
-The following subsections should describe how to get started with the Ultra96 using the release build shipped with your board. The Ultra96 is ready to use “out of the box” and comes with a pre-flashed MicroSD card which boots Linux. 
+The following subsections should describe how to get started with the Ultra96 using the release build shipped with your board. The Ultra96 is ready to use “out of the box” and comes with a pre-flashed microSD card which boots Linux. 
 
 <img src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/additional-doc/images/images-board/sd/ultra96-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/additional-doc/images/images-board/sd/ultra96-front-sd.png?raw=true" width="250" height="160" />
 <img src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/additional-doc/images/images-board/sd/ultra96-back-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/additional-doc/images/images-board/sd/ultra96-back-sd.png?raw=true" width="250" height="160" />
@@ -51,7 +53,7 @@ The following subsections should describe how to get started with the Ultra96 us
 |  Expansion Interface | 40-pin 96Boards Low-speed expansion header<br>60-pin 96Boards High speed expansion header        |
 |  LED                 | 4 x user-controllable LEDs                                                                       |
 |  Power Source        | 8V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm                   |
-|  OS Support          | PetaLinux                                                                                        |
+|  OS Support          | Linux                                                                                            |
 |  Size                | 85mm x 54mm                                                                                      |
 
 ***
@@ -62,7 +64,7 @@ The Ultra96 comes preloaded with Linux and can be up and running in two ways:
 
 > NOTE: In both cases ensure the included microSD card is fully inserted in the microSD card cage.
 
-- Option 1
+- **Option 1**
    - Connect the power supply to the Ultra96.
    - Momentarily press the button labeled SW3 / POWER.  It is located next to the power supply jack.
    - The first sign that the boot process has begun will be an LED labeled DS6 / DONE illuminating.  This means that the bistream for the FPGA portion of Ultra96 has successfully loaded.  This happens during uboot.
@@ -71,7 +73,7 @@ The Ultra96 comes preloaded with Linux and can be up and running in two ways:
    - From a browser, go to http://192.168.2.1
    - You will be greeted by Ultra96's homepage.
 
-- Option 2
+- **Option 2**
    - Connect the Ultra96 to a DisplayPort monitor with a miniDP to DisplayPort cable plugged into the connector labeled DISPLAY PORT.
    - Connect a USB keyboard and mouse to J8 and J9, or through a USB hub connected to J8 or J9.
    - Connect the power supply to the Ultra96.
