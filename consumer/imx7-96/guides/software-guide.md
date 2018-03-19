@@ -65,7 +65,7 @@ This directory contains the following directories:
 
 ## 2.2	Compiling in Buildroot
 
- - Change directory to “~/Projects/meerkat96” by typing
+ - Change directory to **~/Projects/meerkat96** by typing
  ```
  cd ~/Projects/meerkat96
  ```
