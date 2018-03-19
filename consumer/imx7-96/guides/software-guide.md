@@ -61,13 +61,13 @@ cd ~/Projects
 This directory contains the following directories:
  - buildroot-2015.08.01 – buildroot and associated support packages
  - meerkat96 – The buildroot project directory, containing a buildroot tree pre-configured for the i.MX7 96Board.
- - support_files – NovTech support files, including
-   - scripts to update VM packages and download from SVN.
+ - support_files – NovTech support files, including scripts to update VM packages and download from SVN.
 
 ## 2.2	Compiling in Buildroot
 
  - Change directory to “~/Projects/meerkat96” by typing
- ```cd ~/Projects/meerkat96
+ ```
+ cd ~/Projects/meerkat96
  ```
 
  - Configure buildroot to include whatever packages you desire by typing
@@ -111,7 +111,7 @@ Pre-compiled images for both the console and graphical systems are available fro
 
 Images in **03.01 – Card Images** can be programmed directly to SD/MMC cards with **dd** or Win32DiskImager per instructions in the [i.MX7 96Boards Meerkat<sup>®</sup> User Guide](../guides/user-guide.md)
 
-Images in “03.02 – Card Contents” can be downloaded to the VM extracted. These images can be written to cards using the **mk_meerkat_sd** script included in their respective directories.
+Images in **03.02 – Card Contents** can be downloaded to the VM extracted. These images can be written to cards using the **mk_meerkat_sd** script included in their respective directories.
 
 #	Building the graphical image
 
