@@ -19,3 +19,6 @@ Explore what makes your Ultra96 unique, technical specifications, schematics, ha
 - Bill of Materials [View](http://www.zedboard.org/sites/default/files/documentations/AES-ULTRA96-G%20BOM%20REV%201%20180315.pdf) (.pdf)
 - Layout [View](http://www.zedboard.org/sites/default/files/documentations/AES-ULTRA96-G%20layout%20180315.pdf) (.pdf)
 - Mechanical and Drill [View](http://www.zedboard.org/sites/default/files/documentations/AES-ULTRA96-G%20Mechanical%20and%20Drill%20180315.pdf) (.pdf)
+- [Layout](http://www.zedboard.org/sites/default/files/documentations/AES-ULTRA96-G%20layout%20180315.pdf)
+- [Power Analysis](http://www.zedboard.org/sites/default/files/documentations/Ultra96_XPE_2016_4.zip)
+- [Net Length](http://www.zedboard.org/sites/default/files/documentations/AES-ULTRA96-G%20net%20length%20180315.txt)
