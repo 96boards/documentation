@@ -9,7 +9,7 @@ Explore what makes your Ultra96 unique, technical specifications, schematics, ha
 
 ## User Guides
 
-- Hardware User Manual [View](/documentation/consumer/ultra96/hardware-docs/files/ultra96-hardware-user-guide.pdf) (.pdf)
+- Hardware User Manual (Beta) [View](/documentation/consumer/ultra96/hardware-docs/files/ultra96-hardware-user-guide.pdf) (.pdf)
 - Product Brief [View](/documentation/consumer/ultra96/hardware-docs/files/ultra96-product-brief.pdf) (.pdf)
 
 ## Hardware
