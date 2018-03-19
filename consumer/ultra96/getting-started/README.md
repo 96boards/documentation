@@ -33,7 +33,7 @@ Learn about your Ultra96 board as well as how to prepare and set up for basic us
 
 # Out of the Box
 
-The following subsections should describe how to get started with the Ultra96 using the release build shipped with the boards. The Ultra96 is ready to use “out of the box” with a preinstalled version of Android (unless otherwise specified).
+The following subsections should describe how to get started with the Ultra96 using the release build shipped with your board. The Ultra96 is ready to use “out of the box” and comes with a pre-flashed MicroSD card which boots Linux. 
 
 <img src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/additional-doc/images/images-board/sd/ultra96-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/additional-doc/images/images-board/sd/ultra96-front-sd.png?raw=true" width="250" height="160" />
 <img src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/additional-doc/images/images-board/sd/ultra96-back-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/additional-doc/images/images-board/sd/ultra96-back-sd.png?raw=true" width="250" height="160" />
