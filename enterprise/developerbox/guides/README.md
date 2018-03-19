@@ -1,14 +1,11 @@
 ---
 title: Useful Guides for the Developerbox
 permalink: /documentation/enterprise/developerbox/guides/
-redirect_from:
-
 ---
 # Useful Guides
 
 These guides will help to get you started with a variety of available on-boards software
 
-
-| Guide                                                               | Descripion                                                   |
-|:-------------------------------------------------------------------:|:-------------------------------------------------------------|
-| Guide 1                                                             |                                                              |
+| Guide                                                                 | Descripion                                                                          |
+| :-------------------------------------------------------------------: | :-------------------------------------------------------------                      |
+| [Install over http](install-over-http.md)                             | Using the system firmware to automatically download and boot ISO images using http. |
