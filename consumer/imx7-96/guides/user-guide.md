@@ -58,3 +58,55 @@ To create a card with Win32DiskImager:
 - If you are satisfied with your selections, select “Write” from the bottom center of the Win32 Disk Imager window. Writing the card will take several minutes, refer to the progress bar on the window for status.
 
 <img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/win32DiskImager.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/win32DiskImager.png?raw=true" width="529" height="377" />
+
+## Installing i.MX7 96Boards - Meerkat<sup>®</sup> Virtual Machine
+
+Updating and recompiling the images will require access to a properly configured Linux machine. A virtual machine has been provided with the Meerkat<sup>®</sup> to speed your development. Refer to the [Software Guide for the Meerkat<sup>®</sup>](../guides/software-guide.md) for further information on compilation.
+
+Once all prerequisites are met, using 7Zip or any acceptable unzip program, unzip the **NovTech_VM_U14.04.4_Meerkat.7z** file to your PC hard drive. After unzipping, navigate to the created folder **NovTech_VM_U14.04.4_Meerkat**. Double Click on the file **NovTech_VM_U14.04.4.vmx**. VMware® Player should load the virtual machine.
+Another method could be to open VMware Player and click on ‘Open a Virtual Machine’ then navigate to the **NovTech_VM_U14.04.4_Meerkat** folder to find the virtual machine setup file.
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/OpenVM.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/OpenVM.png?raw=true" width="385" height="386" />
+*VMware<sup>®</sup> Player Open Virtual Machine*
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatVM.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatVM.png?raw=true" width="396" height="378" />
+*VMware<sup>®</sup> Player Select Virtual Machine*
+
+To save on storage and transmission, the Meerkat<sup®</sup> virtual machine is preconfigured to use 1G of RAM. NovTech recommends increasing this value to a minimum of 2GB. You can edit this value to increase or decrease the amount of RAM assigned to the VM. After opening VMware<sup>®</sup> Player, click on **Edit Virtual Machine Settings**, navigate to **Hardware** tab and select **Memory**. Adjust memory to the desired size.
+
+## Configure the RAM dedicated to your VM.
+
+To minimize the size of the VM image in storage and transit, the VM has been limited to 1GB of RAM. For optimal performance, increase the amount of RAM allocated to the VM.
+NovTech recommends allocating a minimum of 2GB of memory to the machine, and optimally 6GB of RAM.
+
+This setting is under **Virtual machine->virtual machine settings->hardware**, and can be modified when the virtual machine has been powered off.
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/VMsettingsWindow.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/VMsettingsWindow.png?raw=true" width="393" height="443" />
+*Virtual Machine settings window*
+*Note: Allocating more than ¼ of the physical ram on your machine to the VM will degrade overall performance and may cause issues.*
+
+You can modify other setting from this window. Once the Virtual Machine starts for the first time, you will be asked to choose whether you **Moved it** or **Copied it**. Please select the **Moved it** option.
+
+## Logging into the VM
+
+To log into the virtual machine please type **novtech** for the password.
+
+*Note: A pop-up window may ask you to update the VMware<sup>®</sup> Linux Tools. It is not necessary to do so, but if you wish to stop seeing the message tab on the bottom of the VM, click ‘Install’ button when asked. VMware<sup>®</sup> will then mount a CD drive and open the mounted folder with the install files contained in that folder. Copy all the files in that folder and paste them in your home folder. Open a Terminal window where you placed the files. Run these two commands:*
+```
+sudo chmod 777 auto*.sh
+```
+Enter the **novtech** password when prompted.
+To install the tools run:
+```
+sudo ./autorun.sh
+```
+
+*After installation is complete you can delete the files from the folder and eject the CD drive that VMware® auto mounted. This should remove the tab on the bottom of the VM, notifying you about the VMware Linux Tools install.*
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/VMdesktopScreen.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/VMdesktopScreen.png?raw=true" width="490" height="466" />
+*Meerkat<sup>®</sup> Virtual Machine Desktop Screen*
+
+## Contents of the Virtual Machine Desktop
+Along the left side of desktop are multiple icons:
+
+- Search for software on computer and online:
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Search.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Search.png?raw=true" width="77" height="75" />
