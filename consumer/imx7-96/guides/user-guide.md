@@ -13,4 +13,4 @@ redirect_from:
 - Provide the serial # from the back side of Meerkat<sup>®</sup> board.
 - Provide the requested information and select **Meerkat** from the version drop down.
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatRegistration.jpeg?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatRegistration.jpeg?raw=true" width="500" height="320" />
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatRegistration.jpeg?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatRegistration.jpeg?raw=true" width="558" height="598" />
