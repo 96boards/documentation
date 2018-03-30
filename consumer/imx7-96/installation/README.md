@@ -7,4 +7,4 @@ redirect_from: /documentation/ConsumerEdition/imx7-96/installation/
 
 For  installation information and instructions, please visit one of following guides:
 
-- [Software Guide](../guides/software-guide)
+- [Software Guide](../../guides/software-guide)
