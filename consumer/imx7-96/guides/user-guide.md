@@ -103,10 +103,66 @@ sudo ./autorun.sh
 *After installation is complete you can delete the files from the folder and eject the CD drive that VMware® auto mounted. This should remove the tab on the bottom of the VM, notifying you about the VMware Linux Tools install.*
 
 <img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/VMdesktopScreen.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/VMdesktopScreen.png?raw=true" width="490" height="466" />
-*Meerkat<sup>®</sup> Virtual Machine Desktop Screen*
+*Meerkat<sup>®</sup> Virtual Machine Desktop Screen.*
 
 ## Contents of the Virtual Machine Desktop
 Along the left side of desktop are multiple icons:
 
 - Search for software on computer and online:
 <img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Search.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Search.png?raw=true" width="77" height="75" />
+
+- File Manager
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/FileManager.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/FileManager.png?raw=true" width="77" height="75" />
+
+- Terminal
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Terminal.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Terminal.png?raw=true" width="77" height="75" />
+
+- Putty - Serial Terminal Tool
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Putty.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Putty.png?raw=true" width="77" height="75" />
+
+- GHex - Hex Editor
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/GHex.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/GHex.png?raw=true" width="77" height="75" />
+
+- Meld - Code Comparison Tool
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Meld.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Meld.png?raw=true" width="77" height="75" />
+
+- Firefox
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Firefox.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Firefox.png?raw=true" width="77" height="75" />
+
+- Libre Office Writer
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreWriter.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreWriter.png?raw=true" width="77" height="75" />
+
+_ Libre Office Calc
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreCalc.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreCalc.png?raw=true" width="77" height="75" />
+
+- Libre Office Impre
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreImpre.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreImpre.png?raw=true" width="77" height="75" />
+
+- Ubuntu Software Center - update and install Ubuntu software packages
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/UbuntuSoftwareCenter.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/UbuntuSoftwareCenter.png?raw=true" width="77" height="75" />
+
+- System settings
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Settings.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Settings.png?raw=true" width="77" height="75" />
+
+# Meerkat Overview
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatTop.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatTop.png?raw=true" width="720" height="480" />
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatBottom.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatBottom.png?raw=true" width="535" height="320" />
+
+# Serial Connections
+
+The supplied cable connects to the Meerkat<sup></sup> as follows:
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/TTL.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/TTL.png?raw=true" width="77" height="75" />

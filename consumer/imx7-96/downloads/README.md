@@ -19,7 +19,7 @@ The i.MX7 96Board comes pre-installed with Linux graphical desktop based on xfce
 
 Other operating systems supported on i.MX7 96, offered by partners. For more information, please visit one of following guides:
 
-- [Hardware User Manual](https://github.com/96boards/documentation/blob/master/consumer/imx7-96/hardware-docs/files/iMX7-user-guide.pdf)
-- [Software Guide](https://github.com/96boards/documentation/blob/master/consumer/imx7-96/guides/files/iMX7-96-software-guide.pdf)
+- [User Guide](../guides/user-guide.md)
+- [Software Guide](../guides/software-guide.md)
 
 ***
