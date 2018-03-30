@@ -165,4 +165,4 @@ _ Libre Office Calc
 
 The supplied cable connects to the Meerkat<sup></sup> as follows:
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/TTL.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/TTL.png?raw=true" width="77" height="75" />
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/TTL.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/TTL.png?raw=true" width="526" height="349" />
