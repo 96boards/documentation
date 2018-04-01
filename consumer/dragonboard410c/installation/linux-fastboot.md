@@ -39,6 +39,9 @@ This section show how to install a new operating system to your DragonBoard™ 4
 
   # Debian (Ubuntu)
   $ sudo apt-get install android-tools
+
+  # Ubuntu 16.04 (Xenial) and beyond
+  $ sudo apt-get install android-tools-fastboot
   ```
 
 #### **Step 2**: Connect host computer to DragonBoard 410c
@@ -63,7 +66,7 @@ From the connected host machine terminal window, run the following commands:
 ```shell
 # Check to make sure device is connected and in fastboot mode
 
-$ fastboot devices
+$ sudo fastboot devices
 ```
 
 Typically it will show as below
@@ -100,7 +103,7 @@ cd dragonboard410c_bootloader_emmc_linux-40
 #This example took place during release 40
 
 # This command will execute the flashall script within the bootloader folder
-$ ./flashall
+$ sudo ./flashall
 ```
 
 The bootloader has now been flashed to the eMMC.  Rebooting will
