@@ -10,9 +10,7 @@ Explore what makes your Developerbox unique, technical specifications, schematic
 
 ## User Guides
 
-Coming soon...
-
-- Hardware User Manual (View / Download)
+- [Kit Assembly Instructions](http://www.socionext.com/en/download/catalog/MN04-00002-1E.pdf)
 
 ## Hardware
 
