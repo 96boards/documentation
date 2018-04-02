@@ -5,7 +5,7 @@ redirect_from:  /documentation/ConsumerEdition/imx7-96/getting-started/
 ---
 # Getting Started
 
-Learn about your i.MX7 96 board as well as how to prepare and set up for basic use
+Learn about your i.MX7 96 - Meerkat<sup>®</sup> board as well as how to prepare and set up for basic use
 
 ## Setup - What you will need
 
@@ -71,7 +71,7 @@ community and embedded product manufacturers.
 
 ## Starting the board for the first time
 
-** The SD card delivered with your Meerkat<sup>®</sup> has a graphical desktop based on xfce.  **
+**The SD card delivered with your Meerkat<sup>®</sup> has a graphical desktop based on xfce.**
 - Connect a 1080P monitor to the HDMI connector. It is important to do this first because the monitor may not detect the board if it is connected after starting. Ensure that the source for the display is switched to the HDMI port you are using.
 - Connect the USB keyboard and mouse.
 - Ensure that the dipswitch is set to the factory default (1-1, i.e. all the switches are on)
@@ -87,12 +87,9 @@ If you are already familiar with the i.MX7 96 board and would like to change out
 
 - [Downloads page](../downloads/): This page lists all Linaro and 3rd party operating systems available for i.MX7 96
 - [Installation page](../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your i.MX7 96 board
-- [Board Recovery](../installation/board-recovery.md)
-- If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 - [Support](../support/)
 - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
 Back to the [i.MX7 96 documentation home page](../)
 
 ***
-
