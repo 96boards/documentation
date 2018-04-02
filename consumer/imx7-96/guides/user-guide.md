@@ -143,7 +143,7 @@ _ Libre Office Calc
 
 <img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreCalc.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreCalc.png?raw=true" width="77" height="75" />
 
-- Libre Office Impre
+- Libre Office Impress
 
 <img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreImpress.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreImpre.png?raw=true" width="77" height="75" />
 
