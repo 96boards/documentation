@@ -157,7 +157,7 @@ _ Libre Office Calc
 
 # Meerkat Overview
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatTop.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatTop.png?raw=true" width="720" height="480" />
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatTop.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatTop.png?raw=true" width="535" height="320" />
 
 <img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatBottom.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatBottom.png?raw=true" width="535" height="320" />
 
@@ -191,7 +191,7 @@ Configure putty to use an 8n1 UART at 115200 bps.
 
 For convenience, a preconfigured setting called “USB to TTL UART” is also provided in the virtual machine.
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Putty.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/config-putty.png?raw=true" width="508" height="511" />
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/config-putty.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/config-putty.png?raw=true" width="508" height="511" />
 
 ## Power the board
 
@@ -200,7 +200,7 @@ Monitoring the serial terminal, you can stop at u-boot or boot all the way into 
 
 Note that for the graphical image, a terminal console is not available and all system control must be done through the graphical interface.
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Putty.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/init-boot.png?raw=true" width="672" height="1020" />
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/init-boot.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/init-boot.png?raw=true" width="672" height="1020" />
 
 # Initial Network Setup
 
@@ -236,7 +236,6 @@ The console image ships with a network configuration that automatically connects
 
 If your network requires additional configuration for security, you will need to provide the credentials for your network. This is accomplished from the Meerkat<sup>®</sup> console with the **wpa_passphrase** tool as follows:
 ```
-
 wpa_passphrase YOURNET yourpassphrase  >> /etc/wpa_supplicant.conf
 ```
 which will append an entry similar to the following to your /etc/wpa_supplicant.conf file:
@@ -247,4 +246,4 @@ network={
         psk=0d0992b62e7ce466b47aef8ea26fcd77421f6498f225419b40364c1b4441d08d
 }
 ```
-*Remember to replace **YOURNET*** *and **yourpassphrase*** *with the information specific to your network.*
+*NOTE: Remember to replace **YOURNET*** *and **yourpassphrase*** *with the information specific to your network.*
