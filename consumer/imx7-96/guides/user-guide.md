@@ -145,7 +145,7 @@ _ Libre Office Calc
 
 - Libre Office Impre
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreImpre.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreImpre.png?raw=true" width="77" height="75" />
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreImpress.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreImpre.png?raw=true" width="77" height="75" />
 
 - Ubuntu Software Center - update and install Ubuntu software packages
 
@@ -166,3 +166,85 @@ _ Libre Office Calc
 The supplied cable connects to the Meerkat<sup></sup> as follows:
 
 <img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/TTL.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/TTL.png?raw=true" width="526" height="349" />
+
+# Booting i.MX7 96 - Meerkat<sup>®</sup>
+
+## Hardware Setup
+
+To setup the Meerkat<sup>®</sup> board for booting, follow these steps:
+
+- Plug in supplied USB cable to the UART port on the board and connect to PC. Verify the USB serial driver is found.
+- Insert the SD card into the SD slot.
+
+## Serial Console Setup
+
+Open a Serial Terminal like Hyper-Terminal, putty or UConn, with settings of 115200, 8, N, 1.
+For convenience, putty and a preconfigured settings file are provided in the supplied Virtual Machine (available from the download link as indicated in section 2).
+
+The VM provides a preinstalled environment with tools to speed development.
+
+A link to putty can be found on the desktop
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Putty.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Putty.png?raw=true" width="77" height="75" />
+
+Configure putty to use an 8n1 UART at 115200 bps.
+
+For convenience, a preconfigured setting called “USB to TTL UART” is also provided in the virtual machine.
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Putty.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/config-putty.png?raw=true" width="508" height="511" />
+
+## Power the board
+
+Using the provided power adaptor apply +8 to 18V power to the NovTech Meerkat®
+Monitoring the serial terminal, you can stop at u-boot or boot all the way into Linux.
+
+Note that for the graphical image, a terminal console is not available and all system control must be done through the graphical interface.
+
+<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Putty.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/init-boot.png?raw=true" width="672" height="1020" />
+
+# Initial Network Setup
+
+The Meerkat<sup>®</sup> will need to be configured for your specific wireless network. Once configured, the network will start automatically when the board is powered up.
+
+## Graphical Image Networking
+
+The SD card delivered with your Meerkat<sup>®</sup> has a graphical desktop based on xfce. This desktop will require a mouse and keyboard to navigate. Those can be connected to the USB ports on the Meerkat<sup>®</sup>.
+
+The networking on this image is managed by **connman**, but is not enabled by default. If you want wireless networking on your Meerkat<sup>®</sup>, the connman applet will need to be enabled to start at boot, and configured for your network.
+
+After booting the Meerkat<sup>®</sup> image per the instructions above, select **Applications** from the upper left corner of the screen.
+
+Click on:
+Applications->Settings->Settings Manager
+
+Then select:
+System->Session and Startup->Application Autostart->Connection Manager.
+
+There should now be a black checkmark next to **Connection Manager**.
+
+Select **Close** (close all open settings manager windows).
+
+Power cycle or reset your Meerkat<sup>®</sup>, the connman applet should be running and visible on the upper right of your screen on your next power up.
+
+When the board comes back up, click on the Applet in the upper and select **Preferences**, then select your wireless network and click **Connect** on the right-hand side of the menu. Note that **Connect** does not look like a button, but text.
+
+If you network requires additional configuration for security, the applet will prompt you for your authentication information.
+
+## Console Image Networking
+
+The console image ships with a network configuration that automatically connects to open (unsecure) networks that it finds. If successful, you will see the board retrieve an IP address via DHCP and will be able to ping to an IP address from the command line.
+
+If your network requires additional configuration for security, you will need to provide the credentials for your network. This is accomplished from the Meerkat<sup>®</sup> console with the **wpa_passphrase** tool as follows:
+```
+
+wpa_passphrase YOURNET yourpassphrase  >> /etc/wpa_supplicant.conf
+```
+which will append an entry similar to the following to your /etc/wpa_supplicant.conf file:
+```
+network={
+        ssid="YOURNET"
+        #psk="yourpassphrase"
+        psk=0d0992b62e7ce466b47aef8ea26fcd77421f6498f225419b40364c1b4441d08d
+}
+```
+*Remember to replace **YOURNET*** *and **yourpassphrase*** *with the information specific to your network.*
