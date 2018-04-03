@@ -1,3 +1,8 @@
+---
+title: Ubuntu Downloads for Rock960
+permalink: /documentation/consumer/rock960/downloads/ubuntu.md.html
+---
+
 # Ubuntu
 
 **Ubuntu Linux** is a desktop/window or console (command line) based development environment comprised of some basic programs and utilities. Development can happen directly on the board, and within the OS. While applications and programs can be built directly on the board, they can also be built remotely and cross-compiled for the particular system.
@@ -29,6 +34,6 @@ This image can be flashed to eMMC from USB or write and run on a SD card. Contin
 
 |   Rootfs image    |    Download                    |
 |:------------------|:----------------------------------|
-|Ubuntu 16.04 Server rootfs arm64     |[ubuntu_16.04_server_rootfs.img.gz](https://dl.vamrs.com/products/rock960/images/ubuntu/ubuntu-server-16.04-rootfs.img.gz)                           |
+| Ubuntu 16.04 Server rootfs arm64     | ubuntu_16.04_server_rootfs.img.gz - Temporarily unavailable                           |
 
 Continue to [Installation page](../installation/README.md)

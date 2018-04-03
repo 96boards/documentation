@@ -1,3 +1,8 @@
+---
+title: Hardware User Manual for Rock960
+permalink: /documentation/consumer/rock960/hardware-docs/hardware-user-manual.md.html
+---
+
 # ROCK960 Development Board User Manual
 
 ### Table of Contents

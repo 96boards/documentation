@@ -1,3 +1,8 @@
+---
+title: Basic Kit  for Rock960
+permalink: /documentation/consumer/rock960/getting-started/
+---
+
 # Getting Started
 
 Learn about your ROCK960 board as well as how to prepare and set up for basic use.
@@ -7,11 +12,11 @@ Learn about your ROCK960 board as well as how to prepare and set up for basic us
 **Need**
 - [ROCK960](https://www.96boards.org/product/rock960/) standard package
    - ROCK960 boards and other accessories
-- [Power adapter](PowerAdapter.md)
+- Power adapter
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter, included in the standard package
-- [USB Keyboard and Mouse](USBKeyBoardMouse.md)
+- USB Keyboard and Mouse
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
-- [Monitor](Monitor.md) and [HDMI Cable](HDMI.md)
+- Monitor and HDMI Cable
    - All 96Boards are equiped with a full sized HDMI connector, HDMI capable monitor is recommended
 
 **Optional**
@@ -86,7 +91,7 @@ The package comes with a simple acrylic case, assemble it first:
 | OS Support          | AOSP/Debian/Ubuntu/Fedora/LibreELEC/Lakka/FlintOS |
 | Size                | 85mm x 55mm                              |
 
-Please visit the [ROCK960 Hardware User Manual](HardwareDocs/HardwareUserManual.md) for more information
+Please visit the [ROCK960 Hardware User Manual](../hardware-docs/hardware-user-manual.md) for more information
 
 **IMPORTANT NOTES**
 
@@ -100,20 +105,16 @@ Please visit the [ROCK960 Hardware User Manual](HardwareDocs/HardwareUserManual.
 
 - Connect the ROCK960 to your display with the HDMI cable. Ensure that the source for the display is switched to the HDMI port you are using.
 - Connect the USB keyboard and mouse. 
-
-
 - Connect the power supply to the ROCK960. The board will begin to boot Android 7.1 immediately
 
 ***
 
-## Updating to a new release or change your operating system
+## What's Next?
 
 If you are already familiar with the ROCK960 board and would like to change out the stock operating system, please proceed to one of the following pages:
 
 - [Downloads page](../downloads/README.md): This page lists all Linaro and 3rd party operating systems available for ROCK960
 - [Installation page](../installation/README.md): If you already have the images you need, this page has information on how to install the different operating systems onto your ROCK960 board
-- [Board Recovery](../installation/BoardRecovery.md)
-   - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 - [Troubleshooting](../support/README.md)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 

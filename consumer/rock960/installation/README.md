@@ -1,3 +1,8 @@
+---
+title: Installation for Rock960
+permalink: /documentation/consumer/rock960/installation/
+---
+
 # Installation
 
 Choose and install an operating system on your ROCK960. To appropriately follow this installation guide you will need to:

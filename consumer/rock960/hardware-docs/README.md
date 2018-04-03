@@ -1,3 +1,8 @@
+---
+title: Hardware Documentation for Rock960
+permalink: /documentation/consumer/rock960/hardware-docs/
+---
+
 # Hardware Documentation
 
 Explore what makes your ROCK960 unique, technical specifications, schematics, hardware notes and more... This page allows you to see what is under the "ROCK960 hood" by offering static documentation published directly from the board vendors.
