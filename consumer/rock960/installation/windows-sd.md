@@ -1,3 +1,10 @@
+---
+title: Linux Host Installation for Rock960
+permalink: /documentation/consumer/rock960/installation/windows-sd.md.html
+redirect_from:
+
+---
+
 ## Windows Host
 
 This section show how to install an operating system to your ROCK960 using the SD Card method on a Windows host computer.

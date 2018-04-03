@@ -1,3 +1,10 @@
+---
+title: Debian Downloads for Rock960
+permalink: /documentation/consumer/rock960/downloads/debian.md.html
+redirect_from:
+
+---
+
 # Debian
 
 **Debian Linux** is a desktop/window or console (command line) based development environment comprised of some basic programs and utilities. Development can happen directly on the board, and within the OS. While applications and programs can be built directly on the board, they can also be built remotely and cross-compiled for the particular system.

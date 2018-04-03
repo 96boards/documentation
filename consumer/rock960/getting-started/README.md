@@ -1,3 +1,10 @@
+---
+title: Basic Kit  for Rock960
+permalink: /documentation/consumer/rock960/getting-started/
+redirect_from:
+
+---
+
 # Getting Started
 
 Learn about your ROCK960 board as well as how to prepare and set up for basic use.

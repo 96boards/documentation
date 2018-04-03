@@ -1,3 +1,10 @@
+---
+title: Support for Rock960
+permalink: /documentation/consumer/rock960/support/
+redirect_from:
+
+---
+
 # Troubleshooting
 
 Please take advantage of the many ROCK960 resources available to you through 96Boards, Rockchip and Vamrs.

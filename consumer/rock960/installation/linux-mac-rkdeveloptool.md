@@ -1,3 +1,10 @@
+---
+title: Linux Host Installation for Rock960
+permalink: /documentation/consumer/rock960/installation/linux-mac-rkdeveloptool.md.html
+redirect_from:
+
+---
+
 ## Linux/macOS Host
 
 This section show how to install a new operating system to ROCK960 on board eMMC using the [rkdeveloptool](http://opensource.rock-chips.com/wiki_Rkdeveloptool) on a Linux or macOS host computer.

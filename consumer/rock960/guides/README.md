@@ -1,3 +1,10 @@
+---
+title: Useful Guides for Rock960
+permalink: /documentation/consumer/rock960/guides/
+redirect_from:
+
+---
+
 # Useful Guides
 
 These guides will help to get you started with a variety of available on-boards software

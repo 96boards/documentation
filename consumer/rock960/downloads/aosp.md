@@ -1,3 +1,10 @@
+---
+title: AOSP Downloads for Rock960
+permalink: /documentation/consumer/rock960/downloads/aosp.md.html
+redirect_from:
+
+---
+
 # Android Open Source Project (AOSP)
 
 **AOSP** is a mobile/tablet platform environment developer preview. This environment is primarily used to test applications/software developed remotely on a host computer using an assortment of IDE’s(integrated development environments) and SDK’s(software development kits).
