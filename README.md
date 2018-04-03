@@ -32,7 +32,7 @@ Select your platform for a list of supported products(Left), or jump to 96Boards
    - The first open specification to define a platform for the delivery of compatible low-cost, small footprint 32-bit and 64-bit Cortex-A boards from a range of ARM System on Chip (SoC) vendors
 - [Report a bug](Extras/Report_a_bug.md)
    - Instructions on how to report bugs for any of our 96Boards hardware and software
-- [Contribution Policy](Extras/ContributionPolicy.md)
+- [Contribution Policy and Guide](CONTRIBUTE.md)
    - View our documentation "Contribution Policy" and learn how you can contribute
 - [Specifications](Specifications/)
    - Low cost an server hardware platform specifications
