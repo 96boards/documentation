@@ -1,8 +1,6 @@
 ---
 title: Downloads for Rock960
 permalink: /documentation/consumer/rock960/downloads/
-redirect_from:
-
 ---
 
 ## Downloads

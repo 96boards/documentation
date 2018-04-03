@@ -1,8 +1,6 @@
 ---
 title: Installation for Rock960
 permalink: /documentation/consumer/rock960/installation/
-redirect_from:
-
 ---
 
 # Installation

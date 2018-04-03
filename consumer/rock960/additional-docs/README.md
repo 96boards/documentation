@@ -1,8 +1,6 @@
 ---
 title: Additional Docs for Rock960
 permalink: /documentation/consumer/rock960/additional-docs/
-redirect_from:
-
 ---
 
 # Board Images

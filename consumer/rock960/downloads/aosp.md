@@ -1,8 +1,6 @@
 ---
 title: AOSP Downloads for Rock960
 permalink: /documentation/consumer/rock960/downloads/aosp.md.html
-redirect_from:
-
 ---
 
 # Android Open Source Project (AOSP)

@@ -1,8 +1,6 @@
 ---
 title: Linux Host Installation for Rock960
 permalink: /documentation/consumer/rock960/installation/linux-mac-rkdeveloptool.md.html
-redirect_from:
-
 ---
 
 ## Linux/macOS Host

@@ -1,8 +1,6 @@
 ---
 title: Debian Downloads for Rock960
 permalink: /documentation/consumer/rock960/downloads/debian.md.html
-redirect_from:
-
 ---
 
 # Debian

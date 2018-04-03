@@ -1,8 +1,6 @@
 ---
 title: Ubuntu Downloads for Rock960
 permalink: /documentation/consumer/rock960/downloads/ubuntu.md.html
-redirect_from:
-
 ---
 
 # Ubuntu
