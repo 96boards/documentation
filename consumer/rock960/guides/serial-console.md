@@ -1,5 +1,5 @@
 ---
-title: Serial Consol
+title: Serial Console
 permalink: /documentation/consumer/rock960/guides/serial-console.md.html
 ---
 
