@@ -1,5 +1,5 @@
 ---
-title: AOSP Downloads for Rock960
+title: AOSP Downloads for ROCK960
 permalink: /documentation/consumer/rock960/downloads/aosp.md.html
 ---
 

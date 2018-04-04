@@ -1,5 +1,5 @@
 ---
-title: Build Source for Rock960
+title: Build Source for ROCK960
 permalink: /documentation/consumer/rock960/build/
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Debian Downloads for Rock960
+title: Debian Downloads for ROCK960
 permalink: /documentation/consumer/rock960/downloads/debian.md.html
 ---
 

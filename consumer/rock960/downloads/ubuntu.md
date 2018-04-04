@@ -1,5 +1,5 @@
 ---
-title: Ubuntu Downloads for Rock960
+title: Ubuntu Downloads for ROCK960
 permalink: /documentation/consumer/rock960/downloads/ubuntu.md.html
 ---
 

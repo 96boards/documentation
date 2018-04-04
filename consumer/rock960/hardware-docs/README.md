@@ -1,5 +1,5 @@
 ---
-title: Hardware Documentation for Rock960
+title: Hardware Documentation for ROCK960
 permalink: /documentation/consumer/rock960/hardware-docs/
 ---
 

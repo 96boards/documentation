@@ -1,5 +1,5 @@
 ---
-title: Useful Guides for Rock960
+title: Useful Guides for ROCK960
 permalink: /documentation/consumer/rock960/guides/
 ---
 

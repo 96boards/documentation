@@ -1,5 +1,5 @@
 ---
-title: Installation for Rock960
+title: Installation for ROCK960
 permalink: /documentation/consumer/rock960/installation/
 ---
 
