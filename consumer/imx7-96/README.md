@@ -1,5 +1,5 @@
 ---
-title: Documentation for i.MX7 96 - Meerkat<sup>®</sup>
+title: Documentation for i.MX7 96 - Meerkat
 permalink: /documentation/consumer/imx7-96/
 redirect_from:  /documentation/ConsumerEdition/imx7-96/
 ---
@@ -18,7 +18,7 @@ A comprehensive guide to using the [i.MX7 96](https://www.96boards.org/product/i
 ## Documentation
 
 - [Getting Started](getting-started/)
-   - Learn about your i.MX7 96Board, how to prepare and set up for basic use
+  - Learn about your i.MX7 96Board, how to prepare and set up for basic use
 - [Useful Guides](guides/)
    - These guides will help to get you started with a variety of available on-boards software
 - [Hardware Documentation](hardware-docs/)
