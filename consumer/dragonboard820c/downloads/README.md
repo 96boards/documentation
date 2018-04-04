@@ -19,6 +19,6 @@ If you would like to change the Operating System for you board, update the exist
 
 Other operating systems supported on DragonBoard 820c, offered by partners.
 
-> Not currently available
+*Not currently available*
 
 ***
