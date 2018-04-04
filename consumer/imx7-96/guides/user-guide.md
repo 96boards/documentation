@@ -57,7 +57,7 @@ To create a card with Win32DiskImager:
 
 - If you are satisfied with your selections, select “Write” from the bottom center of the Win32 Disk Imager window. Writing the card will take several minutes, refer to the progress bar on the window for status.
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/win32DiskImager.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/win32DiskImager.png?raw=true" width="529" height="377" />
+<img src="../additional-docs/images/images-hw-user-manual/win32DiskImager.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/win32DiskImager.png" width="529" height="377" />
 
 ## Installing i.MX7 96Boards - Meerkat<sup>®</sup> Virtual Machine
 
