@@ -1,5 +1,5 @@
 ---
-title: User Guide for i.MX7 96Board
+title: User Guide for i.MX7 96Board - Meerkat
 permalink: /documentation/consumer/imx7-96/guides/user-guide.md.html
 redirect_from:
 - /documentation/ConsumerEdition/i.MX7-96/Guides/user-guide.md.html
@@ -13,7 +13,7 @@ redirect_from:
 - Provide the serial # from the back side of Meerkat<sup>®</sup> board.
 - Provide the requested information and select **Meerkat** from the version drop down.
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatRegistration.jpeg?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatRegistration.jpeg?raw=true" width="391" height="419" />
+<img src="../additional-docs/images/images-hw-user-manual/MeerkatRegistration.jpeg" data-canonical-src="../imx7-96/additional-docs/images/images-hw-user-manual/MeerkatRegistration.jpeg" width="391" height="419" />
 
 # Download Support files
 
@@ -66,10 +66,10 @@ Updating and recompiling the images will require access to a properly configured
 Once all prerequisites are met, using 7Zip or any acceptable unzip program, unzip the **NovTech_VM_U14.04.4_Meerkat.7z** file to your PC hard drive. After unzipping, navigate to the created folder **NovTech_VM_U14.04.4_Meerkat**. Double Click on the file **NovTech_VM_U14.04.4.vmx**. VMware® Player should load the virtual machine.
 Another method could be to open VMware Player and click on ‘Open a Virtual Machine’ then navigate to the **NovTech_VM_U14.04.4_Meerkat** folder to find the virtual machine setup file.
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/OpenVM.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/OpenVM.png?raw=true" width="385" height="386" />
+<img src="../additional-docs/images/images-hw-user-manual/OpenVM.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/OpenVM.png" width="385" height="386" />
 *VMware<sup>®</sup> Player Open Virtual Machine*
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatVM.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatVM.png?raw=true" width="396" height="378" />
+<img src="../additional-docs/images/images-hw-user-manual/MeerkatVM.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/MeerkatVM.png" width="396" height="378" />
 *VMware<sup>®</sup> Player Select Virtual Machine*
 
 To save on storage and transmission, the Meerkat<sup®</sup> virtual machine is preconfigured to use 1G of RAM. NovTech recommends increasing this value to a minimum of 2GB. You can edit this value to increase or decrease the amount of RAM assigned to the VM. After opening VMware<sup>®</sup> Player, click on **Edit Virtual Machine Settings**, navigate to **Hardware** tab and select **Memory**. Adjust memory to the desired size.
@@ -80,7 +80,7 @@ To minimize the size of the VM image in storage and transit, the VM has been lim
 NovTech recommends allocating a minimum of 2GB of memory to the machine, and optimally 6GB of RAM.
 
 This setting is under **Virtual machine->virtual machine settings->hardware**, and can be modified when the virtual machine has been powered off.
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/VMsettingsWindow.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/VMsettingsWindow.png?raw=true" width="393" height="443" />
+<img src="../additional-docs/images/images-hw-user-manual/VMsettingsWindow.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/VMsettingsWindow.png" width="393" height="443" />
 *Virtual Machine settings window*
 *Note: Allocating more than ¼ of the physical ram on your machine to the VM will degrade overall performance and may cause issues.*
 
@@ -102,70 +102,70 @@ sudo ./autorun.sh
 
 *After installation is complete you can delete the files from the folder and eject the CD drive that VMware® auto mounted. This should remove the tab on the bottom of the VM, notifying you about the VMware Linux Tools install.*
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/VMdesktopScreen.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/VMdesktopScreen.png?raw=true" width="490" height="466" />
+<img src="../additional-docs/images/images-hw-user-manual/VMdesktopScreen.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/VMdesktopScreen.png" width="490" height="466" />
 *Meerkat<sup>®</sup> Virtual Machine Desktop Screen.*
 
 ## Contents of the Virtual Machine Desktop
 Along the left side of desktop are multiple icons:
 
 - Search for software on computer and online:
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Search.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Search.png?raw=true" width="77" height="75" />
+<img src="../additional-docs/images/images-hw-user-manual/Search.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/Search.png" width="77" height="75" />
 
 - File Manager
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/FileManager.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/FileManager.png?raw=true" width="77" height="75" />
+<img src="../additional-docs/images/images-hw-user-manual/FileManager.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/FileManager.png" width="77" height="75" />
 
 - Terminal
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Terminal.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Terminal.png?raw=true" width="77" height="75" />
+<img src="../additional-docs/images/images-hw-user-manual/Terminal.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/Terminal.png" width="77" height="75" />
 
 - Putty - Serial Terminal Tool
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Putty.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Putty.png?raw=true" width="77" height="75" />
+<img src="../additional-docs/images/images-hw-user-manual/Putty.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/Putty.png" width="77" height="75" />
 
 - GHex - Hex Editor
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/GHex.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/GHex.png?raw=true" width="77" height="75" />
+<img src="../additional-docs/images/images-hw-user-manual/GHex.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/GHex.png" width="77" height="75" />
 
 - Meld - Code Comparison Tool
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Meld.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Meld.png?raw=true" width="77" height="75" />
+<img src="../additional-docs/images/images-hw-user-manual/Meld.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/Meld.png" width="77" height="75" />
 
 - Firefox
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Firefox.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Firefox.png?raw=true" width="77" height="75" />
+<img src="../additional-docs/images/images-hw-user-manual/Firefox.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/Firefox.png" width="77" height="75" />
 
 - Libre Office Writer
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreWriter.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreWriter.png?raw=true" width="77" height="75" />
+<img src="../additional-docs/images/images-hw-user-manual/LibreWriter.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/LibreWriter.png" width="77" height="75" />
 
 _ Libre Office Calc
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreCalc.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreCalc.png?raw=true" width="77" height="75" />
+<img src="../additional-docs/images/images-hw-user-manual/LibreCalc.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/LibreCalc.png" width="77" height="75" />
 
 - Libre Office Impress
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreImpress.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/LibreImpre.png?raw=true" width="77" height="75" />
+<img src="../additional-docs/images/images-hw-user-manual/LibreImpress.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/LibreImpre.png" width="77" height="75" />
 
 - Ubuntu Software Center - update and install Ubuntu software packages
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/UbuntuSoftwareCenter.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/UbuntuSoftwareCenter.png?raw=true" width="77" height="75" />
+<img src="../additional-docs/images/images-hw-user-manual/UbuntuSoftwareCenter.png" data-canonical-src="../imx7-96/additional-docs/images/images-hw-user-manual/UbuntuSoftwareCenter.png" width="77" height="75" />
 
 - System settings
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Settings.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Settings.png?raw=true" width="77" height="75" />
+<img src="../additional-docs/images/images-hw-user-manual/Settings.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/Settings.png" width="77" height="75" />
 
 # Meerkat Overview
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatTop.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatTop.png?raw=true" width="535" height="320" />
+<img src="../additional-docs/images/images-hw-user-manual/MeerkatTop.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/MeerkatTop.png" width="535" height="320" />
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatBottom.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/MeerkatBottom.png?raw=true" width="535" height="320" />
+<img src="../additional-docs/images/images-hw-user-manual/MeerkatBottom.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/MeerkatBottom.png" width="535" height="320" />
 
 # Serial Connections
 
 The supplied cable connects to the Meerkat<sup></sup> as follows:
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/TTL.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/TTL.png?raw=true" width="526" height="349" />
+<img src="../additional-docs/images/images-hw-user-manual/TTL.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/TTL.png" width="526" height="349" />
 
 # Booting i.MX7 96 - Meerkat<sup>®</sup>
 
@@ -185,13 +185,13 @@ The VM provides a preinstalled environment with tools to speed development.
 
 A link to putty can be found on the desktop
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Putty.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/Putty.png?raw=true" width="77" height="75" />
+<img src="../additional-docs/images/images-hw-user-manual/Putty.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/Putty.png" width="77" height="75" />
 
 Configure putty to use an 8n1 UART at 115200 bps.
 
 For convenience, a preconfigured setting called “USB to TTL UART” is also provided in the virtual machine.
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/config-putty.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/config-putty.png?raw=true" width="508" height="511" />
+<img src="../additional-docs/images/images-hw-user-manual/config-putty.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/config-putty.png" width="508" height="511" />
 
 ## Power the board
 
@@ -200,7 +200,7 @@ Monitoring the serial terminal, you can stop at u-boot or boot all the way into 
 
 Note that for the graphical image, a terminal console is not available and all system control must be done through the graphical interface.
 
-<img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/init-boot.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-hw-user-manual/init-boot.png?raw=true" width="672" height="1020" />
+<img src="../additional-docs/images/images-hw-user-manual/init-boot.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/init-boot.png" width="672" height="1020" />
 
 # Initial Network Setup
 
