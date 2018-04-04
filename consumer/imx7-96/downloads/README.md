@@ -11,7 +11,7 @@ The i.MX7 96 comes pre-installed with Android. If you would like to switch the O
 
 ### Linaro supported operating systems
 
-> None available at this time
+*None available at this time*
 
 ***
 
