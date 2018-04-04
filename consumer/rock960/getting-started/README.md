@@ -1,5 +1,5 @@
 ---
-title: Basic Kit  for Rock960
+title: Basic Kit  for ROCK960
 permalink: /documentation/consumer/rock960/getting-started/
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Using the Rock960
+title: Using the ROCK960
 permalink: /documentation/consumer/rock960/
 ---
 

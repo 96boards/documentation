@@ -1,5 +1,5 @@
 ---
-title: Linux Host Installation for Rock960
+title: Linux Host Installation for ROCK960
 permalink: /documentation/consumer/rock960/installation/windows-sd.md.html
 ---
 

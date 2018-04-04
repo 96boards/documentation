@@ -1,5 +1,5 @@
 ---
-title: Hardware User Manual for Rock960
+title: Hardware User Manual for ROCK960
 permalink: /documentation/consumer/rock960/hardware-docs/hardware-user-manual.md.html
 ---
 

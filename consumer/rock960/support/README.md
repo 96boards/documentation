@@ -1,5 +1,5 @@
 ---
-title: Support for Rock960
+title: Support for ROCK960
 permalink: /documentation/consumer/rock960/support/
 redirect_from:
 

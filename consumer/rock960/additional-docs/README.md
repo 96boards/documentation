@@ -1,5 +1,5 @@
 ---
-title: Additional Docs for Rock960
+title: Additional Docs for ROCK960
 permalink: /documentation/consumer/rock960/additional-docs/
 ---
 
