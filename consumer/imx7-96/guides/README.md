@@ -10,5 +10,5 @@ These guides will help to get you started with a variety of available on-boards 
 
 ## Linux
 
-- [User Guide](/user-guide.md)
-- [Software Guide](/software-guide.md)
+- [User Guide](../guides/user-guide.md)
+- [Software Guide](..guides/software-guide.md)
