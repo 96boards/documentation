@@ -34,6 +34,6 @@ This image can be flashed to eMMC from USB or write and run on a SD card. Contin
 
 |   Rootfs image    |    Download                    |
 |:------------------|:----------------------------------|
-|Debian rootfs armhf     | debian_rootfs.img.gz - Temporarily unavailable                          |
+|Debian rootfs armhf     | [debian_rootfs.img.gz](https://dl.vamrs.com/products/rock960/images/debian/debian_rootfs_armhf_rockchip_release_20171108.img.gz)                          |
 
 Continue to [Installation page](../installation/README.md)

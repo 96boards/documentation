@@ -18,6 +18,7 @@ Explore what makes your ROCK960 unique, technical specifications, schematics, ha
 
 #### Components datasheets
 
-- RK3399 Datasheet(Download)[https://dl.vamrs.com/products/rock960/docs/hw/datasheets/Rockchip_RK3399_Datasheet_V1.6-20170301.pdf]
+- RK3399 Datasheet [Download](https://dl.vamrs.com/products/rock960/docs/hw/datasheets/Rockchip_RK3399_Datasheet_V1.6-20170301.pdf)
 - RK3399 Technical Reference Manual part1 [Download](https://dl.vamrs.com/products/rock960/docs/hw/datasheets/Rockchip_RK3399TRM_V1.3_Part1.pdf)(.pdf)
 - RK3399 Technical Reference Manual part2 [Download](https://dl.vamrs.com/products/rock960/docs/hw/datasheets/Rockchip_RK3399TRM_V1.3_Part2.pdf)(.pdf)
+
