@@ -80,7 +80,9 @@ To minimize the size of the VM image in storage and transit, the VM has been lim
 NovTech recommends allocating a minimum of 2GB of memory to the machine, and optimally 6GB of RAM.
 
 This setting is under **Virtual machine->virtual machine settings->hardware**, and can be modified when the virtual machine has been powered off.
+
 <img src="../additional-docs/images/images-hw-user-manual/VMsettingsWindow.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/VMsettingsWindow.png" width="393" height="443" />
+
 *Virtual Machine settings window*
 *Note: Allocating more than ¼ of the physical ram on your machine to the VM will degrade overall performance and may cause issues.*
 
