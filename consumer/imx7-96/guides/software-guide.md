@@ -84,7 +84,7 @@ This directory contains the following directories:
 
  - When completed, you should see something like this:
 
- <img src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-software/completed-compilation-buildroot.png?raw=true" data-canonical-src="https://github.com/nazik5/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-software/completed-compilation-buildroot.png?raw=true" width="500" height="320" />
+ <img src="../additional-docs/images/images-software/completed-compilation-buildroot.png" data-canonical-src="../additional-docs/images/images-software/completed-compilation-buildroot.png" width="500" height="320" />
 
 ## 2.3	Programming compiled images to SD/MMC cards
 

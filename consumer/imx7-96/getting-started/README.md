@@ -1,5 +1,5 @@
 ---
-title: Getting Started with i.MX7 96
+title: Getting Started with i.MX7 96Boards - Meerkat
 permalink: /documentation/consumer/imx7-96/getting-started/
 redirect_from:  /documentation/ConsumerEdition/imx7-96/getting-started/
 ---
@@ -11,13 +11,13 @@ Learn about your i.MX7 96 - Meerkat<sup>®</sup> board as well as how to prepare
 
 **Need**
 - [i.MX7 96](https://www.96boards.org/product/imx7-96/)
-- Board based on the i.MX7 SoC
+   - Board based on the i.MX7 SoC
 - Power adapter
-- 96Boards specifications requires a 8V-18V with 2000mA Power adapter
+   - 96Boards specifications requires a 8V-18V with 2000mA Power adapter
 - USB Keyboard and Mouse
-- With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
+   - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
 - Monitor and HDMI Cable
-- All 96Boards are equiped with a full sized HDMI connector, HDMI capable monitor is recommended
+   - All 96Boards are equiped with a full sized HDMI connector, HDMI capable monitor is recommended
 
 **Optional**
 - MicroSD card with adapter
@@ -35,8 +35,8 @@ Learn about your i.MX7 96 - Meerkat<sup>®</sup> board as well as how to prepare
 
 The following subsections should describe how to get started with the i.MX7 96 using the release build shipped with the boards.
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-board/iMX7-96-front.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-board/iMX7-96-front.jpg?raw=true" width="250" height="160" />
-<img src="https://github.com/96boards/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-board/iMX7-96-back.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-board/iMX7-96-back.jpg?raw=true" width="250" height="160" />
+<img src="../additional-docs/images/images-board/iMX7-96-front.jpg" data-canonical-src="../additional-docs/images/images-board/iMX7-96-front.jpg" width="250" height="160" />
+<img src="../additional-docs/images/images-board/iMX7-96-back.jpg" data-canonical-src="../additional-docs/images/images-board/iMX7-96-back.jpg" width="250" height="160" />
 
 ## Features
 
