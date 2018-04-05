@@ -107,7 +107,7 @@ The script can also place individual portions of the compiled images. Run **mk_m
 
 Pre-compiled images for both the console and graphical systems are available from https://novtech.sharefile.com in the **03 – Compiled SD Images** directory.
 
-Images in **03.01 – Card Images** can be programmed directly to SD/MMC cards with **dd** or Win32DiskImager per instructions in the [i.MX7 96Boards Meerkat<sup>®</sup> User Guide](../guides/user-guide.md)
+Images in **03.01 – Card Images** can be programmed directly to SD/MMC cards with **dd** or Win32DiskImager per instructions in the [i.MX7 96Boards Meerkat<sup>®</sup> User Guide](user-guide.md)
 
 Images in **03.02 – Card Contents** can be downloaded to the VM extracted. These images can be written to cards using the **mk_meerkat_sd** script included in their respective directories.
 
