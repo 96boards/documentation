@@ -1,8 +1,6 @@
 ---
 title: Documentation
 permalink: /documentation/
-redirect_from:
-- /documentation/README.md/
 ---
 # 96Boards Documentation
 
