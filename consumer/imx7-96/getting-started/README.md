@@ -1,7 +1,6 @@
 ---
 title: Getting Started with i.MX7 96Boards - Meerkat
 permalink: /documentation/consumer/imx7-96/getting-started/
-redirect_from:  /documentation/ConsumerEdition/imx7-96/getting-started/
 ---
 # Getting Started
 

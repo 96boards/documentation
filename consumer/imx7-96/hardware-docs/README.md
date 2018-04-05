@@ -1,7 +1,6 @@
 ---
 title: Hardware Documentation for i.MX7 96
 permalink: /documentation/consumer/imx7-96/hardware-docs/
-redirect_from: /documentation/ConsumerEdition/imx7-96/hardware-docs/
 ---
 # Hardware Documentation
 
