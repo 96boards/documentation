@@ -44,7 +44,7 @@ cd ~/Projects/meerkat96
 # Building source and images
 
 
-Please refer to the [i.MX7 96Board User Guide](guides/user-guide.md) for instructions on retrieving and configuring the VM for use.
+Please refer to the [i.MX7 96Board User Guide](user-guide.md) for instructions on retrieving and configuring the VM for use.
 
 For convenience of development full source and pre-compiled images for console and GUI configurations are provided. The virtual machine is pre-configured with the necessary tools and packages for compilation.
 
