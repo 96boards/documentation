@@ -48,7 +48,6 @@ Then, you can find a folder named FES in
    - ADB need installed in this linux PC, thus, we can send adb command by it.
 - Normal load(Include image files and scatter file etc.)
    - You can put it in anywhere, eg, /xflash/bin/linux/img
-   - The PGPT file can't generated from your build system, so if you build new images, this file should be reserved(it can format the eMMC into constant partition).
 - Special images and scatter file
    - You can put it in anywhere, eg, /xflash/bin/linux/FES.
    - How to build it? Please see “How to build special images”.
@@ -76,7 +75,6 @@ Step 2. Run fastboot command script file
         #!/bin/bash
 
         fastboot devices
-        fastboot flash gpt PGPT
         fastboot flash preloader preloader_amt6797_64_open.bin
         fastboot flash recovery recovery.img
         fastboot flash scp1 tinysys-scp.bin
