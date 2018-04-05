@@ -1,8 +1,6 @@
 ---
 title: Software Guide
 permalink: /documentation/consumer/imx7-96/guides/software-guide.md.html
-redirect_from:
-- /documentation/ConsumerEdition/imx7-96/Guides/software-guide.md.html
 ---
 # Software Guide
 

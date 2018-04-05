@@ -1,7 +1,6 @@
 ---
 title: Documentation for i.MX7 96 - Meerkat
 permalink: /documentation/consumer/imx7-96/
-redirect_from:  /documentation/ConsumerEdition/imx7-96/
 ---
 # Using the i.MX7 96 - Meerkat<sup>®</sup>
 

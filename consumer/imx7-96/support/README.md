@@ -1,11 +1,6 @@
 ---
 title: Support for i.MX7 96 - Meerkat<sup>®</sup>
 permalink: /documentation/consumer/imx7-96/support/
-redirect_from:
-- /documentation/ConsumerEdition/imx7-96/Support/README.md/
-- /documentation/ConsumerEdition/imx7-96/Support/
-- /documentation/consumer/imx7-96/support/README.md/
-- /imx7-96-getting-started/Support/README.md/
 ---
 # Troubleshooting
 
