@@ -1,7 +1,6 @@
 ---
 title: Contribution Policy
 permalink: /documentation/CONTRIBUTE.md.html
-redirect_from: /documentation/Extras/ContributionPolicy.md.html
 ---
 
 # Contributing to 96Boards Documentation
