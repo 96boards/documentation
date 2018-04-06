@@ -19,4 +19,4 @@ Choose and install an operating system on your Chameleon96. To appropriately fol
 
 For  installation information and instructions, please visit one of following guides:
 
-- [Software Guide](../guides/software-guide.md)
+- [Software Guide](../guides/chameleon96-software-guide.pdf)
