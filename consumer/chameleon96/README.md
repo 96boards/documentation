@@ -8,8 +8,6 @@ A comprehensive guide to using the [Chameleon96](../chameleon96/) Consumer Editi
 
 ## Software
 
-- [Downloads](downloads/README.md)
-   - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
 - [Installation](installation/README.md)
    - Choose and install an operating system on your Chameleon96
 - [Build from Source](build/README.md)
