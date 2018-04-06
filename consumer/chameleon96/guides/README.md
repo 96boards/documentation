@@ -4,12 +4,12 @@ permalink: /documentation/consumer/chameleon96/guides/
 ---
 # Useful Guides
 
+# Useful Guides
+
 These guides will help to get you started with a variety of available on-boards software
 
-## Debian
+## Linux
 
-Coming Soon...
-
-## Android
-
-Coming Soon...
+- [User Guide](../guides/files/chameleon96_user_guide.pdf)
+- [Software Guide](..guides/files/chameleon96-software-guide.pdf)
+- [Network Guide](..guides/files/chameleon96_network-guide.pdf)
