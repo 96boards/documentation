@@ -1,7 +1,6 @@
-<!---
 ---
 title: Additional Docs for boardname
-permalink: /documentation/consumer/boardname/additional-docs/
+permalink: /documentation/consumer/fcue/additional-docs/
 ---
 -->
 # Board Images

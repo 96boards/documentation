@@ -1,9 +1,7 @@
-<!---
 ---
 title: Hardware Documentation for boardname
-permalink: /documentation/consumer/boardname/hardware-docs/
+permalink: /documentation/consumer/fcue/hardware-docs/
 ---
--->
 
 # Hardware Documentation
 

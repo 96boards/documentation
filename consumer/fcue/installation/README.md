@@ -1,9 +1,7 @@
-<!---
 ---
 title: Installation for boardname
-permalink: /documentation/consumer/boardname/installation/
+permalink: /documentation/consumer/fcue/installation/
 ---
--->
 
 # Installation
 

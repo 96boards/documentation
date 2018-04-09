@@ -1,9 +1,7 @@
-<!---
 ---
 title: Linux Host Installation for boardname
-permalink: /documentation/consumer/boardname/installation/windows-sd.md.html
+permalink: /documentation/consumer/fcue/installation/windows-sd.md.html
 ---
--->
 
 ## Windows Host
 

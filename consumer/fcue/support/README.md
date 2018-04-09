@@ -1,9 +1,7 @@
-<!---
 ---
 title: Support for boardname
-permalink: /documentation/consumer/boardname/support/
+permalink: /documentation/consumer/fcue/support/
 ---
--->
 
 # Troubleshooting
 

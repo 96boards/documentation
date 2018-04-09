@@ -1,9 +1,7 @@
-<!---
 ---
 title: Useful Guides for boardname
-permalink: /documentation/consumer/boardname/guides/
+permalink: /documentation/consumer/fcue/guides/
 ---
--->
 
 # Useful Guides
 
