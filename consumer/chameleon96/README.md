@@ -10,8 +10,6 @@ A comprehensive guide to using the Chameleon96 Consumer Edition development boar
 
 - [Installation](installation/README.md)
    - Choose and install an operating system on your Chameleon96
-- [Build from Source](build/README.md)
-   - Instructions for building and flashing the components of your favorite operating systems
 
 ## Documenation
 
