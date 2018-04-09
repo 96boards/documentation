@@ -1,9 +1,7 @@
-<!---
 ---
 title: Basic Kit  for boardname
-permalink: /documentation/consumer/boardname/getting-started/
+permalink: /documentation/consumer/uranus/getting-started/
 ---
--->
 
 # Getting Started
 

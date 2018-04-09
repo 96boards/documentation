@@ -1,9 +1,7 @@
-<!---
 ---
 title: Linux Host Installation for boardname
-permalink: /documentation/consumer/boardname/installation/mac-sd.md.html
+permalink: /documentation/consumer/uranus/installation/mac-sd.md.html
 ---
--->
 
 ## Mac OS X Host
 

@@ -1,9 +1,7 @@
-<!---
 ---
 title: Downloads for boardname
-permalink: /documentation/consumer/boardname/downloads/
+permalink: /documentation/consumer/uranus/downloads/
 ---
--->
 
 ## Downloads
 

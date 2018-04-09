@@ -1,9 +1,8 @@
-<!---
 ---
 title: Installation for boardname
-permalink: /documentation/consumer/boardname/installation/
+permalink: /documentation/consumer/uranus/installation/
 ---
--->
+
 
 # Installation
 
