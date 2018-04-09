@@ -12,17 +12,21 @@ for Dragonboard-820c.
 
 The Linux kernel used for DragonBoard 820c can be found in the
 [Linaro Qualcomm Landing Team git repository](https://git.linaro.org/landing-teams/working/qualcomm/kernel.git).
-For now the support for this board is preliminary and can only be found in
-either `release` branches named as `release/db820c/qcomlt-x.y`
-(the latest one being the most up-to-date/recent) or the
-`integration-linux-qcomlt` branch, which is regularly rebased on recent mainline,
+
+There are two main relevant kernel branches that provide the support for this board.
+1. `release` branches named as `release/qcomlt-x.y`
+(the latest one being the most up-to-date/recent)  
+1. the `integration-linux-qcomlt` branch, which is regularly rebased on recent mainline,
 and is used by developers.
+
+Using the `release` branch is recommended for most users. The development branch is meant to be used by kernel developers willing to contribute patch upstream.
 
 Following commands can be used to fetch the latest kernel source:
 
 ```shell
 $ git clone http://git.linaro.org/landing-teams/working/qualcomm/kernel.git
-$ git checkout release/db820c/qcomlt-x.y -b db820c
+$ cd kernel
+$ git checkout -t origin/release/qcomlt-x.y
 ```
 
 > Note: Replace x and y with kernel major and minor release versions.
