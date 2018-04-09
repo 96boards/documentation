@@ -12,5 +12,3 @@ Please take advantage of the many Chameleon96 resources available to you through
    - Chameleon96 uses the same specification! Students from the [University of California San Diego](https://ucsd.edu/) put together an "Internet of Things" (IoT) course focused around the DragonBoard 410c (again, same specification as Chameleon96!). It is free to audit, or you can purchase the specialization package for a cool certificate!
 - [Report a bug!](../../../Extras/Report_a_bug.md)
    - Instructions on how to report bugs for any of our 96Boards hardware and software, this includes the Chameleon96!
-- [Board Recovery](../installation/board-recovery.md)
-   - Bricked board? Many software issues can be fixed with a simple "board recovery"
