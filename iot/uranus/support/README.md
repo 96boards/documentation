@@ -5,7 +5,7 @@ permalink: /documentation/consumer/uranus/support/
 
 # Troubleshooting
 
-Please take advantage of the many Board X resources available to you through 96Boards, MediaTek, and Coursera
+Please take advantage of the many Board X resources available to you through 96Boards
 
 - [96Boards Board X Forum]()
    - The DragonBoard has its very own 96Boards forum. If you can't find a pre-existing thread that addresses your issue, start your own and let the community help out!
