@@ -61,6 +61,6 @@ Go to the [Downloads page](../downloads/README.md) to get your bootloader, boot 
 
 Choose host machine
 
-- [Linux](linux-fastboot.md)
+Coming soon...
 
 ***
