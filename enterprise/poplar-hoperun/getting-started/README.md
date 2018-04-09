@@ -96,7 +96,7 @@ The following subsections should describe how to get started with the Board-X us
 
 ***
 
-## Updating to a new release or change your operating system
+## What's Next?
 
 If you are already familiar with the Board-X board and would like to change out the stock operating system, please proceed to one of the following pages:
 
