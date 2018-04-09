@@ -19,40 +19,39 @@ For most users a board can be “recovered” from a software failure by reloadi
 
 |  Debian                      |
 |:----------------------------:|
-| [l-loader.bin](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/l-loader.bin)  |  
-|  [fip.bin](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/fip.bin)           |  
-| [nvme.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/nvme.img)          |
-| [ptable-linux-4g.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-4g.img) or [ptable-linux-8g.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-8g.img)     |
+| [recovery.bin](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/debug/recovery.bin)  |  
+| [l-loader.bin](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/debug/l-loader.bin)  |  
+|  [fip.bin](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/debug/fip.bin)           |  
+| [ptable-linux-4g.img](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-4g.img) or [ptable-linux-8g.img](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-8g.img)     |
 
 - **Build Folders [UEFI release](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/)**
 
-
 |  Debian                      |
 |:----------------------------:|
-| [l-loader.bin](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/l-loader.bin)  |  
-|  [fip.bin](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/fip.bin)           |  
-| [nvme.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/nvme.img)          |
-| [ptable-linux-4g.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/ptable-linux-4g.img) or [ptable-linux-8g.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/ptable-linux-8g.img)     |
+| [recovery.bin](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/release/recovery.bin)  |  
+| [l-loader.bin](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/release/l-loader.bin)  |  
+|  [fip.bin](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/release/fip.bin)           |  
+| [ptable-linux-4g.img](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/release/ptable-linux-4g.img) or [ptable-linux-8g.img](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/release/ptable-linux-8g.img)     |
 
 You can do this from your browser(above links) or from the command prompt(below commands):
 
-For a full recovery you will need: **l-loader.bin**, **fip.bin**, **nvme.img**, **hikey-boot-linux-*.uefi.img.gz**, and the appropriate **p-table image**(this is board specific)
+For a full recovery you will need: **recovery.bin**, **l-loader.bin**, **fip.bin**, and the appropriate **p-table image**(this is board specific)
 
 - Debug Builds
 ```shell
-$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/l-loader.bin
-$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/fip.bin
-$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-4g.img
-$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-8g.img
-$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/nvme.img
+$ wget https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/debug/recovery.bin
+$ wget https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/debug/l-loader.bin
+$ wget https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/debug/fip.bin
+$ wget https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-4g.img
+$ wget https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-8g.img
 ```
 - Release Builds
 ```shell
-$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/l-loader.bin
-$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/fip.bin
-$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/ptable-linux-4g.img
-$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/ptable-linux-8g.img
-$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/nvme.img
+$ wget https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/release/recovery.bin
+$ wget https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/release/l-loader.bin
+$ wget https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/release/fip.bin
+$ wget https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/release/ptable-linux-4g.img
+$ wget https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/release/ptable-linux-8g.img
 ```
 
 #### Make sure fastboot is set up on host computer
@@ -97,49 +96,49 @@ $ dmesg
 
 #### Download hisi-idt.py "download tool" for the HiKey
 
-[hisi-idt.py](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/hisi-idt.py) is the download tool for the HiKey. This is used to install the bootloader as follows:
+[hisi-idt.py](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/release/hisi-idt.py) is the download tool for the HiKey. This is used to install the bootloader as follows:
 
 This script can also be downloaded using the wget command in your commandline:
 
 ```
-$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/hisi-idt.py
+$ wget https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/release/hisi-idt.py
 ```
 
 #### Run the script to initially prepare fastboot
 
-Make sure the modem interface is in the right ttyUSB as previously suggested. In this example, use ttyUSB0:
+Make sure the modem interface is in the right ttyUSB as previously suggested. In this example, use ttyUSB1:
 
 ```
-$ sudo python hisi-idt.py -d /dev/ttyUSB0 --img1=l-loader.bin
+$ sudo python hisi-idt.py -d /dev/ttyUSB1 --img1 recovery.bin
 ```
+
+> Note: This script only works with Python2.7
 
 #### After the python command has been issued you should see the following output. If you do not then see the "Problems with Python Downloader" section below
 
 ```
 +----------------------+
  Serial:  /dev/ttyUSB0
- Image1:  l-loader.bin
+ Image1:  recovery.bin
  Image2:  
 +----------------------+
 
-Sending l-loader.bin ...
+Sending recovery.bin ...
 Done
 ```
-**NOTE:** You may see the word “failed” before Done. This is under investigation but is not fatal. As long as the “Done” is printed at the end you may proceed.
 
 The bootloader has now been installed into RAM. Wait a few seconds for the fastboot application to actually load. The following fastboot commands
+loads the **partition table, bootloader, and other necessary files into the HiKey eMMC flash memory (4GB or 8GB)**.
 
-#### Load the partition table, the bootloader, and other necessary files into the HiKey eMMC flash memory (4GB or 8GB).
-
-8GB is used for this example.
-
-**NOTE:** the ptable must be flashed first. Wait for a few seconds after the reboot command to allow the bootloader to restart using the new partition table. (Example goes with 8G)
 
 ```
-$ sudo python hisi-idt.py -d /dev/ttyUSB0 --img1=l-loader.bin (again, remember ttyUSB* can change)
 $ sudo fastboot flash ptable ptable-linux-8g.img
+```
+> HiKey with 8GB eMMC is used for this example.
+
+```
+$ sudo fastboot flash loader l-loader.bin
 $ sudo fastboot flash fastboot fip.bin
-$ sudo fastboot flash nvme nvme.img
 ```
 
 Once this has been completed the bootloader has been installed into eMMC.
