@@ -1,6 +1,6 @@
 ---
 title: Setup SSH
-permalink: /documentation/consumer/dragonboard820c/guides/setup-SSH.md.html
+permalink: /documentation/consumer/dragonboard820c/guides/setup-ssh.md.html
 redirect_from:
 
 ---
