@@ -1,9 +1,7 @@
-<!---
 ---
 title: Basic Kit  for boardname
-permalink: /documentation/consumer/boardname/getting-started/
+permalink: /documentation/consumer/hikey970/getting-started/
 ---
--->
 
 # Getting Started
 

@@ -1,9 +1,7 @@
-<!---
 ---
 title: Hardware Documentation for boardname
-permalink: /documentation/consumer/boardname/hardware-docs/
+permalink: /documentation/consumer/hikey970/hardware-docs/
 ---
--->
 
 # Hardware Documentation
 

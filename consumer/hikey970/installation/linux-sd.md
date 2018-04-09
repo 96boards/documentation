@@ -1,9 +1,7 @@
-<!---
 ---
 title: Linux Host Installation for boardname
-permalink: /documentation/consumer/boardname/installation/linux-sd.md.html
+permalink: /documentation/consumer/hikey970/installation/linux-sd.md.html
 ---
--->
 
 ## Linux Host
 
