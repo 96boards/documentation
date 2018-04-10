@@ -189,12 +189,12 @@ The value of jumpers is as follows:
 
 | J Header        | Open/Closed         | Boot Select                     |
 |:----------------|:--------------------|:--------------------------------|
-| J21             | CLOSED              | BOOTSEL2 will be set 0          |
-|                 | OPEN                | BOOTSEL2 will be set 1(Default) |
+| J19             | CLOSED              | BOOTSEL2 will be set 1          |
+|                 | OPEN                | BOOTSEL2 will be set 0(Default) |
 | J20             | CLOSED              | BOOTSEL1 will be set 0          |
 |                 | OPEN                | BOOTSEL1 will be set 1(Default) |
-| J19             | CLOSED              | BOOTSEL0 will be set 1          |
-|                 | OPEN                | BOOTSEL0 will be set 0(Default) |
+| J21             | CLOSED              | BOOTSEL0 will be set 0          |
+|                 | OPEN                | BOOTSEL0 will be set 1(Default) |
 
 ## Getting Started
 
