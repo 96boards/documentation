@@ -1,30 +1,29 @@
 ---
-title: Using the boardname
-permalink: /documentation/consumer/poplar-hoperun/
+title: Documentation for Hoperun Poplar
+permalink: /documentation/enterprise/poplar-hoperun/
+redirect_from:
+- /documentation/EnterpriseEdition/Poplar-Hoperun/README.md/
+- /documentation/enterprise/poplar-hoperun/README.md/
+- /documentation/EnterpriseEdition/Poplar-Hoperun/
 ---
+# Using the Poplar
 
-# Using the Board-x
-
-A comprehensive guide to using the Board-x Consumer Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
+A comprehensive guide to using the [Poplar](https://www.96boards.org/product/poplar/) Enterprise Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
 ## Software
 
-- [Downloads](downloads/README.md)
-   - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
-- [Installation](installation/README.md)
-   - Choose and install an operating system on your Board-x
-- [Build from Source](build/README.md)
+- [Build from Source](build/)
    - Instructions for building and flashing the components of your favorite operating systems
 
-## Documenation
+## Documentation
 
-- [Getting Started](getting-started/README.md)
-   - Learn about your Board-x board, how to prepare and set up for basic use
-- [Useful Guides](guides/README.md)
-   - These guides will help to get you started with a variety of available on-boards software
-- [Hardware Documentation](hardware-docs/README.md)
-   - Explore what makes your Board-x unique, technical specifications, schematics, hardware notes and more...
-- [Support](support/README.md)
-   - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
+- [Getting Started](getting-started/)
+   - Learn about your Poplar board, how to prepare and set up for basic use
+- [Vendor Documentation](hardware-docs/)
+   - Explore what makes your Poplar unique, technical specifications, schematics, hardware notes and more...
+- [Support](support/)
+   - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers   
+- [Useful Guides](guides/)
+  - These guides will help to get you started with a variety of available on-boards software
 
 ***
