@@ -1,3 +1,8 @@
+---
+title: Build & Update Linux kernel
+permalink: /documentation/consumer/dragonboard410c/build/kernel.md.html
+---
+
 # Build & Update Linux kernel
   
 This page provides the Dragonboard-410c specific instructions for Linux kernel building.
