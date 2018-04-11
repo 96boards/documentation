@@ -13,3 +13,6 @@ redirect_from:
 
 - [OpenEmbedded/Yocto](open-embedded.md)
    - Create custom distribution based on OpenEmbedded/Yocto
+
+- [Linux Kernel](linux-kernel.md)
+   - Build Linux Kernel from source
