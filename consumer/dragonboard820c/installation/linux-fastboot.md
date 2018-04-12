@@ -7,6 +7,7 @@ redirect_from:
 ## Linux Host
 
 This section show how to install an operating system to your DragonBoard™ 820c using the Fastboot method on a Linux host computer.
+Please refer to the **[Build Linux Host Computer](build-linux-host.md)** for the initial setup.
 
 ## Flashing the Bootloader
 
@@ -38,15 +39,17 @@ $ make
 ### Flashing the bootloader
 
 Download and unzip the most recent bootloader package:
-
-```
+The script downloads the latest build and prints the BUILD number for your information.
+ 
+```shell
+$ BUILD=$(curl http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/ | grep -oP '(?<=/)\d{2}(?=/")')
+$ echo "BUILD=$BUILD"
 $ wget http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/dragonboard-820c-bootloader-ufs-linux-*.zip
-$ unzip http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/dragonboard-820c-bootloader-ufs-linux-BUILD.zip
-$ cd dragonboard-820c-bootloader-ufs-linux-BUILD
-$ sudo <PATH to qdl>/qdl prog_ufs_firehose_8996_ddr.elf rawprogram.xml patch.xml
+$ unzip dragonboard-820c-bootloader-ufs-linux-*.zip
+$ rm dragonboard-820c-bootloader-ufs-linux-*.zip
+$ mv dragonboard-820c-bootloader-ufs-linux-$BUILD bootloader-ufs-linux
+$ cd ~/DB820c/bootloader-ufs-linux
 ```
-> Note: Replace **BUILD#** in the above commands with the bootloader build number.
-
 It should take a few seconds. And you should eventually get something like that:
 
 ```shell
@@ -127,4 +130,4 @@ If all steps went fine and you have flashed `ALIP` image, you should now have a 
 
 Initial support for DragonBoard 820c has been added into the OpenEmbedded QCOM BSP later, including the appropriate kernel recipe. To build an image for Dragonboard 820c , simply follow the same instructions as usual, from [Dragonboard-410c-OpenEmbedded-and-Yocto](https://github.com/Linaro/documentation/blob/master/Reference-Platform/CECommon/OE.md). When you select the MACHINE to build for, pick `dragonboard-820c`.
 
-The board has been added to the Linaro Reference Platform OpenEmbedded builds, and prebuilt images for this board are available here: http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/rocko/latest/.
+The board has been added to the Linaro Reference Platform OpenEmbedded builds, and prebuilt images for this board are available here: [http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/rocko/latest/](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/rocko/latest/).
