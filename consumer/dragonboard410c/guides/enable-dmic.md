@@ -147,4 +147,5 @@ After recording audio, mux can be reset using the following command.
 
 ```shell
 $ amixer cset iface=MIXER,name='DEC1 MUX' 'ZERO'
+$ amixer cset iface=MIXER,name='CIC1 MUX' 'ZERO'
 ```
