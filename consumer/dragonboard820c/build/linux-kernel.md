@@ -7,7 +7,7 @@ permalink: /documentation/consumer/dragonboard820c/build/linux-kernel.md.html
 
 The following instructions can be used to build Linux Kernel from source for Dragonboard-820c.  Note this is cross-compiled on a host development system.   These instructions assume the host machine is Linux based.
 
-##Set up Toolchain Environment
+## Set up Toolchain Environment
 Create a working directory
 ```
 $ mkdir 820cSourceBuild
@@ -29,7 +29,7 @@ Set the host up to point to the newly downloaded toolchain
 $ export ARCH=arm64
 $ export CROSS_COMPILE=$(pwd)/gcc-linaro-7.2.1-2017.11-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-
 ```
-##Cloning the Kernel Source
+## Cloning the Kernel Source
 The Linux kernel used for DragonBoard 820c can be found in the Linaro Qualcomm Landing Team git repository. It's always a good idea to verify that the latest build was successful prior to cloning.  This can be checked on the Snapdragon 820 project ci dashboard [**here**](https://ci.linaro.org/job/lt-qcom-debian-images-dragonboard820c "820c CI").
 
 Once verified,create a development directory, navigate to it, and clone the repository. 
@@ -38,22 +38,22 @@ $ mkdir 820dev
 $ cd 820dev
 $ git clone http://git.linaro.org/landing-teams/working/qualcomm/kernel.git
 ```
-##Checkout desired branch
+## Checkout desired branch
  These instructions describe three options for selecting a branch.
-####Example: Checkout tip
+#### Example: Checkout tip
 To checkout the tip of Dragonboard 820c kernel code, perform the following from the directory the source was cloned:
 ```
 $ cd kernel
 $ git checkout -t origin/release/qcomlt-4.14
 ```
 In the above, `4.14` is the kernel version in the form of x.y.   Replace x and y with kernel major and minor release versions that is desired to be checked out (the latest one being the most up-to-date/recent).
-####Example: Checkout Integration Branch
+#### Example: Checkout Integration Branch
 A developer can checkout the integration-linux-qcomlt branch, which is regularly rebased on recent mainline, and is used by developers.
 ```
 $ cd kernel
 $ git checkout integration-linux-qcomlt
 ```
-####Example: Checkout kernel source from a specific build
+#### Example: Checkout kernel source from a specific build
 Some things to keep in mind when checking out the kernel source from a specific previous build:
  1) As noted earlier, check the Snapdragon 820 project ci dashboard [**here**](https://ci.linaro.org/job/lt-qcom-debian-images-dragonboard820c "820c CI") to verify that the source branch you're checking out built successfully.
  2) To see the snapshot build history, click [**here**](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/debian/ "Build history")
@@ -67,14 +67,14 @@ The kernel commit ID in that string is f5e8b5579a54, and this is the commit id t
 ```
 git checkout f5e8b5579a54
 ```
-####Establish a known good install
+#### Establish a known good install
 It's a good idea to first select a prebuilt kernel boot image and rootfs, install these and bring them up on your Dragonboard 820c.  Follow the Dragonboard 820c [Insatllation page](https://www.96boards.org/documentation/consumer/dragonboard820c/installation/ "Installation page") to do this.  Install the kernel boot image and the rootfs from the desired build and boot the board up to verify it's functional.
 
 Note: The latest bootloader should also be installed.  This is found [**here**](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/ "Bootloader latest"), and the instructions to install are also located on the installation page noted above.
 
 Once a baseline build is working, moving forward with a kernel build from source can be verified much easier for correctness. It's important to understand that the kernel image is coupled to it's associated rootfs. The modules are installed with the rootfs, and the kernel then gets these and installs them as needed. 
 
-####Checkout 
+#### Checkout 
 Assuming that you've installed and booted the pre-existing build  chosen as your baseline, you are ready to checkout a kernel branch, build and install it.
 
 Select which branch to checkout and do so as shown in the examples above
