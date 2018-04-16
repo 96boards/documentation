@@ -40,7 +40,7 @@ $ git checkout db410c
 $ export ARCH=arm
 $ export CROSS_COMPILE=<path to your GCC cross compiler>/aarch64-linux-gnu-
 $ make dragonboard410c_config
-$ make -j2
+$ make -j$(nproc)
 ```
 Generate fake init ramdisk
 
