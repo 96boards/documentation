@@ -68,4 +68,4 @@ sudo reboot
 ```
 
 ### That's It!
-Enjoy a faster swap, go ahead and try opening multiple chrome tabs and compiling something with ```make -j4``` !!!
+Enjoy a faster swap, go ahead and try opening multiple chrome tabs and compiling something with ```make -j$(nproc)``` !!!
