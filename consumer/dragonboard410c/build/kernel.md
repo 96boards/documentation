@@ -42,18 +42,19 @@ You need to download the correct GCC toolchain depending your host/target archit
  ```
 - ##### Generate Linux kernel config file
  ```shell
-    $ make defconfig
+    $ make defconfig distro.config
  ```
 - ##### Make kernel
  ```shell
-    $ make -j7
+    $ make -j$(nproc) Image.gz dtbs
+    $ make -j$(nproc) modules    
  ```
 
-Make command generates the **kernel** (arch/arm64/boot/Image) itself, the **kernel modules**(in-tree) and the **device-tree blob** (arch/arm64/boot/dts/qcom/apq8016-sbc.dtb).
+Make command generates the **kernel** (arch/$(ARCH)/boot/Image.gz) itself (as a compressed image), the **kernel modules**(in-tree) and the **device-tree blob** (arch/$(ARCH)/boot/dts/qcom/apq8016-sbc.dtb).
 
 
 #### 4. Generate and flash new Dragonboard boot image (abootimg)
-kernel and DTB need to be packed into an android boot image. Such image can be generated with abootimg tool.
+The kernel image and DTB file need to be packed into an Android boot image. Such image can be generated with abootimg tool.
 
 - ##### Install abootimg
   ```shell
@@ -62,14 +63,13 @@ kernel and DTB need to be packed into an android boot image. Such image can be g
 
 - ##### Build image
   ```shell
-  # DTB has to be appended to a gzipped kernel:
-  $ gzip -c arch/arm64/boot/Image > Image.gz
-  $ cat Image.gz arch/arm64/boot/dts/qcom/apq8016-sbc.dtb > Image.gz+dtb
+  # DTB has to be appended to the compressed kernel image:
+  $ cat arch/$(ARCH)/boot/Image.gz arch/$(ARCH)/boot/dts/qcom/apq8016-sbc.dtb > Image.gz+dtb
 
   # abootimg requires a ramdisk, but we don't really use it, so create a dummy one:
   $ echo "not a ramdisk" > ramdisk.img
   
-  # finally, generate the boot image (here our rootfs is located an mmcbl0p10 partition)
+  # finally, generate the boot image (here our rootfs is located an mmcblk0p10 partition)
   $ abootimg --create boot-db410c.img -k Image.gz+dtb -r ramdisk.img \
              -c pagesize=2048 -c kerneladdr=0x80008000 -c ramdiskaddr=0x81000000 \
              -c cmdline="root=/dev/mmcblk0p10 rw rootwait console=tty0 console=ttyMSM0,115200n8"
