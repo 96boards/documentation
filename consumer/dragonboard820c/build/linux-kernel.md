@@ -100,7 +100,7 @@ Now that the kernel is build, a boot image must be created for the Dragonboard 8
 To create the boot image, follow the instructions available [**here**](../../../wiki/Dragonboard-Boot-Image "Create boot image").
 
 ## Install the Kernel Boot Image
-Follow the normal fastboot instructions found [**here**](../installation/linux-fastboot.md.html/ "Fastboot install") to install the boot image created in the previous step.   
+Follow the normal fastboot instructions found [**here**]([Dragonboard-Boot-Image](https://github.com/96boards/documentation/wiki/Dragonboard-Boot-Image)/ "Fastboot install") to install the boot image created in the previous step.   
 
   
 Congratulation!  You have just built and installed a new kernel on you DragonBoard 820c!
