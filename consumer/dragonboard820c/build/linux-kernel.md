@@ -41,12 +41,12 @@ $ cd kernel
 $ export ARCH=arm64
 $ export CROSS_COMPILE=<path to your GCC cross compiler>/aarch64-linux-gnu-
 $ make defconfig distro.config
-$ make -j$nproc Image dtbs KERNELRELEASE=`make kernelversion`-qcomlt-${ARCH}
+$ make -j$(nproc) Image dtbs KERNELRELEASE=`make kernelversion`-qcomlt-${ARCH}
 ```
 For building the kernel modules:
 
 ```shell
-$ make -j4 modules KERNELRELEASE=`make kernelversion`-qcomlt-${ARCH}
+$ make -j$(nproc) modules KERNELRELEASE=`make kernelversion`-qcomlt-${ARCH}
 ```
 
 ## Booting the Kernel
