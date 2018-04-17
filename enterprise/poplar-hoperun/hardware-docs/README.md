@@ -1,10 +1,6 @@
 ---
 title: Hardware Documentation for Hoperun Poplar
 permalink: /documentation/enterprise/poplar-hoperun/hardware-docs/
-redirect_from:
-- /documentation/EnterpriseEdition/Poplar-Hoperun/HardwareDocs/README.md/
-- /documentation/EnterpriseEdition/Poplar-Hoperun/HardwareDocs/
-- /documentation/enterprise/poplar-hoperun/hardware-docs/README.md
 ---
 # Hardware Documentation
 
@@ -16,5 +12,4 @@ Explore what makes your Poplar unique, technical specifications, schematics, har
 
 #### Hardware
 
-- Schematics ([View](Poplar_Schematics_vB.pdf) / [Download](https://github.com/96boards/documentation/raw/master/enterprise/poplar-hoperun/hardware-docs/Poplar_Schematics_vB.pdf))
-
+- Schematics ([View](Poplar_Schematics_vB.pdf) / [Download](https://github.com/jianguocn/documentation/raw/topic/poplar-hoperun/enterprise/poplar-hoperun/hardware-docs/Poplar_Schematics_vB.pdf))

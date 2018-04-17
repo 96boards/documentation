@@ -1,10 +1,6 @@
 ---
 title: Getting Started with Hoperun Poplar
-permalink: /documentation/enterprise/poplar-hoperun/getting-started/
-redirect_from:
-- /documentation/EnterpriseEdition/Poplar-Hoperun/GettingStarted/README.md/
-- /documentation/EnterpriseEdition/Poplar-Hoperun/GettingStarted/
-- /documentation/enterprise/poplar-hoperun/getting-started/README.md
+permalink: /documentation/enterprise/poplar-hoperun/guides/
 ---
 # Getting Started
 

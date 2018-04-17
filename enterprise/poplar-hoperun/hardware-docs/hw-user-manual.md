@@ -1,7 +1,6 @@
 ---
 title: Hardware User Manual for Poplar
 permalink: /documentation/enterprise/poplar-hoperun/hardware-docs/hw-user-manual.md.html
-redirect_from: /documentation/EnterpriseEdition/Poplar-Hoperun/HardwareDocs/HardwareUserManual.md.html
 ---
 #  Poplar Hardware User Manual
 

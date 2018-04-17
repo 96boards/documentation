@@ -1,10 +1,6 @@
 ---
 title: Additional Documentation for Hoperun Poplar
 permalink: /documentation/enterprise/poplar-hoperun/additional-docs/
-redirect_from:
-- /documentation/EnterpriseEdition/Poplar-Hoperun/AdditionalDocs/README.md/
-- /documentation/EnterpriseEdition/Poplar-Hoperun/AdditionalDocs/
-- /documentation/enterprise/poplar-hoperun/additional-docs/README.md
 ---
 # Additional Documentation
 

@@ -1,10 +1,6 @@
 ---
 title: Support for Hoperun Poplar
 permalink: /documentation/enterprise/poplar-hoperun/support/
-redirect_from:
-- /documentation/EnterpriseEdition/Poplar-Hoperun/Support/README.md/
-- /documentation/EnterpriseEdition/Poplar-Hoperun/Support/
-- /documentation/enterprise/poplar-hoperun/support/README.md
 ---
 # Troubleshooting
 

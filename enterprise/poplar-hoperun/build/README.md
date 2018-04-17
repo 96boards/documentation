@@ -1,10 +1,6 @@
 ---
 title: BuildSource for Hoperun Poplar
 permalink: /documentation/enterprise/poplar-hoperun/build/
-redirect_from:
-- /documentation/EnterpriseEdition/Poplar-Hoperun/BuildSource/README.md/
-- /documentation/enterprise/poplar-hoperun/build/README.md/
-- /documentation/EnterpriseEdition/Poplar-Hoperun/BuildSource/
 ---
 # Build from Source
 

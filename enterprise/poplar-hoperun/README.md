@@ -1,10 +1,6 @@
 ---
 title: Documentation for Hoperun Poplar
 permalink: /documentation/enterprise/poplar-hoperun/
-redirect_from:
-- /documentation/EnterpriseEdition/Poplar-Hoperun/README.md/
-- /documentation/enterprise/poplar-hoperun/README.md/
-- /documentation/EnterpriseEdition/Poplar-Hoperun/
 ---
 # Using the Poplar
 
