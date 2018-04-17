@@ -25,5 +25,5 @@ A comprehensive guide to using the [Carbon](https://www.96boards.org/product/car
    - Learn about your Carbon board, how to prepare and set up for basic use
 - [Hardware Documentation](hardware-docs/)
    - Explore what makes your Carbon unique, technical specifications, schematics, hardware notes and more...
-- [Support](support/)
+- [Troubleshooting and Support](support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers   

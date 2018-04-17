@@ -26,5 +26,5 @@ A comprehensive guide to using the [DragonBoard 820c](https://www.96boards.org/p
    - Discover our list of sponsored DragonBoard 820c documents, these include User Guides and Application notes
 - [Hardware Documentation](hardware-docs/)
    - Explore what makes your DragonBoard 820c unique, technical specifications, schematics, hardware notes and more...
-- [Support](support/)
+- [Troubleshooting and Support](support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
