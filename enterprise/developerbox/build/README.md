@@ -2,6 +2,19 @@
 title: Build Source for Developerbox
 permalink: /documentation/enterprise/developerbox/build/
 ---
+# Table of Contents
+
+   * [Build System Firmware From Source](#build-system-firmware-from-source)
+      * [Preparation](#preparation)
+      * [Cloning the sources](#cloning-the-sources)
+      * [Rebuild Trusted Firmware](#rebuild-trusted-firmware)
+      * [Build EDK2](#build-edk2)
+      * [Install the System Firmware](#install-the-system-firmware)
+   * [Build Linux From Source](#build-linux-from-source)
+
+<!-- Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc) -->
+
+***
 
 # Build System Firmware From Source
 
@@ -112,6 +125,8 @@ sudo reboot
 
 Alternatively you can install `SPI_NOR_IMAGE.fd` using the [board
 recovery method](../installation/board-recovery.md).
+
+***
 
 # Build Linux From Source
 
