@@ -22,5 +22,5 @@ A comprehensive guide to using the [i.MX7 96](https://www.96boards.org/product/i
    - These guides will help to get you started with a variety of available on-boards software
 - [Hardware Documentation](hardware-docs/)
    - Explore what makes your i.MX7 Meerkat™ unique, technical specifications, schematics, hardware notes and more...
-- [Support](support/)
+- [Troubleshooting and Support](support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
