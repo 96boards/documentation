@@ -5,6 +5,18 @@ permalink:
 redirect_from:
 
 ---
+# Table of Contents
+
+   * [System firmware recovery](#system-firmware-recovery)
+      * [Update using serial flasher](#update-using-serial-flasher)
+      * [Resetting the NVRAM](#resetting-the-nvram)
+   * [Low-level (CM3) firmware recovery](#low-level-cm3-firmware-recovery)
+      * [Update using serial flasher](#update-using-serial-flasher-1)
+      * [JTAG recovery](#jtag-recovery)
+
+<!-- Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc) -->
+
+***
 
 # System firmware recovery
 
@@ -65,6 +77,7 @@ flash rawwrite 180000 2b0000
 >> Send SPI_NOR_IMAGE.fd via XMODEM (Control-A S in minicom) <<
 ~~~
 
+***
 
 # Low-level (CM3) firmware recovery
 
