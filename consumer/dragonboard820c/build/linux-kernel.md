@@ -68,7 +68,7 @@ The kernel commit ID in that string is f5e8b5579a54, and this is the commit id t
 git checkout f5e8b5579a54
 ```
 #### Establish a known good install
-It's a good idea to first select a prebuilt kernel boot image and rootfs, install these and bring them up on your Dragonboard 820c.  Follow the Dragonboard 820c [Installation page](../installation/README.md "Installation page") to do this.  Install the kernel boot image and the rootfs from the desired build and boot the board up to verify it's functional.
+It's a good idea to first select a prebuilt kernel boot image and rootfs, install these and bring them up on your Dragonboard 820c.  Follow the Dragonboard 820c [Installation page](../installation/ "Installation page") to do this.  Install the kernel boot image and the rootfs from the desired build and boot the board up to verify it's functional.
 
 Note: The latest bootloader should also be installed.  This is found [**here**](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/ "Bootloader latest"), and the instructions to install are also located on the installation page noted above.
 
@@ -100,7 +100,7 @@ Now that the kernel is build, a boot image must be created for the Dragonboard 8
 To create the boot image, follow the instructions available [**here**](https://github.com/96boards/documentation/wiki/Dragonboard-Boot-Image "Create boot image").
 
 ## Install the Kernel Boot Image
-Follow the normal fastboot instructions found [**here**](../installation/README.md "Fastboot install") to install the boot image created in the previous step.   
+Follow the normal fastboot instructions found [**here**](../installation/ "Fastboot install") to install the boot image created in the previous step.   
 
   
 Congratulation!  You have just built and installed a new kernel on you DragonBoard 820c!
