@@ -1,24 +1,15 @@
 ---
-title: Hardware Documentation for boardname
-permalink: /documentation/consumer/poplar-hoperun/hardware-docs/
+title: Hardware Documentation for Hoperun Poplar
+permalink: /documentation/enterprise/poplar-hoperun/hardware-docs/
 ---
-
-
 # Hardware Documentation
 
-Explore what makes your Board-X unique, technical specifications, schematics, hardware notes and more... This page allows you to see what is under the "Board-X hood" by offering static documentation published directly from the board vendors.
+Explore what makes your Poplar unique, technical specifications, schematics, hardware notes and more... This page allows you to see what is under the "Poplar hood" by offering static documentation published directly from the board vendors.
 
-## Hardware
+## User Guides
 
-< Please upload the following to current folder or send to robert.wolff@linaro.org>
+- Hardware User Manual ([View](hw-user-manual.md))
 
-- BOM ([View]() / [Download]())
-- Schematics ([View]() / [Download]())
+#### Hardware
 
-#### Board-X Processor documents
-
-< If these documents exist >
-
-- [Board-X Device Specification]()
-- [Board-X GPIO Pin Assignment]()
-- [Hardware Register Description for Board-X]()
+- Schematics ([View](Poplar_Schematics_vB.pdf) / [Download](https://github.com/jianguocn/documentation/raw/topic/poplar-hoperun/enterprise/poplar-hoperun/hardware-docs/Poplar_Schematics_vB.pdf))

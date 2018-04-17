@@ -1,18 +1,17 @@
 ---
-title: Additional Docs for boardname
-permalink: /documentation/consumer/poplar-hoperun/additional-docs/
+title: Additional Documentation for Hoperun Poplar
+permalink: /documentation/enterprise/poplar-hoperun/additional-docs/
 ---
+# Additional Documentation
 
-# Board Images
+Discover our list of community and vendor sponsored Poplar documents. This page allows you to explore new and exciting, downloadable documentation, in it's intended, static format.
 
-Each 96Boards development board must provide six images, 3 x High Definition and 3 x Standard Definition. These images should be sized and named accordingly. These images should be uploaded to this folder and made available to community for viewing and/or download.
+##User Guides
 
-#### 1500x974 - 300dpi
-- BoardName_Front_HD
-- BoardName_Back_HD
-- BoardName_Angle_HD
+***
 
-#### 770x500 - 72dpi
-- BoardName_Front_SD
-- BoardName_Back_SD
-- BoardName_Angle_SD
+## From Hoperun
+
+***
+
+## From HiSilicon
