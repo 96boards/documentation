@@ -64,7 +64,7 @@ The kernel image and DTB file need to be packed into an Android boot image. Such
 - ##### Build image
   ```shell
   # DTB has to be appended to the compressed kernel image:
-  $ cat arch/$(ARCH)/boot/Image.gz arch/$(ARCH)/boot/dts/qcom/apq8016-sbc.dtb > Image.gz+dtb
+  $ cat arch/$ARCH/boot/Image.gz arch/$ARCH/boot/dts/qcom/apq8016-sbc.dtb > Image.gz+dtb
 
   # abootimg requires a ramdisk, but we don't really use it, so create a dummy one:
   $ echo "not a ramdisk" > ramdisk.img
