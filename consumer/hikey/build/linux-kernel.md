@@ -51,12 +51,7 @@ $ export CROSS_COMPILE=<path-to-cross-compiler>/aarch64-linux-gnu-gcc-
 
 ```shell
 $ make defconfig distro.config
-```
-> Note: You can add any extra string to the kernel version by editing the
->       LOCALVERSION in generated .config file
-
-```shell
-$ make bindeb-pkg
+$ make bindeb-pkg LOCALVERSION=-hikey-linaro
 ```
 
 After the compilation, in the directory one level above the kernel source tree,
@@ -74,3 +69,17 @@ $ dpkg -i linux-image-xxx.deb
 ```
 > Note: Replace xxx in the image name with the generated version string 
 
+## Booting Custom Device Tree
+
+You can override the default device tree which comes with the image and boot
+with your own custom device tree.
+
+1. First copy the device tree binary (dtb) to `/boot` directory and reboot
+the board.
+2. At the GRUB boot selection menu, press `e` and then add the following
+entry in the last line after `initrd`.
+
+```shell
+devicetree /boot/hi6220-hikey.dtb
+```
+Now press `ctrl+x` to boot with custom device tree binary.
