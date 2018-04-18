@@ -1,9 +1,6 @@
 ---
 title: Developerbox Board Recovery
-permalink:
-/documentation/enterprise/developerbox/installation/board-recovery.md.html
-redirect_from:
-
+permalink: /documentation/enterprise/developerbox/installation/board-recovery.md.html
 ---
 # Table of Contents
 
