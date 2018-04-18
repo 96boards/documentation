@@ -6,6 +6,8 @@ permalink: /documentation/consumer/dragonboard820c/guides/
 
 These guides will help to get you started with a variety of available on-boards software
 
+- [AOSP](aosp.md)
+
 ## Onboard storage
 
 The Dragonboard 820c has a 32GB UFS drive and the drive is physically partitioned like this, when using the default UFS provision scheme released by 96boards.
