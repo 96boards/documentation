@@ -17,10 +17,35 @@ The Dragonboard 820c has a 32GB UFS drive and the drive is physically partitione
     Disk /dev/sde: 1048576 sectors, 4.0 GiB
     Disk /dev/sdf: 393216 sectors, 1.5 GiB
 
-The UFS provisioning is very much tied to some of the proprietary bootloader, and internal SoC ROM code. Instructions to change the UFS provisioning scheme are not provided, and it is very much recommended to not change it. Each *disk* on the provisioned UFS drive is used for various purpose throughout the boot, and each *disk* contain a set of predefined partitions. The main useful partitions for now are : 
+The UFS provisioning is very much tied to some of the proprietary bootloader, and internal SoC ROM code. While it is possible to change the UFS provisioning scheme, it is not recommended for now. For a full description of the default LUNs configuration, you can check https://git.linaro.org/landing-teams/working/qualcomm/db-boot-tools.git/tree/dragonboard820c/ufs-provision_toshiba.xml.
 
-* `/dev/sda7` is `rootfs`. It is ~24GB, and should be used to flash the rootfs
+Each *disk* on the provisioned UFS drive is used for various purpose throughout the boot, and each *disk* contain a set of predefined partitions. We release several partition schemes for different use cases.
+
+### Linux default partition scheme
+
+This is the default partition scheme recommended to be used when running a GNU/Linux operating system, such as the reference images released by Linaro, based on Debian or OpenEmbedded. 
+
+The main useful partitions for now are : 
+
+* `/dev/sda1` is `rootfs`. It is ~24GB, and should be used to flash the rootfs
 * `/dev/sde17` is `boot`. It should be used to flash the kernel/boot image.
+
+For a complete description of all partitions, for each LUN, please check https://git.linaro.org/landing-teams/working/qualcomm/db-boot-tools.git/tree/dragonboard820c/linux/partition.xml.
+
+### AOSP default partition scheme
+
+This is the default partition scheme recommended to be used when running Android AOSP.
+
+The main useful partitions for now are : 
+
+* `/dev/sda1` is `system`. It is ~4GB
+* `/dev/sda2` is `cache`. It is ~1GB
+* `/dev/sda3` is `vendor`. It is ~2GB
+* `/dev/sda4` is `swap`. It is ~2GB
+* `/dev/sda5` is `userdata`. It is ~15GB
+* `/dev/sde17` is `boot`. 
+
+For a complete description of all partitions, for each LUN, please check https://git.linaro.org/landing-teams/working/qualcomm/db-boot-tools.git/tree/dragonboard820c/aosp/partition.xml.
 
 ## Building the SD rescue image
 
