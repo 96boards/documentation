@@ -60,10 +60,10 @@ $ sudo apt-get install pkg-config zip g++ zlib1g-dev unzip
 First download the Bazel release package
 
 ```shell
-$ wget https://github.com/bazelbuild/bazel/releases/download/0.4.5/bazel-0.4.5-dist.zip
-$ mkdir bazel-0.4.5
-$ unzip bazel-0.4.5-dist.zip -d bazel-0.4.5
-$ cd bazel-0.4.5
+$ wget https://github.com/bazelbuild/bazel/releases/download/0.12.0/bazel-0.12.0-dist.zip
+$ mkdir bazel-0.12.0
+$ unzip bazel-0.12.0-dist.zip -d bazel-0.12.0
+$ cd bazel-0.12.0
 ```
 
 Next you must modify the bazel source file to be compatible with aarch64. This [tutorial](http://zhiyisun.github.io/2017/02/15/Running-Google-Machine-Learning-Library-Tensorflow-On-ARM-64-bit-Platform.html) describes the step by step the modifications which must be made to the source code.
