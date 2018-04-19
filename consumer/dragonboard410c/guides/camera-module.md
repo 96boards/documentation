@@ -162,7 +162,7 @@ Example GStreamer pipeline for video recording:
 
 ## Using CSID Test Generator
 
-If you do not have any camera sensor, it is possible to use the internal CSID Test Generator (TG). To enable it download and compile the `yavta` tool from [here](http://git.ideasonboard.org/yavta.git):
+If you do not have any camera sensor, it is possible to use the internal CSID Test Generator (TG). To enable it download and compile the `yavta` tool from [here](https://github.com/fastr/yavta):
 
     git clone git://git.ideasonboard.org/yavta.git
     cd yavta
