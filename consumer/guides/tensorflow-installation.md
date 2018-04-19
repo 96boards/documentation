@@ -66,7 +66,7 @@ $ unzip bazel-0.12.0-dist.zip -d bazel-0.12.0
 $ cd bazel-0.12.0
 ```
 
-Next you must modify the bazel source file to be compatible with aarch64. This [tutorial](http://zhiyisun.github.io/2017/02/15/Running-Google-Machine-Learning-Library-Tensorflow-On-ARM-64-bit-Platform.html) describes the step by step the modifications which must be made to the source code.
+Next you must modify the bazel source file to be compatible with aarch64. This [tutorial](https://collaborate.linaro.org/display/BDTS/Building+and+Installing+Tensorflow+on+AArch64) describes the step by step the modifications which must be made to the source code.
 
 After Bazel is installed, you may either continue following the instructions from the Bazel tutorial for installing Tensorflow, or go to the [tensorflow website]( https://www.tensorflow.org/install/install_sources#ConfigureInstallation) and install tensorflow from source.
 
