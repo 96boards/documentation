@@ -40,11 +40,11 @@ of your chosen operating system to get an ISO image for the installer.
 
 ## Create installation USB stick
 
-Choose host machine to perform installation from:
+Choose host machine to create the USB stick from:
 
-- [GNU/Linux](linux-usb.md)
-- Mac - Coming soon...
-- Windows - Coming soon...
+- [GNU/Linux (including other Developerboxen](linux-usb.md)
+- [Mac](mac-usb.md)
+- [Windows](windows-usb.md)
 
 ## Boot into the installer
 
@@ -84,5 +84,5 @@ sudo fwupdate --apply {50b94ce5-8b63-4849-8af4-ea479356f0e3} DeveloperBox.Cap
 sudo reboot
 ~~~
 
-During the reboot process EDK II will apply the update and then reboot
+During the reboot process EDK2 will apply the update and then reboot
 as normal.
