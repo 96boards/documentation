@@ -13,7 +13,6 @@ Developerbox.
 - **Step 3**: Recall Download Location
 - **Step 4**: Go to directory with _ISO Installer Image_ folder using Terminal
 - **Step 5**: Install Image onto USB Stick
-- **Step 6**: Boot Developerbox from the USB Stick
 
 ***
 
@@ -77,16 +76,6 @@ $ sudo dd if=YourInstallerImage.iso of=/dev/XXX bs=4M oflag=sync status=noxfer
 - `if=YourInstallerImage.iso`: should match the name of the image that was downloaded.
 - `of=/dev/XXX`: XXX should match the name of the USB Stick device name from **Step 2**. Be sure to use the device name with out the partition.
 - This command will take some time to execute. Be patient and avoid tampering with the terminal until process has ended.
-- Once USB Stick is done flashing, remove from host computer and set aside for **Step 6**
+- Once USB Stick is done flashing, remove from host computer and set aside.
 
-#### Step 6: Boot Developerbox from the USB Stick
-
-- Make sure Developerbox is unplugged from power
-- Connect an monitor to the Developerbox, and power on the monitor
-- Plug a USB keyboard and/or mouse into one of the USB connectors on the Developerbox
-- Insert the USB Stick the Developerbox
-- Plug power adaptor into Developerbox and press Escape to interrupt the
-  boot process
-- Go to **Boot Manager** and select the appropriate device and press Return
-
-**Congratulations! You are now running your operating system installer. It's time to switch to the Installation Guide for your chosen operating system!**
+**Congratulations! Your USB stick is ready. Switch back to the [Installation Guide](README.md#boot-into-the-installer) to boot into the installer!**
