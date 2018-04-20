@@ -10,6 +10,6 @@ These guides will help to get you started with a variety of available on-boards 
 
 ## Linux
 
-- [User Guide](files/chameleon96_user_guide.pdf)
-- [Software Guide](files/chameleon96-software-guide.pdf)
-- [Network Guide](files/chameleon96_network-guide.pdf)
+- [User Guide](user-guide.md)
+- [Software Guide](software-guide.md)
+- [Network Guide](network-guide.md)
