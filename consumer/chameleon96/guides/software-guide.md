@@ -59,7 +59,7 @@ This directory contains the following directories:
 -	buildroot-2015.08.01 – buildroot and associated support packages
 -	chameleon96 – The buildroot project directory, containing a buildroot tree pre-configured for the Chameleon96<sup>®</sup>.
 -	support_files – NovTech support files, including
-  -	scripts to update VM packages and download from SVN.
+   -	scripts to update VM packages and download from SVN.
 
 ##	Compiling in Buildroot
 
