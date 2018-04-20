@@ -1,11 +1,11 @@
 ---
-title: User Guide for Chameleon96<sup>®</sup>
+title: User Guide for Chameleon96
 permalink: /documentation/consumer/chameleon96/guides/user-guide.md.html
 ---
 
 # Registering Chameleon96<sup>®</sup>
 
-Please register your Chameleon96<sup>®</sup> at http://www.novtech.com/registration
+Please register your Chameleon96<sup>®</sup> [here](http://www.novtech.com/registration).
 Provide the serial # from the back side of the Chameleon96<sup>®</sup> board.
 Provide the requested information and select **Chameleon96** from the version drop down.
 
@@ -59,7 +59,7 @@ Another method could be to open VMware Player and click on **Open a Virtual Mach
 <img src="../additional-docs/images/images-hw-user-manual/vmware-player2.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/vmware-player2.png" width="545" height="434" />
 
 *NOTE:
-To save on storage and transmission, the Chameleon96<sup>®</sup> virtual machine is preconfigured to use 1G of RAM. NovTech recommends increasing this value to a minimum of 2GB. You can edit this value to increase or decrease the amount of RAM assigned to the VM. After opening VMware<sup>®</sup> Player, click on **Edit Virtual Machine Settings**, *navigate to **Hardware** *tab and select Memory. Adjust memory to the desired size.*
+To save on storage and transmission, the Chameleon96<sup>®</sup> virtual machine is preconfigured to use 1G of RAM. NovTech recommends increasing this value to a minimum of 2GB. You can edit this value to increase or decrease the amount of RAM assigned to the VM. After opening VMware<sup>®</sup> Player, click on **Edit Virtual Machine Settings**, navigate to **Hardware** tab and select Memory. Adjust memory to the desired size.*
 
 ## Configure the RAM dedicated to your VM.
 To minimize the size of the VM image in storage and transit, the VM has been limited to 1GB of RAM. For optimal performance, increase the amount of RAM allocated to the VM.
