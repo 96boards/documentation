@@ -61,7 +61,7 @@ Another method could be to open VMware Player and click on **Open a Virtual Mach
 *NOTE:
 To save on storage and transmission, the Chameleon96<sup>®</sup> virtual machine is preconfigured to use 1G of RAM. NovTech recommends increasing this value to a minimum of 2GB. You can edit this value to increase or decrease the amount of RAM assigned to the VM. After opening VMware<sup>®</sup> Player, click on **Edit Virtual Machine Settings**, navigate to **Hardware** tab and select Memory. Adjust memory to the desired size.*
 
-## Configure the RAM dedicated to your VM.
+## Configure the RAM dedicated to your VM
 To minimize the size of the VM image in storage and transit, the VM has been limited to 1GB of RAM. For optimal performance, increase the amount of RAM allocated to the VM.
 NovTech recommends allocating a minimum of 2GB of memory to the machine, and optimally 6GB of RAM.
 
@@ -79,18 +79,18 @@ To log into the virtual machine please type **novtech** for the password.
 
 <img src="../additional-docs/images/images-hw-user-manual/vm-login.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/vm-login.png" width="546" height="408" />
 
-*A pop-up window may ask you to update the VMware® Linux Tools. It is not necessary to do so, but if you wish to stop seeing the message tab on the bottom of the VM, click **Install** *button when asked. VMware<sup>®</sup> will then mount a CD drive and open the mounted folder with the install files contained in that folder. Copy all the files in that folder and paste them in your home folder. Open a Terminal window where you placed the files. Run these two commands:*
+*A pop-up window may ask you to update the VMware® Linux Tools. It is not necessary to do so, but if you wish to stop seeing the message tab on the bottom of the VM, click **Install** button when asked. VMware<sup>®</sup> will then mount a CD drive and open the mounted folder with the install files contained in that folder. Copy all the files in that folder and paste them in your home folder. Open a Terminal window where you placed the files. Run these two commands:*
 ```
 sudo chmod 777 auto*.sh
 ```
-*enter the **novtech** *password when prompted.*
-*to install the tools run:*
+*enter the **novtech** password when prompted.
+to install the tools run:*
 ```
 sudo ./autorun.sh
 ```
  *After installation is complete you can delete the files from the folder and eject the CD drive that VMware<sup>®</sup> auto mounted. This should remove the tab on the bottom of the VM, notifying you about the VMware Linux Tools install.*
 
-<img src="../additional-docs/images/images-hw-user-manual/vm-desktop.png.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/vm-desktop.png" width="539" height="512" />
+<img src="../additional-docs/images/images-hw-user-manual/vm-desktop.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/vm-desktop.png" width="539" height="512" />
 
 ## Contents of the Virtual Machine Desktop
 Along the left side of desktop there are multiple icons:
@@ -146,9 +146,9 @@ _ Libre Office Calc
 # Chameleon96<sup>®</sup> overview
 
 ## Overview of Components
-<img src="../additional-docs/images/images-hw-user-manual/chamelon96-top.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/chamelon96-top.png" width="756" height="527" />
+<img src="../additional-docs/images/images-hw-user-manual/chameleon96-top.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/chameleon96-top.png" width="756" height="527" />
 
-<img src="../additional-docs/images/images-hw-user-manual/chamelon96-bottom.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/chamelon96-bottom.png" width="756" height="527" />
+<img src="../additional-docs/images/images-hw-user-manual/chameleon96-bottom.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/chameleon96-bottom.png" width="756" height="527" />
 
 ## Serial Connections
 

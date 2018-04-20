@@ -1,6 +1,6 @@
 ---
 title: Software Guide
-permalink: /documentation/consumer/imx7-96/guides/software-guide.md.html
+permalink: /documentation/consumer/chameleon96/guides/software-guide.md.html
 ---
 # Software Guide
 
