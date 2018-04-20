@@ -1,8 +1,6 @@
 ---
 title: Software Guide
 permalink: /documentation/consumer/chameleon96/guides/software-guide.md.html
-redirect_from:
-- /documentation/ConsumerEdition/chameleon96/Guides/software-guide.md.html
 ---
 # Software Guide
 
