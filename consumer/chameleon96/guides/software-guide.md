@@ -32,7 +32,7 @@ svn update
 ```
 ##	Updating from SVN with script
 
-For your convenience, a script has been prepared which will update each of the three SVN repositories from within the **~/Projects/chamelon96** directory. This script is pre-installed at that location, but the SVN updated version of it can be found in the **~/Projects/support_files** directory.
+For your convenience, a script has been prepared which will update each of the three SVN repositories from within the **~/Projects/chameleon96** directory. This script is pre-installed at that location, but the SVN updated version of it can be found in the **~/Projects/support_files** directory.
 
 To update the source and images, run the following commands (you may need to provide login credentials as indicated above):
 ```
@@ -43,7 +43,7 @@ cd ~/Projects/chameleon96
 ```
 #	Building source and images
 
-Please refer to the [Chamelon96<sup>®</sup> User Guide](user-guide.md)  for instructions on retrieving and configuring the VM for use.
+Please refer to the [Chameleon96<sup>®</sup> User Guide](user-guide.md)  for instructions on retrieving and configuring the VM for use.
 
 For convenience of development full source and pre-compiled images for console and GUI configurations are provided. The virtual machine is pre-configured with the necessary tools and packages for compilation.
 
