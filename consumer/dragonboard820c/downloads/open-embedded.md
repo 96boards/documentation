@@ -22,7 +22,7 @@ Choose one boot image, the root file system you choose will be based on the boot
 | Boot image                                                                                                                                           |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | [RPB](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/rocko/latest/rpb/boot--4.14-r0-dragonboard-820c-*.img)                |
-| [RPB-Wayland](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/rocko/latest/rpb-wayland/boot--4.14-r0-dragonboard-820c-*.img)|
+| RPB-Wayland] - Currently unavailable
 | [Release Notes](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/rocko/latest/)                                              |
 
 Only download one root file system (Console or Desktop). You should match the type of rootfs to the boot image you downloaded above.
@@ -34,7 +34,7 @@ Only download one root file system (Console or Desktop). You should match the ty
 
 | Rootfs image (RPB-Wayland)                                                                                                                                      | 
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Desktop](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/rocko/latest/rpb-wayland/rpb-weston-image-dragonboard-820c-*.rootfs.ext4.gz) | 
-| [Developer](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/rocko/latest/rpb-wayland/rpb-console-image-dragonboard-820c-*.rootfs.ext4.gz) |
+| Desktop - Currently unavailable | 
+| Developer - Currently unavailable |
 
 ## Continue to [Installation page](../installation)
