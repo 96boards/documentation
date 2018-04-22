@@ -7,7 +7,9 @@ permalink: /documentation/consumer/boardname/installation/windows-sd.md.html
 
 ## Windows Host
 
-This section show how to install an operating system to your Helio X20 using the SD Card method on a Windows host computer.
+This section show how to install an operating system to your Board-X using the SD Card method on a Windows host computer.
+
+< Example below - MediaTek X20 >
 ***
 
 - **Step 1**: Prepare MicroSD card
@@ -38,7 +40,7 @@ This section show how to install an operating system to your Helio X20 using the
 
 ####**Step 4**: Download the Win32DiskImager tool
 
-- Win32DiskImager tool ([Direct Download](https://sourceforge.net/projects/win32diskimager/files/latest/download) / <a href="http://sourceforge.net/projects/win32diskimager/" target="_blank">Go to Site</a>)
+- Win32DiskImager tool ([Direct Download](https://sourceforge.net/projects/win32diskimager/files/latest/download))
 
 ####**Step 5**: Use Win32DiskImager tool to flash image onto SD Card
 

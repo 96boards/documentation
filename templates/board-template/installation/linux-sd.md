@@ -8,6 +8,8 @@ permalink: /documentation/consumer/boardname/installation/linux-sd.md.html
 ## Linux Host
 
 This section show how to install an operating system to your Helio X20 using the SD Card method on a Linux host computer.
+
+< Example below - MediaTek X20 >
 ***
 
 - **Step 1**: Prepare MicroSD card
