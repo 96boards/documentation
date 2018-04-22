@@ -8,6 +8,8 @@ permalink: /documentation/consumer/boardname/installation/mac-sd.md.html
 ## Mac OS X Host
 
 This section show how to install an operating system to your Helio X20 using the SD Card method on a Mac OS X host computer.
+
+< Example below - MediaTek X20 >
 ***
 
 - **Step 1**: Prepare MicroSD card

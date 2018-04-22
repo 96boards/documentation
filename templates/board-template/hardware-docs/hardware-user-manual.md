@@ -59,7 +59,7 @@ permalink: /documentation/consumer/boardname/hardware-docs/hardware-user-manual.
 
 < A list of key features and components on the board >
 
-The Board-X Development Board is a 96Boards compliant community board based on MediaTek Board-X platform.The following table lists its key features:
+The Board-X Development Board is a 96Boards compliant community board based on XYZ Board-X platform.The following table lists its key features:
 
 < Please send the appropriate images to robert.wolff@linaro.org >
 

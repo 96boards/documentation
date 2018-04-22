@@ -6,10 +6,11 @@ permalink: /documentation/consumer/boardname/build/
 -->
 # Build from Source
 
-Page under construction...
+<!--- This page serves as an index for building various OS/Kernel for Board-x --->
 
 ## Contents
 
-- [Debian]()
-- [OpenEmbedded]()
-- [Android]()
+- [Debian](debian.md)
+- [OpenEmbedded](oe.md)
+- [Android](aosp.md)
+- [Linux Kernel](kernel.md)
