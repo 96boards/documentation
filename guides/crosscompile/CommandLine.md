@@ -1,6 +1,6 @@
 ---
 title: Cross Compile files on x86 Linux host for 96Boards ARM systems
-permalink: /documentation/guides/crosscompile/commandline
+permalink: /documentation/guides/crosscompile/commandline.html
 ---
 # Cross Compile files on x86 Linux host for 96Boards ARM systems
 

@@ -1,6 +1,6 @@
 ---
 title: Cross compiling with Eclipse for C and C++
-permalink: /documentation/guides/crosscompile/eclipseide
+permalink: /documentation/guides/crosscompile/eclipseide.html
 ---
 # Cross compiling with Eclipse for C and C++
 
