@@ -33,9 +33,9 @@ redirect_from: /documentation/ConsumerEdition/HiKey/Downloads/AOSP.md.html
 
 | Latest build files        | [Build Folder](http://builds.96boards.org/snapshots/hikey/linaro/aosp-master/latest/)                 |
 | :------------------------ | :--------------------------------------------------------------------------------------------------   |
-| boot_fat.uefi.img.tar.xz  | [Download](http://builds.96boards.org/snapshots/hikey/linaro/aosp-master/latest/boot_fat.uefi.img.xz) |
-| system.img.tar.xz         | [Download](http://builds.96boards.org/snapshots/hikey/linaro/aosp-master/latest/system.img.xz)        |
-| userdata.img.tar.xz       | [Download](http://builds.96boards.org/snapshots/hikey/linaro/aosp-master/latest/userdata.img.xz)      |
-| cache.img.tar.xz          | [Download](http://builds.96boards.org/snapshots/hikey/linaro/aosp-master/latest/cache.img.xz)         |
+| boot_fat.uefi.img.tar.xz  | [Download](http://snapshots.linaro.org/96boards/hikey/linaro/aosp-master/latest/boot_fat.uefi.img.xz) |
+| system.img.tar.xz         | [Download](http://snapshots.linaro.org/96boards/hikey/linaro/aosp-master/latest/system.img.xz)        |
+| userdata.img.tar.xz       | [Download](http://snapshots.linaro.org/96boards/hikey/linaro/aosp-master/latest/userdata.img.xz)      |
+| cache.img.tar.xz          | [Download](http://snapshots.linaro.org/96boards/hikey/linaro/aosp-master/latest/cache.img.xz)         |
 
 ### Continue to [Installation page](../installation/)

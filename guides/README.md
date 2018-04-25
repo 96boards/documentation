@@ -1,6 +1,6 @@
 ---
 title: Guides
-permalink: /documentation/guides
+permalink: /documentation/guides/
 ---
 
 # 96Boards Guides Index
