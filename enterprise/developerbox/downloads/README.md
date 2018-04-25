@@ -25,6 +25,6 @@ Developerbox.
 
 ### Third Party Operating Systems
 
-Other operating systems supported on the Developerbox, offered by partners.
+Other operating systems with support for the Developerbox.
 
-Coming soon...
+ * [Ubuntu (18.04 and later)](../installation/ubuntu.md)
