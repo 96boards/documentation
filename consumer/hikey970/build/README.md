@@ -1,5 +1,5 @@
 ---
-title: Build Source for boardname
+title: Build Source for HiKey970
 permalink: /documentation/consumer/hikey970/build/
 ---
 # Build from Source
