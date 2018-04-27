@@ -9,15 +9,3 @@ Explore what makes your Board-X unique, technical specifications, schematics, ha
 
 ## Hardware
 
-< Please upload the following to current folder or send to robert.wolff@linaro.org>
-
-- BOM ([View]() / [Download]())
-- Schematics ([View]() / [Download]())
-
-#### Board-X Processor documents
-
-< If these documents exist >
-
-- [Board-X Device Specification]()
-- [Board-X GPIO Pin Assignment]()
-- [Hardware Register Description for Board-X]()
