@@ -14,6 +14,7 @@ Thanks for stopping by to contribute the mezzanine-community repository! The fol
 - [Bugs and Suggestions](#bugs-and-suggestions)
 - [Contribution](#contribution)
   - [General Contribution and Bug-Fixes](#general-contribution-and-bug-fixes)
+  - [Guides Submission](#guides-submission)
   - [Adding a New Boards](#adding-a-new-boards)
   - [Guidelines for submitting a Pull Request](#guidelines-for-submitting-a-pull-request)
 
@@ -36,25 +37,62 @@ Please make sure you comply with the following criteria when creating/submitting
 
 ### General Contribution and Bug-Fixes:
 
- Community contributions are always Welcome! This section is intended to help anyone interested in contributing to this repository. Before contributing, first get the approval from repository maintainers and community by raising a [GitHub issue](https://github.com/96boards/documentation/issues) using the guidelines mentioned above.
+Community contributions are always Welcome! This section is intended to help anyone interested in contributing to this repository. Before contributing, first get the approval from repository maintainers and community by raising a [GitHub issue](https://github.com/96boards/documentation/issues) using the guidelines mentioned above.
 
 After getting approval, you will need to do the following(these instructions assume you are a [GitHub user](https://github.com/join):
 - ###### Step 1: [Fork this repository](https://help.github.com/articles/fork-a-repo/)
 
-- ###### Step 2: Make changes, commit and push to your fork
+- ###### Step 2: [Make changes, commit and push to your fork](https://services.github.com/on-demand/github-cli/add-commits-git)
 
-- ###### Step 3: Submit Pull Request
+- ###### Step 3: [Submit Pull Request](https://help.github.com/articles/creating-a-pull-request/)
+  - Before submitting a Pull Request to the 96Boards repository, make sure to read and adhere to our guidelines mentioned in the [Guidelines for submitting a Pull Request](#guidelines-for-submitting-a-pull-request) section.
 
+A full fledged git and github training is available here: [GitHub On Demand Training](https://services.github.com/on-demand/)
+
+**All 96Boards Documentations follow the markdown '.md' format unless otherwise specified.**
+
+***
+
+### Guides Submission
+
+We encourage our community members to submit 96Boards related guides to our repository so others can benefit.
+
+- Before contributing, first get the approval from repository maintainers and community by raising a [GitHub issue](https://github.com/96boards/documentation/issues) using the guidelines mentioned in the [Bugs and Suggestions](#bugs-and-suggestions) section.
+- Get familiar with git and GitHub following our [General Contribution and Bug-Fixes](#general-contribution-and-bug-fixes) topic.
+- We use the following structure to arrange our guides:
+```bash
+/guides # Generic guides that span across all 96Boards
+/consumer/guides # Edition specific guides, they may be consumer, enterprise or ie
+/consumer/<board-name>/guides # Board specific guides
+```
+- Make sure to place header section on your guides file, these headers make sure that the web page is properly generated and place at the correct location.:
+  ```
+  ---
+  title: Guide Title
+  permalink: /documentation/consumer/boardname/guide/guide-name.html
+  ---
+  ```
+- Before submitting a Pull Request to the 96Boards repository, make sure to read and adhere to our guidelines mentioned in the [Guidelines for submitting a Pull Request](#guidelines-for-submitting-a-pull-request) section.
 ***
 
 ### Adding a New Boards:
 
 If you have recently launched a new 96Boards and have to add it to the documentation repository.
+- Get yourself familiar with the [General Contribution and Bug-Fixes](#general-contribution-and-bug-fixes) topic.
 - Arrange your documentation material following the [Template](templates/board-template)
 - Copy you board folder under the right Edition category folder
   - [Consumer Edition(CE)](consumer)
+  ```
+  /consumer/<board-name>/
+  ```
   - [Enterprise Edition(EE)](enterprise)
+  ```
+  /enterprise/<board-name>/
+  ```
   - [Internet of Things Edition(IE)](iot)
+  ```
+  /iot/<board-name>/
+  ```
 - Send in a Pull Request
 
 Things To Remember: Before sending the Pull request make sure:
@@ -77,6 +115,8 @@ Things To Remember: Before sending the Pull request make sure:
     ```
   - And modify them according to your board
 - Make sure to place all the images in the ```assets/images``` folder with the correct resolution as mentioned in the template.
+- If your board has its guides section populated, make sure to add the board to our [guides page](guides) ```/guides/README.md```
+- Before submitting a Pull Request to the 96Boards repository, make sure to read and adhere to our guidelines mentioned in the [Guidelines for submitting a Pull Request](#guidelines-for-submitting-a-pull-request) section.
 
 ***
 
