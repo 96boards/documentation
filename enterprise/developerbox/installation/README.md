@@ -42,7 +42,7 @@ of your chosen operating system to get an ISO image for the installer.
 
 Choose host machine to create the USB stick from:
 
-- [GNU/Linux (including other Developerboxen](linux-usb.md)
+- [GNU/Linux (including other Developerbox)](linux-usb.md)
 - [Mac](mac-usb.md)
 - [Windows](windows-usb.md)
 
