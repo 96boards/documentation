@@ -1,17 +1,13 @@
 ---
-title: Support for boardname
+title: Support for HiKey970
 permalink: /documentation/consumer/hikey970/support/
 ---
 
-# Troubleshooting
+# Support
 
-Please take advantage of the many Board X resources available to you through 96Boards
+Please take advantage of the many HiKey970 resources available to you through 96Boards
 
-- [96Boards Board X Forum]()
-   - The DragonBoard has its very own 96Boards forum. If you can't find a pre-existing thread that addresses your issue, start your own and let the community help out!
-- [Board X Forum]()
-   - Similar to the 96Boards forum; however, this page will have threads for all MediaTek products
-- [Board X]()
-   - Buy the Board X here!
+- [96Boards HiKey970 Forum]()
+   - The HiKey970 has its very own 96Boards forum. If you can't find a pre-existing thread that addresses your issue, start your own and let the community help out!
 - [Report a bug!](../../../Report_a_bug.md)
    - Instructions on how to report bugs for any of our 96Boards hardware and software, this includes the Board X!
