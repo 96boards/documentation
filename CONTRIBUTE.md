@@ -60,11 +60,9 @@ We encourage our community members to submit 96Boards related guides to our repo
 - Before contributing, first get the approval from repository maintainers and community by raising a [GitHub issue](https://github.com/96boards/documentation/issues) using the guidelines mentioned in the [Bugs and Suggestions](#bugs-and-suggestions) section.
 - Get familiar with git and GitHub following our [General Contribution and Bug-Fixes](#general-contribution-and-bug-fixes) topic.
 - We use the following structure to arrange our guides:
-```bash
-/guides # Generic guides that span across all 96Boards
-/consumer/guides # Edition specific guides, they may be consumer, enterprise or ie
-/consumer/<board-name>/guides # Board specific guides
-```
+  - ```/guides``` Generic guides that span across all 96Boards
+  - ```/consumer/guides``` Edition specific guides, they may be consumer, enterprise or ie
+  - ```/consumer/<board-name>/guides``` Board specific guides
 - Make sure to place header section on your guides file, these headers make sure that the web page is properly generated and place at the correct location.:
   ```
   ---
@@ -80,22 +78,27 @@ We encourage our community members to submit 96Boards related guides to our repo
 If you have recently launched a new 96Boards and have to add it to the documentation repository.
 - Get yourself familiar with the [General Contribution and Bug-Fixes](#general-contribution-and-bug-fixes) topic.
 - Arrange your documentation material following the [Template](templates/board-template)
+- Each folder/section has a README.md file that acts like the "index.html" or front page of said section of the documentation. This can be used as an index or point-of-entry for said section of the documentation.
+- **Boards Folder Structure:**
+  - ```<board-name/additional-docs/```:
+    - ```<board-name>/additional-docs/images/```: This folder contains ALL the images that would be used throughout the documentation
+      - ```<board-name>/additional-docs/images/images-board/```: Images of the board itself, preferably with transparent background. Check the [README.md](templates/board-template/additional-docs/images/images-board/README.md) in the template for details on the resolution.
+      - ```<board-name>/additional-docs/images/images-hw-user-manua/l```: This folder hosts all the images related to the Hardware User Manual Docs, these may include schematics, flowcharts block diagrams etc.
+      - ```<board-name>/additional-docs/images/images-logos/```: All logos related to the board, manufacturer, seller etc go in this folder.
+    - ```<board-name>/build/```: This folder contains all documentation related to compiling source code related to the board. These may include Kernel, OS, Bootlaoder etc.
+    - ```<board-name>/downloads/```: Instructions to download various pieces of software go here. These may include Kernel, OS, Bootlaoder etc.
+    - ```<board-name>/getting-started/```: This section should be considered as a "quick start guide" and the point-of-entry for new users.
+    - ```<board-name>/guides/```: All the board specific guide NOT related to installation or building go here. These may include guides like: "How to use Camera", "Enable SPI", "Wifi Setup" etc.
+    - ```<boards-name>/hardware-docs/```: All documentation relating to the Hardware on the board are hosted in this folder. Most of the documentation regarding the SoC and on-board peripheral need to be added to the ```hardware-user-manual.md``` file.
+    - ```<boards-name>/installation/>```: Instructions to install various pieces of software go here. These may include Kernel, OS, Bootlaoder etc.
+    - ```<boards-name>/support/>```: Any information relating to finding support for your board is placed here. This may include forum links and also links to other sections of this documentation.
 - Copy you board folder under the right Edition category folder
-  - [Consumer Edition(CE)](consumer)
-  ```
-  /consumer/<board-name>/
-  ```
-  - [Enterprise Edition(EE)](enterprise)
-  ```
-  /enterprise/<board-name>/
-  ```
-  - [Internet of Things Edition(IE)](iot)
-  ```
-  /iot/<board-name>/
-  ```
+  - [Consumer Edition(CE)](consumer) ```/consumer/<board-name>/```
+  - [Enterprise Edition(EE)](enterprise) ```/enterprise/<board-name>/```
+  - [Internet of Things Edition(IE)](iot) ```/iot/<board-name>/```
 - Send in a Pull Request
 
-Things To Remember: Before sending the Pull request make sure:
+**Things To Remember: Before sending the Pull request:**
 - Make sure all the .md files have the headers in place, these headers make sure that the web page is properly generated and place at the correct location.
   - All the files in the template have the headers commented out like so:
     ```
