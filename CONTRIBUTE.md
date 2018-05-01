@@ -14,7 +14,7 @@ Thanks for stopping by to contribute the mezzanine-community repository! The fol
 - [Bugs and Suggestions](#bugs-and-suggestions)
 - [Contribution](#contribution)
   - [General Contribution and Bug-Fixes](#general-contribution-and-bug-fixes)
-  - [Guides Submission](#guides-submission)
+  - [Submission Guide](#submission-guide)
   - [Adding a New Boards](#adding-a-new-boards)
   - [Guidelines for submitting a Pull Request](#guidelines-for-submitting-a-pull-request)
 
@@ -43,9 +43,10 @@ Either way, when you are ready to make changes, you will need to do the followin
 - ###### Step 1: [Fork this repository](https://help.github.com/articles/fork-a-repo/)
 
 - ###### Step 2: [Make changes, commit and push to your fork](https://services.github.com/on-demand/github-cli/add-commits-git)
+  - Don't forget to take a look at the [Submission Guide](#submission-guide) below.
 
 - ###### Step 3: [Submit Pull Request](https://help.github.com/articles/creating-a-pull-request/)
-  - Before submitting a Pull Request to the 96Boards repository, make sure to read and adhere to our guidelines mentioned in the [Guidelines for submitting a Pull Request](#guidelines-for-submitting-a-pull-request) section.
+  - When submitting a Pull Request, there's a check list in the [Guidelines for submitting a Pull Request](#guidelines-for-submitting-a-pull-request) section to help you.
 
 A full fledged git and github training is available here: [GitHub On Demand Training](https://services.github.com/on-demand/)
 
@@ -53,7 +54,7 @@ A full fledged git and github training is available here: [GitHub On Demand Trai
 
 ***
 
-### Guides Submission
+### Submission Guide
 
 We encourage our community members to submit 96Boards related guides to our repository so others can benefit.
 
