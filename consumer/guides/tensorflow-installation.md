@@ -6,7 +6,7 @@ redirect_from: /documentation/ConsumerEdition/guides/tensorflow-installation.md.
 # Tensorflow Installation Guide
 
 Tensorflow is an open source software library used for computation of data flow graphs, with applications in deep neural networks research and machine learning.
-There are many interesting applications for Tensorflow including: [searching and filtering](https://github.com/agermanidis/thingscoop), [art creation](https://github.com/cysmith/neural-style-tf) ,[reinforcement learning](http://www.danielslater.net/2016/03/deep-q-learning-pong-with-tensorflow.html) , and [many more](https://github.com/jtoy/awesome-tensorflow).
+There are many interesting applications for Tensorflow including: [searching and filtering](https://github.com/agermanidis/thingscoop), [art creation](https://github.com/cysmith/neural-style-tf) , reinforcement learning and [many more](https://github.com/jtoy/awesome-tensorflow).
 
 This tutorial will describe two ways of installing Tensorflow: By installing and using Bazel (currently only on devices > 2GB), or through the Tensorflow static libraries.
 If Tensorflow is installed through the static libraries then Tensorflows Python wrapper will not be included so it cannot be used through Python.
