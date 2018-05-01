@@ -37,7 +37,7 @@ Please make sure you comply with the following criteria when creating/submitting
 
 ### General Contribution and Bug-Fixes:
 
-Community contributions are always Welcome! This section is intended to help anyone interested in contributing to this repository. For quick fixes and corrections its fine just to get stuck in. On the other hand if you want to add new pages or write a extra guide then, before you spend a long time working on it, it is a good idea to discuss your idea the repository maintainers and community by raising a [GitHub issue](https://github.com/96boards/documentation/issues) using the guidelines mentioned above.
+Community contributions are always Welcome! This section is intended to help anyone interested in contributing to this repository. For quick fixes and corrections its fine just to get stuck in. On the other hand if you want to add new pages or write a extra guide then, before you spend a long time working on it, it is a good idea to discuss your idea with the repository maintainers and community by raising a [GitHub issue](https://github.com/96boards/documentation/issues) using the guidelines mentioned above.
 
 Either way, when you are ready to make changes, you will need to do the following (these instructions assume you are a [GitHub user](https://github.com/join):
 - ###### Step 1: [Fork this repository](https://help.github.com/articles/fork-a-repo/)
