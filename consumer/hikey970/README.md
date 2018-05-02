@@ -2,7 +2,6 @@
 title: Using the HiKey970
 permalink: /documentation/consumer/hikey970/
 ---
-
 # Using the HiKey970
 
 A comprehensive guide to using the HiKey970 Consumer Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
