@@ -14,7 +14,7 @@ Thanks for stopping by to contribute the mezzanine-community repository! The fol
 - [Bugs and Suggestions](#bugs-and-suggestions)
 - [Contribution](#contribution)
   - [General Contribution and Bug-Fixes](#general-contribution-and-bug-fixes)
-  - [Guides Submission](#guides-submission)
+  - [Adding a New Guide](#adding-a-new-guide)
   - [Adding a New Boards](#adding-a-new-boards)
   - [Guidelines for submitting a Pull Request](#guidelines-for-submitting-a-pull-request)
 
@@ -37,7 +37,7 @@ Please make sure you comply with the following criteria when creating/submitting
 
 ### General Contribution and Bug-Fixes:
 
-Community contributions are always Welcome! This section is intended to help anyone interested in contributing to this repository. For quick fixes and corrections its fine just to get stuck in. On the other hand if you want to add new pages or write a extra guide then, before you spend a long time working on it, it is a good idea to discuss your idea with the repository maintainers and community by raising a [GitHub issue](https://github.com/96boards/documentation/issues) using the guidelines mentioned above.
+Community contributions are always Welcome! This section is intended to help anyone interested in contributing to this repository. For quick fixes and corrections its fine just to get stuck in. On the other hand if you want to add new pages then, before you spend a long time working on it, it is a good idea to discuss your idea with the repository maintainers and community by raising a [GitHub issue](https://github.com/96boards/documentation/issues) using the guidelines mentioned above.
 
 Either way, when you are ready to make changes, you will need to do the following (these instructions assume you are a [GitHub user](https://github.com/join):
 - ###### Step 1: [Fork this repository](https://help.github.com/articles/fork-a-repo/)
@@ -45,7 +45,7 @@ Either way, when you are ready to make changes, you will need to do the followin
 - ###### Step 2: [Make changes, commit and push to your fork](https://services.github.com/on-demand/github-cli/add-commits-git)
 
 - ###### Step 3: [Submit Pull Request](https://help.github.com/articles/creating-a-pull-request/)
-  - Before submitting a Pull Request to the 96Boards repository, make sure to read and adhere to our guidelines mentioned in the [Guidelines for submitting a Pull Request](#guidelines-for-submitting-a-pull-request) section.
+  - When submitting a Pull Request to the 96Boards repository, there's a check list in the [Guidelines for submitting a Pull Request](#guidelines-for-submitting-a-pull-request) section to help you.
 
 A full fledged git and github training is available here: [GitHub On Demand Training](https://services.github.com/on-demand/)
 
@@ -53,11 +53,11 @@ A full fledged git and github training is available here: [GitHub On Demand Trai
 
 ***
 
-### Guides Submission
+### Adding a New Guide
 
 We encourage our community members to submit 96Boards related guides to our repository so others can benefit.
 
-- Before contributing, first get the approval from repository maintainers and community by raising a [GitHub issue](https://github.com/96boards/documentation/issues) using the guidelines mentioned in the [Bugs and Suggestions](#bugs-and-suggestions) section.
+- Before getting started, it's a good idea to discuss your idea with the repository maintainers and community by raising a [GitHub issue](https://github.com/96boards/documentation/issues) using the guidelines mentioned in the [Bugs and Suggestions](#bugs-and-suggestions) section.
 - Get familiar with git and GitHub following our [General Contribution and Bug-Fixes](#general-contribution-and-bug-fixes) topic.
 - We use the following structure to arrange our guides:
   - ```/guides``` Generic guides that span across all 96Boards
