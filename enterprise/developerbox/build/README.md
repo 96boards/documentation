@@ -52,8 +52,7 @@ cd $WORKSPACE
 git clone git://git.linaro.org/leg/noupstream/arm-trusted-firmware.git -b synquacer
 git clone git://git.linaro.org/leg/noupstream/edk2-platforms.git -b developer-box
 git clone git://git.linaro.org/leg/noupstream/edk2-non-osi.git -b developer-box
-git clone git://git.linaro.org/leg/noupstream/edk2.git -b developer-box
-git clone https://github.com/openssl/openssl  -b OpenSSL_1_1_0e
+git clone git://git.linaro.org/leg/noupstream/edk2.git -b developer-box --recursive
 ~~~
 
 ## Rebuild Trusted Firmware
