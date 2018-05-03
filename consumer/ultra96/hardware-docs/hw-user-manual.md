@@ -1,5 +1,5 @@
 ---
-permaliink: /documentation/consumer/ultra96/hardware-docs/hw-user-manual.md.html
+permalink: /documentation/consumer/ultra96/hardware-docs/hw-user-manual.md.html
 title: Ultra96 Development Board User Manual
 ---
 This page is currently under construction...
