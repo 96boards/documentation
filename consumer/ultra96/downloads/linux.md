@@ -1,8 +1,9 @@
 ---
-title: Ultra96 PetaLinux
-permalink: /documentation/consumer/ultra96/downloads/peta-linux.md.html
+title: Ultra96 Linux
+permalink: /documentation/consumer/ultra96/downloads/linux.md.html
 ---
-Peta-Linux is...
+
+This pre-built Linux image provides users with a great development environment for your Ultra96.
 
 ***
 
@@ -10,6 +11,7 @@ Peta-Linux is...
 
 | Download and Install                                                                                   |
 |:-------------------------------------------------------------------------------------------------------|
-|[Download]()                                                                                            |
-|[Release Notes]()                                                                                       |
-|[Previous Releases]()                                                                                   |
+|[Download](https://releases.linaro.org/96boards/ultra96/avnet/openembedded/latest/Ultra96_rev1_sdcard_image_180409.tar.gz)    |
+|[Release Notes](https://releases.linaro.org/96boards/ultra96/avnet/openembedded/latest/)                         |
+
+## Continue to [Installation page](../installation)
