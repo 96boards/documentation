@@ -1,5 +1,7 @@
-# Ultra96 Development Board User Manual
-
+---
+permaliink: /documentation/consumer/ultra96/hardware-docs/hw-user-manual.md.html
+title: Ultra96 Development Board User Manual
+---
 This page is currently under construction...
 
 - [Get access to Hardware User Manual](http://www.zedboard.org/sites/default/files/documentations/Ultra96-HW-User-Guide-rev-1-0-V0_9_preliminary.pdf)
