@@ -1,15 +1,15 @@
 ---
-title: Build & Update Linux kernel
+title: Build & Update Linux kernel for Debian/OpenEmbedded
 permalink: /documentation/consumer/dragonboard410c/build/kernel.md.html
 ---
 
-# Build & Update Linux kernel
+# Build & Update Linux kernel for Debian/OpenEmbedded
   
-This page provides the Dragonboard-410c specific instructions for Linux kernel building.
+This page provides instructions for building Linux kernel on Dragonboard-410c
+for Debian/OpenEmbedded based systems.
 
 ##### Prerequisites: 
 - A Linux OS (debian, openembedded...) already running on the board (emmc).
-
 
 #### 1. Download GNU cross-toolchain binaries.
 You need to download the correct GCC toolchain depending your host/target architecture. Usually host is a standard Intel x86-64 computer, target is the Dragonboard which is AARCH64. <a href="https://www.linaro.org/downloads"> Linaro </a>  provides linux host binaries.
