@@ -6,4 +6,4 @@ permalink: /documentation/mezzanine/neonkey/
 
 ### Guides
 
-- [AOSP Build Guide](/documentation/mezzanine/neonkey/guides/neonkey-aosp-build.md.html)
+- [AOSP Build Guide](./guides/neonkey-aosp-build.md.html)

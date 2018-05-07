@@ -19,6 +19,7 @@ permalink: /documentation/guides/
 
 **Generic guides** apply to all 96Boards from all families. This means the guides in this section can be used on Consumer, IoT, and Enterprise edition boards.
 
+- [96Boards Low-Speed Header Pinout](https://www.96boards.org/pinout/)
 - [CrossCompile](crosscompile/README.md)
 
 ***
