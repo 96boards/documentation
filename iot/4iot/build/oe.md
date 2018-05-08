@@ -1,6 +1,6 @@
-<!---
 ---
-title: Build OpenEmbedded Source for boardname
-permalink: /documentation/consumer/boardname/build/
+title: Build OpenEmbedded Source for 4IoT
+permalink: /documentation/consumer/4iot/build/
 ---
--->
+
+Coming soon...

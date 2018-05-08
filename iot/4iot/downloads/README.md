@@ -1,26 +1,24 @@
-<!---
 ---
-title: Downloads for boardname
-permalink: /documentation/consumer/boardname/downloads/
+title: Downloads for 4IoT
+permalink: /documentation/consumer/4iot/downloads/
 ---
--->
 
 ## Downloads
 
-The Board X comes pre-installed with Android. If you would like to switch the Operating System, update the existing software images on your board, or unbrick your board, this page provides links to the latest software downloads.
+The 4IoT comes pre-installed with an stock operating system. If you would like to switch the Operating System, update the existing software images on your board, or unbrick your board, this page provides links to the latest software downloads.
 
 ***
 
 ### Linaro supported operating systems
 
-- [Debian](debian.md)
+Coming soon...
 
 ***
 
 ### Third Party Operating Systems
 
-Other operating systems supported on Board X, offered by partners.
+Other operating systems supported on 4IoT, offered by partners.
 
-- [Android](aosp.md)
+Coming soon...
 
 ***

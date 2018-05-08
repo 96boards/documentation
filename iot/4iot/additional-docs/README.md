@@ -1,9 +1,8 @@
-<!---
 ---
-title: Additional Docs for boardname
-permalink: /documentation/consumer/boardname/additional-docs/
+title: Additional Docs for 4IoT
+permalink: /documentation/consumer/4iot/additional-docs/
 ---
--->
+
 # Board Images
 
 Each 96Boards development board must provide six images, 3 x High Definition and 3 x Standard Definition. These images should be sized and named accordingly. These images should be uploaded to this folder and made available to community for viewing and/or download.

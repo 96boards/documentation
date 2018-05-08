@@ -1,9 +1,7 @@
-<!---
 ---
-title: Useful Guides for boardname
-permalink: /documentation/consumer/boardname/guides/
+title: Useful Guides for 4IoT
+permalink: /documentation/consumer/4iot/guides/
 ---
--->
 
 # Useful Guides
 
