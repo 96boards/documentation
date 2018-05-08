@@ -19,12 +19,13 @@ Developerbox.
 
 ### Linaro supported operating systems
 
- * [Debian](debian.md)
+ * [Enterprise Reference Platform, based on Debian](debian.md)
  
 ***
 
 ### Third Party Operating Systems
 
-Other operating systems supported on the Developerbox, offered by partners.
+Other operating systems with support for the Developerbox.
 
-Coming soon...
+ * [Debian (9.4 and later)](../installation/debian.md)
+ * [Ubuntu (18.04 and later)](../installation/ubuntu.md)
