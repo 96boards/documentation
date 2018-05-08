@@ -1,10 +1,11 @@
-<!---
 ---
-title: Build Source for boardname
-permalink: /documentation/consumer/boardname/build/
+title: Build Source for 4IoT
+permalink: /documentation/consumer/4iot/build/
 ---
--->
+
 # Build from Source
+
+Coming soon...
 
 <!--- This page serves as an index for building various OS/Kernel for Board-x --->
 

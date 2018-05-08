@@ -1,6 +1,6 @@
-<!---
 ---
-title: Build AOSP Source for boardname
-permalink: /documentation/consumer/boardname/build/
+title: Build AOSP Source for 4IoT
+permalink: /documentation/consumer/4iot/build/
 ---
--->
+
+Coming soon...
