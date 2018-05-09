@@ -25,7 +25,8 @@ Developerbox.
 
 ### Third Party Operating Systems
 
-Other operating systems with support for the Developerbox.
+Other operating systems with support for Developerbox.
 
- * [Debian (9.4 and later)](../installation/debian.md)
- * [Ubuntu (18.04 and later)](../installation/ubuntu.md)
+ * [CentOS 7 and later)](../installation/centos.md)
+ * [Debian 9 and later)](../installation/debian.md)
+ * [Ubuntu 18.04 and later)](../installation/ubuntu.md)
