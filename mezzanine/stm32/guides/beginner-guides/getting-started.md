@@ -14,9 +14,9 @@ permalink: /documentation/mezzanine/stm32/guides/beginner-guides/getting-started
 
 # 1. Hardware
 ## 1.1 Hardware Overview
-![Front labeled](/mezzanine/stm32/images/stm32-front-labeled.png)
+<img src="https://raw.githubusercontent.com/96boards/documentation/master/mezzanine/stm32/images/stm32-front-labeled.png?raw=true" data-canonical-src="https://raw.githubusercontent.com/96boards/documentation/master/mezzanine/stm32/images/stm32-front-labeled.png?raw=true" width="330" height="215" />
 
-![Back labeled](/mezzanine/stm32/images/stm32-back-labeled.png)
+<img src="https://raw.githubusercontent.com/96boards/documentation/master/mezzanine/stm32/images/stm32-back-labeled.png?raw=true" data-canonical-src="https://raw.githubusercontent.com/96boards/documentation/master/mezzanine/stm32/images/stm32-back-labeled.png?raw=true" width="330" height="215" />
 
 ## 1.2 Hardware Requirements
 1. 1x Audio Mezzanine
