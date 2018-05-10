@@ -88,11 +88,32 @@ If your HiKey960 is pre-flashed with appropriate firmware, you should see your d
 
 ## Step 5: Flash Operating System
 
+#### AOSP
+
 Run the flash-all.sh script located in your download to update boot files using fastboot.
 This script assumes you have already built all HiKey960 AOSP images locally.
 
 ```shell
 $ sudo ./flash-all.sh
+```
+
+#### Debian Linux
+
+- Decompress Files
+```shell
+# BOOT IMAGE
+$ gunzip boot-linaro-stretch-developer-hikey-*.img.gz
+# ROOTFS IMAGE
+$ gunzip rootfs-linaro-stretch-developer-hikey-*.img.gz
+```
+- Flash UFS
+```shell
+$ sudo fastboot flash ptable prm_ptable.img
+$ sudo fastboot flash fastboot l-loader.bin
+$ sudo fastboot flash fip fip.bin
+$ sudo fastboot reboot-bootloader
+$ sudo fastboot flash boot boot-linaro-stretch-developer-hikey-*.img
+$ sudo fastboot flash system rootfs-linaro-stretch-developer-hikey-*.img
 ```
 
 ## Step 6: Reboot
@@ -112,6 +133,6 @@ Fastboot      | Link 5-6 / Switch 3 | open / OFF
 - Wait for board to boot up
 
 **Congratulations! You are now booting your newly installed OS directly
-from eMMC on the HiKey960!**
+from UFS on the HiKey960!**
 
 [Return to HiKey960 documentation home](../)
