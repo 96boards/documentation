@@ -15,5 +15,6 @@ The HiKey960 comes pre-installed with AOSP. If you would like to switch the Oper
 Other operating systems supported on HiKey 960, offered by partners.
 
 - [AOSP](aosp.md)
+- [Debian](debian.md)
 
 ***
