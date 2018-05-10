@@ -11,30 +11,28 @@ redirect_from:  /documentation/ConsumerEdition/HiKey960/Downloads/Debian.md.html
 
 ## SD Card image
 
-|   SD Card Image   |    [Desktop]() or [Developer]()     |
+|   SD Card Image   |    [Download](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/linaro-stretch-developer-hikey-*.sd.gz) |
 |:------------------|:------------------------------------|
-|Release Notes:     |[Link]()                             |
+|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest)       |
 
-Continue to [Installation page](../installation/)
+### Continue to [Installation page](../installation/)
 
 ***
 
 ## Fastboot files
 
-|   Bootloader |                        |
-|:-------------|:-----------------------|
-| Comp 1       | [Download]()           |
-| Comp 2       | [Download]()           |
-| Comp 3       | [Download]()           |
-| Comp 4       | [Download]()           |
-| Comp 5       | [Download]()           |
+|   Bootloader    |
+|:----------------------------:|
+| [l-loader.bin](http://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey960/release/l-loader.bin)     |
+|  [fip.bin](http://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey960/release/fip.bin)              |
+| [prm_ptable.img](http://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey960/release/prm_ptable.img) |
 
-|   Boot image      |    [Download]()        |
+|   Boot image      |    [Download](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/boot-linaro-stretch-developer-hikey-*.img.gz)      |
 |:------------------|:-----------------------|
-|Release Notes:     |[Link]()                |
+|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest)      |
 
-|   Rootfs image    |    [Desktop]()                    |
+|   Rootfs image    |    [Download](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/rootfs-linaro-stretch-developer-hikey-*.img.gz)     |
 |:------------------|:----------------------------------|
-|Release Notes:     |[Link]()                           |
+|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest)      |
 
-Continue to [Installation page](../installation/)
+### Continue to [Installation page](../installation/)
