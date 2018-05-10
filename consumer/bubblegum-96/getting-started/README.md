@@ -50,7 +50,7 @@ The following subsections should describe how to get started with the Bubblegum-
 |  CPU                 | ARM Cortex-A53 Quad-core up to 1.8GHz                                                                  |
 |  GPU                 | Imagination Power VR G6230, OpenGL ES 3.1, OpenGL 3.2, DirectX 10, OpenCL 1.2 EP                       |
 |  RAM                 | 2GB LPDDR3 @ 533MHz                                                                                    |
-|  PMU                 | ???                                                                                                    |
+|  PMU                 | ATC2609(kit with S900)                                                                                                    |
 |  Storage             | 8GB eMMC 4.51 on board storage MicroSD card slot	                                                     |
 |  Ethernet Port       | USB 2.0 expansion                                                                                      |
 |  Wireless            | Wi-Fi 802.11 b/g/n 2.4GHz Dual-mode bluetooth and bluetooth low energy                                 |
