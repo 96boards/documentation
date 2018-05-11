@@ -49,6 +49,7 @@ $ unzip dragonboard-820c-bootloader-ufs-linux-*.zip
 $ rm dragonboard-820c-bootloader-ufs-linux-*.zip
 $ mv dragonboard-820c-bootloader-ufs-linux-$BUILD bootloader-ufs-linux
 $ cd bootloader-ufs-linux
+$ sudo <PATH to qdl>/qdl prog_ufs_firehose_8996_ddr.elf rawprogram.xml patch.xml
 ```
 It should take a few seconds. And you should eventually get something like that:
 
