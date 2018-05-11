@@ -118,7 +118,7 @@ If you are already familiar with the ROCK960 board and would like to change out 
 - [Troubleshooting](../support)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
-Back to the [ROCK960 documentation home page](..)
+Back to the [ROCK960 documentation home page](../)
 
 ***
 

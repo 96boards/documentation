@@ -92,6 +92,6 @@ If you are already familiar with the Ultra96 and would like to change out the st
 - [Support](../support)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
-Back to the [Ultra96 documentation home page](..)
+Back to the [Ultra96 documentation home page](../)
 
 ***
