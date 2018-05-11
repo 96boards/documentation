@@ -84,14 +84,14 @@ The Ultra96 comes preloaded with Linux and can be up and running in two ways:
 
 If you are already familiar with the Ultra96 and would like to change out the stock operating system, please proceed to one of the following pages:
 
-- [Downloads page](../downloads/README.md): This page lists all Linaro and 3rd party operating systems available for the Ultra96
-- [Installation page](../installation/README.md): If you already have the images you need, this page has information on how to install the different operating systems onto your Ultra96
+- [Downloads page](../downloads): This page lists all Linaro and 3rd party operating systems available for the Ultra96
+- [Installation page](../installation): If you already have the images you need, this page has information on how to install the different operating systems onto your Ultra96
 - [Guides](../guides/)
 - [Board Recovery](../installation/board-recovery.md)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
-- [Support](../support/README.md)
+- [Support](../support)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
-Back to the [Ultra96 documentation home page](../README.md)
+Back to the [Ultra96 documentation home page](../)
 
 ***

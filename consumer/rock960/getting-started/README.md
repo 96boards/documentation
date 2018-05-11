@@ -113,12 +113,12 @@ Please visit the [ROCK960 Hardware User Manual](../hardware-docs/hardware-user-m
 
 If you are already familiar with the ROCK960 board and would like to change out the stock operating system, please proceed to one of the following pages:
 
-- [Downloads page](../downloads/README.md): This page lists all Linaro and 3rd party operating systems available for ROCK960
-- [Installation page](../installation/README.md): If you already have the images you need, this page has information on how to install the different operating systems onto your ROCK960 board
-- [Troubleshooting](../support/README.md)
+- [Downloads page](../downloads): This page lists all Linaro and 3rd party operating systems available for ROCK960
+- [Installation page](../installation): If you already have the images you need, this page has information on how to install the different operating systems onto your ROCK960 board
+- [Troubleshooting](../support)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
-Back to the [ROCK960 documentation home page](../README.md)
+Back to the [ROCK960 documentation home page](../)
 
 ***
 
