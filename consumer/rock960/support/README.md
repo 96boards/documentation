@@ -15,5 +15,5 @@ Please take advantage of the many ROCK960 resources available to you through 96B
    - \#linux-rockchip IRC channel on freenode, discussion about linux on ROCK960 and other Rockchip SoCs.
 - [ROCK960](buy.md)
    - Buy the ROCK960 and accessories here! 
-- [Report a bug!](../../../Report_a_bug.md)
+- [Report a bug!](https://www.96boards.org/documentation/Extras/Report_a_bug.md.html)
    - Instructions on how to report bugs for any of our 96Boards hardware and software, this includes the ROCK960!
