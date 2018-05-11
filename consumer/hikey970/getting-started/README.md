@@ -36,11 +36,8 @@ Learn about your HiKey970 board as well as how to prepare and set up for basic u
 
 The following subsections should describe how to get started with the Board-X using the release build shipped with the boards. The HiKey970 board is ready to use “out of the box” with a preinstalled version of the Debian Linux distribution.
 
-
-
-<img src="" data-canonical-src="" width="250" height="160" />
-<img src="" data-canonical-src="" width="250" height="160" />
-<img src="" data-canonical-src="" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey970/additional-docs/images/images-board/sd/hikey970-back-sd.png?raw=true" data-canonical-src="" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey970/additional-docs/images/images-board/sd/hikey970-front-sd.png?raw=true" data-canonical-src="" width="250" height="160" />
 
 ## Features
 
