@@ -14,10 +14,10 @@ it with a PC-like look and feel.
 
 ## EDK II System Fimware
 
-| Filename                   | Description                                                                                                                                                               |
-| :------------------        | :-----------------------                                                                                                                                                  |
-| `DeveloperBox.Cap`         | [System firmware for Capsule update (recommended)](http://snapshots.linaro.org/components/kernel/leg-96boards-developerbox-edk2/latest/DeveloperBox.Cap)                  |
-| `SPI_NOR_IMAGE.fd-RELEASE` | [System firmware for UART update (for board recovery only)](http://snapshots.linaro.org/components/kernel/leg-96boards-developerbox-edk2/latest/SPI_NOR_IMAGE.fd-RELEASE) |
-| `latest/`                  | [Directory containing debug images (for troubleshooting only)](http://snapshots.linaro.org/components/kernel/leg-96boards-developerbox-edk2/latest/)                      |
+| Filename                                                                                                                                   | Description                                                  |
+| :------------------                                                                                                                        | :-----------------------                                     |
+| [`DeveloperBox.Cap`](http://snapshots.linaro.org/components/kernel/leg-96boards-developerbox-edk2/latest/DeveloperBox.Cap)                 | System firmware for Capsule update (recommended)             |
+| [`SPI_NOR_IMAGE.fd-RELEASE`](http://snapshots.linaro.org/components/kernel/leg-96boards-developerbox-edk2/latest/SPI_NOR_IMAGE.fd-RELEASE) | System firmware for UART update (for board recovery only)    |
+| [`latest/`](http://snapshots.linaro.org/components/kernel/leg-96boards-developerbox-edk2/latest/)                                          | Directory containing debug images (for troubleshooting only) |
 
 ### Continue to [Installation page](../installation/)
