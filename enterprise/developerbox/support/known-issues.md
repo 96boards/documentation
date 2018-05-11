@@ -91,12 +91,12 @@ partially mitigated in a variety of ways:
    card to using the debug UART. The debug UART is connected to the
    micro-USB socket behind the I/O shield on the back panel.
 
-   The automatic switching of the console means the maintenance capabilities
-   via the UART are equivalent to those available via the graphics card,
-   and the power saved as a result of removing the graphics card is
-   significant. For that reason we would recommend running Developerbox
-   headless for edge or build server applications regardless of whether
-   or not your board is impacted by this issue.
+   The automatic switching of the console means the system maintenance
+   capabilities via the UART are equivalent to those available via the
+   graphics card, and the power saved as a result of removing the
+   graphics card is significant. For that reason we would recommend
+   running Developerbox headless for edge or build server applications
+   regardless of whether or not your board is impacted by this issue.
 
 ## GT-710 display freeze
 
