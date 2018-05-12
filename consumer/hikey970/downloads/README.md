@@ -1,11 +1,11 @@
 ---
-title: Downloads for boardname
+title: Downloads for HiKey970
 permalink: /documentation/consumer/hikey970/downloads/
 ---
 
 ## Downloads
 
-The Board X comes pre-installed with Android. If you would like to switch the Operating System, update the existing software images on your board, or unbrick your board, this page provides links to the latest software downloads.
+The HiKey970 comes pre-installed with Linux. If you would like to switch the Operating System, update the existing software images on your board, or unbrick your board, this page provides links to the latest software downloads.
 
 ***
 
@@ -17,7 +17,7 @@ Coming soon...
 
 ### Third Party Operating Systems
 
-Other operating systems supported on Board X, offered by partners.
+Other operating systems supported on HiKey970, offered by partners.
 
 Coming soon...
 
