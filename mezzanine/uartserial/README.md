@@ -36,4 +36,4 @@ It makes it easy to connect your PC to the serial console on the 96Boards low-sp
  - User LED connected to GPIOB (GPIOA on v1.0 of the adapter)
 
 # 2) Guides and Documentation
-  - [Usefule Guides](guides/)
+  - [Useful Guides](guides/)

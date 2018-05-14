@@ -47,4 +47,4 @@ The [96Boards Linker Mezzanine Starter Kit](https://www.96boards.org/product/lin
 - 1×Plastic case
 
 # 2) Guides and Documentation
-  - [Usefule Guides](guides/)
+  - [Useful Guides](guides/)

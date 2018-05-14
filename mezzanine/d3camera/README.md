@@ -52,4 +52,4 @@ algorithm development, end application development, and evaluation of image sens
 - FOV: 650
 
 # 2) Guides and Documentation
-  - [Usefule Guides](guides/)
+  - [Useful Guides](guides/)

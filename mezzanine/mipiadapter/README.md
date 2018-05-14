@@ -50,4 +50,4 @@ The [96Boards MIPI Adapter Mezzanine](https://www.96boards.org/product/d3camera/
 
 
 # 2) Guides and Documentation
-  - [Usefule Guides](guides/)
+  - [Useful Guides](guides/)
