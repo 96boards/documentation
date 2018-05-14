@@ -47,4 +47,4 @@ The [96Boards Secure96 Mezzanine](https://www.96boards.org/product/secure96/) is
   - 60x30mm
 
 # 2) Guides and Documentation
-  - [Usefule Guides](guides/)
+  - [Useful Guides](guides/)

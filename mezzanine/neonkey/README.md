@@ -50,4 +50,4 @@ The [96Boards NeonKey Mezzanine](https://www.96boards.org/product/neonkey/) is t
 - Size:	60x30mm
 
 # 2) Guides and Documentation
-  - [Usefule Guides](guides/)
+  - [Useful Guides](guides/)

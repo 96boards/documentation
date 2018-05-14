@@ -39,4 +39,4 @@ The [96Boards AeroCore2 Mezzanine](https://www.96boards.org/product/aerocore2/) 
 - LSM303D 6-Axis Accelerometer	System-in-package featuring a 3D digital linear acceleration sensor and a 3D digital magnetic sensor.
 
 # 2) Guides and Documentation
-  - [Usefule Guides](guides/)
+  - [Useful Guides](guides/)

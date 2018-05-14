@@ -1,9 +1,9 @@
 ---
-title: STM32 Sensor Mezzanine Getting Started With Arm embed
+title: STM32 Sensor Mezzanine Getting Started With Arm mbed
 permalink: /documentation/mezzanine/stm32/guides/beginner-guides/arm-mbed.md.html
 ---
 
-# Programming the STM32 Mezzanine with Arm embed online
+# Programming the STM32 Mezzanine with Arm mbed online
 
 1. Make sure to properly setup the hardware and software as directed in the [Getting Started Guide](getting-started.md)
 2. Power on you board, the ST-LINK LED should turn on Red
