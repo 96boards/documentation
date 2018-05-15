@@ -6,6 +6,4 @@ redirect_from:
 ---
 ## Downloads
 
-- **LiteOS Development Kit:**
-  - ```$ git clone https://github.com/LITEOS/LiteOS_Partner_Development_Kits```
-  - Use the ```LiteOS_BPI_Development_Kit``` Project Folder.
+- [LiteOS](liteos.md)

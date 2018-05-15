@@ -38,7 +38,7 @@ Coming soon...
 |  Digital Out Voltage | 1.8v                            |
 |  OS Support          | LiteOS                          |
 
-For more information, please refer to the [Hardware User Manual] ([View](https://github.com/96boards/documentation/blob/master/iot/bpai96/hardware-docs/bpai96-user-manual.pdf) / [Download](https://github.com/96boards/documentation/raw/master/iot/bpai96/hardware-docs/bpai96-user-manual.pdf))
+For more information, please refer to the [Hardware User Manual](../hardware-docs)
 
 **IMPORTANT NOTES**
 
@@ -50,44 +50,42 @@ For more information, please refer to the [Hardware User Manual] ([View](https:/
 
 **How to connect?**
 
-![](/documentation/iot/bpai96/additional-docs/images/images-hw-user-manual/Interface_line_sequence-en.png)
+<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/Interface_line_sequence-en.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/Interface_line_sequence-en.png?raw=true"/>
 
 JLink and BPI NB-IoT Linaro SWD mode connection:
 
-![](/documentation/iot/bpai96/additional-docs/images/images-hw-user-manual/connect1.png)
+<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/connect1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/connect1.png?raw=true"/>
 
-MDK5 “Options for Target” — “Debug” setting：
+*** MDK5 “Options for Target” — “Debug” setting： ***
 
 First need to build the project file based on the corresponding chip, and in the Options of Target do the following settings
 
 （Project file specific settings include but are not limited to the following settings）
 
-![](/documentation/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_1.png)
-
-![](/documentation/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_2.png)
+<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_1.png?raw=true"/>
+<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_1.png?raw=true"/>
 
 （Development board needs to be kept powered）
 
-Debug method：
+**Debug method：**
 
 1.	You can use the debug serial port (MCU USART1) to debug.
 
 2.	Use Micro USB virtual serial port for debugging.
 The above two methods require MCU program support
 
-Note：
-
+> Note：
 1.	Debug serial port, SWD simulation interface spacing 2.54mm, GPIO pitch 2.0mm
-
 2.	The LED next to the Micro USB is the power indicator, which should be on after any power-up.
  
-- ## NB-Iot part
+
+## NB-IoT
 
 This module needs to be used with NB_IOT SIM card.
 
 Different carriers support different frequency bands，Module operating frequency band to distinguish the module model，such as：
 
-![](/documentation/iot/bpai96/additional-docs/images/images-hw-user-manual/Band.png)
+<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/Band.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/Band.png?raw=true"/>
 
 ##### Firmware version：
 

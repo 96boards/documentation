@@ -17,24 +17,23 @@ Choose and install an operating system on your BPai96. These instructions can al
 - ##### BPI_NB-IoT_Linaro_96Boards
 
 **Debugger:**
-![](/documentation/iot/bpai96/additional-docs/images/images-hw-user-manual/Debugger.jpg)
+
+<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/Debugger.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/Debugger.jpg?raw=true"/>
 
 **Development Board:**
-![](/documentation/iot/bpai96/additional-docs/images/images-hw-user-manual/view.jpg)
+
+<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/view.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/view.jpg?raw=true"/>
 
 **Link debugger and development board:**
-
 According to the pin map link debugger and development board
-
-![](/documentation/iot/bpai96/additional-docs/images/images-hw-user-manual/connect2.jpg)![](iot/bpai96/additional-docs/images/images-hw-user-manual/connect1.png)
+<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/connect1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/connect1.png?raw=true"/>
 
 **Physical connection diagram:**
-
-![](/documentation/iot/bpai96/additional-docs/images/images-hw-user-manual/connect.jpg)
+<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/connect.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/connect.jpg?raw=true"/>
 
 Options of Target Setting:
 
-![](/documentation/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_1.png)
-![](/documentation/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_2.png)
+<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_1.png?raw=true"/>
+<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_2.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_2.png?raw=true"/>
 
 At last will compile the code burn into the development board
