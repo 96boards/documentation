@@ -53,14 +53,12 @@ This method requires the following hardware:
 
 - HiKey970 with power supply
 - Host machine (Linux)
-- USB to microUSB cable
-- USB Mouse and/or keyboard (not required to perform flash)
-- HDMI Monitor with full size HDMI cable (not required to perform flash)
+- USB Type-A (Host Machine) to USB Type-C (HiKey970) cable
 
 Go to the [Downloads page](../downloads/) to get your bootloader, boot image, and root file system image (rootfs).
 
-Choose host machine
+**Choose host machine**
 
-Coming soon...
+- [Linux](linux-fastboot.md)
 
 ***

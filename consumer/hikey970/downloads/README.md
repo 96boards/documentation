@@ -19,6 +19,6 @@ Coming soon...
 
 Other operating systems supported on HiKey970, offered by partners.
 
-Coming soon...
+- [AOSP](aosp.md)
 
 ***
