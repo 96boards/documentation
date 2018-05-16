@@ -27,7 +27,7 @@ Developerbox.
 
 Other operating systems with support for Developerbox.
 
- * [CentOS 7 and later)](../installation/centos.md)
- * [Debian 9 and later)](../installation/debian.md)
- * [Red Hat Enterprise Linux 7 and later)[(../installation/rhel.md)
- * [Ubuntu 18.04 and later)](../installation/ubuntu.md)
+ * [CentOS 7 and later](../installation/centos.md)
+ * [Debian 9 and later](../installation/debian.md)
+ * [Red Hat Enterprise Linux 7 and later](../installation/rhel.md)
+ * [Ubuntu 18.04 and later](../installation/ubuntu.md)
