@@ -8,32 +8,19 @@ redirect_from:
 
 Choose and install an operating system on your BPai96. These instructions can also be used to flash sample OS and applications (pre-built binaries from [downloads page](../downloads/))
 
-# How to flash LiteOS
+## Methods of Installation
 
-**Recommend Integrated Development Environment:MDK5**
+There is currently only one method of flashing Bpi NB-IOT
 
-- ##### MicroUSB Data Line
-- ##### J-Link Debugger or BPI OPEN-DEBUGGER
-- ##### BPI_NB-IoT_Linaro_96Boards
+## Flashing Over JLink Debugger
 
-**Debugger:**
+This method requires the following:
 
-<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/Debugger.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/Debugger.jpg?raw=true"/>
+- Bpi NB-IOT
+- Host Windows Machine
+- [JLink Debugger](https://www.segger.com/products/debug-probes/j-link/)
+- [Arm Keil MDK](http://www2.keil.com/mdk5)
+- MDK5&STM32F1XX Package for Keil
 
-**Development Board:**
-
-<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/view.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/view.jpg?raw=true"/>
-
-**Link debugger and development board:**
-According to the pin map link debugger and development board
-<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/connect1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/connect1.png?raw=true"/>
-
-**Physical connection diagram:**
-<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/connect.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/connect.jpg?raw=true"/>
-
-Options of Target Setting:
-
-<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_1.png?raw=true"/>
-<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_2.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_2.png?raw=true"/>
-
-At last will compile the code burn into the development board
+Choose Host Machine:
+- [windows](windows.md)
