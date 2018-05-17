@@ -22,7 +22,11 @@ Learn about your BPai96 board as well as how to prepare and set up for basic use
 
 # Out of the Box
 
-Coming soon...
+The following subsections should describe how to get started with the Bpi NB-IOT Board using the [MDK5 Tools from Arm](http://www2.keil.com/mdk5)
+
+<img src="https://github.com/96boards/documentation/raw/master/iot/bpai96/additional-docs/images/images-board/hd/bpai96-back-hd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/raw/master/iot/bpai96/additional-docs/images/images-board/hd/bpai96-back-hd.jpg?raw=true"/>
+
+<img src="https://github.com/96boards/documentation/raw/master/iot/bpai96/additional-docs/images/images-board/hd/bpai96-front-hd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/raw/master/iot/bpai96/additional-docs/images/images-board/hd/bpai96-front-hd.jpg?raw=true"/>
 
 ## Features
 
@@ -56,7 +60,7 @@ JLink and BPI NB-IoT Linaro SWD mode connection:
 
 <img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/connect1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/connect1.png?raw=true"/>
 
-*** MDK5 “Options for Target” — “Debug” setting： ***
+**MDK5 “Options for Target” — “Debug” setting：**
 
 First need to build the project file based on the corresponding chip, and in the Options of Target do the following settings
 
@@ -87,37 +91,27 @@ Different carriers support different frequency bands，Module operating frequenc
 
 <img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/Band.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/Band.png?raw=true"/>
 
-##### Firmware version：
-
-Query firmware instructions：AT+CGMR
-
-Result：V100R100C10B656SP2  firmware version is B656SP2
-
-##### Scramble code function：
-
-The module is consistent with the base station.
-
-##### SIM Card:
-
-The module can used two kinds of SIM card. Standard SIM card or eSIM card.
-
-##### Antenna:
-
-The module has reserved the MHF WiFi antenna interface, which can be selected according to the actual usage of the product.
+- **Firmware version：**
+  - Query firmware instructions：AT+CGMR
+  - Result：V100R100C10B656SP2  firmware version is B656SP2
+- **Scramble code function：**
+  - The module is consistent with the base station.
+- **SIM Card:**
+  - The module can used two kinds of SIM card. Standard SIM card or eSIM card.
+- **Antenna:**
+  - The module has reserved the MHF WiFi antenna interface, which can be selected according to the actual usage of the product.
 
 ***
 
 ## What's Next?
 
 If you are already familiar with the BPai96 board and would like to change out the stock operating system, please proceed to one of the following pages:
-
 - [Downloads page](../downloads/): This page lists all Linaro and 3rd party operating systems available for the BPai96
 - [Installation page](../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your BPai96
 - [Board Recovery](../installation/)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 - [Troubleshooting](../support/)
-
-- From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
+  - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
 Back to the [BPai96 documentation home page](../)
 
