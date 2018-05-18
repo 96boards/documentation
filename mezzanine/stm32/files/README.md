@@ -5,4 +5,4 @@ redirect_from: /documentation/mezzanine/stm32/README.md/
 ---
 ## STM32 Files
 
-Coming soon...
+- [Hardware Manual](hw-manual.pdf)
