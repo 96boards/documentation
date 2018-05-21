@@ -30,7 +30,7 @@ Developerbox has 24 ARM® Cortex-A53 cores.
  * [Optional] Power cord suited to your locality
 
 The kit is supplied unassembled and a [comprehensive assembly guide is
-available](http://www.socionext.com/en/download/catalog/MN04-00002-1E.pdf).
+available](../hardware-docs/MN04-00002-2E.pdf).
 
 ***
 
