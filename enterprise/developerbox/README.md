@@ -6,6 +6,9 @@ permalink: /documentation/enterprise/developerbox/
 
 A comprehensive guide to using the 96Boards Enterprise Edition Developerbox. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
+![Developerbox (cased)](additional-docs/images-board/hd/sn_pr20170922_01_photo1.jpg)
+![Developerbox (board only)](additional-docs/images-board/hd/sn_pr20170922_01_photo3.jpg)
+
 ## Documentation
 
 - [Getting Started](getting-started/)

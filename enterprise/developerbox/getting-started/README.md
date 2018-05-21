@@ -29,6 +29,9 @@ Developerbox has 24 ARM® Cortex-A53 cores.
  * Monitor and HDMI Cable
  * [Optional] Power cord suited to your locality
 
+The kit is supplied unassembled and a [comprehensive assembly guide is
+available](../hardware-docs/MN04-00002-2E.pdf).
+
 ***
 
 # Starting the board for the first time
