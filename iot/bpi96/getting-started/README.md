@@ -3,6 +3,7 @@ title: Getting Started with BPi96
 permalink: /documentation/iot/bpi96/getting-started/
 redirect_from:
 - /documentation/iot/bpai96/getting-started/README.md/
+- /documentation/iot/bpai96/getting-started/
 ---
 # Getting Started
 

@@ -3,6 +3,7 @@ title: Guides for BPi96
 permalink: /documentation/iot/bpi96/guides/
 redirect_from:
 - /documentation/iot/bpai96/guides/README.md/
+- /documentation/iot/bpai96/guides/
 ---
 # Useful Guides
 
