@@ -1,6 +1,6 @@
 ---
-title: BPai96 LiteOS
-permalink: /documentation/iot/bpai96/downloads/liteos.html
+title: BPi96 LiteOS
+permalink: /documentation/iot/bpi96/downloads/liteos.html
 ---
 
 # LiteOS

@@ -1,9 +1,9 @@
 ---
-title: BPai96 User Manual
-permalink: /documentation/iot/bpai96/hardware-user-manual.html
+title: BPi96 User Manual
+permalink: /documentation/iot/bpi96/hardware-user-manual.html
 ---
 
-# BPai96 Hardware User Manual
+# BPi96 Hardware User Manual
 
 ### Table of Contents
 

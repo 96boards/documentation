@@ -1,12 +1,12 @@
 ---
-title: Getting Started with BPai96
-permalink: /documentation/iot/bpai96/getting-started/
+title: Getting Started with BPi96
+permalink: /documentation/iot/bpi96/getting-started/
 redirect_from:
 - /documentation/iot/bpai96/getting-started/README.md/
 ---
 # Getting Started
 
-Learn about your BPai96 board as well as how to prepare and set up for basic use
+Learn about your BPi96 board as well as how to prepare and set up for basic use
 
 ## Setup - What you will need
 
@@ -24,9 +24,9 @@ Learn about your BPai96 board as well as how to prepare and set up for basic use
 
 The following subsections should describe how to get started with the Bpi NB-IOT Board using the [MDK5 Tools from Arm](http://www2.keil.com/mdk5)
 
-<img src="https://github.com/96boards/documentation/raw/master/iot/bpai96/additional-docs/images/images-board/hd/bpai96-back-hd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/raw/master/iot/bpai96/additional-docs/images/images-board/hd/bpai96-back-hd.jpg?raw=true"/>
+<img src="https://github.com/96boards/documentation/raw/master/iot/bpi96/additional-docs/images/images-board/hd/bpi96-back-hd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/raw/master/iot/bpi96/additional-docs/images/images-board/hd/bpi96-back-hd.jpg?raw=true"/>
 
-<img src="https://github.com/96boards/documentation/raw/master/iot/bpai96/additional-docs/images/images-board/hd/bpai96-front-hd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/raw/master/iot/bpai96/additional-docs/images/images-board/hd/bpai96-front-hd.jpg?raw=true"/>
+<img src="https://github.com/96boards/documentation/raw/master/iot/bpi96/additional-docs/images/images-board/hd/bpi96-front-hd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/raw/master/iot/bpi96/additional-docs/images/images-board/hd/bpi96-front-hd.jpg?raw=true"/>
 
 ## Features
 
@@ -54,11 +54,11 @@ For more information, please refer to the [Hardware User Manual](../hardware-doc
 
 **How to connect?**
 
-<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/Interface_line_sequence-en.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/Interface_line_sequence-en.png?raw=true"/>
+<img src="https://github.com/96boards/documentation/blob/master/iot/bpi96/additional-docs/images/images-hw-user-manual/Interface_line_sequence-en.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpi96/additional-docs/images/images-hw-user-manual/Interface_line_sequence-en.png?raw=true"/>
 
 JLink and BPI NB-IoT Linaro SWD mode connection:
 
-<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/connect1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/connect1.png?raw=true"/>
+<img src="https://github.com/96boards/documentation/blob/master/iot/bpi96/additional-docs/images/images-hw-user-manual/connect1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpi96/additional-docs/images/images-hw-user-manual/connect1.png?raw=true"/>
 
 **MDK5 “Options for Target” — “Debug” setting：**
 
@@ -66,8 +66,8 @@ First need to build the project file based on the corresponding chip, and in the
 
 （Project file specific settings include but are not limited to the following settings）
 
-<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_1.png?raw=true"/>
-<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/debug_setting_1.png?raw=true"/>
+<img src="https://github.com/96boards/documentation/blob/master/iot/bpi96/additional-docs/images/images-hw-user-manual/debug_setting_1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpi96/additional-docs/images/images-hw-user-manual/debug_setting_1.png?raw=true"/>
+<img src="https://github.com/96boards/documentation/blob/master/iot/bpi96/additional-docs/images/images-hw-user-manual/debug_setting_1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpi96/additional-docs/images/images-hw-user-manual/debug_setting_1.png?raw=true"/>
 
 （Development board needs to be kept powered）
 
@@ -89,7 +89,7 @@ This module needs to be used with NB_IOT SIM card.
 
 Different carriers support different frequency bands，Module operating frequency band to distinguish the module model，such as：
 
-<img src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/Band.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpai96/additional-docs/images/images-hw-user-manual/Band.png?raw=true"/>
+<img src="https://github.com/96boards/documentation/blob/master/iot/bpi96/additional-docs/images/images-hw-user-manual/Band.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/iot/bpi96/additional-docs/images/images-hw-user-manual/Band.png?raw=true"/>
 
 - **Firmware version：**
   - Query firmware instructions：AT+CGMR
@@ -105,14 +105,14 @@ Different carriers support different frequency bands，Module operating frequenc
 
 ## What's Next?
 
-If you are already familiar with the BPai96 board and would like to change out the stock operating system, please proceed to one of the following pages:
-- [Downloads page](../downloads/): This page lists all Linaro and 3rd party operating systems available for the BPai96
-- [Installation page](../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your BPai96
+If you are already familiar with the bpi96 board and would like to change out the stock operating system, please proceed to one of the following pages:
+- [Downloads page](../downloads/): This page lists all Linaro and 3rd party operating systems available for the BPi96
+- [Installation page](../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your BPi96
 - [Board Recovery](../installation/)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 - [Troubleshooting](../support/)
   - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
-Back to the [BPai96 documentation home page](../)
+Back to the [BPi96 documentation home page](../)
 
 ***   

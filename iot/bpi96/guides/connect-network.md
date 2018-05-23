@@ -1,6 +1,6 @@
 ---
-title: BPai96 BC95 Connect to Network
-permalink: /documentation/iot/bpai96/guides/connect-network.html
+title: BPi96 BC95 Connect to Network
+permalink: /documentation/iot/bpi96/guides/connect-network.html
 ---
 
 # Command Format
