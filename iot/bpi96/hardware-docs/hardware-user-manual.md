@@ -17,7 +17,7 @@ permalink: /documentation/iot/bpi96/hardware-user-manual.html
 
 BPI NB-IoT with BC95 module development board is the first Banana Pi board for 96Board IoT Specification.
 
-# 2) Specification
+# Specification
 
 **General Board Specification**
 
