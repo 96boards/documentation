@@ -1,9 +1,6 @@
 ---
 title: Hardware Documentation for BPi96
 permalink: /documentation/iot/bpi96/hardware-docs/
-redirect_from:
-- /documentation/iot/bpai96/hardware-docs/README.md/
-- /documentation/iot/bpai96/hardware-docs/
 ---
 # Hardware Documentation
 

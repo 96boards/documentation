@@ -1,9 +1,6 @@
 ---
 title: Support for BPi96
 permalink: /documentation/iot/bpi96/support/
-redirect_from:
-- /documentation/iot/bpai96/support/README.md/
-- /documentation/iot/bpai96/support
 ---
 # Support
 
