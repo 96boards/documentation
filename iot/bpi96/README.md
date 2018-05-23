@@ -3,6 +3,7 @@ title: BPi96 Documentation
 permalink: /documentation/iot/bpi96/
 redirect_from:
 - /documentation/iot/bpai96/README.md/
+- /documentation/iot/bpai96/
 ---
 
 # Using the BPi96

@@ -3,6 +3,7 @@ title: Installation for BPi96
 permalink: /documentation/iot/bpi96/installation/
 redirect_from:
 - /documentation/iot/bpai96/installation/README.md/
+- /documentation/iot/bpai96/installation/
 ---
 # Installation
 
