@@ -15,9 +15,7 @@ subsystem on Dragonboard410c along with SPIDEV userspace interface.
 
 - [1) SPIDEV](#1-spidev)
 - [2) Modifying device tree](#2-modifying-device-tree)
-- [3) Building device tree](#3-building-device-tree)
-- [4) Flashing boot and rootfs image](#4-flashing-boot-and-rootfs-image)
-- [5) Testing SPIDEV](#5-testing-spidev)
+- [3) Testing SPIDEV](#3-testing-spidev)
 
  ***
 
@@ -42,93 +40,18 @@ For using SPIDEV driver it is necessary to add the relevant device tree node.
 Following instructions are used to add SPIDEV nodes into Dragonboard410c
 device tree.
 
-1. Clone the kernel
+1. Run the following commands on the Dragonboard410c:
 
 ```shell
-$ git clone -n http://git.linaro.org/landing-teams/working/qualcomm/kernel.git
-$ cd kernel
-$ git checkout -b kernel-<RELEASE> debian-qcom-dragonboard410c-<RELEASE>
-```
-> Note: Replace < RELEASE > with latest release version found
-[here](http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/latest/)
-
-2. Add SPIDEV nodes to device tree
-
-Apply the following diff to `arch/arm64/boot/dts/qcom/apq8016-sbc.dtsi`
-
-```
-diff --git a/arch/arm64/boot/dts/qcom/apq8016-sbc.dtsi b/arch/arm64/boot/dts/qcom/apq8016-sbc.dtsi
-index 5d0d5a3..c4a5ba7 100644
---- a/arch/arm64/boot/dts/qcom/apq8016-sbc.dtsi
-+++ b/arch/arm64/boot/dts/qcom/apq8016-sbc.dtsi
-@@ -476,6 +476,26 @@
-        };
- };
-
-+/* On Low speed expansion header */
-+&blsp_spi5 {
-+               status = "okay";
-+               spidev@0 {
-+                               compatible = "spidev";
-+                               spi-max-frequency = <500000>;
-+                               reg = <0>;
-+               };
-+};
-+
-+/* On High speed expansion header */
-+&blsp_spi3 {
-+               status = "okay";
-+               spidev@0 {
-+                               compatible = "spidev";
-+                               spi-max-frequency = <500000>;
-+                               reg = <0>;
-+               };
-+};
-+
+$ git clone https://github.com/96boards/dt-update
+$ cd dt-update
+$ make
+$ sudo scripts/db410c/enable-spidev.sh
 ```
 
-# 3) Building device tree
+2. Reboot your Dragonboard410c
 
-Build the device tree with above mentioned changes.
-
-```shell
-$ export ARCH=arm64
-$ export CROSS_COMPILE=<path to your GCC cross compiler>/aarch64-linux-gnu-
-$ make defconfig distro.config
-$ make -j$(nproc) dtbs
-```
-Now, prepare the boot image.
-
-```shell
-$ git clone git://codeaurora.org/quic/kernel/skales
-$ ./skales/dtbTool -o dt.img -s 2048 arch/arm64/boot/dts/qcom/
-$ wget http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/latest/initrd.img-* -O initrd.img
-$ wget http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/latest/vmlinuz-* -O vmlinuz
-$ ./skales/mkbootimg --kernel vmlinuz \
-                   --ramdisk initrd.img \
-                   --output boot-db410c.img \
-                   --dt dt.img \
-                   --pagesize 2048 \
-                   --base 0x80000000 \
-                   --cmdline "root=/dev/disk/by-partlabel/rootfs rw rootwait console=ttyMSM0,115200n8"
-```
-
-# 4) Flashing boot and roofs image
-
-Boot Dragonboard410c into fastboot mode by following the
-[instructions](https://www.96boards.org/documentation/consumer/dragonboard410c/installation/linux-fastboot.md.html).
-
-1. Download latest `rootfs` image from
-[here](http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/latest/linaro-*-alip-*.img.gz).
-2. Flash boot and rootfs images onto Dragonboard410c
-
-```shell
-$ sudo fastboot flash boot boot-db410c.img
-$ sudo fastboot flash rootfs linaro-<DEBIANRELEASE>-alip-<BUILD>.img
-```
-> Note: Replace < DEBIANRELEASE > and < BUILD > according to the downloaded rootfs image.
-
-### Kernel warning when booting the kernel:
+## Kernel warning when booting the kernel:
 
 Since the SPIDEV module is not a representation of a real hardware,
 kernel will produce a warning when booting the system, such as:
@@ -142,7 +65,7 @@ kernel will produce a warning when booting the system, such as:
 The device will still be functional, so just ignore while testing the
 SPIDEV devices.
 
-# 5) Testing SPIDEV
+# 3) Testing SPIDEV
 
 Login to Dragnoboard410c and execute the following commands to test
 SPI using SPIDEV module with the help of `spidev_test` utility.
