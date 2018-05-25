@@ -14,8 +14,8 @@ Discover our list of community and vendor sponsored MediaTek X20 documents. This
 
 <img src="https://github.com/96boards/documentation/blob/master/consumer/mediatekx20/additional-docs/images/logos/MediaTek_Yellow.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/mediatekx20/additional-docs/images/logos/MediaTek_Yellow.png?raw=true" width="150" height="80" />
 
-- [MT6797LTE-A Smartphone Application Processor Functional Specification for Development Board](docs/MT6797_Functional_Specification_V1_0.pdf)
-- [MT6797 LTE-ASmartphone Application Processor Register Table for Development Board(Part I)](docs/MT6797_Functional_Specification_V1_0.pdf)
+- [MT6797 LTE-A Smartphone Application Processor Functional Specification for Development Board](docs/MT6797_Functional_Specification_V1_0.pdf)
+- [MT6797 LTE-A Smartphone Application Processor Register Table for Development Board (Part I)](docs/MT6797_Register_Table_Part_1.pdf)
 - [MT6797 LTE-A Smartphone Application Processor Register Table for Development Board (Part II)](docs/MT6797_Register_Table_Part_2.pdf)
 
 ***
