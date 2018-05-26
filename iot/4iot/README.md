@@ -1,6 +1,6 @@
 ---
 title: Using the 4IoT
-permalink: /documentation/consumer/4iot/
+permalink: /documentation/iot/4iot/
 ---
 
 # Using the 4IoT

@@ -1,6 +1,6 @@
 ---
 title: Useful Guides for 4IoT
-permalink: /documentation/consumer/4iot/guides/
+permalink: /documentation/iot/4iot/guides/
 ---
 
 # Useful Guides

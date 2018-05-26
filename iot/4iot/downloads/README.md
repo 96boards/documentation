@@ -1,6 +1,6 @@
 ---
 title: Downloads for 4IoT
-permalink: /documentation/consumer/4iot/downloads/
+permalink: /documentation/iot/4iot/downloads/
 ---
 
 ## Downloads

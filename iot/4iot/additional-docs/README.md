@@ -1,6 +1,6 @@
 ---
 title: Additional Docs for 4IoT
-permalink: /documentation/consumer/4iot/additional-docs/
+permalink: /documentation/iot/4iot/additional-docs/
 ---
 
 # Board Images

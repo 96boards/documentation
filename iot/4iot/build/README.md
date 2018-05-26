@@ -1,6 +1,6 @@
 ---
 title: Build Source for 4IoT
-permalink: /documentation/consumer/4iot/build/
+permalink: /documentation/iot/4iot/build/
 ---
 
 # Build from Source
