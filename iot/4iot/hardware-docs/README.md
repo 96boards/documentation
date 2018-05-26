@@ -1,6 +1,6 @@
 ---
 title: Hardware Documentation for 4IoT
-permalink: /documentation/consumer/4iot/hardware-docs/
+permalink: /documentation/iot/4iot/hardware-docs/
 ---
 
 

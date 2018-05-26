@@ -1,6 +1,6 @@
 ---
 title: Basic Kit  for 4IoT
-permalink: /documentation/consumer/4iot/getting-started/
+permalink: /documentation/iot/4iot/getting-started/
 ---
 
 # Getting Started

@@ -1,6 +1,6 @@
 ---
 title: Support for 4IoT
-permalink: /documentation/consumer/4iot/support/
+permalink: /documentation/iot/4iot/support/
 ---
 
 # Support
