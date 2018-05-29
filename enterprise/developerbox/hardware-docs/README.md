@@ -12,10 +12,7 @@ Explore what makes your Developerbox unique, technical specifications, schematic
 
 ## Hardware
 
-Coming soon...
-
-- BOM (View / Download)
-- Schematics (View / Download)
+- [Schematics](mzsc2am_v03_20180115_a.pdf)
 
 ## Verified Hardware
 
