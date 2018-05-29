@@ -70,7 +70,7 @@ The 96Boards Poplar board is the first TV board to be certified 96Boards Enterpr
    - Full HD JPEG hardware decoding, maximum 64 megapixels
    - PNG hardware decoding, maximum 64 megapixels
 - **Video and Image Encoding**:
-   - H.264 BP/MP/HP@level 4.2 video encoding, maximum 1x1080p@30 fps or 2x720p@30 fps decoding
+   - H.264 BP/MP/HP@level 4.2 video encoding, maximum 1x1080p@30 fps or 2x720p@30 fps encoding
    - Variable bit rate (VBR) or constant bit rate (CBR) mode
    - Low-delay encoding
    - Encoding of multiple region of interests (ROIs)
