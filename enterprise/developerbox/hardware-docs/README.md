@@ -24,3 +24,5 @@ Explore what makes your Developerbox unique, technical specifications, schematic
 | Trancend RDIMM | TS2GHR72V4B DDR4 RDIMM | 16G 2Rx8 DDR4 2400 REG |
 | Trancend UDIMM | TS512MLH64V1H DDR4 UDIMM | 4GB 1Rx8 DDR4 2133 ECC |
 | Crucial UDIMM | CT4G4DFS824A | 4GB DDR4-2400 UDIMM 1.2V CL17 |
+
+**Note:** in order to use the 4 DIMM slots, **registered** DIMMs are required. For example: using the Crucial UDIMM CT4G4DFS824A, you will be limited to 2 DIMM slots.
