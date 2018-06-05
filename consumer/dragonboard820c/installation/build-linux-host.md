@@ -33,39 +33,3 @@ $ sudo apt autoremove -y
 ```shell
 $ sudo apt install -y android-tools-adb android-tools-fastboot libxml2-dev
 ```
-
-## Building Qualcomm Download (QDL) tool
-The script downloads and builds QDL.
-
-```shell
-$ mkdir DB820c
-$ cd DB820c
-$ git clone https://git.linaro.org/landing-teams/working/qualcomm/qdl.git
-$ cd qdl
-$ make
-$ cd ..
-```
-
-## Prepare the bootloader package
-The script downloads the latest build and prints the BUILD number for your information.
-
-```shell
-$ BUILD=$(curl http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/ | grep -oP '(?<=/)\d{2}(?=/")')
-$ echo "BUILD=$BUILD"
-$ wget http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/dragonboard-820c-bootloader-ufs-linux-*.zip
-$ unzip dragonboard-820c-bootloader-ufs-linux-*.zip
-$ rm dragonboard-820c-bootloader-ufs-linux-*.zip
-$ mv dragonboard-820c-bootloader-ufs-linux-$BUILD bootloader-ufs-linux
-$ cd ~/DB820c/bootloader-ufs-linux
-```
-
-## Flashing the bootloader
-
-At this point you are setup to Flashing the bootloader and use fastboot to load boot and rootfs images onto your DragonBoard 820c.
-Please continue to the **[Fastboot Method](linux-fastboot.md)** to continue the installation. You can skip to the line that calls QDL.
-
-```shell
-$ sudo ~/DB820c/qdl/qdl prog_ufs_firehose_8996_ddr.elf rawprogram.xml patch.xml
-```
-
-  
