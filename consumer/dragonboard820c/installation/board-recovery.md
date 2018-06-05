@@ -35,6 +35,20 @@ This is provided in source code, and it needs to be compiled locally. It uses li
 
 To compile qdl project, it should be as simple as running make command in the top level folder of the project.
 
+### Make sure that ModemManager is not running
+
+Some Linux distributions come with ModemManager, a tool for configuring Mobile Broadband.
+When the dragonboard is connected in USB mode, it will be identified as a Qualcomm modem,
+and ModemManager will try to configure the device. This will interfere with the QDL flashing,
+so if you have ModemManager running, you need to disable it before connecting your dragonboard.
+If you are using a Linux distribution with systemd, ModemManager can be stopped by:
+
+```shell
+$ sudo systemctl stop ModemManager
+```
+
+If actually you need ModemManager, you can start it again after the flashing is complete.
+
 ### Connecting the board in USB flashing mode (aka EDL mode)
 
 In order to force the DB820c to boot on USB (EDL mode), you need to configure S1 switch properly. S1 is on the back of the board underneath the micro SD slot. 
