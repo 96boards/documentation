@@ -6,7 +6,7 @@ redirect_from:
 ---
 ## Linux Host
 
-This section show how to install an operating system to your DragonBoard™ 820c using the Fastboot method on a Linux host computer.
+This section shows how to install an operating system to your DragonBoard™ 820c using the Fastboot method on a Linux host computer.
 Please refer to the **[Build Linux Host Computer](build-linux-host.md)** for the initial setup.
 
 ### Booting into fastboot
