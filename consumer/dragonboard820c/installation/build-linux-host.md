@@ -59,6 +59,20 @@ $ mv dragonboard-820c-bootloader-ufs-linux-$BUILD bootloader-ufs-linux
 $ cd ~/DB820c/bootloader-ufs-linux
 ```
 
+## Make sure that ModemManager is not running
+
+Some Linux distributions come with ModemManager, a tool for configuring Mobile Broadband.
+When the dragonboard is connected in USB mode, it will be identified as a Qualcomm modem,
+and ModemManager will try to configure the device. This will interfere with the QDL flashing,
+so if you have ModemManager running, you need to disable it before connecting your dragonboard.
+If you are using a Linux distribution with systemd, ModemManager can be stopped by:
+
+```shell
+$ sudo systemctl stop ModemManager
+```
+
+If you actually need ModemManager, you can start it again after the flashing is complete.
+
 ## Flashing the bootloader
 
 At this point you are setup to Flashing the bootloader and use fastboot to load boot and rootfs images onto your DragonBoard 820c.

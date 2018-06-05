@@ -29,6 +29,20 @@ $ cd qdl
 $ make
 ```
 
+### Make sure that ModemManager is not running
+
+Some Linux distributions come with ModemManager, a tool for configuring Mobile Broadband.
+When the dragonboard is connected in USB mode, it will be identified as a Qualcomm modem,
+and ModemManager will try to configure the device. This will interfere with the QDL flashing,
+so if you have ModemManager running, you need to disable it before connecting your dragonboard.
+If you are using a Linux distribution with systemd, ModemManager can be stopped by:
+
+```shell
+$ sudo systemctl stop ModemManager
+```
+
+If you actually need ModemManager, you can start it again after the flashing is complete.
+
 ### Connecting the DB820c
 
 * In order to force the DB820c to boot on USB, you need to configure S1 switch properly. S1 is on the back of the board underneath the micro SD slot.
