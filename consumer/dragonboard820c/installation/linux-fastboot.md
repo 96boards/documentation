@@ -9,67 +9,12 @@ redirect_from:
 This section show how to install an operating system to your DragonBoard™ 820c using the Fastboot method on a Linux host computer.
 Please refer to the **[Build Linux Host Computer](build-linux-host.md)** for the initial setup.
 
-## Flashing the Bootloader
-
-Bootloader on Dragonboard820c can be flashed using the USB interface. An open source tool that implements the Qualcomm Sahara protocol has been developed by Linaro. When booting from `USB`, the internal SoC ROM code (also called PBL) implements the Sahara protocol to communicate with a PC host. After an initial setup phase, the Sahara protocol can be used to download a flashing programmer into the SoC internal memory, which implements the Firehose protocol. This protocol allows the host PC to send commands to write into the onboard storage (eMMC or UFS). The programmer file is included in the QDN Linux board support release from Qualcomm.
-
-### Getting the Qualcomm Download (QDL) tool
-
-#### Packages required:
-
-```shell
-$ sudo apt-get install libxml2-dev
-```
-
-#### Building QDL: 
-
-```
-$ git clone https://git.linaro.org/landing-teams/working/qualcomm/qdl.git
-$ cd qdl
-$ make
-```
-
-### Connecting the DB820c
-
-* In order to force the DB820c to boot on USB, you need to configure S1 switch properly. S1 is on the back of the board underneath the micro SD slot.
-* If you have a P2 board (or above, which is the most likely situation), set it to `ON,OFF,OFF,ON`. Otherwise if you have a P1 board, set it to `ON,ON,OFF,ON`
-* Connect a USB cable from the micro USB on Dragonboard820c to your PC.
-* Connect UART console (optional)
-
-### Flashing the bootloader
-
-Download and unzip the most recent bootloader package:
-The script downloads the latest build and prints the BUILD number for your information.
- 
-```shell
-$ BUILD=$(curl http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/ | grep -oP '(?<=/)\d{2}(?=/")')
-$ echo "BUILD=$BUILD"
-$ wget http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/dragonboard-820c-bootloader-ufs-linux-*.zip
-$ unzip dragonboard-820c-bootloader-ufs-linux-*.zip
-$ rm dragonboard-820c-bootloader-ufs-linux-*.zip
-$ mv dragonboard-820c-bootloader-ufs-linux-$BUILD bootloader-ufs-linux
-$ cd bootloader-ufs-linux
-$ sudo <PATH to qdl>/qdl prog_ufs_firehose_8996_ddr.elf rawprogram.xml patch.xml
-```
-It should take a few seconds. And you should eventually get something like that:
-
-```shell
-	...
-	...
-	Update Backup Header with CRC of Backup Header.
-	LOG: crc start sector 393215, over bytes 92
-	LOG: Patched sector 393215 with 8FDB38DF
-	LUN1 is now bootable device
-	LOG: Inside handlePower() - Requested POWER_RESET
-	LOG: Issuing bsp_target_reset() after 1 seconds, if this hangs, do you have WATCHDOG enabled?
-```
-
 ### Booting into fastboot
 
-If the flashing process succeeded, all the right bootloaders and partition table should have been set. And fastboot can now be used to flash Linux root file system. The first thing to try is to get into fastboot, to make sure the flashing completed properly.
+If the board is flashed properly, all the right bootloaders and partition table should have been set. And fastboot can be used to flash Linux root file system. The first thing to try is to get into fastboot, to confirm that the board was flashed properly.
 
 * Power off the board
-* Set Switch S1 to `OFF,OFF,OFF,OFF`. If you have a P1 or earlier board you may need to use `OFF,ON,OFF,OFF`.
+* Make sure that switch S1 to `OFF,OFF,OFF,OFF`. If you have a P1 or earlier board you may need to use `OFF,ON,OFF,OFF`.
 * Connect the debug UART / serial console to your Linux PC (optional)
 * Connect the micro USB cable (J4) to your Linux PC.
 * Open UART/serial console (optional)
@@ -96,6 +41,10 @@ It will show as below:
 > Note: If the board is not going into fastboot mode and it boots the already available boot image,
 >       you can delete the boot partition after login using the command `cat /dev/zero > /dev/disk/by-partlabel/boot`.
 >       Then next time it will boot into fastboot mode directly.
+
+## (re)Flashing the bootloaders
+
+It the board does not come up into `fastboot` mode (e.g. it is bricked), or if you want to install a different version of the bootloaders, please follow instructions from this document: [board recovery](./board-recovery.md), and then come back to the previous section.
 
 ## Installing Debian
 
