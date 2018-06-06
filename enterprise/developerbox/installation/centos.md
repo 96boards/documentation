@@ -6,7 +6,6 @@ permalink: /documentation/enterprise/developerbox/installation/centos.html
 
    * [Downloading install media](#downloading-install-media)
    * [Quirks and workarounds](#quirks-and-workarounds)
-      * [[Hardware] Ensure graphics card is in the x16 slot](#hardware-ensure-graphics-card-is-in-the-x16-slot)
       * [[Hardware] USB/PCIe networking](#hardware-usbpcie-networking)
       * [[Firmware] Ensure the system firmware version is up to date](#firmware-ensure-the-system-firmware-is-up-to-date)
       * [[Firmware] Set O/S Hardware Description to ACPI](#firmware-set-os-hardware-description-to-acpi)
