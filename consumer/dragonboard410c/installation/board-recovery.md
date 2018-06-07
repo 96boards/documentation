@@ -23,3 +23,57 @@ In most cases this will be your sure-fire way to recover your board from a softw
 ## Fastboot recovery
 
 In many cases, simply re-flashing the bootloader, boot image, and root file system, using the [fastboot method](README.md#fastboot-method) is enough. While the generic fastboot method might not always work due to certain complications, the sd card recovery image is always available (as seen above).
+
+## Using USB flashing tools
+
+Alternatively, the Dragonboard 410c can also be recovered/flashed over USB, using the Linaro QDL flashing tools. For more information about QDL, including installation instructions, please check this [guide](../../guides/qdl.md).
+
+### Connecting the board in USB flashing mode (aka EDL mode)
+
+In order to force the DB410c to boot on USB (EDL mode), you need to configure S6 switch properly. S6 is on the back of the board underneath the micro SD slot.
+
+* Power off the board and make sure no USB cable is plugged into the board
+* Set switch S6-1 to `ON`.
+* Connect the debug UART / serial console to your Linux PC, if not done already
+* Connect the micro USB cable (J4) between the Linux PC and the board
+* Open UART/serial console
+* Power on the device
+
+### Flashing the device
+
+Download and unzip the most recent bootloader package:
+
+http://snapshots.linaro.org/96boards/dragonboard410c/linaro/rescue/latest/dragonboard-410c-bootloader-emmc-linux-*.zip
+
+Then run:
+
+    cd dragonboard-410c-bootloader-emmc-linux-*/
+    sudo <PATH to qdl>/qdl prog_emmc_firehose_8916.mbn rawprogram.xml patch.xml
+
+It should take a few seconds. And you should eventually get something like that:
+
+    ...
+    ...
+    Update Backup Header with CRC of Backup Header.
+    LOG: crc start sector 393215, over bytes 92
+    LOG: Patched sector 393215 with 8FDB38DF
+    LUN1 is now bootable device
+    LOG: Inside handlePower() - Requested POWER_RESET
+    LOG: Issuing bsp_target_reset() after 1 seconds, if this hangs, do you have WATCHDOG enabled?
+
+### Booting into fastboot
+
+If the flashing process succeeded, all the right bootloaders and partition table should have been set. And fastboot can now be used to flash Linux root file system. The first thing to try is to get into fastboot, to make sure the flashing completed properly.
+
+* Power off the board and make sure no USB cable is plugged into the board
+* Set Switch S6-1 to `OFF`.
+* Connect the debug UART / serial console to your Linux PC, if not done already
+* Connect the micro USB cable (J4) between the Linux PC and the board
+* Open UART/serial console
+* Power on the device
+
+You should some see debug traces on the console, and at the end something like:
+
+    ...
+    ...
+    fastboot: processing commands
