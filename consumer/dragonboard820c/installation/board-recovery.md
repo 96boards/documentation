@@ -23,29 +23,7 @@ In many cases, simply re-flashing the bootloader, boot image, and root file syst
 
 ## Using USB flashing tools
 
-Alternatively, the Dragonboard 820c can also be recovered/flashed using USB. An open source tool that implements the Qualcomm Sahara protocol has been developed by Linaro. When booting from USB the internal SoC ROM code (also called PBL) implements the Sahara protocol to communicate with a PC host. After an initial setup phase, the Sahara protocol can be used to download a flashing programmer into the SoC internal memory, which implements the Firehose protocol. This protocol allows the host PC to send commands to write into the onboard storage (UFS). The USB flashing tool is only available for Linux hosts.
-
-### Get the Linux flashing tool
-
-    git clone https://git.linaro.org/landing-teams/working/qualcomm/qdl.git
-
-This is provided in source code, and it needs to be compiled locally. It uses libxml, so on Ubuntu/Debian you will need:
-
-    sudo apt-get install libxml2-dev
-
-To compile qdl project, it should be as simple as running make command in the top level folder of the project.
-
-### Make sure that ModemManager is not running
-
-Some Linux distributions come with ModemManager, a tool for configuring Mobile Broadband.
-When the dragonboard is connected in USB mode, it will be identified as a Qualcomm modem,
-and ModemManager will try to configure the device. This will interfere with the QDL flashing,
-so if you have ModemManager running, you need to disable it before connecting your dragonboard.
-If you are using a Linux distribution with systemd, ModemManager can be stopped by:
-
-    sudo systemctl stop ModemManager
-
-If you actually need ModemManager, you can start it again after the flashing is complete.
+Alternatively, the Dragonboard 820c can also be recovered/flashed over USB, using the Linaro QDL flashing tools. For more information about QDL, including installation instructions, please check this [guide](../../guides/qdl.md).
 
 ### Connecting the board in USB flashing mode (aka EDL mode)
 
