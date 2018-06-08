@@ -21,7 +21,7 @@ This section show how to install a new operating system to your HiKey970 using t
 
 **Materials**
 
-- [HiKey970](https://www.96boards.org/product/hikey970/)
+- HiKey970
 - USB Type-A (Host machine) to USB Type-C (96Boards) cable
 - [96Boards compliant power supply](https://www.96boards.org/product/power/)
 
