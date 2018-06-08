@@ -11,6 +11,6 @@ Page under construction...
 
 - [Debian]()
 - [OpenEmbedded]()
-- [Android]()
+- [Android](aosp.md)
 
 
