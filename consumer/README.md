@@ -1,13 +1,11 @@
 ---
-title: Documentation for Consumer Edition
+title: Consumer Edition Documentation
 permalink: /documentation/consumer/
 redirect_from:
 - /documentation/ConsumerEdition/README.md/
 - /documentation/ConsumerEdition
 - /documentation/consumer/README.md/
 ---
-# Consumer Edition Documentation
-
 Welcome to the official documentation for Consumer Edition 96Boards, these documents are written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
 ***

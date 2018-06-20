@@ -1,13 +1,11 @@
 ---
-title: IoT Docs
+title: IoT Edition Documentation
 permalink: /documentation/iot/
 redirect_from:
 - /documentation/iot/README.md/
 - /documentation/IoTEdition/README.md/
 - /documentation/IoTEdition/
 ---
-# IoT Edition Documentation
-
 Welcome to the official documentation for IoT Edition 96Boards, these documents are written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
 ## Contents - Start Here

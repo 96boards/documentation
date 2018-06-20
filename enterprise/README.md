@@ -1,13 +1,11 @@
 ---
-title: Documentation for Enterprise Edition
+title: Enterprise Edition Documentation
 permalink: /documentation/enterprise/
 redirect_from:
 - /documentation/EnterpriseEdition/README.md/
 - /documentation/EnterpriseEdition/
 - /documentation/enterprise/README.md
 ---
-## Enterprise Edition Documentation
-
 Welcome to the official documentation for 96Boards, this documentation is written by the 96Boards team at Linaro with community contribution and links to third party material.
 
 ## Contents - Start Here
