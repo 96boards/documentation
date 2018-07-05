@@ -11,8 +11,7 @@ ROCK960 comes pre-installed with Android. If you would like to switch the Operat
 
 ### Linaro supported operating systems
 
-- [Debian](debian.md)
-- [Ubuntu](ubuntu.md)
+There are currently no Linaro supported operating systems.
 
 ***
 
@@ -20,7 +19,9 @@ ROCK960 comes pre-installed with Android. If you would like to switch the Operat
 
 Other operating systems supported on ROCK960, offered by partners.
 
-- [Android](aosp.md)
+- [Debian](debian.md)
+- [Ubuntu](ubuntu.md)
+- [Android](https://source.android.com/setup/)
 
 ***
 

@@ -5,9 +5,11 @@ permalink: /documentation/iot/bpi96/
 
 # Using the BPi96
 
+<p><font color="red" size="5">NOTE: THE I/O VOLTAGE ON THIS BOARD IS 3.3V AND IT IS NOT COMPATIBLE WITH ANY 96BOARDS MEZZANINES OR PERIPHERALS NOT EXPLICITLY DESIGNED FOR 3.3V TOLERANCE.</font></p>
+
 A comprehensive guide to using the [BPi96](../bpi96/) IoT Edition board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
-## Software
+### Software
 
 - [Building for BPi96](build/)
    - In a few simple steps, learn how to build and flash your own applications to the BPi96.
@@ -16,7 +18,7 @@ A comprehensive guide to using the [BPi96](../bpi96/) IoT Edition board. This gu
 - [Downloads](downloads/)
    - This page contains prebuilt OS and Application files, simply download and flash to get started.
 
-## Documentation
+### Documentation
 
 - [Getting Started](getting-started/)
    - Learn about your BPi96 board, how to prepare and set up for basic use
