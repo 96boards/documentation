@@ -8,6 +8,16 @@ redirect_from: /documentation/consumer/dragonboard820c/build/linux-kernel.md.htm
 
 The following instructions can be used to build Linux Kernel from source for Dragonboard-820c.  Note this is cross-compiled on a host development system.   These instructions assume the host machine is Linux based.
 
+## Install Required Packages
+
+The following command installs packages which are required to build the
+kernel on Debian based systems:
+
+```shell
+$ sudo apt-get install git build-essential kernel-package fakeroot libncurses5-dev libssl-dev ccache
+```
+> Note: For other distributions, try installing the development packages needed to build a native kernel.
+
 ## Set up Toolchain Environment
 Create a working directory
 ```
