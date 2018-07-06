@@ -5,12 +5,12 @@ redirect_from: /documentation/consumer/dragonboard410c/build/kernel.md.html
 ---
 
 # Build & Update Linux kernel for Debian/OpenEmbedded
+  
+This page provides the instructions for building and deploying linux kernel
+on Dragonboard410c from x86 host machine.
 
-This page provides instructions for building Linux kernel on Dragonboard-410c
-for Debian/OpenEmbedded based systems.
-
-##### Prerequisites:
-- A Linux OS (debian, openembedded...) already running on the board (emmc).
+##### Prerequisites: 
+- A Linux OS (debian, openembedded...) already running on the Dragonboard410c (emmc).
 
 #### 1. Download GNU cross-toolchain binaries.
 You need to download the correct GCC toolchain depending your host/target architecture. Usually host is a standard Intel x86-64 computer, target is the Dragonboard which is AARCH64. <a href="https://www.linaro.org/downloads"> Linaro </a>  provides linux host binaries.
@@ -20,7 +20,18 @@ You need to download the correct GCC toolchain depending your host/target archit
        $ tar -xf gcc-*-x86_64_aarch64-linux-gnu.tar.xz -C ./toolchain --strip-components=1
 ```
 
-#### 2. Get Linux Kernel source
+#### 2. Install Required Packages
+
+The following command installs packages which are required to build the
+kernel on Debian based systems:
+
+```shell
+$ sudo apt-get install git build-essential kernel-package fakeroot libncurses5-dev libssl-dev ccache
+```
+
+> Note: For other distributions, try installing the development packages needed to build a native kernel.
+
+#### 3. Get Linux Kernel source
 
 - ##### Clone Qualcomm landing team linux repository
   ```shell
@@ -33,9 +44,9 @@ You need to download the correct GCC toolchain depending your host/target archit
     $ git checkout origin/release/qcomlt-4.14 -b my-custom-4.14
   ```
 
-  [optional] Customize kernel source/config or edit the device tree (arch/arm64/boot/dts/qcom/apq8016-sbc.dtsi).
+  [optional] Customize kernel source/config or edit the device tree (arch/arm64/boot/dts/qcom/apq8016-sbc.dtsi). 
 
-#### 3. Build Linux kernel
+#### 4. Build Linux kernel
 - ##### Set compilation environment variables
  ```shell
     $ export ARCH=arm64
@@ -54,7 +65,7 @@ You need to download the correct GCC toolchain depending your host/target archit
 Make command generates the **kernel** (arch/$(ARCH)/boot/Image.gz) itself (as a compressed image), the **kernel modules**(in-tree) and the **device-tree blob** (arch/$(ARCH)/boot/dts/qcom/apq8016-sbc.dtb).
 
 
-#### 4. Generate and flash new Dragonboard boot image (abootimg)
+#### 5. Generate and flash new Dragonboard boot image (abootimg)
 The kernel image and DTB file need to be packed into an Android boot image. Such image can be generated with abootimg tool.
 
 - ##### Install abootimg
@@ -69,7 +80,7 @@ The kernel image and DTB file need to be packed into an Android boot image. Such
 
   # abootimg requires a ramdisk, but we don't really use it, so create a dummy one:
   $ echo "not a ramdisk" > ramdisk.img
-
+  
   # finally, generate the boot image (here our rootfs is located an mmcblk0p10 partition)
   $ abootimg --create boot-db410c.img -k Image.gz+dtb -r ramdisk.img \
              -c pagesize=2048 -c kerneladdr=0x80008000 -c ramdiskaddr=0x81000000 \
@@ -82,7 +93,7 @@ The kernel image and DTB file need to be packed into an Android boot image. Such
   ```
 You should then be able on your kernel.
 
-#### 5. Install modules
+#### 6. Install modules
 
 Kernel modules typically live on rootfs in /lib/modules. These modules need to be aligned/compatible with the kernel version. If you updated the kernel you probably have a new release, therefore current modules will no be loaded. You can check loaded modules with **lsmod** command and your kernel release/version with **uname -r**.
 
@@ -95,3 +106,4 @@ Kernel modules typically live on rootfs in /lib/modules. These modules need to b
 All modules are installed in db410c-modules directory (e.g. db410c-modules/lib/modules/4.14.0-00132-ge3e0a10). You need to copy this directory to /lib/modules on dragonboard. You can perform this transfer either via USB key, SD Card or network.
 
 Your board is now updated with the new kernel, modules and DTB.
+
