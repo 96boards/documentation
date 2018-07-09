@@ -1,10 +1,7 @@
 ---
-title: Guides
+title: Guides Index
 permalink: /documentation/guides/
 ---
-
-# 96Boards Guides Index
-
 **The 96Boards guides index** is a one-stop-shop for all 96Boards guides found around this repository. The index is split into several discrete sections intended to seperate our board families while also going deeper to providing both generic guides (which span across each family) and board specific guides (which are limited to the chosen board).
 
 ###### Table of Contents

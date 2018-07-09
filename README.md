@@ -4,8 +4,6 @@ permalink: /documentation/
 redirect_from:
 - /documentation/README.md/
 ---
-# 96Boards Documentation
-
 Welcome to the official documentation for 96Boards, this documentation is written by the 96Boards team at Linaro with community contribution and links to third party material.
 
 ## Contents - Start Here
