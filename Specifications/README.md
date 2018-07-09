@@ -16,4 +16,4 @@ redirect_from:
 - TV Platform Specification ([View](/documentation/Specifications/96Boards-EE-TV-Platform-Specification.pdf) / [Download](https://linaro.co/tv-specification))
 - IoT Specification ([View](/documentation/Specifications/96Boards-IE-Specification.pdf) / [Download](https://linaro.co/ie-specification))
 - Camera Specification
-([View](/documentation/Specifications/96BoardsCESpecification-CameraModuleInterfaceAddendum.pdf) / [Download](https://linaro.co/camera-spec))
+([View](/documentation/Specifications/Addenda/96BoardsCESpecification-CameraModuleInterfaceAddendum.pdf) / [Download](https://linaro.co/camera-spec))
