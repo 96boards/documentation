@@ -10,7 +10,7 @@ Standardized expansion buses for peripheral I/O, display and cameras allow the h
 ecosystem to develop a range of compatible add-on products that will work on any 96Boards
 product over the lifetime of the platform.
 
-http://www.96boards.org
+[http://www.96boards.org](http://www.96boards.org)
 
 ***
 
@@ -21,7 +21,7 @@ and cables. It makes it easy to hook up any of the 100s of available Grove modul
 microprocessor system without a messy tangle of wires. Each module provides a single
 function, such as sensing temperature or driving an LCD.
 
-http://www.seeed.cc/grove
+[http://wiki.seeedstudio.com/Grove-RTC/](http://wiki.seeedstudio.com/Grove-RTC/)
 
 ***
 
@@ -32,7 +32,7 @@ including the HiKey from either CircuitCo or LeMaker, and the Qualcomm Dragonboa
 410c. The Sensors mezzanine has connections for up to 18 digital, analog and i2c Grove
 modules plus an on-board Arduino compatible microcontroller and shield connector.
 
-https://www.96boards.org/products/mezzanine/sensors-mezzanine/
+[https://www.96boards.org/products/mezzanine/sensors-mezzanine/](https://www.96boards.org/products/mezzanine/sensors-mezzanine/)
 
 ***
 
@@ -42,11 +42,11 @@ Linaro’s mission is to bring together industry and the open source community t
 key projects, deliver great tools, reduce industry wide fragmentation and redundant effort,
 and provide common software foundations for all.
 
-http://www.linaro.org
+[http://www.linaro.org](http://www.linaro.org)
 
 Updates may be made to this guide over time. You can download the most recent version of
 this document from the sample code repository on GitHub:
-https://github.com/96boards/Starter_Kit_for_96Boards
+[https://github.com/96boards/Starter_Kit_for_96Boards](https://github.com/96boards/Starter_Kit_for_96Boards)
 
 Copyright (c) 2016 by Linaro, Ltd. This document is released under a Creative Commons
 Attribution-ShareAlike 4.0 International License.
@@ -89,8 +89,8 @@ Attribution-ShareAlike 4.0 International License.
 
 This is the adapter for connecting Grove modules to a 96Boards baseboard. It provides 18 Grove connectors, an Arduino compatible shield socket, and an ATMEGA328P microcontroller.
 
-https://github.com/sdrobertw/documentation/blob/master/mezzanine/sensors-mezzanine/images/96Boards_Sensor_Mezzanine.png?raw=true
-
+[https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/96Boards_Sensor_Mezzanine.png?raw=true](https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/96Boards_Sensor_Mezzanine.png?raw=true)
+ 
 <img src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/96Boards_Sensor_Mezzanine.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/96Boards_Sensor_Mezzanine.png?raw=true" width="330" height="215" />
 
 ## Grove Button Module (3.3V/5V)
@@ -113,7 +113,7 @@ Outputs high when touching the sensor with finger, and low otherwise.
 An LED in Grove module form. Plug your favourite colour of LED into the
 socket, and it will glow brightly when the signal line is driven HIGH.
 
-<img src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Images/Grove_LED_Socket_Module.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Grove_LED_Socket_Module.png?raw=true" width="110" height="110" />
+<img src="https://raw.githubusercontent.com/96boards/documentation/master/mezzanine/sensors-mezzanine/images/Grove_LED_Socket_Module.png?raw=true" data-canonical-src="https://raw.githubusercontent.com/96boards/documentation/master/mezzanine/sensors-mezzanine/images/Grove_LED_Socket_Module.png?raw=true" width="110" height="110" />
 
 ## Grove Buzzer Module (5V only)
 
@@ -225,11 +225,11 @@ baseboard. You can find instructions for installing Debian in your baseboard’s
 
 Installing Debian on the CircuitCo or LeMaker HiKey:
 
-https://www.96boards.org/documentation/consumer/hiKey/installation/
+[https://www.96boards.org/documentation/consumer/hikey/installation/](https://www.96boards.org/documentation/consumer/hikey/installation/)
 
 Qualcomm Dragonboard 410C User Guide:
 
-https://www.96boards.org/documentation/consumer/dragonboard410c/installation/
+[https://www.96boards.org/documentation/consumer/dragonboard410c/installation/](https://www.96boards.org/documentation/consumer/dragonboard410c/installation/)
 
 ## Step 2: Attach Sensors Adapter
 
@@ -452,7 +452,7 @@ using Python or Java.
 
 Connect the Groce RGB LCD to either of the I2C0 Grove connectors
 
-<img src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Example_RGB_LCD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Example_RGB_LCD.png?raw=true" />
+<img src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Example_RGB_LCD.png?raw=true" class="img-responsive" data-canonical-src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Example_RGB_LCD.png?raw=true" />
 
 ## Step 2: Write the Software
 
@@ -547,7 +547,7 @@ off.
 - Attach the relay to G2
 - Attach the touch sensor to G3
 
-<img src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Example_Touch_Relay.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Example_Touch_Relay.png?raw=true" />
+<img src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Example_Touch_Relay.png?raw=true" class="img-responsive" data-canonical-src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Example_Touch_Relay.png?raw=true" />
 
 ## Step 2: Write the Code
 
@@ -766,7 +766,7 @@ and humidity readings on the LCD display.
 - Attach the RGB LCD to I2C0
 - Attach the temperature and humidity sensor to A0.
 
-<img src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Example_Temperature_Humidity_LCD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Example_Temperature_Humidity_LCD.png?raw=true" />
+<img src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Example_Temperature_Humidity_LCD.png?raw=true" class="img-responsive" data-canonical-src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Example_Temperature_Humidity_LCD.png?raw=true" />
 
 ## Step 2: Write the Code
 
@@ -901,7 +901,7 @@ the “Tweepy” package:
 - Connect the Buzzer module to D5
 - Connect the RGB LCD to I2C0
 
-<img src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Example_Tweeting_Doorbell.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Example_Tweeting_Doorbell.png?raw=true" />
+<img src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Example_Tweeting_Doorbell.png?raw=true" class="img-responsive" data-canonical-src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/Example_Tweeting_Doorbell.png?raw=true" />
 
 ## Step 2: Write the Code
 
@@ -1020,7 +1020,7 @@ And to exit, use CTRL + C
 The UART adapter board is an entirely Open Hardware, designed using KiCad, and with all
 of the design files provided under a BSD license. The files can be found on GitHub:
 
-https://github.com/96boards/96boards-sensors
+[https://github.com/96boards/96boards-sensors](https://github.com/96boards/96boards-sensors)
 
 ## More Example Core
 
@@ -1028,7 +1028,7 @@ There are many of examples of how to interface with sensors in the UPM package. 
 the examples/ subdirectory of the UPM repository for examples written in C++, Java,
 Javascript and Python.
 
-https://github.com/intel-iot-devkit/upm
+[https://github.com/intel-iot-devkit/upm](https://github.com/intel-iot-devkit/upm)
 
 ## Example from other Kits
 
@@ -1037,16 +1037,16 @@ changes to get to work with the 96Boards Sensors Mezzanine. They are included he
 reference.
 
 **Seeed Studio Grove Starter Kit for Arduino**
-http://www.seeedstudio.com/wiki/Grove_-_Starter_Kit_v3
+[http://wiki.seeedstudio.com/Grove_Starter_Kit_v3/](http://wiki.seeedstudio.com/Grove_Starter_Kit_v3/)
 
 Just about all of the examples in Seeed Studio’s Arduino starter kit will work with the
 96Boards Sensor board. You can get the sketch demos from:
 
-https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_for_Arduino
+[https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_for_Arduino](https://github.com/Seeed-Studio/Sketchbook_Starter_Kit_for_Arduino)
 
 **Dexter Industries GrovePi+ Starter Kit**
 
-http://www.dexterindustries.com/grovepi
+[http://www.dexterindustries.com/grovepi](http://www.dexterindustries.com/grovepi)
 
 The GrovePi+ kit demonstrates how to use the I2C bus to communicate between the
 baseboard and the ATMEGA microcontroller. Many of the examples in the GrovePi+ kit will
@@ -1060,7 +1060,7 @@ between the ATMEGA and the baseboard.
 
 You can download the GrovePi+ example software from github:
 
-http://github.com/Dexterlnd/GrovePi
+[https://github.com/DexterInd/GrovePi](https://github.com/DexterInd/GrovePi)
 
 [Back to top](#table-of-contents)
 

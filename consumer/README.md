@@ -25,6 +25,7 @@ Select your Consumer Edition 96Boards device to access all product specific reso
 |:------------------------------------------------:|:------------------------------------------------------:|:--------------------------:|
 | <img src="https://i.imgur.com/tBDv5aG.jpg" data-canonical-src="https://i.imgur.com/tBDv5aG.jpg" width="426" height="240" /><br> **HiKey Family** | HiKey<br> HiKey960<br> HiKey970 | [Documentation](hikey-family/)<br> |
 | <img src="https://i.imgur.com/Uebk1I7.jpg" data-canonical-src="https://i.imgur.com/Uebk1I7.jpg" width="426" height="240" /><br> **DragonBoard Family** | DragonBoard410c<br> DragonBoard820c  | [Documentation](dragonboard-family/)<br> |
+
 </div>
 
 
