@@ -21,7 +21,7 @@ and cables. It makes it easy to hook up any of the 100s of available Grove modul
 microprocessor system without a messy tangle of wires. Each module provides a single
 function, such as sensing temperature or driving an LCD.
 
-[http://www.seeed.cc/grove](http://www.seeed.cc/grove)
+[http://wiki.seeedstudio.com/Grove-RTC/](http://wiki.seeedstudio.com/Grove-RTC/)
 
 ***
 
@@ -225,7 +225,7 @@ baseboard. You can find instructions for installing Debian in your baseboard’s
 
 Installing Debian on the CircuitCo or LeMaker HiKey:
 
-[https://www.96boards.org/documentation/consumer/hiKey/installation/](https://www.96boards.org/documentation/consumer/hiKey/installation/)
+[https://www.96boards.org/documentation/consumer/hikey/installation/](https://www.96boards.org/documentation/consumer/hikey/installation/)
 
 Qualcomm Dragonboard 410C User Guide:
 
@@ -1037,7 +1037,7 @@ changes to get to work with the 96Boards Sensors Mezzanine. They are included he
 reference.
 
 **Seeed Studio Grove Starter Kit for Arduino**
-[http://www.seeedstudio.com/wiki/Grove_-_Starter_Kit_v3](http://www.seeedstudio.com/wiki/Grove_-_Starter_Kit_v3)
+[http://wiki.seeedstudio.com/Grove_Starter_Kit_v3/](http://wiki.seeedstudio.com/Grove_Starter_Kit_v3/)
 
 Just about all of the examples in Seeed Studio’s Arduino starter kit will work with the
 96Boards Sensor board. You can get the sketch demos from:
@@ -1060,7 +1060,7 @@ between the ATMEGA and the baseboard.
 
 You can download the GrovePi+ example software from github:
 
-[http://github.com/Dexterlnd/GrovePi](http://github.com/Dexterlnd/GrovePi)
+[https://github.com/DexterInd/GrovePi](https://github.com/DexterInd/GrovePi)
 
 [Back to top](#table-of-contents)
 
