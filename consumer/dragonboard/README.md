@@ -17,7 +17,7 @@ Select your Consumer Edition DragonBoard 96Boards device to access all product s
 
 | 96Boards                                         | About                                                  | Options                    |
 |:------------------------------------------------:|:------------------------------------------------------:|:--------------------------:|
-| <img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-front-sd.png?raw=true" width="220" height="200" /><br> **DragonBoard 820c** | Board based on Qualcomm® Snapdragon™ 820E processor  | [Documentation](dragonboard820c/)<br> |
+| <img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-front-sd.png?raw=true" width="220" height="200" /><br> **DragonBoard 820c** | Board based on Qualcomm® Snapdragon™ 820E processor  | [Documentation](dragonboard820c/)<br> |
 | <img src="https://i.imgur.com/4a5GXRd.png" data-canonical-src="https://i.imgur.com/4a5GXRd.png" width="200" height="130" /><br> **DragonBoard 410c** | Board based on Qualcomm® Snapdragon™ 410E processor  | [Documentation](dragonboard410c/)<br>|
 
 </div>
