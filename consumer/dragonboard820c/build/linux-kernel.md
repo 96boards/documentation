@@ -57,7 +57,7 @@ $ git checkout integration-linux-qcomlt
 Some things to keep in mind when checking out the kernel source from a specific previous build:
  1) As noted earlier, check the Snapdragon 820 project ci dashboard [**here**](https://ci.linaro.org/job/lt-qcom-debian-images-dragonboard820c "820c CI") to verify that the source branch you're checking out built successfully.
  2) To see the snapshot build history, click [**here**](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/debian/ "Build history")
- 3) The branch to checkout for a kernel from a specific build is the kernel package version commit id that can be found on the details page for a build that includes the Build Description and the pre-builts for that build.  For example, the Build Description for Build 182 can be seen [**here**](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/debian/182/ "182 Details")
+ 3) The branch to checkout for a kernel from a specific build is the kernel package version commit id that can be found on the details page for a build that includes the Build Description and the pre-builts for that build.  For example, the Build Description for Build 182 can be seen [**here**](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/debian/ "182 Details")
 ```
 $ git checkout <commit ID>
 ```
