@@ -1,7 +1,6 @@
 ---
 title: Hardware Revision for ROCK960
-permalink: /documentation/consumer/rock/rock960/hardware-docs/hardware-revision.md.html
-redirect_from: /documentation/consumer/rock960/hardware-docs/hardware-revision.md.html
+permalink: /documentation/consumer/rock/rock960c/hardware-docs/hardware-revision.md.html
 ---
 
 # Hardware Revision

@@ -1,7 +1,6 @@
 ---
-title: Basic Kit  for ROCK960
-permalink: /documentation/consumer/rock/rock960/getting-started/
-redirect_from: /documentation/consumer/rock960/getting-started/
+title: Basic Kit  for ROCK960c
+permalink: /documentation/consumer/rock/rock960c/getting-started/
 ---
 
 # Getting Started

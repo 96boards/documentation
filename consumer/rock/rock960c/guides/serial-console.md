@@ -1,7 +1,6 @@
 ---
 title: Serial Console
-permalink: /documentation/consumer/rock/rock960/guides/serial-console.md.html
-redirect_from: /documentation/consumer/rock960/guides/serial-console.md.html
+permalink: /documentation/consumer/rock/rock960c/guides/serial-console.md.html
 ---
 
 ROCK960 exports a dedicated serial console, which can access the low level debug message.

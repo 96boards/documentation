@@ -1,7 +1,6 @@
 ---
 title: Installation for ROCK960
-permalink: /documentation/consumer/rock/rock960/installation/
-redirect_from: /documentation/consumer/rock960/installation/
+permalink: /documentation/consumer/rock/rock960c/installation/
 ---
 
 # Installation

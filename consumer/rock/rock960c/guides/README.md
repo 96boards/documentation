@@ -1,7 +1,6 @@
 ---
 title: Useful Guides for ROCK960
-permalink: /documentation/consumer/rock/rock960/guides/
-redirect_from: /documentation/consumer/rock960/guides/
+permalink: /documentation/consumer/rock/rock960c/guides/
 ---
 
 # Useful Guides

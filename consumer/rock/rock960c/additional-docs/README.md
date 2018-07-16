@@ -1,7 +1,6 @@
 ---
-title: Additional Docs for ROCK960
-permalink: /documentation/consumer/rock/rock960/additional-docs/
-redirect_from: /documentation/consumer/rock960/additional-docs/
+title: Additional Docs for ROCK960c
+permalink: /documentation/consumer/rock/rock960c/additional-docs/
 ---
 
 # Board Images
