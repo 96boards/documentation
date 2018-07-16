@@ -1,7 +1,6 @@
 ---
 title: Linux Host Installation for ROCK960
-permalink: /documentation/consumer/rock/rock960/installation/windows-sd.md.html
-redirect_from: /documentation/consumer/rock960/installation/windows-sd.md.html
+permalink: /documentation/consumer/rock/rock960c/installation/windows-sd.md.html
 ---
 
 ## Windows Host

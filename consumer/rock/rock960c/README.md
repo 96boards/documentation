@@ -1,7 +1,6 @@
 ---
-title: Using the ROCK960
-permalink: /documentation/consumer/rock/rock960/
-redirect_from: /documentation/consumer/rock960/
+title: Using the ROCK960c
+permalink: /documentation/consumer/rock/rock960c/
 ---
 
 # Using the ROCK960
