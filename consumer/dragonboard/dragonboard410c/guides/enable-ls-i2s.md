@@ -138,7 +138,7 @@ index 704428735e3c..6da13cc573f2 100644
 ## 3) Building and Flashing the kernel
 
 After applying the above diff, build and flash the kernel on to Dragonboard410c
-using the instructions specified [here](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/build/kernel.md#3-build-linux-kernel).
+using the instructions specified [here](https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/build/kernel.md#3-build-linux-kernel).
 
 ## 4) Testing LS I2S Output
 

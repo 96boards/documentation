@@ -86,19 +86,19 @@ redirect_from:
 - [Special care when using USB](#special-care-when-using-usb)
 - [Statements regarding FCC](#statements-regarding-fcc)
 
-[Click Here](https://github.com/96boards/documentation/tree/master/consumer/dragonboard410c/additional-docs/images) for access to raw images used in this doc.
+[Click Here](https://github.com/96boards/documentation/tree/master/consumer/dragonboard/dragonboard410c/additional-docs/images) for access to raw images used in this doc.
 
 ***
 
-https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/DragonBoard410c-Front-SD.jpg?raw=true
+https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-board/DragonBoard410c-Front-SD.jpg?raw=true
 
 ## Introduction
 
 The DragonBoard 410c (‘410c’) board is a 96Boards compliant community board based on Qualcomm® Snapdragon 400 series of SoC’s.
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-front-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-front-sd.jpg?raw=true" width="250" height="160" />
-<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-angle-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-angle-sd.jpg?raw=true" width="250" height="160" />
-<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-back-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-back-sd.jpg?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-front-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-front-sd.jpg?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-angle-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-angle-sd.jpg?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-back-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-board/sd/dragonboard410c-back-sd.jpg?raw=true" width="250" height="160" />
 
 The following table lists it's key features:
 
@@ -162,8 +162,8 @@ The following table lists it's key features:
 
 The box contains one DragonBoard 410c and a quick start guide.
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxBoard.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxBoard.png?raw=true" width="400" height="270" />
-<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxPamplet.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxPamplet.png?raw=true" width="450" height="250" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxBoard.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxBoard.png?raw=true" width="400" height="270" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxPamplet.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-hw-user-manual/BoxPamplet.png?raw=true" width="450" height="250" />
 
 
 
@@ -194,8 +194,8 @@ The box contains one DragonBoard 410c and a quick start guide.
 |    18    |           |  GPS Antenna                                              |
 |    19    |  S6       |  (S6) Boot Switches                                       |
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Front.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Front.png?raw=true" width="400" height="270" />
-<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Back.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Back.png?raw=true" width="400" height="270" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Front.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Front.png?raw=true" width="400" height="270" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Back.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-hw-user-manual/DB410c_Numbered_Back.png?raw=true" width="400" height="270" />
 
 
 
@@ -203,7 +203,7 @@ The box contains one DragonBoard 410c and a quick start guide.
 
 ## System Block Diagram
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BlockDiagram.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BlockDiagram.png?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-hw-user-manual/BlockDiagram.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-hw-user-manual/BlockDiagram.png?raw=true" width="750" height="480" />
 
 
 ***
@@ -305,7 +305,7 @@ The 410c implements two camera interfaces, one with a four-lane MIPI_CSI interfa
 
 ### USB Ports
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/USBPorts.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/USBPorts.png?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-hw-user-manual/USBPorts.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-hw-user-manual/USBPorts.png?raw=true" width="750" height="480" />
 
 ### USB Host ports
 
@@ -391,7 +391,7 @@ switched need to be set to the ‘off’ position.
 - **Switch 3, ‘USB HOST’**, is described in section 5.8. This switch in not part of the boot configuration.
 - **Switch 4, ‘HDMI SEL’**, is described in section 5.6.1. This switch is not part of the boot configuration.
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BootConfiguration.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/BootConfiguration.png?raw=true" width="200" height="125" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-hw-user-manual/BootConfiguration.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-hw-user-manual/BootConfiguration.png?raw=true" width="200" height="125" />
 
 ### LED Indicators
 
@@ -725,7 +725,7 @@ connectivity technologies device:
 
 ### Block Diagram
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/PowerManagement.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/PowerManagement.png?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-hw-user-manual/PowerManagement.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-hw-user-manual/PowerManagement.png?raw=true" width="750" height="480" />
 
 ### DC Power Input
 
@@ -802,7 +802,7 @@ rail:
 
 ### 2D Reference Drawing
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/2DDrawing.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/additional-docs/images/images-hw-user-manual/2DDrawing.png?raw=true" width="750" height="800" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-hw-user-manual/2DDrawing.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/additional-docs/images/images-hw-user-manual/2DDrawing.png?raw=true" width="750" height="800" />
 
 
 ***

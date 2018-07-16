@@ -23,7 +23,7 @@ relatively recent Linux distribution on your development host, it probably alrea
 the `fastboot` utility (it might be named something like `android-tools` or `android-tools-fastboot`) so go ahead and
 install it on your development host.
 
-eMMC partiton in Hikey can be updated using the downloaded bootloader binaries by following the instructions [here](https://github.com/96boards/documentation/blob/master/consumer/hikey/installation/board-recovery.md#installing-a-bootloader)
+eMMC partiton in Hikey can be updated using the downloaded bootloader binaries by following the instructions [here](https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey620/installation/board-recovery.md#installing-a-bootloader)
 
 At this point your eMMC has the following partition layout:
 

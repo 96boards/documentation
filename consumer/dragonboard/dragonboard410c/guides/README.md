@@ -14,7 +14,7 @@ These guides will help to get you started with a variety of available on-boards 
 
 ## Debian
 
-Linux User Guide ([View](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/guides/LinuxUserGuide_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/consumer/dragonboard410c/guides/LinuxUserGuide_DragonBoard.pdf)) | This guide hosts a variety of basic setup instructions sets. From getting your board booted up for the fir
+Linux User Guide ([View](https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/guides/LinuxUserGuide_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/consumer/dragonboard/dragonboard410c/guides/LinuxUserGuide_DragonBoard.pdf)) | This guide hosts a variety of basic setup instructions sets. From getting your board booted up for the fir
 st time to swapping out your OS
 
 | Guide                                                               | Descripion                                                                                                                 |
@@ -38,7 +38,7 @@ st time to swapping out your OS
 
 ## Android
 
-- Android User Guide ([View](https://github.com/96boards/documentation/blob/master/consumer/dragonboard410c/guides/AndroidUserGuide_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/consumer/dragonboard410c/guides/AndroidUserGuide_DragonBoard.pdf))
+- Android User Guide ([View](https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/guides/AndroidUserGuide_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/consumer/dragonboard/dragonboard410c/guides/AndroidUserGuide_DragonBoard.pdf))
 
 | Guide                                                          | Descripion                                                                                                                 |
 |:--------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------|
