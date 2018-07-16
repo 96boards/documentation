@@ -30,12 +30,12 @@ permalink: /documentation/guides/
   - [AOSP Index](../consumer/guides/aosp-index.md)
   - [Open Embedded](../consumer/guides/open_embedded.md)
 - **Board Specific Guides**
-  - [DragonBoard 410c](../consumer/dragonboard410c/guides/README.md)
-  - [DragonBoard 820c](../consumer/dragonboard410c/guides/README.md)
-  - [HiKey](../consumer/hikey/guides/README.md)                        
+  - [DragonBoard 410c](../consumer/dragonboard/dragonboard410c/guides/README.md)
+  - [DragonBoard 820c](../consumer/dragonboard/dragonboard410c/guides/README.md)
+  - [HiKey](../consumer/hikey/hikey620/guides/README.md)                        
   - [Chameleon96](../consumer/chameleon96/guides/README.md)            
   - [IMX7-96](../consumer/imx7-96/guides/README.md)                    
-  - [ROCK960](../consumer/rock960/guides/README.md)  
+  - [ROCK960](../consumer/rock/rock960/guides/README.md)  
 
 ***
 

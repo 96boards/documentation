@@ -79,9 +79,9 @@ All required dependencies should now be installed on your host environment, you 
 Before building the OE images, it is important to set up partition layout and flash the bootloader. Follow the below guides to setup
 eMMC partitions and update Bootloader for the corresponding boards:
 
-1. [Dragonboard410c](../dragonboard410c/build/open-embedded.md#updating-emmc-partitions-and-bootloader)
-2. [Dragonboard820c](../dragonboard820c/build/open-embedded.md#updating-ufs-partitions-and-bootloader)
-2. [Hikey](../hikey/build/open-embedded.md#updating-emmc-partitions-and-bootloader)
+1. [Dragonboard410c](../dragonboard/dragonboard410c/build/open-embedded.md#updating-emmc-partitions-and-bootloader)
+2. [Dragonboard820c](../dragonboard/dragonboard820c/build/open-embedded.md#updating-ufs-partitions-and-bootloader)
+2. [Hikey](../hikey/hikey620/build/open-embedded.md#updating-emmc-partitions-and-bootloader)
 
 # Setup the build environment
 
@@ -149,9 +149,9 @@ use to update your board are:
 
 ### Flashing build artifacts:
 
-1. [Dragonboard410c](../dragonboard410c/build/open-embedded.md#flashing-build-artifacts)
-2. [Dragonboard820c](../dragonboard820c/build/open-embedded.md#flashing-build-artifacts)
-3. [Hikey](../hikey/build/open-embedded.md#flashing-build-artifacts)
+1. [Dragonboard410c](../dragonboard/dragonboard410c/build/open-embedded.md#flashing-build-artifacts)
+2. [Dragonboard820c](../dragonboard/dragonboard820c/build/open-embedded.md#flashing-build-artifacts)
+3. [Hikey](../hikey/hikey620/build/open-embedded.md#flashing-build-artifacts)
 
 # Build a simple X11 image
 
@@ -165,9 +165,9 @@ as `rpb-desktop-image-MACHINE.ext4`.
 
 ### Flashing build artifacts:
 
-1. [Dragonboard410c](../dragonboard410c/build/open-embedded.md#flashing-build-artifacts)
-2. [Dragonboard820c](../dragonboard820c/build/open-embedded.md#flashing-build-artifacts)
-3. [Hikey](../hikey/build/open-embedded.md#flashing-build-artifacts)
+1. [Dragonboard410c](../dragonboard/dragonboard410c/build/open-embedded.md#flashing-build-artifacts)
+2. [Dragonboard820c](../dragonboard/dragonboard820c/build/open-embedded.md#flashing-build-artifacts)
+3. [Hikey](../hikey/hikey620/build/open-embedded.md#flashing-build-artifacts)
 
 Then, you can finally start the X server and run any graphical application:
 
@@ -211,9 +211,9 @@ Once built, the image will be available at `tmp-rpb-glibc/deploy/images/MACHINE/
 
 ### Flashing build artifacts:
 
-1. [Dragonboard410c](../dragonboard410c/build/open-embedded.md#flashing-build-artifacts)
-2. [Dragonboard820c](../dragonboard820c/build/open-embedded.md#flashing-build-artifacts)
-3. [Hikey](../hikey/build/open-embedded.md#flashing-build-artifacts)
+1. [Dragonboard410c](../dragonboard/dragonboard410c/build/open-embedded.md#flashing-build-artifacts)
+2. [Dragonboard820c](../dragonboard/dragonboard820c/build/open-embedded.md#flashing-build-artifacts)
+3. [Hikey](../hikey/hikey620/build/open-embedded.md#flashing-build-artifacts)
 
 If you boot this image on the board, you should get a command prompt on the HDMI monitor. A user called `linaro` exists
 (and has no password). Once logged in a VT, you run start weston with:
