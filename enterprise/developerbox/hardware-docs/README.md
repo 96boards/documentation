@@ -8,7 +8,7 @@ Explore what makes your Developerbox unique, technical specifications, schematic
 
 ## User Guides
 
-- [Kit Assembly Instructions](MN04-00002-2E.pdf)
+- [Kit Assembly Instructions](MN04-00002-3E.pdf)
 
 ## Hardware
 
