@@ -74,16 +74,22 @@ SPI using SPIDEV module with the help of `spidev_test` utility.
 ```shell
 $ wget https://raw.githubusercontent.com/torvalds/linux/master/tools/spi/spidev_test.c
 $ gcc -o spidev_test spidev_test.c
-$ sudo ./spidev_test -CHO -D /dev/spidev0.0  0xaa,0xbb,0xcc,0,0,0,0,0
- AA BB CC 00 00 00 00 00
- 00 00 00 00 00 00 00 00
+$ sudo ./spidev_test -CHOv -D /dev/spidev0.0
+spi mode: 0x7
+bits per word: 8
+max speed: 500000 Hz (500 KHz)
+TX | FF FF FF FF FF FF 40 00 00 00 00 95 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF F0 0D  | ......@....�..................�.
+RX | FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  | ................................
 ```
 
 Since, SPI driver in Dragonboard410c supports Loopback functionality, we can
 test that too without any hardware connections.
 
 ```shell
-$ sudo ./spidev_test -CHO -D /dev/spidev0.0  0xaa,0xbb,0xcc,0,0,0,0,0 --loop
- AA BB CC 00 00 00 00 00
- AA BB CC 00 00 00 00 00
+$ sudo ./spidev_test -CHOv -D /dev/spidev0.0 -loop
+spi mode: 0x27
+bits per word: 8
+max speed: 500000 Hz (500 KHz)
+TX | FF FF FF FF FF FF 40 00 00 00 00 95 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF F0 0D  | ......@....�..................�.
+RX | FF FF FF FF FF FF 40 00 00 00 00 95 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF F0 0D  | ......@....�..................�.
 ```
