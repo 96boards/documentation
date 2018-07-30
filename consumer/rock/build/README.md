@@ -6,8 +6,6 @@ redirect_from: /documentation/consumer/rock960/build/
 
 # Build from Source
 
-Page under construction...
-
 ## Contents
 
 - [Android](aosp.md)

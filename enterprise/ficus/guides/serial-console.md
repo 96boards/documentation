@@ -1,6 +1,6 @@
 ---
 title: Serial Console
-permalink: /documentation/consumer/enterprise/ficus/guides/serial-console.md.html
+permalink: /documentation/enterprise/ficus/guides/serial-console.md.html
 ---
 
 ROCK960 exports a dedicated serial console, which can access the low level debug message.

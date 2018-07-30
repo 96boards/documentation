@@ -1,7 +1,6 @@
 ---
 title: Hardware Documentation for ROCK960
-permalink: /documentation/consumer/rock/rock960/hardware-docs/
-redirect_from: /documentation/consumer/rock960/hardware-docs/
+permalink: /documentation/enterprise/ficus/hardware-docs/
 ---
 
 # Hardware Documentation

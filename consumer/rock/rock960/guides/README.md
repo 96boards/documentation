@@ -8,9 +8,8 @@ redirect_from: /documentation/consumer/rock960/guides/
 
 These guides will help to get you started with a variety of available on-boards software
 
-## Useful guide
+- [Common guides for Rock boards](../../guides)
 
-* [how to connect serial console](serial-console.md)
+# ROCK960 Specific Guides
 
-
-## Android development tips
+Coming Soon...

@@ -1,6 +1,6 @@
 ---
 title: Useful Guides for ROCK960
-permalink: /documentation/enterprise/ficus/rock960/guides/
+permalink: /documentation/enterprise/ficus/guides/
 ---
 
 # Useful Guides

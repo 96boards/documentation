@@ -1,7 +1,6 @@
 ---
 title: Installation for ROCK960
-permalink: /documentation/consumer/rock/installation/
-redirect_from: /documentation/consumer/rock960/installation/
+permalink: /documentation/enterprise/ficus/installation/
 ---
 
 # Installation

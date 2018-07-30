@@ -7,9 +7,8 @@ permalink: /documentation/consumer/rock/rock960c/guides/
 
 These guides will help to get you started with a variety of available on-boards software
 
-## Useful guide
+- [Common guides for Rock boards](../../guides)
 
-* [how to connect serial console](serial-console.md)
+# ROCK960c Specific Guides
 
-
-## Android development tips
+Coming Soon...

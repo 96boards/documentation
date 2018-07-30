@@ -1,7 +1,6 @@
 ---
 title: Hardware User Manual for ROCK960
-permalink: /documentation/consumer/rock/rock960/hardware-docs/hardware-user-manual.md.html
-redirect_from: /documentation/consumer/rock960/hardware-docs/hardware-user-manual.md.html
+permalink: /documentation/enterprise/ficus/hardware-docs/hardware-user-manual.md.html
 ---
 
 # ROCK960 Development Board User Manual
