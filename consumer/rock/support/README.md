@@ -1,6 +1,6 @@
 ---
 title: Support for ROCK960
-permalink: /documentation/consumer/rock/rock960/support/
+permalink: /documentation/consumer/rock/support/
 redirect_from:  /documentation/consumer/rock960/support/
 
 ---

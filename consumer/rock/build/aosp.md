@@ -1,6 +1,6 @@
 ---
 title: Build AOSP for ROCK960
-permalink: /documentation/consumer/rock/rock960/build/aosp.md.html
+permalink: /documentation/consumer/rock/build/aosp.md.html
 redirect_from: /documentation/consumer/rock960/build/aosp.md.html
 ---
 
