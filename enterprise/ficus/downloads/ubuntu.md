@@ -1,7 +1,6 @@
 ---
 title: Ubuntu Downloads for ROCK960
-permalink: /documentation/consumer/rock/downloads/ubuntu.md.html
-redirect_from:  /documentation/consumer/rock960/downloads/ubuntu.md.html
+permalink: /documentation/enterprise/ficus/downloads/ubuntu.md.html
 ---
 
 # Ubuntu

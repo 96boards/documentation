@@ -1,6 +1,6 @@
 ---
 title: Using the Ficus
-permalink: /documentation/enterprise/ficus
+permalink: /documentation/enterprise/ficus/
 ---
 
 # Using the Ficus

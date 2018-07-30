@@ -1,6 +1,6 @@
 ---
 title: Basic Kit  for Ficus
-permalink: /documentation/enterprise/ficus/rock960/getting-started/
+permalink: /documentation/enterprise/ficus/getting-started/
 ---
 
 # Getting Started

@@ -1,6 +1,6 @@
 ---
 title: Hardware Revision for Ficus
-permalink: /documentation/consumer/enterprise/ficus/hardware-docs/hardware-revision.md.html
+permalink: /documentation/enterprise/ficus/hardware-docs/hardware-revision.md.html
 ---
 
 # Hardware Revision
