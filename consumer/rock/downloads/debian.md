@@ -1,6 +1,7 @@
 ---
-title: Debian Downloads for ROCK960c
-permalink: /documentation/consumer/rock/rock960c/downloads/debian.md.html
+title: Debian Downloads for ROCK960
+permalink: /documentation/consumer/rock/downloads/debian.md.html
+redirect_from: /documentation/consumer/rock960/downloads/debian.md.html
 ---
 
 # Debian

@@ -1,6 +1,6 @@
 ---
 title: Build Source for ROCK960
-permalink: /documentation/consumer/rock/rock960/build/
+permalink: /documentation/consumer/rock/build/
 redirect_from: /documentation/consumer/rock960/build/
 ---
 
@@ -10,6 +10,4 @@ Page under construction...
 
 ## Contents
 
-- [Debian]()
-- [OpenEmbedded]()
 - [Android](aosp.md)

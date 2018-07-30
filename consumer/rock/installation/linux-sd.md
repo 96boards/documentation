@@ -1,6 +1,7 @@
 ---
 title: Linux Host Installation for ROCK960
-permalink: /documentation/consumer/rock/rock960c/installation/linux-sd.md.html
+permalink: /documentation/consumer/rock/installation/linux-sd.md.html
+redirect_from: /documentation/consumer/rock960/installation/linux-sd.md.html
 ---
 
 ## Linux Host
