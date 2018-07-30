@@ -7,7 +7,7 @@ redirect_from:  /documentation/consumer/rock960/support/
 
 # Troubleshooting
 
-Please take advantage of the many ROCK960 resources available to you through 96Boards, Rockchip and Vamrs.
+Please take advantage of the many ROCK960/ROCK960c resources available to you through 96Boards, Rockchip and Vamrs.
 
 - [96Boards ROCK960 Forum](https://discuss.96boards.org/c/products/rock960)
    - The ROCK960 has its very own 96Boards forum. If you can't find a pre-existing thread that addresses your issue, start your own and let the community help out!
