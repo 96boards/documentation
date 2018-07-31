@@ -21,5 +21,6 @@ Coming soon...
 Other operating systems supported on HiKey970, offered by partners.
 
 - [AOSP](aosp.md)
-
+- [LeMaker Ubuntu (Lebuntu)](http://www.lemaker.org/product-hikey970-download-84.html)
+- [LeMaker Debian (Lebian)](http://www.lemaker.org/product-hikey970-download-85.html)
 ***

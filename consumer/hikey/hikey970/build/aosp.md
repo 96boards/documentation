@@ -1,7 +1,7 @@
 ---
 title: Build AOSP on HiKey970
-permalink: /documentation/consumer/hikey/hikey970/build/linux-kernel.md.html
-redirect_from: /documentation/consumer/hikey970/build/linux-kernel.md.html
+permalink: /documentation/consumer/hikey/hikey970/build/aosp.md.html
+redirect_from: /documentation/consumer/hikey970/build/aosp.md.html
 ---
 
 # Build AOSP for HiKey970
