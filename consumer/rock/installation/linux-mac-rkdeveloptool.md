@@ -76,6 +76,7 @@ Extract the image tar ball, for SD card/eMMC AIO image, the file list as below:
 - power on rock960
 - plug the rock960 to Linux desktop with USB type A to type C cable
 - press and hold the maskrom key, then short press reset key
+- release mask rom key(important!)
 
 On the host PC, `lsusb` should show the following VID/PID if the board is in maskrom mode: `Bus 003 Device 061: ID 2207:0011`
 
@@ -102,3 +103,21 @@ This will take a while, after it finishes, run
     rkdeveloptool rd
 
 Now you reboot to the new image on eMMC.
+
+-------------------------------------------------
+
+## Troubleshooting
+
+### "Creating Comm Object failed!"
+
+After run any command of rkdeveloptool, it keeps complaining
+
+    "Creating Comm Object failed!"
+
+It's permission issue, you can run the following command to set the udev rule:
+
+    echo 'SUBSYSTEM=="usb", ATTR{idVendor}=="2207", MODE="0666",GROUP="plugdev"' | sudo tee /etc/udev/rules.d/51-android.rules
+
+Or use `sudo` before rkdeveloptool command
+
+If this doesn't fix the problem, it might be a USB3 power/signal issue, if you are using a USB3 hub, please directly connect to the USB3 port of the mother board at the back, not the front panel USB3 port.
