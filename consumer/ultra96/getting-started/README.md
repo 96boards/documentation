@@ -13,7 +13,7 @@ Learn about your Ultra96 board as well as how to prepare and set up for basic us
 
 - [Ultra96](https://www.96boards.org/product/ultra96/)
    - Board based on Xilinx Zynq UltraScale+ MPSoC ZU3EG A484, includes microSD card
-- [Power adapter] (http://avnet.me/96BoardPower)
+- [Power adapter](http://avnet.me/96BoardPower)
    - 12V @ 2A AC/DC converter compatible with the 96Boards specification
 
 **Optional**
