@@ -29,7 +29,7 @@ Once the connector is soldered on it should look something like this
 OpenOCD supports many different JTAG interface. The list of devices known to work with the HiKey board includes:
 
  * [Bus Blaster v3 from Dangerous Prototypes](http://dangerousprototypes.com/docs/Bus_Blaster). Set `INTERFACE=interface/ftdi/dp_busblaster_kt-link.cfg` for this adapter. Before connecting the BBv3 to the HiKey ensure the interface is not configured to provide power to the target (JP4, the target power select jumper, **must** be disconnected) otherwise the HiKey could be damaged. The BBv3 buffer logic must be programmed with SVF from https://github.com/bharrisau/busblaster .
- * [Flyswatter2 from Tin Can Tools](http://www.tincantools.com/JTAG/Flyswatter2.html). Set `INTERFACE=interface/ftdi/flyswatter2.cfg` for this adapter.
+ * [Flyswatter2 from Tin Can Tools](https://www.tincantools.com/). Set `INTERFACE=interface/ftdi/flyswatter2.cfg` for this adapter.
  * [J-Link from Segger](https://www.segger.com/jlink-debug-probes.html). Set `INTERFACE=interface/jlink.cfg`.
 
 Most JTAG interfaces provide a standard ARM 20 pin socket (2x10 2.54mm) meaning an adapter board is required to convert from this to the SWD (2x5 1.27mm). This are available from a variety of sources including:
