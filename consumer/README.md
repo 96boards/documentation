@@ -25,7 +25,7 @@ Select your Consumer Edition 96Boards device to access all product specific reso
 |:------------------------------------------------:|:------------------------------------------------------:|:--------------------------:|
 | <img src="https://i.imgur.com/tBDv5aG.jpg" data-canonical-src="https://i.imgur.com/tBDv5aG.jpg" width="426" height="240" /><br> **HiKey Family** | HiKey<br>HiKey960<br>HiKey970 | [Documentation](hikey/)<br> |
 | <img src="https://i.imgur.com/Uebk1I7.jpg" data-canonical-src="https://i.imgur.com/Uebk1I7.jpg" width="426" height="240" /><br> **DragonBoard Family** | DragonBoard410c<br>DragonBoard820c  | [Documentation](dragonboard/)<br> |
-| <img src="https://github.com/96boards/documentation/blob/master/consumer/rock/rock960/additional-docs/images/images-board/ROCK960_Front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/rock/rock960/additional-docs/images/images-board/ROCK960_Front_SD.png?raw=true" width="200" height="130" /><br> **ROCK** | Board based on Rockchip RK3399  | [Documentation](rock/)<br> |
+| <img src="https://github.com/96boards/documentation/blob/master/consumer/rock/rock960/additional-docs/images/images-board/ROCK960_Front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/rock/rock960/additional-docs/images/images-board/ROCK960_Front_SD.png?raw=true" width="200" height="130" /><br> **Rock Family** | Rock960c  | [Documentation](rock/)<br> |
 
 </div>
 
