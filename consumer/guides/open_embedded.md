@@ -100,7 +100,7 @@ To initialize your build environment, you need to run:
 
 ```shell
 $ mkdir oe-rpb && cd oe-rpb
-$ repo init -u https://github.com/96boards/oe-rpb-manifest.git -b morty
+$ repo init -u https://github.com/96boards/oe-rpb-manifest.git -b sumo
 $ repo sync
 $ source setup-environment <build folder>
 ```
