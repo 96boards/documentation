@@ -69,7 +69,7 @@ The ROCK960 Development Board is a 96Boards compliant community board based on R
 | CPU                 | ARM Cortex-A72 Dual-core up to 1.8GHz + Cortex A53 Quad-core up to 1.4GHz |
 | GPU                 | ARM Mali T860MP4                         |
 | RAM                 | 2GB or 4GB LPDDR3 @ 1866MHz              |
-| PMU                 | RK805                                    |
+| PMU                 | RK808-D                                    |
 | Storage             | 16/32GB eMMC 5.1                         |
 | Ethernet Port       | USB 2.0/3.0 expansion                    |
 | Wireless            | WLAN 802.11 ac/a/b/g/n, 2xMIMO, 2.4GHz and 5Ghz, Bluetooth 4.2. On board WLAN/BT antennas. |
@@ -160,13 +160,13 @@ RK3399 is a low power, high performance processor for computing, personal mobile
 
 ### PMIC
 
-The PMIC on ROCK960 is RK805, a companion PMIC for RK3399 by Rockchip.
+The PMIC on ROCK960 is RK808-D, a companion PMIC for RK3399 by Rockchip.
 
-The RK805 is a complete power supply solution for portable systems. The highly integrated device includes four buck DC-DC converters, three high performance ldos, I2C interface, programmable power sequencing and an RTC.
+The RK808-D is a complete power supply solution for portable systems. The highly integrated device includes four buck DC-DC converters, three high performance ldos, I2C interface, programmable power sequencing and an RTC.
 
-The RK805 improves performance, reduces component count and size, and therefore provides lower cost solution compared to conventional portable designs. The ultra fast 2MHz current mode DC/DC architecture optimizes the transient performance and is compatible with tiny low cost ceramic inductors and capacitors. All DC/DC channels include integrated MOSFETS. Internal soft-start and compensation circuits minimize external components count. Most outputs can be programmed through the I2C interface
+The RK808-D improves performance, reduces component count and size, and therefore provides lower cost solution compared to conventional portable designs. The ultra fast 2MHz current mode DC/DC architecture optimizes the transient performance and is compatible with tiny low cost ceramic inductors and capacitors. All DC/DC channels include integrated MOSFETS. Internal soft-start and compensation circuits minimize external components count. Most outputs can be programmed through the I2C interface
 
-The RK805 integrates internal RC oscillator for low cost application which without RTC function.
+The RK808-D integrates internal RC oscillator for low cost application which without RTC function.
 
 ### Memory (DRAM)
 
@@ -372,8 +372,8 @@ The ROCK960 board implements this requirement. All GPIOs are routed to the RK339
 ### Power and Reset
 
 - The 96Boards specification calls for a signal on the Low Speed Expansion Connector that can power on/off the board and a signal that serves as a board reset signal.
-- The ROCK960 Board routes the PWR_BTN_N (named PMIC_PWRON on schematic) signal to the PWRON pin of the PMIC RK805. A mezzanine implementation of this signals should not drive it with any voltage, the only allowed operation is to force it to GND to start the board from a sleep mode.
-- The ROCK960 Board routes the RST_BTN_N (named RESET_L on schematic) signal to the NRESPWRON pin of the PMIC RK805. This signal is also routes to SW2100, a push button for reset.
+- The ROCK960 Board routes the PWR_BTN_N (named PMIC_PWRON on schematic) signal to the PWRON pin of the PMIC RK808-D. A mezzanine implementation of this signals should not drive it with any voltage, the only allowed operation is to force it to GND to start the board from a sleep mode.
+- The ROCK960 Board routes the RST_BTN_N (named RESET_L on schematic) signal to the NRESPWRON pin of the PMIC RK808-D. This signal is also routes to SW2100, a push button for reset.
 
 
 ### Power Supplies
@@ -385,7 +385,7 @@ The 96Boards specification calls for three power rails to be present on the Low 
 SYS_DCIN  8-18V input with enough current to support all the board functions or the output DCIN from on-board DC Connector able to provide a minimum of 7W of power.
 
 The ROCK960 Board supports these requirements as follows:
-- +1.8V  Driven by PMIC RK805 up to 2500mA.  It is the system main 1.8V power (VCC_1V8), and it can supply power up to 200mA to the Low Speed Expansion Connector.
+- +1.8V  Driven by PMIC RK808-D up to 2500mA.  It is the system main 1.8V power (VCC_1V8), and it can supply power up to 200mA to the Low Speed Expansion Connector.
 - +5V  Driven by a 3A pwm buck converter (SY8113B). It also provides the VBUS power to the two USB host connectors and the HDMI 5V power to the HDMI connector. The remaining capacity provides a max current of 2A to the Low Speed Expansion Connector, for a total of 10W which meets the 96Boards requirements.
 
 SYS_DCIN  Can serves as the board’s main power source or can receive power from the board.

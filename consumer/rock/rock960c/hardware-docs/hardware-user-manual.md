@@ -62,27 +62,27 @@ The ROCK960 Development Board is a 96Boards compliant community board based on R
 <img src="../additional-docs/images/images-board/ROCK960_Back_HD.png" data-canonical-src="" width="800" />
 
 
-| Component           | Description                              |
-| :------------------ | :--------------------------------------- |
-| SoC                 | Rockchip RK3399                          |
+| Component           | Description                                                  |
+| :------------------ | :----------------------------------------------------------- |
+| SoC                 | Rockchip RK3399                                              |
 | CPU                 | ARM Cortex-A72 Dual-core up to 1.8GHz + Cortex A53 Quad-core up to 1.4GHz |
-| GPU                 | ARM Mali T860MP4                         |
-| RAM                 | 2GB or 4GB LPDDR3 @ 1866MHz              |
-| PMU                 | RK805                                    |
-| Storage             | 16/32GB eMMC 5.1                         |
-| Ethernet Port       | USB 2.0/3.0 expansion                    |
-| Wireless            | WLAN 802.11 ac/a/b/g/n, 2xMIMO, 2.4GHz and 5Ghz, Bluetooth 4.2. On board WLAN/BT antennas. |
-| USB                 | 1 x USB 3.0 type A and 1 x USB 2.0 type A (host mode only) and 1 x USB 3.0 type C OTG |
-| Display             | 1 x HDMI 2.0(Type A - full) up to 4Kx2K@60Hz, 1 x 4L - MIPI DSI up to 1080p@60Hz, 1 x DP 1.2(Type C) up to 4Kx2K@60 |
+| GPU                 | ARM Mali T860MP4                                             |
+| RAM                 | 2GB or 4GB LPDDR3 @ 1866MHz                                  |
+| PMU                 | RK808-D                                                      |
+| Storage             | None, one board eMMC socket reserved for optional 8/16/32/64/128GB eMMC module |
+| Ethernet Port       | USB 2.0/3.0 expansion                                        |
+| Wireless            | WLAN 802.11 ac/a/b/g/n, 2.4GHz and 5Ghz, Bluetooth 4.2. On board WLAN/BT antennas. |
+| USB                 | 1 x USB 3.0 type A Host and 1 x USB 3.0 type A OTG and 1 x **USB 2.0** type C(Host only) |
+| Display             | 1 x HDMI 2.0(Type A - full) up to 4Kx2K@60Hz, 1 x 4L - MIPI DSI up to 1080p@60Hz |
 | Video               | Inside decoder: H.264 10bit up to HP level 5.1 - 2160p@60fps (4096x2304), VP9 - 2160p@60fps(4096x2304), H.265/HEVC 10bit - 2160p@60fps(4096x2304),  MPEG-1, MPEG-2, MPEG-4, H.263, VP8, VC-1. |
-| Audio               | HDMI output                              |
-| Camera              | 2 x 4-lane MIPI CSI                      |
-| Expansion Interface | 40 pin low speed expansion connector: +1.8V, +5V, DC power, GND, 2UART, 2I2C, SPI, I2S, 12xGPIO and 60 pin high speed expansion connector: 4L-MIPI DSI, I2C x2, SPI (48M), USB 2.0, 2L+4LMIPI CSI |
+| Audio               | HDMI output                                                  |
+| Camera              | 1 x 4-lane MIPI CSI, 1 x 2-lane MIPI CSI                     |
+| Expansion Interface | 40 pin low speed expansion connector: +1.8V, +5V, DC power, GND, 2x UART, 2x I2C, SPI, I2S, 12x GPIO and 60 pin high speed expansion connector: 4L-MIPI DSI, I2C x2, SPI (48M), USB 2.0, 2L+4LMIPI CSI |
 | LED                 | 1 x WiFi activity LED（Yellow), 1 x BT activity LED (Blue) and 4 x User LEDs (Green) |
-| Button              | Reset button, recovery button            |
+| Button              | Reset button, recovery button, maskrom button                |
 | Power Source        | Recommend a 12V@2A adapter with a DC plug which has a 4.75mm outer diameter and 1.7mm center pin with standard center-positive (EIAJ-3 Compliant) |
-| OS Support          | AOSP/Debian/Ubuntu/Fedora/LibreELEC/Lakka/FlintOS |
-| Size                | 85mm x 55mm                              |
+| OS Support          | AOSP/Debian/Ubuntu/Fedora/LibreELEC/Lakka/FlintOS            |
+| Size                | 85mm x 55mm                                                  |
 
 [Back to top]()
 
@@ -90,7 +90,7 @@ The ROCK960 Development Board is a 96Boards compliant community board based on R
 
 ## What's in the Box
 
-The standard ROCK960 packages contains the follow:
+The standard ROCK960c packages contains the follow:
 
 <img src="../additional-docs/images/images-unbox/package_list.jpg" data-canonical-src="" width="800" />
 
@@ -117,7 +117,7 @@ The standard ROCK960 packages contains the follow:
 
 ## System Block Diagram
 
-<img src="../additional-docs/images/images-hw-user-manual/rock960_block_diagram.png" data-canonical-src="" width="800" />
+<img src="../additional-docs/images/images-hw-user-manual/rock960c_block_diagram.png" data-canonical-src="" width="800" />
 
 [Back to top]()
 
@@ -129,8 +129,10 @@ The standard ROCK960 packages contains the follow:
 
 Before you power up your ROCK960 Board for the first time you will need the following:
 
-- ROCK960 Board, model A or model B.
+- ROCK960 Board, model C1/C2/C4.
 - A 96Boards compliant power supply (sold separately).
+- A uSD card or eMMC module.
+- A uSD card reader.
 - A HDMI or DVI LCD Monitor that supports a resolution of 720p/1080P/4K.
 - HDMI-HDMI cable or HDMI-DVI cable to connect the board to the Monitor.
 - A computer keyboard with USB interface.
@@ -140,8 +142,9 @@ Before you power up your ROCK960 Board for the first time you will need the foll
 
 To start the board, follow these simple steps:
 
+0. Download the right image for ROCK960 model C, write the image to uSD card or eMMC module, install the uSD card or eMMC module on ROCK960 model C.
 1. Connect the HDMI cable to the ROCK960 Board HDMI connector and to the LCD Monitor.
-2. Connect the keyboard to USB connector marked USB2.0 and the mouse to the USB connector marked USB3.0. (It doesn’t matter which order you connect them in.)
+2. Connect the keyboard to USB connector marked USB3.0 and the mouse to the other USB connector marked USB3.0. (It doesn’t matter which order you connect them in.)
 3. Plug the power supply into the power outlet.
 4. The system will automatically boot when the power supply is connected.
 
@@ -159,21 +162,28 @@ RK3399 is a low power, high performance processor for computing, personal mobile
 
 ### PMIC
 
-The PMIC on ROCK960 is RK805, a companion PMIC for RK3399 by Rockchip.
+The PMIC on ROCK960 is RK808-D, a companion PMIC for RK3399 by Rockchip.
 
-The RK805 is a complete power supply solution for portable systems. The highly integrated device includes four buck DC-DC converters, three high performance ldos, I2C interface, programmable power sequencing and an RTC.
+The RK808-D is a complete power supply solution for portable systems. The highly integrated device includes four buck DC-DC converters, three high performance ldos, I2C interface, programmable power sequencing and an RTC.
 
-The RK805 improves performance, reduces component count and size, and therefore provides lower cost solution compared to conventional portable designs. The ultra fast 2MHz current mode DC/DC architecture optimizes the transient performance and is compatible with tiny low cost ceramic inductors and capacitors. All DC/DC channels include integrated MOSFETS. Internal soft-start and compensation circuits minimize external components count. Most outputs can be programmed through the I2C interface
+The RK808-D improves performance, reduces component count and size, and therefore provides lower cost solution compared to conventional portable designs. The ultra fast 2MHz current mode DC/DC architecture optimizes the transient performance and is compatible with tiny low cost ceramic inductors and capacitors. All DC/DC channels include integrated MOSFETS. Internal soft-start and compensation circuits minimize external components count. Most outputs can be programmed through the I2C interface
 
-The RK805 integrates internal RC oscillator for low cost application which without RTC function.
+The RK808-D integrates internal RC oscillator for low cost application which without RTC function.
 
 ### Memory (DRAM)
 
-The ROCK960 Board provides 2GB(model A) or 4GB(model B) LPDDR3-SDRAM which is a 2-channel and 32bit width bus implementation interfacing directly to the RK3399 build-in LPDDR controller. The maximum DDR clock is 933MHz. It's soldered on board and not replaceable.
+The ROCK960 Board provides 1GB(model C1) or 2GB(model C2) or 4GB(model C4) LPDDR4-SDRAM which is a 2-channel and 32bit width bus implementation interfacing directly to the RK3399 build-in LPDDR controller. The maximum DDR clock is 800MHz. It's soldered on board and not replaceable.
 
 ### Storage
 
-The ROCK960 Board provides an 16GB(model A) or 32GB(model B) EMMC which is compliant with EMMC 5.1.
+The ROCK960 Board doesn't provide any on board storage, it reserve a eMMC socket for flexible storage options.
+
+### eMMC Socket
+
+The eMMC socket uses two B2B connector to mount the eMMC module, the connector model is [GB042 Series](http://www.lsmtron.com/pdf/Connector&Antenna_catalog.PDF), one connector(34pin) for eMMC signal, the other(30pin) is for mount purpose only.
+
+* on board: GB042-34S-H10 (socket-34pin) + GB042-30S-H10 (socket-30pin)
+* on eMMC module: GB042-34P-H10 (Plug-34pin) + GB042-30P-H10 (Plug-30pin)
 
 ### Micro SDHC
 
@@ -187,21 +197,21 @@ The ROCK960 Board can boot up from the EMMC or the Micro SD card. If a bootable 
 
 #### WiFi
 
-The wifi/bt module used on ROCK960s is AP6356s from AMPAK Technology. The AP6356s module complies with IEEE 802.11 a/b/g/n/ac 2x2 MIMO standard and it can achieve up to a speed of 867Mbps with dual stream in 802.11n to connect the wireless LAN.
+The wifi/bt module used on ROCK960 model C is AP6255 from AMPAK Technology. The AP6255 module complies with IEEE 802.11 a/b/g/n/ac standard and it can achieve up to a speed of 433.3Mbps in 802.11n to connect the wireless LAN.
 
 - 802.11a/b/g/n/ac dual-band radio with virtual-simultaneous dual-band operation
-- Dual-stream spatial multiplexing up to 867 Mbps data rate
+- Single-stream spatial multiplexing up to 433.3 Mbps data rate.
 - Supports 20, 40, 80 MHz channels with optional SGI(256 QAM modulation)
-- Supports IEEE 802.11 ac/n beam forming
+- Supports standard SDIO v3.0 and backward compatible with SDIO v2.0 host interfaces.
 
 
 The ROCK960 Board also has a RF connector to connect the external antenna or other RF device. If you want to use this function, you should change the 0ohm resistor directions besides the antenna.
 
 #### Bluetooth
 
-- Bluetooth specification V2.1+EDR, 3.0+HS and 4.1+HS compliant
-- Integrated PA with 8dBm (class 1) transmit power
-- Typical Rx sensitivity: GFSK -94dBm, DQPSK -93dBm, 8-DPSK -87.5dBm.
+- Supports Bluetooth V4.2+EDR with integrated PA for Class 1.5 and Low Energy (BLE).
+- Concurrent Bluetooth, and WLAN operation.
+- Simultaneous BT/WLAN receive with single antenna.
 
 ## Display Interface
 
@@ -212,35 +222,33 @@ RK3399 support HDMI 1.4 and 2.0, up to 10-bit depth color mode, up to 1080p at 1
 ### MIPI-DSI
 
 - The 96Boards specification calls for a MIPI-DSI implementation via the High Speed Expansion Connector.
-- The ROCK960 Board implements a 4-lane MIPI_DSI interface meeting this requirement. It can support up to FHD(1080p@60fps). The ROCK960 Board routes the MIPI_DSI interface signals to the MIPI_TX1/RX1 interface of the RK3399. The MIPI_TX1/RX1 can also be configured as MIPI CSI by software.
+- The ROCK960 Board implements a 4-lane MIPI_DSI interface meeting this requirement. It can support up to FHD(1080p@60fps). The ROCK960 Board routes the MIPI_DSI interface signals to the MIPI_TX interface of the RK3399. 
 
 ### Camera Interface
 
 - The 96Boards specification calls for two camera interfaces.
-- The ROCK960 Board supports two camera interfaces, one with a 4-lane MIPI_CSI interface and one with 2-lane MIPI_CSI interface, meeting this requirement. The 4-lane MIPI_CSI interface can support 13M camera.
+- The ROCK960 Board supports two camera interfaces, one with a 4-lane MIPI_CSI interface and one with 2-lane MIPI_CSI interface, meeting this requirement. The 4-lane MIPI_CSI interface routes to MIPI_TX/RX of RK3399, it can also be configured as MIPI_DSI.
 
 ### USB Ports
 
-The RK3399 has two USB 3.0 OTG controller, two USB 2.0 HOST controller, the four USB controllers can work independently, they are implemented on ROCK960 as following:
+The RK3399 has one USB 3.0 HOST controller, one USB 3.0 OTG controller, two USB 2.0 HOST controller, the four USB controllers can work independently, they are implemented on ROCK960 as following:
 
 
 ### USB Host
 
-- USB 3.0 OTG1 as USB 3.0 HOST Type A
-- USB 2.0 HOST0 as USB 2.0 Type A
+- USB3 HOST1  routes to USB 3.0  type A(next to mounting hole onboard)
+- USB3 OTG routes to USB 3.0 OTG with Type A connector(in the middle)
+- USB 2.0 HOST0 as USB 2.0 with Type C connector(next to HDMI connector)
 - USB 2.0 HOST1 on the high speed expansion header
 
-### USB Type C ports
 
-USB 3.0 OTG0 is implimented as USB Type C
+> The USB 3.0 OTG can work in device mode or host mode. There is an on board switch to switch the OTG as Host or device mode. In maskrom mode, the OTG is forced in device mode.
 
-The USB Type C port can work in device mode or host mode. For device mode, it can be used for download/flash the firmware or debugging such as adb. For host mode, it can connect the type c hubs and expand more USB ports or Ethernet or VGA/HDMI/DP.
-
-> Note: the type C port can work in one mode at a time, Host mode or Device mode, not both.
+> When USB 3.0 OTG in device mode, you need a USB A-to-A cable connects to PC or host computer.
 
 ### Audio
 
-The ROCK960 Board has four audio ports: BT, HDMI, I2S and DP.
+The ROCK960 Board has two audio ports: HDMI, I2S.
 
 ### DC Power
 
@@ -251,7 +259,7 @@ The ROCK960 Board can be powered by two ways:
 
 ### Power Measurement
 
-The current ROCK960 hardware revision(v1.0 and v1.1) has no current sense resistors.
+There is a 0ohm resistor(part number R2009) on board for the whole system power, to measure the power, you need to remove it.
 
 ### External Fan Connection
 
@@ -267,7 +275,7 @@ The ROCK960 Board has three UART ports, two(UART3 and UART4) present on the Low 
 
 ### Buttons
 
-The ROCK960 Board presents two buttons. They are Reset key and Maskrom key. The RESET signals are also routed to the Low Speed Expansion connector.
+The ROCK960 Board presents three buttons. They are Reset key, Maskrom key and Loader key. The RESET signals are also routed to the Low Speed Expansion connector.
 
 #### Reset Button
 
@@ -276,6 +284,10 @@ The button serves as the hardware reset button. short press and release the butt
 #### Maskrom Button
 
 The Maskrom Button is for firmware flash/upgrade.
+
+#### Loader Button
+
+The loader Button is for bootloader to jump to recovery mode is pressed at boot time.
 
 ### LED Indicators
 
@@ -325,15 +337,17 @@ The Low Speed Expansion Connector implements as following on ROCK960.
 | I2C6_SDA        | I2C0_SDA         | 17   |   18 |          PCM_CLK |       I2S0_SCLK |
 | I2C1_SCL        | I2C1_SCL         | 19   |   20 |           PCM_DO |       I2S0_SDO0 |
 | I2C1_SDA        | I2C1_SDA         | 21   |   22 |           PCM_DI |       I2S0_SDI0 |
-| GPIO0_A6        | GPIO-A           | 23   |   24 |           GPIO-B |        GPIO0_A2 |
-| GPIO1_B1        | GPIO-C           | 25   |   26 |           GPIO-D |        GPIO1_B2 |
+| GPIO0_A6        | GPIO-A           | 23   |   24 |           GPIO-B |    **GPIO3_D6** |
+| **GPIO4_A6**    | GPIO-C           | 25   |   26 |           GPIO-D |    **GPIO4_A5** |
 | GPIO3_D1        | GPIO-E           | 27   |   28 |           GPIO-F |        GPIO4_A0 |
 | GPIO3_D4        | GPIO-G           | 29   |   30 |           GPIO-H |        GPIO4_A3 |
 | GPIO3_D5        | GPIO-I           | 31   |   32 |           GPIO-J |        GPIO4_A4 |
-| GPIO1_C2        | GPIO-K           | 33   |   34 |           GPIO-L |        GPIO1_C7 |
+| **GPIO4_A7**    | GPIO-K           | 33   |   34 |           GPIO-L |        GPIO1_C7 |
 | VCC_1V8         | +1V8             | 35   |   36 |         SYS_DCIN |     VCC12V_DCIN |
 | VCC5V0_SYS      | +5V              | 37   |   38 |         SYC_DCIN |     VCC12V_DCIN |
 | GND             | GND              | 39   |   40 |              GND |             GND |
+
+> Note: the GPIO in bold means it's different from ROCK960 model A/B.
 
 ### UART {0/1}
 
@@ -397,38 +411,40 @@ SYS_DCIN  Can serves as the board’s main power source or can receive power fro
 
 ## High Speed Expansion Connector
 
-| ROCK960 Signals | 96Boards Signals  | PIN  |  PIN | 96Boards Signals |                            ROCK960 Signals |
-| :-------------- | :---------------- | :--- | ---: | ---------------: | -----------------------------------------: |
-| SPI4_TX         | SD_DAT0/SPI1_DOUT | 1    |    2 |          CSI0_C+ |                              MIPI_RX0_CLKP |
-| NC              | SD_DAT1           | 3    |    4 |          CSI0_C- |                              MIPI_RX0_CLKN |
-| NC              | SD_DAT2           | 5    |    6 |              GND |                                        GND |
-| SPI4_CS         | SD_DAT3/SPI1_CS   | 7    |    8 |         CSI0_D0+ |                               MIPI_RX0_D0P |
-| SPI4_CLK        | SD_SCLK/SPI1_SCLK | 9    |   10 |         CSI0_D0- |                               MIPI_RX0_D0N |
-| SPI4_RX         | SD_CMD/SPI1_DIN   | 11   |   12 |              GND |                                        GND |
-| GND             | GND               | 13   |   14 |         CSI0_D1+ |                               MIPI_RX0_D1P |
-| MIPI_MCLK0      | CLK0/CSI0_MCLK    | 15   |   16 |        CCSI0_D1- |                               MIPI_RX0_D1N |
-| MIPI_MCLK1      | CLK1/CSI1_MCLK    | 17   |   18 |              GND |                                        GND |
-| GND             | GND               | 19   |   20 |         CSI0_D2+ |                               MIPI_RX0_D2P |
-| MIPI_CLKP       | DSI_CLK+          | 21   |   22 |         CSI0_D2- |                               MIPI_RX0_D2N |
-| MIPI_CLKN       | DSI_CLK-          | 23   |   24 |              GND |                                        GND |
-| GND             | GND               | 25   |   26 |         CSI0_D3+ |                               MIPI_RX0_D3P |
-| MIPI_D0P        | DSI_D0+           | 27   |   28 |         CSI0_D3- |                               MIPI_RX0_D3N |
-| MIPI_D0N        | DSI_D0-           | 29   |   30 |              GND |                                        GND |
-| GND             | GND               | 31   |   32 |         I2C2_SCL |                                   I2C2_SCL |
-| MIPI_D1P        | DSI_D1+           | 33   |   34 |         I2C2_SCL |                                   I2C2_SDA |
-| MIPI_D1N        | DSI_D1-           | 35   |   36 |         I2C3_SDA |                                   I2C7_SCL |
-| GND             | GND               | 37   |   38 |         I2C3_SDA |                                   I2C7_SDA |
-| MIPI_D2P        | DSI_D2+           | 39   |   40 |              GND |                                        GND |
-| MIPI_D2N        | DSI_D2-           | 41   |   42 |         CSI1_D0+ |                                MIPI_TX_D0P |
-| GND             | GND               | 43   |   44 |         CSI1_D0- |                                MIPI_TX_D0N |
-| MIPI_D3P        | DSI_D3+           | 45   |   46 |              GND |                                        GND |
-| MIPI_D3N        | DSI_D3-           | 47   |   48 |         CSI1_D1+ |                                MIPI_TX_D1P |
-| GND             | GND               | 49   |   50 |         CSI1_D1- |                                MIPI_TX_D1N |
-| HOST1_DP        | USB_D+            | 51   |   52 |              GND |                                        GND |
-| HOST1_DM        | USB_D-            | 53   |   54 |          CSI1_C+ |                               MIPI_TX_CLKP |
-| GND             | GND               | 55   |   56 |          CSI1_C- |                               MIPI_TX_CLKN |
-| NC              | HSIC_STR          | 57   |   58 |              GND |                                        GND |
-| NC              | HSIC_DATA         | 59   |   60 |         RESERVED | Pull-up  to VIO18_PMU<br>via 100K resistor |
+| ROCK960 Signals  | 96Boards Signals  | PIN  |  PIN | 96Boards Signals |                            ROCK960 Signals |
+| :--------------- | :---------------- | :--- | ---: | ---------------: | -----------------------------------------: |
+| SPI4_TX          | SD_DAT0/SPI1_DOUT | 1    |    2 |          CSI0_C+ |                        **MIPI_TX/RX_CLKP** |
+| NC               | SD_DAT1           | 3    |    4 |          CSI0_C- |                        **MIPI_TX/RX_CLKN** |
+| NC               | SD_DAT2           | 5    |    6 |              GND |                                        GND |
+| SPI4_CS          | SD_DAT3/SPI1_CS   | 7    |    8 |         CSI0_D0+ |                         **MIPI_TX/RX_D0P** |
+| SPI4_CLK         | SD_SCLK/SPI1_SCLK | 9    |   10 |         CSI0_D0- |                         **MIPI_TX/RX_D0N** |
+| SPI4_RX          | SD_CMD/SPI1_DIN   | 11   |   12 |              GND |                                        GND |
+| GND              | GND               | 13   |   14 |         CSI0_D1+ |                         **MIPI_TX/RX_D1P** |
+| MIPI_MCLK0       | CLK0/CSI0_MCLK    | 15   |   16 |        CCSI0_D1- |                         **MIPI_TX/RX_D1N** |
+| MIPI_MCLK1       | CLK1/CSI1_MCLK    | 17   |   18 |              GND |                                        GND |
+| GND              | GND               | 19   |   20 |         CSI0_D2+ |                         **MIPI_TX/RX_D2P** |
+| **MIPI_TX_CLKP** | DSI_CLK+          | 21   |   22 |         CSI0_D2- |                         **MIPI_TX/RX_D2N** |
+| **MIPI_TX_CLKN** | DSI_CLK-          | 23   |   24 |              GND |                                        GND |
+| GND              | GND               | 25   |   26 |         CSI0_D3+ |                         **MIPI_TX/RX_D3P** |
+| **MIPI_TX_D0P**  | DSI_D0+           | 27   |   28 |         CSI0_D3- |                         **MIPI_TX/RX_D3N** |
+| **MIPI_TX_D0N**  | DSI_D0-           | 29   |   30 |              GND |                                        GND |
+| GND              | GND               | 31   |   32 |         I2C2_SCL |                                   I2C2_SCL |
+| **MIPI_TX_D1P**  | DSI_D1+           | 33   |   34 |         I2C2_SCL |                                   I2C2_SDA |
+| **MIPI_TX_D1N**  | DSI_D1-           | 35   |   36 |         I2C3_SDA |                                   I2C7_SCL |
+| GND              | GND               | 37   |   38 |         I2C3_SDA |                                   I2C7_SDA |
+| **MIPI_TX_D2P**  | DSI_D2+           | 39   |   40 |              GND |                                        GND |
+| **MIPI_TX_D2N**  | DSI_D2-           | 41   |   42 |         CSI1_D0+ |                           **MIPI_RX0_D0P** |
+| GND              | GND               | 43   |   44 |         CSI1_D0- |                           **MIPI_RX0_D0N** |
+| **MIPI_TX_D3P**  | DSI_D3+           | 45   |   46 |              GND |                                        GND |
+| **MIPI_TX_D3N**  | DSI_D3-           | 47   |   48 |         CSI1_D1+ |                           **MIPI_RX0_D1P** |
+| GND              | GND               | 49   |   50 |         CSI1_D1- |                           **MIPI_RX0_D1N** |
+| HOST1_DP         | USB_D+            | 51   |   52 |              GND |                                        GND |
+| HOST1_DM         | USB_D-            | 53   |   54 |          CSI1_C+ |                          **MIPI_RX0_CLKP** |
+| GND              | GND               | 55   |   56 |          CSI1_C- |                          **MIPI_RX0_CLKN** |
+| NC               | HSIC_STR          | 57   |   58 |              GND |                                        GND |
+| NC               | HSIC_DATA         | 59   |   60 |         RESERVED | Pull-up  to VIO18_PMU<br>via 100K resistor |
+
+> Note: the GPIO in bold means it's different from ROCK960 model A/B.
 
 ### MIPI DSI 0
 
@@ -528,10 +544,10 @@ The user of the ROCK960 Board should never apply power to the board from DC jack
 | BUCK         | VDD_CPU_B    | 0.7125-1.5            | 1000          | Dual A72 cores                                       |
 |              | VDD_GPU      | 0.7125-1.5            | 1000          | Mali-T860MP4                                         |
 |              | VDD_LOG      | 1.8                   | 2000          | SOC logic                                            |
-| USB          | VBUS_TYPEC   | 5                     | 1000          | USB 3.0 Type-C0 port                                 |
-|              | VCC5V0_HOST0 | 5                     | 1000          | USB 2.0 A port                                       |
-|              | VCC5V0_HOST1 | 5                     | 1000          | USB 2.0 A port                                       |
-|              | VCC5V0_HOST2 | 5                     | 1000          | USB 3.0 A port                                       |
+| USB          |              |                       |               |                                                      |
+|              | VCC5V0_SYS   | 5                     | 1000          | USB 3.0 OTG type A port                              |
+|              | VCC5V0_HOST1 | 5                     | 1000          | USB 2.0 HOST type C port/USB 3.0 A port              |
+|              |              |                       |               |                                                      |
 | BUCK         | VCC5V0_HDMI  | 5                     | 3000          | HDMI device                                          |
 |              | VCC3V0_SD    | 3                     | 500           | SD/TF Card                                           |
 |              | VCC_0V9      | 0.9                   | 500           | PLL/PMU PLL/DDR CTRL/EMMC CTRL CORE/USB phy/PCIE phy |
