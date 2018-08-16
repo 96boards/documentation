@@ -100,7 +100,7 @@ Name          | Switch   | State
 ------------- | -------- | ----------
 Auto Power up | Switch 1 | closed / ON
 Recovery      | Switch 2 | closed / ON
-Fastboot      | Switch 3 | open / OFF
+Fastboot      | Switch 3 | closed / ON
 
 Switch 1 causes HiKey970 to auto-power up when power is installed. Switch 2 causes the HiKey970 SoC internal ROM to start up in at a special "install bootloader" mode which will install a supplied bootloader from the Type-C port into RAM, and will present itself to a connected PC as a ttyUSB device.
 
