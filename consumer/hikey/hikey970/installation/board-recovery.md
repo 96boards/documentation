@@ -11,6 +11,77 @@ This page outlines steps needed to recover your HiKey970 board from a bricked so
 
 For most users a board can be “recovered” from a software failure by reloading the operating system. However, if the primary bootloader in the UFS flash memory has been corrupted then the bootloader will need to be re-installed. This section describes how to reinstall the primary bootloader.
 
+#### Build Recovery Binaries
+
+Following instructions are used to build the recovery binaries for Hikey970.
+
+##### Install dependencies
+
+Following dependencies needs to be installed for building the bootloader binaries
+and the instructions are specified for debian based systems.
+
+```shell
+$ sudo apt-get install uuid-dev
+$ pip install pycrypto
+```
+##### Clone the repositories
+
+```shell
+$ git clone https://github.com/96boards-hikey/arm-trusted-firmware -b hikey970_v1.0
+$ git clone https://github.com/96boards-hikey/edk2 -b hikey970_v1.0
+$ git clone https://github.com/96boards-hikey/OpenPlatformPkg -b hikey970_v1.0
+$ git clone https://github.com/96boards-hikey/l-loader -b hikey970_v1.0
+$ git clone https://github.com/Mani-Sadhasivam/uefi-tools -b hikey970_v1.0
+$ git clone https://github.com/96boards-hikey/tools-images-hikey970
+```
+
+##### Perpare a shell script
+
+Copy the below contents and prepare a shell script as `build_bootloader.sh`.
+
+
+```shell
+#!/bin/sh
+
+BUILD_OPTION=DEBUG
+export AARCH64_TOOLCHAIN=GCC5
+export BUILD_PATH=${PWD}
+export UEFI_TOOLS_DIR=${BUILD_PATH}/uefi-tools
+export EDK2_DIR=${BUILD_PATH}/edk2
+EDK2_OUTPUT_DIR=${EDK2_DIR}/Build/HiKey970/${BUILD_OPTION}_${AARCH64_TOOLCHAIN}
+
+# Build UEFI & Trusted Firmware-A
+echo "#### Building UEFI and Trusted Firmware images"
+cd ${EDK2_DIR}
+ln -sf ../OpenPlatformPkg
+${UEFI_TOOLS_DIR}/uefi-build.sh -b ${BUILD_OPTION} -a ../arm-trusted-firmware hikey970
+
+# Generate l-loder.bin
+echo "#### Generating l-loader.bin"
+cd ${BUILD_PATH}/l-loader
+ln -sf ${EDK2_OUTPUT_DIR}/FV/bl1.bin
+ln -sf ${EDK2_OUTPUT_DIR}/FV/bl2.bin
+ln -sf ${EDK2_OUTPUT_DIR}/FV/fip.bin
+ln -sf ${EDK2_OUTPUT_DIR}/FV/BL33_AP_UEFI.fd
+make hikey970
+
+# Copy generated binaries to tools-images-hikey970
+echo "#### Copying generated binaries"
+cp ${EDK2_OUTPUT_DIR}/FV/fip.bin ${BUILD_PATH}/tools-images-hikey970
+cp ${BUILD_PATH}/l-loader/l-loader.bin ${BUILD_PATH}/tools-images-hikey970
+```
+
+##### Build the Bootloader binaries
+
+Next step is to build the bootloader binaries using the shell script prepared above.
+
+```shell
+$ ./build_bootloader.sh
+```
+
+Once the script gets executed successfully, the bootloader binaries will
+get generated.
+
 #### Make sure fastboot is set up on host computer
 
 - Android SDK “Tools only” for Linux can be downloaded <a href="http://developer.android.com/sdk" target="_blank">here</a>
@@ -45,25 +116,18 @@ or
 $ dmesg
 ```
 
-#### Clone HiKey970 Recovery tool
-
-For recovering the HiKey970 board, clone the **tools-images-hikey970** repository and move into it.
-
-```shell
-$ git clone https://github.com/96boards-hikey/tools-images-hikey970
-$ cd tools-images-hikey970
-```
-
 #### Run the script to initially prepare fastboot
 
-Make sure the modem interface is in the right ttyUSB as previously suggested. In this example, use ttyUSB1:
+Now, move into the `tools-images-hikey970` directory and execute the recovery script.
+Make sure the modem interface is in the right ttyUSB as previously suggested. In this
+example, use ttyUSB1:
 
 ```
+$ cd tools-images-hikey970
 $ sudo python hisi-idt.py -d /dev/ttyUSB1 --img1 ./sec_usb_xloader.img --img2 ./sec_usb_xloader2.img --img3 ./l-loader.bin
 ```
 
 > Note: This script only works with Python2.7
-
 
 You should see the following output on PC after executing the above command:
 
