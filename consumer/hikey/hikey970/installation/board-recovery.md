@@ -182,4 +182,3 @@ This bootloader is based on UEFI and includes:
 - UEFI with DeviceTree
 - GRUB
 - fastboot support
-- OP-TEE support
