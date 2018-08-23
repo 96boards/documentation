@@ -10,6 +10,15 @@ redirect_from:  /documentation/consumer/rock960/downloads/ubuntu.md.html
 
 ***
 
+> NOTE: default user name and password
+
+    username: rock
+    password: rock
+or
+
+    username: linaro
+    password: linaro
+
 ## SD Card/eMMC image
 
 |   SD Card/eMMC Image   |    Download     |
