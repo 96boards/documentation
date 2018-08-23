@@ -92,7 +92,16 @@ If you are still having trouble setting up fastboot, <a href="https://youtu.be/W
 
 #### Connect your Linux PC and HiKey970 using USB Type-A to Type-C cable.
 
+Now, connect PC's USB port to Type-C port available in between HDMI and USB
+port on the HiKey970 board using Type-A to Type-C USB cable.
+
 HiKey970 should **NOT** be power on at this stage
+
+> Note: There are two Type-C ports on the board and, during recovery, both will enumerate
+>       as serial ports. It is important to use the correct port otherwise the recovery tools
+>       will not work correctly. The one available on the Left hand side, below Low Speed
+>       expansion header is for accessing **Debug UART** and the one between HDMI and USB port
+>       is used for **Recovery**.
 
 #### Set Board Switch options
 
