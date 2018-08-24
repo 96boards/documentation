@@ -56,9 +56,9 @@ redirect_from:
 The HiKey960 Development Board is a 96Boards compliant community board based on Hisilicon Kirin960 SoC. The following table lists its key features:
 
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-board/sd/hikey960-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-board/sd/hikey960-front-sd.png?raw=true" width="250" height="160" />
-<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-board/sd/hikey960-angle-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-board/sd/hikey960-angle-sd.png?raw=true" width="250" height="160" />
-<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-board/sd/hikey960-back-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-board/sd/hikey960-back-sd.png?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-board/sd/hikey960-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-board/sd/hikey960-front-sd.png?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-board/sd/hikey960-angle-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-board/sd/hikey960-angle-sd.png?raw=true" width="250" height="160" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-board/sd/hikey960-back-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-board/sd/hikey960-back-sd.png?raw=true" width="250" height="160" />
 
 
 
@@ -115,7 +115,7 @@ The HiKey960 Development Board is a 96Boards compliant community board based on 
 
 ## Board Overview
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-hw-user-manual/HiKey960_Numbered_Front1.PNG?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-hw-user-manual/HiKey960_Numbered_Front1.PNG?raw=true" width="800" height="500" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-hw-user-manual/HiKey960_Numbered_Front1.PNG?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-hw-user-manual/HiKey960_Numbered_Front1.PNG?raw=true" width="800" height="500" />
 
 | Position |     Description                                            |
 |---------:|:-----------------------------------------------------------|
@@ -138,14 +138,14 @@ The HiKey960 Development Board is a 96Boards compliant community board based on 
 
 
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-hw-user-manual/HiKey960_Numbered_Front2.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-hw-user-manual/HiKey960_Numbered_Front2.png?raw=true" width="400" height="270" />
-<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-hw-user-manual/HiKey960_Numbered_Back.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-hw-user-manual/HiKey960_Numbered_Back.png?raw=true" width="400" height="270" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-hw-user-manual/HiKey960_Numbered_Front2.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-hw-user-manual/HiKey960_Numbered_Front2.png?raw=true" width="400" height="270" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-hw-user-manual/HiKey960_Numbered_Back.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-hw-user-manual/HiKey960_Numbered_Back.png?raw=true" width="400" height="270" />
 
 ***
 
 ## System Block Diagram
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-hw-user-manual/BlockDiagram.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-hw-user-manual/BlockDiagram.png?raw=true" width="750" height="480" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-hw-user-manual/BlockDiagram.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-hw-user-manual/BlockDiagram.png?raw=true" width="750" height="480" />
 
 ***
 
@@ -275,8 +275,8 @@ The Hikey960 Development Board has three current sense resistors R401/R413/R408.
 |    R413   |  SYS_5V |  To measure the current of SYS_5V power            |
 |    R408   |  VDD_4V2   |  To measure the current of VDD_4V2 power        |
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-hw-user-manual/Top-R401-public.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-hw-user-manual/Top-R401-public.jpg?raw=true" />
-<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-hw-user-manual/Bottom-R408-R413-public.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey960/additional-docs/images/images-hw-user-manual/Bottom-R408-R413-public.jpg?raw=true" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-hw-user-manual/Top-R401-public.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-hw-user-manual/Top-R401-public.jpg?raw=true" />
+<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-hw-user-manual/Bottom-R408-R413-public.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-hw-user-manual/Bottom-R408-R413-public.jpg?raw=true" />
 
 ### External Fan Connection
 
