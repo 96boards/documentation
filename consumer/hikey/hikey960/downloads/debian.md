@@ -25,9 +25,9 @@ redirect_from:
 
 |   Bootloader    |
 |:----------------------------:|
-| [l-loader.bin](http://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey960/release/l-loader.bin)     |
-|  [fip.bin](http://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey960/release/fip.bin)              |
-| [prm_ptable.img](http://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey960/release/prm_ptable.img) |
+| [l-loader.bin](http://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey960/debug/l-loader.bin)     |
+|  [fip.bin](http://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey960/debug/fip.bin)              |
+| [prm_ptable.img](http://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey960/debug/prm_ptable.img) |
 
 |   Boot image      |    [Download](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/boot-linaro-stretch-developer-hikey-*.img.gz)      |
 |:------------------|:-----------------------|

@@ -25,10 +25,10 @@ redirect_from:
 
 |   Bootloader    |     
 |:----------------------------:|
-| [l-loader.bin](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/l-loader.bin)  |  
-|  [fip.bin](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/fip.bin)           |  
-| [nvme.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/nvme.img)          |
-| [ptable-linux-4g.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/ptable-linux-4g.img) or [ptable-linux-8g.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/ptable-linux-8g.img)     |
+| [l-loader.bin](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/l-loader.bin)  |  
+|  [fip.bin](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/fip.bin)           |  
+| [nvme.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/nvme.img)          |
+| [ptable-linux-4g.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-4g.img) or [ptable-linux-8g.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-8g.img)     |
 
 |   Boot image    |    [Download](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/boot-linaro-stretch-developer-hikey-*.img.gz)    |
 |:------------------|:-----------------------|

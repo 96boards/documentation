@@ -25,14 +25,14 @@ For most users a board can be “recovered” from a software failure by reloadi
 |  [fip.bin](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/debug/fip.bin)           |  
 | [ptable-linux-4g.img](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-4g.img) or [ptable-linux-8g.img](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-8g.img)     |
 
-- **Build Folders [UEFI release](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/release/)**
+- **Build Folders [UEFI release](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/)**
 
 |  Debian                      |
 |:----------------------------:|
-| [recovery.bin](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/release/recovery.bin)  |  
-| [l-loader.bin](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/release/l-loader.bin)  |  
-|  [fip.bin](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/release/fip.bin)           |  
-| [ptable-linux-4g.img](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/release/ptable-linux-4g.img) or [ptable-linux-8g.img](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/release/ptable-linux-8g.img)     |
+| [recovery.bin](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/debug/recovery.bin)  |  
+| [l-loader.bin](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/debug/l-loader.bin)  |  
+|  [fip.bin](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/debug/fip.bin)           |  
+| [ptable-linux-4g.img](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-4g.img) or [ptable-linux-8g.img](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-8g.img)     |
 
 You can do this from your browser(above links) or from the command prompt(below commands):
 
@@ -97,7 +97,7 @@ $ dmesg
 
 #### Download hisi-idt.py "download tool" for the HiKey
 
-[hisi-idt.py](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/release/hisi-idt.py) is the download tool for the HiKey. This is used to install the bootloader as follows:
+[hisi-idt.py](https://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey/debug/hisi-idt.py) is the download tool for the HiKey. This is used to install the bootloader as follows:
 
 This script can also be downloaded using the wget command in your commandline:
 
