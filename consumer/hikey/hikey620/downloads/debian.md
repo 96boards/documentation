@@ -13,9 +13,9 @@ redirect_from:
 
 ## SD Card image
 
-|   SD Card Image    |    [Desktop](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/linaro-stretch-developer-hikey-*.sd.gz) |
+|   SD Card Image    |    [Desktop]() |
 |:------------------|:-----------------------|
-|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest)       |
+|Release Notes:     |[Link]()       |
 
 ### Continue to [Installation page](../installation/)
 
@@ -30,12 +30,12 @@ redirect_from:
 | [nvme.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/nvme.img)          |
 | [ptable-linux-4g.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-4g.img) or [ptable-linux-8g.img](http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-8g.img)     |
 
-|   Boot image    |    [Download](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/boot-linaro-stretch-developer-hikey-*.img.gz)    |
+|   Boot image    |    [Download]()    |
 |:------------------|:-----------------------|
-|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest)      |
+|Release Notes:     |[Link]()      |
 
-|   Rootfs image    |    [Desktop](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/rootfs-linaro-stretch-developer-hikey-*.img.gz) |
+|   Rootfs image    |    [Desktop]() |
 |:------------------|:----------------------------------|
-|Release Notes:     |[Link](http://releases.linaro.org/96boards/hikey/linaro/debian/latest/)      |
+|Release Notes:     |[Link]()      |
 
 ### Continue to [Installation page](../installation/)
