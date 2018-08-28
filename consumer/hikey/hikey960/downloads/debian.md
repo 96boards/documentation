@@ -13,9 +13,9 @@ redirect_from:
 
 ## SD Card image
 
-|   SD Card Image   |    [Download](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/linaro-stretch-developer-hikey-*.sd.gz) |
+|   SD Card Image   |    [Download]() |
 |:------------------|:------------------------------------|
-|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest)       |
+|Release Notes:     |[Link]()       |
 
 ### Continue to [Installation page](../installation/)
 
@@ -29,12 +29,12 @@ redirect_from:
 |  [fip.bin](http://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey960/debug/fip.bin)              |
 | [prm_ptable.img](http://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey960/debug/prm_ptable.img) |
 
-|   Boot image      |    [Download](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/boot-linaro-stretch-developer-hikey-*.img.gz)      |
+|   Boot image      |    [Download]()      |
 |:------------------|:-----------------------|
-|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest)      |
+|Release Notes:     |[Link]()      |
 
-|   Rootfs image    |    [Download](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/rootfs-linaro-stretch-developer-hikey-*.img.gz)     |
+|   Rootfs image    |    [Download]()     |
 |:------------------|:----------------------------------|
-|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest)      |
+|Release Notes:     |[Link]()      |
 
 ### Continue to [Installation page](../installation/)
