@@ -41,9 +41,9 @@ Learn about your HiKey960 board as well as how to prepare and set up for basic u
 
 The following subsections should describe how to get started with the HiKey960 using the release build shipped with the boards. The HiKey960 board is ready to use “out of the box” with a preinstalled version of AOSP.
 
-<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-board/sd/hikey960-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-board/sd/hikey960-front-sd.png?raw=true" width="250" height="160" />
-<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-board/sd/hikey960-angle-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-board/sd/hikey960-angle-sd.png?raw=true" width="250" height="160" />
-<img src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-board/sd/hikey960-back-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-board/sd/hikey960-back-sd.png?raw=true" width="250" height="160" />
+<img src="../additional-docs/images/images-board/sd/hikey960-front-sd.png" data-canonical-src="../additional-docs/images/images-board/sd/hikey960-front-sd.png" width="250" height="160" />
+<img src="../additional-docs/images/images-board/sd/hikey960-angle-sd.png" data-canonical-src="../additional-docs/images/images-board/sd/hikey960-angle-sd.png" width="250" height="160" />
+<img src="../additional-docs/images/images-board/sd/hikey960-back-sd.png" data-canonical-src="../additional-docs/images/images-board/sd/hikey960-back-sd.png" width="250" height="160" />
 
 ## Features
 
