@@ -22,7 +22,7 @@ http://uk.farnell.com/samtec/ftsh-105-01-l-dv/header-1-27mm-smd-10way/dp/1667759
 
 Once the connector is soldered on it should look something like this
 
-![](https://github.com/96boards/documentation/blob/master/consumer/hikey/guides/jtag/Screenshot%20(180).png?raw=true)
+![](Screenshot1.png)
 
 ## JTAG interfaces
 
@@ -39,7 +39,7 @@ Most JTAG interfaces provide a standard ARM 20 pin socket (2x10 2.54mm) meaning 
 
 Once this is all connected it should look something like thisFT2232H
 
-![](https://github.com/96boards/documentation/blob/master/consumer/hikey/guides/jtag/Screenshot%20(181).png?raw=true)
+![](Screenshot2.png)
 
 ## OpenOCD source code
 The armv8 code isn't currently merged to mainline, the latest code I've found is on the following gerrit http://openocd.zylin.com/#/c/2523/.

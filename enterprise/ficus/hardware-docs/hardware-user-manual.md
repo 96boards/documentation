@@ -57,10 +57,11 @@ permalink: /documentation/enterprise/ficus/hardware-docs/hardware-user-manual.md
 
 The ROCK960 Development Board is a 96Boards compliant community board based on Rockchip RK3399 platform.The following table lists its key features:
 
+<!-- Commenting out as images are not available due to the board not being released yet
 <img src="../additional-docs/images/images-board/ROCK960_Front_HD.png" data-canonical-src="" width="800" />
 <img src="../additional-docs/images/images-board/ROCK960_Angle_HD.png" data-canonical-src="" width="800" />
 <img src="../additional-docs/images/images-board/ROCK960_Back_HD.png" data-canonical-src="" width="800" />
-
+-->
 
 | Component           | Description                              |
 | :------------------ | :--------------------------------------- |
