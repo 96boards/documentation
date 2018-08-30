@@ -14,7 +14,7 @@ permalink: /documentation/mezzanine/audio-mezzanine/Guides/beginner-guides/getti
 
 # 1. Hardware
 ## 1.1 Hardware Overview
-![Front labeled](/mezzanine/audio-mezzanine/images/audio-mezz-front-labeled.png)
+![Front labeled](../../images/audio-mezz-front-labeled.png)
 
 1. Switch 1: On/Off switch for 2.5mm Low speed Header
 2. Switch 2: Voltage Select for Groove Connectors and 2.5mm Low speed Header 3v3 and 5v

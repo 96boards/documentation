@@ -17,7 +17,7 @@ redirect_from: /documentation/mezzanine/linkspritesensorkit/README.md/
 The [96Boards Linker Mezzanine Starter Kit](https://www.96boards.org/product/linkspritesensorkit/) is a great way to get started with 96Boards, and it contains the components you need to make eight fun projects following step-by-step tutorials. Starting from the basics of electronics modules, to more complex projects, the kit will help you control the physical world with sensor and actuators and help you ramp up your programming using 96Boards.
 
 
-<img src="https://www.96boards.org/product/mezzanine/linkspritesensorkit/images/LinkSprite_Front.jpg?raw=true" data-canonical-src="https://www.96boards.org/product/mezzanine/linkspritesensorkit/images/LinkSprite_Front.jpg?raw=true" width="330" height="215" />
+<img src="images/LinkSprite_Front.jpg" data-canonical-src="images/LinkSprite_Front.jpg" width="330" height="215" />
 
 ## 1.2) Specifications and Features
 
