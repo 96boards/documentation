@@ -86,7 +86,7 @@ The following subsections should describe how to get started with the DragonBoar
 - Connect the DragonBoard 410c to your display with the HDMI cable. It is important to do this first because the monitor will not detect the board if it is connected after starting. Ensure that the source for the display is switched to the HDMI port you are using.
 - Connect the USB keyboard and mouse. Do not connect the USB OTG port to your computer – this will prevent the keyboard and mouse from operating. The USB OTG port is the micro USB connector on the board.
 
-![dipswitch](https://www.96boards.org/wp-content/uploads/2015/04/dip_blue_20150611_142555-300x205.jpg)
+![dipswitch](https://i.imgur.com/PVntV8D.jpg)
 
 - Ensure switch S6 is set to the factory default (0-0-0-0, i.e. all switches are off – see picture on right).
 - Switch S6 can be found on the reverse side of the board in the bottom right-hand corner.

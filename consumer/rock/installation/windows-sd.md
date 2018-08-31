@@ -45,7 +45,7 @@ This section show how to install an operating system to your ROCK960 using the S
 - Click the folder icon in the top right
 - Find your way to the appropriate `.img` file (This is why you need to remember the location of your extracted image.)
 
-<img src="../additional-docs/images/images-install/win32imagewriter.png" data-canonical-src="" width="250" height="160" />
+<img src="../rock960/additional-docs/images/images-install/win32imagewriter.png" data-canonical-src="" width="250" height="160" />
 
 
 - Insert your microSD card (through a USB SD card-reader, if necessary)

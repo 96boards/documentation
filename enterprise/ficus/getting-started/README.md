@@ -50,10 +50,11 @@ The following subsections describe how to get started with the ROCK960 using the
 
 ## Close look of ROCK960
 
+<!-- Commenting out as images are not available due to the board not being released yet
 <img src="../additional-docs/images/images-board/ficus-front-hd.png" data-canonical-src="" width="250" height="160" />
 <img src="../additional-docs/images/images-board/ficus-angle-hd.png" data-canonical-src="" width="250" height="160" />
 <img src="../additional-docs/images/images-board/ficus-back-hd.png" data-canonical-src="" width="250" height="160" />
-
+-->
 ## Assemble the case
 
 The package comes with a simple acrylic case, assemble it first:
