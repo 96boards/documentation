@@ -22,4 +22,4 @@ Design with Linux
 
 | Guide                                                               | Descripion                                                                                                                 |
 |:-------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------|
-|[Advanced Image Classification via BNN](http://www.wiki.xilinx.com/Zynq+UltraScale%EF%BC%8B+MPSoC+Accelerated+Image+Classification+via+Binary+Neural+Network+TechTip)| This design example demonstrates how moving software implemented neural networks can be dramatically accelerated via Programmable Logic.|                            |
+|[Advanced Image Classification via BNN](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/497821/Zynq+UltraScale+MPSoC+Accelerated+Image+Classification+via+Binary+Neural+Network+TechTip)| This design example demonstrates how moving software implemented neural networks can be dramatically accelerated via Programmable Logic.|                            |
