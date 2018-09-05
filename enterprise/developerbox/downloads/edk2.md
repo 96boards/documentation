@@ -16,8 +16,14 @@ it with a PC-like look and feel.
 
 | Filename                                                                                                                                   | Description                                                  |
 | :------------------                                                                                                                        | :-----------------------                                     |
-| [`DeveloperBox.Cap`](http://snapshots.linaro.org/components/kernel/leg-96boards-developerbox-edk2/latest/DeveloperBox.Cap)                 | System firmware for Capsule update (recommended)             |
-| [`SPI_NOR_IMAGE.fd-RELEASE`](http://snapshots.linaro.org/components/kernel/leg-96boards-developerbox-edk2/latest/SPI_NOR_IMAGE.fd-RELEASE) | System firmware for UART update (for board recovery only)    |
-| [`latest/`](http://snapshots.linaro.org/components/kernel/leg-96boards-developerbox-edk2/latest/)                                          | Directory containing debug images (for troubleshooting only) |
+| [`DeveloperBox.Cap`]()                 | System firmware for Capsule update (recommended)             |
+| [`SPI_NOR_IMAGE.fd-RELEASE`]() | System firmware for UART update (for board recovery only)    |
+| [`latest/`]()                                          | Directory containing debug images (for troubleshooting only) |
+
+<!--
+http://snapshots.linaro.org/components/kernel/leg-96boards-developerbox-edk2/latest/DeveloperBox.Cap
+http://snapshots.linaro.org/components/kernel/leg-96boards-developerbox-edk2/latest/SPI_NOR_IMAGE.fd-RELEASE
+http://snapshots.linaro.org/components/kernel/leg-96boards-developerbox-edk2/latest/
+-->
 
 ### Continue to [Installation page](../installation/)
