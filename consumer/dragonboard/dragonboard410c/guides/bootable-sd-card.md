@@ -21,9 +21,9 @@ This page provides information to create a bootable SD card for DragonBoard410c.
 For booting from SD card we need to have patched version of LK bootloader, Boot image and a Root file system. These could be downloaded using the following commands:
 
 ```shell
-$ wget http://builds.96boards.org/snapshots/dragonboard410c/linaro/rescue/latest/dragonboard-410c-bootloader-sd-linux-*.zip -O dragonboard410c_bootloader_sd_linux.zip
-$ wget http://builds.96boards.org/snapshots/dragonboard410c/linaro/openembedded/morty/latest/rpb/boot--*-dragonboard-410c-*.img
-$ wget http://builds.96boards.org/snapshots/dragonboard410c/linaro/openembedded/morty/latest/rpb/rpb-desktop-image-dragonboard-410c-*.rootfs.img.gz
+$ wget http://snapshots.linaro.org/96boards/dragonboard410c/linaro/rescue/latest/dragonboard-410c-bootloader-sd-linux-*.zip -O dragonboard410c_bootloader_sd_linux.zip
+$ wget http://snapshots.linaro.org/96boards/dragonboard410c/linaro/openembedded/morty/latest/rpb/boot--*-dragonboard-410c-*.img
+$ wget http://snapshots.linaro.org/96boards/dragonboard410c/linaro/openembedded/morty/latest/rpb/rpb-desktop-image-dragonboard-410c-*.rootfs.img.gz
 $ gunzip rpb-desktop-image-dragonboard-410c-XXX.rootfs.img.gz
 ```
 
@@ -48,7 +48,7 @@ $ unzip -d qcom_bootloaders dragonboard410c_bootloader_sd_linux.zip
 $ git clone https://git.linaro.org/landing-teams/working/qualcomm/db-boot-tools.git
 $ cd db-boot-tools
 $ sudo ./mksdcard -o /dev/XXX -p dragonboard410c/linux/sdcard.txt \
-     -i ../qcom_bootloaders -s 2G
+     -i ../qcom_bootloaders/dragonboard-410c-bootloader-sd-linux-106/ -s 2G
 ```
 
 Notes:
