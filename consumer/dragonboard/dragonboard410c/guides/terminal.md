@@ -1,3 +1,4 @@
+<!--
 ---
 title: Terminal Guide for DragonBoard-410c
 permalink: /documentation/consumer/dragonboard/dragonboard410c/guides/terminal.md.html
@@ -7,3 +8,4 @@ redirect_from:
 - /documentation/consumer/dragonboard410c/guides/terminal.md.html
 ---
 # Terminal
+-->

@@ -1,3 +1,4 @@
+<!--
 ---
 title: Linux Host Installation for DragonBoard 820c
 permalink: /documentation/consumer/dragonboard/dragonboard820c/installation/linux-sd.md.html
@@ -41,3 +42,4 @@ From the files downloaded earlier, extract the content of `dragonboard-820c-boot
 `./flashall`
 
 If everything works fine, you should be all set now. And you can proceed further with this wiki to install Debian or OpenEmbedded images released on 96boards.
+-->

@@ -9,18 +9,7 @@ redirect_from:
 
 This section shows how to install new operating system to your HiKey using the fastboot method on a Linux host computer.
 
-***
-
-- **Step 1**: Make sure fastboot is set up on host computer
-- **Step 2**: Extract zipfile
-- **Step 3**: Boot HiKey into Recovery mode using J15 header
-- **Step 4**: Flash factory image to the device
-- **Step 5**: Reboot HiKey into new OS
-
-***
-
-
-*#### **Step 1**: Make sure fastboot is set up on host computer.
+## **Step 1**: Make sure fastboot is set up on host computer.
 
 - Android SDK “Platform-Tools” for Linux can be downloaded <a href="https://developer.android.com/studio/releases/platform-tools.html" target="_blank">here</a>
 
@@ -28,12 +17,12 @@ This section shows how to install new operating system to your HiKey using the f
 
 HiKey should **NOT** be power on at this stage
 
-**Step 2**: Extract the zipfile
+## **Step 2**: Extract the zipfile
 
 After downloading the factory image zip file, unzip the file and change into the newly created directory.
 
 
-**Step 3**: Boot HiKey into Recovery mode using J15 header
+## **Step 3**: Boot HiKey into Recovery mode using J15 header
 
 For flashing the bootloader, the top two links should be installed (closed) and the 3rd link should be removed (open):
 
@@ -62,7 +51,7 @@ $ dmesg
 ```
 There should be a new /dev/ttyUSB device
 
-**Step 4**: Run the flashall script
+## **Step 4**: Run the flashall script
 
 Make sure the serial/modem interface is in the right ttyUSB as previously suggested. In this example, use ttyUSB0:
 
@@ -78,7 +67,7 @@ $ sudo flashall.sh /dev/ttyUSB0 4g
 #### If the flashing fails, please check that you have the current version of fastboot, and have selected the right ttyUSB serial device
 
 
-**Step 5**: Reboot HiKey into new OS
+## **Step 5**: Reboot HiKey into new OS
 
 - Wait untill all files have been flashed onto HiKey board
 - Power down HiKey by unplugging the power adapter

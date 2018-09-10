@@ -19,10 +19,11 @@ Choose and install an operating system on your HiKey970. To appropriately follow
 
 In most cases, you will be presented with two options when installing your new operating system onto your HiKey970:
 
-- SD Card Method
 - Fastboot Method
 
 Each method has it's own benifits, and requires different levels of experience
+
+<!--
 
 ### SD Card Method
 
@@ -45,7 +46,7 @@ Choose host machine
 - [Windows](windows-sd.md)
 
 ***
-
+-->
 ### Fastboot Method
 
 Fastboot is supported by the board and can be used for installs. This is for advanced users who are most likely modifying/customizing source code and will need to download such updates to the board for test/execution.
