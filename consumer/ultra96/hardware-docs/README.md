@@ -10,7 +10,7 @@ Explore what makes your Ultra96 unique, technical specifications, schematics, ha
 ## User Guides
 
 - Hardware User Manual (Beta) [View](http://www.zedboard.org/sites/default/files/documentations/Ultra96-HW-User-Guide-rev-1-0-V0_9_preliminary.pdf) (.pdf)
-- Product Brief [View](http://www.zedboard.org/sites/default/files/product_briefs/5354-pb-ultra96-v2g.pdf) (.pdf)
+- Product Brief [View](http://zedboard.org/sites/default/files/product_briefs/5354-pb-ultra96-v3b.pdf) (.pdf)
 
 ## Hardware
 
