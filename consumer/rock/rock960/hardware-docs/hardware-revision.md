@@ -37,4 +37,10 @@ Some improvements are:
 * optimize pcie equal length routing
 * add pull-up for NC pin in HS connector
 * add power measurement resistor
-* wifi antenna changed to Rainsun
+
+## V1.3
+
+MP version, fixed some minor issues.
+
+* add a dedicated PCIE power, some M.2 devices requires high peak current at power on
+* change the debug uart connector orientation, no conflicts with 96Boards mezzanine
