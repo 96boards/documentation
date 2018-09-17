@@ -38,6 +38,6 @@ redirect_from:
 | boot_fat.uefi.img.tar.xz  | [Download](http://snapshots.linaro.org/96boards/hikey/linaro/aosp-master/latest/boot.img.xz) |
 | system.img.tar.xz         | [Download](http://snapshots.linaro.org/96boards/hikey/linaro/aosp-master/latest/system.img.xz)        |
 | userdata.img.tar.xz       | [Download](http://snapshots.linaro.org/96boards/hikey/linaro/aosp-master/latest/userdata.img.xz)      |
-| cache.img.tar.xz          | [Download](http://snapshots.linaro.org/96boards/hikey/linaro/aosp-master/latest/cache.img.xz)         |
+| cache.img.tar.xz          | Temporarily Unavailable         |
 
 ### Continue to [Installation page](../installation/)
