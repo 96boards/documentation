@@ -105,6 +105,28 @@ This will take a while, after it finishes, run
 Now you reboot to the new image on eMMC.
 
 -------------------------------------------------
+## Flash by partitions
+
+For development, sometimes we don't need to flash all the images, we only want to update some partitions. Below is how to flash each partitions one by one. The GPT partition is defined in the image generation scripts.
+
+| Part Number | Offset | Name    | Description                |
+| ----------- | ------ | ------- | -------------------------- |
+| 1           | 32KB   | loader1 | First stage loader         |
+| 2           | 8MB    | loader2 | U-boot image               |
+| 3           | 12MB   | trust   | ATF                        |
+| 4           | 16MB   | boot    | Kernel partition, bootable |
+| 5           | 128MB  | rootfs  | Rootfs                     |
+
+When the board is in maskrom mode, flash the partitions with the following command and address:
+
+	rkdeveloptool db rk3399_loader_*.bin
+	rkdeveloptool wl 64 idbloader.img
+	rkdeveloptool wl 16384 uboot.img
+	rkdeveloptool wl 24576 trust.img
+	rkdeveloptool wl 32768 boot.img
+	rkdeveloptool wl 262144 rootfs.img
+
+-------------------------------------------------
 
 ## Troubleshooting
 
