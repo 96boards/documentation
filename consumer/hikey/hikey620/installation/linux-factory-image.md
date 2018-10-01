@@ -19,7 +19,25 @@ HiKey should **NOT** be power on at this stage
 
 ## **Step 2**: Extract the zipfile
 
-After downloading the factory image zip file, unzip the file and change into the newly created directory.
+After downloading the [factory image zip file](../downloads/aosp.md), unzip the file and change into the newly created directory.
+
+Example:
+```shell
+$ unzip hikey-*-factory-*.zip
+Archive:  hikey-3606021-factory-b7f143c0.zip
+   creating: hikey-3606021/
+  inflating: hikey-3606021/ptable-aosp-4g.img  
+  inflating: hikey-3606021/README    
+ extracting: hikey-3606021/image-hikey-3606021.zip  
+  inflating: hikey-3606021/nvme.img  
+  inflating: hikey-3606021/flash-all.sh  
+  inflating: hikey-3606021/l-loader.bin  
+  inflating: hikey-3606021/ptable-aosp-8g.img  
+  inflating: hikey-3606021/fip.bin   
+  inflating: hikey-3606021/hisi-idt.py  
+
+$ cd hikey-3606021/
+```
 
 
 ## **Step 3**: Boot HiKey into Recovery mode using J15 header
