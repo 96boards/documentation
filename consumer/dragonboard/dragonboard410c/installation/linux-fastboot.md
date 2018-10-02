@@ -127,7 +127,23 @@ Recall location of all downloaded files from the downloads page, files will be d
 ###### **Android**: Recall location of `boot.img.tar.xz`, `system.img.tar.xz`, `userdata.img.tar.xz`, `recovery.img.tar.xz`, `persist.img.tar.xz`, `cache.img.tar.xz`, downloaded from the downloads page
 - All of these files should have been downloaded from the downloads page
 
-#### **Step 6**: Unzip both files
+#### **Step 6**: Unzip required files
+
+##### For Debian
+```shell
+$ gunzip boot-*.img.gz
+$ gunzip linaro-*.img.gz
+```
+
+##### For Android
+```shell
+$ tar -xvf boot.img.tar.xz
+$ tar -xvf system.img.tar.xz
+$ tar -xvf userdata.img.tar.xz
+$ tar -xvf recovery.img.tar.xz
+$ tar -xvf persist.img.tar.xz
+$ tar -xvf cache.img.tar.xz
+```
 
 #### **Step 7**: Flash all images to the DragonBoard 410c
 
