@@ -98,9 +98,16 @@ $ sudo fastboot flash system system.img
 $ sudo fastboot flash userdata userdata.img
 ```
 
-#### Debian Linux
+#### Debian (Lebian) Linux
 
-Coming soon...
+Unzip the downloaded image in a directory and execute the below commands
+from it to flash HiKey970 with Lebian.
+
+```shell
+$ sudo ./flash-all-binaries.sh
+```
+
+
 
 ## Step 6: Reboot
 
