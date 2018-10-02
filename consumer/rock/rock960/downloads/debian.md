@@ -23,7 +23,7 @@ or
 
 |   SD Card/eMMC AIO Image   |    Download     |
 |:------------------|:------------------------------------|
-|All-in-one image with bootloader/kernel/rootfs     |[Debian Stretch Desktop armhf](https://dl.vamrs.com/products/rock960/images/debian/rock960_debian_stretch_desktop_armhf_20180115.tar.gz)                             |
+|All-in-one GPT partition table image with bootloader/kernel/rootfs     |[Debian Stretch Desktop armhf](https://dl.vamrs.com/products/rock960/images/debian/rock960_debian_stretch_desktop_armhf_20180115.tar.gz)                             |
 
 This image can be flashed to eMMC from USB or write and run on a SD card. Continue to [Installation page](../installation)
 

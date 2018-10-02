@@ -12,7 +12,7 @@ A comprehensive guide to using the [ROCK960](https://www.96boards.org/product/ro
 
 - [Installation](../installation/)
    - Choose and install an operating system on your ROCK960
-- [Downloads](../downloads/)
+- [Downloads](downloads/)
    - This page provides links to the latest pre-built software downloads
 - [Build from Source](../build/)
    - Instructions for building and flashing the components of your favorite operating systems
