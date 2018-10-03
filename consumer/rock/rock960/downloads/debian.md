@@ -46,4 +46,4 @@ This image can be flashed to eMMC from USB or write and run on a SD card. Contin
 |:------------------|:----------------------------------|
 |Debian LXDE rootfs armhf     | [rockchip_debian_rootfs_armhf_v2.2_20180704.ext4.gz](https://dl.vamrs.com/products/rock960/images/debian/partitions/rootfs/rockchip_debian_rootfs_armhf_v2.2_20180704.ext4.gz)                          |
 
-Continue to [Installation page](../installation)
+Continue to [Installation page](../../installation)

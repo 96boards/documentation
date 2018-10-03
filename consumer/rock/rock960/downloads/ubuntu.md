@@ -1,6 +1,6 @@
 ---
 title: Ubuntu Downloads for ROCK960
-permalink: /documentation/consumer/rock/downloads/ubuntu.md.html
+permalink: /documentation/consumer/rock/rock960/downloads/ubuntu.md.html
 redirect_from:  /documentation/consumer/rock960/downloads/ubuntu.md.html
 ---
 
@@ -46,4 +46,4 @@ This image can be flashed to eMMC from USB or write and run on a SD card. Contin
 |:------------------|:----------------------------------|
 | Ubuntu 16.04 Server rootfs arm64     | [ubuntu_16.04_server_rootfs.img.gz](https://dl.vamrs.com/products/rock960/images/ubuntu/rock960_model_ab_ubuntu_server_arm64_20181001-1845.tar.gz)                           |
 
-Continue to [Installation page](../installation)
+Continue to [Installation page](../../installation)
