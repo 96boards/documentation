@@ -1,12 +1,12 @@
 ---
-title: Downloads for ROCK960
-permalink: /documentation/consumer/rock/downloads/
-redirect_from: /documentation/consumer/rock960/downloads/
+title: Downloads for ROCK960 Model C
+permalink: /documentation/consumer/rock/rock960c/downloads/
+redirect_from: /documentation/consumer/rock/rock960c/downloads/
 ---
 
 ## Downloads
 
-ROCK960 comes pre-installed with Android. If you would like to switch the Operating System, update the existing software images on your board, or unbrick your board, this page provides links to the latest software downloads.
+ROCK960c doesn't have on board storage. You must download the install the image on the eMMC module or uSD card first. This page provides links to the latest software downloads.
 
 ***
 
