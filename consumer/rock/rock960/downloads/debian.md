@@ -1,6 +1,6 @@
 ---
-title: Debian Downloads for ROCK960
-permalink: /documentation/consumer/rock/downloads/debian.md.html
+title: Debian Downloads for ROCK960 Model A and Model B
+permalink: /documentation/consumer/rock/rock960/downloads/debian.md.html
 redirect_from: /documentation/consumer/rock960/downloads/debian.md.html
 ---
 
@@ -23,7 +23,7 @@ or
 
 |   SD Card/eMMC AIO Image   |    Download     |
 |:------------------|:------------------------------------|
-|All-in-one image with bootloader/kernel/rootfs     |[Debian Stretch Desktop armhf](https://dl.vamrs.com/products/rock960/images/debian/rock960_debian_stretch_desktop_armhf_20180115.tar.gz)                             |
+|All-in-one GPT image with bootloader/kernel/rootfs     |[Debian Stretch Desktop armhf](https://dl.vamrs.com/products/rock960/images/debian/rock960-model-ab-debian-lxde-armhf-20180814_2020.tar.gz)                             |
 
 This image can be flashed to eMMC from USB or write and run on a SD card. Continue to [Installation page](../installation)
 
@@ -33,7 +33,7 @@ This image can be flashed to eMMC from USB or write and run on a SD card. Contin
 
 |   Bootloader |    Download            |
 |:-------------|:-----------------------|
-| Miniloader(flash helper) | [rk3399_loader_v1.08.106.bin](https://dl.vamrs.com/products/rock960/images/debian/partitions/u-boot/rk3399_loader_v1.08.106.bin)           |
+| Miniloader(flash helper) | [rk3399_loader_v1.12.112.bin](https://dl.vamrs.com/products/rock960/images/debian/partitions/u-boot/rk3399_loader_v1.12.112.bin)           |
 | IDB loader(U-boot SPL)  | [idbloader.img](https://dl.vamrs.com/products/rock960/images/debian/partitions/u-boot/idbloader.img)           |
 | ARM Trustzone firmware  | [trust.img](https://dl.vamrs.com/products/rock960/images/debian/partitions/u-boot/trust.img)           |
 | U-boot                  | [uboot.img](https://dl.vamrs.com/products/rock960/images/debian/partitions/u-boot/uboot.img)           |
@@ -44,6 +44,6 @@ This image can be flashed to eMMC from USB or write and run on a SD card. Contin
 
 |   Rootfs image    |    Download                    |
 |:------------------|:----------------------------------|
-|Debian rootfs armhf     | [debian_rootfs.img.gz](https://dl.vamrs.com/products/rock960/images/debian/debian_rootfs_armhf_rockchip_release_20171108.img.gz)                          |
+|Debian LXDE rootfs armhf     | [rockchip_debian_rootfs_armhf_v2.2_20180704.ext4.gz](https://dl.vamrs.com/products/rock960/images/debian/partitions/rootfs/rockchip_debian_rootfs_armhf_v2.2_20180704.ext4.gz)                          |
 
-Continue to [Installation page](../installation)
+Continue to [Installation page](../../installation)

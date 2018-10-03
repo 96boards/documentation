@@ -1,6 +1,6 @@
 ---
 title: Downloads for ROCK960
-permalink: /documentation/consumer/rock/downloads/
+permalink: /documentation/consumer/rock/rock960/downloads/
 redirect_from: /documentation/consumer/rock960/downloads/
 ---
 
