@@ -181,7 +181,7 @@ Run configure script in out-of-source build folder:
 ../qt5/configure -release -opengl es2 -device linux-dragonboard \
 -device-option CROSS_COMPILE=/media/hdd/linaro/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu- \
 -sysroot /media/hdd/linaro/sysroot -opensource \
--confirm-license -make libs -prefix /usr/local/qt5dragon \ 
+-confirm-license -make libs -prefix /usr/local/qt5dragon \
 -extprefix /media/hdd/linaro/qt5dragon \
 -hostprefix /media/hdd/linaro/qt5-qmake -v -nomake examples -nomake tests
 ```
