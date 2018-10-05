@@ -21,5 +21,6 @@ Operating systems supported on Ultra96, offered by Linaro.
 
 - [Linux](linux.md)
 - [OpenSUSE](https://en.opensuse.org/HCL:Ultra96)
+- [Xilinx PYNQ](http://www.pynq.io/board.html)
 
 ***
