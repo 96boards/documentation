@@ -84,3 +84,6 @@ $ sudo vim /etc/fstab
 $ sudo reboot now
 $ free
 ```
+# Video Demonstration
+
+[![video](https://img.youtube.com/vi/lg2PT2O-JAM/0.jpg)](http://www.youtube.com/watch?v=lg2PT2O-JAM)

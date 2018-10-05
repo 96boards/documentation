@@ -20,13 +20,12 @@ You need prepare 6 components:
 - fastboot command need be support
 - fastboot command script file eg. xflash.sh (optional, you can flash images one by one manually)
 
-xflash, normal images, and special images are in a file distributed by Linaro [the latest .tar.gz file] (http://releases.linaro.org/96boards/helio-x20/mediatek/aosp/latest/96board_v3.tar.gz)
+xflash, normal images, and special images are in a file distributed by Linaro [the latest .tar.gz file](http://releases.linaro.org/96boards/helio-x20/mediatek/aosp/latest/)
 
 #### **Flash Tool (the xflash)**
 
-source code: vendor/mediatek/proprietary/system/core/xflash of [sla.tar.gz]
-(http://releases.linaro.org/96boards/helio-x20/mediatek/aosp/latest/sla.tar.gz)
-binary: the 96board_v3.0/xflash_test/bin/linux/xflash in [the binary .tar.gz file] (http://releases.linaro.org/96boards/helio-x20/mediatek/aosp/latest/96board_v3.tar.gz)
+source code: vendor/mediatek/proprietary/system/core/xflash of [sla.tar.gz](http://releases.linaro.org/96boards/helio-x20/mediatek/aosp/latest/sla.tar.gz)
+binary: the 96board_v3.0/xflash_test/bin/linux/xflash in [the binary .tar.gz file](http://releases.linaro.org/96boards/helio-x20/mediatek/aosp/latest/)
 
 #### **How to build special images**
 

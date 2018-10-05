@@ -1,32 +1,23 @@
 ---
-title: Documentation for HiKey
+title: Hikey Family Documentation
 permalink: /documentation/consumer/hikey/
-redirect_from: /documentation/ConsumerEdition/HiKey/README.md/
 ---
-# Using the HiKey
-
-A comprehensive guide to using the [HiKey](https://www.96boards.org/product/hikey/) Consumer Edition development board. This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
-
-## Software
-
-- [Installation](installation/)
-   - Choose and install an operating system on your HiKey
-- [Downloads](downloads/)
-   - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
-- [Build from Source](build/)
-   - Instructions for building and flashing the components of your favorite operating systems
-
-## Documentation
-
-- [Getting Started](getting-started/)
-   - Learn about your HiKey board, how to prepare and set up for basic use
-- [Useful Guides](guides/)
-   - Execute unique configurations to customize your HiKey experience
-- [Vendor Documentation](hardware-docs/)
-   - Explore what makes your HiKey unique, technical specifications, schematics, hardware notes and more...
-- [Additional Documentation](additional-docs/)
-   - Discover our list of sponsored HiKey documents, these include User Guides and Application notes
-- [Support](troubleshooting/)
-   - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers   
+Welcome to the official documentation for Consumer Edition 96Boards, these documents are written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
 ***
+
+## Contents - Start Here
+
+Select your Consumer Edition Hikey 96Boards device to access all product specific resources. You may also use the links below to compare, and explore a list of 96Boards Consumer Edition extras, this includes instructions for unique board configurations and fun projects.
+
+- HiKey Generic Guides
+
+<div style="overflow-x:scroll;" markdown="1">
+
+| 96Boards                                         | About                                                  | Options                    |
+|:------------------------------------------------:|:------------------------------------------------------:|:--------------------------:|
+| <img src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey970/additional-docs/images/images-board/sd/hikey970-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey970/additional-docs/images/images-board/sd/hikey970-front-sd.png?raw=true" width="200" height="130" /><br> **HiKey970** | Board based on the HI3670 Application Processor | [Documentation](hikey970/)<br> |
+| <img src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-board/sd/hikey960-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey960/additional-docs/images/images-board/sd/hikey960-front-sd.png?raw=true" width="200" height="130" /><br> **HiKey960** | Board based on HiSilicon Kirin 960 processor  | [Documentation](hikey960/)<br> |
+| <img src="https://i.imgur.com/uKfxuu5.jpg" data-canonical-src="https://i.imgur.com/uKfxuu5.jpg" width="200" height="130" /><br> **HiKey** | Board based on HiSilicon Kirin 6220 processor  | [Documentation](hikey620/)<br> |
+
+</div>

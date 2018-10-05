@@ -4,13 +4,17 @@ permalink: /documentation/
 redirect_from:
 - /documentation/README.md/
 ---
-# 96Boards Documentation
-
 Welcome to the official documentation for 96Boards, this documentation is written by the 96Boards team at Linaro with community contribution and links to third party material.
 
 ## Contents - Start Here
 
-Select your platform for a list of supported products(Left), or jump to 96Boards specific resources by selecting a board from the list(Right).
+Select your platform for a list of supported products (left), or jump to 96Boards specific resources by selecting a board from the list (right).
+
+**Important links:**
+
+- [96Boards Guides](guides/)
+- [Contribute to this repository](CONTRIBUTE.md)
+
 <div style="overflow-x:scroll;" markdown="1">
 
 | Platform                                | Description                                 | Boards                                     |

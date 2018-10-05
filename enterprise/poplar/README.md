@@ -21,7 +21,7 @@ A comprehensive guide to using the [Poplar](https://www.96boards.org/product/pop
    - Learn about your Poplar board, how to prepare and set up for basic use
 - [Vendor Documentation](hardware-docs/)
    - Explore what makes your Poplar unique, technical specifications, schematics, hardware notes and more...
-- [Support](support/)
+- [Troubleshooting and Support](support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers   
 - [Useful Guides](guides/)
   - These guides will help to get you started with a variety of available on-boards software

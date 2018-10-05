@@ -1,14 +1,25 @@
 ---
 title: Developerbox Board Recovery
-permalink: /documentation/enterprise/developerbox/installation/board-recovery.md
-redirect_from:
-
+permalink: /documentation/enterprise/developerbox/installation/board-recovery.md.html
 ---
-# Developerbox Recovery
+# Table of Contents
 
-This page outlines steps needed to recover your Developerbox from a
-bricked software state. This instruction set is suggested to those who
-are experiences boot issues due to a corruption of the NAND FLASH.
+   * [System firmware recovery](#system-firmware-recovery)
+      * [Update using serial flasher](#update-using-serial-flasher)
+      * [Resetting the NVRAM](#resetting-the-nvram)
+   * [Low-level (CM3) firmware recovery](#low-level-cm3-firmware-recovery)
+      * [Update using serial flasher](#update-using-serial-flasher-1)
+      * [JTAG recovery](#jtag-recovery)
+
+<!-- Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc) -->
+
+***
+
+# System firmware recovery
+
+This section outlines steps needed to recover your Developerbox from a
+bricked software state. These instructions are suggested to those who
+are experiences boot issues due to a corruption of the NOR FLASH.
 
 In all other cases is it **strongly** recommended to use [Capsule
 Update](README.md) instead.
@@ -23,7 +34,7 @@ The serial flasher can be enabled in two ways.
 2. Send a keypress to LS-UART0 shortly after turning on the
    power to the board and enter `update firmware` at the
    resulting command prompt. In some systems the timeout to
-   enter the initial keypress is *very* short meaning it is best to 
+   enter the initial keypress is *very* short meaning it is best to
    send repeated keypresses commencing before you turn the board on
    (a.k.a. keyboard auto-repeat).
 
@@ -42,7 +53,7 @@ Once the flasher tool is running we are ready flash the UEFI image:
 
 ~~~
 flash rawwrite 180000 280000
-# Send SPI_NOR_IMAGE.fd-RELEASE via XMODEM (Control-A S in minicom)
+>> Send SPI_NOR_IMAGE.fd-RELEASE via XMODEM (Control-A S in minicom) <<
 ~~~
 
 ## Resetting the NVRAM
@@ -60,21 +71,24 @@ to 2b0000, compared to a normal flash write operation):
 
 ~~~
 flash rawwrite 180000 2b0000
-# Send SPI_NOR_IMAGE.fd via XMODEM (Control-A S in minicom)
-# ~~~
-# Low-level (CM3) firmware
+>> Send SPI_NOR_IMAGE.fd via XMODEM (Control-A S in minicom) <<
+~~~
+
+***
+
+# Low-level (CM3) firmware recovery
+
 Very occasionally it may be required to update the low-level board
-firmware (a.k.a. CM3 firmware). 
+firmware, sometimes called the CM3 firmware).
 
 ## Update using serial flasher
 
-Be aware that THIS COMMAND HAS THE CAPABILITY TO SOFT-BRICK YOUR
-BOARD. In particular the implementation of the XMODEM protocol is
-easily confused by extra keystrokes and runs *after* the FLASH has
-been erased. For example sending *Control-A Control-S* rather than
-*Control-A S* from minicom risks soft-bricking the board. It is
-possible to recovery a soft-bricked board using a JTAG programmer
-(see below).
+Be aware that THE SERIAL FLASHER HAS THE CAPABILITY TO SOFT-BRICK YOUR
+BOARD. In particular the implementation of the XMODEM protocol is easily
+confused by extra keystrokes and runs *after* the FLASH has been erased.
+For example sending *Control-A Control-S* rather than *Control-A S* from
+minicom risks soft-bricking the board. It is possible to recovery a
+soft-bricked board using a JTAG programmer (see below).
 
 The serial flasher can be enabled in two ways.
 
@@ -84,7 +98,7 @@ The serial flasher can be enabled in two ways.
 2. Send a keypress to LS-UART0 shortly after turning on the
    power to the board and enter `update firmware` at the
    resulting command prompt. In some systems the timeout to
-   enter the initial keypress is *very* short meaning it is best to 
+   enter the initial keypress is *very* short meaning it is best to
    send repeated keypresses commencing before you turn the board on
    (a.k.a. keyboard auto-repeat).
 
@@ -105,14 +119,16 @@ or not it requires contains any changes!
 
 ~~~
 flash write s-mir-cm3
-# Send new option ROM via XMODEM
-# synquacer_eeprom_pcie0snoop_on_pcie1snoop_on.bin
-flash write p-REMOVEmasterCAPS-cm3
-# Send new CM3 firmware via XMODEM
+>> Send option ROM via XMODEM <<
+flash write p-master-cm3
+>> Send new CM3 firmware via XMODEM <<
 ~~~
 
-The currently recommended firmware is: `ramfw_20171102.bin` (sha1sum:
-`6dad40f7d055346a7cd095ed432c677bf2509c8e`).
+The current option rom is found in the system firmware sources:
+`edk2-non-osi/Platform/Socionext/DeveloperBox/synquacer_eeprom_pcie0snoop_on_pcie1snoop_on` .
+
+The currently recommended firmware is available seperately:
+`ramfw_20171102.bin` (sha1sum: `6dad40f7d055346a7cd095ed432c677bf2509c8e`).
 
 ### Example session log
 
@@ -120,7 +136,7 @@ Full log of a low-level firmware upgrade is shown below. The serial
 flasher was entered using the keystroke method:
 
 ~~~
- [SYSTEM] Entered SynQuacer Firme
+[SYSTEM] Entered SynQuacer Firme
 [SYSTEM] chip version 2.
 [SYSTEM] Firmware mode Master
 [SYSTEM] Platform: Socionext ARM Server
@@ -128,24 +144,24 @@ flasher was entered using the keystroke method:
 [SYSTEM] v1.15.1
 [SYSTEM] Build: 09/22/17 19:42:53
 [SYSTEM] git revision f4de521
-[SYSTEM] Initializing power domain 
+[SYSTEM] Initializing power domain
 [PowerDomain] Socionext-PPU initialize .
 [PowerDomain] Socionext-PPU initialize end .
 [PowerDomain] PowerDomain All-ON start.
 [PowerDomain] PowerDomain All-ON finished .
-[SYSTEM] Finished initializing power domain 
+[SYSTEM] Finished initializing power domain
 [SYSTEM] Initializing NIC SECURE
 [SYSTEM] Finished initializing NIC SECURE
-[SYSTEM] Starting irq enabele 
-[SYSTEM] Finished starting irq enabele 
-[SYSTEM] Initializing maintenance network 
-[COMLIB] Initializing NETSEC hardware 
+[SYSTEM] Starting irq enabele
+[SYSTEM] Finished starting irq enabele
+[SYSTEM] Initializing maintenance network
+[COMLIB] Initializing NETSEC hardware
 [COMLIB] NETSEC found. Hardware version: 00050041
-[COMLIB] Finished initializing NETSEC hardware 
+[COMLIB] Finished initializing NETSEC hardware
 [COMLIB] Microcode version: 100005D5
-[COMLIB] Initializing external Ethernet PHY device 
-[COMLIB] Finished initializing external Ethernet PHY device 
-[SYSTEM] Finished initializing maintenance network 
+[COMLIB] Initializing external Ethernet PHY device
+[COMLIB] Finished initializing external Ethernet PHY device
+[SYSTEM] Finished initializing maintenance network
 To enter debug mode, please press any key.
 
 /*------------------------------------------*/
@@ -153,22 +169,22 @@ To enter debug mode, please press any key.
 /*------------------------------------------*/
 
 Command Input >update firmware
-update firmware 
+update firmware
 
-/*------------------------------------------*/                                 
-/*  SC2A11 "SynQuacer" series Flash writer  */                                 
-/*------------------------------------------*/                                 
-                                                                               
-Command Input >flash write p-master-cm3                                        
-Command'flash'Start...                                                         
-HsspiSoftwareReset()...RDSR=40                                                 
-[INFO] ManufacturerID=C2 DeviceID=25 RDSR=00                                   
-[INFO] DeviceName=MX66U1G45G (256bytes per programmable page)                  
-Showing status registers. RDSR = 0x00000040, Enter 4-byte mode                 
-HsspiSectorErase. Please wait...                                               
- End.SectorErase(7/7)...                                                       
+/*------------------------------------------*/
+/*  SC2A11 "SynQuacer" series Flash writer  */
+/*------------------------------------------*/
+
+Command Input >flash write p-master-cm3
+Command'flash'Start...
+HsspiSoftwareReset()...RDSR=40
+[INFO] ManufacturerID=C2 DeviceID=25 RDSR=00
+[INFO] DeviceName=MX66U1G45G (256bytes per programmable page)
+Showing status registers. RDSR = 0x00000040, Enter 4-byte mode
+HsspiSectorErase. Please wait...
+ End.SectorErase(7/7)...
 Writing data at offset 0x00000000, max_size 0x00080000
-Waiting to receive the data in XMODEM protocol (128bytes check-sum)...         
+Waiting to receive the data in XMODEM protocol (128bytes check-sum)...
 
 >>>>> Send firmware via XMODEM when non-ASCII characters appear <<<<<
 
@@ -267,9 +283,8 @@ be running on the CM3 console and NOR can be updated:
 
 ~~~
 flash write s-mir-cm3
-# Send new option ROM via XMODEM
-# edk2-non-osi/Platform/Socionext/DeveloperBox/synquacer_eeprom_pcie0snoop_on_pcie1snoop_on.bin
+>> Send new option ROM via XMODEM <<
 flash write p-master-cm3
-# Send new CM3 firmware via XMODEM
+>> Send new CM3 firmware via XMODEM <<
 ~~~
 

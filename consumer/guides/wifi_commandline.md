@@ -64,3 +64,6 @@ Then just enable the connection:
 ```shell
 root@linaro-alip:~# nmcli con up WiFi
 ```
+# Video Demonstration
+
+[![video](https://img.youtube.com/vi/KbfjfcTdpwY/0.jpg)](http://www.youtube.com/watch?v=KbfjfcTdpwY)

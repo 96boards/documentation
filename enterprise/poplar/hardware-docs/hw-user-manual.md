@@ -7,38 +7,18 @@ redirect_from: /documentation/EnterpriseEdition/Poplar/HardwareDocs/HardwareUser
 
 ### Table of Contents
 
-- Introduction
-- What's in the Box
-- Board Overview
-   - Key Components
-   - Application Block Diagram
-   - Jumpers Configuration
-- Getting Started
-   - Prerequisites
-   - First Power ON
-- Component Details
-   - Processor
-   - Memory (DRAM)
-   - Storage
-      - eMMC
-      - Micro SDHC
-   - Networking
-      - LAN
-      - WiFi
-   - HDMI Interface
-   - USB Ports
-   - Audio
-   - DC Power
-   - UART
-   - Keys
-   - LED Indicators
-   - GPIO
-- Expansion Connectors
-   - PCIE Expansion Connector
-   - Smart Card Expansion Connector
-   - TS Connector
-   - 40 Pin Low Speed Expansion Connector
-- Mechanical Specification
+- [Introduction](#introduction)
+- [What's in the Box](#whats-in-the-box)
+- [Board Overview](#board-overview)
+   - [Key Components](#key-components)
+   - [Application Block Diagram](#application-block-diagram)
+   - [Jumpers Configuration](#jumpers-configuration)
+- [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [First Power ON](#first-power-on)
+- [Component Details](#component-details)
+- [Expansion Connectors](#expansion-connectors)
+- [Mechanical Specification](#mechanical-specification)
 
 ***
 
@@ -46,16 +26,16 @@ redirect_from: /documentation/EnterpriseEdition/Poplar/HardwareDocs/HardwareUser
 
 The 96Boards Poplar board is the first TV board to be certified 96Boards Enterprise Edition compatible from Tocoding Ltd., and it's based around the Hisilicon Hi3798C V200 SoC, with  Quad-core ARM Cortex-A53 64-bit CPU up to 2.0GHz .  
 
-- **Processor**:
+- **Processor:**
    - HiSilicon Hi3798C V200 SoC
    - Integrated Quad-core 64-bit ARM Cortex-A53 CPU up to 2.0 GHz per core
    - Embedded MaliT720 GPU, OpenGL ES 3.1/3.0/2.0/1.1/1.0
    - OpenVG 1.1,OpenCL 1.2/1.1 Full Profile/RenderScipt, Microsoft
    - DirectX 11 FL9_3, ASTC(Adaptive Scalable Texture Compression), Pixel fill rate up to 2.7 Gpix/s, triangle arithmetic up to 280Mtri/s, floating point up to 103 GFLOPS
-- **Memory / Storage**:
+- **Memory / Storage:**
    - 2GB 800MHz LPDDR3
    - 8GB eMMc on-board storage
-- **Video Decoding**:
+- **Video Decoding:**
    - H.265/HEVC Main/Main10 profile@level 5.1 high-tier,maximum 4K x 2K@60 fps and 1x1080p@30 fps simultaneous decoding
    - H.264/AVC BP/MP/HP@level 5.1;
    - H.264/AVC MVC,maximum 4K x 2K@30 fps decoding
@@ -66,15 +46,15 @@ The 96Boards Poplar board is the first TV board to be certified 96Boards Enterpr
    - MPEG4 SP@level 0−3, ASP@level 0−5, GMC, short header format, maximum 1080p@60 fps decoding
    - AVS baseline profile@level 6.0, AVS-P16 (AVS+),maximum 1080p@60 fps decoding
    - VC-1 SP@ML, MP@HL, AP@level 0−3, maximum1080p@60 fps decoding
-- **Image Decoding**:
+- **Image Decoding:**
    - Full HD JPEG hardware decoding, maximum 64 megapixels
    - PNG hardware decoding, maximum 64 megapixels
-- **Video and Image Encoding**:
-   - H.264 BP/MP/HP@level 4.2 video encoding, maximum 1x1080p@30 fps or 2x720p@30 fps decoding
+- **Video and Image Encoding:**
+   - H.264 BP/MP/HP@level 4.2 video encoding, maximum 1x1080p@30 fps or 2x720p@30 fps encoding
    - Variable bit rate (VBR) or constant bit rate (CBR) mode
    - Low-delay encoding
    - Encoding of multiple region of interests (ROIs)
-- **Audio Encoding/Decoding**:
+- **Audio Encoding/Decoding:**
    - MPEG L1/L2
    - Dolby Digital/Dolby Digital Plus Decoder-Converter(optional)
    - Dolby True HD decoding(optional)
@@ -86,12 +66,12 @@ The 96Boards Poplar board is the first TV board to be certified 96Boards Enterpr
    - Dolby MS12 decoding and audio effect
    - G.711(u/a), AMR-NB, AMR-WB, and AAC-LC audio encoding
    - HE-AAC transcoding DD (AC3)
-- **TS Demultiplexing/PVR **:
+- **TS Demultiplexing/PVR:**
    - Maximum six TS inputs (optional)
    - Two TS outputs (multiplexed with two TS inputs)
    - DVB-CSA/AES/DES descrambling
    - Recording of scrambled and non-scrambled streams
-- **Audio/Video Interfaces **:
+- **Audio/Video Interfaces**
    - PAL, NTSC, and SECAM standard output, and forcible standard conversion
    - Aspect ratio of 4:3 or 16:9, forcible aspect ratio conversion, and free scaling
    - 4Kx2Kp60/4K x 2Kp30/1080p60/1080p50/1080p30/1080p24/1080i60/108 0i50/720p/576p/576i/480p/480i output
@@ -108,7 +88,7 @@ The 96Boards Poplar board is the first TV board to be certified 96Boards Enterpr
       - One embedded ADAC
       - One I2 S/PCM digital audio input/output
       - HDMI audio output
-- **Connectivity**:
+- **Connectivity:**
    - LAN Ethernet:10/100M, standard RJ-45
    - WLAN 802.11 ac/b/g/n 2.4GHz/5GHz Dual Band, Bluetooth 4.0/4.1, Transmission rate 1200Mbps
    - One micro USB
@@ -118,14 +98,14 @@ The 96Boards Poplar board is the first TV board to be certified 96Boards Enterpr
    - HEADPHONE
    - SPDIF
    - IR
-- **I/O Interfaces
+- **I/O Interfaces**
    - Smart Card expansion connector
    - TS connector
    - PCIE expansion connector
    - 40 Pin Low Speed Expansion Connector
 - **External Storage**
    - Micro SD card slot
-- **Key & LED**:
+- **Key & LED:**
    - Power Key
    - STB_KEY
    - WPS KEY
@@ -138,10 +118,10 @@ The 96Boards Poplar board is the first TV board to be certified 96Boards Enterpr
    - User LED2
    - User LED3
    - User LED4
-- **OS-Support**:
+- **OS-Support:**
    - Android
    - Linux
-- **Power Mechanical and Environmental
+- **Power Mechanical and Environmental:**
    - Power: 12V@2A input
    - Dimensions: 160mm by 120mm meeting 96Boards™ Enterprise Edition standard dimensions specifications.
    - Operating Temp: 0°C to +70°C
@@ -199,9 +179,6 @@ The value of jumpers is as follows:
 ## Getting Started
 
 #### Prerequisites
-
-< Add a list of things needed to switch ON the board with the default SW >
-
 Before you power up your 96Boards Poplar board for the first time you will need the following:
 
 -  96Boards Poplar board.
@@ -211,14 +188,8 @@ Before you power up your 96Boards Poplar board for the first time you will need 
 - A computer keyboard with USB interface.
 - A computer mouse with USB interface.
 
-#### Known Limitations
-
-< Add a list of HW/SW limitations (e.g. OTG and Type A USB can’t be use simultaneously) >
 
 #### Starting the board for the first time
-
-< Add a list of steps to switch ON the board for the first time including any warnings about jumper positions, connecting cables. A picture/block diagram showing how to connect the board for development is welcome >
-
 To start the board, follow these simple steps:
 
 1. Connect the HDMI cable to the 96Boards Poplar HDMI connector and to the LCD Monitor.
@@ -235,10 +206,6 @@ To start the board, follow these simple steps:
 
 Hi3798C V200 is an unltra-HD high performance SoC supporting 4Kp60 fps decoding for the DVB and IPTV STB markets. With an integrated quad-core 64-bit high-performance Cortex A53 processor and embedded NEON, Hi3798C V200 provides powerful CPU processing capabilities that meet differentiated service requirements. It creates the industry's best user experience in stream compatibility, smoothness and picture quality of live video playback, and STB performance. To meet the growing requirements on multimedia playback, video communication, and multi-screen transcoding, Hi3798C V200 supports 4K x 2Kp60@10-bit ultra-HD video decoding in various formats (including H.265/HEVC, H.264/AVC, AVS+, MVC, MPEG2, MPEG4, VC-1, VP6, VP8, and VP9) and high-performance H.264 encoding. It also supports Dolby and DTS audio processing. Hi3798C V200 provides a smooth man-machine interface and rich gaming experience with a high-performance multi-core 2D/3D acceleration engine. The chip also enables flexible connection schemes with multiple Ethernet ports, USB 2.0 ports, USB 3.0 ports, SATA/eSATA ports, PCIe 2.0 ports, and more peripheral interfaces.
 
-### PMIC
-
-< A short section describing the properties of the PMIC and part of the schematic and description of what regulators power what components >
-
 ### Memory (DRAM)
 
 The 96Boards Poplar board uses a 2GB LPDDR3 DRAM chip as the memory. a single embedded Multi Chip Package (eMCP) dual function LPDDR3/eMMC memory solution.  The LPDDR3 is a 32bit width bus implementation interfacing directly to the Hi3798C V200 build-in LPDDR controller. The maximum DDR clock is 800Mhz.
@@ -246,10 +213,6 @@ The 96Boards Poplar board uses a 2GB LPDDR3 DRAM chip as the memory. a single em
 ### Micro SDHC
 
 The microSDHC socket is on the bottom left corner of the PCB and is routed directly to the Hi3798C V200 SD 3.0 interface, and supports 1-bit and 4-bit modes (3 V and 1.8 V supported for the I/O device). The slot is a push-push type with a dedicated support for card detect signal.  
-
-### Boot ROM
-
-< A short section describing how this board satisfied the 96board spec for boot ROM flash specification version >
 
 ### Networking
 
@@ -274,14 +237,6 @@ The 96Boards Poplar board uses a small size and low power module for IEEE 802.11
 The WiFi hardware block Diagram is followed:
 
 <img src="https://github.com/96boards/documentation/blob/master/enterprise/poplar/additional-docs/images/images-hw-user-manual/BlockDiagram_WIFI.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/enterprise/poplar/additional-docs/images/images-hw-user-manual/BlockDiagram_WIFI.png?raw=true" width="750" height="480" />
-
-#### Bluetooth
-
-< A short section describing the properties of BLE chip, what additional features are supported >
-
-## Display Interface
-
-< A short section describing the how the board satisfies this requirement and if there are limitations when a mezzanine display board is connected. It is highly recommended to provide a block diagram showing how the SoC, external connectors and intermediate drivers/convertors are wired up >
 
 ### HDMI
 
@@ -476,7 +431,5 @@ The tuner module board and is optionally supplied.
 ***
 
 ## Mechanical Specification
-
-< Add a drawing showing the mechanical layout, dimensions, distance between mounting holes, max. component height >
 
 <img src="https://github.com/96boards/documentation/blob/master/enterprise/poplar/additional-docs/images/images-hw-user-manual/2DDrawing.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/enterprise/poplar/additional-docs/images/images-hw-user-manual/2DDrawing.png?raw=true" width="750" height="480" />
