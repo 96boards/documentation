@@ -46,7 +46,9 @@ Choose host machine to create the USB stick from:
 - [Mac](mac-usb.md)
 - [Windows](windows-usb.md)
 
-## Boot into the installer
+## Boot into the installer and install OS
+
+**Note: On the Developer Box main board, flip switch SW3-2 to "Off" prior to starting installation
 
  1. Insert the USB stick to any of the USB sockets
  2. Turn on or reboot your Developerbox
@@ -54,6 +56,8 @@ Choose host machine to create the USB stick from:
  4. Choose **Boot Manager**
  5. From the boot options in the Boot Manager Menu, choose your USB
     device to start the installer.
+    
+**Note: Upon completion of OS installation return switch SW3-2 to the "On" postion and reboot.
 
 ***
 
