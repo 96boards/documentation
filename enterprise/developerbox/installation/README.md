@@ -48,7 +48,7 @@ Choose host machine to create the USB stick from:
 
 ## Boot into the installer and install OS
 
-**Note: Some operating systems may require workarounds to fix known installation problems. See the [install guides](https://www.96boards.org/documentation/enterprise/developerbox/downloads/#third-party-operating-systems) for third party operating systems or, if your OS not listed, the Known Issues for more details.**
+**Note: Some operating systems may require workarounds to fix known installation problems. See the [install guides](https://www.96boards.org/documentation/enterprise/developerbox/downloads/#third-party-operating-systems) for third party operating systems or, if your OS not listed, the [Known Issues](https://www.96boards.org/documentation/enterprise/developerbox/support/known-issues.html) for more details.**
 
  1. Insert the USB stick to any of the USB sockets
  2. Turn on or reboot your Developerbox
