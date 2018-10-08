@@ -48,7 +48,7 @@ Choose host machine to create the USB stick from:
 
 ## Boot into the installer and install OS
 
-**Note: On the Developer Box main board, power off the DevBox and flip switch SW3-2 to "Off" prior to starting installation.**
+**Note: Some operating systems may require workarounds to fix known installation problems. See the [install guides](https://www.96boards.org/documentation/enterprise/developerbox/downloads/#third-party-operating-systems) for third party operating systems or, if your OS not listed, the Known Issues for more details.**
 
  1. Insert the USB stick to any of the USB sockets
  2. Turn on or reboot your Developerbox
@@ -57,8 +57,6 @@ Choose host machine to create the USB stick from:
  5. From the boot options in the Boot Manager Menu, choose your USB
     device to start the installer.
     
-**Note: Upon completion of OS installation power off the DevBox, return switch SW3-2 to the "On" postion and reboot.**
-
 ***
 
 # System firmware update
