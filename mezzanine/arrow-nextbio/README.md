@@ -11,7 +11,7 @@ permalink: /documentation/mezzanine/arrow-nextbio/
 	- 1.2) [Specifications & Features](#12-specifications-and-features)
 - 2) [Pin Mapping](#2-pin-mapping)
 - 3) [Downloads](#3-downloads)
-- 3) [Guides and Documentation](#guides-and-documentation)
+- 4) [Guides and Documentation](#4-guides-and-documentation)
 
 # NextBio Mezzanine
 
