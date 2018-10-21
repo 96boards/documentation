@@ -8,4 +8,8 @@ redirect_from: /documentation/consumer/rock960/build/
 
 ## Contents
 
+- [Linux Kernel](linux-kernel.md)
+   - Build Linux Kernel from source
+
 - [Android](aosp.md)
+   - Build AOSP from source
