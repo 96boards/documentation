@@ -22,7 +22,7 @@ Other operating systems, offered by partners.
 
 - [Debian](debian.md)
 - [Ubuntu](ubuntu.md)
-- [Android](https://source.android.com/setup/)
+- [Android](android.md)
 
 ***
 
