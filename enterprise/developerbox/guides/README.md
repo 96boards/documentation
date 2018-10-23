@@ -9,3 +9,4 @@ These guides will help to get you started with a variety of available on-boards 
 | Guide                                                                 | Descripion                                                                          |
 | :-------------------------------------------------------------------: | :-------------------------------------------------------------                      |
 | [Install over http](install-over-http.md)                             | Using the system firmware to automatically download and boot ISO images using http. |
+| [uefi guide](uefi-guide.md)                                           | Introduction to the uefi boot menu.                                                 |
