@@ -1,6 +1,6 @@
 ---
-title: Build Source for boardname
-permalink: /documentation/consumer/uranus/build/
+title: Build Source for Uranus
+permalink: /documentation/iot/uranus/build/
 ---
 
 # Build from Source

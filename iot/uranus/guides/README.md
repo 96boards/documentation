@@ -1,16 +1,16 @@
 ---
-title: Useful Guides for boardname
-permalink: /documentation/consumer/uranus/guides/
+title: Useful Guides for Uranus Board
+permalink: /documentation/iot/uranus/guides/
 ---
 
 # Useful Guides
 
 These guides will help to get you started with a variety of available on-boards software
 
-## Debian
+## OS1
 
 Coming Soon...
 
-## Android
+## OS2
 
 Coming Soon...
