@@ -1,6 +1,6 @@
 ---
 title: Additional Docs for boardname
-permalink: /documentation/consumer/uranus/additional-docs/
+permalink: /documentation/iot/uranus/additional-docs/
 ---
 # Board Images
 
