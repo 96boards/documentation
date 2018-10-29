@@ -1,5 +1,5 @@
 ---
-title: Using the boardname
+title: Using the Uranus Board
 permalink: /documentation/iot/uranus/
 ---
 # Using the Uranus

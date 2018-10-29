@@ -1,6 +1,6 @@
 ---
 title: Getting Started with Uranus Board
-permalink: /documentation/IoT/uranus/getting-started/
+permalink: /documentation/iot/uranus/getting-started/
 ---
 
 # Getting Started
