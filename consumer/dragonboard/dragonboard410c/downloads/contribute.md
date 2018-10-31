@@ -17,7 +17,7 @@ This page provides instructions for developers willing to contribute to the Lina
 
 The following mailing list has been created to contributions:
 
-https://lists.96boards.org/mailman/listinfo/dragonboard
+[https://lists.96boards.org/mailman/listinfo/dragonboard](https://lists.96boards.org/mailman/listinfo/dragonboard)
 
 This is a public mailing open to any developer.
 
