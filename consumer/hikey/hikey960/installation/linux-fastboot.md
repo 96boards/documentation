@@ -129,8 +129,8 @@ Auto Power up | Link 1-2 / Switch 1 | closed / ON
 Recovery      | Link 3-4 / Switch 2 | open / OFF
 Fastboot      | Link 5-6 / Switch 3 | open / OFF
 
-- Ensure HDMI connection to monitor
-- Ensure keyboard and/or mouse connection
+- Ensure keyboard, mouse and HDMI cable to monitor are all connected (AOSP only)
+- Ensure UART adapter is 1.8v and connected to [LS-UART1](https://96boards.org/pinout/) (Debian only).
 - Plug power back into HiKey960 (96Boards compliant power supply)
 - Wait for board to boot up
 
