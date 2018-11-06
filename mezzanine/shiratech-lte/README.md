@@ -110,4 +110,4 @@ Sensor I2C address: 0x48
 
 ## 2) [Guides](guides/)
 
-## 3) [Schematics](files/SRT-PCB-MEZ-LTE-R3_1-29-09-2018.pdf)
+## 3) [Schematics](files/lte-schematics.pdf)
