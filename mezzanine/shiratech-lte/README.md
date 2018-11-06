@@ -8,7 +8,7 @@ permalink: /documentation/mezzanine/shiratech-lte/
 	- 1.1) [About the Shiratech LTE Mezzanine](#11-about-the-shiratech-lte-and-sensors-mezzanine)
 	- 1.2) [Features & Specifications](#12-features-and-specifications)
 - 2) [Guides](#2-guides)
-- 3) [Schematics](#3-schematics)
+- 3) [Files](#3-files)
 
 ## 1) Introduction
 ### 1.1) About the Shiratech LTE and Sensor Mezzanine
@@ -110,4 +110,9 @@ Sensor I2C address: 0x48
 
 ## 2) [Guides](guides/)
 
-## 3) [Schematics](files/lte-schematics.pdf)
+## 3) Files
+
+- [Schematics](files/lte-schematics.pdf)
+- [Quick Start](files/lte-quick-start.pdf)
+- [User Manual](files/lte-user-manual.pdf)
+
