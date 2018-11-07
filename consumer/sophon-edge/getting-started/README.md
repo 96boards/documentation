@@ -1,5 +1,5 @@
 ---
-title: Getting Started with the Ultra96
+title: Getting Started with the Sophon Edge
 permalink: /documentation/consumer/sophon-edge/getting-started/
 ---
 
