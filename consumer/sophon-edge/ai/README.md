@@ -1,5 +1,6 @@
 ---
-title: Ultra96 AI Docs
-permalink: /documentation/consumer/ultra96/ai/
+title: Sophon Edge AI Docs
+permalink: /documentation/consumer/sophon-edge/ai/
 ---
-Coming soon...
+
+Coming Soon...

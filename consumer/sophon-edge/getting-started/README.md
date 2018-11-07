@@ -22,8 +22,8 @@ Learn about your Sophon Edge board as well as how to prepare and set up for basi
 
 The following subsections describe how to get started with the Sophon Edge using the release build shipped with your board.
 
-<img src="" data-canonical-src="" width="250" height="160" />
-<img src="" data-canonical-src="" width="250" height="160" />
+<img src="../additional-docs/images/images-board/sd/sophon-sd-front.png" data-canonical-src="../additional-docs/images/images-board/sd/sophon-sd-front.png" width="250" height="160" />
+<img src="../additional-docs/images/images-board/sd/sophon-sd-back.png" data-canonical-src="../additional-docs/images/images-board/sd/sophon-sd-back.png" width="250" height="160" />
 
 ## Features
 
