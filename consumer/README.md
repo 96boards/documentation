@@ -21,8 +21,11 @@ Select your Consumer Edition 96Boards device to access all product specific reso
 
 <div style="overflow-x:scroll;" markdown="1">
 
+Board based on Sophon BM1880
+
 | 96Boards                                         | About                                                  | Options                    |
 |:------------------------------------------------:|:------------------------------------------------------:|:--------------------------:|
+| <img src="https://github.com/96boards/documentation/blob/master/consumer/sophon-edge/additional-docs/images/images-board/sd/sophon-sd-front.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/sophon-edge/additional-docs/images/images-board/sd/sophon-sd-front.png?raw=true" width="220" height="200" /><br> **Sophon Edge** | Board based on Sophon BM1880 | [Documentation](sophon-edge/)    |
 | <img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-front-sd.png?raw=true" width="220" height="200" /><br> **DragonBoard 820c** | Board based on Qualcomm® Snapdragon™ 820E processor  | [Documentation](dragonboard/dragonboard820c/)<br>[DragonBoard Family](dragonboard/)<br> |
 | <img src="https://i.imgur.com/4a5GXRd.png" data-canonical-src="https://i.imgur.com/4a5GXRd.png" width="200" height="130" /><br> **DragonBoard 410c** | Board based on Qualcomm® Snapdragon™ 410E processor  | [Documentation](dragonboard/dragonboard410c/)<br>[DragonBoard Family](dragonboard/)<br>|
 | <img src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey970/additional-docs/images/images-board/sd/hikey970-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey970/additional-docs/images/images-board/sd/hikey970-front-sd.png?raw=true" width="200" height="200" /><br> **HiKey970** | Board based on the HI3670 Application Processor | [Documentation](hikey/hikey970/)<br>[HiKey Family](hikey/)<br> |
