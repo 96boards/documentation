@@ -39,13 +39,19 @@ The following subsections describe how to get started with the Sophon Edge using
 | H.264 decoder, MJPEG encoder/decoder | 1x 1080p @60fps or 2x 1080p @30fps H.264 decoder, 75fps for FHD images           |
 | Power                | 12V@2A                                                                                           |
 | OS                   | Linux                                                                                            | 
-| Dimensions           | 85mm x 55mm                                                                                      |
+| Dimensions           | 85mm x 54mm                                                                                      |
 
 ***
 
 ## Starting the board for the first time
 
-Coming Soon...
+To start the Edge board, follow these steps:
+
+- Step1. Make sure that the boot switches SW1 is configured as “110”(boot from USB)
+- Step2. Connector USB cable to UART port (Micro USB)
+- Step3. Connector power adaptor to DC JACK
+
+Once the board powers up, the boot information will be printed on the UART terminal. Please note, the first boot will take few minutes due to intializaiton.
 
 ***
 
