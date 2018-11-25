@@ -1,10 +1,10 @@
 ---
-title: Getting Started with FPGA Programming
-permalink: /documentation/mezzanine/shiratech-fpga/guides/fpga-getting-started.md.html
+title: Restore Factory Firmware
+permalink: /documentation/mezzanine/shiratech-fpga/guides/restore-factory-firmware.md.html
 ---
 # Introduction
 
-This guide will walk you through writing your setting up the FPGA Mezzanine and writing your first Blinky in Verilog.
+This guide will walk you through restore the factory FPGA Firmware which has the in-built functionality of translating Arduino / RaspberryPi IO standards to the 96Boards IO.
 
 ## Hardware Setup
 
@@ -20,7 +20,8 @@ This guide will walk you through writing your setting up the FPGA Mezzanine and 
 ## Software setup
 
 - **[Quartus Lite](http://fpgasoftware.intel.com/)**
+- **[Factory Firmware: Click to Download](https://github.com/ric96/documentation/raw/mezzanine-doc/mezzanine/shiratech-fpga/files/firmware/shiratech-fpga-mezzanine-alpha.pof)**
 
 ## Video Walk-through
 
-[![video](https://img.youtube.com/ThmWAL8sMtY/0.jpg)](https://youtu.be/ThmWAL8sMtY)
+[![video](https://img.youtube.com/YjVS5DqwFx8/0.jpg)](https://youtu.be/YjVS5DqwFx8)
