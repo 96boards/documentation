@@ -9,8 +9,8 @@ Explore what makes your WisTrio unique, technical specifications, schematics, ha
 
 ## User Guides
 
-- Hardware User Manual [View](/documentation/consumer/sophon-edge/hardware-docs/files/wistrio-hardware-user-manual.pdf) (.pdf)
+- Hardware User Manual [View](/documentation/iot/wistrio/hardware-docs/files/wistrio-hardware-user-manual.pdf) (.pdf)
 
 ## Hardware
 
-- Schematics [View](/documentation/consumer/sophon-edge/hardware-docs/files/wistrio-schematics.pdf) (.pdf)
+- Schematics [View](/documentation/iot/wistrio/hardware-docs/files/wistrio-schematics.pdf) (.pdf)
