@@ -5,12 +5,12 @@ permalink: /documentation/iot/wistrio/hardware-docs/
 
 # Hardware Documentation
 
-Explore what makes your Ultra96 unique, technical specifications, schematics, hardware notes and more... This page allows you to see what is under the "Ultra96 hood" by offering static documentation published directly from the board vendors.
+Explore what makes your WisTrio unique, technical specifications, schematics, hardware notes and more... This page allows you to see what is under the "WisTrio hood" by offering static documentation published directly from the board vendors.
 
 ## User Guides
 
-- Hardware User Manual [View]() (.pdf)
+- Hardware User Manual [View](/documentation/consumer/sophon-edge/hardware-docs/files/wistrio-hardware-user-manual.pdf) (.pdf)
 
 ## Hardware
 
-- Schematics [View]() (.pdf)
+- Schematics [View](/documentation/consumer/sophon-edge/hardware-docs/files/wistrio-schematics.pdf) (.pdf)
