@@ -20,8 +20,8 @@ Learn about your WisTrio board as well as how to prepare and set up for basic us
 
 The following subsections describe how to get started with the WisTrio using the release build shipped with your board.
 
-<img src="" data-canonical-src="" width="250" height="160" />
-<img src="" data-canonical-src="" width="250" height="160" />
+<img src="../additional-docs/images/images-board/sd/wistrio-antenna-sd-front.png" data-canonical-src="../additional-docs/images/images-board/sd/wistrio-antenna-sd-front.png" width="200" height="100" />
+<img src="../additional-docs/images/images-board/sd/wistrio-antenna-sd-back.png" data-canonical-src="../additional-docs/images/images-board/sd/wistrio-antenna-sd-back.png" width="200" height="100" />
 
 ## Features
 
