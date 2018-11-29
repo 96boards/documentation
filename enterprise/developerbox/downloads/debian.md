@@ -17,8 +17,10 @@ suitable kernels, Linaro has temporarily provided a custom installer.
 We plan to discontinue this images as soon as Developerbox support is added
 by the upstream distribution.
 
-| ISO Image           | [Network Installer](http://people.linaro.org/~ard.biesheuvel/devbox/mini.iso) |
-| :------------------ | :-----------------------                                                      |
-| Installation Guide  | [Link](https://www.debian.org/releases/stretch/arm64/)                        |
+| ISO Image                                                                                           |
+|:----------------------------------------------------------------------------------------------------|
+| [Download Network Installer](http://people.linaro.org/~ard.biesheuvel/devbox/mini.iso)              |                     
+| [Installation Guide](https://www.debian.org/releases/stretch/arm64/)                                |
+
 
 ### Continue to [Installation page](../installation/)
