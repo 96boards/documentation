@@ -57,9 +57,9 @@ permalink: /documentation/consumer/rock/rock960c/hardware-docs/hardware-user-man
 
 The ROCK960 Development Board is a 96Boards compliant community board based on Rockchip RK3399 platform.The following table lists its key features:
 
-<img src="../additional-docs/images/images-board/ROCK960_Front_HD.png" data-canonical-src="" width="800" />
-<img src="../additional-docs/images/images-board/ROCK960_Angle_HD.png" data-canonical-src="" width="800" />
-<img src="../additional-docs/images/images-board/ROCK960_Back_HD.png" data-canonical-src="" width="800" />
+<img src="/documentation/consumer/rock/rock960c/additional-docs/images/images-board/rock960c-front-sd.png" data-canonical-src="/documentation/consumer/rock/rock960c/additional-docs/images/images-board/rock960c-front-sd.png" width="800" />
+<img src="/documentation/consumer/rock/rock960c/additional-docs/images/images-board/rock960c-back-sd.png" data-canonical-src="/documentation/consumer/rock/rock960c/additional-docs/images/images-board/rock960c-back-sd.png" width="800" />
+<img src="/documentation/consumer/rock/rock960c/additional-docs/images/images-board/rock960c-angle-sd.png" data-canonical-src="/documentation/consumer/rock/rock960c/additional-docs/images/images-board/rock960c-angle-sd.png" width="800" />
 
 
 | Component           | Description                                                  |
