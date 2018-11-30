@@ -179,7 +179,7 @@ Please visit the [ROCK960 Model C Hardware User Manual](../hardware-docs/hardwar
 - [Downloads page](../../downloads): This page lists all Linaro and 3rd party operating systems available for ROCK960 Model C. Try alternative images for ROCK960 Model C.
 
 - [Installation page](../../installation): This page lists other installation method for ROCK960 Model C.
-- [Userful Guide page](../../guide): This page lists some useful guide of using ROCK960 Model C.
+- [Userful Guide page](../../guides): This page lists some useful guide of using ROCK960 Model C.
 - [Troubleshooting](../../support)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
