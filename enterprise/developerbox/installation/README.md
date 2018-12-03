@@ -10,7 +10,7 @@ permalink: /documentation/enterprise/developerbox/installation/
 	   * [Create installation USB stick](#create-installation-usb-stick)
 	   * [Boot into the installer and install OS](#boot-into-the-installer-and-install-os)
    * [System firmware update](#system-firmware-update)
-	   * [Download necessary installation image](#download-necessary-installation-image)
+	   * [Download system firmware](#download-system-firmware)
 	   * [Perform a capsule update](#perform-a-capsule-update)
    
 # Installation Overview
@@ -98,7 +98,7 @@ Note: *If the board non-functioning and you are unable to run an
       operating system, try the [board recovery](board-recovery.md)
       instructions instead.*
 
-## Download necessary installation image
+## Download system firmware
 
 Linaro supported System Firmware:
 
