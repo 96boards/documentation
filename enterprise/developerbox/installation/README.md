@@ -2,8 +2,6 @@
 ---
 title: Installation for Developerbox
 permalink: /documentation/enterprise/developerbox/installation/
-redirect_from:
-
 ---
 # Table of Contents
 
