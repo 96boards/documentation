@@ -10,8 +10,6 @@ redirect_from:
    * [Installation Overview](#installation-overview)
    * [Booting an operating system installer](#booting-an-operating-system-installer)
 	   * [Download necessary installation image](#download-necessary-installation-image)
-		  	   * [Linaro Supported Operating Systems](#linaro-supported-system-firmware)
-		  	   * [Third Party Operating Systems](#third-party-operating-systems)
 	   * [Create installation USB stick](#create-installation-usb-stick)
 	   * [Boot into the installer and install OS](#boot-into-the-installer-and-install-os)
    * [System firmware update](#system-firmware-update)
