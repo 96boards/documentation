@@ -2,8 +2,6 @@
 ---
 title: Getting Started with your Developerbox
 permalink: /documentation/enterprise/developerbox/getting-started/
-redirect_from:
-
 ---
 # Getting Started
 
