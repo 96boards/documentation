@@ -20,6 +20,8 @@ Then run:
 $ repo init -u https://android.googlesource.com/platform/manifest -b master
 $ git clone https://github.com/96boards-hikey/android-manifest.git -b hikey970_v1.0 .repo/local_manifests
 $ repo sync -j$(nproc) -c
+$ source build/envsetup.sh
+$ lunch hikey970-userdebug
 ```
 It might take quite a bit of time to fetch the entire AOSP source code!
 
@@ -27,14 +29,12 @@ It might take quite a bit of time to fetch the entire AOSP source code!
 
 - [Build the Kernel](./linux-kernel.md)
 
-- Copy kirin970-hikey970.dtb.dtb (arch/arm64/boot/dts/hisilicon/ kirin970-hikey970.dtb) to the device/linaro/hikey-kernel directory as file: kirin970-hikey970.dtb-4.9
+- Copy kirin970-hikey970.dtb.dtb (kernel/hikey-linaro/arch/arm64/boot/dts/hisilicon/ kirin970-hikey970.dtb) to the device/linaro/hikey-kernel directory as file: kirin970-hikey970.dtb-4.9
 
-- Copy the Image file (arch/arm64/boot/Image.gz-dtb) to the device/linaro/hikey-kernel directory as file: Image.gz-hikey970-4.9
+- Copy the Image file (kernel/hikey-linaro/arch/arm64/boot/Image.gz-dtb) to the device/linaro/hikey-kernel directory as file: Image.gz-hikey970-4.9
 
 # Building AOSP
 ```shell
-$ source build/envsetup.sh
-$ lunch hikey970-userdebug
 $ make -j$(nproc)
 ```
 
