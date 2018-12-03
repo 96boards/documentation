@@ -55,7 +55,11 @@ Developerbox.
 
 ### Linaro supported operating systems based on Debian
 
+<<<<<<< HEAD
  * [Enterprise Reference Platform, based on Debian](../downloads/debian.md)
+=======
+ * [Enterprise Reference Platform, based on Debian](debian.md)
+>>>>>>> ae1a0baf78f62129f1a960565fb28fa154372bb7
  
 
 ### Third Party Operating Systems

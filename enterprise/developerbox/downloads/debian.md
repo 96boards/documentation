@@ -23,4 +23,4 @@ by the upstream distribution.
 | [Installation Guide](https://www.debian.org/releases/stretch/arm64/)                                |
 
 
-### Continue to [Installation page](../installation/)
+### Back to [Download and Installation page](../installation/)

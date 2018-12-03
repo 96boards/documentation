@@ -155,4 +155,3 @@ the graphics card, and the power saved as a result of removing the
 graphics card is significant.
 
 # Back to [Download and Installation page](/documentation/enterprise/developerbox/installation/)
-
