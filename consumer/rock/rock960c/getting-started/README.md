@@ -22,12 +22,12 @@ Learn about your ROCK960 Model C board as well as how to prepare and set up for 
    - For flashing the image into uSD card or eMMC module.
 - One of the Storage media below:
    - uSD card larger than 8GB
-     <img src="../additional-docs/images/images-install/uSD_card.png" data-canonical-src="" width="250" height="160" />
+     <img src="../additional-docs/images/images-install/uSD_card.png" data-canonical-src="../additional-docs/images/images-install/uSD_card.png" width="250" height="160" />
 
      or
 
    - eMMC module **and** eMMC-to-uSD adapter board
-     <img src="../additional-docs/images/images-install/eMMC_module.png" data-canonical-src="" width="250" height="160" /><img src="../additional-docs/images/images-install/eMMC-to-uSD_adapter.png" data-canonical-src="" width="250" height="160" />
+     <img src="../additional-docs/images/images-install/eMMC_module.png" data-canonical-src="../additional-docs/images/images-install/eMMC_module.png" width="250" height="160" /><img src="../additional-docs/images/images-install/eMMC-to-uSD_adapter.png" data-canonical-src="../additional-docs/images/images-install/eMMC-to-uSD_adapter.png" width="250" height="160" />
 
 **Optional**
 - [Acrylic Case] 
@@ -52,7 +52,7 @@ Items in [bracket] are included in the ROCK960 Model C Standard Package.
 
 The standard ROCK960 Model C packages contains the follow:
 
-<img src="../additional-docs/images/images-unbox/package_list.jpg" data-canonical-src="" width="250" height="160" />
+<img src="../additional-docs/images/images-unbox/package_list.jpg" data-canonical-src="../additional-docs/images/images-unbox/package_list.jpg" width="250" height="160" />
 
 * Main board with eMMC module
 * 12V/2A power adapter
@@ -65,19 +65,19 @@ The following subsections describe how to get started with the ROCK960 Model C u
 
 ## Close look of ROCK960 Module C
 
-<img src="../additional-docs/images/images-board/ROCK960c_Front_HD.png" data-canonical-src="" width="250" height="160" />
-<img src="../additional-docs/images/images-board/ROCK960c_Angle_HD.png" data-canonical-src="" width="250" height="160" />
-<img src="../additional-docs/images/images-board/ROCK960c_Back_HD.png" data-canonical-src="" width="250" height="160" />
+<img src="../additional-docs/images/images-board/rock960c-front-sd.png" data-canonical-src="../additional-docs/images/images-board/rock960c-front-sd.png" width="250" height="160" />
+<img src="../additional-docs/images/images-board/rock960c-back-sd.png" data-canonical-src="../additional-docs/images/images-board/rock960c-back-sd.png" width="250" height="160" />
+<img src="../additional-docs/images/images-board/rock960c-angle-sd.png" data-canonical-src="../additional-docs/images/images-board/rock960c-angle-sd.png" width="250" height="160" />
 
 ## Assemble the case
 
 The package comes with a simple acrylic case, assemble it first:
 
 1. Assemble the case and screws with screwer, finished as below:
-<img src="../additional-docs/images/images-unbox/assemble_finished_front.jpg" data-canonical-src="" width="250" height="160" />
+<img src="../additional-docs/images/images-unbox/assemble_finished_front.jpg" data-canonical-src="../additional-docs/images/images-unbox/assemble_finished_front.jpg" width="250" height="160" />
 
 2. Glue the heatsink with Heatsink Plaster at the bottom side:
-<img src="../additional-docs/images/images-unbox/assemble_finished_back.jpg" data-canonical-src="" width="250" height="160" />
+<img src="../additional-docs/images/images-unbox/assemble_finished_back.jpg" data-canonical-src="../additional-docs/images/images-unbox/assemble_finished_back.jpg" width="250" height="160" />
 
 ## Features
 
@@ -121,13 +121,13 @@ Please visit the [ROCK960 Model C Hardware User Manual](../hardware-docs/hardwar
 
 - Insert eMMC Module into eMMC-to-uSD adapter. Insert the adapter board into MicroSD Card Reader, which connects to host computer. Shown as picture below:
 
-<img src="../additional-docs/images/images-install/eMMC-to-uSD_adapter_in_reader.png" data-canonical-src="" width="250" height="160" />
+<img src="../additional-docs/images/images-install/eMMC-to-uSD_adapter_in_reader.png" data-canonical-src="../additional-docs/images/images-install/eMMC-to-uSD_adapter_in_reader.png" width="250" height="160" />
 
 #### Running on MicroSD Card Method.
 
 - Insert the MicroSD Card into MicroSD Card Reader, which connects to host computer. Shown as picture below:
 
-<img src="../additional-docs/images/images-install/uSD_card_with_card_reader.png" data-canonical-src="" width="250" height="160" />
+<img src="../additional-docs/images/images-install/uSD_card_with_card_reader.png" data-canonical-src="../additional-docs/images/images-install/uSD_card_with_card_reader.png" width="250" height="160" />
 
 ### Download Image and tools
 
@@ -160,13 +160,13 @@ Please visit the [ROCK960 Model C Hardware User Manual](../hardware-docs/hardwar
 #### Running on eMMC Module
 
 - Now insert eMMC module with firmware inside into the socket on board. The picture below shows. Make sure the eMMC module orientation is same as blow.
-<img src="../additional-docs/images/images-install/eMMC_socket_on_board.jpg" data-canonical-src="" width="250" height="160" />
+<img src="../additional-docs/images/images-install/eMMC_socket_on_board.jpg" data-canonical-src="../additional-docs/images/images-install/eMMC_socket_on_board.jpg" width="250" height="160" />
 
 
 #### Running on MicroSD Card
 
 - Now insert MicroSD Card with firmware inside into the MicroSD card slot on board. The picture below shows.
-<img src="../additional-docs/images/images-install/uSD_card_slot.png" data-canonical-src="" width="250" height="160" />
+<img src="../additional-docs/images/images-install/uSD_card_slot.png" data-canonical-src="../additional-docs/images/images-install/uSD_card_slot.png" width="250" height="160" />
 
 - Connect the ROCK960 Model C to your display with the HDMI cable. Ensure that the source for the display is switched to the HDMI port you are using.
 - Connect the USB keyboard and mouse.
