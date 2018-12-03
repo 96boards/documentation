@@ -153,3 +153,6 @@ The automatic switching of the console means the system maintenance
 capabilities via the UART are equivalent to those available via
 the graphics card, and the power saved as a result of removing the
 graphics card is significant.
+
+# Back to [Download and Installation page](README.md)
+

@@ -133,3 +133,6 @@ To make the change permanent:
  * Add `nouveau.config=NvClkMode=auto` from `GRUB_CMDLINE_LINUX_DEFAULT`
  * Save the file and close the editor
  * Run `sudo update-grub` to regenerate the grub config files
+
+ # Back to [Download and Installation page](README.md)
+

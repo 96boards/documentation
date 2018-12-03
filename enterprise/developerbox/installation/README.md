@@ -1,11 +1,24 @@
+
 ---
 title: Installation for Developerbox
 permalink: /documentation/enterprise/developerbox/installation/
 redirect_from:
 
 ---
+# Table of Contents
 
-# Installation
+   * [Installation Overview](#installation-overview)
+   * [Booting an operating system installer](#booting-an-operating-system-installer)
+	   * [Download necessary installation image](#download-necessary-installation-image)
+		  	   * [Linaro Supported Operating Systems](#linaro-supported-system-firmware)
+		  	   * [Third Party Operating Systems](#third-party-operating-systems)
+	   * [Create installation USB stick](#create-installation-usb-stick)
+	   * [Boot into the installer and install OS](#boot-into-the-installer-and-install-os)
+   * [System firmware update](#system-firmware-update)
+	   * [Download necessary installation image](#download-necessary-installation-image)
+	   * [Perform a capsule update](#perform-a-capsule-update)
+   
+# Installation Overview
 
 This guide will help you boot an operating system installer or
 update the system firmware on your Developerbox.
@@ -35,8 +48,26 @@ Note: *As an alternative to a keyboard and monitor is it possible
 
 ## Download necessary installation image
 
-Go to the [Downloads page](../downloads/README.md) or to the website
-of your chosen operating system to get an ISO image for the installer.
+The Developerbox comes pre-installed with system firmware (based on 
+Trusted Firmware and EDK2) but without an operating system installed.
+This section provides links to the latest software downloads for
+Developerbox.  
+
+### Linaro supported operating systems based on Debian
+
+ * [Enterprise Reference Platform, based on Debian](debian.md)
+ 
+
+### Third Party Operating Systems
+
+Other operating systems with support for Developerbox.
+
+ * [CentOS 7 and later](../installation/centos.md)
+ * [Debian 9 and later](../installation/debian.md)
+ * [Red Hat Enterprise Linux 7 and later](../installation/rhel.md)
+ * [Ubuntu 18.04 and later](../installation/ubuntu.md)
+
+
 
 ## Create installation USB stick
 
@@ -55,7 +86,7 @@ Choose host machine to create the USB stick from:
  5. From the boot options in the Boot Manager Menu, choose your USB
     device to start the installer.
 
-**Note: Some operating systems may require workarounds to fix known installation problems. See the [Install Guides](../downloads/#third-party-operating-systems) for third party operating systems or, if your OS not listed, the [Known Issues](../support/known-issues.html) for more details.**
+**Note: Some operating systems may require workarounds to fix known installation problems. See the links under Third Party Operating Systems section for more detailed information or, if your OS not listed, the [Known Issues](../support/known-issues.html) for more details.**
 
 ***
 
@@ -73,7 +104,9 @@ Note: *If the board non-functioning and you are unable to run an
 
 ## Download necessary installation image
 
-Go to the [Downloads page](../downloads/edk2.md) and get the System
+Linaro supported System Firmware:
+
+Go to the [EDK2 downloads page](../downloads/edk2.md) and get the System
 Firmware Capsule.
 
 ## Perform a capsule update

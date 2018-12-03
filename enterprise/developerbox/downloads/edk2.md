@@ -20,4 +20,4 @@ it with a PC-like look and feel.
 | [`SPI_NOR_IMAGE.fd-RELEASE`](http://snapshots.linaro.org/components/kernel/leg-96boards-developerbox-edk2/latest/SPI_NOR_IMAGE.fd-RELEASE) | System firmware for UART update (for board recovery only)    |
 | [`latest/`](http://snapshots.linaro.org/components/kernel/leg-96boards-developerbox-edk2/latest/)                                          | Directory containing debug images (for troubleshooting only) |
 
-### Continue to [Installation page](../installation/)
+### Back to [Download and Installation page](../installation/)
