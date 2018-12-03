@@ -82,7 +82,7 @@ Choose host machine to create the USB stick from:
  5. From the boot options in the Boot Manager Menu, choose your USB
     device to start the installer.
 
-**Note: Some operating systems may require workarounds to fix known installation problems. See the links under Third Party Operating Systems section for more detailed information or, if your OS not listed, the [Known Issues](../support/known-issues.html) for more details.**
+**Note: Some operating systems may require workarounds to fix known installation problems. See the links under Third Party Operating Systems section for more detailed information or, if your OS not listed, the [Known Issues](../support/known-issues.md) for more details.**
 
 ***
 
