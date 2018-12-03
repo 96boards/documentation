@@ -1,3 +1,4 @@
+
 ---
 title: Getting Started with your Developerbox
 permalink: /documentation/enterprise/developerbox/getting-started/
@@ -45,19 +46,16 @@ UEFI splash screen.
 
 The system firmware is based on EDK2 and provides a implementation of
 [UEFI](http://www.uefi.org/) just like a modern PC. Also like a modern
-PC it implements a menu system to allow settings to be changes and to
+PC it implements a menu system to allow settings to be changed and to
 allow you to boot in different ways. Developerbox can boot from SATA,
 USB or over the network.
 
 If you have a preferred OS now is the time to find out if it is
-available in the [Downloads](../downloads/) section. Once you have
-an ISO image copied to a stick then, if you can connected it to and
-restart your Developerbox, then you should find it in the `Boot Manager`
-menu.
+available in the [Downloads and Installation](../installation/) section. This section will provide links to various Linaro supported or third party ISO images, as well as detailed installation instructions.
 
-If you have a simple home network (or a very relaxed corporate one) then
+Alternatively; if you have a simple home network (or a very relaxed corporate one) then
 it is possible to install the [Enterprise Reference
-Platform](https://platforms.linaro.org/documentation/Reference-Platform/Platforms/Enterprise/README.md/)
+Platform](https://platforms.linaro.org/documentation/Reference-Platform/Platforms/Enterprise/README.md/), with a fully operational desktop environment,
 directly from within the EDK2 menu system. The Enterprise Reference
 Platform is intended to be used as a reference for component validation
 and, among other things, pairs Debian Stretch with a more recent kernel
