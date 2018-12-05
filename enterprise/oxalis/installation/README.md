@@ -1,6 +1,6 @@
 ---
 title: Oxalis Installation
-permalink: /documentation/consumer/oxalis/installation/
+permalink: /documentation/enterprise/oxalis/installation/
 ---
 # Installation
 

@@ -1,6 +1,6 @@
 ---
 title: Oxalis Hardware Documentation
-permalink: /documentation/consumer/oxalis/hardware-docs/
+permalink: /documentation/enterprise/oxalis/hardware-docs/
 ---
 
 # Hardware Documentation

@@ -1,6 +1,6 @@
 ---
 title: Oxalis Support
-permalink: /documentation/consumer/oxalis/support/
+permalink: /documentation/enterprise/oxalis/support/
 ---
 # Troubleshooting
 Please take advantage of the many Oxalis resources available to you through Linaro, 96Boards and our partners!

@@ -1,6 +1,6 @@
 ---
 title: Using the Oxalis
-permalink: /documentation/consumer/oxalis/
+permalink: /documentation/enterprise/oxalis/
 ---
 
 # Using the Oxalis

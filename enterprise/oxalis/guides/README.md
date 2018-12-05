@@ -1,6 +1,6 @@
 ---
 title: Useful Oxalis Guides
-permalink: /documentation/consumer/oxalis/guides/
+permalink: /documentation/enterprise/oxalis/guides/
 ---
 
 # Useful Guides

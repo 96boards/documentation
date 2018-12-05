@@ -1,6 +1,6 @@
 ---
-title: Sophone Edge Downloads
-permalink: /documentation/consumer/sophon-edge/downloads/
+title: Oxalis Downloads
+permalink: /documentation/enterprise/oxalis/downloads/
 ---
 
 ## Downloads
@@ -9,7 +9,7 @@ permalink: /documentation/consumer/sophon-edge/downloads/
 
 ### Linaro supported operating systems
 
-Operating systems supported on Sophone Edge, offered by Linaro.
+Operating systems supported on Oxalis, offered by Linaro.
 
 > Note: There are currently no Linaro supported Operating Systems.
 
