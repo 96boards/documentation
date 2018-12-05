@@ -9,9 +9,9 @@ Explore what makes your Parrot unique, technical specifications, schematics, har
 
 ## User Guides
 
-- Hardware User Manual [View](/documentation/consumer/sophon-edge/hardware-docs/files/parrot-hardware-user-manual.pdf) (.pdf)
-- Software User Manual [View](/documentation/consumer/sophon-edge/hardware-docs/files/parrot-software-user-manual.pdf) (.pdf)
+- Hardware User Manual [View](/documentation/consumer/parrot/hardware-docs/files/parrot-hardware-user-manual.pdf) (.pdf)
+- Software User Manual [View](/documentation/consumer/parrot/hardware-docs/files/parrot-software-user-manual.pdf) (.pdf)
 
 ## Hardware
 
-- Schematics [View](/documentation/consumer/sophon-edge/hardware-docs/files/parrot-edge-schematics.pdf) (.pdf)
+- Schematics [View](/documentation/consumer/parrot/hardware-docs/files/parrot-schematics.pdf) (.pdf)
