@@ -287,4 +287,6 @@ flash write s-mir-cm3
 flash write p-master-cm3
 >> Send new CM3 firmware via XMODEM <<
 ~~~
+---
+## Back to [Download and Installation page](../installation/)
 

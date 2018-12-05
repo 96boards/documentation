@@ -7,7 +7,7 @@ permalink: /documentation/enterprise/developerbox/installation/centos.html
    * [Downloading install media](#downloading-install-media)
    * [Quirks and workarounds](#quirks-and-workarounds)
       * [[Hardware] USB/PCIe networking](#hardware-usbpcie-networking)
-      * [[Firmware] Ensure the system firmware version is up to date](#firmware-ensure-the-system-firmware-is-up-to-date)
+      * [[Firmware] Ensure the system firmware version is up to date](#firmware-ensure-the-system-firmware-version-is-up-to-date)
       * [[Firmware] Set O/S Hardware Description to ACPI](#firmware-set-os-hardware-description-to-acpi)
       * [[Install, First boot] Disable incompatible PCIe features](#install-first-boot-disable-incompatible-pcie-features)
       * [[Install, First boot] Disable the nouveau driver](#install-first-boot-disable-the-nouveau-driver)
@@ -153,3 +153,5 @@ The automatic switching of the console means the system maintenance
 capabilities via the UART are equivalent to those available via
 the graphics card, and the power saved as a result of removing the
 graphics card is significant.
+
+## Back to [Download and Installation page](../installation/)
