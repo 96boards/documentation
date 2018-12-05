@@ -38,7 +38,8 @@ Learn about your Oxalis board as well as how to prepare and set up for basic use
 The Oxalis board is ready to use “out of the box” with a preinstalled version of the Debian Linux distribution.
 The following sections will give you a short introduction how to setup the board for the very first time.
 
-<img src="" data-canonical-src="" width="389" height="497" />
+<img src="/documentation/enterprise/oxalis/additional-docs/images/images-board/sd/oxalis-front-sd.JPG" data-canonical-src="/documentation/enterprise/oxalis/additional-docs/images/images-board/sd/oxalis-front-sd.JPG" width="389" height="497" />
+<img src="/documentation/enterprise/oxalis/additional-docs/images/images-board/sd/oxalis-back-sd.JPG" data-canonical-src="/documentation/enterprise/oxalis/additional-docs/images/images-board/sd/oxalis-back-sd.JPG" width="389" height="497" />
 
 
 ## Features
@@ -47,20 +48,16 @@ The following sections will give you a short introduction how to setup the board
 |:---------------------|:-------------------------------------------------------------------------------------------------|
 |  SoC                 |   NXP Layerscape LS1012A                                                                         |
 |  CPU                 |   Cortex-A53                                                                                     |
-|  GPU                 |   -                                                                                              |
 |  RAM                 |   1GByte                                                                                         |
 |  PMU                 |   NXP VR5100                                                                                     |
 |  Storage             |   16MByte SPI Flash for bootloader and RCW and MicroSD Card slot                                 |
 |  Ethernet Port       |   2x 10/100/1000                                                                                 |
-|  Wireless            |   -                                                                                              |
 |  USB                 |   2x USB 3.0                                                                                     |
-|  Audio               |   ???                                                                                            |
-|  Expansion Interface |   40 pin low speed expansion connector: +1.8V, +5V, SYS_DCIN, GND, UART, I2C, SPI, PCM, PWM,GPIO x12|
-|  LED                 |   ???                                                                                               |
+|  Expansion Interface |   40 pin low speed expansion connector: +1.8V, +5V, SYS_DCIN, GND, UART, I2C, SPI, PCM, PWM,GPIO x12 |
 |  Button              |   Power/Reset                                                                                    |
 |  Power Source        |   12V@TBD, 2.5mm center pin 8A DC jack connector, CUI Inc PJ-063BH or equivalent                 |
-|  OS Support          |   Debian GNU Linux                                                                                               |
-|  Size                |   160x120mm                                                                                               |
+|  OS Support          |   Debian GNU Linux                                                                               |
+|  Size                |   160x120mm                                                                                      |
 
 **IMPORTANT NOTES**
 
