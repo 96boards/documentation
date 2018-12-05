@@ -9,7 +9,9 @@ Explore what makes your Oxalis unique, technical specifications, schematics, har
 
 ## User Guides
 
-Coming soon...
+- Getting Started [View](/documentation/enterprise/oxalis/hardware-docs/files/oxalis-getting-started-v001.pdf) (.pdf)
+- SDK Manual [View](/documentation/enterprise/oxalis/hardware-docs/files/oxalis-sdk-developer-manual-v007.pdf) (.pdf)
+- Test Suite User Manual [View](/documentation/enterprise/oxalis/hardware-docs/files/oxalis-test-suite-user-manual-v003.pdf) (.pdf)
 
 ## Hardware
 
