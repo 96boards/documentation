@@ -1,6 +1,6 @@
 ---
 title: Getting Started with the Oxalis
-permalink: /documentation/consumer/oxalis/getting-started/
+permalink: /documentation/enterprise/oxalis/getting-started/
 ---
 
 # Getting Started
