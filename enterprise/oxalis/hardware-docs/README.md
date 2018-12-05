@@ -13,8 +13,8 @@ Coming soon...
 
 ## Hardware
 
-- Oxalis Assembly [View](/documentation/consumer/oxalis/hardware-docs/files/oxalis-assembly-var1.pdf) (.pdf)
-- SoM Assembly [View](/documentation/consumer/sophon-edge/hardware-docs/files/oxalis-som-assembly-var1.pdf) (.pdf)
-- Oxalis Schematic [View](/documentation/consumer/sophon-edge/hardware-docs/files/oxalis-schematics.pdf) (.pdf)
-- SoM Schematic [View](/documentation/consumer/sophon-edge/hardware-docs/files/oxalis-som-schematic-var1.pdf) (.pdf)
-- Datasheet [View](/documentation/consumer/sophon-edge/hardware-docs/files/oxalis-datasheet.pdf) (.pdf)
+- Oxalis Assembly [View](/documentation/enterprise/oxalis/hardware-docs/files/oxalis-assembly-var1.pdf) (.pdf)
+- SoM Assembly [View](/documentation/enterprise/oxalis/hardware-docs/files/oxalis-som-assembly-var1.pdf) (.pdf)
+- Oxalis Schematic [View](/documentation/enterprise/oxalis/hardware-docs/files/oxalis-schematics.pdf) (.pdf)
+- SoM Schematic [View](/documentation/enterprise/oxalis/hardware-docs/files/oxalis-som-schematic-var1.pdf) (.pdf)
+- Datasheet [View](/documentation/enterprise/oxalis/hardware-docs/files/oxalis-datasheet.pdf) (.pdf)
