@@ -22,8 +22,8 @@ Learn about your Parrot board as well as how to prepare and set up for basic use
 
 The following subsections describe how to get started with the Sophon Edge using the release build shipped with your board.
 
-<img src="/documentation/consumer/parrot/additional-docs/images/images-board/sd/hichips-parrot-front-sd.png" data-canonical-src=/documentation/consumer/parrot/additional-docs/images/images-board/sd/hichips-parrot-front-sd.png" width="250" height="160" />
-<img src="/documentation/consumer/parrot/additional-docs/images/images-board/sd/hichips-parrot-back-sd.png" data-canonical-src="/documentation/consumer/parrot/additional-docs/images/images-board/sd/hichips-parrot-back-sd.png" width="250" height="160" />
+<img src="/documentation/consumer/parrot/additional-docs/images/images-board/sd/hichips-parrot-front-sd.jpg" data-canonical-src="/documentation/consumer/parrot/additional-docs/images/images-board/sd/hichips-parrot-front-sd.jpg" width="220" height="200" />
+<img src="/documentation/consumer/parrot/additional-docs/images/images-board/sd/hichips-parrot-back-sd.jpg" data-canonical-src="/documentation/consumer/parrot/additional-docs/images/images-board/sd/hichips-parrot-back-sd.jpg" width="220" height="200" />
 
 ## Features
 
