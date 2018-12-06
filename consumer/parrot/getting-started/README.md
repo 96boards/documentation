@@ -12,7 +12,7 @@ Learn about your Parrot board as well as how to prepare and set up for basic use
 **Need**
 
 - [Parrot](https://www.96boards.org/)
-   - Board based on XXX
+   - Board based on Alwinner R18
 - Power adapter
    - 12V @ 2A AC/DC converter compatible with the 96Boards specification
 
@@ -29,13 +29,26 @@ The following subsections describe how to get started with the Sophon Edge using
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
-|                      |                                                                                                  |
+| Processor            | Allwinner R18                                                                                    |
+| CPU                  | Quad-core Cortex-A53 @ 1.15GHz                                                                   |
+| GPU                  | Mali400MP2 GPU,Supports OpenGL ES 2.0 , Open VG1.1                                               |
+| Memory               | 1G Byte DDR3                                                                                     |
+| Storage              | 8GB eMMC                                                                                         |
+| WIFI                 | Dual band. 2.4GHz, 5GHz                                                                          |
+| BT                   | BT 4.0                                                                                           |
+| MIC                  | 3 MIC, 2 AEC                                                                                     |
+| HW Interfaces        | HDMI, USBA, USB-OTG, HEADPHONE OUT                                                               |
+| OS                   | Tina Linux                                                                                       |
+| Algorithm Provider   | GMEMS                                                                                            |
+| Power Input          | 12V DC                                                                                           |
+| MIC Board Size       | 104 x 90mm                                                                                       |
+| Mainboard Size       | 100 x 85mm                                                                                       |
 
 ***
 
 ## Starting the board for the first time
 
-Coming Soon...
+Please visit the [Hardware](/documentation/consumer/parrot/hardware-docs/files/parrot-hardware-user-manual.pdf) and [Software](/documentation/consumer/parrot/hardware-docs/files/parrot-software-user-manual.pdf) user manuals for instructions on getting started.
 
 ***
 
