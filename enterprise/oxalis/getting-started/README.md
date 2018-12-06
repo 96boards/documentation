@@ -90,6 +90,6 @@ If you are already familiar with the Sophon Edge and would like to change out th
 - [Support](../support)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
-Back to the [Sophon Edge documentation home page](../)
+Back to the [Oxalis documentation home page](../)
 
 ***
