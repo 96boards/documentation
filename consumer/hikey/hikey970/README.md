@@ -26,5 +26,6 @@ A comprehensive guide to using the HiKey970 Consumer Edition development board. 
    - Explore what makes your HiKey970 unique, technical specifications, schematics, hardware notes and more...
 - [Support](support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
+- [Contribute](../contribute.md)
 
 ***

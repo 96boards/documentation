@@ -30,5 +30,6 @@ A comprehensive guide to using the [HiKey](https://www.96boards.org/product/hike
    - Discover our list of sponsored HiKey documents, these include User Guides and Application notes
 - [Support](troubleshooting/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers   
+- [Contribute](../contribute.md)
 
 ***
