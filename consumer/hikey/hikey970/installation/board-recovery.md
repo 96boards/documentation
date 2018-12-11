@@ -21,18 +21,18 @@ Following dependencies needs to be installed for building the bootloader binarie
 and the instructions are specified for debian based systems.
 
 ```shell
-$ sudo apt-get install uuid-dev
-$ pip install pycrypto
+sudo apt-get install libssl-dev python-pip uuid-dev 
+pip install pycrypto
 ```
 ##### Clone the repositories
 
 ```shell
-$ git clone https://github.com/96boards-hikey/arm-trusted-firmware -b hikey970_v1.0
-$ git clone https://github.com/96boards-hikey/edk2 -b hikey970_v1.0
-$ git clone https://github.com/96boards-hikey/OpenPlatformPkg -b hikey970_v1.0
-$ git clone https://github.com/96boards-hikey/l-loader -b hikey970_v1.0
-$ git clone https://github.com/Mani-Sadhasivam/uefi-tools -b hikey970_v1.0
-$ git clone https://github.com/96boards-hikey/tools-images-hikey970
+git clone https://github.com/96boards-hikey/arm-trusted-firmware -b hikey970_v1.0
+git clone https://github.com/96boards-hikey/edk2 -b hikey970_v1.0
+git clone https://github.com/96boards-hikey/OpenPlatformPkg -b hikey970_v1.0
+git clone https://github.com/96boards-hikey/l-loader -b hikey970_v1.0
+git clone https://github.com/Mani-Sadhasivam/uefi-tools -b hikey970_v1.0
+git clone https://github.com/96boards-hikey/tools-images-hikey970
 ```
 
 ##### Perpare a shell script
