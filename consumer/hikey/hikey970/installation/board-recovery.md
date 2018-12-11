@@ -142,14 +142,20 @@ You should see the following output on PC after executing the above command:
 
 ```
 +----------------------+
- Serial: /dev/ttyUSB1
- Image1: fastboot1.img
- Image2: fastboot2.img
+(' Serial: ', '/dev/ttyUSB1')
+(' Image1: ', './sec_usb_xloader.img')
+(' Image2: ', './sec_usb_xloader2.img')
 +----------------------+
-Sending fastboot1.img ...
+
+('Sending', './sec_usb_xloader.img', '...')
 Done
-Sending fastboot2.img ...
+
+('Sending', './sec_usb_xloader2.img', '...')
 Done
+
+('Sending', './l-loader.bin', '...')
+Done
+
 ```
 
 The bootloader has now been installed into RAM. Wait a few seconds for the fastboot application to actually load. The following fastboot commands
