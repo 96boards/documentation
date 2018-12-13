@@ -230,3 +230,7 @@ If you boot this image on the board, you should get a command prompt on the HDMI
     weston-launch
 
 And that should get you to the Weston desktop shell.
+
+# Video
+
+[![video](https://img.youtube.com/vi/9-LsD9Ni6wU/0.jpg)](http://www.youtube.com/watch?v=9-LsD9Ni6wU)
