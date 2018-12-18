@@ -20,8 +20,6 @@ A comprehensive guide to using the [Ivy5661](../ivy5661/) IoT Edition board. Thi
 
 - [Getting Started](getting-started/)
    - Learn about your Ivy5661 board, how to prepare and set up for basic use
-- [Useful Guides](guides/)
-   - These guides will help to get you started with a variety of available on-boards software
 - [Hardware Documentation](hardware-docs/)
    - Explore what makes your Ivy5661 unique, technical specifications, schematics, hardware notes and more...
 - [Troubleshooting and Support](support/)
