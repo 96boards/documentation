@@ -58,3 +58,7 @@ Once you have successfully built the library you can reset the system to pick up
 ```shell
 $ sudo reboot<Enter>
 ```
+
+# Video
+
+[![video](https://img.youtube.com/vi/SBZJ68XXgVw/0.jpg)](http://www.youtube.com/watch?v=c8b6pcc6H2c)

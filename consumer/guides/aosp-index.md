@@ -36,3 +36,6 @@ redirect_from: /documentation/ConsumerEdition/guides/aosp-index.md.html
   $ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
   $ chmod a+x ~/bin/repo
   ```
+# Video
+
+[![video](https://img.youtube.com/vi/-OePyL55rvs/0.jpg)](http://www.youtube.com/watch?v=-OePyL55rvs)

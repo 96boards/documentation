@@ -73,4 +73,8 @@ $ sudo apt install vlc
 
 > This is a trial an error process and depends upon the exact setup, some more tweaking may be necessary depending upon you setup.
 
-- **References: ** https://wiki.videolan.org/Documentation:Modules/v4l2/
+- **References:** https://wiki.videolan.org/Documentation:Modules/v4l2/
+
+# Video
+
+[![video](https://img.youtube.com/vi/SBZJ68XXgVw/0.jpg)](http://www.youtube.com/watch?v=SBZJ68XXgVw)
