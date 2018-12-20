@@ -18,7 +18,7 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
    - 12V power supply with 2.5mm jack (recommended 8A) - [Mini-Box](http://www.mini-box.com/80w-AC-DC-Power-Adapter-12v-6-6A)
    - Alternate using Mini-Din connector is [Mini-Box STD-12160](http://www.mini-box.com/12v-16A-AC-DC-Power-Adapter)
 - Memory
-   - 2ea ECC DDR3 SO-DIMMs (e.g. [Micron MT18KSF1G72HZ-1G6E2](https://www.micron.com/parts/modules/ddr3-sdram/mt18ksf1g72hz-1g6)). Must be ECC (x72)
+   - 2ea ECC DDR3 SO-DIMMs (e.g. [Micron MT18KSF1G72HZ-1G6E2]). Must be ECC (x72)
 - Accessories
    - FTDI TTL-232R-3V3 (for SCP UART)
    - Micro-USB cable for console

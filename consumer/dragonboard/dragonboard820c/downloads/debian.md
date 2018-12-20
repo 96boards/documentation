@@ -24,7 +24,7 @@ redirect_from:  /documentation/consumer/dragonboard820c/downloads/debian.md.html
 
 | Bootloader                                                                                                                             |
 |:---------------------------------------------------------------------------------------------------------------------------------------|
-| [Download](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/dragonboard-820c-bootloader-ufs-linux-*.zip)       |
+| [Download](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/dragonboard-820c-bootloader-ufs-linux-42.zip)       |
 | [Release Notes](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/)                                             |
 
 | Boot image                                                                                                                              |

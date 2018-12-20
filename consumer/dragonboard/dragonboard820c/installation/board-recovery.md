@@ -43,11 +43,11 @@ In order to force the DB820c to boot on USB (EDL mode), you need to configure S1
 
 Download and unzip the most recent bootloader package:
 
-http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/dragonboard-820c-bootloader-ufs-linux-*.zip
+http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/dragonboard-820c-bootloader-ufs-linux-42.zip
 
 Then run:
 
-    cd dragonboard-820c-bootloader-ufs-linux-*/
+    cd dragonboard-820c-bootloader-ufs-linux-42.zip/
     sudo <PATH to qdl>/qdl prog_ufs_firehose_8996_ddr.elf rawprogram.xml patch.xml
 
 It should take a few seconds. And you should eventually get something like that:
@@ -67,7 +67,7 @@ If the previous step failed, or if you want to reprovision the UFS disk on the b
 
 To (re)provision the board, you need to connect the board in "USB flashing mode" as explained in the previous sections, then run the following commands:
 
-    cd dragonboard-820c-bootloader-ufs-linux-*/
+    cd dragonboard-820c-bootloader-ufs-linux-42.zip/
     sudo <PATH to qdl>/qdl prog_ufs_firehose_8996_ddr.elf ufs-provision_toshiba.xml
 
 It should take a few seconds. And you should eventually get something like that:

@@ -11,7 +11,7 @@ Linaro release kernel for HiKey boards.
 
 The following mailing list has been created to contributions:
 
-[HiKey-Kernel mailing list](https://lists.96boards.org/mailman/listinfo/hikey-kernel)
+[HiKey-Kernel mailing list]
 
 This is a public mailing open to any developer.
 
