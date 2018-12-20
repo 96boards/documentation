@@ -24,4 +24,4 @@ This guide will walk you through restore the factory FPGA Firmware which has the
 
 ## Video Walk-through
 
-[![video](https://img.youtube.com/YjVS5DqwFx8/0.jpg)](https://youtu.be/YjVS5DqwFx8)
+[![video](https://img.youtube.com/vi/YjVS5DqwFx8/0.jpg)](https://youtu.be/YjVS5DqwFx8)

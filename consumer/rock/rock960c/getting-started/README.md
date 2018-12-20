@@ -10,7 +10,7 @@ Learn about your ROCK960 Model C board as well as how to prepare and set up for 
 ## Setup - What you will need
 
 **Need**
-- [[ROCK960 Model C](https://www.96boards.org/product/rock960c/) main board]
+- [[ROCK960 Model C](https://www.96boards.org/product/rock960/) main board]
    - The board itself
 - [Power adapter]
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter
@@ -30,8 +30,8 @@ Learn about your ROCK960 Model C board as well as how to prepare and set up for 
      <img src="../additional-docs/images/images-install/eMMC_module.png" data-canonical-src="../additional-docs/images/images-install/eMMC_module.png" width="250" height="160" /><img src="../additional-docs/images/images-install/eMMC-to-uSD_adapter.png" data-canonical-src="../additional-docs/images/images-install/eMMC-to-uSD_adapter.png" width="250" height="160" />
 
 **Optional**
-- [Acrylic Case] 
-   - For protecting the board 
+- [Acrylic Case]
+   - For protecting the board
 - [Heatsink with glue]
    - For better heat dispatching
 - Mezzanine Products.

@@ -23,4 +23,4 @@ This guide will walk you through writing your setting up the FPGA Mezzanine and 
 
 ## Video Walk-through
 
-[![video](https://img.youtube.com/ThmWAL8sMtY/0.jpg)](https://youtu.be/ThmWAL8sMtY)
+[![video](https://img.youtube.com/vi/ThmWAL8sMtY/0.jpg)](https://youtu.be/ThmWAL8sMtY)
