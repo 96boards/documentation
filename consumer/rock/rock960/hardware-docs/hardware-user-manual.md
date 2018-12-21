@@ -416,8 +416,8 @@ SYS_DCIN  Can serves as the board’s main power source or can receive power fro
 | MIPI_D0P        | DSI_D0+           | 27   |   28 |         CSI0_D3- |                               MIPI_RX0_D3N |
 | MIPI_D0N        | DSI_D0-           | 29   |   30 |              GND |                                        GND |
 | GND             | GND               | 31   |   32 |         I2C2_SCL |                                   I2C2_SCL |
-| MIPI_D1P        | DSI_D1+           | 33   |   34 |         I2C2_SCL |                                   I2C2_SDA |
-| MIPI_D1N        | DSI_D1-           | 35   |   36 |         I2C3_SDA |                                   I2C7_SCL |
+| MIPI_D1P        | DSI_D1+           | 33   |   34 |         I2C2_SDA |                                   I2C2_SDA |
+| MIPI_D1N        | DSI_D1-           | 35   |   36 |         I2C3_SCL |                                   I2C7_SCL |
 | GND             | GND               | 37   |   38 |         I2C3_SDA |                                   I2C7_SDA |
 | MIPI_D2P        | DSI_D2+           | 39   |   40 |              GND |                                        GND |
 | MIPI_D2N        | DSI_D2-           | 41   |   42 |         CSI1_D0+ |                                MIPI_TX_D0P |
