@@ -13,3 +13,6 @@ redirect_from: /documentation/consumer/rock960/build/
 
 - [Android](aosp.md)
    - Build AOSP from source
+
+- [Lakka](lakka.md)
+  - Build Lakka TV from source
