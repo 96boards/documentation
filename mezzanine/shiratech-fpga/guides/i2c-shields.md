@@ -23,9 +23,9 @@ This guide will walk you through Interfacing with Arduino Shields that use I2C b
 
 ## Running the Demos
 
-The I2C ports on the Arduino and Raspberry Pie headers act as a pass-through to the I2C0 Pins on the Low Speed Header.
-This means and device connected over I2C via the FPGA Mezzanine should show up by simply running.
-`sudo i2cdetect -r 0`
+- The I2C ports on the Arduino and Raspberry Pie headers act as a pass-through to the I2C0 Pins on the Low Speed Header.
+- We first need to enable the i2c pass-through: `sudo i2cset 0 0x6f 0x13 0x00`
+- This means and device connected over I2C via the FPGA Mezzanine should show up by simply running: `sudo i2cdetect -r 0`
 
 ### MPU6050: C
 
