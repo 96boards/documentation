@@ -21,18 +21,18 @@ Following dependencies needs to be installed for building the bootloader binarie
 and the instructions are specified for debian based systems.
 
 ```shell
-$ sudo apt-get install uuid-dev
-$ pip install pycrypto
+sudo apt-get install libssl-dev python-pip uuid-dev 
+pip install pycrypto
 ```
 ##### Clone the repositories
 
 ```shell
-$ git clone https://github.com/96boards-hikey/arm-trusted-firmware -b hikey970_v1.0
-$ git clone https://github.com/96boards-hikey/edk2 -b hikey970_v1.0
-$ git clone https://github.com/96boards-hikey/OpenPlatformPkg -b hikey970_v1.0
-$ git clone https://github.com/96boards-hikey/l-loader -b hikey970_v1.0
-$ git clone https://github.com/Mani-Sadhasivam/uefi-tools -b hikey970_v1.0
-$ git clone https://github.com/96boards-hikey/tools-images-hikey970
+git clone https://github.com/96boards-hikey/arm-trusted-firmware -b hikey970_v1.0
+git clone https://github.com/96boards-hikey/edk2 -b hikey970_v1.0
+git clone https://github.com/96boards-hikey/OpenPlatformPkg -b hikey970_v1.0
+git clone https://github.com/96boards-hikey/l-loader -b hikey970_v1.0
+git clone https://github.com/Mani-Sadhasivam/uefi-tools -b hikey970_v1.0
+git clone https://github.com/96boards-hikey/tools-images-hikey970
 ```
 
 ##### Perpare a shell script
@@ -142,14 +142,20 @@ You should see the following output on PC after executing the above command:
 
 ```
 +----------------------+
- Serial: /dev/ttyUSB1
- Image1: fastboot1.img
- Image2: fastboot2.img
+(' Serial: ', '/dev/ttyUSB1')
+(' Image1: ', './sec_usb_xloader.img')
+(' Image2: ', './sec_usb_xloader2.img')
 +----------------------+
-Sending fastboot1.img ...
+
+('Sending', './sec_usb_xloader.img', '...')
 Done
-Sending fastboot2.img ...
+
+('Sending', './sec_usb_xloader2.img', '...')
 Done
+
+('Sending', './l-loader.bin', '...')
+Done
+
 ```
 
 The bootloader has now been installed into RAM. Wait a few seconds for the fastboot application to actually load. The following fastboot commands
