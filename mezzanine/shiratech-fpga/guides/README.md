@@ -10,3 +10,4 @@ permalink: /documentation/mezzanine/shiratech-fpga/guides/
 # FPGA Guides
 - [Getting Started with FPGA Programming](fpga-getting-started.md)
 - [Restore Factory Firmware](restore-factory-firmware.md)
+- [User Manual and Register Configuration](../files/shiratech-fpga-user-manual-0-9.pdf)

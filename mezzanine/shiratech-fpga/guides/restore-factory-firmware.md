@@ -20,7 +20,7 @@ This guide will walk you through restore the factory FPGA Firmware which has the
 ## Software setup
 
 - **[Quartus Lite](http://fpgasoftware.intel.com/)**
-- **[Factory Firmware: Click to Download](https://github.com/ric96/documentation/raw/mezzanine-doc/mezzanine/shiratech-fpga/files/firmware/shiratech-fpga-mezzanine-alpha.pof)**
+- **[Factory Firmware: Click to Download](https://github.com/ric96/documentation/raw/mezzanine-doc/mezzanine/shiratech-fpga/files/firmware/fpga_mezzanine_RELEASE_1_0.pof)**
 
 ## Video Walk-through
 
