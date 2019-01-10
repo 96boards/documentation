@@ -7,6 +7,8 @@ permalink: /documentation/consumer/sophon-edge/getting-started/
 
 Learn about your Sophon Edge board as well as how to prepare and set up for basic use
 
+[Skip to Sophon Edge Getting Started Manual](https://sophon-edge.gitbook.io/project/overview/edge-tpu-developer-board)
+
 ## Setup - What you will need
 
 **Need**
@@ -15,7 +17,7 @@ Learn about your Sophon Edge board as well as how to prepare and set up for basi
    - Board based on Sophon BM1880
 - Power adapter
    - 12V @ 2A AC/DC converter compatible with the 96Boards specification
-
+   
 ***
 
 # Out of the Box
