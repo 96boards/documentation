@@ -1,6 +1,6 @@
 ---
 title: Delta Camera Kit
-permalink: /documentation/consumer/ultra96/kits/delta-camera.md
+permalink: /documentation/consumer/ultra96/kits/delta-camera.md.html
 ---
 
 ## Delta Camera Kit
@@ -12,8 +12,8 @@ permalink: /documentation/consumer/ultra96/kits/delta-camera.md
    - [2.1) Hardware Requirements](#21-hardware-requirements)
    - [2.2) Hardware Setup](#22-hardware-setup)
 - [3) Software](#3-software)
-   - [3.1) Software Dependencies](31-software-dependencies)
-   - [3.2) Software Setup](32-software-setup)
+   - [3.1) Software Dependencies](#31-software-dependencies)
+   - [3.2) Software Setup](#32-software-setup)
 
 ## 1) Introduction
 
