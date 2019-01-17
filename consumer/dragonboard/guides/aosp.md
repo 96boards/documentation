@@ -1,14 +1,14 @@
 ---
-title: Building Android Open Source Project (AOSP) for Dragonboard 410c
-permalink: /documentation/consumer/dragonboard/dragonboard410c/guides/aosp.md.html
+title: Building Android Open Source Project (AOSP) for Dragonboard
+permalink: /documentation/consumer/dragonboard/guides/aosp/
 redirect_from:
-- /db410c-getting-started/Guides/AOSP.md/
-- /documentation/ConsumerEdition/DragonBoard-410c/Guides/AOSP.md.html
-- /documentation/consumer/dragonboard410c/guides/aosp.md.html
+- /documentation/consumer/dragonboard820c/guides/aosp/
+- /documentation/consumer/dragonboard/dragonboard820c/guides/aosp/
+- /documentation/consumer/dragonboard/dragonboard410c/guides/aosp/
 ---
-# Building Android Open Source Project (AOSP) for Dragonboard 410c
+# Building Android Open Source Project (AOSP) for Dragonboard Family
 
-**NOTE: This page provides instructions to make a build based on AOSP for Dragonboard 410c. This should be considered work-in-progress, and the following page might be updated at any time with newer (and different) instructions. This is not a complete tutorial for AOSP, and the reader is expected to be familiar with building Android in general. For any general Android issue, please refer to Android documentation and guides.**
+**NOTE: This page provides instructions to make a build based on AOSP for Dragonboard Family. This should be considered work-in-progress, and the following page might be updated at any time with newer (and different) instructions. This is not a complete tutorial for AOSP, and the reader is expected to be familiar with building Android in general. For any general Android issue, please refer to Android documentation and guides.**
 
 # Build preparation
 
@@ -28,26 +28,23 @@ $ repo sync -j$(nproc) -c
 It might take quite a bit of time to fetch the entire AOSP source code!
 
 # Building AOSP
-```shell
-$ source build/envsetup.sh
-$ lunch db410c32_only-userdebug
-$ make -j$(nproc)
-```
+- Setup Environment Variables: `source build/envsetup.sh`
+- Run the Lunch Command:
+  - DragonBoard-410c: `lunch db410c32_only-userdebug`
+  - DragonBoard-820c: `lunch db820c-userdebug`
+- Build: `make -j$(nproc)`
+
 
 # Flashing the board
 
-While holding the S4 button, power the DragonBoard 410c board to enter fastboot mode.
+While holding the S4 button, power the DragonBoard boards to enter fastboot mode.
 We can now flash the Android images
 
-```shell
-$ sudo ./device/linaro/dragonboard/installer/db410c/flash-all-aosp.sh
-```
-# Booting into Android
+For the 410c: `sudo ./device/linaro/dragonboard/installer/db410c/flash-all-aosp.sh`
+For the 820c: `sudo ./device/linaro/dragonboard/installer/db820c/flash-all-aosp.sh`
 
-If everything went fine, you can now reboot the board, and it should boot into Android!
-
-# Building the Kernel
-If you want to build your own kernel, follow these steps:
+# Building the Kernel for 410c
+If you want to build your own kernel for DragonBoard 410c, follow these steps:
 
 ```shell
 $ cd <ANDROID_TOP>
@@ -66,6 +63,11 @@ $ sudo fastboot flash boot out/target/product/b410c32_only/boot.img
 #Reboot the board after flashing
 ```
 
+# Booting into Android
+
+If everything went fine, you can now reboot the board, and it should boot into Android!
+
+
 # How to contribute and support
 
 The following mailing list can be used for contributions:
@@ -74,4 +76,5 @@ https://lists.96boards.org/mailman/listinfo/dragonboard
 
 For support, the 96boards forum can also be used
 
+https://discuss.96boards.org/c/products/dragonboard820c
 https://discuss.96boards.org/c/products/dragonboard410c
