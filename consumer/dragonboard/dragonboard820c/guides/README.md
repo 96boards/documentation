@@ -7,7 +7,7 @@ redirect_from: /documentation/consumer/dragonboard820c/guides/
 
 These guides will help to get you started with a variety of available on-boards software
 
-- [AOSP](aosp.md)
+- [AOSP](../guides/aosp.md)
 
 ## Onboard storage
 
