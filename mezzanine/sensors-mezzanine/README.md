@@ -90,7 +90,7 @@ Attribution-ShareAlike 4.0 International License.
 This is the adapter for connecting Grove modules to a 96Boards baseboard. It provides 18 Grove connectors, an Arduino compatible shield socket, and an ATMEGA328P microcontroller.
 
 [https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/96Boards_Sensor_Mezzanine.png?raw=true](https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/96Boards_Sensor_Mezzanine.png?raw=true)
- 
+
 <img src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/96Boards_Sensor_Mezzanine.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/mezzanine/sensors-mezzanine/images/96Boards_Sensor_Mezzanine.png?raw=true" width="330" height="215" />
 
 ## Grove Button Module (3.3V/5V)
@@ -807,9 +807,9 @@ void loop()
 Next save the following code as display as “humid_temp.py”
 
 ```shell
-import serial, pyupm_i2clcd
+import serial, pyupm_jhd1313m1
 ard = serial.Serial('/dev/tty96B0', 9600)
-lcd = pyupm_i2clcd.Jhd1313m1(0, 0x3e, 0x62)
+lcd = pyupm_jhd1313m1.Jhd1313m1(0, 0x3e, 0x62)
 
 def showTemp(humid, temp):
     lcd.clear()
@@ -865,18 +865,18 @@ And to exit, use Ctrl + C
 
 ** Potential build errors / work-arounds**
 1)  Build Error:
-ImportError: No module named pyupm_i2clcd
+ImportError: No module named pyupm_jhd1313m1
                Makefile:3: recipe for target 'run' failed
 
 Fix: Need to add path to PYTHONPATH
 	`PYTHONPATH=$PYTHONPATH:/usr/lib/aarch64-linux-gnu/python2.7/site-packages`
 
 2) Build Error
-File "/usr/lib/aarch64-linux-gnu/python2.7/site-packages/pyupm_i2clcd.py", line 985
-SyntaxError: Non-ASCII character '\xc3' in file /usr/lib/aarch64-linux-gnu/python2.7/site-packages/pyupm_i2clcd.py on line 986, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+File "/usr/lib/aarch64-linux-gnu/python2.7/site-packages/pyupm_jhd1313m1.py", line 985
+SyntaxError: Non-ASCII character '\xc3' in file /usr/lib/aarch64-linux-gnu/python2.7/site-packages/pyupm_jhd1313m1.py on line 986, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
 Makefile:3: recipe for target 'run' failed
 
-Fix: Add `# coding=utf-8` to first line of /usr/lib/aarch64-linux-gnu/python2.7/site-packages/pyupm_i2clcd.py and save
+Fix: Add `# coding=utf-8` to first line of /usr/lib/aarch64-linux-gnu/python2.7/site-packages/pyupm_jhd1313m1.py and save
 
 
 [Back to top](#table-of-contents)
@@ -947,7 +947,7 @@ void loop() {
 Save the following code as tweeting_doorbell.py:
 
 ```shell
-import tweepy, serial, datetime, time, keys, pyupm_i2clcd
+import tweepy, serial, datetime, time, keys, pyupm_jhd1313m1
 
 auth = tweepy.OAuthHandler(keys.consumer_key,
 keys.consumer_secret)
@@ -956,7 +956,7 @@ keys.access_token_secret)
 
 api = tweepy.API(auth)
 ard = serial.Serial('/dev/tty96B0', 115200)
-lcd = pyupm_i2clcd.Jhd1313m1(0, 0x3e, 0x62)
+lcd = pyupm_jhd1313m1.Jhd1313m1(0, 0x3e, 0x62)
 
 def tweet():
     lcd.clear()
