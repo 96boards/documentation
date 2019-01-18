@@ -41,4 +41,4 @@ st time to swapping out your OS
 
 | Guide                                                          | Descripion                                                                                                                 |
 |:--------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------|
-|[AOSP](../guides/aosp.md)                                                 |  It is possible to build AOSP for the Dragonboard 410c. Please note, this is experimental work.                            |
+|[AOSP](../../guides/aosp.md)                                                 |  It is possible to build AOSP for the Dragonboard 410c. Please note, this is experimental work.                            |

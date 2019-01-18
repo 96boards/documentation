@@ -8,7 +8,7 @@ redirect_from: /documentation/ConsumerEdition/guides/aosp-index.md.html
 ***
 ### Documentation Index
 - **A consolidated list linking to AOSP build instruction for supported 96Boards CE Products**
-  - **[DragonBoard 410c](../dragonboard/dragonboard410c/guides/aosp.md)**
+  - **[DragonBoard 410c](../dragonboard/guides/aosp.md)**
   - **[Hikey](https://source.android.com/setup/devices#hikey)**
   - **[Hikey960](https://source.android.com/setup/devices#hikey960)**
 
