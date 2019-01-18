@@ -1,9 +1,7 @@
 ---
 title: Useful Common Guides for DragonBoard 410c and 820c
-permalink: /documentation/consumer/rock/guides/
-redirect_from: /documentation/consumer/rock960/guides/
+permalink: /documentation/consumer/dragonboard/guides/
 ---
-
 # Useful Guides
 
 These guides will help to get you started with a variety of available on-boards software
