@@ -34,6 +34,7 @@ st time to swapping out your OS
 | [Enable DMIC Support](enable-dmic.md)                               | Instruction to enable DMIC(Digital MICrophone)                                                                             |
 | [Enable SPI Ethernet Controller](enable-spi-ethernet-controller.md) | Instructions to connect and enable SPI Ethernet Controllers                                                                |
 | [Running LAVA Tests](testing.md)                                    | How to utilize the Linaro test suite on Dragonboard 410c                                                                   |
+| [Install Fedora](fedora.md)                                         | Install Fedora on Dragonboard410c                                                                                  |
 
 ## Android
 
