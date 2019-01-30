@@ -24,6 +24,8 @@ A comprehensive guide to using the [HiKey960](https://www.96boards.org/product/h
 
 - [Getting Started](getting-started/)
    - Learn about your HiKey960 board, how to prepare and set up for basic use
+- [Useful Guides](guides/)
+   - Execute unique configurations to customize your HiKey960 experience
 - [Vendor Documentation](hardware-docs/)
    - Explore what makes your HiKey960 unique, technical specifications, schematics, hardware notes and more...
 - [Troubleshooting and Support](support/)
