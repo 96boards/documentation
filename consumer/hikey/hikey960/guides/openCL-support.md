@@ -45,7 +45,10 @@ $ sudo apt-get update
 $ sudo apt-get install linux-headers-$(uname -r)
 $ tar -xzf BX301A01B-SW-99002-r16p0-01rel0.tgz
 $ make -C /usr/src/linux-headers-$(uname -r)/ M=${PWD}/BX301A01B-SW-99002-r16p0-01rel0/driver/product/kernel/drivers/gpu/arm/midgard/ CONFIG_MALI_MIDGARD=m CONFIG_MALI_GATOR_SUPPORT=y CONFIG_MALI_MIDGARD_DVFS=y CONFIG_MALI_EXPERT=y CONFIG_MALI_PLATFORM_FAKE=y CONFIG_MALI_PLATFORM_THIRDPARTY=y CONFIG_MALI_PLATFORM_THIRDPARTY_NAME=devicetree modules
-$ sudo insmod BX301A01B-SW-99002-r16p0-01rel0/driver/product/kernel/drivers/gpu/arm/midgard/mali_kbase.ko
+$ sudo mkdir -p /lib/modules/$(uname -r)/extras
+$ sudo cp BX301A01B-SW-99002-r16p0-01rel0/driver/product/kernel/drivers/gpu/arm/midgard/mali_kbase.ko /lib/modules/$(uname -r)/extras/
+$ sudo depmod -a
+$ sudo modprobe mali_kbase
 ```
 > Note: BX301A01B-SW-99002-r16p0-01rel0.tgz is the kernel driver package downloaded from ARM developer site.
 
