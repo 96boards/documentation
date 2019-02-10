@@ -23,5 +23,5 @@ You may download pre-build binary or build software for your IVY5661.
 
 Choose the host machine:
 
-- [Linux](Linux_host.md)    
+- [Linux](linux.md)    
 - Windows  
