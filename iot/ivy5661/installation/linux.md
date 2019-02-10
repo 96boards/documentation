@@ -1,3 +1,8 @@
+---
+title: Installation for Ivy5661 using Linux
+permalink: /documentation/iot/ivy5661/installation/linux.md.html
+---
+
 ## Linux host
 This section shows how to flash IVY5661 with a Linux machine. There will be five steps.  
 
@@ -35,7 +40,7 @@ Connect UART0 on IVY5661 to your host machine(Linux) with the USB to MicroUSB ca
 
 ### Step 4: Flash IVY5661
 Enter the where binary files locate.  
-For example, if you follow the [Build IVY5661 frome source](../build/Linux.md), the workspace will be ```~/workspace/unisoc_zephyr_sdk/output/repeater/images```.  
+For example, if you follow the [Build IVY5661 frome source](../build/linux.md), the workspace will be ```~/workspace/unisoc_zephyr_sdk/output/repeater/images```.  
 Running command ```./update_fw.sh```, the board will flashed automatically.  
 Sections and procegree bar will be showed while flashing.  
 

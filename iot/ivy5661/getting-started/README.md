@@ -18,11 +18,9 @@ Learn about your Ivy5661 board as well as how to prepare and set up for basic us
 
 # Out of the Box
 
-The following subsections should describe how to get started with the Bpi NB-IOT Board using the [MDK5 Tools from Arm](http://www2.keil.com/mdk5)
+The following subsections should describe how to get started with the Ivy5661 using the release build shipped with the boards. The Ivy5661 board is ready to use “out of the box” with a preinstalled version of the Zephyr RTOS.
 
-<img src="" data-canonical-src=""/>
-
-<img src="" data-canonical-src=""/>
+<img src="../images/IVY5661-Front-small.png" data-canonical-src="../images/IVY5661-Front-small.png"/>
 
 ## Features
 
@@ -52,9 +50,14 @@ Coming soon...
 
 ## Starting the board for the first time
 
-Coming soon...
-
-***
+- Download the [Android Smart Repeater App](https://github.com/unisoc/Android-SmartRepeater/raw/master/SmartRepeater/releaseAPK/SmartRepeater_W18.46.2.apk)
+- Install the .apk on your Android Device
+   - > Note: You might have to enable "Installtion from Unknown Source". You can read more about that [here](https://developer.android.com/distribute/marketing-tools/alternative-distribution#unknown-sources).
+- Plugin the Ivy5661 to a micro-usb cable for power.
+  - > Note: Early Adopters might mave to follow the [Downloads](../downloads/) and [Installation](../installation/) instructions to flash the factory firmware.
+- The device should show up in the `Android Smart Repeater App`
+   - Tap on the device to connect
+   - Within the App select WiFi Manager to setup Wifi AP
 
 ## What's Next?
 

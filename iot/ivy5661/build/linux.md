@@ -1,3 +1,9 @@
+---
+title: Build Zephyr for Ivy5661 on Linux
+permalink: /documentation/iot/ivy5661/build/linux.md.html
+---
+
+
 # Build for IVY5661 from source
 
 ---  
