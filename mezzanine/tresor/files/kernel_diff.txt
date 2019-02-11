@@ -1,0 +1,68 @@
+diff --git a/arch/arm64/boot/dts/qcom/apq8016-sbc.dtsi b/arch/arm64/boot/dts/qcom/apq8016-sbc.dtsi
+index c99fc9a..4e3ec52 100644
+--- a/arch/arm64/boot/dts/qcom/apq8016-sbc.dtsi
++++ b/arch/arm64/boot/dts/qcom/apq8016-sbc.dtsi
+@@ -139,6 +139,11 @@
+ 		/* On Low speed expansion */
+ 			label = "LS-SPI0";
+ 			status = "okay";
++			tpm_tis_spi@0 {
++				compatible = "tcg,tpm_tis-spi";
++				spi-max-frequency = <5000000>;
++				reg = <0>;
++                        };
+ 		};
+ 
+ 		leds {
+diff --git a/arch/arm64/boot/dts/qcom/msm8916-pins.dtsi b/arch/arm64/boot/dts/qcom/msm8916-pins.dtsi
+index d680b0e..82fc400 100644
+--- a/arch/arm64/boot/dts/qcom/msm8916-pins.dtsi
++++ b/arch/arm64/boot/dts/qcom/msm8916-pins.dtsi
+@@ -208,7 +208,7 @@
+ 			pins = "gpio16", "gpio17", "gpio19";
+ 		};
+ 		pinmux_cs {
+-			function = "gpio";
++			function = "blsp_spi5";
+ 			pins = "gpio18";
+ 		};
+ 		pinconf {
+diff --git a/drivers/spi/spi-qup.c b/drivers/spi/spi-qup.c
+index 974a8ce..2969d59 100644
+--- a/drivers/spi/spi-qup.c
++++ b/drivers/spi/spi-qup.c
+@@ -754,6 +754,7 @@ static int spi_qup_io_config(struct spi_device *spi, struct spi_transfer *xfer)
+ 	else
+ 		control &= ~SPI_IO_C_CLK_IDLE_HIGH;
+ 
++	config |= SPI_IO_C_MX_CS_MODE;
+ 	writel_relaxed(control, controller->base + SPI_IO_CONTROL);
+ 
+ 	config = readl_relaxed(controller->base + SPI_CONFIG);
+@@ -1113,7 +1114,7 @@ static int spi_qup_probe(struct platform_device *pdev)
+ 			base + QUP_ERROR_FLAGS_EN);
+ 
+ 	writel_relaxed(0, base + SPI_CONFIG);
+-	writel_relaxed(SPI_IO_C_NO_TRI_STATE, base + SPI_IO_CONTROL);
++	writel_relaxed(SPI_IO_C_NO_TRI_STATE|SPI_IO_C_MX_CS_MODE, base + SPI_IO_CONTROL);
+ 
+ 	ret = devm_request_irq(dev, irq, spi_qup_qup_irq,
+ 			       IRQF_TRIGGER_HIGH, pdev->name, controller);
+diff --git a/kernel/configs/distro.config b/kernel/configs/distro.config
+index 16b696b..86fc791 100644
+--- a/kernel/configs/distro.config
++++ b/kernel/configs/distro.config
+@@ -443,3 +443,13 @@ CONFIG_SETEND_EMULATION=y
+ CONFIG_MD=y
+ CONFIG_BLK_DEV_DM=m
+ CONFIG_DM_CRYPT=m
++
++# Enable TPM2 SPI
++CONFIG_TCG_TPM=y
++CONFIG_TCG_TIS_CORE=m
++CONFIG_TCG_TIS_SPI=m
++CONFIG_HW_RANDOM_TPM=m
++CONFIG_SECURITYFS=y
++CONFIG_CRYPTO_HASH_INFO=y
++
++
