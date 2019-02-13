@@ -7,6 +7,8 @@ permalink: /documentation/mezzanine/shiratech-fpga/guides/
 # Shields and Sensor Guides
 - [I2C Shield and Sensor guide](i2c-shields.md)
 - [FPGA Mezzanine I/O Library](fpga-mezzanine-library.md)
+- [L298n Motor Controller](l298n.md)
+- [Relay Shield](relay-shield.md)
 
 # FPGA Guides
 - [Getting Started with FPGA Programming](fpga-getting-started.md)
