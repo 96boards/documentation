@@ -16,7 +16,7 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
 
 **Audio kit includes**
 - [DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/)
-   - Board based on Qualcomm® Snapdragon™ 410E processor
+   - Board based on Qualcomm® APQ8016E 410E processor
 - Power adapter
    - 96Boards specifications requires a 6.5V-18V with 2000mA Power adapter
 - Audio Mezzanine
@@ -52,7 +52,7 @@ The following subsections should describe how to get started with the DragonBoar
 
 |   Component          |   Description                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------|
-|  SoC                 | Qualcomm Snapdragon 410E                                                                         |
+|  SoC                 | Qualcomm APQ8016E                                                                          |
 |  CPU                 | ARM Cortex-A53 Quad-core up to 1.2 GHz per core                                                  |
 |  GPU                 | Qualcomm Adreno 306 @ 400MHz for PC-class graphics with support for Advanced APIs, including OpenGL ES 3.0, OpenCL, DirectX, and content security                                                                                     |
 |  RAM                 | 1GB LPDDR3 SDRAM @ 533MHz                                                                        |
