@@ -21,9 +21,9 @@ Explore what makes your DragonBoard 410c unique, technical specifications, schem
 - BOM ([View](https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/hardware-docs/DragonBoard410c_BOM.pdf) / [Download](https://github.com/96boards/documentation/raw/master/consumer/dragonboard/dragonboard410c/hardware-docs/DragonBoard410c_BOM.pdf))
 - Schematics ([View](https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard410c/hardware-docs/Schematics_DragonBoard.pdf) / [Download](https://github.com/96boards/documentation/raw/master/consumer/dragonboard/dragonboard410c/hardware-docs/Schematics_DragonBoard.pdf))
 
-#### Qualcomm Snapdragon 410E Processor documents
+#### Qualcomm APQ8016E Processor documents
 
-- [Snapdragon 410E Processor Device Specification](http://linaro.co/96b-sd410-ds)
-- [Snapdragon 410E GPIO Pin Assignment](https://developer.qualcomm.com/download/db410c/gpio-pin-assignment.pdf)
-- [Hardware Register Description for Qualcomm Snapdragon 410E (APQ8016E)](http://linaro.co/96b-qc-hrd)
-- [Snapdragon 410E Processor APQ8016E Clock Plan](https://developer.qualcomm.com/download/db410c/clock-plan-apq8016e.pdf)
+- [APQ8016E Processor Device Specification](http://linaro.co/96b-sd410-ds)
+- [APQ8016E GPIO Pin Assignment](https://developer.qualcomm.com/download/db410c/gpio-pin-assignment.pdf)
+- [Hardware Register Description for Qualcomm APQ8016E (APQ8016E)](http://linaro.co/96b-qc-hrd)
+- [APQ8016E Processor APQ8016E Clock Plan](https://developer.qualcomm.com/download/db410c/clock-plan-apq8016e.pdf)
