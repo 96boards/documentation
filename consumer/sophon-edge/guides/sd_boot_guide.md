@@ -1,3 +1,8 @@
+---
+title: Sophon Edge SOC SD Card Installation Guide
+permalink: /documentation/consumer/sophon-edge/guides/sd_boot_guide.md.html
+description: This guide will describe the process of booting the Sophon Edge in SOC mode using an SD card. SOC mode allows on board programming through the UART port on the Sophon Edge.
+---
 # Sophon Edge SOC SD Card Installation Guide
 
 This guide will describe the process of booting the Sophon Edge in SOC mode using an SD card. SOC mode allows on board programming through the UART port on the Sophon Edge.
