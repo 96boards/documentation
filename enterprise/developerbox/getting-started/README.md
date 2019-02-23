@@ -52,7 +52,7 @@ available in the [Downloads and Installation](../installation/) section. This se
 
 Alternatively; if you have a simple home network (or a very relaxed corporate one) then
 it is possible to install the [Enterprise Reference
-Platform](https://platforms.linaro.org/documentation/Reference-Platform/Platforms/Enterprise/README.md/), with a fully operational desktop environment,
+Platform](https://platforms.linaro.org/documentation/Reference-Platform/Platforms/Enterprise/), with a fully operational desktop environment,
 directly from within the EDK2 menu system. The Enterprise Reference
 Platform is intended to be used as a reference for component validation
 and, among other things, pairs Debian Stretch with a more recent kernel
