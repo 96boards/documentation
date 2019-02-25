@@ -32,7 +32,7 @@ redirect_from:
 
 | Bootloader                                                                                                                             |
 |:---------------------------------------------------------------------------------------------------------------------------------------|
-| [Download](http://releases.linaro.org/96boards/dragonboard410c/linaro/rescue/latest/dragonboard-410c_bootloader_emmc_linux-*.zip)       |
+| [Download](http://releases.linaro.org/96boards/dragonboard410c/linaro/rescue/latest/dragonboard-410c-bootloader-emmc-linux-*.zip)       |
 | [Release Notes](http://releases.linaro.org/96boards/dragonboard410c/linaro/rescue/latest/)                                             |
 
 | Boot image                                                                                                                             |
