@@ -73,6 +73,6 @@ This image can be flashed to eMMC from USB or write and run on a SD card. Contin
 
 |   Rootfs image    |    Download                    |
 |:------------------|:----------------------------------|
-| Ubuntu 16.04 Server rootfs arm64     | [ubuntu_16.04_server_rootfs.img.gz](https://dl.vamrs.com/products/rock960c/images/ubuntu/ubuntu_server_16.04_arm64_rootfs_20171108.img.gz)                          |
+| Ubuntu 16.04 Server rootfs arm64     | [ubuntu_16.04_server_rootfs.img.gz](https://dl.vamrs.com/products/rock960c/images/ubuntu/partitions/rootfs/ubuntu_server_16.04_arm64_rootfs_20171108.ext4.gz)                          |
 
 Continue to [Installation page](../installation)

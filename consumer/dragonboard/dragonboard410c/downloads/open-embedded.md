@@ -16,7 +16,7 @@ redirect_from:
 
 | Bootloader                                                                                                                              |
 |:----------------------------------------------------------------------------------------------------------------------------------------|
-| [Download](http://releases.linaro.org/96boards/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_linux-*.zip)        |
+| [Download](http://releases.linaro.org/96boards/dragonboard410c/linaro/rescue/latest/dragonboard-410c_bootloader_emmc_linux-*.zip)        |
 | [Release Notes](http://releases.linaro.org/96boards/dragonboard410c/linaro/rescue/latest/)      |
 
 Choose between RPB and RPB-Wayland. You will need to download the "boot image" and your choice of "Desktop" or "Console" rootfs.
