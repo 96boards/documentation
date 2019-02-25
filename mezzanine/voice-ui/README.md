@@ -66,7 +66,7 @@ The Arrow/ADI ADADN8080 Mezzanine reference design board is a high-end voice con
 
 ### 2.2) Documentation
 
-- [Bill of Materials - Mezzanine](files/bom-mezzanine-pdf)
-- [Bill of Materials - Mic Array](files/bom-mic-array-pdf)
+- [Bill of Materials - Mezzanine](files/bom-mezzanine.pdf)
+- [Bill of Materials - Mic Array](files/bom-mic-array.pdf)
 - [Schematics - Mezzanine](files/voice-ui-schematic-mezzanine.pdf)
 - [Schematics - Mic Array](files/voice-ui-schematic-mic-array.pdf)
