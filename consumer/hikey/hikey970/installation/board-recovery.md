@@ -129,11 +129,11 @@ $ dmesg
 
 Now, move into the `tools-images-hikey970` directory and execute the recovery script.
 Make sure the modem interface is in the right ttyUSB as previously suggested. In this
-example, use ttyUSB1:
+example, `ttyUSB0` is used:
 
 ```
 $ cd tools-images-hikey970
-$ sudo python hisi-idt.py -d /dev/ttyUSB1 --img1 ./sec_usb_xloader.img --img2 ./sec_usb_xloader2.img --img3 ./l-loader.bin
+$ sudo python hisi-idt.py -d /dev/ttyUSB0 --img1 ./sec_usb_xloader.img --img2 ./sec_usb_xloader2.img --img3 ./l-loader.bin
 ```
 
 > Note: This script only works with Python2.7
@@ -142,7 +142,7 @@ You should see the following output on PC after executing the above command:
 
 ```
 +----------------------+
-(' Serial: ', '/dev/ttyUSB1')
+(' Serial: ', '/dev/ttyUSB0')
 (' Image1: ', './sec_usb_xloader.img')
 (' Image2: ', './sec_usb_xloader2.img')
 +----------------------+

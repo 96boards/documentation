@@ -65,52 +65,6 @@ Jumper Pin 5-6 = DIP switch 3                     |
 Since we are going to flash the bootloader binaries, we need to boot into
 **recovery mode** as mentioned above.
 
-### Connect Hikey960 Serial Console
-
-Follow any one of the below steps for setting up the console.
-
-#### Ser2Net
-
-Install ser2net using below command:
-
-```shell
-$ sudo apt-get install ser2net
-```
-
-Configure ser2net:
-
-```shell
-$ sudo vi /etc/ser2net.conf
-```
-
-Append one line for serial-over-USB in below:
-
-```shell
-2004:telnet:0:/dev/ttyUSB0:115200 8DATABITS NONE 1STOPBIT banner
-```
-
-Open the console.
-
-```shell
-$ telnet localhost 2004
-```
-
-And you could open the console remotely, too.
-
-#### Picocom
-
-Install picocom using the below command: 
-
-```shell
-$ sudo apt-get install picocom
-```
-
-Open the console:
-
-```shell
-$ picocom /dev/ttyUSB0 -b 115200 -f x
-```
-
 ### Connect the HiKey960 power supply to the board.
 
 Since USB does **NOT** power the HiKey960 board, you must use an external
@@ -127,17 +81,17 @@ $ dmesg
 
 ### Flash the recovery binaries
 
-Make sure the modem interface is in the right ttyUSB as previously suggested. In this example, use ttyUSB1:
+Make sure the modem interface is in the right ttyUSB as previously suggested. In this example, `ttyUSB0` is used:
 
 ```
-$ sudo ./hikey_idt -c config -p /dev/ttyUSB1
+$ sudo ./hikey_idt -c config -p /dev/ttyUSB0
 ```
 
 You should be able to see the following output after executing the tool:
 
 ```
 Config name: config
-Port name: /dev/ttyUSB1
+Port name: /dev/ttyUSB0
 0: Image: sec_usb_xloader.img Downalod Address: 0x20000
 1: Image: sec_uce_boot.img Downalod Address: 0x6a908000
 2: Image: l-loader.bin Downalod Address: 0x1ac00000

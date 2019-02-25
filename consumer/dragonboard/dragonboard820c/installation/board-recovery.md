@@ -34,9 +34,7 @@ In order to force the DB820c to boot on USB (EDL mode), you need to configure S1
 
 * Power off the board and make sure no USB cable is plugged into the board
 * Set switch S1 to `ON,OFF,OFF,ON`. If you have a P1 board (very unlikely) you need to set to `ON,ON,OFF,ON`.
-* Connect the debug UART / serial console to your Linux PC, if not done already
 * Connect the micro USB cable (J4) between the Linux PC and the board
-* Open UART/serial console
 * Power on the device
 
 ### Flashing the device
@@ -50,7 +48,8 @@ Then run:
     cd dragonboard-820c-bootloader-ufs-linux-42.zip/
     sudo <PATH to qdl>/qdl prog_ufs_firehose_8996_ddr.elf rawprogram.xml patch.xml
 
-It should take a few seconds. And you should eventually get something like that:
+It should take a few seconds. And you should eventually get something like below
+from QDL stdout:
 
     ...
     ...
@@ -85,14 +84,12 @@ If the flashing process succeeded, all the right bootloaders and partition table
 
 * Power off the board and make sure no USB cable is plugged into the board
 * Set Switch S1 to `OFF,OFF,OFF,OFF`. If you have a P1 board (very unlikely) you may need to use `OFF,ON,OFF,OFF`.
-* Connect the debug UART / serial console to your Linux PC, if not done already
 * Connect the micro USB cable (J4) between the Linux PC and the board
-* Open UART/serial console
 * Power on the device
 
-You should some see debug traces on the console, and at the end something like:
+Execute below command on the PC to confirm that the board has entered fastboot mode:
 
-    S- QC_IMAGE_VERSION_STRING=BOOT.XF.1.0-00301
-    ...
-    ...
-    fastboot: processing commands
+```shell
+$ sudo fastboot devices
+01234567	fastboot
+```
