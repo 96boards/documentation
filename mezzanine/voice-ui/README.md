@@ -7,7 +7,7 @@ permalink: /documentation/mezzanine/voice-ui/
 
 # Table of Contents
 - [1) Introduction](#1-introduction)
-  - [1.1) About the 96Boards Tresor Mezzanine](#11-about-the-96boards-tresor-mezzanine)
+  - [1.1) About the Voice UI Mezzanine](#11-about-the-voice-ui-reference-design-for-96boards)
   - [1.2) Specifications & Features](#12-specifications-and-features)
 - [2) Guides and Documentation](#2-guides-and-documentation)
 
@@ -58,13 +58,13 @@ The Arrow/ADI ADADN8080 Mezzanine reference design board is a high-end voice con
 
 # 2) Guides and Documentation
 
-### Guides
+### 2.1) Guides
 
 - [Useful Guides](guides/)
 - [User Guide](files/adi-voice-ui-user-manual.pdf)
 - [Quick Start](files/voice-ui-quick-start.pdf)
 
-### Documentation
+### 2.2) Documentation
 
 - [Bill of Materials - Mezzanine](files/bom-mezzanine-pdf)
 - [Bill of Materials - Mic Array](files/bom-mic-array-pdf)
