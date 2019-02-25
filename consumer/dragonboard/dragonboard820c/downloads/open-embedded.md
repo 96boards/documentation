@@ -15,7 +15,7 @@ redirect_from:  /documentation/consumer/dragonboard820c/downloads/open-embedded.
 
 | Bootloader                                                                                                                             |
 |:---------------------------------------------------------------------------------------------------------------------------------------|
-| [Download](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/dragonboard-820c-bootloader-ufs-linux-42.zip)       |
+| [Download](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/dragonboard-820c-bootloader-ufs-linux-*.zip)       |
 | [Release Notes](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/)                                             |
 
 Choose one boot image, the root file system you choose will be based on the boot image you download here:
