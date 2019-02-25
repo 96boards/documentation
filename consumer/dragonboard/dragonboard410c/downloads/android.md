@@ -27,7 +27,7 @@ redirect_from:
 
 | Bootloader                                                                                                                              |
 |:----------------------------------------------------------------------------------------------------------------------------------------|
-| [Download](https://releases.linaro.org/96boards/dragonboard410c/linaro/rescue/latest/dragonboard410c_bootloader_emmc_android-*.zip)     |
+| [Download](https://releases.linaro.org/96boards/dragonboard410c/linaro/rescue/latest/dragonboard-410c-bootloader-emmc-aosp-*.zip)     |
 | [Release Notes](http://releases.linaro.org/96boards/dragonboard410c/linaro/rescue/latest/)                                              |
 
 | Stable Snapshot 99                                                                                                                        |
