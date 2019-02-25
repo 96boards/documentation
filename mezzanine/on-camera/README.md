@@ -12,7 +12,7 @@ permalink: /documentation/mezzanine/on-camera/
 
 # 1) Introduction
 
-<img src="https://github.com/96boards/website/blob/master/_product/mezzanine/voice-ui/images/voice-ui-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/_product/mezzanine/voice-ui/images/voice-ui-front-sd.png?raw=true" width="300" height="250" />
+<img src="https://github.com/96boards/website/blob/master/_product/mezzanine/on-camera/images/on-camera-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/website/blob/master/_product/mezzanine/on-camera/images/on-camera-front-sd.png?raw=true" width="300" height="250" />
 
 ## 1.1) Specifications and Features
 
