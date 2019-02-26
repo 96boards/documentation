@@ -8,6 +8,13 @@ permalink: /documentation/consumer/dragonboard/dragonboard845c/getting-started/
 Choose your DragonBoard 845c kit to proceed:
 
 - [RB3 Kit](rb3-kit/)
-   - Comes with 1 x DragonBoard 845c
+   - Robotics DragonBoard™ 845c
+   - Qualcomm Robotics Navigation Mezzanine board
+   - Bracket
+   - Main camera (OV8856)
+   - Tracking camera (OV7251)
+   - 100mm coax cable x 1 & 50mm coax cable x 2
+   - Adapter
+   - Quick Start Guide
 
 ***
