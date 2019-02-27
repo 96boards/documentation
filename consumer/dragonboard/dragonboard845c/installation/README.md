@@ -4,8 +4,6 @@ permalink: /documentation/consumer/dragonboard/dragonboard845c/installation/
 ---
 # Installation
 
-# Installation
-
 Stand alone DragonBoard 410c will ship with the Android image. If the DragonBoard 410c is purchased as part of a kit, it may have a different pre-loaded operating system.
 
 This guide will help you choose and install an operating system and installation method on your DragonBoard 410c.
