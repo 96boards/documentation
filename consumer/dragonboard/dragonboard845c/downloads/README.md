@@ -14,4 +14,6 @@ Other operating systems supported on DragonBoard 845c, offered by partners.
 
 - [LE OS (Based on Yocto)](https://thundercomm.s3-ap-northeast-1.amazonaws.com/shop/doc/1544580412842651/5c471969b1c340c7bbc20b02148762ce-1352331417) 
 
+Continue to [Installation Page](../installation)
+
 ***
