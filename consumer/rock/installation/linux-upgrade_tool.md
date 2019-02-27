@@ -83,6 +83,7 @@ You need USB3.0 or USB2.0 type A to type C cable:
 - press and hold the maskrom key, then short press reset key
 - release maskrom key(important!)
 
+
 ##### For ROCK960C
 You need USB3.0 or USB2.0 type A to type A male cable:
 
@@ -94,6 +95,8 @@ You need USB3.0 or USB2.0 type A to type A male cable:
 
 **Note**: You don't need to switch the HOST/DEVICE switch for USB OTG, in maskrom mode, USB OTG is forced as device mode.
 
+
+Alternatively, if you are running Android and can access ADB, you can reboot the device to loader mode `adb reboot bootloader` then use the upgrade_tool to reset the device into maskrom mode `upgrade_tool rd 3`.
 
 After the device is in maskrom mode, on the host PC, `lsusb` should show the following VID/PID if the board is in maskrom mode: `Bus 003 Device 061: ID 2207:0011`
 
