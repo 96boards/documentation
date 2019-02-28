@@ -8,10 +8,8 @@ These guides will help to get you started with a variety of available on-boards 
 
 ## LE
 
-Linux User Guide ([Download](files/rb3-linux-user-guide.pdf)) | This guide hosts a variety of basic setup instructions sets. From getting your board booted up for the first time to swapping out your OS
-
-| Guides                                             | Description                      |
-|:--------------------------------------------------:|:--------------------------------:|
+| Guides                                             | Description                    |
+|:--------------------------------------------------:|:-------------------------------|
 | [Button Events](button-events.md) | Get interrupt events from the on-board Buttons    |
 | [Set up the FAN control interface](fan-control.md) | Control on-Board fan header      |
 | [Configure CAN interface](can.md)                  | Set up onboard CAN Bus Interface |
