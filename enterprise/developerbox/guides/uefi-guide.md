@@ -13,7 +13,6 @@ permalink: /documentation/enterprise/developerbox/guides/uefi-guide.md.html
     * [Set eMMC enable](#set-emmc-enable)
     * [Select hardware description](#select-hardware-description)
 
-<a name="uefi-boot-menu-tree"></a>
 # UEFI boot menu tree
 
   * Device Manager
@@ -40,10 +39,8 @@ permalink: /documentation/enterprise/developerbox/guides/uefi-guide.md.html
     * Console Options
     * Boot From File
 
-<a name="configure-boot-options"></a>
 # Configure boot options
 
-<a name="add-boot-option"></a>
 ## Add boot option
 To add new grub boot option:
 
@@ -55,7 +52,6 @@ To add new grub boot option:
 * Select **Input the description** and enter boot option label
 * Select **Commit Changes and Exit**
 
-<a name="delete-boot-option"></a>
 ## Delete boot option
 
 * Select **Boot Maintenance Manager** and **Boot Options**
@@ -63,7 +59,6 @@ To add new grub boot option:
 * Select **Debian**, then press F10
 * Select **Commit Changes and Exit**
 
-<a name="change-boot-order"></a>
 ## Change boot order
 
 * Select **Boot Maintenance Manager** and **Boot Options**
@@ -72,10 +67,8 @@ To add new grub boot option:
 * Change order with "+" or "-"
 * Make sure if the order changed and select **Commit Changes and Exit**
 
-<a name="configure-platform-settings"></a>
 # Configure platform settings
 
-<a name="set-emmc-enable"></a>
 ## Set eMMC enable
 
 * Select **Device Manager** and **SynQuacer Platform Settings**
@@ -84,7 +77,6 @@ To add new grub boot option:
 * Press **Escape** again, to return to the main menu
 * Select **Reset**
 
-<a name="select-hardware-description"></a>
 ## Select hardware description
 
 * Select **Device Manager** and **SynQuacer Platform Settings**
