@@ -37,8 +37,7 @@ $ sudo apt install build-essential fakeroot bc kmod cpio libssl-dev bison flex
 ## Get Linux Kernel Source
 
 ```shell
-$ git clone https://github.com/suihkulokki/linux.git
-$ git checkout -t origin/hikey-v4.15
+$ git clone https://git.linaro.org/people/manivannan.sadhasivam/hikey.git
 ```
 
 ## Build the Linux Kernel
