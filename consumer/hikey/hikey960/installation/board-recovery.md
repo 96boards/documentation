@@ -92,20 +92,20 @@ You should be able to see the following output after executing the tool:
 ```
 Config name: config
 Port name: /dev/ttyUSB0
-0: Image: sec_usb_xloader.img Downalod Address: 0x20000
-1: Image: sec_uce_boot.img Downalod Address: 0x6a908000
-2: Image: l-loader.bin Downalod Address: 0x1ac00000
+0: Image: hisi-sec_usb_xloader.img Downalod Address: 0x20000
+1: Image: hisi-sec_uce_boot.img Downalod Address: 0x6a908000
+2: Image: recovery.bin Downalod Address: 0x1ac00000
 Serial port open successfully!
-Start downloading sec_usb_xloader.img@0x20000...
-file total size 99648
+Start downloading hisi-sec_usb_xloader.img@0x20000...
+file total size 99584
 downlaod address 0x20000
 Finish downloading
-Start downloading sec_uce_boot.img@0x6a908000...
+Start downloading hisi-sec_uce_boot.img@0x6a908000...
 file total size 23680
 downlaod address 0x6a908000
 Finish downloading
-Start downloading l-loader.bin@0x1ac00000...
-file total size 1081344
+Start downloading recovery.bin@0x1ac00000...
+file total size 1179648
 downlaod address 0x1ac00000
 Finish downloading
 ```
@@ -124,7 +124,7 @@ and other necessary files into the HiKey960 UFS memory**.
 
 ```
 $ sudo fastboot flash ptable prm_ptable.img
-$ sudo fastboot flash xloader sec_xloader.img
+$ sudo fastboot flash xloader hisi-sec_xloader.img
 $ sudo fastboot flash fastboot l-loader.bin
 $ sudo fastboot flash fip fip.bin
 ```
