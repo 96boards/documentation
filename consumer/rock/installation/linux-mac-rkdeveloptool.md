@@ -71,20 +71,40 @@ Extract the image tar ball, for SD card/eMMC AIO image, the file list as below:
 
 #### **Step 3**: Boot device into maskrom mode
 
-[Maskrom mode](http://opensource.rock-chips.com/wiki_Rockusb#Maskrom_mode) is the code inside the Rockchip SoC running and waiting for commands from USB when there is no external bootable media. To put the device into maskrom mode:
+[Maskrom mode](http://opensource.rock-chips.com/wiki_Rockusb#Maskrom_mode) is the code inside the Rockchip SoC running and waiting for commands from USB when there is no external bootable media. 
+
+To put the device into maskrom mode:
+
+##### For ROCK960
+
+You need USB3.0 or USB2.0 type A to type C cable:
 
 - power on rock960
 - plug the rock960 to Linux desktop with USB type A to type C cable
 - press and hold the maskrom key, then short press reset key
-- release mask rom key(important!)
+- release maskrom key(important!)
 
-On the host PC, `lsusb` should show the following VID/PID if the board is in maskrom mode: `Bus 003 Device 061: ID 2207:0011`
+##### For ROCK960C
+You need USB3.0 or USB2.0 type A to type A male cable:
+
+- plug the eMMC module on rock960c and power on
+- plug the rock960c to Linux desktop with USB type A to type A male cable from the **USB 3.0 OTG** port, as below:
+<img src="../rock960c/additional-docs/images/images-install/rock960c_maskrom.jpeg" data-canonical-src="../rock960c/additional-docs/images/images-install/rock960c_maskrom.jpeg" width="250" height="160" />
+- press and hold the maskrom key, then short press reset key
+- release maskrom key(important!)
+
+**Note**: You don't need to switch the HOST/DEVICE switch for USB OTG, in maskrom mode, USB OTG is forced as device mode.
+
+
+
+After the device is in maskrom mode, on the host PC, `lsusb` should show the following VID/PID if the board is in maskrom mode: `Bus 003 Device 061: ID 2207:0011`
 
 **Note**: if no right USB device found, try:
 
-1. Press and hold maskrom key longer, and short press and release reset key.
-
-2. Check your usb cable, plug and unplug the usb cable, reverse plug the type C port and try.
+1. Press and hold maskrom key longer, and short press and release reset key
+2. Check your usb cable, plug and unplug the usb cable, reverse plug the type C cable and try
+3. Try the direct USB port at the back of mother board
+4. Try with USB 2.0 cable, not 3.0
 
 #### **Step 4**: Prepare the flash environment
 
@@ -94,7 +114,7 @@ Run the following command to download and run the mini loader to init DRAM and p
 
 #### **Step 5**: Flash images onto ROCK960 eMMC and reboot
 
-Write the image to eMMC with the following command and address:
+Write the GPT image to eMMC with the following command and address:
 
 	rkdeveloptool wl 0 system.img
 
