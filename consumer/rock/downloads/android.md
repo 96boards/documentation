@@ -16,13 +16,14 @@ Android is the leading mobile OS by Google. Android on ROCK960 is the version op
 
 |   eMMC rkupdate Image   |    Download     |
 |:------------------|:------------------------------------|
-|Rkupdate format image |[Android TV Box 7.1](https://dl.vamrs.com/products/rock960/images/tvbox/rock960-model-ab-android-7.1-tvbox-factory-image-20180807_1652-rkupdate.img.gz)                             |
+|Rkupdate format image |[Android TV Box 7.1](https://github.com/96rocks/manifests/releases/download/Android_20190313_1747_af5cf09/rock960-model-ab-nougat-20190313_1747_af5cf09-rkupdate.zip)                             |
 
 ### For ROCK960 model C
 
 |   eMMC rkupdate Image   |    Download     |
 |:------------------|:------------------------------------|
-|Rkupdate format image |[Android TV Box 7.1](https://dl.vamrs.com/products/rock960c/images/tvbox/rock960-model-c-android-7.1-tvbox-factory-image-20180807_1659-rkupdate.img.gz)                             |
+|Rkupdate format image |[Android TV Box 7.1](https://github.com/96rocks/manifests/releases/download/Android_20190313_1747_af5cf09/rock960-model-c-nougat-20190313_1747_af5cf09-rkupdate.zip)                             |  
+
 This image can be flashed to eMMC from USB. Continue to [rkupdate image installation page](../installation/linux-upgrade_tool.md)
 
 ## eMMC/SDcard image
@@ -31,13 +32,13 @@ This image can be flashed to eMMC from USB. Continue to [rkupdate image installa
 
 |   eMMC/SDcard GPT Image   |    Download     |
 |:------------------|:------------------------------------|
-|GPT format image |[Android TV Box 7.1](https://dl.vamrs.com/products/rock960/images/tvbox/rock960-model-ab-nougat-20190109_1841_8f11d51-gpt.img.gz)                             |
+|GPT format image |[Android TV Box 7.1](https://github.com/96rocks/manifests/releases/download/Android_20190313_1747_af5cf09/rock960-model-ab-nougat-20190313_1747_af5cf09-gpt.zip)                             |
 
 ### For ROCK960 model C
 
 |   eMMC/SDcard GPT Image   |    Download     |
 |:------------------|:------------------------------------|
-|GPT format image |[Android TV Box 7.1](https://dl.vamrs.com/products/rock960c/images/tvbox/rock960-model-c-nougat-20190109_1841_8f11d51-gpt.img.gz)           |
+|GPT format image |[Android TV Box 7.1](https://github.com/96rocks/manifests/releases/download/Android_20190313_1747_af5cf09/rock960-model-c-nougat-20190313_1747_af5cf09-gpt.zip)           |
 
 This image can be flashed to eMMC from USB or write directly on SDcard or eMMC module.
 - For install from USB on ROCK960/ROCK960C, continue to [GPT image USB installation page](../installation/linux-mac-rkdeveloptool.md)
