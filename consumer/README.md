@@ -21,8 +21,6 @@ Select your Consumer Edition 96Boards device to access all product specific reso
 
 <div style="overflow-x:scroll;" markdown="1">
 
-Board based on Sophon BM1880
-
 | 96Boards                                         | About                                                  | Options                    |
 |:------------------------------------------------:|:------------------------------------------------------:|:--------------------------:|
 | <img src="https://github.com/96boards/documentation/blob/master/consumer/sophon-edge/additional-docs/images/images-board/sd/sophon-sd-front.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/sophon-edge/additional-docs/images/images-board/sd/sophon-sd-front.png?raw=true" width="220" height="200" /><br> **Sophon Edge** | Board based on Sophon BM1880 | [Documentation](sophon-edge/)    |

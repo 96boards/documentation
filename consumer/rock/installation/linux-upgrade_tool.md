@@ -37,7 +37,7 @@ unzip the tar ball we downloaded
 Use the configuration file
 
     mkdir -p $HOME/.config/upgrade_tool/
-	cp config.ini $HOME/.config/upgrade_tool/
+    cp config.ini $HOME/.config/upgrade_tool/
     sudo cp rkdeveloptool /usr/local/bin/
 
 Test if upgrade_tool working properly
@@ -51,7 +51,7 @@ should return
 
 #### **Step 2**: Prepare necessary Android images
 
-Go to the [Downloads page](../downloads) to donwload the image or use your own built one. _update.img_ is the default name if you follow the build instructions of [AOSP](../build/aosp.md). We use the name _update.img_ to refer Rockchip format packed Android image.
+Go to the [Downloads page](../downloads) to donwload the image or use your own built one. _update.img_ is the default name if you follow the build instructions of [AOSP](../build/aosp.md). We use the name _-rkupdate.img_ to refer Rockchip format packed Android image.
 
 It contains the following partitions:
 
@@ -74,24 +74,45 @@ It contains the following partitions:
 
 [Maskrom mode](http://opensource.rock-chips.com/wiki_Rockusb#Maskrom_mode) is the code inside the Rockchip SoC running and waiting for commands from USB when there is no external bootable media. To put the device into maskrom mode:
 
+##### For ROCK960
+
+You need USB3.0 or USB2.0 type A to type C cable:
+
 - power on rock960
 - plug the rock960 to Linux desktop with USB type A to type C cable
 - press and hold the maskrom key, then short press reset key
+- release maskrom key(important!)
 
-On the host PC, `lsusb` should show the following VID/PID if the board is in maskrom mode: `Bus 003 Device 061: ID 2207:0011`
+
+##### For ROCK960C
+You need USB3.0 or USB2.0 type A to type A male cable:
+
+- plug the eMMC module on rock960c and power on
+- plug the rock960c to Linux desktop with USB type A to type A male cable from the **USB 3.0 OTG** port, as below:
+<img src="../rock960c/additional-docs/images/images-install/rock960c_maskrom.jpeg" data-canonical-src="../rock960c/additional-docs/images/images-install/rock960c_maskrom.jpeg" width="250" height="160" />
+- press and hold the maskrom key, then short press reset key
+- release maskrom key(important!)
+
+**Note**: You don't need to switch the HOST/DEVICE switch for USB OTG, in maskrom mode, USB OTG is forced as device mode.
+
+
+Alternatively, if you are running Android and can access ADB, you can reboot the device to loader mode `adb reboot bootloader` then use the upgrade_tool to reset the device into maskrom mode `upgrade_tool rd 3`.
+
+After the device is in maskrom mode, on the host PC, `lsusb` should show the following VID/PID if the board is in maskrom mode: `Bus 003 Device 061: ID 2207:0011`
 
 **Note**: if no right USB device found, try:
 
-1. Press and hold maskrom key longer, and short press and release reset key.
-
-2. Check your usb cable, plug and unplug the usb cable, reverse plug the type C port and try.
+1. Press and hold maskrom key longer, and short press and release reset key
+2. Check your usb cable, plug and unplug the usb cable, reverse plug the type C cable and try
+3. Try the direct USB port at the back of mother board
+4. Try with USB 2.0 cable, not 3.0
 
 
 #### **Step 5**: Flash images onto ROCK960 eMMC and reboot
 
-To flash the _update.img_ to on board eMMC
+To flash the _rkupdate.img_ to on board eMMC
 
-	sudo upgrade_tool uf /path/to/update.img
+	sudo upgrade_tool uf /path/to/rkupdate.img
 
 This will take a while, after it finishes, upgrade_tool will reboot the device.
 
@@ -103,4 +124,4 @@ Flash kernel only:
 
 Flash resource only:
 
-	sudo upgrade_tool di -re kernel.img
+	sudo upgrade_tool di -re resource.img

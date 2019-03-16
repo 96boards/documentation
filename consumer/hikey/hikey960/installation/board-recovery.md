@@ -65,52 +65,6 @@ Jumper Pin 5-6 = DIP switch 3                     |
 Since we are going to flash the bootloader binaries, we need to boot into
 **recovery mode** as mentioned above.
 
-### Connect Hikey960 Serial Console
-
-Follow any one of the below steps for setting up the console.
-
-#### Ser2Net
-
-Install ser2net using below command:
-
-```shell
-$ sudo apt-get install ser2net
-```
-
-Configure ser2net:
-
-```shell
-$ sudo vi /etc/ser2net.conf
-```
-
-Append one line for serial-over-USB in below:
-
-```shell
-2004:telnet:0:/dev/ttyUSB0:115200 8DATABITS NONE 1STOPBIT banner
-```
-
-Open the console.
-
-```shell
-$ telnet localhost 2004
-```
-
-And you could open the console remotely, too.
-
-#### Picocom
-
-Install picocom using the below command: 
-
-```shell
-$ sudo apt-get install picocom
-```
-
-Open the console:
-
-```shell
-$ picocom /dev/ttyUSB0 -b 115200 -f x
-```
-
 ### Connect the HiKey960 power supply to the board.
 
 Since USB does **NOT** power the HiKey960 board, you must use an external
@@ -127,31 +81,31 @@ $ dmesg
 
 ### Flash the recovery binaries
 
-Make sure the modem interface is in the right ttyUSB as previously suggested. In this example, use ttyUSB1:
+Make sure the modem interface is in the right ttyUSB as previously suggested. In this example, `ttyUSB0` is used:
 
 ```
-$ sudo ./hikey_idt -c config -p /dev/ttyUSB1
+$ sudo ./hikey_idt -c config -p /dev/ttyUSB0
 ```
 
 You should be able to see the following output after executing the tool:
 
 ```
 Config name: config
-Port name: /dev/ttyUSB1
-0: Image: sec_usb_xloader.img Downalod Address: 0x20000
-1: Image: sec_uce_boot.img Downalod Address: 0x6a908000
-2: Image: l-loader.bin Downalod Address: 0x1ac00000
+Port name: /dev/ttyUSB0
+0: Image: hisi-sec_usb_xloader.img Downalod Address: 0x20000
+1: Image: hisi-sec_uce_boot.img Downalod Address: 0x6a908000
+2: Image: recovery.bin Downalod Address: 0x1ac00000
 Serial port open successfully!
-Start downloading sec_usb_xloader.img@0x20000...
-file total size 99648
+Start downloading hisi-sec_usb_xloader.img@0x20000...
+file total size 99584
 downlaod address 0x20000
 Finish downloading
-Start downloading sec_uce_boot.img@0x6a908000...
+Start downloading hisi-sec_uce_boot.img@0x6a908000...
 file total size 23680
 downlaod address 0x6a908000
 Finish downloading
-Start downloading l-loader.bin@0x1ac00000...
-file total size 1081344
+Start downloading recovery.bin@0x1ac00000...
+file total size 1179648
 downlaod address 0x1ac00000
 Finish downloading
 ```
@@ -170,7 +124,7 @@ and other necessary files into the HiKey960 UFS memory**.
 
 ```
 $ sudo fastboot flash ptable prm_ptable.img
-$ sudo fastboot flash xloader sec_xloader.img
+$ sudo fastboot flash xloader hisi-sec_xloader.img
 $ sudo fastboot flash fastboot l-loader.bin
 $ sudo fastboot flash fip fip.bin
 ```

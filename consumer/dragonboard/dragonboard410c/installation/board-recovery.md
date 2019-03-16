@@ -16,7 +16,7 @@ There are a couple ways to recover your DragonBoard 410c from a "bricked" state.
 
 In most cases this will be your sure-fire way to recover your board from a software bricked state. A recovery image has been created and made ready to be flashed onto a micro SD card. Simply download the SD card recovery image, and follow the sd card installation instructions found on our [Installation page](README.md).
 
-- Download [SD Card Recovery image](http://releases.linaro.org/96boards/dragonboard410c/linaro/rescue/latest/dragonboard410c_sdcard_rescue-*.zip)
+- Download [SD Card Recovery image](http://releases.linaro.org/96boards/dragonboard410c/linaro/rescue/latest/dragonboard-410c-sdcard-rescue-*.zip)
 - Choose host machine under SD card installation instructions from [Installation Page](README.md)
 
 > Note: For those already familiar with the SD card flashing process, 96Boards build folder can be found [here](http://releases.linaro.org/96boards/dragonboard410c/linaro/rescue/latest/)
@@ -35,9 +35,7 @@ In order to force the DB410c to boot on USB (EDL mode), you need to configure S6
 
 * Power off the board and make sure no USB cable is plugged into the board
 * Set switch S6-1 to `ON`.
-* Connect the debug UART / serial console to your Linux PC, if not done already
 * Connect the micro USB cable (J4) between the Linux PC and the board
-* Open UART/serial console
 * Power on the device
 
 ### Flashing the device
@@ -51,16 +49,16 @@ Then run:
     cd dragonboard-410c-bootloader-emmc-linux-*/
     sudo <PATH to qdl>/qdl prog_emmc_firehose_8916.mbn rawprogram.xml patch.xml
 
-It should take a few seconds. And you should eventually get something like that:
+It should take a few seconds. And you should eventually get something like below
+from QDL stdout:
 
     ...
     ...
     Update Backup Header with CRC of Backup Header.
-    LOG: crc start sector 393215, over bytes 92
-    LOG: Patched sector 393215 with 8FDB38DF
-    LUN1 is now bootable device
-    LOG: Inside handlePower() - Requested POWER_RESET
-    LOG: Issuing bsp_target_reset() after 1 seconds, if this hangs, do you have WATCHDOG enabled?
+    LOG: crc start sector 15269887, over bytes 92
+    LOG: Patched sector 15269887 with E4874975
+    LOG: Set bootable drive to 0.
+    partition 0 is now bootable
 
 ### Booting into fastboot
 
@@ -68,13 +66,12 @@ If the flashing process succeeded, all the right bootloaders and partition table
 
 * Power off the board and make sure no USB cable is plugged into the board
 * Set Switch S6-1 to `OFF`.
-* Connect the debug UART / serial console to your Linux PC, if not done already
 * Connect the micro USB cable (J4) between the Linux PC and the board
-* Open UART/serial console
 * Power on the device
 
-You should some see debug traces on the console, and at the end something like:
+Execute below command on the PC to confirm that the board has entered `fastboot` mode:
 
-    ...
-    ...
-    fastboot: processing commands
+```shell
+$ sudo fastboot devices
+bacb2a4		fastboot
+```
