@@ -40,7 +40,7 @@ Fedora is a Linux distribution developed by the community-supported Fedora Proje
 - Install arm-image-installer: `sudo dnf install arm-image-installer`
 - Insert micro-SDCard in the host machine and run the following command to flash the image:
     ```
-    sudo arm-image-installer --target=dragonboard410c --image=Fedora-Server-29-1.2.aarch64.raw.xz --addconsole --norootpass --resizefs --target=/dev/sdX
+    sudo arm-image-installer --target=dragonboard410c --image=Fedora-Server-29-1.2.aarch64.raw.xz --addconsole --norootpass --resizefs --media=/dev/sdX
     ```
     - Replace `/dev/sdX` with the drive name of the SDCard.
 - Once the SDCard is flashed, insert it into your DragonBoard410c and reboot.
