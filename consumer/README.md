@@ -10,14 +10,10 @@ Welcome to the official documentation for Consumer Edition 96Boards, these docum
 
 ***
 
-## Contents - Start Here
-
 Select your Consumer Edition 96Boards device to access all product specific resources. You may also use the links below to compare, and explore a list of 96Boards Consumer Edition extras, this includes instructions for unique board configurations and fun projects.
 
 - [Compare 96Boards](guides/compare_96boards_ce.md)
 - [96Boards CE Extras](guides/)
-
-### Boards
 
 <div style="overflow-x:scroll;" markdown="1">
 

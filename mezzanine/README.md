@@ -1,11 +1,9 @@
 ---
-title: Mezzanine Guidelines
+title: Mezzanine Edition Documentation
 permalink: /documentation/mezzanine/
 redirect_from: /documentation/mezzanine/README.md/
 ---
 Mezzanine Design Guidelines ([View](https://github.com/96boards/documentation/blob/master/mezzanine/files/mezzanine-design-guidelines.pdf) / [Download](https://github.com/96boards/documentation/raw/master/mezzanine/files/mezzanine-design-guidelines.pdf))
-
-## Boards
 
 <div style="overflow-x:scroll;" markdown="1">
 
