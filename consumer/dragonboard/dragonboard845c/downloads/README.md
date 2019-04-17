@@ -12,7 +12,7 @@ The DragonBoard 845c comes pre-installed with Linux. If you would like to switch
 
 Other operating systems supported on DragonBoard 845c, offered by partners.
 
-- [LE OS (Based on Yocto Project)](https://thundercomm.s3-ap-northeast-1.amazonaws.com/shop/doc/1544580412842651/5c471969b1c340c7bbc20b02148762ce-1352331417) 
+- [LE OS (Based on Yocto Project)](https://thundercomm.s3.ap-northeast-1.amazonaws.com/shop/doc/1544580412842651/A845-2.160400.10.00120.1-P1-R-V01-201902221852_jde5r6s9xw.zip) 
 
 Continue to [Installation Page](../installation)
 
