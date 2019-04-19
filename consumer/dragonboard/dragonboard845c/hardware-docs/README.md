@@ -8,7 +8,7 @@ Explore what makes your DragonBoard 845c unique, technical specifications, schem
 
 ## User Guides
 
-- Hardware User Manual - [View](/documentation/consumer/dragonboard/dragonboard845c/hardware-docs/files/rb3-hardware-user-manual.pdf)(.pdf)
+- Hardware User Manual - [View](/documentation/consumer/dragonboard/dragonboard845c/hardware-docs/files/rb3-hardware-user-manual.PDF)(.pdf)
 
 
 ## Hardware
