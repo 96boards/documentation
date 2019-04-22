@@ -1,6 +1,6 @@
 ---
 title: Documentation for Shiratech LTE and Sensor Mezzanine
-permalink: /documentation/mezzanine/shiratech-bg96/
+permalink: /documentation/mezzanine/shiratech-nb1/
 ---
 # Shiratech LTE CAT-M1/NB1 Mezzanine
 
