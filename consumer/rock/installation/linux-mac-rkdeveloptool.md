@@ -92,6 +92,9 @@ Run the following command to download and run the mini loader to init DRAM and p
 
     rkdeveloptool db rk3399_loader_v1.08.106.bin
 
+> Note: If the above command throws any error, please follow the
+> [Troubleshooting](#Troubleshooting) section to resolve it.
+
 #### **Step 5**: Flash images onto ROCK960 eMMC and reboot
 
 Write the image to eMMC with the following command and address:
@@ -134,7 +137,13 @@ When the board is in maskrom mode, flash the partitions with the following comma
 
 After run any command of rkdeveloptool, it keeps complaining
 
-    "Creating Comm Object failed!"
+```
+Creating Comm Object failed!
+```
+or
+```
+not found any devices!
+```
 
 It's permission issue, you can run the following command to set the udev rule:
 
