@@ -45,7 +45,7 @@ Then run:
 $ ~/bin/repo init -u https://github.com/96rocks/manifests.git -b rock960-box-7.1 -m rock960_box_7.1_release.xml
 $ repo sync -j$(nproc) -c
 ```
-It might take quite a bit of time to fetch the entire AOSP source code(around 86G)!
+It might take quite a bit of time to fetch the entire AOSP source code(around 140G)!
 
 ## Build u-boot
 
