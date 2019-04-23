@@ -9,7 +9,7 @@ redirect_from:  /documentation/consumer/hikey970/downloads/aosp.md.html
 
 ***
 
-- Factory image zip: ([Download](http://hihope.org/resource/hikey970_android_8_images.rar))
+- Factory image zip: ([Download](http://hihope.org/hihope/downLoadCenter/testDownFile?filename=20190403/hikey970_android_8_images.rar))
 
 
 ### Continue to [Installation page](../installation/)
