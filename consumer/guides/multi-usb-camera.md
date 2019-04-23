@@ -55,11 +55,11 @@ $ sudo apt install vlc
 
 # 4) Using Multiple USB Cameras
 
-- The theoretical bandwidth of a USB 2.0 Hub is 480mbps or ~60MBps. Adding a USB HUB divides that bandwidth across our three cameras giving us approximately ~20MBps per camera. S the trick is to make sure we are well within that limit.
+- The theoretical bandwidth of a USB 2.0 Hub is 480mbps or ~60MBps. However webcam data transfers are limited to 80% of this maximum and adding a USB HUB divides the available bandwidth across our three cameras giving us approximately ~16MBps per camera. So the trick is to make sure we are well within that limit.
 
-- Although this guide follows ```vlc```, the concept can be applied to any other software using v4l2 driver.
+- This guide uses ```vlc``` but the same concepts can be applied to any other software using the V4L2 UVC driver.
 
-- Majority of the webcams are compatible with this guide, although there are some webcams that do not play well and allocate bandwidth for large uncompressed frames regardless of what data they actually transmit. Such webcams will not work with this guide. More info on this bug, where cameras over request bandwidth can be found here: http://www.ideasonboard.org/uvc/faq/#faq7
+- Although the majority of the webcams are compatible with this guide, there are some webcams that do not play well and allocate bandwidth for large uncompressed frames regardless of what data they actually transmit. Such webcams will not work with this guide. For more info on this bug, and some possible workarounds, see: http://www.ideasonboard.org/uvc/faq/#faq7
 
 - On VLC if we directly use ```v4l2:///dev/video0```, we get the RAW and Uncompressed sensor data from the webcam that ends up hogging the bandwidth
 
