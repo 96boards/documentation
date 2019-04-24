@@ -25,5 +25,3 @@ A comprehensive guide to using the [Avenger96](https://www.96boards.org/) Consum
    - Explore what makes your Avenger96 unique, technical specifications, schematics, hardware notes and more...
 - [Support](support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
-- [Contribute](downloads/contribute.md)
-   - How to contribute patches into the Avenger96 software releases
