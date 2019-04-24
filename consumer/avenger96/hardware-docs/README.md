@@ -14,4 +14,5 @@ Explore what makes your Avenger96 unique, technical specifications, schematics, 
 
 ## Hardware
 
-Coming Soon...
+- Schematics - [View](/documentation/consumer/avenger96/hardware-docs/files/avenger96-schematics.pdf)(.pdf)
+
