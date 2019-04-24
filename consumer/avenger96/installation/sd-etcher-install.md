@@ -1,6 +1,6 @@
 ---
 title: SD Card Installation for avenger96 using Etcher
-permalink: /documentation/consumer/Avenger96/installation/sd-etcher-install.md.html
+permalink: /documentation/consumer/avenger96/installation/sd-etcher-install.md.html
 redirect_from:
 
 ---
