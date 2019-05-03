@@ -39,13 +39,13 @@ In order to force the DB820c to boot on USB (EDL mode), you need to configure S1
 
 ### Flashing the device
 
-Download and unzip the most recent bootloader package:
+Download and unzip the most recent bootloader package from the following link:
 
-http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/dragonboard-820c-bootloader-ufs-linux-42.zip
+http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/
 
 Then run:
 
-    cd dragonboard-820c-bootloader-ufs-linux-42.zip/
+    cd dragonboard-820c-bootloader-ufs-linux-[BUILD-NUM].zip/
     sudo <PATH to qdl>/qdl prog_ufs_firehose_8996_ddr.elf rawprogram.xml patch.xml
 
 It should take a few seconds. And you should eventually get something like below
@@ -60,13 +60,28 @@ from QDL stdout:
     LOG: Inside handlePower() - Requested POWER_RESET
     LOG: Issuing bsp_target_reset() after 1 seconds, if this hangs, do you have WATCHDOG enabled?
 
+If you get a log similar to
+
+    Waiting for EDL device
+    /dev/bus/usb/001/044
+    HELLO version: 0x2 compatible: 0x1 max_len: 1024 mode: 0
+    READ64 image: 13 offset: 0x0 length: 0x40
+    <snip>
+    READ64 image: 13 offset: 0x6d1b0 length: 0xff4
+    END OF IMAGE image: 13 status: 0
+    DONE status: 1
+    qdl: failed to read: Connection timed out
+
+Please ensure you have the latest version of qdl tool which includes following commit
+7623ff5e1ece613ba886c9a0b2767c2dd797f725.
+
 ### UFS provisioning
 
 If the previous step failed, or if you want to reprovision the UFS disk on the board, the `qdl` flashing tool can also be used. Note that it should be very unlikely that you need to reprovision the UFS disk, and it should be considered as *expert zone*. In case of doubts, please check with the 96boards forum before running these instructions. Not running these instructions properly can create irreversible damage on the board!
 
 To (re)provision the board, you need to connect the board in "USB flashing mode" as explained in the previous sections, then run the following commands:
 
-    cd dragonboard-820c-bootloader-ufs-linux-42.zip/
+    cd dragonboard-820c-bootloader-ufs-linux-[BUILD-NUM].zip/
     sudo <PATH to qdl>/qdl prog_ufs_firehose_8996_ddr.elf ufs-provision_toshiba.xml
 
 It should take a few seconds. And you should eventually get something like that:
