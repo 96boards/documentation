@@ -44,7 +44,7 @@ $ git checkout -t origin/rock960-4.4-dev
 
 ```shell
 $ export ARCH=arm64
-$ export CROSS_COMPILE=<path-to-cross-compiler>/aarch64-linux-gnu-gcc-
+$ export CROSS_COMPILE=<path-to-cross-compiler>/aarch64-linux-gnu-
 ```
 **Note:** Replace `path-to-cross-compiler` in the above command with the location
           where you have extracted the toolchain
