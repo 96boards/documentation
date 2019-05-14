@@ -16,7 +16,7 @@ Select your Consumer Edition Ultra96 96Boards device to access all product speci
 
 | 96Boards                                         | About                                                  | Options                    |
 |:------------------------------------------------:|:------------------------------------------------------:|:--------------------------:|
-| <img src="" data-canonical-src="" width="220" height="200" /><br> **Ultra96 V1** | Board based on Xilinx Zynq UltraScale+ MPSoC ZU3EG A484  | [Documentation](ultra96-v1/)<br> |
-| <img src="" data-canonical-src="" width="200" height="130" /><br> **Ultra96 V2** | Board based on Xilinx Zynq UltraScale+ MPSoC ZU3EG A484  | [Documentation](ultra96-v2/)<br>|
+| <img src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v1/additional-docs/images/images-board/sd/ultra96-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v1/additional-docs/images/images-board/sd/ultra96-front-sd.png?raw=true" width="200" height="130" /><br> **Ultra96 V1** | Board based on Xilinx Zynq UltraScale+ MPSoC ZU3EG A484  | [Documentation](ultra96-v1/)<br> |
+| <img src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v2/additional-docs/images/images-board/sd/ultra96-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v2/additional-docs/images/images-board/sd/ultra96-front-sd.png?raw=true" width="200" height="130" /><br> **Ultra96 V2** | Board based on Xilinx Zynq UltraScale+ MPSoC ZU3EG A484  | [Documentation](ultra96-v2/)<br>|
 
 </div>
