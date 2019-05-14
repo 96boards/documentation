@@ -14,10 +14,6 @@ Explore what makes your Ultra96 unique, technical specifications, schematics, ha
 
 ## Hardware
 
-- Schematics [View](/documentation/consumer/ultra96/ultra96-v2/hardware-docs/files/ultra96-schematics.pdf) (.pdf)
-- Assembly [View](http://www.zedboard.org/sites/default/files/documentations/AES-ULTRA96-G%20assembly%20180315.pdf) (.pdf)
-- Bill of Materials [View](http://www.zedboard.org/sites/default/files/documentations/AES-ULTRA96-G%20BOM%20REV%201%20180315.pdf) (.pdf)
-- Layout [View](http://www.zedboard.org/sites/default/files/documentations/AES-ULTRA96-G%20layout%20180315.pdf) (.pdf)
-- Mechanical and Drill [View](http://www.zedboard.org/sites/default/files/documentations/AES-ULTRA96-G%20Mechanical%20and%20Drill%20180315.pdf) (.pdf)
-- Power Analysis [View](http://www.zedboard.org/sites/default/files/documentations/Ultra96_XPE_2016_4.zip) (.pdf)
-- Net Length [View](http://www.zedboard.org/sites/default/files/documentations/AES-ULTRA96-G%20net%20length%20180315.txt) (.pdf)
+- Schematics [View](/documentation/consumer/ultra96/ultra96-v2/hardware-docs/files/ultra96-v2-schematics.PDF) (.pdf)
+- Bill of Materials [View](/documentation/consumer/ultra96/ultra96-v2/hardware-docs/files/ultra96-v2-bom.pdf) (.pdf)
+- Mechanical and Drill [View](/documentation/consumer/ultra96/ultra96-v2/hardware-docs/files/ultra96-v2-mechanical.PDF) (.pdf)
