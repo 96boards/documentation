@@ -11,7 +11,7 @@ redirect_from:
 
 ***
 
-- Factory image zip: ([Download] / [View](http://builds.96boards.org/snapshots/hikey960/linaro/aosp-master/latest/))
+- Factory image zip: [View](https://snapshots.linaro.org/96boards/hikey960/linaro/aosp-master/latest/)
 
 
 
