@@ -49,7 +49,7 @@ rsync -avz linaro@10.42.0.61:/usr/lib sysroot/usr
 ```
 We need to make the symlinks in the sysroot to be relative. Download this script and run it with the "sysroot" directory as the argument.
 ```
-wget https://raw.githubusercontent.com/riscv/riscv-poky/priv-1.10/scripts/sysroot-relativelinks.py
+wget https://raw.githubusercontent.com/Kukkimonsuta/rpi-buildqt/master/scripts/utils/sysroot-relativelinks.py
 chmod +x sysroot-relativelinks.py
 ./sysroot-relativelinks.py sysroot
 ```
@@ -57,14 +57,14 @@ chmod +x sysroot-relativelinks.py
 **[Host PC]**
 Download the Linaro cross-compile toolchain
 ```
-wget https://releases.linaro.org/components/toolchain/binaries/latest/aarch64-linux-gnu/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu.tar.xz
+wget https://releases.linaro.org/components/toolchain/binaries/7.3-2018.05/aarch64-linux-gnu/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu.tar.xz
 tar -xf gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu.tar.xz
 ```
 ### Download Qt5
 **[Host PC]**
 We are going to clone the Qt5 super module and download the modules we need (you can download other modules if you want).
 ```
-git clone https://code.qt.io/qt/qt5.git
+git clone https://github.com/qt/qt5
 cd qt5
 ./init-repository -f --module-subset=default,-qtwebkit,-qtwebkit-examples,-qtwebengine
 ```

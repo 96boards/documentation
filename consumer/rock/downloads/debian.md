@@ -28,13 +28,15 @@ redirect_from: /documentation/consumer/rock960/downloads/debian.md.html
 
 |   SD Card/eMMC AIO GPT Image   |    Download     |
 |:------------------|:------------------------------------|
-|All-in-one GPT image with bootloader/kernel/rootfs     |[Debian Stretch Desktop armhf](https://dl.vamrs.com/products/rock960/images/debian/rock960_debian_stretch_desktop_armhf_20180115.tar.gz)                             |
+| All-in-one GPT image with bootloader/kernel/rootfs     | [Debian Stretch Desktop armhf](https://dl.vamrs.com/products/rock960/images/debian/rock960_debian_stretch_desktop_armhf_20180115.tar.gz) |
+
 
 ### For ROCK960 model C
 
 |   SD Card/eMMC AIO GPT Image   |    Download     |
 |:------------------|:------------------------------------|
-|All-in-one GPT image with bootloader/kernel/rootfs     |[Debian Stretch Desktop armhf](https://dl.vamrs.com/products/rock960c/images/debian/rock960c_debian_stretch_lxde_armhf_20180920.tar.gz)                             |
+| All-in-one GPT image with bootloader/kernel/rootfs     | [Debian Stretch Desktop armhf](https://dl.vamrs.com/products/rock960c/images/debian/rock960c_debian_stretch_lxde_armhf_20180920.tar.gz) |
+
 
 This image can be flashed to eMMC from USB or write and run on a SD card. Continue to [Installation page](../installation)
 
