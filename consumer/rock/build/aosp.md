@@ -51,19 +51,26 @@ It might take quite a bit of time to fetch the entire AOSP source code(around 14
 
 ```shell
 $ cd u-boot
-$ make rk3399_box_defconfig
-$ ./mkv8.sh
+make distclean
+# for rock960-ab
+$ make rock960-ab-rk3399_defconfig
+# for rock960-c
+$ make rock960-c-rk3399_defconfig
+$ ./mk-uboot.sh
 $ cd ..
 ```
 
-The generated images are **rk3399_loader_v_xxx.bin** and **uboot.img**
+The generated images are **rk3399_loader_v_xxx.bin** , **uboot.img** , **idbloader.img**
 
 ## Building kernel
 
 ```shell
 $ cd kernel
 $ make rockchip_defconfig
+# for rock960-ab
 $ make rk3399-rock960-model-ab.img -j$(nproc)
+# for rock960-c
+$ make rk3399-rock960-model-c.img -j$(nproc)
 $ cd ..
 ```
 
@@ -134,5 +141,30 @@ $ ./mkupdate.sh
 
 
 **update.img** is the packed image with all partitions.
+
+Pack gpt image
+```shell
+$ cd rockdev
+$ ln -s Image-rk3399_box Image
+$ ./android-gpt.sh
+```
+    IMAGE_LENGTH:3936291
+    idbloader       64              16383           8.000000       MB
+    Warning: The resulting partition is not properly aligned for best performance.
+    uboot           16384           24575           4.000000       MB
+    trust           24576           32767           4.000000       MB
+    misc            32768           40959           4.000000       MB
+    resource        40960           73727           16.000000      MB
+    kernel          73728           122879          24.000000      MB
+    boot            122880          188415          32.000000      MB
+    recovery        188416          253951          32.000000      MB
+    backup          253952          483327          112.000000     MB
+    cache           483328          745471          128.000000     MB
+    system          745472          3891199         1536.000000    MB
+    metadata        3891200         3923967         16.000000      MB
+    baseparamer     3923968         3932159         4.000000       MB
+    userdata        3932160         3932159         0.000000       MB
+
+**rockdev/gpt.img** is the gpt image with all partitions.
 
 Proceed to [Installation Instructions](../installation)
