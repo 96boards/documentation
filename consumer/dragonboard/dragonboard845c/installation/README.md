@@ -1,12 +1,12 @@
 ---
-title: Installation for DragonBoard 845c
+title: Installation for DragonBoard 845
 permalink: /documentation/consumer/dragonboard/dragonboard845c/installation/
 ---
 # Installation
 
-Stand alone DragonBoard 410c will ship with the Android image. If the DragonBoard 410c is purchased as part of a kit, it may have a different pre-loaded operating system.
+Stand alone DragonBoard 845 will ship with the Android image. If the DragonBoard 845 is purchased as part of a kit, it may have a different pre-loaded operating system.
 
-This guide will help you choose and install an operating system and installation method on your DragonBoard 410c.
+This guide will help you choose and install an operating system and installation method on your DragonBoard 845.
 
 To appropriately follow this installation guide you will need to:
 
@@ -22,9 +22,9 @@ Fastboot is supported by the board and can be used for installs. This is for adv
 
 This method requires the following hardware:
 
-- DragonBoard 410c with power supply
+- DragonBoard 845 with power supply
 - Host machine (Linux, Mac OS X, or Windows)
-- USB to microUSB cable
+- USB to USB Type C cable
 - USB Mouse and/or keyboard (not required to perform flash)
 - HDMI Monitor with full size HDMI cable (not required to perform flash)
 
