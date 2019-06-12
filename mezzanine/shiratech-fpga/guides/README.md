@@ -9,6 +9,7 @@ permalink: /documentation/mezzanine/shiratech-fpga/guides/
 - [FPGA Mezzanine I/O Library](fpga-mezzanine-library.md)
 - [L298n Motor Controller](l298n.md)
 - [Relay Shield](relay-shield.md)
+- [Simple SPI HATs](simple-spi-hats.md)
 
 # FPGA Guides
 - [Getting Started with FPGA Programming](fpga-getting-started.md)

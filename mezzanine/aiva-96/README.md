@@ -14,7 +14,7 @@ permalink: /documentation/mezzanine/aiva-96/
 
 WizeIoT AiVA-96 mezzanine board for DragonBoard 410c and 96Boards enables developers of the smart home devices such as smart panels, kitchen equipment and other commercial and industrial electronics products to evaluate and prototype far-field hands-free voice interface using Amazon Alexa, Google Assistant, Microsoft Cortana, IBM Watson voice service. Built around the XMOS XVF3000 voice processor with direct interfacing to a line array of four digital microphones, the AiVA board is an ideal platform for developers who want to integrate AI speaker into their products.
 
-<img src="" data-canonical-src="" width="300" height="250" />
+<img src="https://github.com/96boards/documentation/blob/master/mezzanine/aiva-96/images/aiva96-front.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/mezzanine/aiva-96/images/aiva96-front.png?raw=true" width="370" height="228" />
 
 ## 1.1) Specifications and Features
 

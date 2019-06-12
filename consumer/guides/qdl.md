@@ -14,9 +14,9 @@ As open source tool (for Linux) that implements the Qualcomm Sahara and Firehose
 
     git clone https://git.linaro.org/landing-teams/working/qualcomm/qdl.git
 
-This is provided in source code, and it needs to be compiled locally. It uses libxml, so on Ubuntu/Debian you will need:
+This is provided in source code, and it needs to be compiled locally. It uses libxml and libudev, so on Ubuntu/Debian you will need:
 
-    sudo apt-get install libxml2-dev
+    sudo apt-get install libxml2-dev libudev-dev
 
 To compile qdl project, it should be as simple as running make command in the top level folder of the project.
 
