@@ -1,6 +1,6 @@
 ---
 title: Building Linaro images based on Debian
-permalink: /documentation/consumer/guides/debian.html
+permalink: /documentation/consumer/guides/debian.md.html
 ---
 
 This page is meant to be generic for any 96boards CE edition. However this guide is started from existing instructions for Dragonboard 410c, 820c, and 845c. It will become generic over time!
