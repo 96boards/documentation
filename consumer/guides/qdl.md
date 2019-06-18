@@ -41,3 +41,4 @@ In order to flash the device , ensure the following:
 
 For Dragonboard 410c, please refer to the [Dragonboard 410c recovery guide](../dragonboard/dragonboard410c/installation/board-recovery.md#using-usb-flashing-tools).
 For Dragonboard 820c, please refer to the [Dragonboard 820c recovery guide](../dragonboard/dragonboard820c/installation/board-recovery.md#using-usb-flashing-tools).
+For Dragonboard 845c, please refer to the [Dragonboard 845c recovery guide](../dragonboard/dragonboard845c/installation/board-recovery.md#using-usb-flashing-tools).
