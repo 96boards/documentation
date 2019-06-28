@@ -65,9 +65,9 @@ $ gunzip boot-linaro-stretch-developer-hikey.img.gz
 $ wget http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/rootfs-linaro-stretch-developer-hikey-*.img.gz -O rootfs-linaro-stretch-developer-hikey.img.gz
 $ gunzip rootfs-linaro-stretch-developer-hikey.img.gz
 # PTABLE IMAGE FOR 8GB EMMC
-$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-8g.img
+$ wget https://snapshots.linaro.org/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-8g.img
 # PTABLE IMAGE FOR 4GB EMMC
-$ wget http://builds.96boards.org/snapshots/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-4g.img
+$ wget https://snapshots.linaro.org/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-4g.img
 ```
 - Flash eMMC
 ```shell

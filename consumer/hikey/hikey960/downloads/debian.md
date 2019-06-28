@@ -29,9 +29,9 @@ Warning: *All I/O signals on the Low Speed Connector use 1.8v TTL. Applying a hi
 
 |   Bootloader    |
 |:----------------------------:|
-| [l-loader.bin](http://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey960/debug/l-loader.bin)     |
-|  [fip.bin](http://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey960/debug/fip.bin)              |
-| [prm_ptable.img](http://snapshots.linaro.org/96boards/reference-platform/components/uefi-staging/latest/hikey960/debug/prm_ptable.img) |
+| [l-loader.bin](http://snapshots.linaro.org/reference-platform/components/uefi-staging/latest/hikey960/debug/l-loader.bin)     |
+|  [fip.bin](http://snapshots.linaro.org/reference-platform/components/uefi-staging/latest/hikey960/debug/fip.bin)              |
+| [prm_ptable.img](http://snapshots.linaro.org/reference-platform/components/uefi-staging/latest/hikey960/debug/prm_ptable.img) |
 
 |   Boot image      |    [Download](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/boot-linaro-stretch-developer-hikey-*.img.gz)      |
 |:------------------|:-----------------------|
