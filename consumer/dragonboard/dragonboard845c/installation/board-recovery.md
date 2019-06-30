@@ -23,12 +23,12 @@ Alternatively, the Dragonboard 845c can also be recovered/flashed over USB, usin
 
 ### Connecting the board in USB flashing mode (aka EDL mode)
 
-In order to force the DB845c to boot on USB (EDL mode), you need to press the on-board button 18 (Force USB BOOT) while powering on the board. This button is on the back of the board.
+In order to force the DB845c to boot on USB (EDL mode), you need to press the on-board button 18 (Force USB BOOT) while powering on the board. This button is on the back of the board and is marked as "F_DL".
 
 *Warning*: putting the device into EDL mode while the device is powered or when USB is plugged can cause damage to the board.
 
 * Power off the board and make sure the USB type-C cable is not plugged into the board
-* Press button 18, and
+* Press button 18 (e.g. marked with F_DL), and
 * Power on the device using the proper power supply
 * Connect the USB3 Type C (5) between the Linux PC and the board
 
