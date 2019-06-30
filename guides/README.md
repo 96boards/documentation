@@ -21,6 +21,7 @@ permalink: /documentation/guides/
   - [GPIO Guide for 96Boards](../consumer/guides/mraa/README.md)
   - [AOSP Index](../consumer/guides/aosp-index.md)
   - [Open Embedded](../consumer/guides/open_embedded.md)
+  - [Building Linaro Debian based images](../consumer/guides/debian.md)
 - **Board Specific Guides**
   - [DragonBoard 410c](../consumer/dragonboard/dragonboard410c/guides/README.md)
   - [DragonBoard 820c](../consumer/dragonboard/dragonboard410c/guides/README.md)
