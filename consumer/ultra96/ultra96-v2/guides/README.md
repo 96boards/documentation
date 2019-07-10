@@ -11,10 +11,10 @@ These guides will help to get you started with a the on-board software and Xilin
 
 Design using Xilinx Vivado and SDK
 
-| Guide                                                               | Descripion                                                                                                                 |
-|:-------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------|
-| [Intro Tutorials](http://ultra96.org/support/design/24166/156)      | Build a ZU+ MPSoC Hardware Platform and several bare metal applications, then boot from microSD card                       |
-
+| Guide                                                               | Descripion                                                                                                      |
+|:-------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------|
+| [Intro Tutorials](http://ultra96.org/support/design/24166/156)      | Build a ZU+ MPSoC Hardware Platform and several bare metal applications, then boot from microSD card            |
+| More Guides coming soon...                                          |                                                                                                                 |
 
 ## Linux
 
