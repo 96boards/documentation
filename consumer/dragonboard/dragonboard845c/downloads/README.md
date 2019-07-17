@@ -8,6 +8,13 @@ The DragonBoard 845c comes pre-installed with Linux. If you would like to switch
 
 ***
 
+### Linaro supported operating systems
+
+- [Debian](debian.md)
+- [OpenEmbedded](open-embedded.md)
+
+***
+
 ### Third Party Operating Systems
 
 Other operating systems supported on DragonBoard 845c, offered by partners.

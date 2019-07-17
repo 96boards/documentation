@@ -35,3 +35,14 @@ Choose host machine
 - [Linux](linux-fastboot.md)
 
 ***
+
+### Board Recovery
+
+Attempt to recover a board from a bad flash resulting in a soft-bricked board.
+- [Board Recovery](board-recovery.md)
+
+***
+
+### Third Party OS
+
+- [LE OS Installation](le.md)
