@@ -17,8 +17,8 @@ permalink: /documentation/som/tb-96ai/installation/windows.md.html
 - Double click DriverAssitant_v4.4\DriverInstall.exe, then automatically install rockchip flash download driver in your host windows machine.
 
 ### Bring the board into maskrom or rockusb loader mode
-- Use type c usb cable to connect TB-96AIOT 96Boards and Host PC.
-- Then put your TB-96AIOT 96Boards to download mode(maskrom or rockusb loader mode).
+- Use type c usb cable to connect TB-96AI 96Boards and Host PC.
+- Then put your TB-96AI 96Boards to download mode(maskrom or rockusb loader mode).
 	- Press reset key of the developing board, and then long press recovery key around 3-4 seconds to enter.
 
 ### Start the rockchip flash download tool on the HostPC
@@ -43,7 +43,4 @@ permalink: /documentation/som/tb-96ai/installation/windows.md.html
 - Press the reset button
 - After the reboot you should see linux startup
 
-> NOTE: If you flash android images,after the reboot you should see android startup. If you
-flash fedora images,after the reboot you should see fedora startup. If you flash dual
-images,after the reboot you should see android startup or after pressing 'KEY2' key
-reboot you should see fedora startup.
+> NOTE: If you flash android images,after the reboot you should see android startup. If you flash fedora images,after the reboot you should see fedora startup. If you flash dual images,after the reboot, you should see Fedora start up as default. Or, if you press "KEY2" during the reboot, you should see Android start up.
