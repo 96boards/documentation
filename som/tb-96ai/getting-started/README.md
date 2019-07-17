@@ -57,7 +57,7 @@ The following subsections should describe how to get started with the TB-96AI So
 
 - Insert the TB-96AI SoM in the 96Boards Carrier Board as Shown in the figure above.
 - Configure the MUX Switches on the Carrier Board as follows
-	- The switches for TB-96AIoT are configured as follows
+	- The switches for TB-96AI are configured as follows
 	- All switch on S1,S2,S8,S9,S10,S11,S12,S14,S15, configure to disconnect.
 	- All switch on S6,S7 config to connect for TF card.
 	- Bit1 on S16 config to connect for audio jacket
@@ -79,6 +79,6 @@ If you are already familiar with the TB-96AI board and would like to change out 
 - [Support](../support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
-Back to the [TB-96AIoT documentation home page](../)
+Back to the [TB-96AI documentation home page](../)
 
 ***   
