@@ -43,7 +43,4 @@ permalink: /documentation/som/tb-96ai/installation/windows.md.html
 - Press the reset button
 - After the reboot you should see linux startup
 
-> NOTE: If you flash android images,after the reboot you should see android startup. If you
-flash fedora images,after the reboot you should see fedora startup. If you flash dual
-images,after the reboot you should see android startup or after pressing 'KEY2' key
-reboot you should see fedora startup.
+> NOTE: If you flash android images,after the reboot you should see android startup. If you flash fedora images,after the reboot you should see fedora startup. If you flash dual images,after the reboot, you should see Fedora start up as default. Or, if you press "KEY2" during the reboot, you should see Android start up.
