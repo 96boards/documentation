@@ -30,7 +30,7 @@ $ repo sync
 
 ```
 $ cd u-boot
-$ make TB-96AI_defconfig
+$ make rk3399pro_defconfig
 $ ./mkv8.sh
 ```
 
