@@ -4,8 +4,6 @@ permalink: /documentation/som/tb-96aiot/installation/
 ---
 # Installation
 
-# Installation
-
 Choose and install an operating system on your TB-96AIoT. To appropriately follow this installation guide you will need to:
 
 - Choose an installation method
