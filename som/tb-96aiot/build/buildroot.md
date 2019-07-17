@@ -19,16 +19,16 @@ $ repo sync
 ### Build UBoot
 
 ```
-$ cd u-boot
-$ $ ./make.sh TB-96AIoT
+$ cd u-boot9
+$ ./make.sh rk1808
 ```
 
 ### Build Linux kernel
 
 ```
 $ cd kernel
-$ make TB-96AIoT_linux_defconfig
-$ make TB-96AIoT-evb-v10.img
+$ make rk1808_linux_defconfig
+$ make rk1808-evb-v10.img
 ```
 
 ### Build Buildroot
