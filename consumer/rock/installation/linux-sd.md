@@ -49,8 +49,8 @@ $ lsblk
 ####**Step 4**: Unzip _SD Card Install Image_
 
 - When unzipped, you will have a folder with the following contents:
-   - Loader (rk3399_loader_v1.08.106.bin) we don't need it for SD card writing here.
-   - Install Image (system.img)
+   - Loader (rk3399_loader_v1.xx.1xx.bin) we don't need it for SD card writing here.
+   - Install Image (system.img)(rock960-*-gpt.img)
    - readme.md
 
 ####**Step 5**: Go to directory with _SD Card Install Image_ folder using Terminal
@@ -108,7 +108,7 @@ $ sudo dd if=system.img of=/dev/XXX bs=4M oflag=sync status=noxfer
 
 **Note:**
 
-- `if=system.img`: should match the name of the image that was downloaded.
+- `if=system.img`: should match the name of the image that was downloaded, android name is `rock960-*-gpt.img`.
 - `of=/dev/XXX`: XXX should match the name of the SD Card device name from **Step 2**. Be sure to use the device name with out the partition.
 - This command will take some time to execute. Be patient and avoid tampering with the terminal until process has ended.
 - Once SD card is done flashing, remove from host computer and set aside for **Step 8**
