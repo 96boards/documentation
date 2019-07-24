@@ -8,8 +8,6 @@ redirect_from:
 ---
 Welcome to the official documentation for 96Boards, this documentation is written by the 96Boards team at Linaro with community contribution and links to third party material.
 
-## Contents - Start Here
-
 Select your Enterprise Edition 96Boards device to access all product related resources
 <div style="overflow-x:scroll;" markdown="1">
 

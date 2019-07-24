@@ -34,5 +34,6 @@ Release Page: [Github](https://github.com/96rocks/manifests/releases)
 
 `GPT` image can be flashed to eMMC from USB or write directly on SDcard or eMMC module.
 
+
 - For install from USB on ROCK960/ROCK960C, continue to [GPT image USB installation page](../installation/linux-mac-rkdeveloptool-android.md)
 - For install on eMMC module or SDcard with SDcard reader, continue to GPT image SDcard reader installation page [Linux](../installation/linux-sd.md), [macOS](../installation/mac-sd.md), [Windows](../installation/windows-sd.md)

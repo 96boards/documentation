@@ -14,9 +14,9 @@ As open source tool (for Linux) that implements the Qualcomm Sahara and Firehose
 
     git clone https://git.linaro.org/landing-teams/working/qualcomm/qdl.git
 
-This is provided in source code, and it needs to be compiled locally. It uses libxml, so on Ubuntu/Debian you will need:
+This is provided in source code, and it needs to be compiled locally. It uses libxml and libudev, so on Ubuntu/Debian you will need:
 
-    sudo apt-get install libxml2-dev
+    sudo apt-get install libxml2-dev libudev-dev
 
 To compile qdl project, it should be as simple as running make command in the top level folder of the project.
 
@@ -41,3 +41,4 @@ In order to flash the device , ensure the following:
 
 For Dragonboard 410c, please refer to the [Dragonboard 410c recovery guide](../dragonboard/dragonboard410c/installation/board-recovery.md#using-usb-flashing-tools).
 For Dragonboard 820c, please refer to the [Dragonboard 820c recovery guide](../dragonboard/dragonboard820c/installation/board-recovery.md#using-usb-flashing-tools).
+For Dragonboard 845c, please refer to the [Dragonboard 845c recovery guide](../dragonboard/dragonboard845c/installation/board-recovery.md#using-usb-flashing-tools).

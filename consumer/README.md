@@ -10,19 +10,16 @@ Welcome to the official documentation for Consumer Edition 96Boards, these docum
 
 ***
 
-## Contents - Start Here
-
 Select your Consumer Edition 96Boards device to access all product specific resources. You may also use the links below to compare, and explore a list of 96Boards Consumer Edition extras, this includes instructions for unique board configurations and fun projects.
 
 - [Compare 96Boards](guides/compare_96boards_ce.md)
 - [96Boards CE Extras](guides/)
 
-### Boards
-
 <div style="overflow-x:scroll;" markdown="1">
 
 | 96Boards                                         | About                                                  | Options                    |
 |:------------------------------------------------:|:------------------------------------------------------:|:--------------------------:|
+| <img src="https://www.96boards.org/product/ce/rb3-platform/images/db845c-front-sd.png?raw=true" data-canonical-src="https://www.96boards.org/product/ce/rb3-platform/images/db845c-front-sd.png?raw=true" width="200" height="130" /><br> **Qualcomm RB3** | Board based on Qualcomm® Snapdragon™ 845 processor  | [Documentation](dragonboard/)<br> |
 | <img src="https://github.com/96boards/documentation/blob/master/consumer/sophon-edge/additional-docs/images/images-board/sd/sophon-sd-front.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/sophon-edge/additional-docs/images/images-board/sd/sophon-sd-front.png?raw=true" width="220" height="200" /><br> **Sophon Edge** | Board based on Sophon BM1880 | [Documentation](sophon-edge/)    |
 | <img src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/dragonboard/dragonboard820c/additional-docs/images/images-board/sd/dragonboard820c-front-sd.png?raw=true" width="220" height="200" /><br> **DragonBoard 820c** | Board based on Qualcomm® Snapdragon™ 820E processor  | [Documentation](dragonboard/dragonboard820c/)<br>[DragonBoard Family](dragonboard/)<br> |
 | <img src="https://i.imgur.com/4a5GXRd.png" data-canonical-src="https://i.imgur.com/4a5GXRd.png" width="200" height="130" /><br> **DragonBoard 410c** | Board based on Qualcomm® Snapdragon™ 410E processor  | [Documentation](dragonboard/dragonboard410c/)<br>[DragonBoard Family](dragonboard/)<br>|
@@ -31,7 +28,7 @@ Select your Consumer Edition 96Boards device to access all product specific reso
 | <img src="https://i.imgur.com/uKfxuu5.jpg" data-canonical-src="https://i.imgur.com/uKfxuu5.jpg" width="200" height="130" /><br> **HiKey** | Board based on HiSilicon Kirin 6220 processor  | [Documentation](hikey/hikey620/)<br>[HiKey Family](hikey/)<br> |
 | <img src="https://github.com/96boards/documentation/blob/master/consumer/rock/rock960/additional-docs/images/images-board/ROCK960_Front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/rock/rock960/additional-docs/images/images-board/ROCK960_Front_SD.png?raw=true" width="200" height="130" /><br> **ROCK960** | Board based on Rockchip RK3399  | [Documentation](rock/rock960/)<br>[Rock Family](rock/) |
 | <img src="https://github.com/96boards/documentation/blob/master/consumer/chameleon96/additional-docs/images/images-board/chameleon96_top.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/chameleon96/additional-docs/images/images-board/chameleon96_top.png?raw=true" width="200" height="130" /><br> **Chameleon96** | Board based on the Intel Cyclone V SoC FPGA | [Documentation](chameleon96/)<br> |
-| <img src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/additional-docs/images/images-board/sd/ultra96-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/additional-docs/images/images-board/sd/ultra96-front-sd.png?raw=true" width="200" height="130" /><br> **Ultra96** | Board based on Xilinx Zynq UltraScale+ MPSoC ZU3EG A484  | [Documentation](ultra96/)<br> |
+| <img src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v2/additional-docs/images/images-board/sd/ultra96-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v2/additional-docs/images/images-board/sd/ultra96-front-sd.png?raw=true" width="200" height="130" /><br> **Ultra96** | Board based on Xilinx Zynq UltraScale+ MPSoC ZU3EG A484  | [Documentation](ultra96/ultra96-v1/)<br>[Ultra96 Family](ultra96/)<br> |
 | <img src="https://github.com/96boards/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-board/iMX7-96-front.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/imx7-96/additional-docs/images/images-board/iMX7-96-front.jpg?raw=true" width="200" height="130" /><br> **i.MX7 96** | Board based on i.MX7 SoC  | [Documentation](imx7-96/)<br> |
 | <img src="https://github.com/96boards/documentation/blob/master/consumer/parrot/additional-docs/images/images-board/sd/hichips-parrot-front-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/parrot/additional-docs/images/images-board/sd/hichips-parrot-front-sd.jpg?raw=true" width="200" height="200" /><br> **Parrot** | Board based on the Allwinner R18  | [Documentation](parrot/)<br> |
 | <img src="https://i.imgur.com/u08Wb6U.png" data-canonical-src="https://i.imgur.com/u08Wb6U.png" width="200" height="130" /><br>**Bubblegum-96** | Board based on Actions Semi S900 Processor  | [Documentation](bubblegum-96/)<br> |

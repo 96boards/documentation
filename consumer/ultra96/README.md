@@ -1,30 +1,22 @@
 ---
-title: Using the Ultra96
+title: Ultra96 Documentation
 permalink: /documentation/consumer/ultra96/
 ---
+Welcome to the official documentation for Consumer Edition 96Boards, these documents are written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
-# Using the Ultra96
+***
 
-A comprehensive guide to using the Ultra96 Consumer Edition development board. This guide is written by the [96Boards](https://www.96boards.org/product/ultra96/) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
+## Contents - Start Here
 
-## Software
+Select your Consumer Edition Ultra96 96Boards device to access all product specific resources. You may also use the links below to compare, and explore a list of 96Boards Consumer Edition extras, this includes instructions for unique board configurations and fun projects.
 
-- [Downloads](downloads/)
-   - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
-- [Installation](installation/)
-   - Choose and install an operating system on your Ultra96
-- [Build from Source](build/)
-   - Instructions for building and flashing the components of your favorite operating systems
+- Ultra96 Generic Guides
 
-## Documenation
+<div style="overflow-x:scroll;" markdown="1">
 
-- [Getting Started](getting-started/)
-   - Learn about your Ultra96 board, how to prepare and set up for basic use
-- [Useful Guides](guides/)
-   - These guides will help to get you started with a variety of available on-boards software
-- [Hardware Documentation](hardware-docs/)
-   - Explore what makes your Ultra96 unique, technical specifications, schematics, hardware notes and more...
-- [Kits](kits/)
-   - Each kit bundles select 96Boards hardware and provides users with comprehensive instructions sets
-- [Support](support/)
-   - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
+| 96Boards                                         | About                                                  | Options                    |
+|:------------------------------------------------:|:------------------------------------------------------:|:--------------------------:|
+| <img src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v1/additional-docs/images/images-board/sd/ultra96-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v1/additional-docs/images/images-board/sd/ultra96-front-sd.png?raw=true" width="200" height="130" /><br> **Ultra96 V1** | Board based on Xilinx Zynq UltraScale+ MPSoC ZU3EG A484  | [Documentation](ultra96-v1/)<br> |
+| <img src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v2/additional-docs/images/images-board/sd/ultra96-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v2/additional-docs/images/images-board/sd/ultra96-front-sd.png?raw=true" width="200" height="130" /><br> **Ultra96 V2** | Board based on Xilinx Zynq UltraScale+ MPSoC ZU3EG A484  | [Documentation](ultra96-v2/)<br>|
+
+</div>
