@@ -32,7 +32,7 @@ including the HiKey from either CircuitCo or LeMaker, and the Qualcomm Dragonboa
 410c. The Sensors mezzanine has connections for up to 18 digital, analog and i2c Grove
 modules plus an on-board Arduino compatible microcontroller and shield connector.
 
-[https://www.96boards.org/products/mezzanine/sensors-mezzanine/](https://www.96boards.org/products/mezzanine/sensors-mezzanine/)
+[/product/sensors-mezzanine/](/product/sensors-mezzanine/)
 
 ***
 
@@ -225,11 +225,11 @@ baseboard. You can find instructions for installing Debian in your baseboard’s
 
 Installing Debian on the CircuitCo or LeMaker HiKey:
 
-[https://www.96boards.org/documentation/consumer/hikey/installation/](https://www.96boards.org/documentation/consumer/hikey/installation/)
+[/documentation/consumer/hikey/installation/](/documentation/consumer/hikey/installation/)
 
 Qualcomm Dragonboard 410C User Guide:
 
-[https://www.96boards.org/documentation/consumer/dragonboard410c/installation/](https://www.96boards.org/documentation/consumer/dragonboard410c/installation/)
+[/documentation/consumer/dragonboard410c/installation/](/documentation/consumer/dragonboard410c/installation/)
 
 ## Step 2: Attach Sensors Adapter
 

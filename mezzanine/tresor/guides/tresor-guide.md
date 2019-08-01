@@ -23,7 +23,7 @@ This guide will show how to setup the Tresor Mezzanine with 96Boards CE board.
 - Connect the mezzanine on top of your Dragonboard410c.
 - Power on your board.
 - Download and install the latest Debian Linux as per the instructions in the
-following [link](https://www.96boards.org/documentation/consumer/dragonboard410c/downloads/debian.md.html)
+following [link](/documentation/consumer/dragonboard410c/downloads/debian.md.html)
 - Make sure to connect the jumpers on mezzanine as shown in [README](../README.md#11-about-the-96boards-tresor-mezzanine)
 - If using Dragonboard410c, below diff needs to be added to the kernel source:
 

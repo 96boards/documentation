@@ -33,7 +33,7 @@ permalink: /documentation/mezzanine/stm32/guides/beginner-guides/getting-started
 
 # 2 Software Setup
 1. Latest Build of Debian for Dragonboard 410c
-https://www.96boards.org/documentation/consumer/dragonboard410c/installation/
+/documentation/consumer/dragonboard410c/installation/
 
 2. Update the Debian Installation
 ```shell

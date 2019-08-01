@@ -8,7 +8,7 @@ This guide will walk you through Interfacing with Raspberry Pi HATs that use SPI
 
 ## Hardware Setup
 
-- **[Any 96Boards CE Board](https://www.96boards.org/products/ce/)**
+- **[Any 96Boards CE Board](/products/ce/)**
 - **Shiratech FPGA Mezzanine**
 - **Simple SPI HAT**
   - For the Purpose of this guide I will be using:

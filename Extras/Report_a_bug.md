@@ -49,7 +49,7 @@ the Reference Software Platform. Please read through the following sections for 
 ## "How to" report a bug Consumer and Enterprise Edition
 
 <a href="" target="_blank"><img src="https://i.imgur.com/qPhRqX1.png" data-canonical-src="https://i.imgur.com/qPhRqX1.png" width="75" height="110" /></a>
-<a href="https://www.96boards.org/products/ce/" target="_blank"><img src="https://i.imgur.com/QEilCHZ.png" data-canonical-src="https://i.imgur.com/QEilCHZ.png" width="180" height="75" /></a>
+<a href="/products/ce/" target="_blank"><img src="https://i.imgur.com/QEilCHZ.png" data-canonical-src="https://i.imgur.com/QEilCHZ.png" width="180" height="75" /></a>
 <a href="" target="_blank"><img src="https://i.imgur.com/DLgo1qU.png" data-canonical-src="https://i.imgur.com/DLgo1qU.png" width="180" height="75" /></a>
 
 #### Step 1: Account Creation

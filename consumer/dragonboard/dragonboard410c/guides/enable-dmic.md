@@ -109,7 +109,7 @@ $ ./skales/mkbootimg --kernel vmlinuz \
 # 5) Flashing boot and roofs image
 
 Boot Dragonboard410c into fastboot mode by following the
-[instructions](https://www.96boards.org/documentation/consumer/dragonboard410c/installation/linux-fastboot.md.html).
+[instructions](/documentation/consumer/dragonboard410c/installation/linux-fastboot.md.html).
 
 1. Download latest `rootfs` image from
 [here](http://releases.linaro.org/96boards/dragonboard410c/linaro/debian/latest/linaro-*-alip-*.img.gz).

@@ -22,7 +22,7 @@ includes one FT230XS-R UART connector for debug, thus making it is an ideal
 addition to your 96Boards tool box.
 
 
-<img src="https://www.96boards.org/documentation/mezzanine/tresor/images/tresor-front-sd.jpg?raw=true" data-canonical-src="https://www.96boards.org/documentation/mezzanine/tresor/images/tresor-front-sd.jpg?raw=true" width="300" height="250" />
+<img src="/documentation/mezzanine/tresor/images/tresor-front-sd.jpg?raw=true" data-canonical-src="/documentation/mezzanine/tresor/images/tresor-front-sd.jpg?raw=true" width="300" height="250" />
 
 ## 1.2) Specifications and Features
 - Chipsets

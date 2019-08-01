@@ -8,7 +8,7 @@ This guide will walk you through Interfacing with Arduino IO on the FPGA Mezzani
 
 ## Hardware Setup
 
-- **[Any 96Boards CE Board](https://www.96boards.org/products/ce/)**
+- **[Any 96Boards CE Board](/products/ce/)**
 - **Shiratech FPGA Mezzanine**
 
 ## Software setup
