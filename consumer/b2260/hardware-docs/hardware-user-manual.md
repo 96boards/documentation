@@ -129,7 +129,7 @@ Before power up the  B2260 Development Board for the first time, following mater
      - For connecting to a network without using WiFi
   - 96Boards UART Adapter Board
      - For connecting to PC via serial link. Useful for debugging.
-     - Recommended: https://www.96boards.org/products/mezzanine/uarts/
+     - Recommended: [Uart Mezzanine Product Page](/product/uartserial/)
 
 
 ### Known Limitations

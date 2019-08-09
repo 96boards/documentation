@@ -8,7 +8,7 @@ This guide will walk you through Interfacing with Arduino Shields that use I2C b
 
 ## Hardware Setup
 
-- **[Any 96Boards CE Board](https://www.96boards.org/products/ce/)**
+- **[Any 96Boards CE Board](/products/ce/)**
 - **Shiratech FPGA Mezzanine**
 - **I2C Shield or Sensor**
   - For the Purpose of this guide I will be using:

@@ -6,7 +6,7 @@ permalink: /documentation/mezzanine/shiratech-fpga/guides/relay.md.html
 # Hardware
 ## Hardware Requierments
 
-- **[Any 96Boards CE Board](https://www.96boards.org/products/ce/)**
+- **[Any 96Boards CE Board](/products/ce/)**
 - **Shiratech FPGA Mezzanine**
 - **I2C Shield or Sensor**
   - For the Purpose of this guide I will be using:

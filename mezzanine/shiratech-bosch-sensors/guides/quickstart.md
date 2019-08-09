@@ -24,7 +24,7 @@ This quick start guide will show you how to connect the mezzanine and install th
 - Connect HDMI monitor,USB keyboard and USB mouse to your board.
 - Power on your board.
 - Download and install the latest Debian Linux for your 96Boards CE board.
-For Dragonboard 410C follow the instructions in the following [link](https://www.96boards.org/documentation/consumer/dragonboard410c/downloads/debian.md.html)
+For Dragonboard 410C follow the instructions in the following [link](/documentation/consumer/dragonboard410c/downloads/debian.md.html)
 
 # On board sensors demo installation
 - Download the sensor demo applicationfrom the following [link](http://www.shiratech-solutions.com/resources/)

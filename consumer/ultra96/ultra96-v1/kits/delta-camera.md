@@ -47,7 +47,7 @@ Hardware setup can be followed over at Attila's guide. Here are the various sect
 
 **To get familiar with Vivado and PetaLinux, you can follow our getting started guides:**
 - [Vivado [Video]](https://www.youtube.com/watch?v=NzWcRGjhfF8)
-- [PetaLinux](https://www.96boards.org/documentation/consumer/ultra96/build/peta-linux.md.html)
+- [PetaLinux](/documentation/consumer/ultra96/ultra96-v1/build/peta-linux.md.html)
 
 **Software and HDL setup can be followed over at Attila's guide. Here are the various sections:**
 - [10. Building a MIPI CSI-2 Video Pipeline](https://www.hackster.io/bluetiger9/stereo-vision-and-lidar-powered-donkey-car-575769#toc-10--building-a-mipi-csi-2-video-pipeline-12)
