@@ -33,11 +33,10 @@ redirect_from:
 | hisi-idt.py       | [Download]()http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/hisi-idt.py                 |
 
 
-| Latest build files        | [Build Folder](http://builds.96boards.org/snapshots/hikey/linaro/aosp-master/latest/)                 |
+| Latest build files        | [Build Folder](http://snapshots.linaro.org/android/lkft/lkft-aosp-master/latest/)                 |
 | :------------------------ | :--------------------------------------------------------------------------------------------------   |
-| boot_fat.uefi.img.tar.xz  | [Download](http://snapshots.linaro.org/96boards/hikey/linaro/aosp-master/latest/boot.img.xz) |
-| system.img.tar.xz         | [Download](http://snapshots.linaro.org/96boards/hikey/linaro/aosp-master/latest/system.img.xz)        |
-| userdata.img.tar.xz       | [Download](http://snapshots.linaro.org/96boards/hikey/linaro/aosp-master/latest/userdata.img.xz)      |
-| cache.img.tar.xz          | Temporarily Unavailable         |
+| boot_fat.uefi.img.tar.xz  | [Download](http://snapshots.linaro.org/android/lkft/lkft-aosp-master/latest/boot.img.xz) |
+| system.img.tar.xz         | [Download](http://snapshots.linaro.org/android/lkft/lkft-aosp-master/latest/system.img.xz)        |
+| userdata.img.tar.xz       | [Download](http://snapshots.linaro.org/android/lkft/lkft-aosp-master/latest/userdata.img.xz)      |
 
 ### Continue to [Installation page](../installation/)
