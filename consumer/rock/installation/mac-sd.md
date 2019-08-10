@@ -110,7 +110,7 @@ $ sudo sync
 
 **Note:**
 
-- `if=system.img`: should match the name of the image that was downloaded.
+- `if=system.img`: should match the name of the image that was downloaded, android name is `rock960-*-gpt.img`.
 - `of=/dev/XXX`: XXX should match the name of the SD Card device name from **Step 2**. Be sure to use the device name without the partition name. For example, 'of=/dev/disk1'
 - If you get an error message "Resource Busy", you will need to unmount the SD card without removing it from the host computer.
   - Option 1:

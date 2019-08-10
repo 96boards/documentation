@@ -56,7 +56,7 @@ Go to the [Downloads page](../downloads) to donwload the image or use your own b
 It contains the following partitions:
 
 ```
-.
+......
 ├── boot.img (Android rootfs)
 ├── kernel.img (Kernel image with Rockchip checksum)
 ├── MiniLoaderAll.bin (first stage bootloader)

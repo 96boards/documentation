@@ -32,7 +32,7 @@ This section show how to install an operating system to your ROCK960 using the S
 
 - When unzipped, this download will be a folder with the falling contents
    - Loader (rk3399_loader_v1.08.106.bin) we don't need it for SD card writing here.
-   - Install Image (system.img)
+   - Install Image (system.img)(android much as `rock960-*-gpt.img`.)
    - readme.md
 
 ####**Step 4**: Download the Win32DiskImager tool
