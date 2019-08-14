@@ -3,7 +3,6 @@ title: Documentation for Bubblegum-96
 permalink: /documentation/consumer/bubblegum-96/
 redirect_from:
 - /documentation/ConsumerEdition/Bubblegum-96/README.md/
-- /documentation/ConsumerEdition/Bubblegum-96/README.md/
 - /documentation/consumer/bubblegum-96/README.md/
 ---
 # Using the Bubblegum-96

@@ -2,7 +2,6 @@
 title: Linux Host Installation for DragonBoard-410c
 permalink: /documentation/consumer/dragonboard/dragonboard410c/installation/linux-fastboot.md.html
 redirect_from:
-- /db410c-getting-started/
 - /documentation/ConsumerEdition/DragonBoard-410c/Installation/LinuxFastboot.md.html
 - /documentation/consumer/dragonboard410c/installation/linux-fastboot.md.html
 ---
