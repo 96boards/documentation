@@ -1,0 +1,21 @@
+# Text files to normalise to LF line endings
+*       text=auto
+# `man 5 .gitattributes`
+*.css   text
+*.html  text
+*.json  text
+*.md    text
+*.sh    text
+*.xml   text
+*.yml   text
+
+# Binary files to not modify on check-in
+# Images
+*.ico   binary
+*.jpg   binary
+*.png   binary
+# Fonts
+*.eot   binary
+*.ttf   binary
+*.woff  binary
+*.woff2 binary

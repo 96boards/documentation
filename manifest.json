@@ -1,0 +1,18 @@
+{
+    "site_dirs": [
+        "staging.96boards.org",
+        "production.96boards.org"
+    ],
+    "repos": [
+        {
+            "tag": "NSBREPO1",
+            "url": "https://github.com/96boards/website.git",
+            "dir": "/"
+        },
+        {
+            "tag": "NSBREPO2",
+            "url": "https://github.com/96boards/documentation.git",
+            "dir": "/_documentation"
+        }
+    ]
+}
