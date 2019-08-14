@@ -28,6 +28,7 @@ Android is the leading mobile OS by Google. Android on ROCK960 is the version op
 | Android Tablet 7 | [GPT,](http://rock.sh/rock960-c-android7-gpt-download) [RKUpdate](http://rock.sh/rock960-c-android7-download)|
 | Android Tablet 9 | [GPT,](http://rock.sh/rock960-c-android9-gpt-download) [RKUpdate](http://rock.sh/rock960-c-android9-download)|
 
+
 Release Page: [Github](https://github.com/96rocks/manifests/releases)
 
 `RKUpdate` image can be flashed to eMMC from USB. Continue to [rkupdate image installation page](../installation/linux-upgrade_tool.md)
