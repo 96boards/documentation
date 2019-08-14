@@ -9,8 +9,13 @@ check_multi_repo() {
   #
   # We then build up a list of mounts for Docker so that it can
   # access those repo copies.
-  DOCKER_MOUNTS=""
+  #
+  # Use -g to make this a global variable (i.e. it lasts after
+  # the function finishes).
+  declare -a -g DOCKER_MOUNTS
+  DOCKER_MOUNTS=()
   if [ ! -f "manifest.json" ]; then
+    echo "No multi-repo configuration to manage."
     return
   fi
   #
@@ -29,14 +34,14 @@ check_multi_repo() {
     # Need to strip extraneous chars off the tag string
     tag="${tags[$i]}"
     # Strip the leading " and the trailing ",
-    tag="${tag:1:-3}"
+    tag="${tag:1:-2}"
     # Does that tag name exist as a variable and have a value?
     tag_val="${!tag}"
     if [ "$tag_val" != "" ]; then
       # Does the value point to a directory?
       if [ -d "$tag_val" ]; then
         # Construct a Docker mount command
-        DOCKER_MOUNTS="$DOCKER_MOUNTS -v $tag_val:/$tag"
+        DOCKER_MOUNTS+=(-v $tag_val:/srv/$tag)
       fi
     fi
   done
@@ -79,7 +84,7 @@ docker run \
   -e JEKYLL_ENV \
   -v /etc/passwd:/etc/passwd:ro \
   -v /etc/group:/etc/group:ro \
-  "$DOCKER_MOUNTS" \
+  "${DOCKER_MOUNTS[@]}" \
   -u "$(id -u)":"$(id -g)" \
   -v "$(pwd)":/srv/source \
   linaroits/jekyllsitebuild:"$JEKYLLSITEBUILD" \
