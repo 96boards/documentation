@@ -122,8 +122,7 @@ sudo fwupdate --apply {50b94ce5-8b63-4849-8af4-ea479356f0e3} \
 sudo reboot
 ~~~
 
-Alternatively you can install `SPI_NOR_IMAGE.fd` using the [board
-recovery method](/documentation/enterprise/developerbox/installation/board-recovery.md).
+Alternatively you can install `SPI_NOR_IMAGE.fd` using the [board recovery method](../installation/board-recovery.md).
 
 ***
 
