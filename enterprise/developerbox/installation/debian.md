@@ -40,7 +40,7 @@ workaround this issue by using the virtualization hardware to prohibit
 certain types of memory mapping.
 
 See the [Known
-Issues](../support/known-issues.md##64-bit-pcie-transactions) for more
+Issues](/documentation/enterprise/developerbox/support/known-issues.md##64-bit-pcie-transactions) for more
 details.
 
 The firmware workaround is controlled by `DSW3-2`. Ensure this DIP

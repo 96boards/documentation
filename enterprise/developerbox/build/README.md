@@ -123,7 +123,7 @@ sudo reboot
 ~~~
 
 Alternatively you can install `SPI_NOR_IMAGE.fd` using the [board
-recovery method](../installation/board-recovery.md).
+recovery method](/documentation/enterprise/developerbox/installation/board-recovery.md).
 
 ***
 
