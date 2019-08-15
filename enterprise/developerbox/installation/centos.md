@@ -28,8 +28,7 @@ After downloading an installer image, please carefully study the list of
 platform quirks and workarounds below. If you need further information
 to complete the install process then there is a Developerbox specific
 guide to [Booting an operating system installer](./) which can be read
-alongside [the documentation on the CentOS
-wiki](https://wiki.centos.org/Documentation).
+alongside [the documentation on the CentOS wiki](https://wiki.centos.org/Documentation).
 
 # Quirks and workarounds
 
@@ -43,8 +42,7 @@ device.
 
 Both PCIe or USB network devices are suitable for this, although it is
 important to select a device that is already supported by the CentOS
-kernel. If in doubt, please ask on the [Developerbox
-forum](https://discuss.96boards.org/c/products/developerbox).
+kernel. If in doubt, please ask on the [Developerbox forum](https://discuss.96boards.org/c/products/developerbox).
 
 ## [Firmware] Ensure the system firmware version is up to date
 
@@ -55,8 +53,7 @@ firmware do not allow CentOS to enumerate PCIe devices.
 The firmware version is displayed both at the top of the firmware splash screen
 and as part of the system information displayed in the firmware menus.
 
-If your firmware is not recent enough then please see the [*System Firmware Update*
-section of the Install Guide](README.md#system-firmware-update).
+If your firmware is not recent enough then please see the [*System Firmware Update* section of the Install Guide](README.md#system-firmware-update).
 
 ## [Firmware] Set O/S Hardware Description to ACPI
 
@@ -154,4 +151,4 @@ capabilities via the UART are equivalent to those available via
 the graphics card, and the power saved as a result of removing the
 graphics card is significant.
 
-**Back to [Download and Installation page](../installation/)**
+Back to [Download and Installation page](../installation/)
