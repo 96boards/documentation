@@ -3,8 +3,7 @@ title: OpenEmbedded Downloads for HiKey
 permalink: /documentation/consumer/hikey/hikey620/downloads/open-embedded.md.html
 redirect_from:
 - /documentation/ConsumerEdition/HiKey/Downloads/OpenEmbedded.md.html
-- /documentation/ConsumerEdition/HiKey/Downloads/OpenEmbedded.md.html
--  /documentation/consumer/hikey/downloads/open-embedded.md.html
+- /documentation/consumer/hikey/downloads/open-embedded.md.html
 ---
 
 # OpenEmbedded

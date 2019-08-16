@@ -3,7 +3,6 @@ title: Carbon Downloads
 permalink: /documentation/iot/carbon/downloads/
 redirect_from:
 - /documentation/IoTEdition/carbon/downloads/README.md/
-- /documentation/IoTEdition/carbon/downloads/README.md/
 - /documentation/iot/carbon/downloads/README.md
 ---
 ## Downloads

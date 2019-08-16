@@ -21,8 +21,7 @@ This section outlines steps needed to recover your Developerbox from a
 bricked software state. These instructions are suggested to those who
 are experiences boot issues due to a corruption of the NOR FLASH.
 
-In all other cases is it **strongly** recommended to use [Capsule
-Update](README.md) instead.
+In all other cases is it **strongly** recommended to use [Capsule Update](README.md) instead.
 
 ## Update using serial flasher
 
@@ -207,10 +206,8 @@ device, this feature **must** be disabled before you connect the
 programmer to the board (many programmers provide a 3.3v power supply
 and applying this voltage could damage the board).
 
-These instructions assume you have a [Bus
-Blaster](https://www.seeedstudio.com/Bus-Blaster-v3-p-1415.html) running
-using a [KT-Link compatible
-buffer](https://github.com/bharrisau/busblaster) and with the **power
+These instructions assume you have a [Bus Blaster](https://www.seeedstudio.com/Bus-Blaster-v3-p-1415.html) running
+using a [KT-Link compatible buffer](https://github.com/bharrisau/busblaster) and with the **power
 supply jumper removed** (as discussed above). In the instructions below,
 replace `interface/ftdi/dp_busblaster_kt-link.cfg` with whatever is
 appropriate for your programmer.
@@ -272,8 +269,7 @@ openocd \
         -c "init" \
         -c "reset halt" \
         -c "mwb 0x44100000 3" \
-        -c "load_image flash-writer-maverick-evb-4bytemode.axf-cd59a5d"
-\
+        -c "load_image flash-writer-maverick-evb-4bytemode.axf-cd59a5d" \
         -c "resume 0x800051" \
         -c "exit"
 ~~~
@@ -288,5 +284,5 @@ flash write p-master-cm3
 >> Send new CM3 firmware via XMODEM <<
 ~~~
 ---
-## Back to [Download and Installation page](../installation/)
 
+Back to [Download and Installation page](../installation/)

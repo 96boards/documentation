@@ -3,7 +3,6 @@ title: Vendor Documentation for DragonBoard-410c
 permalink: /documentation/consumer/dragonboard/dragonboard410c/vendor-docs/
 redirect_from:
 - /documentation/ConsumerEdition/DragonBoard-410c/VendorDocs/README.md/
-- /documentation/ConsumerEdition/DragonBoard-410c/VendorDocs/README.md/
 - /documentation/consumer/dragonboard410c/vendor-docs/README.md/
 - /db410c-getting-started/VendorDocs/README.md/
 - /documentation/consumer/dragonboard410c/vendor-docs/

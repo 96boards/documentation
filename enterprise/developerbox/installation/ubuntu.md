@@ -41,8 +41,7 @@ such as graphics cards. The Developerbox firmware is able to partially
 workaround this issue by using the virtualization hardware to prohibit
 certain types of memory mapping.
 
-See the [Known
-Issues](../support/known-issues.md##64-bit-pcie-transactions) for more
+See the [Known Issues](../support/known-issues.md##64-bit-pcie-transactions) for more
 details.
 
 The firmware workaround is controlled by `DSW3-2`. Ensure this DIP
@@ -112,4 +111,5 @@ To make the change permanent:
  * Save the file and close the editor
  * Run `sudo update-grub` to regenerate the grub config files
 ---
-## Back to [Download and Installation page](../installation/)
+
+**Back to [Download and Installation page](../installation/)**

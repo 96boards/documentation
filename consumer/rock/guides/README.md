@@ -1,7 +1,6 @@
 ---
 title: Useful Guides for ROCK960
 permalink: /documentation/consumer/rock/guides/
-redirect_from: /documentation/consumer/rock960/guides/
 ---
 
 # Useful Guides

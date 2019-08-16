@@ -2,8 +2,7 @@
 title: DragonBoard 410c Board Recovery
 permalink: /documentation/consumer/dragonboard/dragonboard410c/installation/board-recovery.md.html
 redirect_from:
-- /db410c-getting-started/
--  /documentation/ConsumerEdition/DragonBoard-410c/Installation/BoardRecovery.md.html
+- /documentation/ConsumerEdition/DragonBoard-410c/Installation/BoardRecovery.md.html
 - /documentation/consumer/dragonboard410c/installation/board-recovery.md.html
 ---
 # DragonBoard 410c Board Recovery

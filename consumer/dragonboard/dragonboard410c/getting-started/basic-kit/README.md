@@ -3,7 +3,6 @@ title: Basic Kit  for DragonBoard-410c
 permalink: /documentation/consumer/dragonboard/dragonboard410c/getting-started/basic-kit/
 redirect_from:
 - /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/BasicKit/README.md/
-- /documentation/ConsumerEdition/DragonBoard-410c/GettingStarted/BasicKit/README.md/
 - /documentation/consumer/dragonboard410c/getting-started/basic-kit/README.md/
 - /db410c-getting-started/GettingStarted/BasicKit/README.md/
 - /documentation/consumer/dragonboard410c/getting-started/basic-kit/

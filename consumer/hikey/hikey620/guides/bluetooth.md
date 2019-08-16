@@ -3,7 +3,6 @@ title: Bluetooth Guide for HiKey
 permalink: /documentation/consumer/hikey/hikey620/guides/bluetooth.md.html
 redirect_from:
 - /documentation/ConsumerEdition/HiKey/Guides/Bluetooth.md.html
-- /documentation/ConsumerEdition/HiKey/Guides/Bluetooth.md.html
 ---
 # Bluetooth
 
