@@ -65,8 +65,10 @@ UFS provisioning is not support yet.
 
 If the flashing process succeeded, all the right bootloaders and partition table should have been set. And fastboot can now be used to flash Linux root file system. The first thing to try is to get into fastboot, to make sure the flashing completed properly.
 
-* Power off the board and make sure no USB cable is plugged into the board
-* Power on the device using the proper power supply
+* Disconnect the power cable from the board and make sure no USB cable is plugged into the board
+* Hold down the "VOL-" button while reconnecting the power supply.
+* Tap the "ON/OFF" button while continuing to hold the "VOL-" button for ~5 seconds
+* Release "VOL-" button
 * Connect the USB3 Type C (5) between the Linux PC and the board
 
 Execute below command on the PC to confirm that the board has entered fastboot mode:
