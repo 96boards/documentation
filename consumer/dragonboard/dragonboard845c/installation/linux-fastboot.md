@@ -4,13 +4,13 @@ permalink: /documentation/consumer/dragonboard/dragonboard845c/installation/linu
 ---
 ## Linux Host
 
-This section show how to install a new operating system to your DragonBoard™ 845c using the fastboot method on a Linux host computer.
+This section show how to install a new operating system to your DragonBoard™ 845c based RB3 kit using the fastboot method on a Linux host computer.
 
 ***
 
 - **Step 1**: Make sure fastboot is set up on host computer
 - **Step 2**: Connect host computer to RB3
-- **Step 3**: Boot DragonBoard 410c into fastboot mode
+- **Step 3**: Boot RB3 into fastboot mode
 - **Step 4**: Flash Bootloader
 - **Step 5**: Recall location of all downloaded files
 - **Step 6**: Unzip all files
@@ -73,11 +73,11 @@ de82318	fastboot
 #### **Step 4**: Flash Bootloader
 
 - Use host computer
-- Download Linux Bootloader from the [Downloads Page](../downloads/).
+- Download Bootloader from the [Downloads Page](../downloads/).
 - Open "Terminal" application
 - Recall location of Bootloader download.
 - The bootloader file should be named `dragonboard-845c-bootloader-ufs-Y-XX`
-- Y represents Android or Linux
+- Y represents AOSP or Linux, use either one or the other based on the image you want to use. They both use different GPT.
 - XX represents the release number of the Bootloader
 - `cd` to the directory with your unzipped **Bootloader Folder**
 
@@ -118,7 +118,7 @@ Recall location of all downloaded files from the downloads page, files will be d
 - You should have downloaded the `boot` file
 - You should have downloaded ONE of rootfs` file (Either `Developer` or `Desktop - ALIP` version)
 
-###### **Android**: Recall location of `boot.img.tar.xz`, `system.img.tar.xz`, `userdata.img.tar.xz`, `recovery.img.tar.xz`, `persist.img.tar.xz`, `cache.img.tar.xz`, downloaded from the downloads page
+###### **AOSP**: Recall location of `boot.img.tar.xz`, `system.img.tar.xz`, `userdata.img.tar.xz`, `recovery.img.tar.xz`, `persist.img.tar.xz`, `cache.img.tar.xz`, downloaded from the downloads page
 - All of these files should have been downloaded from the downloads page
 
 #### **Step 6**: Unzip required files
@@ -129,7 +129,7 @@ $ gunzip boot-*.img.gz
 $ gunzip linaro-*.img.gz
 ```
 
-##### For Android
+##### For AOSP
 ```shell
 $ tar -xvf boot.img.tar.xz
 $ tar -xvf system.img.tar.xz
@@ -163,7 +163,7 @@ $ sudo fastboot flash rootfs linaro-buster-developer-dragonboard-845c-**BUILD#**
 ```
 **Note**: Replace **BUILD#** in the above commands with the file-specific date/build stamp.
 
-###### **Android**:
+###### **AOSP**:
 ```shell
 # (Once again) Check to make sure fastboot device connected
 $ sudo fastboot devices
@@ -193,5 +193,4 @@ $ sudo fastboot flash cache cache.img
 
 **Note:** For Linaro/Debian the **username** and **password** are both **“linaro”** when the login information is requested.
 
-**Congratulations! You are now booting your newly installed OS directly
-from UFS on the RB3!**
+**Congratulations! You are now booting your newly installed OS directly from UFS on the RB3!**
