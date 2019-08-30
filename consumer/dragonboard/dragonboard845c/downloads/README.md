@@ -4,7 +4,7 @@ permalink: /documentation/consumer/dragonboard/dragonboard845c/downloads/
 ---
 ## Downloads
 
-The DragonBoard 845c comes pre-installed with Linux. If you would like to switch the Operating System, update the existing software images on your board, or unbrick your board, this page provides links to the latest software downloads.
+The DragonBoard 845c comes pre-installed with a custom Linux from Thundercomm (LE OS). If you would like to switch the Operating System, update the existing software images on your board, or unbrick your board, this page provides links to the latest software downloads.
 
 ***
 
