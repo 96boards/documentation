@@ -13,5 +13,5 @@ Please take advantage of the many Ficus resources available to you through 96Boa
    - \#linux-rockchip IRC channel on freenode, discussion about linux on ROCK960 and other Rockchip SoCs.
 - [ROCK960](buy.md)
    - Buy the ROCK960 and accessories here!
-- [Report a bug!](/documentation/Extras/Report_a_bug.md.html)
+- [Report a bug!](/documentation/Extras/Report_a_bug/)
    - Instructions on how to report bugs for any of our 96Boards hardware and software, this includes the ROCK960!

@@ -87,5 +87,5 @@ docker run \
   "${DOCKER_MOUNTS[@]}" \
   -u "$(id -u)":"$(id -g)" \
   -v "$(pwd)":/srv/source \
-  linaroits/jekyllsitebuild:"$JEKYLLSITEBUILD" \
+  linaroits/jekyll-build-container:latest \
   "$@"

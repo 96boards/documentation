@@ -1,6 +1,6 @@
 ---
 title: Contribution Policy
-permalink: /documentation/CONTRIBUTE.md.html
+permalink: /documentation/CONTRIBUTE/
 ---
 
 # Contributing to 96Boards Documentation

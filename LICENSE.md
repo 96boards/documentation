@@ -1,6 +1,6 @@
 ---
 title: Documentation License
-permalink: /documentation/Specifications/LICENSE.md.html
+permalink: /documentation/Specifications/LICENSE/
 ---
 # Licence
 

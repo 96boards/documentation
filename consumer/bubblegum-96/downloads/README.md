@@ -2,9 +2,9 @@
 title: Downloads for Bubblegum-96
 permalink: /documentation/consumer/bubblegum-96/downloads/
 redirect_from:
-- /documentation/ConsumerEdition/Bubblegum-96/Downloads/README.md.html
+- /documentation/ConsumerEdition/Bubblegum-96/Downloads/README/
 - /documentation/ConsumerEdition/Bubblegum-96/Downloads/
-- /documentation/consumer/bubblegum-96/downloads/README.md.html
+- /documentation/consumer/bubblegum-96/downloads/README/
 ---
 ## Downloads
 

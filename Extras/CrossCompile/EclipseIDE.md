@@ -1,6 +1,6 @@
 ---
 title: Cross compiling with Eclipse for C and C++
-permalink: /documentation/Extras/CrossCompile/EclipseIDE.md.html
+permalink: /documentation/Extras/CrossCompile/EclipseIDE/
 ---
 # Cross compiling with Eclipse for C and C++
 
@@ -282,9 +282,9 @@ OK, now we have set the Eclipse project up to use the libsoc library, now we are
 
 `~/eclipse/cpp-neon/eclipse/eclipse &`
 
-Right click on your project, find the “Build Project” option and click on it. When it’s done you will find the binary file has be copied over to the 96Boards.  
+Right click on your project, find the “Build Project” option and click on it. When it’s done you will find the binary file has be copied over to the 96Boards.
 
-When you run it it will execute the board_test libsoc application. Congratulations  you have just successfully setup Eclipse to use the external shared library libsoc. You can also use mraa the similar way, simply substitute “`mraa`” library for “`soc`” library in the above commands.  Even though the `mraa` library is a C++ library, the example file we are going to use “hellomraa.c” is a C file so we are just going to create a C project. Clearly if you are going to build a C++ application you should create a C++ project. Let’s walk through the process.  
+When you run it it will execute the board_test libsoc application. Congratulations  you have just successfully setup Eclipse to use the external shared library libsoc. You can also use mraa the similar way, simply substitute “`mraa`” library for “`soc`” library in the above commands.  Even though the `mraa` library is a C++ library, the example file we are going to use “hellomraa.c” is a C file so we are just going to create a C project. Clearly if you are going to build a C++ application you should create a C++ project. Let’s walk through the process.
 
 ### To use MRAA C++ library
 
@@ -351,7 +351,7 @@ OK, now we have set the Eclipse project up to use the mraa library, again we are
 
 `~/eclipse/cpp-neon/eclipse/eclipse &`
 
-Right click on your project, find the “Build Project” option and click on it.  When it’s done you will find the binary file has be copied over to the 96Boards.  
+Right click on your project, find the “Build Project” option and click on it.  When it’s done you will find the binary file has be copied over to the 96Boards.
 
 When you run it it will execute the board_test libsoc application. Congratulations, you have just successfully setup Eclipse to use the external shared library libmraa.
 
