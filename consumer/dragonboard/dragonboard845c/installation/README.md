@@ -32,17 +32,17 @@ Go to the [Downloads page](../downloads/) to get your bootloader, boot image, an
 
 Choose host machine
 
-- [Linux](linux-fastboot.md)
+- [Linux](linux-fastboot/)
 
 ***
 
 ### Board Recovery
 
 Attempt to recover a board from a bad flash resulting in a soft-bricked board.
-- [Board Recovery](board-recovery.md)
+- [Board Recovery](board-recovery/)
 
 ***
 
 ### Third Party OS
 
-- [LE OS Installation](le.md)
+- [LE OS Installation](le/)

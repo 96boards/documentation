@@ -14,7 +14,7 @@ This page provides links to the latest software downloads.
 
 ### Linaro supported operating systems
 
-- [Debian](debian.md)
+- [Debian](debian/)
 
 ***
 
@@ -22,8 +22,8 @@ This page provides links to the latest software downloads.
 
 Other operating systems supported on Bubblegum-96, offered by partners.
 
-- [Phoenix OS](phoenix-remix.md)
-- [Remix OS](phoenix-remix.md)
-- [Ubuntu Core](ubuntu-core.md)
+- [Phoenix OS](phoenix-remix/)
+- [Remix OS](phoenix-remix/)
+- [Ubuntu Core](ubuntu-core/)
 
 ***

@@ -19,7 +19,7 @@ In many cases, simply re-flashing the bootloader, boot image, and root file syst
 
 ## Using USB flashing tools
 
-Alternatively, the Dragonboard 845c can also be recovered/flashed over USB, using the Linaro QDL flashing tools. For more information about QDL, including installation instructions, please check this [guide](../../../guides/qdl.md).
+Alternatively, the Dragonboard 845c can also be recovered/flashed over USB, using the Linaro QDL flashing tools. For more information about QDL, including installation instructions, please check this [guide](../../../guides/qdl/).
 
 ### Connecting the board in USB flashing mode (aka EDL mode)
 

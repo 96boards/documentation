@@ -17,9 +17,9 @@ Learn about your MediaTek X20 board as well as how to prepare and set up for bas
    - Read about the MediaTek X20 and see where it is available to buy!
 - [Power adapter](https://www.96boards.org/product/power/)
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter
-- [USB Keyboard and Mouse](usb-keyboard-mouse.md)
+- [USB Keyboard and Mouse](usb-keyboard-mouse/)
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
-- [Monitor and HDMI Cable](monitor-hdmi.md)
+- [Monitor and HDMI Cable](monitor-hdmi/)
    - All 96Boards are equiped with a full sized HDMI connector, HDMI capable monitor is recommended
 
 **Optional**
@@ -93,7 +93,7 @@ If you are already familiar with the MediaTek X20 board and would like to change
 
 - [Downloads page**](../downloads/): This page lists all Linaro and 3rd party operating systems available for MediaTek X20
 - [Installation page](../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your MediaTek X20 board
-- [Board Recovery](../installation/board-recovery.md)
+- [Board Recovery](../installation/board-recovery/)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 - [Troubleshooting](../troubleshooting/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers

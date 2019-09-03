@@ -11,8 +11,8 @@ These guides will help to get you started with a variety of available on-boards 
 | Guides                                             | Description                    |
 |:--------------------------------------------------:|:-------------------------------|
 | [Linux User Guide](/documentation/consumer/dragonboard/dragonboard845c/guides/files/rb3-linux-user-guide.pdf) | Linux on DB845c |
-| [Button Events](button-events.md) | Get interrupt events from the on-board Buttons    |
-| [Set up the FAN control interface](fan-control.md) | Control on-Board fan header      |
-| [Configure CAN interface](can.md)                  | Set up onboard CAN Bus Interface |
-| [Set up Wi-Fi](wifi.md)                            | Connect to a Wi-Fi network       |
-| [Digital microphone](dmic.md)                      | Set up on-board Quad DMICs       |
+| [Button Events](button-events/) | Get interrupt events from the on-board Buttons    |
+| [Set up the FAN control interface](fan-control/) | Control on-Board fan header      |
+| [Configure CAN interface](can/)                  | Set up onboard CAN Bus Interface |
+| [Set up Wi-Fi](wifi/)                            | Connect to a Wi-Fi network       |
+| [Digital microphone](dmic/)                      | Set up on-board Quad DMICs       |

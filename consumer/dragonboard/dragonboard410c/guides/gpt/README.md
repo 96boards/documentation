@@ -10,5 +10,5 @@ redirect_from:
 
 #### Content has been moved to the following pages:
 
-1. [Create a bootable SD card](./bootable-sd-card.md)
-2. [Customizing eMMC partition in Linux](./customize-emmc-partition.md)
+1. [Create a bootable SD card](./bootable-sd-card/)
+2. [Customizing eMMC partition in Linux](./customize-emmc-partition/)

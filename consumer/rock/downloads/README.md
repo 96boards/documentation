@@ -20,9 +20,9 @@ There are currently no Linaro supported operating systems.
 
 Other operating systems, offered by partners.
 
-- [Debian](debian.md)
-- [Ubuntu](ubuntu.md)
-- [Android](android.md)
+- [Debian](debian/)
+- [Ubuntu](ubuntu/)
+- [Android](android/)
 
 ***
 

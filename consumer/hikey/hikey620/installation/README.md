@@ -45,7 +45,7 @@ Go to the [Downloads page](../downloads/) to get your bootloader, boot image, an
 
 Choose host machine
 
-- [Linux](linux-fastboot.md)
+- [Linux](linux-fastboot/)
 
 ***
 ### Factory Images Method (currently available for AOSP only)
@@ -63,7 +63,7 @@ Go to the [Downloads page](../downloads/) to get your Factory Image zip file.
 
 Choose host machine
 
-- [Linux](linux-factory-image.md)
+- [Linux](linux-factory-image/)
 
 ***
 
@@ -80,6 +80,6 @@ This method requires the following hardware:
 
 Choose host machine
 
-- [Linux](linux-sd-boot.md)
+- [Linux](linux-sd-boot/)
 
 ***

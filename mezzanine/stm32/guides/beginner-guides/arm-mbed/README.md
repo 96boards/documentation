@@ -5,7 +5,7 @@ permalink: /documentation/mezzanine/stm32/guides/beginner-guides/arm-mbed/
 
 # Programming the STM32 Mezzanine with Arm mbed online
 
-1. Make sure to properly setup the hardware and software as directed in the [Getting Started Guide](getting-started.md)
+1. Make sure to properly setup the hardware and software as directed in the [Getting Started Guide](getting-started/)
 2. Power on you board, the ST-LINK LED should turn on Red
 3. Once the board is booted to Desktop, remove the jumper (Labeled JP5) right next to the micro-usb port.
   - The ST-LINK LED should turn green

@@ -8,14 +8,14 @@ permalink: /documentation/guides/crosscompile/eclipseide.html
 
 These instructions show how to install the Linux version of Eclipse, either on the latest Debian (Jessie) or Ubuntu (16.04). You will also learn how to install a copy of the Eclipse IDE for C/C++ Developers in your home directory.  These instructions do not demonstrate how to install Eclipse system wide.
 
-Once Eclipse is installed, we will set up a project for cross compiling. It is assumed you have already installed and tested the command line cross compile toolchains ([Cross compile using command line](CommandLine.md)). These instructions do not presume to teach you everything about Eclipse, but rather how to get cross compiling working with Eclipse. If you are unsure as to how to use Eclipse, there are tutorials which can teach you how to use both basic and extended functions.
+Once Eclipse is installed, we will set up a project for cross compiling. It is assumed you have already installed and tested the command line cross compile toolchains ([Cross compile using command line](CommandLine/)). These instructions do not presume to teach you everything about Eclipse, but rather how to get cross compiling working with Eclipse. If you are unsure as to how to use Eclipse, there are tutorials which can teach you how to use both basic and extended functions.
 
 This instruction set can be paired with one of our [96Boards Blogs from David Mandala](https://www.96boards.org/blog/eclipse-x86-linux-cross-compile-arm-linux/)
 
 ## Assumptions
 
 - Knowledge on how to use Eclipse as an Integrated Development Environment (IDE).
-- Previously installed command line cross compilation tools ([Commandline instructions set](CommandLine.md))
+- Previously installed command line cross compilation tools ([Commandline instructions set](CommandLine/))
 - Cross compiling host computer is X86 based running Linux, either Ubuntu 16.04, Debian Jessie, or Debian Testing with Jessie cross compiling tools installed. (other versions of Linux will have issues getting ssh keys working, it can be done but it’s “complex”, I”m will not try to this it here)
 - You are cross compiling for 96Boards - either 32bit or 64bit ARM.
 
@@ -282,9 +282,9 @@ OK, now we have set the Eclipse project up to use the libsoc library, now we are
 
 `~/eclipse/cpp-neon/eclipse/eclipse &`
 
-Right click on your project, find the “Build Project” option and click on it. When it’s done you will find the binary file has be copied over to the 96Boards.  
+Right click on your project, find the “Build Project” option and click on it. When it’s done you will find the binary file has be copied over to the 96Boards.
 
-When you run it it will execute the board_test libsoc application. Congratulations  you have just successfully setup Eclipse to use the external shared library libsoc. You can also use mraa the similar way, simply substitute “`mraa`” library for “`soc`” library in the above commands.  Even though the `mraa` library is a C++ library, the example file we are going to use “hellomraa.c” is a C file so we are just going to create a C project. Clearly if you are going to build a C++ application you should create a C++ project. Let’s walk through the process.  
+When you run it it will execute the board_test libsoc application. Congratulations  you have just successfully setup Eclipse to use the external shared library libsoc. You can also use mraa the similar way, simply substitute “`mraa`” library for “`soc`” library in the above commands.  Even though the `mraa` library is a C++ library, the example file we are going to use “hellomraa.c” is a C file so we are just going to create a C project. Clearly if you are going to build a C++ application you should create a C++ project. Let’s walk through the process.
 
 ### To use MRAA C++ library
 
@@ -351,7 +351,7 @@ OK, now we have set the Eclipse project up to use the mraa library, again we are
 
 `~/eclipse/cpp-neon/eclipse/eclipse &`
 
-Right click on your project, find the “Build Project” option and click on it.  When it’s done you will find the binary file has be copied over to the 96Boards.  
+Right click on your project, find the “Build Project” option and click on it.  When it’s done you will find the binary file has be copied over to the 96Boards.
 
 When you run it it will execute the board_test libsoc application. Congratulations, you have just successfully setup Eclipse to use the external shared library libmraa.
 

@@ -7,7 +7,7 @@ permalink: /documentation/contribute/
 
 Thanks for stopping by to contribute the mezzanine-community repository! The following is a set of guidelines for contributing.
 
-**NOTE: This documentation is solely for the 96Boards Documentation Repository, for filing bugs and issues about the boards themselves please refer to: [Report A Bug](Extras/Report_a_bug.md)**
+**NOTE: This documentation is solely for the 96Boards Documentation Repository, for filing bugs and issues about the boards themselves please refer to: [Report A Bug](Extras/Report_a_bug/)**
 
 ## Table Of Contents
 
@@ -100,7 +100,7 @@ If you have recently launched a new 96Boards and have to add it to the documenta
 - **Boards Folder Structure:**
   - ```<board-name/additional-docs/```:
     - ```<board-name>/additional-docs/images/```: This folder contains ALL the images that would be used throughout the documentation
-      - ```<board-name>/additional-docs/images/images-board/```: Images of the board itself, preferably with transparent background. Check the [README.md](templates/board-template/additional-docs/images/images-board/README.md) in the template for details on the resolution.
+      - ```<board-name>/additional-docs/images/images-board/```: Images of the board itself, preferably with transparent background. Check the [README.md](templates/board-template/additional-docs/images/images-board/) in the template for details on the resolution.
       - ```<board-name>/additional-docs/images/images-hw-user-manua/l```: This folder hosts all the images related to the Hardware User Manual Docs, these may include schematics, flowcharts block diagrams etc.
       - ```<board-name>/additional-docs/images/images-logos/```: All logos related to the board, manufacturer, seller etc go in this folder.
     - ```<board-name>/build/```: This folder contains all documentation related to compiling source code related to the board. These may include Kernel, OS, Bootlaoder etc.

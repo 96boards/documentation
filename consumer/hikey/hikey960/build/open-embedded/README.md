@@ -6,11 +6,11 @@ permalink: /documentation/consumer/hikey/hikey960/build/open-embedded/
 # OpenEmbedded and Yocto
 
 This page provides the Hikey specific instructions for flashing OpenEmbedded and Yocto images. For instructions on building
-the OE/Yocto images, please visit the generic [OpenEmbedded guide](../../../guides/open_embedded.md).
+the OE/Yocto images, please visit the generic [OpenEmbedded guide](../../../guides/open_embedded/).
 
 # Updating UFS partitions and Bootloader
 
-To make sure that the UFS partitions and Bootloader is up to date follow our [Board Recovery Guide](../installation/board-recovery.md)
+To make sure that the UFS partitions and Bootloader is up to date follow our [Board Recovery Guide](../installation/board-recovery/)
 
 At this point your eMMC has the following partition layout:
 

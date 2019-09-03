@@ -9,52 +9,52 @@ permalink: /documentation/guides/
 **Generic guides** apply to all 96Boards from all families. This means the guides in this section can be used on Consumer, IoT, and Enterprise edition boards.
 
 - [96Boards Low-Speed Header Pinout](https://www.96boards.org/pinout/)
-- [CrossCompile](crosscompile/README.md)
+- [CrossCompile](crosscompile/)
 
 ***
 
 ## Consumer Edition Guides
 
-**Consumer Edition guides** can be used (for the most part) across our [Consumer Edition family of 96Boards](../consumer/). If a guide has not yet been adopted for the board you are using, please feel free to [contribute](../CONTRIBUTE.md).
+**Consumer Edition guides** can be used (for the most part) across our [Consumer Edition family of 96Boards](../consumer/). If a guide has not yet been adopted for the board you are using, please feel free to [contribute](../CONTRIBUTE/).
 
-- [**Generic Guides**](../consumer/guides/README.md)
-  - [GPIO Guide for 96Boards](../consumer/guides/mraa/README.md)
-  - [AOSP Index](../consumer/guides/aosp-index.md)
-  - [Open Embedded](../consumer/guides/open_embedded.md)
-  - [Building Linaro Debian based images](../consumer/guides/debian.md)
+- [**Generic Guides**](../consumer/guides/)
+  - [GPIO Guide for 96Boards](../consumer/guides/mraa/)
+  - [AOSP Index](../consumer/guides/aosp-index/)
+  - [Open Embedded](../consumer/guides/open_embedded/)
+  - [Building Linaro Debian based images](../consumer/guides/debian/)
 - **Board Specific Guides**
-  - [DragonBoard 410c](../consumer/dragonboard/dragonboard410c/guides/README.md)
-  - [DragonBoard 820c](../consumer/dragonboard/dragonboard410c/guides/README.md)
-  - [HiKey](../consumer/hikey/hikey620/guides/README.md)                        
-  - [Chameleon96](../consumer/chameleon96/guides/README.md)            
-  - [IMX7-96](../consumer/imx7-96/guides/README.md)                    
-  - [ROCK960](../consumer/rock/rock960/guides/README.md)  
+  - [DragonBoard 410c](../consumer/dragonboard/dragonboard410c/guides/)
+  - [DragonBoard 820c](../consumer/dragonboard/dragonboard410c/guides/)
+  - [HiKey](../consumer/hikey/hikey620/guides/)
+  - [Chameleon96](../consumer/chameleon96/guides/)
+  - [IMX7-96](../consumer/imx7-96/guides/)
+  - [ROCK960](../consumer/rock/rock960/guides/)
 
 ***
 
 ## IoT Edition Guides
 
-**IoT Edition guides** can be used (for the most part) across our [IoT Edition family of 96Boards](../iot/). If a guide has not yet been adopted for the board you are using, please feel free to [contribute](../CONTRIBUTE.md).
+**IoT Edition guides** can be used (for the most part) across our [IoT Edition family of 96Boards](../iot/). If a guide has not yet been adopted for the board you are using, please feel free to [contribute](../CONTRIBUTE/).
 
-- [**Generic Guides**](../iot/guides/README.md)
+- [**Generic Guides**](../iot/guides/)
 - **Board Specific Guides**
-  - [Nitrogen](../iot/nitrogen/guides/README.md)
+  - [Nitrogen](../iot/nitrogen/guides/)
 
 ***
 
 ## Enterprise Edition Guides
 
-**Enterprise Edition guides** can be used (for the most part) across our [Enterprise Edition family of 96Boards](../enterprise/). If a guide has not yet been adopted for the board you are using, please feel free to [contribute](../CONTRIBUTE.md).
+**Enterprise Edition guides** can be used (for the most part) across our [Enterprise Edition family of 96Boards](../enterprise/). If a guide has not yet been adopted for the board you are using, please feel free to [contribute](../CONTRIBUTE/).
 
 - **Board Specific Guides**
-  - [Poplar](../enterprise/poplar/guides/README.md)      
-  - [DeveloperBox](../enterprise/poplar/guides/README.md)
+  - [Poplar](../enterprise/poplar/guides/)
+  - [DeveloperBox](../enterprise/poplar/guides/)
 
 ***
 
 ## Mezzanine Guides
 
-- [Audio Mezzanine](../mezzanine/audio-mezzanine/Guides/README.md)
+- [Audio Mezzanine](../mezzanine/audio-mezzanine/Guides/)
 - NeonKey Mezzanine
-  - [AOSP](../mezzanine/neonkey/guides/neonkey-aosp-build.md)
+  - [AOSP](../mezzanine/neonkey/guides/neonkey-aosp-build/)
 - [Secure96](../mezzanine/secure96/guides/secure96-guide.pdf)

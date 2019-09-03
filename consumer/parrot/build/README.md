@@ -5,4 +5,4 @@ permalink: /documentation/consumer/parrot/build/
 
 # Build from Source
 
-- [Android](android.md)
+- [Android](android/)

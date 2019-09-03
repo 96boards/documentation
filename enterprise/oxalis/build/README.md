@@ -5,4 +5,4 @@ permalink: /documentation/enterprise/oxalis/build/
 
 # Build from Source
 
-- [Linux](linux.md)
+- [Linux](linux/)

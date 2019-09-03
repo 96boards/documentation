@@ -4,4 +4,4 @@ permalink: /documentation/mezzanine/tresor/guides/
 ---
 # Tresor Mezzanine Guides
 
-- [Getting Started Guide](./tresor-guide.md)
+- [Getting Started Guide](./tresor-guide/)

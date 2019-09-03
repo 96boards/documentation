@@ -9,7 +9,7 @@ redirect_from:  /documentation/consumer/hikey970/build/linux-kernel/
 This page provides the instructions for building and deploying linux
 kernel on HiKey970 from x86 host machine.
 
- >**NOTE: This instruction is to be used only after or during building [AOSP](aosp.md)**
+ >**NOTE: This instruction is to be used only after or during building [AOSP](aosp/)**
 
 ## Prepare Tools and Files
 - **Build Ramdisk**

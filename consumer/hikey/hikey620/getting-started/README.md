@@ -15,11 +15,11 @@ Learn about your HiKey board as well as how to prepare and set up for basic use
 **Need**
 - [HiKey Development Board](https://www.96boards.org/product/hikey/)
    - Board based on HiSilicon Kirin 6220 processor
-- [Power adapter](power-adapter.md)
+- [Power adapter](power-adapter/)
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter
-- [USB Keyboard and Mouse](usb-keyboard-mouse.md)
+- [USB Keyboard and Mouse](usb-keyboard-mouse/)
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
-- [Monitor and HDMI Cable](monitor-hdmi.md)
+- [Monitor and HDMI Cable](monitor-hdmi/)
    - All 96Boards are equiped with a full sized HDMI connector, HDMI capable monitor is recommended
 - Jumpers
    - J15 Header on the HiKey comes with two pin-jumpers
@@ -79,8 +79,8 @@ The following subsections should describe how to get started with the HiKey usin
 
 **The HiKey comes preloaded with Debian Linux and can be up and running with a few simple steps:**
 
-- Connect the HiKey to your [display with the HDMI cable](monitor-hdmi.md). It is important to do this first because the monitor will not detect the board if it is connected after starting. Ensure that the source for the display is switched to the HDMI port you are using
-- Connect the [USB keyboard and mouse](usb-keyboard-mouse.md). Do not connect the USB OTG port to your computer – this will prevent the keyboard and mouse from operating. The USB OTG port is the micro USB connector on the board
+- Connect the HiKey to your [display with the HDMI cable](monitor-hdmi/). It is important to do this first because the monitor will not detect the board if it is connected after starting. Ensure that the source for the display is switched to the HDMI port you are using
+- Connect the [USB keyboard and mouse](usb-keyboard-mouse/). Do not connect the USB OTG port to your computer – this will prevent the keyboard and mouse from operating. The USB OTG port is the micro USB connector on the board
 - Ensure J15 Jumper pins are linked as follows:
 
 | Name          | Link     | State  |
@@ -101,11 +101,11 @@ If you are already familiar with the HiKey board and would like to change out th
 
 - [Downloads page](../downloads/): This page lists all Linaro and 3rd party operating systems available for HiKey
 - [Installation page](../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your HiKey board
-- [Board Recovery](../installation/board-recovery.md)
+- [Board Recovery](../installation/board-recovery/)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 - [Troubleshooting](../troubleshooting/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
 Back to the [HiKey documentation home page](../)
 
-***   
+***

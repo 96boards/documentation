@@ -8,7 +8,7 @@ Explore what makes your Poplar unique, technical specifications, schematics, har
 
 ## User Guides
 
-- Hardware User Manual ([View](hw-user-manual.md))
+- Hardware User Manual ([View](hw-user-manual/))
 
 #### Hardware
 

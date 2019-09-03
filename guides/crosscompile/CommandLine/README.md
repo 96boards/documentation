@@ -11,7 +11,7 @@ This three part set of instructions will walk you through basic commandline cros
 - Linux host system is used as the cross compiling station
 - Examples were tested on fully updated Ubuntu 15.04 and 16.04 releases
 - Examples depend on matching, latest [libsoc](https://github.com/jackmitch/libsoc) and [libmraa](https://github.com/intel-iot-devkit/mraa) libraries to be installed on both devices (x86 machine, ARM machine)
-   - Libraries should be built from source to ensure they are current and will match. Instructions can be found [here](../../consumer/guides/gpio.md)
+   - Libraries should be built from source to ensure they are current and will match. Instructions can be found [here](../../consumer/guides/gpio/)
 - Examples were tested on a DragonBoard 410c, but should work with all 96Boards
 
 {% include media.html media_url="https://www.youtube.com/embed/eMPG24OgQ-o" %}
@@ -44,7 +44,7 @@ $ sudo apt-get dist-upgrade
 
 #### Step 2: If you are using libsoc and or mraa make sure they are installed and up to date
 
-**Installation libsoc:** Please go here for first time libsoc installation instructions.  
+**Installation libsoc:** Please go here for first time libsoc installation instructions.
 
 **Update:** Change directory (cd) to your libsoc source and make sure you have latest code
 
@@ -304,7 +304,7 @@ $ sudo mkdir -p /usr/aarch64-linux-gnu/local/
 $ sudo cp -a /tmp/stage/usr/local/* /usr/aarch64-linux-gnu/local/.
 ```
 
-#### Step 3: Test an application which uses the shared library mraa.  
+#### Step 3: Test an application which uses the shared library mraa.
 
 The mraa library builds all of it’s example files in the process of building the library, this means you don’t need to invoke the compiler it’s already been done.
 

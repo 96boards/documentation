@@ -7,11 +7,11 @@ redirect_from: /documentation/consumer/dragonboard820c/build/open-embedded/
 # OpenEmbedded
 
 This page provides the Dragonboard820c specific instructions for flashing OpenEmbedded images. For instructions on building
-the OE images, please refer the generic [OpenEmbedded guide](../../../guides/open_embedded.md).
+the OE images, please refer the generic [OpenEmbedded guide](../../../guides/open_embedded/).
 
 # Updating UFS partitions and Bootloader
 
-To make sure that the UFS partitions and Bootloader is up to date follow our [Board Recovery Guide](../installation/board-recovery.md)
+To make sure that the UFS partitions and Bootloader is up to date follow our [Board Recovery Guide](../installation/board-recovery/)
 
 # Install fastboot
 

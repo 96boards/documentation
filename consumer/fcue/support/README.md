@@ -13,5 +13,5 @@ Please take advantage of the many Board X resources available to you through 96B
    - Similar to the 96Boards forum; however, this page will have threads for all MediaTek products
 - [Board X]()
    - Buy the Board X here!
-- [Report a bug!](../../../Report_a_bug.md)
+- [Report a bug!](../../../Report_a_bug/)
    - Instructions on how to report bugs for any of our 96Boards hardware and software, this includes the Board X!

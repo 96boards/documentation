@@ -12,9 +12,9 @@ Explore what makes your Poplar unique, technical specifications, schematics, har
 
 ## User Guides
 
-- Hardware User Manual ([View](hw-user-manual.md))
+- Hardware User Manual ([View](hw-user-manual/))
 
 #### Hardware
 
 - Schematics ([View](https://github.com/96boards/documentation/blob/master/enterprise/poplar/hardware-docs/Poplar_Schematics_vA.pdf) / [Download](https://github.com/96boards/documentation/raw/master/enterprise/poplar/hardware-docs/Poplar_Schematics_vA.pdf))
-- Hi3798C V200 Data Sheet ([View](https://github.com/96boards/documentation/blob/master/enterprise/poplar/hardware-docs/Processor_Datasheet_v2XX.pdf) / [Download](https://github.com/96boards/documentation/raw/master/enterprise/poplar/hardware-docs/Processor_Datasheet_v2XX.pdf))    
+- Hi3798C V200 Data Sheet ([View](https://github.com/96boards/documentation/blob/master/enterprise/poplar/hardware-docs/Processor_Datasheet_v2XX.pdf) / [Download](https://github.com/96boards/documentation/raw/master/enterprise/poplar/hardware-docs/Processor_Datasheet_v2XX.pdf))

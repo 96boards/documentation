@@ -4,4 +4,4 @@ permalink: /documentation/iot/bpi96/downloads/
 ---
 ## Downloads
 
-- [LiteOS](liteos.md)
+- [LiteOS](liteos/)

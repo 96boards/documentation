@@ -11,8 +11,8 @@ If you would like to change the Operating System for you board, update the exist
 
 ### Linaro supported operating systems
 
-- [Debian](debian.md)
-- [OpenEmbedded](open-embedded.md)
+- [Debian](debian/)
+- [OpenEmbedded](open-embedded/)
 
 ***
 

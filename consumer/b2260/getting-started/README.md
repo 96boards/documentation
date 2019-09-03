@@ -98,7 +98,7 @@ If you are already familiar with the B2260 board and would like to change out th
 
 - [Downloads page](../downloads/): This page lists all Linaro and 3rd party operating systems available for B2260
 - [Installation page](../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your B2260 board
-- [Board Recovery](../installation/board-recovery.md)
+- [Board Recovery](../installation/board-recovery/)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a successfull board recovery.
 - [Troubleshooting](../support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers

@@ -19,22 +19,22 @@ st time to swapping out your OS
 
 | Guide                                                               | Descripion                                                                                                                 |
 |:-------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------|
-| [General Purpose Input / Output](../../../guides/gpio.md)           | This all extensive I/O guide bridges across all 96Boards consumer edition boards.                                          |
-| [Force display resolution and bypass EDID](force-display-res.md)    | Learn how to force a diplay resolution                                                                                     |
-| [Enabling SPI on Dragonboard 410c with SPIDEV](enable-spi.md)       | Learn to enable SPI using SPIDEV                                                                                           |
-| [Create custom GPT](gpt.md)                                         | Learn to create a custom GUID Partition table                                                                              |
-| [UART Serial Console Access](uart-serial-console.md)                | This guide will walk you through gaining access to the Serial Console available through on board UART                      |
-| [LEDs and Connectors](led-connectors.md)                            | Basic walkthrough of the onboard LEDs and connectors                                                                       |
-| [Using USB](using-usb.md)                                           | An in depth look at the onboard USB connectors and how to use them                                                         |
-| [Device Tree Overlay](dt-overlays.md)                               | Shows how to load device tree overlays using configfs                                                                      |
-| [Linux SD boot using U-Boot](uboot-linux-sd.md)                     | Shows how to boot Linux from SD card using u-boot                                                                          |
-| [Create a Bootable SD Card](bootable-sd-card.md)                    | Shows how to boot Linux from SD card without using u-boot                                                                  |
-| [OV5645 Camera Module Guide](camera-module.md)                      | A guide on how to use the OV5645 camera module                                                                             |
-| [Customize EMMC Partition](customize-emmc-partition.md)             | A guide on customizing the emmc partition table                                                                            |
-| [Enable DMIC Support](enable-dmic.md)                               | Instruction to enable DMIC(Digital MICrophone)                                                                             |
-| [Enable SPI Ethernet Controller](enable-spi-ethernet-controller.md) | Instructions to connect and enable SPI Ethernet Controllers                                                                |
-| [Running LAVA Tests](testing.md)                                    | How to utilize the Linaro test suite on Dragonboard 410c                                                                   |
-| [Install Fedora](fedora.md)                                         | Install Fedora on Dragonboard410c                                                                                  |
+| [General Purpose Input / Output](../../../guides/gpio/)           | This all extensive I/O guide bridges across all 96Boards consumer edition boards.                                          |
+| [Force display resolution and bypass EDID](force-display-res/)    | Learn how to force a diplay resolution                                                                                     |
+| [Enabling SPI on Dragonboard 410c with SPIDEV](enable-spi/)       | Learn to enable SPI using SPIDEV                                                                                           |
+| [Create custom GPT](gpt/)                                         | Learn to create a custom GUID Partition table                                                                              |
+| [UART Serial Console Access](uart-serial-console/)                | This guide will walk you through gaining access to the Serial Console available through on board UART                      |
+| [LEDs and Connectors](led-connectors/)                            | Basic walkthrough of the onboard LEDs and connectors                                                                       |
+| [Using USB](using-usb/)                                           | An in depth look at the onboard USB connectors and how to use them                                                         |
+| [Device Tree Overlay](dt-overlays/)                               | Shows how to load device tree overlays using configfs                                                                      |
+| [Linux SD boot using U-Boot](uboot-linux-sd/)                     | Shows how to boot Linux from SD card using u-boot                                                                          |
+| [Create a Bootable SD Card](bootable-sd-card/)                    | Shows how to boot Linux from SD card without using u-boot                                                                  |
+| [OV5645 Camera Module Guide](camera-module/)                      | A guide on how to use the OV5645 camera module                                                                             |
+| [Customize EMMC Partition](customize-emmc-partition/)             | A guide on customizing the emmc partition table                                                                            |
+| [Enable DMIC Support](enable-dmic/)                               | Instruction to enable DMIC(Digital MICrophone)                                                                             |
+| [Enable SPI Ethernet Controller](enable-spi-ethernet-controller/) | Instructions to connect and enable SPI Ethernet Controllers                                                                |
+| [Running LAVA Tests](testing/)                                    | How to utilize the Linaro test suite on Dragonboard 410c                                                                   |
+| [Install Fedora](fedora/)                                         | Install Fedora on Dragonboard410c                                                                                  |
 
 ## Android
 
@@ -42,4 +42,4 @@ st time to swapping out your OS
 
 | Guide                                                          | Descripion                                                                                                                 |
 |:--------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------|
-|[AOSP](../../guides/aosp.md)                                                 |  It is possible to build AOSP for the Dragonboard 410c. Please note, this is experimental work.                            |
+|[AOSP](../../guides/aosp/)                                                 |  It is possible to build AOSP for the Dragonboard 410c. Please note, this is experimental work.                            |

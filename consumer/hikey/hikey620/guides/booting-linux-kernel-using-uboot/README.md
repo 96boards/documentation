@@ -43,7 +43,7 @@ Debian distro from U-Boot.
 ## 2.1) Preparing uImage
 
 Linux kernel needs to be complied and placed onto the SD card in order to allow U-Boot to load it. For
-compiling Linux kernel, refer this [guide](https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey620/build/linux-kernel.md).
+compiling Linux kernel, refer this [guide](https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey620/build/linux-kernel/).
 After compilation, generate U-Boot compatible Linux Image using `mkimage` utility.
 
 ```shell

@@ -5,5 +5,5 @@ permalink: /documentation/consumer/ultra96/ultra96-v2/build/
 
 # Build from Source
 
-- [PetaLinux](peta-linux.md)
+- [PetaLinux](peta-linux/)
   - Build Linux Kernel and Yocto based PetaLinux user-space from source.

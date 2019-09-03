@@ -68,7 +68,7 @@ The following subsections should describe how to get started with the HiKey960 u
 |  OS Support          | AOSP/LINUX                                                                                       |
 |  Size                | 85mm x 55mm                                                                                      |
 
-Please visit the [HiKey960 Hardware User Manual](../hardware-docs/hardware-user-manual.md) for more information
+Please visit the [HiKey960 Hardware User Manual](../hardware-docs/hardware-user-manual/) for more information
 
 **IMPORTANT NOTES**
 
@@ -91,7 +91,7 @@ Fastboot      | Link 5-6 / Switch 3 | open / OFF    | closed / ON   | open / OFF
 
 - Normal Mode: Select this mode to have HiKey960 boot OS from onboard storage
 - [Fastboot Mode](../installation/): Select this mode to flash a new Operating system using the OTG (USB Type-C) port and fastboot commands
-- [Recovery Mode](../installation/board-recovery.md): Select this mode to recover HiKey960 from bricked state. Also use when updating base firmware
+- [Recovery Mode](../installation/board-recovery/): Select this mode to recover HiKey960 from bricked state. Also use when updating base firmware
 
 ### First boot
 
@@ -112,7 +112,7 @@ If you are already familiar with the HiKey960 board and would like to change out
 - [HiKey960 96Boards Home page](http://www.96boards.org/product/hikey960/)
 - [Downloads page](../downloads/): This page lists all Linaro and 3rd party operating systems available for HiKey960
 - [Installation page](../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your HiKey960 board
-- [Board Recovery](../installation/board-recovery.md)
+- [Board Recovery](../installation/board-recovery/)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 - [Support](../support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers

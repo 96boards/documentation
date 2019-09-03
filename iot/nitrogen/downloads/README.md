@@ -16,4 +16,4 @@ The Nitrogen comes pre-installed with Zephyr. When future OS become available, t
 
 ### Linaro supported pre-built sample OS and applications
 
-- [Zephyr](zephyr.md)
+- [Zephyr](zephyr/)

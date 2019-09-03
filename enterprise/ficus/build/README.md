@@ -9,4 +9,4 @@ Page under construction...
 
 ## Contents
 
-- [Android](aosp.md)
+- [Android](aosp/)

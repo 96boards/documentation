@@ -12,8 +12,8 @@ redirect_from:
 - [AOSP Distros](https://source.android.com/source/devices.html)
    - Create builds for the HiKey Android reference board
 
-- [OpenEmbedded/Yocto](open-embedded.md)
+- [OpenEmbedded/Yocto](open-embedded/)
    - Create custom distribution based on OpenEmbedded/Yocto
 
-- [Linux Kernel](linux-kernel.md)
+- [Linux Kernel](linux-kernel/)
    - Build Linux Kernel from source

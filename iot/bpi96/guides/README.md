@@ -9,4 +9,4 @@ Explore what makes your BPi96 unique by checking out technical specifications, s
 ## BPi96
 
 - [Running on Arduino IDE](http://blog.inzpire.lk/2018/03/go-bananas-with-banana-pi.html)
-- [BC95 Connect to Network](connect-network.md)
+- [BC95 Connect to Network](connect-network/)

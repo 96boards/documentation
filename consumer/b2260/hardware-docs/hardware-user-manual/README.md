@@ -522,4 +522,4 @@ Please note that there is no independent power domain on the B2260 Development B
 
 ***
 
-[View/Edit this document in Github](https://github.com/96boards/documentation/tree/master/consumer/b2260/hardware-docs/hardware-user-manual.md)
+[View/Edit this document in Github](https://github.com/96boards/documentation/tree/master/consumer/b2260/hardware-docs/hardware-user-manual/)

@@ -17,7 +17,7 @@ permalink: /documentation/consumer/boardname/downloads/debian/
 |:------------------|:------------------------------------|
 |Release Notes:     |[Link]()                             |
 
-Continue to [Installation page](../installation/README.md)
+Continue to [Installation page](../installation/)
 
 ***
 
@@ -39,4 +39,4 @@ Continue to [Installation page](../installation/README.md)
 |:------------------|:----------------------------------|
 |Release Notes:     |[Link]()                           |
 
-Continue to [Installation page](../installation/README.md)
+Continue to [Installation page](../installation/)

@@ -16,8 +16,8 @@ The DragonBoard 410c comes pre-installed with Android (if purchased in a kit, OS
 
 ### Linaro supported operating systems
 
-- [Debian](debian.md)
-- [OpenEmbedded](open-embedded.md)
+- [Debian](debian/)
+- [OpenEmbedded](open-embedded/)
 
 ***
 
@@ -25,7 +25,7 @@ The DragonBoard 410c comes pre-installed with Android (if purchased in a kit, OS
 
 Other operating systems supported on DragonBoard 410c, offered by partners.
 
-- [Android](android.md)
+- [Android](android/)
 - [Ubuntu Core](https://developer.ubuntu.com/core/get-started/dragonboard-410c)
 - [Windows IoT Core](https://docs.microsoft.com/en-us/windows/iot-core/tutorials/quickstarter/devicesetup#using-the-iot-dashboard-dragonboard-410c)
 - [Fedora](https://nullr0ute.com/2017/11/getting-started-with-fedora-on-the-96boards-dragonboard/)

@@ -39,4 +39,4 @@ Currenty not available...
 | cache.img               | [Download]()           |
 | userdata.img            | [Download]()           |
 
-Continue to [Installation page](../installation/README.md)
+Continue to [Installation page](../installation/)

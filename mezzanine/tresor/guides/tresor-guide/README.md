@@ -90,7 +90,7 @@ CONFIG_SECURITYFS=y
 CONFIG_CRYPTO_HASH_INFO=y
 ```
 
-- Finally, build and flash the kernel image onto Dragonboard410c as shown in [this guide](https://github.com/96boards/documentation/blob/171013c54099bdce960eca7cb421b95dd76eae6b/consumer/dragonboard/dragonboard410c/build/kernel.md)
+- Finally, build and flash the kernel image onto Dragonboard410c as shown in [this guide](https://github.com/96boards/documentation/blob/171013c54099bdce960eca7cb421b95dd76eae6b/consumer/dragonboard/dragonboard410c/build/kernel/)
 
 # Using Tresor Mezzanine
 

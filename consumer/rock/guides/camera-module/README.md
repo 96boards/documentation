@@ -48,9 +48,9 @@ sub-devices as follows:
 
 More information about the ISP can be found in [Rockchip Wiki](http://opensource.rock-chips.com/wiki_Rockchip-isp1).
 
-## [Camera Setup for Rock960 Model A&B](../rock960/guides/camera-setup.md)
+## [Camera Setup for Rock960 Model A&B](../rock960/guides/camera-setup/)
 
-## [Camera Setup for Rock960 Model C](../rock960c/guides/camera-setup.md)
+## [Camera Setup for Rock960 Model C](../rock960c/guides/camera-setup/)
 
 ## Basic usage
 

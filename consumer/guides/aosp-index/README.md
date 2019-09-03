@@ -8,13 +8,13 @@ redirect_from: /documentation/ConsumerEdition/guides/aosp-index/
 ***
 ### Documentation Index
 - **A consolidated list linking to AOSP build instruction for supported 96Boards CE Products**
-  - **[DragonBoard 410c](../dragonboard/guides/aosp.md)**
+  - **[DragonBoard 410c](../dragonboard/guides/aosp/)**
   - **[Hikey](https://source.android.com/setup/devices#hikey)**
   - **[Hikey960](https://source.android.com/setup/devices#hikey960)**
 
 
 - **Supported Mezzanine Boards**
-  - **[Neonkey](../../mezzanine/neonkey/guides/neonkey-aosp-build.md)**
+  - **[Neonkey](../../mezzanine/neonkey/guides/neonkey-aosp-build/)**
 
 
 ### Build Environment Setup

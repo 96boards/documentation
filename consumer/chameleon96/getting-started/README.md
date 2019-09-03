@@ -11,7 +11,7 @@ Learn about your Chameleon96 board as well as how to prepare and set up for basi
 **Need**
 - [Chameleon96](../../chameleon96/)
    - Board based on the Intel Cyclone V SoC FPGA
-- Power adapter](PowerAdapter.md)
+- Power adapter](PowerAdapter/)
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter
 - USB Keyboard and Mouse
    - With two USB-A connectors, all 96Boards can be equipped with a full sized keyboard and mouse
@@ -74,4 +74,4 @@ Back to the [Chameleon96 documentation home page](../)
 
 
 
-***   
+***

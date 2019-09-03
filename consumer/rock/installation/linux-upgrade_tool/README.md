@@ -51,7 +51,7 @@ should return
 
 #### **Step 2**: Prepare necessary Android images
 
-Go to the [Downloads page](../downloads) to donwload the image or use your own built one. _update.img_ is the default name if you follow the build instructions of [AOSP](../build/aosp.md). We use the name _-rkupdate.img_ to refer Rockchip format packed Android image.
+Go to the [Downloads page](../downloads) to donwload the image or use your own built one. _update.img_ is the default name if you follow the build instructions of [AOSP](../build/aosp/). We use the name _-rkupdate.img_ to refer Rockchip format packed Android image.
 
 It contains the following partitions:
 

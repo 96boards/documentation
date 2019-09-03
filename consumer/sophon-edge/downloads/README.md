@@ -17,6 +17,6 @@ Operating systems supported on Sophone Edge, offered by Linaro.
 
 ### Third Party Operating Systems
 
-- [Linux](linux.md)
+- [Linux](linux/)
 
 ***

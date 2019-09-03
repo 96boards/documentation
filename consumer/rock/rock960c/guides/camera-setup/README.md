@@ -6,7 +6,7 @@ permalink: /documentation/consumer/rock/rock960c/guides/camera-setup/
 # Setting up CSI camera with Rock960 Model C board
 
 This guide provides instructions for setting up camera with Rock960 board.
-This guide should be read in conjunction with [Using CSI camera with Rock960 family boards](../../guides/camera-module.md) guide.
+This guide should be read in conjunction with [Using CSI camera with Rock960 family boards](../../guides/camera-module/) guide.
 
 ## Prerequisities
 
@@ -39,7 +39,7 @@ Connections should look like below:
 
 ##### Software Setup
 
-Build and install the below kernel as per this [guide](../../build/linux-kernel.md).
+Build and install the below kernel as per this [guide](../../build/linux-kernel/).
 
 Kernel: https://github.com/96rocks/kernel.git
 Branch: release-4.4-rock960
@@ -52,7 +52,7 @@ Branch: release-4.4-rock960
 
 ##### Software Setup
 
-Build and install the below kernel as per this [guide](../../build/linux-kernel.md).
+Build and install the below kernel as per this [guide](../../build/linux-kernel/).
 
 Kernel: https://github.com/96rocks/kernel.git
 Branch: release-4.4-rock960

@@ -9,7 +9,7 @@ redirect_from:
 This page provides information about [MRAA library](https://github.com/intel-iot-devkit/mraa), which is used for accessing on board
 peripherals in 96Boards CE platforms.
 
-- [Installation guide](install.md)
+- [Installation guide](install/)
    - Learn how to install mraa library on 96Boards CE
 - [Using GPIO](gpio/)
    - Examples on how to use GPIO using mraa library

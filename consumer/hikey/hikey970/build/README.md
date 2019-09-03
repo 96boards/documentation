@@ -5,8 +5,8 @@ redirect_from:  /documentation/consumer/hikey970/build/
 ---
 # Build From Source
 
-- [AOSP User Space](aosp.md)
+- [AOSP User Space](aosp/)
    - Create builds for the HiKey Android reference board
 
-- [AOSP Linux Kernel](linux-kernel.md)
+- [AOSP Linux Kernel](linux-kernel/)
    - Build AOSP Specific Linux Kernel from source

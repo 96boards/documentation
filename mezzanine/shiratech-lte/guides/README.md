@@ -5,4 +5,4 @@ permalink: /documentation/mezzanine/shiratech-lte/guides/
 
 # Shiratech LTE Guides
 
-## 1) [Quick Start Guide](quickstart.md)
+## 1) [Quick Start Guide](quickstart/)

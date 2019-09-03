@@ -9,7 +9,7 @@ redirect_from:
 # OpenEmbedded and Yocto
 
 This page provides the Dragonboard410c specific instructions for flashing OpenEmbedded and Yocto images. For instructions on building
-the OE/Yocto images, please refer the generic [OpenEmbedded guide](../../../guides/open_embedded.md).
+the OE/Yocto images, please refer the generic [OpenEmbedded guide](../../../guides/open_embedded/).
 
 # Updating eMMC partitions and Bootloader
 

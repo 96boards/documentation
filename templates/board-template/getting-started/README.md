@@ -14,7 +14,7 @@ Learn about your Board-X board as well as how to prepare and set up for basic us
 **Need**
 - [Board-X](Insert Board-X 96Boards.org landing page link here)
    - Board based on the XXXXXXX Processor
-- Power adapter](PowerAdapter.md)
+- Power adapter](PowerAdapter/)
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter
 - USB Keyboard and Mouse
    - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
@@ -101,13 +101,13 @@ The following subsections should describe how to get started with the Board-X us
 
 If you are already familiar with the Board-X board and would like to change out the stock operating system, please proceed to one of the following pages:
 
-- [Downloads page](../downloads/README.md): This page lists all Linaro and 3rd party operating systems available for Board-X
-- [Installation page](../installation/README.md): If you already have the images you need, this page has information on how to install the different operating systems onto your Board-X board
-- [Board Recovery](../installation/BoardRecovery.md)
+- [Downloads page](../downloads/): This page lists all Linaro and 3rd party operating systems available for Board-X
+- [Installation page](../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your Board-X board
+- [Board Recovery](../installation/BoardRecovery/)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
-- [Troubleshooting](../support/README.md)
+- [Troubleshooting](../support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
-Back to the [Board-X documentation home page](../README.md)
+Back to the [Board-X documentation home page](../)
 
-***   
+***

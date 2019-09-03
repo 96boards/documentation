@@ -29,7 +29,7 @@ A comprehensive guide to using the [HiKey960](https://www.96boards.org/product/h
 - [Vendor Documentation](hardware-docs/)
    - Explore what makes your HiKey960 unique, technical specifications, schematics, hardware notes and more...
 - [Troubleshooting and Support](support/)
-   - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers   
-- [Contribute](../contribute.md)
+   - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
+- [Contribute](../contribute/)
 
 ***

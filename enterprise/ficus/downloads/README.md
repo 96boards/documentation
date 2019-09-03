@@ -19,8 +19,8 @@ There are currently no Linaro supported operating systems.
 
 Other operating systems supported on ROCK960, offered by partners.
 
-- [Debian](debian.md)
-- [Ubuntu](ubuntu.md)
+- [Debian](debian/)
+- [Ubuntu](ubuntu/)
 - [Android](https://source.android.com/setup/)
 
 ***

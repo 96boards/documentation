@@ -40,4 +40,4 @@ Go to the [Downloads page](../downloads) to get your SD card image.
 
 Proceed to installation instructions using [Etcher](https://etcher.io/)
 
-- [SD Card Installation instructions using Etcher](sd-etcher-install.md)
+- [SD Card Installation instructions using Etcher](sd-etcher-install/)

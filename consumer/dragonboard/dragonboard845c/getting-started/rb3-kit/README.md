@@ -29,7 +29,7 @@ Learn about your DragonBoard 845c board as well as how to prepare and set up for
 - Camera Modules
    - OV8856
    - OV7251
-   - ToF 
+   - ToF
    - SLMCamera
 - Cellular Mezzanine board
    - This board supports LTE module for a better communication experience
@@ -87,7 +87,7 @@ Coming Soon...
 - Step 6: Press and release the power button on the device,and user yellow Led0 should illuminate.
 
 The board will start the booting process, and you should see Login Credentials displayed on the host PC:
-- sda845 login: root 
+- sda845 login: root
 - Password:123456
 
 ***
@@ -98,7 +98,7 @@ If you are already familiar with the DragonBoard 845c and would like to change o
 
 - [Downloads page](../../downloads/): This page lists all Linaro and 3rd party operating systems available for the DragonBoard 845c
 - [Installation page](../../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your DragonBoard 845c
-- [Board Recovery](../../installation/board-recovery.md)
+- [Board Recovery](../../installation/board-recovery/)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 - [Support](../../support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers

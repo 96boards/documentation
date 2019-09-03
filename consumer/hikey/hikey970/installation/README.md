@@ -41,9 +41,9 @@ Go to the [Downloads page](../downloads/) to get your SD card image.
 
 Choose host machine
 
-- [Linux](linux-sd.md)
-- [Mac](mac-sd.md)
-- [Windows](windows-sd.md)
+- [Linux](linux-sd/)
+- [Mac](mac-sd/)
+- [Windows](windows-sd/)
 
 ***
 -->
@@ -61,6 +61,6 @@ Go to the [Downloads page](../downloads/) to get your bootloader, boot image, an
 
 **Choose host machine**
 
-- [Linux](linux-fastboot.md)
+- [Linux](linux-fastboot/)
 
 ***

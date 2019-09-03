@@ -9,7 +9,7 @@ These guides will help to get you started with a variety of available on-boards 
 
 ## Useful guide
 
-* [how to connect serial console](serial-console.md)
+* [how to connect serial console](serial-console/)
 
 
 ## Android development tips

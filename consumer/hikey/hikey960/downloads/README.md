@@ -13,7 +13,7 @@ The HiKey960 comes pre-installed with AOSP. If you would like to switch the Oper
 
 #### Linaro Supported Operating Systems
 
-- [AOSP](aosp.md)
-- [Debian](debian.md)
+- [AOSP](aosp/)
+- [Debian](debian/)
 
 ***

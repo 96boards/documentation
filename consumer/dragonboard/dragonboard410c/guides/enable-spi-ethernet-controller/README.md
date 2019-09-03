@@ -103,4 +103,4 @@ index 6153663..6883e62 100644
 - Above patch is based on the `release/qcomlt-4.9` branch of the [Qualcomm LT kernel tree](https://git.linaro.org/landing-teams/working/qualcomm/kernel.git)
 
 #### Rebuilding the kernel
-Rebuild the kernel based on instructions [here](https://github.com/Linaro/documentation/blob/master/Reference-Platform/Releases/RPB_16.06/ConsumerEdition/DragonBoard-410c/BFSDebianRPB-16.06.md).
+Rebuild the kernel based on instructions [here](https://github.com/Linaro/documentation/blob/master/Reference-Platform/Releases/RPB_16.06/ConsumerEdition/DragonBoard-410c/BFSDebianRPB-16.06/).

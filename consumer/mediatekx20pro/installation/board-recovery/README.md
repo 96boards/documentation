@@ -5,7 +5,7 @@ redirect_from: /documentation/ConsumerEdition/MediaTekX20Pro/Installation/BoardR
 ---
 # MediaTek X20 Board Recovery
 
-- For most users, a board could be “recovered” from a software failure by reloading the operating system using the instructions found on the [Installation page](README.md).
+- For most users, a board could be “recovered” from a software failure by reloading the operating system using the instructions found on the [Installation page]().
 - You could also recover the board by Backup & reset option in Settings Application.
 
 The following instructions are for board recovery if and when the above recovery options fail to work (more specifically, when you screw up and cannot enter the fastboot mode). Only proceed if you have exercised all other options.

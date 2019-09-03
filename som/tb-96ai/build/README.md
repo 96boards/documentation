@@ -4,4 +4,4 @@ permalink: /documentation/som/tb-96ai/build/
 ---
 # Build from Source
 
-- [Android](./android.md)
+- [Android](./android/)

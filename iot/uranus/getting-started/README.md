@@ -67,6 +67,6 @@ If you are already familiar with the Uranus board and would like to change out t
 - [Support](../support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
-Back to the [Uranus documentation home page](../README.md)
+Back to the [Uranus documentation home page](../)
 
-*** 
+***

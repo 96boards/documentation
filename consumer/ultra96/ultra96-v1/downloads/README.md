@@ -19,7 +19,7 @@ Operating systems supported on Ultra96, offered by Linaro.
 
 ### Third Party Operating Systems
 
-- [Linux](linux.md)
+- [Linux](linux/)
 - [OpenSUSE](https://en.opensuse.org/HCL:Ultra96)
 - [Xilinx PYNQ](http://www.pynq.io/board.html)
 

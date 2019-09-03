@@ -65,7 +65,7 @@ If you are already familiar with the DragonBoard™ 820c and would like to chang
 
 - [Downloads page](../downloads/): This page lists all Linaro and 3rd party operating systems available for the DragonBoard 820c
 - [Installation page](../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your DragonBoard 820c
-- [Board Recovery](../installation/board-recovery.md)
+- [Board Recovery](../installation/board-recovery/)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 - [Troubleshooting](../support/)
 

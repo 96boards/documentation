@@ -33,10 +33,10 @@ This method requires the following hardware:
 - Host machine (Linux, Mac OS X, or Windows)
 - MicroSD card with 8GB (Class 10 recommended) or more for storage
 - USB Mouse and/or keyboard
-- Mini DisplayPort cable to HDMI or DisplayPort 
+- Mini DisplayPort cable to HDMI or DisplayPort
 
 Go to the [Downloads page](../downloads) to get your SD card image.
 
 Proceed to installation instructions using [Etcher](https://etcher.io/)
 
-- [SD Card Installation instructions using Etcher](sd-etcher-install.md)
+- [SD Card Installation instructions using Etcher](sd-etcher-install/)

@@ -26,7 +26,7 @@ permalink: /documentation/enterprise/oxalis/installation/linux/
 ### 3) Prepare Storage medium
 Use your PC to prepare the storage medium as described below:
 - Format the storage medium (SD-Card or USB-Memory-Stick) with `Fat32` filesystem.
-- Download the prebuilt image from [Downloads page](../downloads/linux.md).
+- Download the prebuilt image from [Downloads page](../downloads/linux/).
 - Copy and rename the downloaded `kernel_stable_xxxxxxxx.itb` image to `kernel.itb` and place it in the root folder of the storage medium.
 - Ensure that the image has been fully written. Use Safe remove on Windows and the `sync` command on the linux console.
 

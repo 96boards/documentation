@@ -17,6 +17,6 @@ Operating systems supported on Oxalis, offered by Linaro.
 
 ### Third Party Operating Systems
 
-- [Linux](linux.md)
+- [Linux](linux/)
 
 ***

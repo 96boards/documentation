@@ -14,9 +14,9 @@ The guides on this page are common for Rock960 and Rock960c boards, for board sp
 
 ## Useful guide
 
-* [how to connect serial console](serial-console.md)
-* [Using CSI camera with Rock960 family boards](camera-module.md)
-* [Expands Root Filesystem](expand-rootfs.md)
+* [how to connect serial console](serial-console/)
+* [Using CSI camera with Rock960 family boards](camera-module/)
+* [Expands Root Filesystem](expand-rootfs/)
 
 
 ## Android development tips

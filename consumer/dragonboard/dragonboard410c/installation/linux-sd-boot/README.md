@@ -13,11 +13,11 @@ This section show how to install the Debian operating system that is bootable fr
 **Prerequisites:**
 
 * A local copy of the `dragonboard410c_sdcard_developer_debian-xyz.zip` where `xyz` will vary based upon the build you are downloading.
-     * Instructions [here](../downloads/debian.md)
+     * Instructions [here](../downloads/debian/)
 
 ## Copy the install image onto the SD Card
 
-* Copy the install image downloaded onto the SD Card that will be used by following the [SD Card Method](linux-sd.md) section  and substitute the image file referenced here for the one in those instructions.
+* Copy the install image downloaded onto the SD Card that will be used by following the [SD Card Method](linux-sd/) section  and substitute the image file referenced here for the one in those instructions.
 
 ## Boot from the SD Card
 Now that the image is burned into the SD Card, the user can now boot from the SD Card.  Perform the following steps to do so:

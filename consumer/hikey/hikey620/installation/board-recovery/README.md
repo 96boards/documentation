@@ -165,7 +165,7 @@ $ sudo fastboot devices
 0123456789abcdef fastboot
 ```
 
-Your bootloader has been successfully installed and you are now ready to install the operating system files into the eMMC flash memory, for this go to the ([HiKey Installation](README.md)) page.
+Your bootloader has been successfully installed and you are now ready to install the operating system files into the eMMC flash memory, for this go to the ([HiKey Installation]()) page.
 
 **NOTE:**
 

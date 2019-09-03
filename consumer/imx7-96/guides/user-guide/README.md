@@ -59,7 +59,7 @@ To create a card with Win32DiskImager:
 
 ## Installing i.MX7 96Boards - Meerkat<sup>®</sup> Virtual Machine
 
-Updating and recompiling the images will require access to a properly configured Linux machine. A virtual machine has been provided with the Meerkat<sup>®</sup> to speed your development. Refer to the [Software Guide for the Meerkat<sup>®</sup>](../guides/software-guide.md) for further information on compilation.
+Updating and recompiling the images will require access to a properly configured Linux machine. A virtual machine has been provided with the Meerkat<sup>®</sup> to speed your development. Refer to the [Software Guide for the Meerkat<sup>®</sup>](../guides/software-guide/) for further information on compilation.
 
 Once all prerequisites are met, using 7Zip or any acceptable unzip program, unzip the **NovTech_VM_U14.04.4_Meerkat.7z** file to your PC hard drive. After unzipping, navigate to the created folder **NovTech_VM_U14.04.4_Meerkat**. Double Click on the file **NovTech_VM_U14.04.4.vmx**. VMware® Player should load the virtual machine.
 Another method could be to open VMware Player and click on ‘Open a Virtual Machine’ then navigate to the **NovTech_VM_U14.04.4_Meerkat** folder to find the virtual machine setup file.

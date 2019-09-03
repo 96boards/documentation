@@ -21,4 +21,4 @@ This method requires the following:
 - MDK5&STM32F1XX Package for Keil
 
 Choose Host Machine:
-- [windows](windows.md)
+- [windows](windows/)

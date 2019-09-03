@@ -42,7 +42,7 @@ Go to the [Downloads page](../downloads/) to get your SD card image.
 
 Choose Host machine
 
-- [Linux](linux-sd.md)
+- [Linux](linux-sd/)
 
 ***
 
@@ -65,6 +65,6 @@ Go to the [Downloads page](../downloads/) to get your bootloader, boot image, an
 
 Choose host machine
 
-- [Linux](linux-fastboot.md)
+- [Linux](linux-fastboot/)
 
 ***

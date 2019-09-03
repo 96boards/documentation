@@ -12,7 +12,7 @@ permalink: /documentation/enterprise/developerbox/installation/
    * [System firmware update](#system-firmware-update)
 	   * [Download system firmware](#download-system-firmware)
 	   * [Perform a capsule update](#perform-a-capsule-update)
-   
+
 # Installation Overview
 
 This guide will help you boot an operating system installer or
@@ -43,25 +43,25 @@ Note: *As an alternative to a keyboard and monitor is it possible
 
 ## Download necessary installation image
 
-The Developerbox comes pre-installed with system firmware (based on 
+The Developerbox comes pre-installed with system firmware (based on
 Trusted Firmware and EDK2) but without an operating system installed.
 This section provides links to the latest software downloads for
-Developerbox.  
+Developerbox.
 
 ### Linaro supported operating systems based on Debian
 
- * [Enterprise Reference Platform, based on Debian](../downloads/debian.md)
+ * [Enterprise Reference Platform, based on Debian](../downloads/debian/)
 
- 
+
 
 ### Third Party Operating Systems
 
 Other operating systems with support for Developerbox.
 
- * [CentOS 7 and later](../installation/centos.md)
- * [Debian 9 and later](../installation/debian.md)
- * [Red Hat Enterprise Linux 7 and later](../installation/rhel.md)
- * [Ubuntu 18.04 and later](../installation/ubuntu.md)
+ * [CentOS 7 and later](../installation/centos/)
+ * [Debian 9 and later](../installation/debian/)
+ * [Red Hat Enterprise Linux 7 and later](../installation/rhel/)
+ * [Ubuntu 18.04 and later](../installation/ubuntu/)
 
 
 
@@ -69,9 +69,9 @@ Other operating systems with support for Developerbox.
 
 Choose host machine to create the USB stick from:
 
-- [GNU/Linux (including other Developerbox)](linux-usb.md)
-- [Mac](mac-usb.md)
-- [Windows](windows-usb.md)
+- [GNU/Linux (including other Developerbox)](linux-usb/)
+- [Mac](mac-usb/)
+- [Windows](windows-usb/)
 
 ## Boot into the installer and install OS
 
@@ -82,7 +82,7 @@ Choose host machine to create the USB stick from:
  5. From the boot options in the Boot Manager Menu, choose your USB
     device to start the installer.
 
-**Note: Some operating systems may require workarounds to fix known installation problems. See the links under Third Party Operating Systems section for more detailed information or, if your OS not listed, the [Known Issues](../support/known-issues.md) for more details.**
+**Note: Some operating systems may require workarounds to fix known installation problems. See the links under Third Party Operating Systems section for more detailed information or, if your OS not listed, the [Known Issues](../support/known-issues/) for more details.**
 
 ***
 
@@ -90,19 +90,19 @@ Choose host machine to create the USB stick from:
 
 Updating the system firmware requires no additional hardware, although
 you must have some means of interacting with your Developerbox
-(keyboard+monitor, UART, SSH). All commands must be run on the 
+(keyboard+monitor, UART, SSH). All commands must be run on the
 Developerbox from GNU/Linux shell, so you must have an operating
 system installed to update the firmware.
 
 Note: *If the board non-functioning and you are unable to run an
-      operating system, try the [board recovery](board-recovery.md)
+      operating system, try the [board recovery](board-recovery/)
       instructions instead.*
 
 ## Download system firmware
 
 Linaro supported System Firmware:
 
-Go to the [EDK2 downloads page](../downloads/edk2.md) and get the System
+Go to the [EDK2 downloads page](../downloads/edk2/) and get the System
 Firmware Capsule.
 
 ## Perform a capsule update

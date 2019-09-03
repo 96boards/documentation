@@ -19,7 +19,7 @@ This guide will walk you through Interfacing with Arduino Shields that use I2C b
 ## Software setup
 
 - **[Install MRAA on 96Boards CE](https://youtu.be/c8b6pcc6H2c)**
-- **[Install UPM on 96Boards CE](https://github.com/intel-iot-devkit/upm/blob/master/docs/building.md)**
+- **[Install UPM on 96Boards CE](https://github.com/intel-iot-devkit/upm/blob/master/docs/building/)**
 
 ## Running the Demos
 

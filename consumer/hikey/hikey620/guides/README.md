@@ -13,15 +13,15 @@ Execute unique configurations to customize your HiKey experience.
 
 ## Helpful Configurations
 
-- [Wireless TI Module (Debian)](wireless-ti-module.md)
+- [Wireless TI Module (Debian)](wireless-ti-module/)
    - Shows steps for configuiring the wireless TI module on your HiKey running Debian
-- [Clock](clock.md)
+- [Clock](clock/)
    - The HiKey board does not support a battery powered RTC. Learn how to install a "fake clock" here
-- [Bluetooth](bluetooth.md)
+- [Bluetooth](bluetooth/)
    - Bluetooth audio devices are supported on HiKey.
-- [USB](usb.md)
+- [USB](usb/)
    - For more information on using the USB utility included on your HiKey board.
-- [System LEDs](system-leds.md)
+- [System LEDs](system-leds/)
    - Each board LED has a directory in your sys folder. Click here for more information on how to use/toggle
 - [OpenOCD JTAG on HiKey](jtag/)
    - Learn where and how to populate/use the JTAG header on your HiKey

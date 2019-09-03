@@ -11,7 +11,7 @@ Coming soon...
 
 ## Contents
 
-- [Debian](debian.md)
-- [OpenEmbedded](oe.md)
-- [Android](aosp.md)
-- [Linux Kernel](kernel.md)
+- [Debian](debian/)
+- [OpenEmbedded](oe/)
+- [Android](aosp/)
+- [Linux Kernel](kernel/)

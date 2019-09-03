@@ -13,7 +13,7 @@ The Board X comes pre-installed with Android. If you would like to switch the Op
 
 ### Linaro supported operating systems
 
-- [Debian](debian.md)
+- [Debian](debian/)
 
 ***
 
@@ -21,6 +21,6 @@ The Board X comes pre-installed with Android. If you would like to switch the Op
 
 Other operating systems supported on Board X, offered by partners.
 
-- [Android](aosp.md)
+- [Android](aosp/)
 
 ***

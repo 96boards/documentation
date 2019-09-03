@@ -27,7 +27,7 @@ It might take quite a bit of time to fetch the entire AOSP source code!
 
 # Copy Pre-Built Kernel Binaries
 
-- [Build the Kernel](./linux-kernel.md)
+- [Build the Kernel](./linux-kernel/)
 
 - Copy kirin970-hikey970.dtb.dtb (kernel/hikey-linaro/arch/arm64/boot/dts/hisilicon/ kirin970-hikey970.dtb) to the device/linaro/hikey-kernel directory as file: kirin970-hikey970.dtb-4.9
 

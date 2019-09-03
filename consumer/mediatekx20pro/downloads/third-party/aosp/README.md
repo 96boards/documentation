@@ -26,5 +26,5 @@ This method requires the following hardware:
 
 ***
 
-- [Windows Host Machine](windows-fastboot.md)
-- [Linux Host Machine](linux-fastboot.md)
+- [Windows Host Machine](windows-fastboot/)
+- [Linux Host Machine](linux-fastboot/)

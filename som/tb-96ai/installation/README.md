@@ -14,5 +14,5 @@ Choose and install an operating system on your TB-96AIoT. To appropriately follo
 ***
 
 ## Methods of Installation
-- [Linux](./linux.md)
-- [Windows](./windows.md)
+- [Linux](./linux/)
+- [Windows](./windows/)

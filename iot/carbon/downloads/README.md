@@ -15,4 +15,4 @@ The Carbon comes pre-installed with Zephyr. When future OS become available, the
 
 ### Linaro supported pre-built sample OS and applications
 
-- [Zephyr](zephyr.md)
+- [Zephyr](zephyr/)

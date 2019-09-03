@@ -10,6 +10,6 @@ These guides will help to get you started with a variety of available on-boards 
 
 | Guides | Description |
 |:------:|:-----------:|
-| [Ethernet](ethernet.md) | Configure Ethernet |
-| [GPU](gpu.md)      | Demo fot the Vivante GC7000Lite GPU |
-| [WiFi](wifi.md)     | Configure WiFi |
+| [Ethernet](ethernet/) | Configure Ethernet |
+| [GPU](gpu/)      | Demo fot the Vivante GC7000Lite GPU |
+| [WiFi](wifi/)     | Configure WiFi |

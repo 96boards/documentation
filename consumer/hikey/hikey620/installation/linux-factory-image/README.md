@@ -19,7 +19,7 @@ HiKey should **NOT** be power on at this stage
 
 ## **Step 2**: Extract the zipfile
 
-After downloading the [factory image zip file](../downloads/aosp.md), unzip the file and change into the newly created directory.
+After downloading the [factory image zip file](../downloads/aosp/), unzip the file and change into the newly created directory.
 
 Example:
 ```shell

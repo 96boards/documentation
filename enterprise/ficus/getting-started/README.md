@@ -92,7 +92,7 @@ The package comes with a simple acrylic case, assemble it first:
 | OS Support          | AOSP/Debian/Ubuntu/Fedora/LibreELEC/Lakka/FlintOS |
 | Size                | 85mm x 55mm                              |
 
-Please visit the [Ficus Hardware User Manual](../hardware-docs/hardware-user-manual.md) for more information
+Please visit the [Ficus Hardware User Manual](../hardware-docs/hardware-user-manual/) for more information
 
 **IMPORTANT NOTES**
 

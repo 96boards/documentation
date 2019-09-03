@@ -26,11 +26,11 @@ Open serial terminal and press `Enter` while U-Boot starts to enter the
 U-Boot shell with `owl>` prompt.
 
 > Note: If your board is not booting into U-Boot, then you may need to
-recover your board by following the [Recovery Guide](./board-recovery.md).
+recover your board by following the [Recovery Guide](./board-recovery/).
 
 ### 2) Download required images
 
-Download the boot and root file system images from the [Download page](../downloads/debian.md).
+Download the boot and root file system images from the [Download page](../downloads/debian/).
 
 Once you have downloaded the appropriate files, continue to next step.
 

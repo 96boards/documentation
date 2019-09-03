@@ -8,18 +8,18 @@ A comprehensive guide to using the Chameleon96 Consumer Edition development boar
 
 ## Software
 
-- [Installation](installation/README.md)
+- [Installation](installation/)
    - Choose and install an operating system on your Chameleon96
 
 ## Documenation
 
-- [Getting Started](getting-started/README.md)
+- [Getting Started](getting-started/)
    - Learn about your Chameleon96 board, how to prepare and set up for basic use
-- [Useful Guides](guides/README.md)
+- [Useful Guides](guides/)
    - These guides will help to get you started with a variety of available on-boards software
-- [Hardware Documentation](hardware-docs/README.md)
+- [Hardware Documentation](hardware-docs/)
    - Explore what makes your Chameleon96 unique, technical specifications, schematics, hardware notes and more...
-- [Support](support/README.md)
+- [Support](support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
 ***

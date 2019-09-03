@@ -10,22 +10,22 @@ A comprehensive guide to using the [Board-x](96Boards.org product link here) Con
 
 ## Software
 
-- [Downloads](downloads/README.md)
+- [Downloads](downloads/)
    - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
-- [Installation](installation/README.md)
+- [Installation](installation/)
    - Choose and install an operating system on your Board-x
-- [Build from Source](build/README.md)
+- [Build from Source](build/)
    - Instructions for building and flashing the components of your favorite operating systems
 
 ## Documenation
 
-- [Getting Started](getting-started/README.md)
+- [Getting Started](getting-started/)
    - Learn about your Board-x board, how to prepare and set up for basic use
-- [Useful Guides](guides/README.md)
+- [Useful Guides](guides/)
    - These guides will help to get you started with a variety of available on-boards software
-- [Hardware Documentation](hardware-docs/README.md)
+- [Hardware Documentation](hardware-docs/)
    - Explore what makes your Board-x unique, technical specifications, schematics, hardware notes and more...
-- [Support](support/README.md)
+- [Support](support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
 ***

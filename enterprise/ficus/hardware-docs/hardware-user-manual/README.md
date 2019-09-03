@@ -264,7 +264,7 @@ The ROCK960 Board has three UART ports, two(UART3 and UART4) present on the Low 
 
 - Each UART support up to 4Mbps or other special baud rate
 - UART 3 is a full function UART supports auto flow control mode
-- UART 2 is the default debug console and the default baud rate is 1.5Mbps. Check the [serial console debug](../guides/serial-console.md) for how to setup on PC.
+- UART 2 is the default debug console and the default baud rate is 1.5Mbps. Check the [serial console debug](../guides/serial-console/) for how to setup on PC.
 
 ### Buttons
 

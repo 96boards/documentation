@@ -7,7 +7,7 @@ redirect_from: /documentation/consumer/dragonboard820c/installation/linux-fastbo
 ## Linux Host
 
 This section shows how to install an operating system to your DragonBoard™ 820c using the Fastboot method on a Linux host computer.
-Please refer to the **[Build Linux Host Computer](build-linux-host.md)** for the initial setup.
+Please refer to the **[Build Linux Host Computer](build-linux-host/)** for the initial setup.
 
 ### Booting into fastboot
 
@@ -44,11 +44,11 @@ It will show as below:
 
 ## (re)Flashing the bootloaders
 
-It the board does not come up into `fastboot` mode (e.g. it is bricked), or if you want to install a different version of the bootloaders, please follow instructions from this document: [board recovery](./board-recovery.md), and then come back to the previous section.
+It the board does not come up into `fastboot` mode (e.g. it is bricked), or if you want to install a different version of the bootloaders, please follow instructions from this document: [board recovery](./board-recovery/), and then come back to the previous section.
 
 ## Installing Debian
 
-Recall the location of boot and rootfs downloaded from the [downloads](../downloads/debian.md) page.
+Recall the location of boot and rootfs downloaded from the [downloads](../downloads/debian/) page.
 - You should have downloaded the `boot` file
 - You should have downloaded ONE of rootfs` file (Either `Developer` or `Desktop - ALIP` version)
 
@@ -78,6 +78,6 @@ If all steps went fine and you have flashed `ALIP` image, you should now have a 
 
 ### Installing an Open Embedded based image
 
-Initial support for DragonBoard 820c has been added into the OpenEmbedded QCOM BSP later, including the appropriate kernel recipe. To build an image for Dragonboard 820c , simply follow the same instructions as usual, from [Dragonboard-410c-OpenEmbedded-and-Yocto](https://github.com/Linaro/documentation/blob/master/Reference-Platform/CECommon/OE.md). When you select the MACHINE to build for, pick `dragonboard-820c`.
+Initial support for DragonBoard 820c has been added into the OpenEmbedded QCOM BSP later, including the appropriate kernel recipe. To build an image for Dragonboard 820c , simply follow the same instructions as usual, from [Dragonboard-410c-OpenEmbedded-and-Yocto](https://github.com/Linaro/documentation/blob/master/Reference-Platform/CECommon/OE/). When you select the MACHINE to build for, pick `dragonboard-820c`.
 
 The board has been added to the Linaro Reference Platform OpenEmbedded builds, and prebuilt images for this board are available here: [http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/rocko/latest/](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/rocko/latest/).

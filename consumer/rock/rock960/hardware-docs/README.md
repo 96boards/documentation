@@ -10,8 +10,8 @@ Explore what makes your ROCK960 unique, technical specifications, schematics, ha
 
 ## Hardware
 
-[Hardware User Manual](hardware-user-manual.md)
-[Hardware Revision](hardware-revision.md)
+[Hardware User Manual](hardware-user-manual/)
+[Hardware Revision](hardware-revision/)
 
 v1.1
 

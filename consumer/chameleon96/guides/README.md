@@ -10,6 +10,6 @@ These guides will help to get you started with a variety of available on-boards 
 
 ## Linux
 
-- [User Guide](user-guide.md)
-- [Software Guide](software-guide.md)
-- [Network Guide](network-guide.md)
+- [User Guide](user-guide/)
+- [Software Guide](software-guide/)
+- [Network Guide](network-guide/)

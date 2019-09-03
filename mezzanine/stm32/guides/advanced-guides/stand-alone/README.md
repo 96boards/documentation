@@ -16,4 +16,4 @@ These instructions will allow you to use the STM32 Sensor Mezzanine as a Stand a
 4. Make sure JP5, right next to the ST-LINK micro-usb port is also closed
 5. Connect the micro-usb to your PC
   - A USB storage device with a label similar to "B96B-F446VE" should show up with a capacity of around 532Kb
-6. Follow our [Arm mbed Guide](../beginner-guides/arm-mbed.md) from Step 4 and start Programming!
+6. Follow our [Arm mbed Guide](../beginner-guides/arm-mbed/) from Step 4 and start Programming!

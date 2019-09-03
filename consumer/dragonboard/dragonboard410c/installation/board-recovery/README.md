@@ -13,10 +13,10 @@ There are a couple ways to recover your DragonBoard 410c from a "bricked" state.
 
 ## SD card Recovery image
 
-In most cases this will be your sure-fire way to recover your board from a software bricked state. A recovery image has been created and made ready to be flashed onto a micro SD card. Simply download the SD card recovery image, and follow the sd card installation instructions found on our [Installation page](README.md).
+In most cases this will be your sure-fire way to recover your board from a software bricked state. A recovery image has been created and made ready to be flashed onto a micro SD card. Simply download the SD card recovery image, and follow the sd card installation instructions found on our [Installation page]().
 
 - Download [SD Card Recovery image](http://releases.linaro.org/96boards/dragonboard410c/linaro/rescue/latest/dragonboard-410c-sdcard-rescue-*.zip)
-- Choose host machine under SD card installation instructions from [Installation Page](README.md)
+- Choose host machine under SD card installation instructions from [Installation Page]()
 
 > Note: For those already familiar with the SD card flashing process, 96Boards build folder can be found [here](http://releases.linaro.org/96boards/dragonboard410c/linaro/rescue/latest/)
 
@@ -26,7 +26,7 @@ In many cases, simply re-flashing the bootloader, boot image, and root file syst
 
 ## Using USB flashing tools
 
-Alternatively, the Dragonboard 410c can also be recovered/flashed over USB, using the Linaro QDL flashing tools. For more information about QDL, including installation instructions, please check this [guide](../../../guides/qdl.md).
+Alternatively, the Dragonboard 410c can also be recovered/flashed over USB, using the Linaro QDL flashing tools. For more information about QDL, including installation instructions, please check this [guide](../../../guides/qdl/).
 
 ### Connecting the board in USB flashing mode (aka EDL mode)
 

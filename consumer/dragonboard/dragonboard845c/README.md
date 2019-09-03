@@ -25,5 +25,5 @@ A comprehensive guide to using the [DragonBoard 845c](https://www.96boards.org/)
    - Explore what makes your DragonBoard 845c unique, technical specifications, schematics, hardware notes and more...
 - [Support](support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
-- [Contribute](downloads/contribute.md)
+- [Contribute](downloads/contribute/)
    - How to contribute patches into the Dragonboard 845c software releases

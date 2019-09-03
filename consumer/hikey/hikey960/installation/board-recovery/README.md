@@ -131,7 +131,7 @@ $ sudo fastboot flash fip fip.bin
 
 Your bootloader has been successfully installed and you are now ready to
 install the operating system files into the UFS memory, for this go to
-the ([HiKey960 Installation](README.md)) page.
+the ([HiKey960 Installation]()) page.
 
 **NOTE**
 

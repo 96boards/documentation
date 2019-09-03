@@ -13,7 +13,7 @@ This section show how to install the Debian operating system that is bootable fr
 ***
 
 #### Step 1: Make sure you have the latest bootloader flashed:
-  - [Board Recovery](board-recovery.md)
+  - [Board Recovery](board-recovery/)
 
 #### Step 2: Download SD Card Image
 - Download

@@ -10,7 +10,7 @@ redirect_from:
 
 Learn how to setup and build a variety of Nitrogen applications using a Linux host system. Once you have built a new application, proceed to the installation page for instruction on how to flash your board.
 
-- [How to build the Shell Zephyr application from source](build-shell.md)
+- [How to build the Shell Zephyr application from source](build-shell/)
    - A simple shell application that can be used over UART
-- [How to build the disco Zephyr application from source](build-blinky.md)
+- [How to build the disco Zephyr application from source](build-blinky/)
    - A simple LED 'blinky' demo

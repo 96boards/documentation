@@ -21,7 +21,7 @@ permalink: /documentation/enterprise/developerbox/build/
 The System Firmware consists of Trusted Firmware, EDK2 and the
 supporting Developerbox drivers and configuration.
 
-Note: *The instructions for building the system firmware will work, 
+Note: *The instructions for building the system firmware will work,
       without modification, both and x86 PC and on your Developerbox.*
 
 
@@ -122,7 +122,7 @@ sudo fwupdate --apply {50b94ce5-8b63-4849-8af4-ea479356f0e3} \
 sudo reboot
 ~~~
 
-Alternatively you can install `SPI_NOR_IMAGE.fd` using the [board recovery method](../installation/board-recovery.md).
+Alternatively you can install `SPI_NOR_IMAGE.fd` using the [board recovery method](../installation/board-recovery/).
 
 ***
 

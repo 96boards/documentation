@@ -41,7 +41,7 @@ cd ~/Projects/chameleon96
 ```
 #	Building source and images
 
-Please refer to the [Chameleon96<sup>®</sup> User Guide](user-guide.md)  for instructions on retrieving and configuring the VM for use.
+Please refer to the [Chameleon96<sup>®</sup> User Guide](user-guide/)  for instructions on retrieving and configuring the VM for use.
 
 For convenience of development full source and pre-compiled images for console and GUI configurations are provided. The virtual machine is pre-configured with the necessary tools and packages for compilation.
 
@@ -111,6 +111,6 @@ without options for more information.
 
 Pre-compiled images for both the console and graphical systems are available from [here](https://novtech.sharefile.com) in the **03 – Compiled SD Images** directory.
 
-Images in **03.01 – Card Images** can be programmed directly to SD/MMC cards with **dd** or Win32DiskImager per instructions in the [Chameleon96<sup>®</sup> User Guide](user-guide.md).
+Images in **03.01 – Card Images** can be programmed directly to SD/MMC cards with **dd** or Win32DiskImager per instructions in the [Chameleon96<sup>®</sup> User Guide](user-guide/).
 
 Images in **03.02 – Card Contents** can be downloaded to the VM extracted. These images can be written to cards using the **mk_chameleon96_sd** script included in their respective directories.

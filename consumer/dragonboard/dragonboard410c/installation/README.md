@@ -46,14 +46,14 @@ This method requires the following hardware:
 - HDMI Monitor with full size HDMI cable
 
 #### Download necessary installation image
-Go to the [Downloads page](../downloads/README.md) to get the Debian SD card image.
+Go to the [Downloads page](../downloads/) to get the Debian SD card image.
 
 #### Create Installation SD Card
 Choose host machine to perform installation from:
 
-- [Linux](linux-sd.md)
-- [Mac](mac-sd.md)
-- [Windows](windows-sd.md)
+- [Linux](linux-sd/)
+- [Mac](mac-sd/)
+- [Windows](windows-sd/)
 
 ***
 
@@ -77,12 +77,12 @@ This method requires the following hardware:
      - HDMI Monitor with full size HDMI cable
 
 #### Download necessary installation image
-Go to the [Downloads page](../downloads/README.md) to get your SD card image.
+Go to the [Downloads page](../downloads/) to get your SD card image.
 
 #### Create Bootable SD Card
 Choose host machine to perform installation from:
 
-- [Linux](linux-sd-boot.md)
+- [Linux](linux-sd-boot/)
 - Mac - tbd
 - Windows - tbd
 ***
@@ -103,6 +103,6 @@ Go to the [Downloads page](../downloads/) to get your bootloader, boot image, an
 
 Choose host machine
 
-- [Linux](linux-fastboot.md)
+- [Linux](linux-fastboot/)
 
 ***

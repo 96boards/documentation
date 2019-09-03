@@ -11,14 +11,14 @@ Select your platform for a list of supported products (left), or jump to 96Board
 **Important links:**
 
 - [96Boards Guides](guides/)
-- [Contribute to this repository](CONTRIBUTE.md)
+- [Contribute to this repository](CONTRIBUTE/)
 
 <div style="overflow-x:scroll;" markdown="1">
 
 | Platform                                | Description                                 | Boards                                     |
 |:---------------------------------------:|:-------------------------------------------:|:-------------------------------------------|
 |  [**IoT Edition**](iot/) <br>[<img src="/assets/images/content/96IoT.svg" width="240" height="100" />](iot/) | Expand on all 96Boards with new interfaces for IoT, industrial<br>control, and other embedded applications. | [View Boards](iot/) |
-|  [**Consumer Edition**](consumer/)<br> [<img src="/assets/images/content/96Consumer.svg" width="240" height="100" />](consumer/) <br> | These small, low-cost, and low-power consumer 96Boards<br>are great for developers, makers, and hobbyists! | [View Boards](consumer/)<br>[Guides](consumer/guides/)<br>[Compare](consumer/guides/compare_96boards_ce.md)  |
+|  [**Consumer Edition**](consumer/)<br> [<img src="/assets/images/content/96Consumer.svg" width="240" height="100" />](consumer/) <br> | These small, low-cost, and low-power consumer 96Boards<br>are great for developers, makers, and hobbyists! | [View Boards](consumer/)<br>[Guides](consumer/guides/)<br>[Compare](consumer/guides/compare_96boards_ce/)  |
 |  [**Enterprise Edition**](enterprise/) <br>[<img src="/assets/images/content/96Enterprise.svg" width="240" height="100" />](enterprise/)| These powerful, reliable, ARM based 96Boards boards are<br>ideal targets for networking and server segments| [View Boards](enterprise/)<br> |
 |  [**Mezzanine**](mezzanine/) <br>[<img src="/assets/images/content/96Partner.svg" width="240" height="100" />](mezzanine/) | Expand on all 96Boards with new interfaces for IoT,<br>industrial control, and other embedded applications. | [View Boards](mezzanine/) |
 
@@ -32,9 +32,9 @@ Select your platform for a list of supported products (left), or jump to 96Board
    - Linaro brings together industry and the open source community to work on a wide variety of projects and tools to reduce industry wide fragmentation and redundant effort, and provide common software foundations for everyone.
 - [96Boards](https://www.96boards.org/about)
    - The first open specification to define a platform for the delivery of compatible low-cost, small footprint 32-bit and 64-bit Cortex-A boards from a range of ARM System on Chip (SoC) vendors
-- [Report a bug](Extras/Report_a_bug.md)
+- [Report a bug](Extras/Report_a_bug/)
    - Instructions on how to report bugs for any of our 96Boards hardware and software
-- [Contribution Policy and Guide](CONTRIBUTE.md)
+- [Contribution Policy and Guide](CONTRIBUTE/)
    - View our documentation "Contribution Policy" and learn how you can contribute
 - [Specifications](Specifications/)
    - Low cost an server hardware platform specifications

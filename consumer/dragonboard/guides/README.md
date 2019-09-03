@@ -13,6 +13,6 @@ The guides on this page are common for the DragonGoard 410c and 820c boards, for
 
 ## Useful guide
 
-* [AOSP Build Guide](aosp.md)
+* [AOSP Build Guide](aosp/)
 
 ## Android development tips

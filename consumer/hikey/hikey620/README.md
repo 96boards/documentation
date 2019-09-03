@@ -27,7 +27,7 @@ A comprehensive guide to using the [HiKey](https://www.96boards.org/product/hike
 - [Vendor Documentation](hardware-docs/)
    - Explore what makes your HiKey unique, technical specifications, schematics, hardware notes and more...
 - [Support](troubleshooting/)
-   - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers   
-- [Contribute](../contribute.md)
+   - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
+- [Contribute](../contribute/)
 
 ***

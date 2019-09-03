@@ -17,7 +17,7 @@ Please take advantage of the many Board X resources available to you through 96B
    - Buy the Board X here!
 - [Coursera](https://www.coursera.org/specializations/internet-of-things)
    - Board X uses the same specification! Students from the [University of California San Diego](https://ucsd.edu/) put together an "Internet of Things" (IoT) course focused around the DragonBoard 410c (again, same specification as Board X!). It is free to audit, or you can purchase the specialization package for a cool certificate!
-- [Report a bug!](../../../Report_a_bug.md)
+- [Report a bug!](../../../Report_a_bug/)
    - Instructions on how to report bugs for any of our 96Boards hardware and software, this includes the Board X!
-- [Board Recovery](../installation/board-recovery.md)
+- [Board Recovery](../installation/board-recovery/)
    - Bricked board? Many software issues can be fixed with a simple "board recovery"

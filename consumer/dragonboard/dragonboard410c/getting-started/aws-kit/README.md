@@ -100,7 +100,7 @@ If you are already familiar with the DragonBoard 410c and would like to change o
 
 - [Downloads page](../../downloads/): This page lists all Linaro and 3rd party operating systems available for the DragonBoard 410c
 - [Installation page](../../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your DragonBoard 410c
-- [Board Recovery](../../installation/board-recovery.md)
+- [Board Recovery](../../installation/board-recovery/)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 - [Support](../../support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers

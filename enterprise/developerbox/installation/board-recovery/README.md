@@ -21,7 +21,7 @@ This section outlines steps needed to recover your Developerbox from a
 bricked software state. These instructions are suggested to those who
 are experiences boot issues due to a corruption of the NOR FLASH.
 
-In all other cases is it **strongly** recommended to use [Capsule Update](README.md) instead.
+In all other cases is it **strongly** recommended to use [Capsule Update]() instead.
 
 ## Update using serial flasher
 

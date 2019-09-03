@@ -14,7 +14,7 @@ Explore what makes your HiKey unique, technical specifications, schematics, hard
 ## Hardware
 
 - [Schematics](https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey620/hardware-docs/HiKey_schematics_LeMaker_version_Rev_A1.pdf)
-- [Hardware Notes](hardware-notes.md)
+- [Hardware Notes](hardware-notes/)
 
 ## HiSilicon Processor Documents
 
@@ -22,7 +22,7 @@ Explore what makes your HiKey unique, technical specifications, schematics, hard
 
 ## User Guides
 
-- Hardware User Manual - LeMaker ([View](hardware-user-manual.md))
+- Hardware User Manual - LeMaker ([View](hardware-user-manual/))
    - Basic user manual for the LeMaker HiKey with a focus on hardware
 - User Manual - CircuitCo ([View](https://github.com/96boards/documentation/blob/master/consumer/hikey/hikey620/hardware-docs/HiKey_User_Guide_CircuitCo.pdf) / [Download](https://github.com/96boards/documentation/raw/master/consumer/hikey/hikey620/hardware-docs/HiKey_User_Guide_CircuitCo.pdf))
    - Basic user manual for the CircuitCo HiKey with a focus on hardware

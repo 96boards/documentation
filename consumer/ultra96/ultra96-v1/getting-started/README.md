@@ -33,7 +33,7 @@ Learn about your Ultra96 board as well as how to prepare and set up for basic us
 
 # Out of the Box
 
-The following subsections describe how to get started with the Ultra96 using the release build shipped with your board. The Ultra96 is ready to use “out of the box” and comes with a pre-flashed microSD card which boots Linux. 
+The following subsections describe how to get started with the Ultra96 using the release build shipped with your board. The Ultra96 is ready to use “out of the box” and comes with a pre-flashed microSD card which boots Linux.
 
 <img src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v1/additional-docs/images/images-board/sd/ultra96-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v1/additional-docs/images/images-board/sd/ultra96-front-sd.png?raw=true" width="250" height="160" />
 <img src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v1/additional-docs/images/images-board/sd/ultra96-back-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v1/additional-docs/images/images-board/sd/ultra96-back-sd.png?raw=true" width="250" height="160" />
@@ -89,7 +89,7 @@ If you are already familiar with the Ultra96 and would like to change out the st
 - [Downloads page](../downloads): This page lists all Linaro and 3rd party operating systems available for the Ultra96
 - [Installation page](../installation): If you already have the images you need, this page has information on how to install the different operating systems onto your Ultra96
 - [Guides](../guides/)
-- [Board Recovery](../installation/board-recovery.md)
+- [Board Recovery](../installation/board-recovery/)
    - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
 - [Support](../support)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers

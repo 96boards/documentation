@@ -28,7 +28,7 @@ permalink: /documentation/mezzanine/shiratech-fpga/guides/l298n/
 ## Software setup
 
 - **[Install MRAA on 96Boards CE](https://youtu.be/c8b6pcc6H2c)**
-- **[Download FPGA Mezzanine Library](fpga-mezzanine-library.md)**
+- **[Download FPGA Mezzanine Library](fpga-mezzanine-library/)**
 - Paste the following code into a file named l298n.c
 ```C
 /*

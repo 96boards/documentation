@@ -31,6 +31,6 @@ Go to the [Downloads page](../downloads/) if you have not yet chosen and downloa
 
 **Choose host machine**:
 
-- [Linux](linux-fastboot.md)
+- [Linux](linux-fastboot/)
 
 ***

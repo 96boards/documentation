@@ -51,7 +51,7 @@ To create a card with Win32DiskImager:
 
 ## Installing Chameleon96® Virtual Machine
 
-Updating and recompiling the images will require access to a properly configured Linux machine. A virtual machine has been provided with the Chameleon96<sup>®</sup> to speed your development. Refer to the [Software Guide for the Chameleon96<sup>®</sup>](software-guide.md) for further information on compilation.
+Updating and recompiling the images will require access to a properly configured Linux machine. A virtual machine has been provided with the Chameleon96<sup>®</sup> to speed your development. Refer to the [Software Guide for the Chameleon96<sup>®</sup>](software-guide/) for further information on compilation.
 
 Once all prerequisites are met, using 7Zip or any acceptable unzip program, unzip the **NovTech_VM_Chameleon96v1.7z** file located on ShareFile in **05 - Linux VM folder** to your PC hard drive. After unzipping, navigate to the created folder **NovTech_VM_Chameleon96v1**. Double Click on the file **NovTech_VM_Chameleon96v1**. VMware® Player should load the virtual machine.
 Another method could be to open VMware Player and click on **Open a Virtual Machine** then navigate to the **NovTech_VM_Chameleon96v1** folder to find the virtual machine setup file.
@@ -188,7 +188,7 @@ Note that for the graphical image, a terminal console is not available and all s
 <img src="../additional-docs/images/images-hw-user-manual/init-boot.png" data-canonical-src="../additional-docs/images/images-hw-user-manual/init-boot.png" width="672" height="1020" />
 
 ## Initial network configuration
-The Chameleon96<sup>®</sup> will need to be configured for your specific wireless network. Once configured, the network will start automatically when the board is powered up. For more information on initial network setup with step-by-step images please refer to [Network Setup Guide](network-guide.md).
+The Chameleon96<sup>®</sup> will need to be configured for your specific wireless network. Once configured, the network will start automatically when the board is powered up. For more information on initial network setup with step-by-step images please refer to [Network Setup Guide](network-guide/).
 
 **Graphical image networking**
 
