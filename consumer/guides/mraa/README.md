@@ -2,9 +2,7 @@
 title: MRAA Library for 96Boards
 permalink: /documentation/consumer/guides/mraa/
 redirect_from:
- - /documentation/ConsumerEdition/guides/mraa/
  - /documentation/ConsumerEdition/guides/README/
- - /documentation/ConsumerEdition/guides/mraa/
 ---
 # MRAA Library for 96Boards
 
