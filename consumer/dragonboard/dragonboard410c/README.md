@@ -33,5 +33,5 @@ A comprehensive guide to using the [DragonBoard 410c](https://www.96boards.org/p
    - Explore what makes your DragonBoard 410c unique, technical specifications, schematics, hardware notes and more...
 - [Troubleshooting and Support](support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
-- [Contribute](downloads/contribute.md)
+- [Contribute](../guides/contribute/)
    - How to contribute patches into the Dragonboard 410c software releases

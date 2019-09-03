@@ -1,10 +1,8 @@
 ---
 title: Contributing to Linaro releases for DragonBoard-410c
-permalink: /documentation/consumer/dragonboard/dragonboard410c/downloads/contribute/
-redirect_from:
-- /db410c-getting-started/Downloads/Contribute.md/
--  /documentation/ConsumerEdition/DragonBoard-410c/Downloads/Contribute/
-- /documentation/consumer/dragonboard410c/downloads/contribute/
+permalink: /documentation/consumer/dragonboard/guides/contribute/
+description: >
+    This page provides instructions for developers willing to contribute to the Linaro releases for Dragonboard 410c. This is applicable to the following components...
 ---
 # Contributing to Linaro releases for Dragonboard 410c
 
