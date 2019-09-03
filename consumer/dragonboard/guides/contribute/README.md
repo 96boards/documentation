@@ -2,11 +2,11 @@
 title: Contributing to Linaro releases for DragonBoard-410c
 permalink: /documentation/consumer/dragonboard/guides/contribute/
 description: >
-    This page provides instructions for developers willing to contribute to the Linaro releases for Dragonboard 410c. This is applicable to the following components...
+    This page provides instructions for developers willing to contribute to the Linaro releases for any of the Dragonboard(s) 96boards. This is applicable to the following components...
 ---
-# Contributing to Linaro releases for Dragonboard 410c
+# Contributing to Linaro releases for Dragonboard(s)
 
-This page provides instructions for developers willing to contribute to the Linaro releases for Dragonboard 410c. This is applicable to the following components:
+This page provides instructions for developers willing to contribute to the Linaro releases for Dragonboard(s). This is applicable to the following components:
 * Linaro maintained kernel (a.k.a LT kernel)
 * Linaro Debian builds
 * Linaro OpenEmbedded builds
