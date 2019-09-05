@@ -59,8 +59,6 @@ This method requires the following hardware:
 - USB to microUSB cable
 - HDMI Monitor with full size HDMI cable (not required to perform flash)
 
-Go to the [Downloads page](../downloads/) to get your Factory Image zip file.
-
 Choose host machine
 
 - [Linux](linux-factory-image.md)
