@@ -21,12 +21,14 @@ Android is the leading mobile OS by Google. Android on ROCK960 is the version op
 | Android Tablet 9 | [GPT,](http://rock.sh/rock960-ab-android9-gpt-download) [RKUpdate](http://rock.sh/rock960-ab-android9-download)|
 
 ### For ROCK960 model C
+
 | Android Product |  Download  |
 |:------------------|:------------------------------------|
 | Android TV 7 | [GPT,](http://rock.sh/rock960-c-android7-tv-gpt-download) [RKUpdate](http://rock.sh/rock960-c-android7-tv-download)|
 | Android TV 9 | [GPT,](http://rock.sh/rock960-c-android9-tv-gpt-download) [RKUpdate](http://rock.sh/rock960-c-android9-tv-download)|
 | Android Tablet 7 | [GPT,](http://rock.sh/rock960-c-android7-gpt-download) [RKUpdate](http://rock.sh/rock960-c-android7-download)|
 | Android Tablet 9 | [GPT,](http://rock.sh/rock960-c-android9-gpt-download) [RKUpdate](http://rock.sh/rock960-c-android9-download)|
+
 
 Release Page: [Github](https://github.com/96rocks/manifests/releases)
 
