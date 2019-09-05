@@ -41,7 +41,7 @@ This section show how to install a new operating system to your DragonBoard™ 8
   $ sudo apt-get install android-tools-fastboot
   ```
 
-#### **Step 2**: Connect host computer to DragonBoard 410c
+#### **Step 2**: Connect host computer to RB3
 
 - RB3 must be powered off (unplugged from power)
 - S6 switch on RB3 must be set to ‘0-0-0-0’. All switches should be in “off” position
