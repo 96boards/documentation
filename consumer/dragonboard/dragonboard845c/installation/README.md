@@ -4,7 +4,7 @@ permalink: /documentation/consumer/dragonboard/dragonboard845c/installation/
 ---
 # Installation
 
-Stand alone DragonBoard 845 will ship with the Android image. If the DragonBoard 845 is purchased as part of a kit, it may have a different pre-loaded operating system.
+Stand alone DragonBoard 845c will ship with the Thundecomm custom Linux image. If the DragonBoard 845c is purchased as part of a kit, it may have a different pre-loaded operating system.
 
 This guide will help you choose and install an operating system and installation method on your DragonBoard 845.
 
@@ -18,7 +18,7 @@ To appropriately follow this installation guide you will need to:
 
 ### Fastboot Method
 
-Fastboot is supported by the board and can be used for installs. This is for advanced users who are most likely modifying/customizing source code and will need to download such updates to the board for test/execution.
+Fastboot is supported by the board and can be used for installs.
 
 This method requires the following hardware:
 
