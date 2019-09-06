@@ -32,5 +32,4 @@ permalink: /documentation/mezzanine/on-camera/
 
 ### 2.1) Guides
 
-- [Useful Guides](guides/)
 - [Quick Start](files/on-camera-quick-start.pdf)
