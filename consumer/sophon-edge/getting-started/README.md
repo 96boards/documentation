@@ -43,7 +43,7 @@ The following subsections describe how to get started with the Sophon Edge using
 | OS                   | Linux                                                                                            | 
 | Dimensions           | 85mm x 54mm                                                                                      |
 
-**NOTE:** Many compliance items for this board were waived due to the nature of the chipset being used and the uniqueness of the board. The Edge BM1880 TPU ASIC accels in its AI and deep learning abilities, though it is limited in its ability to provide the following items:
+**NOTE:** Many compliance items for this board were waived due to the nature of the chipset being used and the uniqueness of the board. The Edge BM1880 TPU ASIC accels in its AI and deep learning abilities, for this reason, the following items were waived in order to accomodate the Sophon Edge into the 96Boards ecosystem:
 
 - Instead of OTG or C port near center of board, the two host ports are pushed into the center, and it uses a 3.0 A port as OTG.
 - Does not have any display output capability.
