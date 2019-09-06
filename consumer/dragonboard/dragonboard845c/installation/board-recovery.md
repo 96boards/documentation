@@ -32,6 +32,16 @@ In order to force the DB845c to boot on USB (EDL mode), you need to press the on
 * Power on the device using the proper power supply
 * Connect the USB3 Type C (5) between the Linux PC and the board
 
+If the above instructions do not work, please try the following:
+
+- Set the switch "DIP_SW" to "0 1 1 0 0 0"
+- (Turn on SW2 on the dip switch to enable the USB2.0 debug port
+- Turn on SW3 on the Dip Switch to enable the auto power up on USB-C cable connection)
+- Power off the board and make sure the USB type-C cable is not plugged into the board
+- Press button 18 (e.g. marked with F_DL), and
+- Connect the USB3 Type C (5) between the Linux PC and the board
+
+*Warning*: putting the device into EDL mode while the device is powered or when USB is plugged can cause damage to the board.
 
 ### Flashing the device
 
