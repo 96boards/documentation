@@ -11,7 +11,7 @@ This pre-built Linux image provides users with a great development environment f
 
 | Download and Install                                                                                   |
 |:-------------------------------------------------------------------------------------------------------|
-|[Download](https://releases.linaro.org/96boards/ultra96/avnet/openembedded/latest/Ultra96_rev1_sdcard_image_180409.tar.gz)    |
-|[Release Notes](https://releases.linaro.org/96boards/ultra96/avnet/openembedded/latest/)                         |
+|[Download](http://avnet.me/ultra96-v2-oob)    |
+|Release Notes                                 |
 
 ## Continue to [Installation page](../installation)
