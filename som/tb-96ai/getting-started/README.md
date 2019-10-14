@@ -53,20 +53,107 @@ The following subsections should describe how to get started with the TB-96AI So
 
 ## Starting the board for the first time
 
+### Step 1
+
 <img src="https://www.96boards.org/product/se/tb-96ai/images/SoM-Carrier-Board-with-Module.jpg" data-canonical-src="" width="300" height="240" />
 
-- Insert the TB-96AI SoM in the 96Boards Carrier Board as Shown in the figure above.
-- Configure the MUX Switches on the Carrier Board as follows
-	- The switches for TB-96AI are configured as follows
-	- All switch on S1,S2,S8,S9,S10,S11,S12,S14,S15, configure to disconnect.
-	- All switch on S6,S7 config to connect for TF card.
-	- Bit1 on S16 config to connect for audio jacket
-	- Bit1 & Bit2 on S5 config to connect for debug uart
-	- Bit1, Bit2 & Bit3 on S3 config to connect for WIFI and BT
-- Connect the TYPEC to PC
-- Long press and hold the Maskrom button as shown in the following figure.
-- Insert power supply.
-- Continue to the [Installation page](../installation/).
+Insert the TB-96AI SoM in the 96Boards Carrier Board as Shown in the figure above.
+
+### Step 2
+
+Configure the MUX Switches on the Carrier Board as follows:
+
+#### WIFI SDIO : S1,S2,S3 switches
+
+For TB-96AI RK3399PRO SOM+Carrier Boards configuration:
+
+- S1，S2 are the used for the SDIO，S1/S2 should be configured to ON.
+- The S8,S9,S11,S12 must be configured to OFF，S6 ,S7 must be as on. Bit1/Bit2/Bit3 on S3 are for WIFI，the 3 Bits should be on for WIFI active.
+S3 Bits functions:
+- Bit1: BT wake up CPU
+- Bit2: CPU wake up BT
+- Bit3: BT enable
+- Bit4: UART voltage
+
+#### NPU or CPU UART Debug ports selection: voltage Level shifter enable S3/Bit4 and S5.
+
+For TB-96AI SoM RK3399Pro UART Debug: Bit4 on S3, S5
+
+- With NPU UART Debug: S3 of Bit4 is ON with 3V3, Bit1/Bit2 of S5 are OFF and the Bit3/Bit4 of S5 are ON.
+- With CPU UART Debug: S3 of Bit4 is OFF with 1V8. Bit1/Bit2 of S5 is ON and Bit3/Bit4 of S5 are OFF.
+
+#### TF Card switches:S6/S7/S8/S9
+
+For TB-96AI RK3399PRO SOM
+
+- S6,S7 are ON and S8,S9,S10 must be OFF for TF Card.
+
+#### High speed expansion SDIO  port: S11/S12 switches
+
+For TB-96AI RK3399PRO SOM
+
+- All Bits of S11 and S12 are ON, and all Bits of S8,S9,S1,S2 are OFF.
+- During this case, the WIFI is forbidden to use.
+
+#### JTAG switches: S10
+
+For TB-96AI RK3399PRO SOM JTAG
+
+- Bit1,Bit2 of S10 are on for MCU JTAG.Bit3,Bit4 of S10 are on for AP JTAG.
+- If JTAG is required, all the switches of S6,S7 must be on, All switches on S8,S9 must be OFF. During JTAG the TF card can not work at the same time.
+
+#### 96Boards HS Speed USB2.0:  S13
+
+For TB-96AI RK3399PRO SOM
+
+- The USB2.0 of HS speed USB2.0 and MiniPCIe are muxed.
+- The Bit1,Bit2,Bit4 on S13 must be OFF.
+- If MiniPCIE LTE Module is used, the Bit3 of S13 must be ON. If USB on High speed expansion connector is used,Bit3 of S13 must be OFF.
+
+#### Display port switches: S14
+
+For TB-96AI RK3399PRO SOM(The J5001 eDP and MIPI DSI on High speed connector can be used at the same time)
+
+- If the eDP display port on RK LCD connector(J5001) is used, the Bit2 of S14 must be OFF.
+- If the eDP display port are connect the High speed expansion connector(same DSI pins) is used, the Bit2/Bit3 of S14 must be ON.
+- If the MIPI display(DSI) port on High speed expansion connector is used, the Bit1/Bit3 of S14 must be OFF.
+
+#### Camera CSI switches: S15
+
+For TB-96AI RK3399PRO SOM
+
+The RK3399PRO has two MIPI CSI interface,MIPI_RX0 and MIPI_RX1.
+
+- If the Bit1 of S15 is OFF ,the MIPI_RX0 will be connected to the Raspberry Camera connector(CON506).
+- If the Bit1/Bit3 of S15 are ON, the MIPI_RX0 will be connected to the high speed expansion connector(CON509).
+- If the Bit4 of S15 is OFF, the MIPI_RX1 will be connected to CAM2 camera connector(CON1701).
+- If the Bit4 of S15 is ON, the MIPI_RX1 will be connected to high speed expansion connector(CON509).
+
+#### GPIO switches: S16
+
+For TB-96AI RK3399PRO SOM:
+
+- Bit1:RK3399Pro earphone plugin check
+- Bit2:Void
+- Bit3:Void
+- Bit4: Void
+- The Bit1 must be ON.
+
+### Step 3
+
+Connect the TYPEC to PC
+
+### Step 4
+
+Long press and hold the Maskrom button as shown in the following figure.
+
+### Step 5
+
+Insert power supply.
+
+### Step 6
+
+Continue to the [Installation page](../installation/).
 
 ***
 
@@ -81,4 +168,4 @@ If you are already familiar with the TB-96AI board and would like to change out 
 
 Back to the [TB-96AI documentation home page](../)
 
-***   
+***
