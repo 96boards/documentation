@@ -15,16 +15,7 @@ To appropriately follow this installation guide you will need to:
 
 ***
 
-## Methods of Installation
-
-In most cases, you will be presented with two options when installing your new operating system onto your Avenger96:
-
-- SD Card Method
-- eMMC Method
-
-Each method has it's own benefits, and requires different levels of experience
-
-### SD Card Method
+## Installing to an SD Card
 
 The SD card method allows you to place a microSD card into a Avenger96 to automatically boot an operating system. This method is generally simpler than other methods and should be used by beginners.
 
