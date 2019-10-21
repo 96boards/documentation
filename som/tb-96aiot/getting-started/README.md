@@ -53,23 +53,103 @@ The following subsections should describe how to get started with the TB-96AIoT 
 
 <img src="../additional-docs/images/images-wiki/som-insert.png" data-canonical-src="" width="300" height="300" />
 
-- Insert the TB-96AIoT SoM in the 96Boards Carrier Board as Shown in the figure above, making sure that connectors X1 and X2 are bing utilised.
-- Configure the MUX Switches on the Carrier Board as follows
-	- The switches for TB-96AIoT are configured as follows
-	- All switch on S1,S2,S6,S7 ,S10,S11,S12,S14,S15, config to disconnect.
-	- All switch on S8,S9 config to connect for TFcard
-	- Bit2 & Bit3 on S16 config to connect.
-	- Bit1 & Bbit2 on S5 config to connect fot debug uart
-	- Bit4 on S3 config to connect for debug uart
-	- Bit1 & Bit2 on S13 config to connect for USB
-- Connect the TYPEC to PC
-- Long press and hold the Maskrom button as shown in the following figure.
-- Insert power supply.
-- Continue to the [Installation page](../installation/).
+### Step 1
+
+Insert the TB-96AIoT SoM in the 96Boards Carrier Board as Shown in the figure above, making sure that connectors X1 and X2 are bing utilised.
+
+### Step 2
+
+Configure the MUX Switches on the Carrier Board as follows:
+
+**NPU or CPU UART Debug ports selection**: voltage Level shifter enable S3/Bit4 and S5.
+For TB-96AIOT RK1808 SOM UART Debug: Bit4 on S3, S5
+S3 Bits functions:
+
+- Bit1:Not used
+- Bit2: Not used
+- Bit3: Not used
+- Bit4: UART voltage
+- Only one UART debug port, Bit4 on S3 is ON with 3V3, Bit1/Bit2 of S5 are ON and Bit3/Bit4 of S5 are OFF
+
+**TF Card switches:S6/S7/S8/S9**
+For TB-96AIOT RK1808 SOM
+
+- S6,S7,S10 are OFF and S8,S9 must be ON for TF Card.
+
+**High speed expansion SDIO  port: S11/S12 switches**
+
+For TB-96AIOT RK1808 SOM
+
+- All Bits of S11 and S12 are ON, and all Bits of S8,S9,S1,S2 are OFF. 
+- During this case, the TF Card is forbidden to use.
+
+**JTAG switches: S10**
+
+For TB-96AIOT RK1808 SOM JTAG
+
+- Bit3,Bit4 of S10 are ON. All the switches on S8,S9 must be ON and all the switches of S6,S7,S1,S2,S11,S12 must be OFF.
+- JTAG and TF card can not work at the same time.
+
+**96Boards HS Speed ** **USB2.0:  S13**
+
+For TB-96AIOT RK1808 SOM
+
+- The USB2.0 of HS speed USB2.0 and MiniPCIe are muxed.
+- The Bit1,Bit2,Bit4 of S13 must be ON. If MiniPCIE LTE Module is used, the Bit3 of S13 must be ON. If USB2.0 on High speed expansion connector is required,Bit3 of S13 must be OFF.
+
+**Display port switches: S14**
+
+For TB-96AIOT RK1808 SOM(only 1 MIPI DSI supported)
+
+- If the MIPI DSI display port on RK LCD connector(J5001) is used, the Bit2 of S14 must be OFF.
+- If the MIPI display port on High speed expansion connector is used, the Bit2/Bit3 of S14 must be ON.
+
+Notes: the DSI and eDP display of RK LCD connector(J5001) are the same.
+
+The eDP display can be purchased by: [https://item.taobao.com/item.htm?ft=t&id=596997529966](https://item.taobao.com/item.htm?ft=t&id=596997529966)(eDP display) or contact with [sales@beiqicloud.com](mailto:sales@beiqicloud.com) 
+
+The DSI display can be purchased by:
+
+[https://item.taobao.com/item.htm?ft=t&id=596790859176](https://item.taobao.com/item.htm?ft=t&id=596790859176) Or [https://www.aliexpress.com/item/4000096367335.html](https://www.aliexpress.com/item/4000096367335.html)
+
+**Camera CSI switches: S15**
+
+For TB-96AIOT RK1808 SOM
+
+- The RK1808 only has a MIPI CSI interface.
+- If the Bit2 of S15 is OFF, the MIPI CSI will be connected to CAM3 camera connector(CON1702).
+- If the Bit2 of S15 is ON and the Bit3 of S15 is OFF.The MIPI CSI will be connected to high speed expansion connector(CON509).
+
+**GPIO switches: S16**
+
+For TB-96AIOT RK1808 SOM
+
+- Bit1:Void
+- Bit2:RK1808 earphone plugin check
+- Bit3:RK1808 USB port Host Power enable.
+- Bit4: Void
+- The Bit2,Bit3 must be ON.
+
+
+### Step 3
+
+Connect the TYPEC to PC
+
+### Step 4
+
+Long press and hold the Maskrom button as shown in the following figure.
+
+### Step 5
+
+Insert power supply.
+
+### Step 6
+
+Continue to the [Installation page](../installation/).
 
 ***
 
-## What's Next?
+## Next steps
 
 If you are already familiar with the TB-96AIoT board and would like to change out the stock operating system, please proceed to one of the following pages:
 
@@ -80,4 +160,4 @@ If you are already familiar with the TB-96AIoT board and would like to change ou
 
 Back to the [TB-96AIoT documentation home page](../)
 
-***   
+***
