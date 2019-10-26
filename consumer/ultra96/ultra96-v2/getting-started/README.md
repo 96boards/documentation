@@ -33,7 +33,8 @@ Learn about your Ultra96 board as well as how to prepare and set up for basic us
 
 # Out of the Box
 
-The following subsections describe how to get started with the Ultra96 using the release build shipped with your board. The Ultra96 is ready to use “out of the box” and comes with a pre-flashed microSD card which boots Linux. 
+The following subsections describe how to get started with the Ultra96 using the release build shipped with your board. 
+The MicroSD card provided in the kit is blank. Download the [MicroSD card image](http://avnet.me/ultra96-v2-oob). 
 
 <img src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v2/additional-docs/images/images-board/sd/ultra96-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v2/additional-docs/images/images-board/sd/ultra96-front-sd.png?raw=true" width="250" height="160" />
 <img src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v2/additional-docs/images/images-board/sd/ultra96-back-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v2/additional-docs/images/images-board/sd/ultra96-back-sd.png?raw=true" width="250" height="160" />
