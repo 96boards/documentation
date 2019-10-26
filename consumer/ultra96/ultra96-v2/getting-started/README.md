@@ -33,8 +33,7 @@ Learn about your Ultra96 board as well as how to prepare and set up for basic us
 
 # Out of the Box
 
-The following subsections describe how to get started with the Ultra96 using the release build shipped with your board. 
-The MicroSD card provided in the kit is blank. Download the [MicroSD card image](http://avnet.me/ultra96-v2-oob). 
+The following subsections describe how to get started with the Ultra96 using the release build shipped with your board. The MicroSD card provided in the kit is blank. Download the [MicroSD card image](http://avnet.me/ultra96-v2-oob). An easy way to copy the linux image to the MicroSD card uses [Etcher](https://www.balena.io/etcher/).
 
 <img src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v2/additional-docs/images/images-board/sd/ultra96-front-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v2/additional-docs/images/images-board/sd/ultra96-front-sd.png?raw=true" width="250" height="160" />
 <img src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v2/additional-docs/images/images-board/sd/ultra96-back-sd.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/ultra96/ultra96-v2/additional-docs/images/images-board/sd/ultra96-back-sd.png?raw=true" width="250" height="160" />
@@ -59,26 +58,28 @@ The MicroSD card provided in the kit is blank. Download the [MicroSD card image]
 
 ## Starting the board for the first time
 
-The Ultra96 comes preloaded with Linux and can be up and running in two ways:
+The Ultra96 comes with a blank MicroSD card that must be loaded with linux before it can be used. Download the [MicroSD card image](http://avnet.me/ultra96-v2-oob). An easy way to copy the linux image to the MicroSD card uses [Etcher](https://www.balena.io/etcher/).
+
+After loading the linux image on the card, it can be up and running in two ways:
 
 > NOTE: In both cases ensure the included microSD card is fully inserted in the microSD card cage.
 
 - **Option 1**
-   - Connect the power supply to the Ultra96.
-   - Momentarily press the button labeled SW3 / POWER.  It is located next to the power supply jack.
-   - The first sign that the boot process has begun will be an LED labeled DS6 / DONE illuminating.  This means that the bistream for the FPGA portion of Ultra96 has successfully loaded.  This happens during uboot.
-   - Once LED2 begins to show a regular "heartbeat" Linux is up and running.
+   - Connect the power supply to the Ultra96, the green LED D17 will illuminate.
+   - Momentarily press the button labeled SW4 / POWER.  It is located between the two USB 3.0 Type A ports, the green power on LED D2 will illuminate.
+   - The first sign that the boot process has begun will be an blue LED labeled D1 / DONE illuminating.  This means that the bistream for the FPGA portion of Ultra96v2 has successfully loaded.  This happens during uboot.
+   - Once LED D7 begins to show a regular "heartbeat" Linux is up and running.
    - From a laptop or other device search for and connect to the WI-FI network called Ultra96_xxxxxxxxxxxx, where the 12 x's correspond to Ultra96's MAC ID.
    - From a browser, go to http://192.168.2.1
-   - You will be greeted by Ultra96's homepage.
+   - You will be greeted by Ultra96v2's homepage.
 
 - **Option 2**
-   - Connect the Ultra96 to a DisplayPort monitor with a miniDP to DisplayPort cable plugged into the connector labeled DISPLAY PORT.
+   - Connect the Ultra96v2 to a DisplayPort monitor with a miniDP to DisplayPort cable plugged into the connector labeled DISPLAY PORT.
    - Connect a USB keyboard and mouse to J8 and J9, or through a USB hub connected to J8 or J9.
    - Connect the power supply to the Ultra96.
-   - Momentarily press the button labeled SW3 / POWER.  It is located next to the power supply jack.
+   - Momentarily press the button labeled SW4 / POWER.  It is located between the two USB 3.0 Type A ports.
    - You will be able to watch the progress of the boot process on the monitor.
-   - As in Option 1, an LED labeled DS6 / DONE will illuminate at some point during boot.  This means that the bistream for the FPGA portion of Ultra96 has successfully loaded.
+   - As in Option 1, an LED labeled D1 / DONE will illuminate at some point during boot.  This means that the bistream for the FPGA portion of Ultra96 has successfully loaded.
    - Linux will boot, launching a desktop environment.
 
 ***
