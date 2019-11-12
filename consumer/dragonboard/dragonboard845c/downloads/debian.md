@@ -12,18 +12,18 @@ permalink: /documentation/consumer/dragonboard/dragonboard845c/downloads/debian.
 
 | Bootloader                                                                                                                             |
 |:---------------------------------------------------------------------------------------------------------------------------------------|
-| [Download](http://snapshots.linaro.org/96boards/dragonboard845c/linaro/rescue/latest/dragonboard-845c-bootloader-ufs-linux-*.zip)       |
-| [Release Notes](http://snapshots.linaro.org/96boards/dragonboard845c/linaro/rescue/latest/)                                             |
+| [Download](http://releases.linaro.org/96boards/dragonboard845c/linaro/rescue/latest/dragonboard-845c-bootloader-ufs-linux-*.zip)       |
+| [Release Notes](http://releases.linaro.org/96boards/dragonboard845c/linaro/rescue/latest/)                                             |
 
 | Boot image                                                                                                                             |
 |:---------------------------------------------------------------------------------------------------------------------------------------|
-| [Download](http://snapshots.linaro.org/96boards/dragonboard845c/linaro/debian/latest/boot-linaro-buster-dragonboard-845c-*.img.gz)      |
-| [Release Notes](http://snapshots.linaro.org/96boards/dragonboard845c/linaro/debian/latest/)                                             |
+| [Download](http://releases.linaro.org/96boards/dragonboard845c/linaro/debian/latest/boot-linaro-buster-dragonboard-845c-*.img.gz)      |
+| [Release Notes](http://releases.linaro.org/96boards/dragonboard845c/linaro/debian/latest/)                                             |
 
 | Rootfs image                                                                                                                           |
 |:---------------------------------------------------------------------------------------------------------------------------------------|
-| [Desktop](http://snapshots.linaro.org/96boards/dragonboard845c/linaro/debian/latest/linaro-*-alip-dragonboard-845c-*.img.gz)       |
-| [Developer](http://snapshots.linaro.org/96boards/dragonboard845c/linaro/debian/latest/linaro-*-developer-dragonboard-845c-*.img.gz)|
-| [Release Notes](http://snapshots.linaro.org/96boards/dragonboard845c/linaro/debian/latest/)                                             |
+| [Desktop](http://releases.linaro.org/96boards/dragonboard845c/linaro/debian/latest/linaro-*-alip-dragonboard-845c-*.img.gz)       |
+| [Developer](http://releases.linaro.org/96boards/dragonboard845c/linaro/debian/latest/linaro-*-developer-dragonboard-845c-*.img.gz)|
+| [Release Notes](http://releases.linaro.org/96boards/dragonboard845c/linaro/debian/latest/)                                             |
 
 #### Continue to [Installation page](../installation/)
