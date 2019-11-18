@@ -50,11 +50,11 @@ This section show how to install a new operating system to your DragonBoard™ 8
 
 **Please read all bullet points before attempting**
 
-- Press and hold the Vol (-) button on the RB3, it should still NOT be powered on and the type-c cable removed.
-- While holding the Vol (-) button, power on the RB3 by plugging it in
-- Once RB3 is plugged into power, release your hold on the Vol (-) button.
-- Wait for about 20 seconds.
-- Plug in the Type-C cable.
+- Disconnect the power cable from the board and make sure no USB cable is plugged into the board
+- Hold down the "VOL-" button while reconnecting the power supply.
+- Tap the "ON/OFF" button while continuing to hold the "VOL-" button for ~5 seconds after the blue LED lights up.
+- Release "VOL-" button
+- Connect the USB3 Type C (5) between the Linux PC and the board
 - Board should boot into fastboot mode.
 
 From the connected host machine terminal window, run the following commands:
