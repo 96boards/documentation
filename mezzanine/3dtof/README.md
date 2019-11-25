@@ -1,17 +1,17 @@
 ---
-title: Documentation for Analog Devices 3DToF Mezzanine
+title: Documentation for Analog Device’s 3D Time Of Flight Mezzanine Stack
 permalink: /documentation/mezzanine/3dtof/
 ---
-# 3D Imaging Time of Flight Development Platform
+# Analog Device’s 3D Time Of Flight Mezzanine Stack
 
 - 1) [Introduction](#introduction)
-	- 1.1) [About the Analog Devices 3DToF Mezzanine](#11-about-the-analog-devices-3dtof-mezzanine)
+	- 1.1) [About the Analog Device’s 3D Time Of Flight Mezzanine Stack](#11-about-the-analog-devices-3d-time-of-flight-mezzanine-stack)
 	- 1.2) [Features & Specifications](#12-features-and-specifications)
 - 2) [Guides](#2-guides)
 - 3) [Files](#3-files)
 
 ## 1) Introduction
-### 1.1) About the Analog Devices 3D Imaging Time of Flight Development Platform
+### 1.1) About the Analog Device’s 3D Time Of Flight Mezzanine Stack
 
 3D Time of Flight (ToF) creates a depth mapping of objects within the field of view and is a key solution used for developing digital vision for many applications. The development platform comes with everything a user needs to start working immediately on 3DToF applications, enabling the development of high value features and functions that create product differentiation.
 
