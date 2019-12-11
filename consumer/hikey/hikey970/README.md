@@ -16,7 +16,7 @@ A comprehensive guide to using the HiKey970 Consumer Edition development board. 
 - [Build from Source](build/)
    - Instructions for building and flashing the components of your favorite operating systems
 
-## Documenation
+## Documentation
 
 - [Getting Started](getting-started/)
    - Learn about your HiKey970 board, how to prepare and set up for basic use

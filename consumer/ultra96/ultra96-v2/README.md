@@ -16,7 +16,7 @@ A comprehensive guide to using the Ultra96 Consumer Edition development board. T
 - [Build from Source](build/)
    - Instructions for building and flashing the components of your favorite operating systems
 
-## Documenation
+## Documentation
 
 - [Getting Started](getting-started/)
    - Learn about your Ultra96 board, how to prepare and set up for basic use

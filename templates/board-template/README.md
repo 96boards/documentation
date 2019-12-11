@@ -17,7 +17,7 @@ A comprehensive guide to using the [Board-x](96Boards.org product link here) Con
 - [Build from Source](build/README.md)
    - Instructions for building and flashing the components of your favorite operating systems
 
-## Documenation
+## Documentation
 
 - [Getting Started](getting-started/README.md)
    - Learn about your Board-x board, how to prepare and set up for basic use

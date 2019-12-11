@@ -19,7 +19,7 @@ A comprehensive guide to using the [Orange Pi i96](https://www.96boards.org/prod
 - [Build from Source](build/)
    - Instructions for building and flashing the components of your favorite operating systems
 
-## Documenation
+## Documentation
 
 - [Getting Started](getting-started/)
    - Learn about your Orange Pi i96 board, how to prepare and set up for basic use

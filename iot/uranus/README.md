@@ -15,7 +15,7 @@ A comprehensive guide to using the Uranus IoT Edition development board. This gu
 - [Build from Source](build/README.md)
    - Instructions for building and flashing the components of your favorite operating systems
 
-## Documenation
+## Documentation
 
 - [Getting Started](getting-started/README.md)
    - Learn about your Uranus board, how to prepare and set up for basic use

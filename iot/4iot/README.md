@@ -16,7 +16,7 @@ A comprehensive guide to using the [4IoT](https://www.96boards.org/) Consumer Ed
 - [Build from Source](build/README.md)
    - Instructions for building and flashing the components of your favorite operating systems
 
-## Documenation
+## Documentation
 
 - [Getting Started](getting-started/README.md)
    - Learn about your 4IoT board, how to prepare and set up for basic use
