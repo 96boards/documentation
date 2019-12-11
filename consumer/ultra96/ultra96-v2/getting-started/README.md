@@ -5,7 +5,9 @@ permalink: /documentation/consumer/ultra96/ultra96-v2/getting-started/
 
 # Getting Started
 
-Learn about your Ultra96 board as well as how to prepare and set up for basic use
+Learn about your Ultra96 board as well as how to prepare and set up for basic use.
+
+**Note** If you are looking for v1 _Getting Started_ instructions please click [here](https://www.96boards.org/documentation/consumer/ultra96/ultra96-v1/getting-started/).
 
 ## Setup - What you will need
 
