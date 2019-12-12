@@ -4,6 +4,10 @@ permalink: /documentation/enterprise/developerbox/build/
 ---
 # Table of Contents
 
+   * [Build SCP Firmware From Source](#build-scp-firmware-from-source)
+      * [Prerequisites and Cloning the Source](#prerequisites-and-cloning-the-source)
+      * [Build SCP Firmware](#build-scp-firmware)
+      * [Install the SCP Firmware](#install-the-scp-firmware)
    * [Build System Firmware From Source](#build-system-firmware-from-source)
       * [Preparation](#preparation)
       * [Cloning the sources](#cloning-the-sources)
@@ -13,6 +17,47 @@ permalink: /documentation/enterprise/developerbox/build/
    * [Build Linux From Source](#build-linux-from-source)
 
 <!-- Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc) -->
+
+***
+
+# Build SCP Firmware From Source
+
+Developerbox contains a Cortex-M3 System Control Processor(SCP) which manages
+system power and is responsible for booting the main processor.
+
+## Prerequisites and Cloning the Source
+
+Follow the SCP-firmware User Guide for required softwares and
+cloning the source code.
+
+https://github.com/ARM-software/SCP-firmware/blob/master/user_guide.md
+
+## Build SCP Firmware
+
+SCP Firmware consists of romfw and ramfw. The following build script
+make both firmwares and concatenate two binaries into one binary
+to easily update NOR Flash of Developerbox.
+
+~~~ sh
+#!/usr/bin/env bash
+
+ROOT=./
+MODE=debug    # debug or release
+CC=arm-none-eabi-gcc
+OUT=$ROOT/build/product/synquacer
+ROMFW_FILE=$OUT/scp_romfw/$MODE/bin/scp_romfw.bin
+RAMFW_FILE=$OUT/scp_ramfw/$MODE/bin/scp_ramfw.bin
+ROMRAMFW_FILE=$OUT/scp_romramfw_$MODE.bin
+
+make CC=$CC PRODUCT=synquacer MODE=$MODE
+tr "\000" "\377" < /dev/zero | dd of=${ROMRAMFW_FILE} bs=1 count=196608
+dd if=${ROMFW_FILE} of=${ROMRAMFW_FILE} bs=1 conv=notrunc seek=0
+dd if=${RAMFW_FILE} of=${ROMRAMFW_FILE} bs=1 seek=65536
+~~~
+
+## Install the SCP Firmware
+
+You can install SCP firmware using the [Low-level(CM3) firmware recovery](../installation/board-recovery.md#low-level-cm3-firmware-recovery).
 
 ***
 
