@@ -17,7 +17,7 @@ A comprehensive guide to using the [DragonBoard 820c](https://www.96boards.org/p
 - [Build from Source](build/)
    - Instructions for building and flashing the components of your favorite operating systems
 
-## Documenation
+## Documentation
 
 - [Getting Started](getting-started/)
    - Learn about your DragonBoard 820c board, how to prepare and set up for basic use
