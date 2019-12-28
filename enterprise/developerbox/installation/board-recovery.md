@@ -37,12 +37,17 @@ The serial flasher can be enabled in two ways.
    send repeated keypresses commencing before you turn the board on
    (a.k.a. keyboard auto-repeat).
 
+Note: *The pre-installed CM3 firmware supports both flashing methods but, currently, the [upstream SCP firmware](../build/README.md#build-scp-firmware-from-source) only supports the DSW2-7 method.*
+
 When the serial flasher is running correctly is will show the following
 boot messages shown via LS-UART0:
 
 ~~~
 /*------------------------------------------*/
 /*  SC2A11 "SynQuacer" series Flash writer  */
+/*                                          */
+/*  Version: cd254ac                        */
+/*  Build: 12/15/17 11:25:45                */
 /*------------------------------------------*/
 
 Command Input >
@@ -78,7 +83,7 @@ flash rawwrite 180000 2b0000
 # Low-level (CM3) firmware recovery
 
 Very occasionally it may be required to update the low-level board
-firmware, sometimes called the CM3 firmware).
+firmware, sometimes called the CM3 firmware.
 
 ## Update using serial flasher
 
@@ -101,30 +106,28 @@ The serial flasher can be enabled in two ways.
    send repeated keypresses commencing before you turn the board on
    (a.k.a. keyboard auto-repeat).
 
+Note: *The pre-installed CM3 firmware supports both flashing methods but, currently, the [upstream SCP firmware](../build/README.md#build-scp-firmware-from-source) only supports the DSW2-7 method.*
+
 When the serial flasher is running correctly is will show the following
 boot messages:
 
 ~~~
 /*------------------------------------------*/
 /*  SC2A11 "SynQuacer" series Flash writer  */
+/*                                          */
+/*  Version: cd254ac                        */
+/*  Build: 12/15/17 11:25:45                */
 /*------------------------------------------*/
 
 Command Input >
 ~~~
 
-Update the low-level firmware only when strictly necessary, and it
-is recommended to always "practice" by updating the option ROM whether
-or not it requires contains any changes!
+Once the flasher tool is running we are ready flash the CM3 firmware image:
 
 ~~~
-flash write s-mir-cm3
->> Send option ROM via XMODEM <<
-flash write p-master-cm3
+flash write cm3
 >> Send new CM3 firmware via XMODEM <<
 ~~~
-
-The current option rom is found in the system firmware sources:
-`edk2-non-osi/Platform/Socionext/DeveloperBox/synquacer_eeprom_pcie0snoop_on_pcie1snoop_on` .
 
 The currently recommended firmware is available seperately:
 `ramfw_20171102.bin` (sha1sum: `6dad40f7d055346a7cd095ed432c677bf2509c8e`).
