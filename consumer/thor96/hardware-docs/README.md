@@ -4,7 +4,7 @@ permalink: /documentation/consumer/thor96/hardware-docs/
 ---
 # Hardware Documentation
 
-Explore what makes your Thor96 unique, technical specifications, schematics, hardware notes and more... This page allows you to see what is under the "Thor96 hood" by offering static documentation published directly from the board vendors.
+Explore what makes your Thor96 unique, technical specifications, schematics, hardware notes and more. This page allows you to see what is under the "Thor96 hood" by offering static documentation published directly from the board vendors.
 
 ## User Guides
 
@@ -15,4 +15,3 @@ Explore what makes your Thor96 unique, technical specifications, schematics, har
 ## Hardware
 
 - Schematics - [View](/documentation/consumer/thor96/hardware-docs/files/thor96-schematics.pdf)(.pdf)
-
