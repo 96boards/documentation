@@ -54,6 +54,11 @@ tr "\000" "\377" < /dev/zero | dd of=${ROMRAMFW_FILE} bs=1 count=196608
 dd if=${ROMFW_FILE} of=${ROMRAMFW_FILE} bs=1 conv=notrunc seek=0
 dd if=${RAMFW_FILE} of=${ROMRAMFW_FILE} bs=1 seek=65536
 ~~~
+Note: *This manually built SCP Firmware only supports SCMI to communicate with Trusted Firmware-A.
+      Clone the [latest Trusted Firmware][2] and add "SQ_USE_SCMI_DRIVER=1" build option
+      in building Trusted Firmware.*
+
+[2]: https://github.com/ARM-software/arm-trusted-firmware
 
 ## Install the SCP Firmware
 
@@ -114,14 +119,13 @@ repository.
 cd $WORKSPACE/arm-trusted-firmware
 make -j `nproc` \
 	CROSS_COMPILE=aarch64-linux-gnu- \
-	PLAT=ashbrook_5 \
-	BL33_BASE=0x8200000 \
-	all fiptool
-tools/fip_create/fip_create \
-	--dump \
-	--tb-fw ./build/ashbrook_5/release/bl1.bin \
-	--soc-fw ./build/ashbrook_5/release/bl2.bin \
-	--scp-fw ./build/ashbrook_5/release/bl31.bin \
+	PLAT=synquacer \
+	PRELOADED_BL33_BASE=0x8200000 \
+	bl31 fiptool
+tools/fiptool/fiptool create \
+	--tb-fw ./build/synquacer/release/bl31.bin \
+	--soc-fw ./build/synquacer/release/bl31.bin \
+	--scp-fw ./build/synquacer/release/bl31.bin \
 	../edk2-non-osi/Platform/Socionext/DeveloperBox/fip_all_arm_tf.bin
 ~~~
 
