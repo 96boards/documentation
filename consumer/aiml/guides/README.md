@@ -5,6 +5,7 @@ permalink: /documentation/consumer/aiml/guides/
 # Useful Guides
 
 These guides will help to get you started with a variety of available on-boards software
+- Mainline kernel Build Guide - [View](./build/mainline.md)(.md)
 
 ## Third Party Demos
 

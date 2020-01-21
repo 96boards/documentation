@@ -1,3 +1,8 @@
+---
+title: Mainline kernel build for AI_ML board
+permalink: /documentation/consumer/ai_ml/build/mainline.md.html
+---
+
 # AI_ML board setup with mainline kernel and Linaro Debian image
 
 We need to:
