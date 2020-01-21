@@ -106,7 +106,7 @@ After successful compilation, device tree blobs (dtbo) will be available in ***b
 
 ## 3.2 Loading Overlays via Configfs
 
-Now its the time to insert the device tree blobs into running kernel using configfs.
+Now its the time to insert the device tree blobs into running kernel using configfs. (Your kernel must have been compiled with CONFIG_OF_OVERLAY and CONFIG_CONFIGFS for the following steps to work.)
 
 ```shell
 $ sudo su
@@ -123,8 +123,8 @@ When configfs has been mounted properly, that directory should have been populat
 
 After loading, the device should appear under ***/proc/device-tree/soc/i2c@78b6000/***
 
-That't it! You have loaded device tree overlay dynamically. But this wont be sufficient, you need to load your device driver
-also to work with the device. By this time, if the driver has been compiled into the kernel (by selecting *y* during **make
+That's it! You have loaded a device tree overlay dynamically. But this won't be sufficient, you also need to load your device driver
+to work with the device. By this time, if the driver has been compiled into the kernel (by selecting *y* during **make
  menuconfig**), then the driver should have been probed successfully and it will appear under ***/sys/bus/i2c/devices/***
 
 If the driver was compiled as a kernel module, then insert it using **modprobe**
