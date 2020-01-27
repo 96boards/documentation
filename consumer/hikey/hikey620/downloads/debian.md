@@ -28,7 +28,7 @@ redirect_from:
 | [l-loader.bin](https://snapshots.linaro.org/reference-platform/components/uefi-staging/latest/hikey/debug/l-loader.bin)  |  
 |  [fip.bin](https://snapshots.linaro.org/reference-platform/components/uefi-staging/latest/hikey/debug/fip.bin)           |  
 | [nvme.img](https://snapshots.linaro.org/reference-platform/components/uefi-staging/latest/hikey/debug/nvme.img)          |
-| [ptable-linux-4g.img](https://snapshots.linaro.org/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-4g.img) or [ptable-linux-8g.img](https://snapshots.linaro.org/reference-platform/components/uefi-staging/latest/hikey/debug/ptable-linux-8g.img)     |
+| [ptable-linux-4g.img](http://releases.linaro.org/96boards/hikey/linaro/debian/latest/ptable-linux-4g.img) or [ptable-linux-8g.img](http://releases.linaro.org/96boards/hikey/linaro/debian/latest/ptable-linux-8g.img)     |
 
 |   Boot image    |    [Download](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/boot-linaro-stretch-developer-hikey-*.img.gz)    |
 |:------------------|:-----------------------|
