@@ -10,7 +10,7 @@ Learn about your Akebi96 board as well as how to prepare and set up for basic us
 
 **Need**
 - [Akebi96 Board](https://www.96boards.org/product/akebi96/)
-   - Board based on the HiSilicon Hi3798C V200 Processor
+   - Board based on the Socionext LD20 Processor
 - Power adapter
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter
 - USB Keyboard and Mouse
