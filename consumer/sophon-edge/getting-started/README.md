@@ -17,7 +17,7 @@ Learn about your Sophon Edge board as well as how to prepare and set up for basi
    - Board based on Sophon BM1880
 - Power adapter
    - 12V @ 2A AC/DC converter compatible with the 96Boards specification
-   
+
 ***
 
 # Out of the Box
@@ -34,13 +34,13 @@ The following subsections describe how to get started with the Sophon Edge using
 | Processor            | Sophon BM1880                                                                                    |
 | System Memory        | LPDDR4 1GB @ 3200Mhz                                                                             |
 | Flash Memory         | 8GB eMMC + micro SD card slot                                                                    |
-| Connectivity         | Gigabit Ethernet(RJ-45), Wifi, Bluetooth                                                         |
-| USB                  | USB 3.0 x 3 (support camera, U- disk..etc)                                                       | 
+| Connectivity         | Gigabit Ethernet(RJ-45), Wifi, _Bluetooth_® wireless technology                                                         |
+| USB                  | USB 3.0 x 3 (support camera, U- disk..etc)                                                       |
 | I/O Expansion        | 40-pin 96Boards low-speed expansion header                                                       |
 | Audio                | I2S x 2 (included in 40-pin header)                                                              |
 | H.264 decoder, MJPEG encoder/decoder | 1x 1080p @60fps or 2x 1080p @30fps H.264 decoder, 75fps for FHD images           |
 | Power                | 12V@2A                                                                                           |
-| OS                   | Linux                                                                                            | 
+| OS                   | Linux                                                                                            |
 | Dimensions           | 85mm x 54mm                                                                                      |
 
 **NOTE:** Many compliance items for this board were waived due to the nature of the chipset being used and the uniqueness of the board. The Edge BM1880 TPU ASIC accels in its AI and deep learning abilities, for this reason, the following items were waived in order to accomodate the Sophon Edge into the 96Boards ecosystem:

@@ -55,7 +55,7 @@ The following subsections should describe how to get started with the HiKey usin
 |  PMU                 | HI6553V100                                                                                       |
 |  Storage             | 8GB eMMC on board storage MicroSD card slot	                                                     |
 |  Ethernet Port       | USB2.0 expansion                                                                                 |
-|  Wireless            | Wi-Fi 802.11 b/g/n 2.4GHz Dual-mode bluetooth and bluetooth low energy                           |
+|  Wireless            | Wi-Fi 802.11 b/g/n 2.4GHz Dual-mode _Bluetooth_® wireless technology and Bluetooth low energy                           |
 |  USB                 | 2 x USB2.0 Host 1 x USB 2.0 OTG                                                                  |
 |  Display             | 1 x HDMI 1.4 (Type A - full) 1 x MIPI-DSI HDMI output up to FHD 1080P                            |
 |  Video               | 1080p@30 fps HD video encoding, supporting 1080p@30 fps HD camera 1080p@30 fps HD video decoding Supports H.264, SVC, MPEG1/2/4, H.263, VC-1, WMV9, DivX, RV8/9/10, AVS, VP8                                                        |
@@ -108,4 +108,4 @@ If you are already familiar with the HiKey board and would like to change out th
 
 Back to the [HiKey documentation home page](../)
 
-***   
+***

@@ -35,7 +35,7 @@ The following subsections should describe how to get started with the Poplar usi
 |  RAM                 | 2GB DDR3 SDRAM                               |
 |  Storage             | 8GB eMMc on-board                                                                        |
 |  Ethernet Port       | 10M\/100M\/1000M Gigabit Ethernet                                                                                   |
-|  Wireless            | 802.11AC 2x2 with Bluetooth                                                                      |
+|  Wireless            | 802.11AC 2x2 with _Bluetooth_® wireless technology                                                                      |
 |  USB                 | One USB 2.0 port and One USB 3.0 port                                                              |
 |  Console             | microUSB port for console support                                                               |
 |  PCIe                | One PCIe 2.0 interface                                                                          |

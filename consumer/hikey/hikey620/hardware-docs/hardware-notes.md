@@ -100,7 +100,7 @@ Alternatively, you can modify grub.cfg in the boot image to switch to other UART
 The following are known issues on the current release.
 
 1. **Not Yet Supported**
-    - HDMI and Expansion bus audio. (At present only Bluetooth audio is supported)
+    - HDMI and Expansion bus audio. (At present only _Bluetooth_® wireless technology audio is supported)
     - Some video formats are not decoded in Android, and will not be played with the current release
     - HDMI hotplug detection (HPD) is not supported. (Note: You can still plug in HDMI cable after the board booted, which make HDMI work through two candidate modes: 1280x720p and 800x600p. However these are not HPD, they is built-in default.)
     - Behaviors of power on button not following hardware user guide. [bug #160](https://bugs.96boards.org/show_bug.cgi?id=160)

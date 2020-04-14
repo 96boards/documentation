@@ -24,7 +24,7 @@ redirect_from: /documentation/EnterpriseEdition/Poplar/HardwareDocs/HardwareUser
 
 ## Introduction
 
-The 96Boards Poplar board is the first TV board to be certified 96Boards Enterprise Edition compatible from Tocoding Ltd., and it's based around the Hisilicon Hi3798C V200 SoC, with  Quad-core ARM Cortex-A53 64-bit CPU up to 2.0GHz .  
+The 96Boards Poplar board is the first TV board to be certified 96Boards Enterprise Edition compatible from Tocoding Ltd., and it's based around the Hisilicon Hi3798C V200 SoC, with  Quad-core ARM Cortex-A53 64-bit CPU up to 2.0GHz .
 
 - **Processor:**
    - HiSilicon Hi3798C V200 SoC
@@ -90,7 +90,7 @@ The 96Boards Poplar board is the first TV board to be certified 96Boards Enterpr
       - HDMI audio output
 - **Connectivity:**
    - LAN Ethernet:10/100M, standard RJ-45
-   - WLAN 802.11 ac/b/g/n 2.4GHz/5GHz Dual Band, Bluetooth 4.0/4.1, Transmission rate 1200Mbps
+   - WLAN 802.11 ac/b/g/n 2.4GHz/5GHz Dual Band, _Bluetooth_® wireless technology 4.0/4.1, Transmission rate 1200Mbps
    - One micro USB
    - Two USB 2.0
    - One USB 3.0
@@ -212,7 +212,7 @@ The 96Boards Poplar board uses a 2GB LPDDR3 DRAM chip as the memory. a single em
 
 ### Micro SDHC
 
-The microSDHC socket is on the bottom left corner of the PCB and is routed directly to the Hi3798C V200 SD 3.0 interface, and supports 1-bit and 4-bit modes (3 V and 1.8 V supported for the I/O device). The slot is a push-push type with a dedicated support for card detect signal.  
+The microSDHC socket is on the bottom left corner of the PCB and is routed directly to the Hi3798C V200 SD 3.0 interface, and supports 1-bit and 4-bit modes (3 V and 1.8 V supported for the I/O device). The slot is a push-push type with a dedicated support for card detect signal.
 
 ### Networking
 
@@ -395,7 +395,7 @@ The Smart Card module board is optinal supplied.
 
 ### TS Connector
 
-The tuner module board and is optionally supplied.  
+The tuner module board and is optionally supplied.
 
 <img src="https://github.com/96boards/documentation/blob/master/enterprise/poplar/additional-docs/images/images-hw-user-manual/Connector_TS_1.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/enterprise/poplar/additional-docs/images/images-hw-user-manual/Connector_TS_1.png?raw=true" width="750" height="160" />
 

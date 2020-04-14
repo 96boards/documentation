@@ -24,7 +24,7 @@ permalink: /documentation/enterprise/poplar-hoperun/hardware-docs/hw-user-manual
    - Networking
       - LAN
       - WiFi
-      - Bluetooth  
+      - _Bluetooth_® wireless technology
    - HDMI
    - USB Ports
    - Audio
@@ -244,7 +244,7 @@ The 96Boards Poplar board has 8GB eMMC on-board storage.
 
 #### Micro SDHC
 
-The microSDHC socket is on the bottom left corner of the PCB and is routed directly to the Hi3798C V200 SD 3.0 interface, and supports 1-bit and 4-bit modes (3 V and 1.8 V supported for the I/O device). The slot is a push-push type with a dedicated support for card detect signal.  
+The microSDHC socket is on the bottom left corner of the PCB and is routed directly to the Hi3798C V200 SD 3.0 interface, and supports 1-bit and 4-bit modes (3 V and 1.8 V supported for the I/O device). The slot is a push-push type with a dedicated support for card detect signal.
 
 ### Networking
 
@@ -278,7 +278,7 @@ The WiFi hardware block Diagram is followed:
 
 The MT7668 bluetooth has following features:
 
-- Bluetooth specification 2.1+EDR
+- _Bluetooth_® wireless technology specification 2.1+EDR
 - Bluetooth 4.2 Low Energy (LE)
 - Bluetooth 5.0
 - ANT/ANT+

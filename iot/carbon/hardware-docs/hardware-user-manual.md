@@ -96,7 +96,7 @@ The following table lists it's key features:
 2. **LED Indicators**
    - USR1 - User controlled led, connected to PD2
    - USR2 - User controlled led, connected to PA15
-   - BT - Bluetooth indicator, connected to PB5. This led will light up when connect to a device.
+   - BT - _Bluetooth_® wireless technology indicator, connected to PB5. This led will light up when connect to a device.
    - PWR - Light up when Power on.
    - RX - Indicator of FT230X - RX
    - TX - Indicator of FT230X - TX

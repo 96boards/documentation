@@ -92,7 +92,7 @@ Cortex-A53 64-bit CPU up to 1.2GHz .
    - WMA/MP3/AAC/EVS audio encoding and decoding
 - **Connectivity**:
    - WLAN 802.11 b/g/n 2.4GHz
-   - Bluetooth 4.0 LE
+   - _Bluetooth_® wireless technology 4.0 LE
    - One USB 2.0 micro B (device mode only)
    - Two USB 2.0 (host mode only)
    - HDMI

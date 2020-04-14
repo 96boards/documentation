@@ -53,7 +53,7 @@ The following subsections should describe how to get started with the Bubblegum-
 |  PMU                 | ATC2609                                                                                                    |
 |  Storage             | 8GB eMMC 4.51 on board storage MicroSD card slot	                                                     |
 |  Ethernet Port       | USB 2.0 expansion                                                                                      |
-|  Wireless            | Wi-Fi 802.11 b/g/n 2.4GHz Dual-mode bluetooth and bluetooth low energy                                 |
+|  Wireless            | Wi-Fi 802.11 b/g/n 2.4GHz Dual-mode _Bluetooth_® wireless technology and Bluetooth low energy                                 |
 |  USB                 | 1 x USB2.0, 1 x USB3.0, 1 x USB 2.0 OTG                                                                |
 |  Display             | HDMI 1.4b with HDCP (HDMI connector type A/C), up to 4k Ultra                                          |
 |  Video               | 1080p@60fps HD video playback and capture with H.264 (AVC), 4096*2304@30fps playback with H.265 (HEVC) |
@@ -100,4 +100,4 @@ If you are already familiar with the Bubblegum-96 board and would like to change
 
 Back to the [Bubblegum-96 documentation home page](../)
 
-***   
+***
