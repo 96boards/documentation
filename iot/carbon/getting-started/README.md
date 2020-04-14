@@ -14,7 +14,7 @@ Learn about your Carbon board as well as how to prepare and set up for basic use
 
 **Need**
 - [Carbon](https://www.96boards.org/product/carbon/)
-   - Board based on the STM32F401RE Processor connected to a nRF51822 bluetooth controller
+   - Board based on the STM32F401RE Processor connected to a nRF51822 _Bluetooth_® wireless technology controller
 - USB to MicroUSB cable (x2)
    - This is needed for serial console interface and USB-OTG (including DFU support)
 - Switches
@@ -85,4 +85,4 @@ It's time to see what your Carbon can do. From here you can learn how to build y
 
 Back to the [Carbon documentation home page](../)
 
-***   
+***

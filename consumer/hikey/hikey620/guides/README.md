@@ -18,7 +18,7 @@ Execute unique configurations to customize your HiKey experience.
 - [Clock](clock.md)
    - The HiKey board does not support a battery powered RTC. Learn how to install a "fake clock" here
 - [Bluetooth](bluetooth.md)
-   - Bluetooth audio devices are supported on HiKey.
+   - _Bluetooth_® wireless technology audio devices are supported on HiKey.
 - [USB](usb.md)
    - For more information on using the USB utility included on your HiKey board.
 - [System LEDs](system-leds.md)

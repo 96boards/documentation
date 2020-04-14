@@ -6,15 +6,15 @@ redirect_from:
 ---
 # Bluetooth
 
-The HiKey board includes built-in Bluetooth 4.0 LE support.
+The HiKey board includes built-in _Bluetooth_® wireless technology 4.0 LE support.
 
-To setup a Bluetooth device open the Bluetooth Manager from the Preferences menu. If a “Bluetooth Turned Off” popup appears then select “Enable Bluetooth”. Click on "Search" to search for devices. Try with your bluetooth audio and bluetooth keyboard/mouse. If you make the device trusted then this should operate over a reboot of the board.
+To setup a Bluetooth device open the Bluetooth Manager from the Preferences menu. If a “Bluetooth Turned Off” popup appears then select “Enable Bluetooth”. Click on "Search" to search for devices. Try with your Bluetooth audio and Bluetooth keyboard/mouse. If you make the device trusted then this should operate over a reboot of the board.
 
-The blue LED between the microUSB and the Type A USB on the front board edge indicates bluetooth activity.
+The blue LED between the microUSB and the Type A USB on the front board edge indicates Bluetooth activity.
 
 ### Audio Device
 
-Bluetooth audio devices are supported on HiKey. Follow normal procedures of connecting a bluetooth device to connect to your board.
+Bluetooth audio devices are supported on HiKey. Follow normal procedures of connecting a Bluetooth device to connect to your board.
 
 Once Bluetooth sound sink is connected, you can open the LXMusic player from the Sound & Video menu. Create a playlist from your music files. Supported audio formats are .mp3 and .ogg. You should now be able to play from the LXMusic player.
 

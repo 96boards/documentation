@@ -100,7 +100,7 @@ X20 platform. It is an expansion board of the MediaTek X20 Development Board. We
    - FDD-LTE band 1,3
 - **Connectivity**:
    - WLAN 802.11a/b/g/n 2.4GHz and 5GHz(On-board BT and WLAN antenna)
-   - Bluetooth 4.1 +HS compliant
+   - _Bluetooth_® wireless technology 4.1 +HS compliant
    - GPS (with external antenna connector)
    - One USB 2.0 micro B (device mode only)
    - Two USB 2.0 (host mode only)
@@ -196,7 +196,7 @@ To start the board, follow these simple steps:
 1. Connect the HDMI cable to the MediaTek X20 Professional Board connector (marked CON6501) and to the LCD Monitor.
 2. Connect the keyboard to USB connector marked CON6402 and the mouse to the USB connector marked CON6401. (It doesn’t matter which order you connect them in. )
 3. Plug the power supply into the power outlet.
-4. Press down the button (marked SW3201), and keep more than 3 seconds, the Android system will start.  
+4. Press down the button (marked SW3201), and keep more than 3 seconds, the Android system will start.
 
 
 Note: If set the first pin (AUTO_BOOT_SET) of switch SW3205 to the position ON, the Android system will start automatically when the power supply is plugged into the power outlet.
@@ -222,7 +222,7 @@ MT6797 is a highly integrated application processor which uses an industry-leadi
 - Two ARM@Cortex-R4 processors with max. 800MHz for modem subsystem
 - FDD/TDD up to 300Mbps downlink,50Mbps uplink
 - 3G modem support most main features in 3GPP Release 7 and Release 8
-- Embody wireless communication device, including WLAN(2.4GHz and 5GHz), Bluetooth and GPS.
+- Embody wireless communication device, including WLAN(2.4GHz and 5GHz), _Bluetooth_® wireless technology and GPS.
 - Portrait panel resolution up to WQXGA(2500*1600)
 - Integrated image signal processor supports 25MP@30fps
 
@@ -264,7 +264,7 @@ The MediaTek X20 Professional Board also has a RF connector to connect the exter
 
 #### Bluetooth
 
-- Bluetooth specification V2.1+EDR, 3.0+HS and 4.1+HS compliant
+- _Bluetooth_® wireless technology specification V2.1+EDR, 3.0+HS and 4.1+HS compliant
 - Integrated PA with 8dBm (class 1) transmit power
 - Typical Rx sensitivity: GFSK -94dBm, DQPSK -93dBm, 8-DPSK -87.5dBm.
 
@@ -310,7 +310,7 @@ If the switch 1 of the dip-switch SW3205 is on the 'ON' position and the switch 
 
 The MediaTek X20 Professional Board supports three USB host port via a USB2.0 hub (U6401 USB2513-AEZG).
 
-- Port 1 of the USB HUB is routed to CON6401, a Type A USB Host connector. A current limited controller (U6402) sets the Power Current limit to 1.18A.  
+- Port 1 of the USB HUB is routed to CON6401, a Type A USB Host connector. A current limited controller (U6402) sets the Power Current limit to 1.18A.
 - Port 2 of the USB HUB is routed to CON6402, a Type A USB Host connector. A current limited controller (U6403) sets the Power Current limit to 1.18A.
 - Port 3 of the USB HUB is routed to the High Speed Expansion connector. No current limited controller is implemented on the board for this channel.
 
@@ -457,7 +457,7 @@ The MediaTek X20 Professional Board implements this requirement. All GPIOs are r
 - GPIO A -Connects to EINT16 of Soc MT6797, can serves as external interrupt supporting the 96Boards requirements to create a wake-up event for the Soc. It is a 1.8V signal.
 - GPIO B -Connects to EINT5 of Soc MT6797, can serves as external interrupt supporting the 96Boards requirements to create a wake-up event for the Soc. It is a 1.8V signal.
 - GPIO C -Connects to EINT4 of Soc MT6797, can serves as external interrupt supporting the 96Boards requirements to create a wake-up event for the Soc. It is a 1.8V signal.
-- GPIO D -Connects to EINT3 of Soc MT6797, can serves as external interrupt supporting the 96Boards requirements to create a wake-up event for the Soc. It is a 1.8V signal.  
+- GPIO D -Connects to EINT3 of Soc MT6797, can serves as external interrupt supporting the 96Boards requirements to create a wake-up event for the Soc. It is a 1.8V signal.
 - GPIO E -Connects to EINT2 of Soc MT6797, can serves as external interrupt supporting the 96Boards requirements to create a wake-up event for the Soc. It is a 1.8V signal.
 - GPIO F -Connects to EINT1 of Soc MT6797, can serves as external interrupt supporting the 96Boards requirements to create a wake-up event for the Soc. It is a 1.8V signal.
 - GPIO G -Connects to DSI_TE of Soc MT6797, can serves as DSI_TE or GPIO179. It is a 1.8V signal.
@@ -478,7 +478,7 @@ The MediaTek X20 Professional Board implements a full SPI master with 4 wires, C
 
 The 96Boards specification calls for one PCM/I2S bus to be provided on the Low Speed Expansion Connector. The CLK, FS and DO signals are required while the DI is optional.
 
-The MediaTek X20 Professional Board implements a PCM/I2S interface with 4 wires, CLK, FS, DO and DI. The signals are connected directly to the Soc MT6797 and driven at 1.8V.  
+The MediaTek X20 Professional Board implements a PCM/I2S interface with 4 wires, CLK, FS, DO and DI. The signals are connected directly to the Soc MT6797 and driven at 1.8V.
 
 
 ### Power and Reset
@@ -609,7 +609,7 @@ The MediaTek X20 Professional Board implements this requirement by routing USB c
 ### HSIC
 
 The 96Boards specification calls for an optional MIPI-HSIC interface to be present on the High Speed Expansion Connector.
-The MediaTek X20 Professional Board implementation doesn't support this optional requirement.  
+The MediaTek X20 Professional Board implementation doesn't support this optional requirement.
 
 ### Reserved
 
@@ -651,7 +651,7 @@ Beside the 96Boards specification, the MediaTek X20 Professional Board also has 
 |   16  |   AU_HSN            |    Headset negative output                         |
 
 ### Speaker
-The speaker signals are routed from the MT6351 built-in Audio CODEC. It should be connected to an external speaker amplifier. Do not connect it to speaker directly. The two signals are:  
+The speaker signals are routed from the MT6351 built-in Audio CODEC. It should be connected to an external speaker amplifier. Do not connect it to speaker directly. The two signals are:
 - AU_LOLP
 - AU_LOLN
 
@@ -667,8 +667,8 @@ The main parameters are list in table below.
 
 
 ### Mic
-The microphone signals are routed to the MT6351 built-in Audio CODEC. It is an uplink input channel and it can be connected to a MIC or a codec line out. The signals are:  
-- AU_VIN0_P  
+The microphone signals are routed to the MT6351 built-in Audio CODEC. It is an uplink input channel and it can be connected to a MIC or a codec line out. The signals are:
+- AU_VIN0_P
 - AU_VIN0_N
 - MICBIAS0(The bias voltage output step size is 0.1V, the range is 1.7~2.1V/2.5~2.7V)
 
@@ -677,7 +677,7 @@ The earphone signals are routed from the MT6351 built-in Audio CODEC. It can sup
 - AU_HPL
 - AU_HPR
 - ACCDET1
-- AU_VIN0_P  
+- AU_VIN0_P
 - AU_VIN0_N
 - MICBIAS0
 
@@ -710,7 +710,7 @@ The headset signals are routed from the MT6351 built-in Audio CODEC. It can supp
 - AU_HSN
 
 ### FM Antenna
-The FM antenna signals are routed to the MT6631 (U5003), an integrated connectivity device. The two signals below should be kept in differential trace to audio jack.  
+The FM antenna signals are routed to the MT6631 (U5003), an integrated connectivity device. The two signals below should be kept in differential trace to audio jack.
 - FM_ANT
 - FM_RX_N_6631
 

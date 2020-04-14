@@ -90,7 +90,7 @@ The package comes with a simple acrylic case, assemble it first:
 | PMU                 | RK808-D                                                      |
 | Storage             | Reserve eMMC  socket on board, optional eMMC module up to 128GB, uSD card up to 128GB |
 | Ethernet Port       | USB 2.0/3.0 expansion                                        |
-| Wireless            | WLAN 802.11 ac/a/b/g/n, 2.4GHz and 5Ghz, Bluetooth 4.2. On board WLAN/BT antennas, optional IPEX antenna. |
+| Wireless            | WLAN 802.11 ac/a/b/g/n, 2.4GHz and 5Ghz, _Bluetooth_® wireless technology 4.2. On board WLAN/BT antennas, optional IPEX antenna. |
 | USB                 | 1 x USB 3.0 host type A, 1 x USB 3.0 OTG type A and 1 x USB 2.0 type C(host only) |
 | Display             | 1 x HDMI 2.0(Type A - full) up to 4Kx2K@60Hz, 1 x 4L - MIPI DSI up to 1080p@60Hz |
 | Video               | Inside decoder: H.264 10bit up to HP level 5.1 - 2160p@60fps (4096x2304), VP9 - 2160p@60fps(4096x2304), H.265/HEVC 10bit - 2160p@60fps(4096x2304),  MPEG-1, MPEG-2, MPEG-4, H.263, VP8, VC-1. |

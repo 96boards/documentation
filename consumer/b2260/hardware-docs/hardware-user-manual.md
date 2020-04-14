@@ -27,14 +27,14 @@ The following table lists its key features:
    - Micro SD card slot
 - **Video**
    - Video Hardware/Software encoder/decoder
-- **Audio**  
+- **Audio**
    - Audio Software encoder/decoder
    - Outputs: USB (digital), HDMI and PCM/I2S (via Low-speed expansion connector)
    - Inputs: USB (digital), PCM/I2S(via Low-speed expansion connector)
 - **Connectivity**
    - Ethernet Port Up to 1 GB
    - Wi-Fi 802.11 g/n
-   - Bluetooth 4.0 LE
+   - _Bluetooth_® wireless technology 4.0 LE
    - One USB 2.0 micro AB (host and device mode supported)
    - Two USB 2.0 (host mode only)
 - **I/O Interfaces**

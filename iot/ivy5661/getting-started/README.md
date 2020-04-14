@@ -31,14 +31,14 @@ The following subsections should describe how to get started with the Ivy5661 us
 | Clock speed          | 416MHz                          |
 | Storage              | 32Mbit                          |
 | Wi-Fi                | IEEE802.11ac 2x2                |
-| Bluetooth            | Bluetooth 5                     |
+| _Bluetooth_® wireless technology            | Bluetooth 5                     |
 | USB                  | 2 x Micro USB                   |
 | Expansion Interface  | UART, I2C, SPI, I2S, GPIO       |
 | LED                  | 4 user LED                      |
 | Button               | 2 reset and user button         |
 | Power Source         | Micro USB                       |
-| OS Support           | Zephyr                          | 
-| Size                 | 60 x 30mm                       | 
+| OS Support           | Zephyr                          |
+| Size                 | 60 x 30mm                       |
 
 For more information, please refer to the [Hardware User Manual](../hardware-docs)
 
@@ -71,4 +71,4 @@ If you are already familiar with the Ivy5661 board and would like to change out 
 
 Back to the [Ivy5661 documentation home page](../)
 
-***   
+***

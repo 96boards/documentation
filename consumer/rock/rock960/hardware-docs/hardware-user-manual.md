@@ -72,7 +72,7 @@ The ROCK960 Development Board is a 96Boards compliant community board based on R
 | PMU                 | RK808-D                                    |
 | Storage             | 16/32GB eMMC 5.1                         |
 | Ethernet Port       | USB 2.0/3.0 expansion                    |
-| Wireless            | WLAN 802.11 ac/a/b/g/n, 2xMIMO, 2.4GHz and 5Ghz, Bluetooth 4.2. On board WLAN/BT antennas. |
+| Wireless            | WLAN 802.11 ac/a/b/g/n, 2xMIMO, 2.4GHz and 5Ghz, _Bluetooth_® wireless technology 4.2. On board WLAN/BT antennas. |
 | USB                 | 1 x USB 3.0 type A and 1 x USB 2.0 type A (host mode only) and 1 x USB 3.0 type C OTG |
 | Display             | 1 x HDMI 2.0(Type A - full) up to 4Kx2K@60Hz, 1 x 4L - MIPI DSI up to 1080p@60Hz, 1 x DP 1.2(Type C) up to 4Kx2K@60 |
 | Video               | Inside decoder: H.264 10bit up to HP level 5.1 - 2160p@60fps (4096x2304), VP9 - 2160p@60fps(4096x2304), H.265/HEVC 10bit - 2160p@60fps(4096x2304),  MPEG-1, MPEG-2, MPEG-4, H.263, VP8, VC-1. |
@@ -367,7 +367,7 @@ The ROCK960 board implements this requirement. All GPIOs are routed to the RK339
 ### PCM/I2S
 
 - The 96Boards specification calls for one PCM/I2S bus to be provided on the Low Speed Expansion Connector. The CLK, FS and DO signals are required while the DI is optional.
-- The ROCK960 Board implements a PCM/I2S interface with 4 wires, CLK, FS, DO and DI. The signals are connected directly to the RK3399 SoC and driven at 1.8V.  
+- The ROCK960 Board implements a PCM/I2S interface with 4 wires, CLK, FS, DO and DI. The signals are connected directly to the RK3399 SoC and driven at 1.8V.
 
 ### Power and Reset
 

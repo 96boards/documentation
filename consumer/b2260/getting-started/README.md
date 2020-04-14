@@ -57,7 +57,7 @@ The B2260 is supplied with Micro SD card containig a preinstalled version of Deb
 |  PMU                 | None |
 |  Storage             | Built-in MicroSD card reader |
 |  Ethernet Port       | Up to 1 Gb/s |
-|  Wireless            | Wi-Fi 802.11 g/n, Bluetooth 4.0 LE |
+|  Wireless            | Wi-Fi 802.11 g/n, _Bluetooth_® wireless technology 4.0 LE |
 |  USB                 | 2 x USB2.0 Host (TypeA), 1x USB3.0 DRD Salve (Type micro AB), 1 x USB 2.0 host (on high-speed expansion connector) |
 |  Display             | 1 x HDMI 1.4 up to 1080p60 (TypeA) |
 |  Video               | Software video codecs |

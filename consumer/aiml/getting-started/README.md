@@ -39,7 +39,7 @@ In the Box you can find the AI_ML as well as a microSD card which comes with a p
 |  RAM                 | 2 GB LPDDR4 @ 1,600 MHz Industrial Temp by Micron |
 |  Storage             | microSD Socket <br> 512 Mb NOR FLASH on Octal-SPI <br> 256 Kb EEPROM |
 |  Ethernet Port       | 10/100/1000 Mbit/s |
-|  Wireless            | Cypress’ industry-leading 802.11ac Wi-Fi and Dual-Mode Bluetooth wireless connectivity |
+|  Wireless            | Cypress’ industry-leading 802.11ac Wi-Fi and Dual-Mode _Bluetooth_® wireless technology |
 |  USB                 | Host: 2x USB Type-A 3.0 <br> OTG: 1x type micro-AB, 2.0 high-speed |
 |  Display             | HDMI Output <br> Dual MIPI DSI Support |
 |  Expansion Interface | 96Boards Compliant: <br> 40-Pin Low Speed Header <br> 60-Pin High Speed Header                                         |

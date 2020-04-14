@@ -20,9 +20,9 @@ Note also that these modes are preferred and will be tried (in this order) first
 
 |   Resolution    |    Ratio    |    Usually on    |
 |:------------------------|:-----------------------|:-----------------------|
-| 1920*1080            | 16:9           | TV           |           
-| 1280*720            | 16:9           | TV           |           
-| 720*480         | 4:3           | Monitor           |           
+| 1920*1080            | 16:9           | TV           |
+| 1280*720            | 16:9           | TV           |
+| 720*480         | 4:3           | Monitor           |
 
 ### USB Ports
 
@@ -54,7 +54,7 @@ MediaTek X20 supports a UART Port used for debugging, the Baud Rate for this int
 The following are known issues on the current release.
 
 1. **Not Yet Supported**
-   - Expansion bus audio. (At present Bluetooth audio and HDMI are supported)
+   - Expansion bus audio. (At present _Bluetooth_® wireless technology audio and HDMI are supported)
    - Some video formats are not decoded in Android, and will not be played with the current release.
    - HDMI display sometimes goes off when in AOSP.
 2. **Apple Bluetooth Keyboards/Mice/Trackpads do not work.**

@@ -56,7 +56,7 @@ The following subsections should describe how to get started with the DragonBoar
 |  PMU                 | ???                                                                                              |
 |  Storage             | 8GB eMMC 4.51 on board storage and MicroSD card slot                                             |
 |  Ethernet Port       | USB 2.0 expansion                                                                                |
-|  Wireless            | WLAN 802.11 b/g/n 2.4 GHz, Bluetooth 4.1, GPS. On board GPS, BT and WLAN antennas                |
+|  Wireless            | WLAN 802.11 b/g/n 2.4 GHz, _Bluetooth_® wireless technology 4.1, GPS. On board GPS, BT and WLAN antennas                |
 |  USB                 | 2 x USB 2.0 Host 1 x USB 2.0 OTG                                                                 |
 |  Display             | 1 x HDMI 1.4 (Type A - full) 1 x MIPI-DSI HDMI output up to FHD 1080P                            |
 |  Video               | 1080p@30fps HD video playback and capture with H.264 (AVC), and 720p playback with H.265 (HEVC)  |

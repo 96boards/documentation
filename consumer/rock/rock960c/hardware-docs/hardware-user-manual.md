@@ -71,7 +71,7 @@ The ROCK960 Development Board is a 96Boards compliant community board based on R
 | PMU                 | RK808-D                                                      |
 | Storage             | None, one board eMMC socket reserved for optional 8/16/32/64/128GB eMMC module |
 | Ethernet Port       | USB 2.0/3.0 expansion                                        |
-| Wireless            | WLAN 802.11 ac/a/b/g/n, 2.4GHz and 5Ghz, Bluetooth 4.2. On board WLAN/BT antennas. |
+| Wireless            | WLAN 802.11 ac/a/b/g/n, 2.4GHz and 5Ghz, _Bluetooth_® wireless technology 4.2. On board WLAN/BT antennas. |
 | USB                 | 1 x USB 3.0 type A Host and 1 x USB 3.0 type A OTG and 1 x **USB 2.0** type C(Host only) |
 | Display             | 1 x HDMI 2.0(Type A - full) up to 4Kx2K@60Hz, 1 x 4L - MIPI DSI up to 1080p@60Hz |
 | Video               | Inside decoder: H.264 10bit up to HP level 5.1 - 2160p@60fps (4096x2304), VP9 - 2160p@60fps(4096x2304), H.265/HEVC 10bit - 2160p@60fps(4096x2304),  MPEG-1, MPEG-2, MPEG-4, H.263, VP8, VC-1. |
@@ -222,7 +222,7 @@ RK3399 support HDMI 1.4 and 2.0, up to 10-bit depth color mode, up to 1080p at 1
 ### MIPI-DSI
 
 - The 96Boards specification calls for a MIPI-DSI implementation via the High Speed Expansion Connector.
-- The ROCK960 Board implements a 4-lane MIPI_DSI interface meeting this requirement. It can support up to FHD(1080p@60fps). The ROCK960 Board routes the MIPI_DSI interface signals to the MIPI_TX interface of the RK3399. 
+- The ROCK960 Board implements a 4-lane MIPI_DSI interface meeting this requirement. It can support up to FHD(1080p@60fps). The ROCK960 Board routes the MIPI_DSI interface signals to the MIPI_TX interface of the RK3399.
 
 ### Camera Interface
 
@@ -380,7 +380,7 @@ The ROCK960 board implements this requirement. All GPIOs are routed to the RK339
 ### PCM/I2S
 
 - The 96Boards specification calls for one PCM/I2S bus to be provided on the Low Speed Expansion Connector. The CLK, FS and DO signals are required while the DI is optional.
-- The ROCK960 Board implements a PCM/I2S interface with 4 wires, CLK, FS, DO and DI. The signals are connected directly to the RK3399 SoC and driven at 1.8V.  
+- The ROCK960 Board implements a PCM/I2S interface with 4 wires, CLK, FS, DO and DI. The signals are connected directly to the RK3399 SoC and driven at 1.8V.
 
 ### Power and Reset
 

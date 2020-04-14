@@ -128,7 +128,7 @@ The HiKey960 Development Board is a 96Boards compliant community board based on 
 |    7     |     USB 3.0                                                |
 |    8     |     4 leds                                                 |
 |    9     |     60 PIN High speed                                      |
-|    10    |     WLAN And bluetooth                                     |
+|    10    |     WLAN And Bluetooth                                     |
 |    11    |     BOOT  Select                                           |
 |    12    |     DEBUG Uart                                             |
 |    13    |     POWER/RESET                                            |
@@ -215,7 +215,7 @@ The Hikey960 Development Board boots up from the UFS.
 
 #### Bluetooth
 
-- Bluetooth 4.1 Compliance and CSA2 Support.
+- _Bluetooth_® wireless technology 4.1 Compliance and CSA2 Support.
 - Host Controller Interface (HCI) Transport for Bluetooth Over UART.
 - Dedicated Audio Processor Support of SBC Encoding + A2DP.
 - Dual-Mode Bluetooth and Bluetooth LE.

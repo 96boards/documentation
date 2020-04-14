@@ -39,7 +39,7 @@ In the Box you can find the Avenger96 as well as a microSD card which comes with
 |  RAM                 | 1024 Mbyte @ 533MHz                                                                                                    |
 |  Storage             | eMMC v4.51: 8 Gbyte <br> QSPI: 2Mbyte <br> EEPROM: 128 byte <br> microSD Socket: UHS-1 v3.01                           |
 |  Ethernet Port       | 10/100/1000 Mbit/s, IEEE 802.3 Compliant                                                                               |
-|  Wireless            | WiFi: 5 GHz & 2.4GHz IEEE 802.11a/b/g/n/ac <br> Bluetooth®v4.2 (BR/EDR/BLE) <br> PCB Antenna                           |
+|  Wireless            | WiFi: 5 GHz & 2.4GHz IEEE 802.11a/b/g/n/ac <br> _Bluetooth_® wireless technology v4.2 (BR/EDR/BLE) <br> PCB Antenna                           |
 |  USB                 | Host: 2x type A, 2.0 high-speed <br> OTG: 1x type micro-AB, 2.0 high-speed                                             |
 |  Display             | HDMI: WXGA (1366x768)@ 60 fps, HDMI 1.4                                                                                |
 |  Audio               | Over HDMI                                                                                                              |
@@ -58,7 +58,7 @@ In the Box you can find the Avenger96 as well as a microSD card which comes with
 This short guide leads you through the first steps to start exploring your Avenger96.
 
 **Easy Setup Guide**
-- Make sure the boot switch is set to boot from the “SD-Card(Standard)” 
+- Make sure the boot switch is set to boot from the “SD-Card(Standard)”
 
 | Switch 1 | Switch 2 | Switch 3 |
 |:--------:|:--------:|:--------:|

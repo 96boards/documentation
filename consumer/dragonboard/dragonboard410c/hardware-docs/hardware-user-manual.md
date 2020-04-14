@@ -121,7 +121,7 @@ The following table lists it's key features:
    - PCM/AAC+/MP3/WMA, ECNS, Audio+ post-processing (optional)
 - **Connectivity**:
    - WLAN 802.11 b/g/n 2.4GHz
-   - Bluetooth 4.1
+   - _Bluetooth_® wireless technology 4.1
    - One USB 2.0 micro B (device mode only)
    - Two USB 2.0 (host mode only)
    - GPS
@@ -242,7 +242,7 @@ boot up.
 
 ### Processor
 
-The Snapdragon 410 APQ8016 is a quad 64-bit ARM Cortex-A53 MPcore Harvard Superscalar core, supports both LP-DDR2 / LP-DDR3 SDRAM interface, Hexagon QDSP6, 13.5 MP camera input support, Adreno 306 GPU, 1080p video encode/decode, gpsOneGen 8C with GLONASS, Bluetooth 4.1, OpenGL ES 3.0, DirectX, OpenCL, Renderscript Compute, FlexRender support.
+The Snapdragon 410 APQ8016 is a quad 64-bit ARM Cortex-A53 MPcore Harvard Superscalar core, supports both LP-DDR2 / LP-DDR3 SDRAM interface, Hexagon QDSP6, 13.5 MP camera input support, Adreno 306 GPU, 1080p video encode/decode, gpsOneGen 8C with GLONASS, _Bluetooth_® wireless technology 4.1, OpenGL ES 3.0, DirectX, OpenCL, Renderscript Compute, FlexRender support.
 
 ### Memory (DRAM)
 
@@ -577,7 +577,7 @@ SYS_DCIN: Can serves as the board’s main power source or can receive power fro
 |USB_HS_D_M_EXP            | USB_D-            |53 |54 | CSI1_C+         | MIPI_CSI1_CLK_P       |
 |GND                       | GND               |55 |56 | CSI1_C-         | MIPI_CSI1_CLK_M       |
 |N.C.                      | HSIC_STR          |57 |58 | GND             | GND                   |
-|N.C.                      | HSIC_DATA         |59 |60 | RESERVED        | N.C.                  |  
+|N.C.                      | HSIC_DATA         |59 |60 | RESERVED        | N.C.                  |
 
 #### MIPI DSI 0
 

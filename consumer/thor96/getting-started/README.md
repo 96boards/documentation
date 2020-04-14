@@ -38,7 +38,7 @@ In the Box you can find the Thor96 as well as a microSD card which comes with a 
 |  RAM                 | 1 2-GB LPDDR4 @ 1,600 MHz Industrial Temp by Micron |
 |  Storage             | microSD Socket: UHS-1 v3.01 |
 |  Ethernet Port       | 10/100/1000 Mbit/s |
-|  Wireless            | Cypress’ industry-leading 802.11ac Wi-Fi and Dual-Mode Bluetooth wireless connectivity |
+|  Wireless            | Cypress’ industry-leading 802.11ac Wi-Fi and Dual-Mode _Bluetooth_® wireless technology |
 |  USB                 | Host: 2x USB Type-A 3.0 <br> OTG: 1x type micro-AB, 2.0 high-speed |
 |  Display             | HDMI Output and DSI to HDMI |
 |  Expansion Interface | 96Boards Compliant: <br> 40-Pin Low Speed Header <br> 60-Pin High Speed Header                                         |

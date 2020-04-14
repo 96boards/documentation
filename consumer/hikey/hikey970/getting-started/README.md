@@ -49,7 +49,7 @@ The following subsections should describe how to get started with the HiKey970 u
 | GPU:                 | ARM Mali-G72 MP12 GPU                                                                            |
 | RAM:                 | 6GB LPDDR4X 1866MHz                                                                              |
 | Storage:             | 64GB UFS 2.1, Micro SD                                                                           |
-| Connectivity:        | Bluetooth/WIFI/GPS                                                                               |
+| Connectivity:        | _Bluetooth_® wireless technology/WIFI/GPS                                                                               |
 | Video:               | 1080p@60Hz HDMI, 4 line MIPI/LCD port                                                            |
 | Camera:              | 4 line MIPI port, 2 line MIPI port                                                               |
 | Expansion Interface: | One 40-pin Low Speed (LS) expansion connector<br>UART, SPI, I2S, I2C x2, GPIO x12, DC power<br>One 60-pin High Speed (HS) expansion connector<br>4L-MIPI DSI, USB, I2C x2, 2L+4L-MIPI CSI                                        |
@@ -87,4 +87,4 @@ If you are already familiar with the HiKey970 board and would like to change out
 
 Back to the [HiKey970 documentation home page](../)
 
-***   
+***

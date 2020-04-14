@@ -42,7 +42,7 @@ The following subsections should describe how to get started with the Chameleon9
 |  GPU                 | Graphics based on Intel Video Suite for FPGA                                                     |
 |  RAM                 | 512MB DDR3L (support to 1GByte)                                                                  |
 |  PMU                 | 4 to 64 GByte microSD                                                                            |
-|  Connectivity        | WLAN 802.11 b/g/n 2.4GHz, Bluetooth 4.1, One USB 2.0 OTG micro AB, Two USB 2.0 HOST
+|  Connectivity        | WLAN 802.11 b/g/n 2.4GHz, _Bluetooth_® wireless technology 4.1, One USB 2.0 OTG micro AB, Two USB 2.0 HOST
 1 USB 2.0 Host via expansion connector, Integrated USB-Blaster II JTAG cable                                              |
 |  USB                 |                                                                                                  |
 |  Display             | Up to 1080p@60fps HD video through a HDMI interface                                              |
@@ -74,4 +74,4 @@ Back to the [Chameleon96 documentation home page](../)
 
 
 
-***   
+***
