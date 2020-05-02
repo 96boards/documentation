@@ -62,7 +62,7 @@ This short guide leads you through the first steps to start exploring your Aveng
 
 | Switch 1 | Switch 2 | Switch 3 |
 |:--------:|:--------:|:--------:|
-| 1        | 0        | 0        |
+| 1        | 0        | 1        |
 
 - Insert the included microSDcard with pre-installed linux
 - Connect an display via the HDMI-connector
