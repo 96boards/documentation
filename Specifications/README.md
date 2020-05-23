@@ -10,7 +10,7 @@ redirect_from:
 - /camera-spec
 - /som-specification
 ---
-- Consumer Edition Specification ([View](/documentation/Specifications/96Boards-CE-Specification.pdf) / [Download](https://linaro.co/ce-specification))
+- Consumer Edition Specification ([View](Specifications/96Boards-CE-Specification.pdf) / [Download](https://linaro.co/ce-specification))
    - Low-cost Hardware Platform Specification
 - Enterprise Edition Specification ([View](/documentation/Specifications/96Boards-EE-Specification.pdf) / [Download](https://linaro.co/ee-specification))
    - Server Hardware Platform Specification
