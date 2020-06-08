@@ -4,4 +4,6 @@ permalink: /documentation/consumer/aiml/downloads/
 ---
 ## Downloads
 
-Coming Soon...
+### Third Party:
+
+- [meta-einfochips layer for Yocto build](https://github.com/ArrowElectronics/I.IMX8_Thor96/releases)

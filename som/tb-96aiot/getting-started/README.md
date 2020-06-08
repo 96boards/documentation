@@ -65,7 +65,7 @@ Configure the MUX Switches on the Carrier Board as follows:
 For TB-96AIOT RK1808 SOM UART Debug: Bit4 on S3, S5
 S3 Bits functions:
 
-- Bit1:Not used
+- Bit1: Not used
 - Bit2: Not used
 - Bit3: Not used
 - Bit4: UART voltage
