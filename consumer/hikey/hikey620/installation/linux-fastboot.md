@@ -71,6 +71,7 @@ $ wget https://snapshots.linaro.org/reference-platform/components/uefi-staging/l
 ```
 - Flash eMMC
 ```shell
+$ sudo fastboot getvar partition-size:ptable
 $ sudo fastboot flash ptable ptable-linux-8g.img #OR ptable-linux-4g.img
 $ sudo fastboot reboot
 $ sudo fastboot flash boot boot-linaro-stretch-developer-hikey.img
@@ -80,6 +81,7 @@ $ sudo fastboot flash system rootfs-linaro-stretch-developer-hikey.img
 ###### AOSP
 
 ```shell
+$ sudo fastboot getvar partition-size:ptable
 $ sudo fastboot flash ptable ptable-aosp-8g.img
 $ sudo fastboot reboot
 $ sudo fastboot flash boot boot_fat.uefi.img

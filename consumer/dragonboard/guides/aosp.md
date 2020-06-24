@@ -6,7 +6,7 @@ redirect_from:
 - /documentation/consumer/dragonboard/dragonboard820c/guides/aosp/
 - /documentation/consumer/dragonboard/dragonboard410c/guides/aosp/
 ---
-# Building Android Open Source Project (AOSP) for Dragonboard Family
+# Building Android Open Source Project (AOSP) for Dragonboard 410c and 820c Family
 
 **NOTE: This page provides instructions to make a build based on AOSP for Dragonboard Family. This should be considered work-in-progress, and the following page might be updated at any time with newer (and different) instructions. This is not a complete tutorial for AOSP, and the reader is expected to be familiar with building Android in general. For any general Android issue, please refer to Android documentation and guides.**
 
