@@ -45,9 +45,9 @@ If the above instructions do not work, please try the following:
 
 ### Flashing the device
 
-Download and unzip the most recent bootloader package from the following link:
+Download and unzip the most recent bootloader release from the following link:
 
-http://snapshots.linaro.org/96boards/dragonboard845c/linaro/rescue/latest/
+http://releases.linaro.org/96boards/dragonboard845c/linaro/rescue/latest/
 
 Then run:
 
@@ -67,9 +67,11 @@ from QDL stdout:
     LOG: INFO: Will issue reset/power off 100 useconds, if this hangs check if watchdog is enabled
     LOG: INFO: bsp_target_reset() 0
 
+*Note*: Linaro regularly publishes development builds for the bootloader package. Instead of flashing the most recent bootloader release, users might want to experiment with development builds, which can be found at http://snapshots.linaro.org/96boards/dragonboard845c/linaro/rescue/latest/.
+
 ### UFS provisioning
 
-UFS provisioning is not support yet.
+UFS provisioning is not supported yet.
 
 ### Booting into fastboot
 
