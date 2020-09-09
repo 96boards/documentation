@@ -4,4 +4,4 @@ permalink: /documentation/mezzanine/on-camera/files/
 ---
 ## e-con Systems Camera Mezzanine Files
 
-Coming soon...
+- [Getting Started](files/e-CAM50_CU96_Getting_Started_Manual.pdf)
