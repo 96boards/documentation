@@ -57,7 +57,7 @@ jobs:
       - name: Merge test branch
         uses: linaro-its/merge-test-branch@v2.5
         with:
-          path: website
+          path: documentation
 
       - name: Build site
         run: NSBREPO1=${{ github.workspace }}/website NSBREPO2=${{ github.workspace }}/documentation /srv/github-action-scripts/build-jekyll-site.sh
