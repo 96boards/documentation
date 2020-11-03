@@ -1,0 +1,93 @@
+name: PushAction
+
+# 96Boards is built from two git repos - website and documentation. To keep things as clean as possible,
+# the workflows always treat the website directory as the main directory, regardless of which repository
+# triggered the changes.
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  process-push:
+    runs-on: self-hosted
+    steps:
+      - name: Cancel previous runs
+        uses: n1hility/cancel-previous-runs@v2
+        with: 
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # HACK! 96Boards is currently using an old Jekyll theme that caches
+      # built images inside the source directory which gets reset when the
+      # fetch occurs so let's move it out of the way briefly ...
+      #
+      # This hack can be removed once the website is upgraded to use the
+      # newer theme, which processes images differently.
+      - name: Preserve merged_sources
+        run: MS="$GITHUB_WORKSPACE/website/merged_sources"; if [ -d "$MS" ]; then mv "$MS" "$GITHUB_WORKSPACE"; fi
+
+      - name: Fetch website repository
+        uses: actions/checkout@v2
+        with:
+          repository: 96boards/website
+          path: website
+
+      # HACK!
+      - name: Restore merged_sources
+        run: MS="$GITHUB_WORKSPACE/merged_sources"; if [ -d "$MS" ]; then mv "$MS" "$GITHUB_WORKSPACE/website"; fi
+
+      - name: Fetch docs repository
+        uses: actions/checkout@v2
+        with:
+          repository: 96boards/documentation
+          path: documentation
+
+      - name: Initialise environment
+        run: cat "$GITHUB_WORKSPACE/website/.github-env-${GITHUB_REF##*/}" >> $GITHUB_ENV
+
+      - run: env
+
+      - name: Directory push/pop
+        uses: linaro-its/directory-push-and-pop@v1.1
+        with:
+          cacheDirectory: /srv/site-builds
+          namedDirectory: ${{ env.SITE_URL }}
+          destinationDirectory: ${{ github.workspace }}/website
+
+      - name: Build site
+        run: NSBREPO1=${{ github.workspace }}/website NSBREPO2=${{ github.workspace }}/documentation /srv/github-action-scripts/build-jekyll-site.sh
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - run: cat $GITHUB_EVENT_PATH
+
+      - name: Check links
+        run: >-
+          /srv/github-action-scripts/check-links.sh
+          ${{ github.workspace }}/website/${{ env.SITE_URL }}
+          --skip-dns-check ${{ github.workspace }}/website/_data/fqdn_exceptions.txt
+          --create-github-issue https://api.github.com/repos/96boards/website/issues
+          --assign-github-issue '["ric96", "Yang-96Boards"]'
+          --github-access-token ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check routing rules
+        run: /srv/github-action-scripts/test-routing-rules.sh
+
+      - name: Make staging directory
+        run: mkdir -p /srv/s3-staging/${{ env.SITE_URL }}
+
+      - name: Sync build to staging directory
+        run: rsync -crui ${{ github.workspace }}/website/${{ env.SITE_URL }}/ /srv/s3-staging/${{ env.SITE_URL }} --delete
+
+      - name: Upload to S3
+        run: /srv/github-action-scripts/upload-to-s3-root.sh
+
+      - name: Set up Lambda redirect
+        run: /srv/github-action-scripts/set-up-lambda-redirect.sh ${{ github.workspace }}/website/${{ env.SITE_URL }}
+
+      - name: Set up security headers
+        run: cd /srv/github-action-scripts && pipenv run python lambda-security-headers.py
+
+      - name: Invalidate CloudFront cache
+        run: /srv/github-action-scripts/invalidate-cloudfront.sh
