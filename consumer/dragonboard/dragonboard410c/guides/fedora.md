@@ -18,7 +18,7 @@ Fedora is a Linux distribution developed by the community-supported Fedora Proje
 - [Bootloader](https://builds.96boards.org/releases/dragonboard410c/linaro/rescue/17.09/dragonboard410c_bootloader_emmc_linux-88.zip)
 - [U-Boot](https://fedora.roving-it.com/qcom-db410c/u-boot.img)
 - [LK firmware with display output](https://fedora.roving-it.com/qcom-db410c/emmc_appsboot.mbn)
-- [Fedora Aarch64 Build](https://dl.fedoraproject.org/pub/fedora/linux/releases/29/Server/aarch64/images/Fedora-Server-29-1.2.aarch64.raw.xz)
+- [Fedora Aarch64 Build](https://dl.fedoraproject.org/pub/fedora/linux/releases/33/Server/aarch64/images/Fedora-Server-33-1.3.aarch64.raw.xz)
 
 ### Flash Bootloader
 - Extract rescue zip:

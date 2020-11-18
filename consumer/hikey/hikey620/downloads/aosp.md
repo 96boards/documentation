@@ -24,19 +24,19 @@ redirect_from:
 
 ## Fastboot files
 
-|   Bootloader      |   [Build Folder](https://snapshots.linaro.org/96boards/hikey/linaro/uefi-openplatformpkg/latest/)    |
+|   Bootloader      |   [Build Folder](https://releases.linaro.org/96boards/hikey/linaro/binaries/latest/pkg/latest/)    |
 |:------------------|:---------------------------------------------------------------------------------------------------------|
-| l-loader.bin      | [Download](https://snapshots.linaro.org/96boards/hikey/linaro/uefi-openplatformpkg/latest/l-loader.bin)                |
-| fip.bin           | [Download](https://snapshots.linaro.org/96boards/hikey/linaro/uefi-openplatformpkg/latest/fip.bin)                     |
-| nvme.img          | [Download](https://snapshots.linaro.org/96boards/hikey/linaro/uefi-openplatformpkg/latest/nvme.img)                    |
-| ptable-aosp.img   | [4GB](https://snapshots.linaro.org/96boards/hikey/linaro/uefi-openplatformpkg/latest/ptable-aosp-4g.img) / [8GB](https://snapshots.linaro.org/96boards/hikey/linaro/uefi-openplatformpkg/latest/ptable-aosp-8g.img)                                     |
+| l-loader.bin      | [Download](https://releases.linaro.org/96boards/hikey/linaro/binaries/latest/pkg/latest/l-loader.bin)                |
+| fip.bin           | [Download](https://releases.linaro.org/96boards/hikey/linaro/binaries/latest/pkg/latest/fip.bin)                     |
+| nvme.img          | [Download](https://releases.linaro.org/96boards/hikey/linaro/binaries/latest/pkg/latest/nvme.img)                    |
+| ptable-aosp.img   | [4GB](https://releases.linaro.org/96boards/hikey/linaro/binaries/latest/pkg/latest/ptable-aosp-4g.img) / [8GB](https://releases.linaro.org/96boards/hikey/linaro/binaries/latest/pkg/latest/ptable-aosp-8g.img)                                     |
 | hisi-idt.py       | [Download]()http://builds.96boards.org/releases/reference-platform/debian/hikey/16.06/bootloader/hisi-idt.py                 |
 
 
-| Latest build files        | [Build Folder](http://snapshots.linaro.org/android/lkft/lkft-aosp-master/latest/)                 |
+| Latest build files        | [Build Folder](http://snapshots.linaro.org/android/lkft/lkft-hikey-aosp-master-5.4/latest/)                 |
 | :------------------------ | :--------------------------------------------------------------------------------------------------   |
-| boot_fat.uefi.img.tar.xz  | [Download](http://snapshots.linaro.org/android/lkft/lkft-aosp-master/latest/boot.img.xz) |
-| system.img.tar.xz         | [Download](http://snapshots.linaro.org/android/lkft/lkft-aosp-master/latest/system.img.xz)        |
-| userdata.img.tar.xz       | [Download](http://snapshots.linaro.org/android/lkft/lkft-aosp-master/latest/userdata.img.xz)      |
+| boot_fat.uefi.img.tar.xz  | [Download](http://snapshots.linaro.org/android/lkft/lkft-hikey-aosp-master-5.4/latest/*-boot.img.xz) |
+| system.img.tar.xz         | [Download](http://snapshots.linaro.org/android/lkft/lkft-hikey-aosp-master-5.4/latest/*-system.img.xz)        |
+| userdata.img.tar.xz       | [Download](http://snapshots.linaro.org/android/lkft/lkft-hikey-aosp-master-5.4/latest/*-userdata.img.xz)      |
 
 ### Continue to [Installation page](../installation/)

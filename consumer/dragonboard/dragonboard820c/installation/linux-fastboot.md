@@ -80,4 +80,4 @@ If all steps went fine and you have flashed `ALIP` image, you should now have a 
 
 Initial support for DragonBoard 820c has been added into the OpenEmbedded QCOM BSP later, including the appropriate kernel recipe. To build an image for Dragonboard 820c , simply follow the same instructions as usual, from [Dragonboard-410c-OpenEmbedded-and-Yocto](https://github.com/Linaro/documentation/blob/master/Reference-Platform/CECommon/OE.md). When you select the MACHINE to build for, pick `dragonboard-820c`.
 
-The board has been added to the Linaro Reference Platform OpenEmbedded builds, and prebuilt images for this board are available here: [http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/rocko/latest/](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/rocko/latest/).
+The board has been added to the Linaro Reference Platform OpenEmbedded builds, and prebuilt images for this board are available here: [http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/dunfell/192/](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/dunfell/192/).

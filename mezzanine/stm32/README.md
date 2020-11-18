@@ -45,4 +45,3 @@ The [96Boards STM32 Sensor Mezzanine](https://www.96boards.org/product/stm32/) b
 # 2) Guides and Documentation
   - [Useful Guides](guides/)
   - [Hardware Docs](files/)
-  - [Schematics Pack](http://www.st.com/resource/en/schematic_pack/b-f446e-96b01a_sch.zip)
