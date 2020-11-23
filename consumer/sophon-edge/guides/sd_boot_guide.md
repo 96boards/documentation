@@ -44,7 +44,7 @@ Now that minicom has been configured it’s time to get the relevant files for f
 
 `$ git clone https://github.com/BM1880-BIRD/bm1880-system-sdk.git`
 
-Next it's important to configure the cross comilpation toolchain for the rootfs. [Download the toolchian here](https://sophon-file.bitmain.com.cn/sophon-prod/drive/18/11/08/11/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu.tar.xz.zip), and unzip it into the bm1880-system-sdk directory.
+Next it's important to configure the cross comilpation toolchain for the rootfs. [Download the toolchian here](https://releases.linaro.org/components/toolchain/binaries/6.3-2017.05/aarch64-linux-gnu/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu.tar.xz), and unzip it into the bm1880-system-sdk directory.
 
 Navigate to the bm1880-system-sdk directory and configure envsetup_edb.sh to point to the downloaded toolchain.
 

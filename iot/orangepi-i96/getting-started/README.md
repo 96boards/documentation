@@ -50,7 +50,7 @@ The following subsections should describe how to get started with the Orange Pi 
 |  OS Support          | Android, Ubuntu, Debian, etc.                                                                    |
 |  Size                | 60mm × 30mm                                                                                      |
 
-For more information and instructions on how to get started with the Orange Pi i96, please take a look at the [Hardware User Manual](http://www.orangepi.org/downloadresources/orangepii96/orangepizeroplus2H5_9407e427561c7a20.html)
+For more information and instructions on how to get started with the Orange Pi i96, please take a look at the [Hardware User Manual](http://www.orangepi.org/downloadresources/orangepii96/orangepii96_892f5d5eb9dd5c0e09cc8f70.html)
 
 ***
 

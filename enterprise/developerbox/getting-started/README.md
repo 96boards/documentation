@@ -51,8 +51,8 @@ If you have a preferred OS now is the time to find out if it is
 available in the [Downloads and Installation](../installation/) section. This section will provide links to various Linaro supported or third party ISO images, as well as detailed installation instructions.
 
 Alternatively; if you have a simple home network (or a very relaxed corporate one) then
-it is possible to install the [Enterprise Reference
-Platform](https://platforms.linaro.org/documentation/Reference-Platform/Platforms/Enterprise/), with a fully operational desktop environment,
+it is possible to install the Enterprise Reference
+Platform, with a fully operational desktop environment,
 directly from within the EDK2 menu system. The Enterprise Reference
 Platform is intended to be used as a reference for component validation
 and, among other things, pairs Debian Stretch with a more recent kernel
