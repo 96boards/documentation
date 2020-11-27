@@ -5,6 +5,7 @@ redirect_from:
 - /documentation/ConsumerEdition/README.md/
 - /documentation/ConsumerEdition
 - /documentation/consumer/README.md/
+toc: false
 ---
 Welcome to the official documentation for Consumer Edition 96Boards, these documents are written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
@@ -15,7 +16,7 @@ Select your Consumer Edition 96Boards device to access all product specific reso
 - [Compare 96Boards](guides/compare_96boards_ce.md)
 - [96Boards CE Extras](guides/)
 
-<div style="overflow-x:scroll;" markdown="1">
+<div class="table-responsive" markdown="1">
 
 | 96Boards                                         | About                                                  | Options                    |
 |:------------------------------------------------:|:------------------------------------------------------:|:--------------------------:|
@@ -36,5 +37,6 @@ Select your Consumer Edition 96Boards device to access all product specific reso
 <img src="https://i.imgur.com/ndacN8g.png" data-canonical-src="https://i.imgur.com/ndacN8g.png" width="200" height="130" /><br> **MediaTek X20** | Board based on MediaTek X20 Applications Processor  | [Documentation](mediatekx20/)<br> |
 | <img src="https://github.com/96boards/documentation/blob/master/consumer/mediatekx20pro/additional-docs/images/images-board/sd/mediatekx20pro-front-sd.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/mediatekx20pro/additional-docs/images/images-board/sd/mediatekx20pro-front-sd.jpg?raw=true" width="200" height="130" /><br> **MediaTek X20 Pro** | Board based on MediaTek X20 Applications Processor  | [Documentation](mediatekx20pro/)<br> |
 | <img src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-board/sd/ST_B2260_Front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/consumer/b2260/additional-docs/images/images-board/sd/ST_B2260_Front_SD.png?raw=true" width="200" height="200" /><br> **B2260** | Board based on the Cannes2-STiH410 SoC  | [Documentation](b2260/)<br> |
+{:.table}
 
 </div>

@@ -2,10 +2,11 @@
 title: Mezzanine Edition Documentation
 permalink: /documentation/mezzanine/
 redirect_from: /documentation/mezzanine/README.md/
+toc: false
 ---
 Mezzanine Design Guidelines ([View](https://github.com/96boards/documentation/blob/master/mezzanine/files/mezzanine-design-guidelines.pdf) / [Download](https://github.com/96boards/documentation/raw/master/mezzanine/files/mezzanine-design-guidelines.pdf))
 
-<div style="overflow-x:scroll;" markdown="1">
+<div class="table-responsive" markdown="1">
 
 | 96Boards                                         | About                                                  | Options                                              |
 |:------------------------------------------------:|:------------------------------------------------------:|:----------------------------------------------------:|
@@ -22,5 +23,6 @@ Mezzanine Design Guidelines ([View](https://github.com/96boards/documentation/bl
 | <img src="neonkey/neonkey-front-sd.JPG" data-canonical-src="neonkey/neonkey-front-sd.JPG" width="200" height="85" /><br> **NeonKey** | Neonkey is the sensor hub platform for all 96Boards compliant family products  | [Documentation](/documentation/mezzanine/neonkey/)<br> |
 | <img src="https://www.96boards.org/product/mezzanine/arrow-nextbio/images/nextbio-back-sd.jpg?raw=true" data-canonical-src="https://www.96boards.org/product/mezzanine/arrow-nextbio/images/nextbio-back-sd.jpg?raw=true" width="200" height="85" /><br> **NEXTBiometrics Fingerprint Sensor Mezzanine** | The NB-2023-S2 shield board with assembled NB-2023-S2-VAIX (SPI) fingerprint module is a fingerprint development shield for the DragonBoard 410c development board by Arrow Electronics.  | [Documentation](/documentation/mezzanine/arrow-nextbio/)<br> |
 | <img src="https://www.96boards.org/product/mezzanine/shiratech-lte/images/shiratech-lte-front-sd.jpg?raw=true" data-canonical-src="https://www.96boards.org/product/mezzanine/shiratech-lte/images/shiratech-lte-front-sd.jpg?raw=true" width="200" height="85" /><br> **Shiratech LTE and Sensors Mezzanine** | Shiratech LTE and Sensor Mezzanine adds LTE modem functionality and a set of sensors to any 96Boards compatible board | [Documentation](/documentation/mezzanine/shiratech-lte/)<br> |
+{:.table}
 
 </div>
