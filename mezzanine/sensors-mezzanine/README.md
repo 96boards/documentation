@@ -229,7 +229,7 @@ Installing Debian on the CircuitCo or LeMaker HiKey:
 
 Qualcomm Dragonboard 410C User Guide:
 
-[/documentation/consumer/dragonboard410c/installation/](/documentation/consumer/dragonboard410c/installation/)
+[/documentation/consumer/dragonboard410c/installation/](/documentation/consumer/dragonboard/dragonboard410c/installation/)
 
 ## Step 2: Attach Sensors Adapter
 
