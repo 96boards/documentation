@@ -27,7 +27,7 @@ This quick start guide will show you how to connect the mezzanine and accessorie
 - Connect the included LTE antenna toRF connector Antenna Main.
 - Connect HDMI monitor,USB keyboard and USB mouse to your board.
 - Power on your board.
-- Download and install the latest Debian Linux for your 96Boards CE/EE board.For Dragonboard 410C follow the instructions in the following link: [/documentation/consumer/dragonboard410c/downloads/debian.md.html](/documentation/consumer/dragonboard410c/downloads/debian.md.html)
+- Download and install the latest Debian Linux for your 96Boards CE/EE board.For Dragonboard 410C follow the instructions in the following link: [/documentation/consumer/dragonboard410c/downloads/debian.md.html](/documentation/consumer/dragonboard/dragonboard410c/downloads/debian.md.html)
 
 # 5) LTE Modem Configuration
 - Once Debian desktop is up and running it is time to configure the LTE modem.
