@@ -13,10 +13,10 @@ Thanks for stopping by to contribute the mezzanine-community repository! The fol
 <!-- no toc -->
 - [Bugs and Suggestions](#bugs-and-suggestions)
 - [Contribution](#contribution)
-  - [General Contribution and Bug-Fixes:](#general-contribution-and-bug-fixes)
+  - [General Contribution and Bug-Fixes](#general-contribution-and-bug-fixes)
   - [Adding a New Guide](#adding-a-new-guide)
-  - [Adding a New Boards:](#adding-a-new-boards)
-  - [Guidelines for submitting a Pull Request:](#guidelines-for-submitting-a-pull-request)
+  - [Adding a New Boards](#adding-a-new-boards)
+  - [Guidelines for submitting a Pull Request](#guidelines-for-submitting-a-pull-request)
 
 ## Bugs and Suggestions
 
