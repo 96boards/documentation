@@ -7,7 +7,7 @@ permalink: /documentation/consumer/rock/rock960c/guides/
 
 These guides will help to get you started with a variety of available on-boards software
 
-- [Common guides for Rock boards](../../guides)
+- [Common guides for Rock boards](../../guides/)
 
 # ROCK960c Specific Guides
 

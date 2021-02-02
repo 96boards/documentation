@@ -22,4 +22,4 @@ Choose one boot image, the root file system you choose will be based on the boot
 
 Latest OpenEmbedded snapshot images can be found [HERE](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/openembedded/). Once you have downloaded your pre-built images, proceed to the installation page.
 
-## Continue to [Installation page](../installation)
+## Continue to [Installation page](../installation/)

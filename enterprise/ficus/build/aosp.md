@@ -134,4 +134,4 @@ $ ./mkupdate.sh
 
 **update.img** is the packed image with all partitions.
 
-Proceed to [Installation Instructions](../installation)
+Proceed to [Installation Instructions](../installation/)

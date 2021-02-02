@@ -16,7 +16,7 @@ redirect_from:  /documentation/consumer/dragonboard820c/downloads/debian.md.html
 |[Download](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/dragonboard-820c-sdcard-rescue-*.zip)              |
 |[Release Notes](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/rescue/latest/)                                             |
 
-### Continue to [Installation page](../installation)
+### Continue to [Installation page](../installation/)
 
 ***
 
@@ -38,4 +38,4 @@ redirect_from:  /documentation/consumer/dragonboard820c/downloads/debian.md.html
 | [Developer](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/debian/latest/linaro-*-developer-dragonboard-820c-*.img.gz)     |
 | [Release Notes](http://snapshots.linaro.org/96boards/dragonboard820c/linaro/debian/latest/)                                             |
 
-### Continue to [Installation page](../installation)
+### Continue to [Installation page](../installation/)
