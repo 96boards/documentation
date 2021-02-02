@@ -10,15 +10,13 @@ Thanks for stopping by to contribute the mezzanine-community repository! The fol
 **NOTE: This documentation is solely for the 96Boards Documentation Repository, for filing bugs and issues about the boards themselves please refer to: [Report A Bug](Extras/Report_a_bug.md)**
 
 ## Table Of Contents
-
-- [Contributing to 96Boards Documentation](#contributing-to-96boards-documentation)
-  - [Table Of Contents](#table-of-contents)
-  - [Bugs and Suggestions](#bugs-and-suggestions)
-  - [Contribution](#contribution)
-    - [General Contribution and Bug-Fixes:](#general-contribution-and-bug-fixes)
-    - [Adding a New Guide](#adding-a-new-guide)
-    - [Adding a New Boards:](#adding-a-new-boards)
-    - [Guidelines for submitting a Pull Request:](#guidelines-for-submitting-a-pull-request)
+<!-- no toc -->
+- [Bugs and Suggestions](#bugs-and-suggestions)
+- [Contribution](#contribution)
+  - [General Contribution and Bug-Fixes:](#general-contribution-and-bug-fixes)
+  - [Adding a New Guide](#adding-a-new-guide)
+  - [Adding a New Boards:](#adding-a-new-boards)
+  - [Guidelines for submitting a Pull Request:](#guidelines-for-submitting-a-pull-request)
 
 ## Bugs and Suggestions
 
