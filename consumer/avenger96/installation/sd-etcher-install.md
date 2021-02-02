@@ -21,4 +21,4 @@ redirect_from:
 
 ##### Step 5: Removed SD card from host machine and insert into Avenger96 board (on board SD card slot)
 
-##### Step 6: Follow booting instructions from [Getting Started guide](../getting-started)
+##### Step 6: Follow booting instructions from [Getting Started guide](../getting-started/)

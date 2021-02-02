@@ -45,5 +45,5 @@ After the compilation, the images can be found in the directory `output/repeater
 - ``zephyr-signed-ota*.bin`` - Kernel
 - ``wcn-modem*`` - WCN Modem
 
-Now, proceed to [installation page](../installation#methods-of-installation) for
+Now, proceed to [installation page](../installation/#methods-of-installation) for
 flashing the binaries onto IVY5661.

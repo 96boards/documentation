@@ -167,4 +167,4 @@ $ ./android-gpt.sh
 
 **rockdev/gpt.img** is the gpt image with all partitions.
 
-Proceed to [Installation Instructions](../installation)
+Proceed to [Installation Instructions](../installation/)

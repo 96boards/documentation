@@ -40,7 +40,7 @@ The following subsections should describe how to get started with the Ivy5661 us
 | OS Support           | Zephyr                          |
 | Size                 | 60 x 30mm                       |
 
-For more information, please refer to the [Hardware User Manual](../hardware-docs)
+For more information, please refer to the [Hardware User Manual](../hardware-docs/)
 
 **IMPORTANT NOTES**
 
