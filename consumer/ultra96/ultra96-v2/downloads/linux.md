@@ -14,4 +14,4 @@ This pre-built Linux image provides users with a great development environment f
 |[Download](http://avnet.me/ultra96-v2-oob)    |
 |Release Notes                                 |
 
-## Continue to [Installation page](../installation)
+## Continue to [Installation page](../installation/)

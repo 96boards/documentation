@@ -40,4 +40,4 @@ $ make -j$(nproc)
 
 # Installation
 
-- Proceed to [Installation Instructions](../installation)
+- Proceed to [Installation Instructions](../installation/)

@@ -11,12 +11,14 @@ Thanks for stopping by to contribute the mezzanine-community repository! The fol
 
 ## Table Of Contents
 
-- [Bugs and Suggestions](#bugs-and-suggestions)
-- [Contribution](#contribution)
-  - [General Contribution and Bug-Fixes](#general-contribution-and-bug-fixes)
-  - [Adding a New Guide](#adding-a-new-guide)
-  - [Adding a New Boards](#adding-a-new-boards)
-  - [Guidelines for submitting a Pull Request](#guidelines-for-submitting-a-pull-request)
+- [Contributing to 96Boards Documentation](#contributing-to-96boards-documentation)
+  - [Table Of Contents](#table-of-contents)
+  - [Bugs and Suggestions](#bugs-and-suggestions)
+  - [Contribution](#contribution)
+    - [General Contribution and Bug-Fixes:](#general-contribution-and-bug-fixes)
+    - [Adding a New Guide](#adding-a-new-guide)
+    - [Adding a New Boards:](#adding-a-new-boards)
+    - [Guidelines for submitting a Pull Request:](#guidelines-for-submitting-a-pull-request)
 
 ## Bugs and Suggestions
 
@@ -95,7 +97,7 @@ We encourage our community members to submit 96Boards related guides to our repo
 
 If you have recently launched a new 96Boards and have to add it to the documentation repository.
 - Get yourself familiar with the [General Contribution and Bug-Fixes](#general-contribution-and-bug-fixes) topic.
-- Arrange your documentation material following the [Template](templates/board-template)
+- Arrange your documentation material following the [Template](templates/board-template/README.md){:target="_blank"}
 - Each folder/section has a README.md file that acts like the "index.html" or front page of said section of the documentation. This can be used as an index or point-of-entry for said section of the documentation.
 - **Boards Folder Structure:**
   - ```<board-name/additional-docs/```:
@@ -111,9 +113,9 @@ If you have recently launched a new 96Boards and have to add it to the documenta
     - ```<boards-name>/installation/>```: Instructions to install various pieces of software go here. These may include Kernel, OS, Bootlaoder etc.
     - ```<boards-name>/support/>```: Any information relating to finding support for your board is placed here. This may include forum links and also links to other sections of this documentation.
 - Copy you board folder under the right Edition category folder
-  - [Consumer Edition(CE)](consumer) ```/consumer/<board-name>/```
-  - [Enterprise Edition(EE)](enterprise) ```/enterprise/<board-name>/```
-  - [Internet of Things Edition(IE)](iot) ```/iot/<board-name>/```
+  - [Consumer Edition(CE)](consumer/) ```/consumer/<board-name>/```
+  - [Enterprise Edition(EE)](enterprise/) ```/enterprise/<board-name>/```
+  - [Internet of Things Edition(IE)](iot/) ```/iot/<board-name>/```
 - Send in a Pull Request
 
 **Things To Remember: Before sending the Pull request:**
@@ -136,7 +138,7 @@ If you have recently launched a new 96Boards and have to add it to the documenta
     ```
   - And modify them according to your board
 - Make sure to place all the images in the ```assets/images``` folder with the correct resolution as mentioned in the template.
-- If your board has its guides section populated, make sure to add the board to our [guides page](guides) ```/guides/README.md```
+- If your board has its guides section populated, make sure to add the board to our [guides page](guides/) ```/guides/README.md```
 - Before submitting a Pull Request to the 96Boards repository, make sure to read and adhere to our guidelines mentioned in the [Guidelines for submitting a Pull Request](#guidelines-for-submitting-a-pull-request) section.
 - Also take a look at our [Contribution Guide](https://www.youtube.com/playlist?list=PL-NF6S9MM_W1Lf714oYsSRIHT4bL_8P7e) play-list over at YouTube for short tutorials.
 

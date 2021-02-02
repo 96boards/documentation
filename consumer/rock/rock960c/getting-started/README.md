@@ -131,7 +131,7 @@ Please visit the [ROCK960 Model C Hardware User Manual](../hardware-docs/hardwar
 
 ### Download Image and tools
 
-- Go to [Downloads page](../../downloads): This page lists all Linaro and 3rd party operating systems available for ROCK960 Model C. Choose an Image to download and unzip it.
+- Go to [Downloads page](../../downloads/): This page lists all Linaro and 3rd party operating systems available for ROCK960 Model C. Choose an Image to download and unzip it.
 
 - Download the flash tool, [Etcher](https://etcher.io). Choose the right version for your host operation system. Here we take Ubuntu as an example, other host OS are similar.
   <img src="../additional-docs/images/images-install/linux_etcher_download_website.png" data-canonical-src="" width="250" height="160" />
@@ -176,11 +176,11 @@ Please visit the [ROCK960 Model C Hardware User Manual](../hardware-docs/hardwar
 
 ## What's Next?
 
-- [Downloads page](../../downloads): This page lists all Linaro and 3rd party operating systems available for ROCK960 Model C. Try alternative images for ROCK960 Model C.
+- [Downloads page](../../downloads/): This page lists all Linaro and 3rd party operating systems available for ROCK960 Model C. Try alternative images for ROCK960 Model C.
 
-- [Installation page](../../installation): This page lists other installation method for ROCK960 Model C.
-- [Userful Guide page](../../guides): This page lists some useful guide of using ROCK960 Model C.
-- [Troubleshooting](../../support)
+- [Installation page](../../installation/): This page lists other installation method for ROCK960 Model C.
+- [Userful Guide page](../../guides/): This page lists some useful guide of using ROCK960 Model C.
+- [Troubleshooting](../../support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
 Back to the [ROCK960 documentation home page](../)

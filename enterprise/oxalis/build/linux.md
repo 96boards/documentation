@@ -50,4 +50,4 @@ $ <sdk-install-dir>/build_oxalisls1012a
 - After the build you can find the images in:
 ```<sdk-install-dir>/<build-dir>/tmp/deploy/images/ls1012aoxalis/```
 
-**Follow [Installation Guide](../installation)**
+**Follow [Installation Guide](../installation/)**

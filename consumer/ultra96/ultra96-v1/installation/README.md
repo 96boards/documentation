@@ -35,7 +35,7 @@ This method requires the following hardware:
 - USB Mouse and/or keyboard
 - Mini DisplayPort cable to HDMI or DisplayPort 
 
-Go to the [Downloads page](../downloads) to get your SD card image.
+Go to the [Downloads page](../downloads/) to get your SD card image.
 
 Proceed to installation instructions using [Etcher](https://etcher.io/)
 

@@ -19,4 +19,4 @@ applications.
 
 
 ### Proceed to Installation Doc
-- [Installation](../installation)
+- [Installation](../installation/)
