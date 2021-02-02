@@ -15,7 +15,7 @@ permalink: /documentation/enterprise/ficus/downloads/debian.md.html
 |:------------------|:------------------------------------|
 |All-in-one image with bootloader/kernel/rootfs     |[Debian Stretch Desktop armhf](https://dl.vamrs.com/products/rock960/images/debian/rock960_debian_stretch_desktop_armhf_20180115.tar.gz)                             |
 
-This image can be flashed to eMMC from USB or write and run on a SD card. Continue to [Installation page](../installation)
+This image can be flashed to eMMC from USB or write and run on a SD card. Continue to [Installation page](../installation/)
 
 ***
 
@@ -36,4 +36,4 @@ This image can be flashed to eMMC from USB or write and run on a SD card. Contin
 |:------------------|:----------------------------------|
 |Debian rootfs armhf     | [debian_rootfs.img.gz](https://dl.vamrs.com/products/rock960/images/debian/debian_rootfs_armhf_rockchip_release_20171108.img.gz)                          |
 
-Continue to [Installation page](../installation)
+Continue to [Installation page](../installation/)

@@ -68,10 +68,10 @@ Once the board powers up, the boot information will be printed on the UART termi
 
 If you are already familiar with the Sophon Edge and would like to change out the stock operating system, please proceed to one of the following pages:
 
-- [Downloads page](../downloads): This page lists all Linaro and 3rd party operating systems available for the Sophon Edge
-- [Installation page](../installation): If you already have the images you need, this page has information on how to install the different operating systems onto your Sophon Edge
+- [Downloads page](../downloads/): This page lists all Linaro and 3rd party operating systems available for the Sophon Edge
+- [Installation page](../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your Sophon Edge
 - [Guides](../guides/)
-- [Support](../support)
+- [Support](../support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
 Back to the [Sophon Edge documentation home page](../)

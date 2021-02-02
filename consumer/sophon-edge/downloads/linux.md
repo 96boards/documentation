@@ -11,4 +11,4 @@ This pre-built Linux image provides users with a great development environment f
 
 Coming Soon...
 
-## Continue to [Installation page](../installation)
+## Continue to [Installation page](../installation/)

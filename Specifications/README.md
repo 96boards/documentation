@@ -9,6 +9,7 @@ redirect_from:
 - /tv-specification
 - /camera-spec
 - /som-specification
+toc: false
 ---
 - Consumer Edition Specification ([View](/documentation/Specifications/96Boards-CE-Specification.pdf) / [Download](https://linaro.co/ce-specification))
    - Low-cost Hardware Platform Specification

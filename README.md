@@ -3,6 +3,7 @@ title: Documentation
 permalink: /documentation/
 redirect_from:
 - /documentation/README.md/
+toc: false
 ---
 Welcome to the official documentation for 96Boards, this documentation is written by the 96Boards team at Linaro with community contribution and links to third party material.
 
@@ -13,7 +14,7 @@ Select your platform for a list of supported products (left), or jump to 96Board
 - [96Boards Guides](guides/)
 - [Contribute to this repository](CONTRIBUTE.md)
 
-<div style="overflow-x:scroll;" markdown="1">
+<div class="table-responsive" markdown="1">
 
 | Platform                                | Description                                 | Boards                                     |
 |:---------------------------------------:|:-------------------------------------------:|:-------------------------------------------|
@@ -21,7 +22,8 @@ Select your platform for a list of supported products (left), or jump to 96Board
 |  [**Consumer Edition**](consumer/)<br> [<img src="/assets/images/content/96Consumer.svg" width="240" height="100" />](consumer/) <br> | These small, low-cost, and low-power consumer 96Boards<br>are great for developers, makers, and hobbyists! | [View Boards](consumer/)<br>[Guides](consumer/guides/)<br>[Compare](consumer/guides/compare_96boards_ce.md)  |
 |  [**Enterprise Edition**](enterprise/) <br>[<img src="/assets/images/content/96Enterprise.svg" width="240" height="100" />](enterprise/)| These powerful, reliable, ARM based 96Boards boards are<br>ideal targets for networking and server segments| [View Boards](enterprise/)<br> |
 |  [**Mezzanine**](mezzanine/) <br>[<img src="/assets/images/content/96Partner.svg" width="240" height="100" />](mezzanine/) | Expand on all 96Boards with new interfaces for IoT,<br>industrial control, and other embedded applications. | [View Boards](mezzanine/) |
-
+{:.table}
+#
 </div>
 
 ***

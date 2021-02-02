@@ -25,7 +25,7 @@ This is a Linux kernel feature that can be used:
     feature is provided as a workaround for broken hardware, it is
     disabled by default.
 
-Details and instructions how to build your own EDID data are given in [Documentation/EDID/HOWTO.txt](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/Documentation/EDID/HOWTO.txt).
+Details and instructions how to build your own EDID data are given in [Documentation/EDID/HOWTO.txt](https://www.kernel.org/doc/Documentation/EDID/HOWTO.txt).
 
 So basically, when using this feature the real EDID is not used, and is being replaced by a fake one.
 

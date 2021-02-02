@@ -23,7 +23,6 @@ Learn about your DragonBoard™ 410c board as well as how to prepare and set up 
    - FTDI TTL-232R-3V3 (for SCP UART)
    - Micro-USB cable for console
    - 4pin Molex to 15-pin SATA power cable such as
-      - Single: [Purex PXC-M1S](http://www.microcenter.com/product/403823/4-pin_Molex_(Male)_to_15-pin_SATA_Power_Cable_6)
       - Double: [KingWin SAC-12](http://www.microcenter.com/product/409249/8_Molex_4-Pin_Male_to_Dual_15-Pin_SATA_Power_Cable)
    - SATA-eSATA adapter cable (e.g.[StarTech SATA2ESATA6](https://www.startech.com/Cables/Drive/eSATA/6foot-Shielded-eSATA-to-SATA-Cable~SATA2ESATA6))
    - SATA-SATA cable (e.g. [Delux Infinity DLX-S18](http://www.microcenter.com/product/388739/18_SATA_III_Cable))
