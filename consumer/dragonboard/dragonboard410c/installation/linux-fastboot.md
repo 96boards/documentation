@@ -163,7 +163,7 @@ de82318	fastboot
 $ cd <extraction directory>
 
 # Make sure you have properly unzipped the boot and rootfs downloads
-$ sudo fastboot flash boot boot-linaro-jessie-qcom-snapdragon-arm64-**BUILD#**.img
+$ sudo fastboot flash:raw boot boot-linaro-jessie-qcom-snapdragon-arm64-**BUILD#**.img
 $ sudo fastboot flash rootfs linaro-jessie-developer-qcom-snapdragon-arm64-**BUILD#**.img
 ```
 **Note**: Replace **BUILD#** in the above commands with the file-specific date/build stamp.
