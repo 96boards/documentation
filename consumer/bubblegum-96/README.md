@@ -3,7 +3,6 @@ title: Documentation for Bubblegum-96
 permalink: /documentation/consumer/bubblegum-96/
 redirect_from:
 - /documentation/ConsumerEdition/Bubblegum-96/README.md/
-- /documentation/ConsumerEdition/Bubblegum-96/README.md/
 - /documentation/consumer/bubblegum-96/README.md/
 ---
 # Using the Bubblegum-96
@@ -27,5 +26,5 @@ A comprehensive guide to using the [Bubblegum-96](https://www.96boards.org/produ
    - These guides will help to get you started with a variety of available on-boards software
 - [Hardware Documentation](hardware-docs/)
    - Explore what makes your Bubblegum-96 unique, technical specifications, schematics, hardware notes and more...
-- [Support](support/)
+- [Troubleshooting and Support](support/)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers

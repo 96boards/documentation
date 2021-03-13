@@ -16,4 +16,4 @@ permalink: /documentation/mezzanine/audio-mezzanine/Guides/beginner-guides/audio
     - Playback: [Start] -> [Sound & Video] -> [VLC]
 
 # Enable Digital Microphone
-- https://www.96boards.org/documentation/consumer/dragonboard410c/guides/enable-dmic.md.html
+- /documentation/consumer/dragonboard410c/guides/enable-dmic.md.html

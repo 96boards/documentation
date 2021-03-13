@@ -50,10 +50,10 @@ The following subsections should describe how to get started with the Bubblegum-
 |  CPU                 | ARM Cortex-A53 Quad-core up to 1.8GHz                                                                  |
 |  GPU                 | Imagination Power VR G6230, OpenGL ES 3.1, OpenGL 3.2, DirectX 10, OpenCL 1.2 EP                       |
 |  RAM                 | 2GB LPDDR3 @ 533MHz                                                                                    |
-|  PMU                 | ???                                                                                                    |
+|  PMU                 | ATC2609                                                                                                    |
 |  Storage             | 8GB eMMC 4.51 on board storage MicroSD card slot	                                                     |
 |  Ethernet Port       | USB 2.0 expansion                                                                                      |
-|  Wireless            | Wi-Fi 802.11 b/g/n 2.4GHz Dual-mode bluetooth and bluetooth low energy                                 |
+|  Wireless            | Wi-Fi 802.11 b/g/n 2.4GHz Dual-mode _Bluetooth_® wireless technology and Bluetooth low energy                                 |
 |  USB                 | 1 x USB2.0, 1 x USB3.0, 1 x USB 2.0 OTG                                                                |
 |  Display             | HDMI 1.4b with HDCP (HDMI connector type A/C), up to 4k Ultra                                          |
 |  Video               | 1080p@60fps HD video playback and capture with H.264 (AVC), 4096*2304@30fps playback with H.265 (HEVC) |
@@ -61,7 +61,7 @@ The following subsections should describe how to get started with the Bubblegum-
 |  Camera              |                                                                              |
 |  Expansion Interface | 40 pin low speed expansion connector: UART, SPI, I2S, I2Cx2, GPIOx12, DC Power; 60 pin high speed expansion connector: 4L-MIPI DSI, USB, I2C x2, 2L+4L-MIPI CSI; 1xJTAG header option                                                       |
 |  LED                 | 6 x LED: 4xUser controlled, 2xRadio(BT and WLAN activity)                                               |
-|  Button              | ???                                                                             |
+|  Button              | (SW1) – Reset Key / (SW2) – ON/OFF Key / (SW3) – ADFU Key |
 |  Power Source        | 6.5V~18V@3A, Plug specification is inner diameter 1.7mm and outer diameter 4.8mm  |
 |  OS Support          | Android 5.1 / Debian Linux / Ubuntu Core / Android Remix                                          |
 |  Size                | 85mm x 54mm                                                                     |
@@ -100,4 +100,4 @@ If you are already familiar with the Bubblegum-96 board and would like to change
 
 Back to the [Bubblegum-96 documentation home page](../)
 
-***   
+***

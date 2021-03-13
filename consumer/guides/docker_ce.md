@@ -109,3 +109,7 @@ We can launch it with the following command:
 We installed the Docker package for Debian Jessie giving Docker functionality on an aarch64 board with only 1GB of RAM. If you have an Enterprise-class board with a decent amount of RAM there is a guide to compiling Docker from source found [here](http://blog.hypriot.com/post/getting-docker-running-on-a-high-density-armv8-server-from-hisilicon/)
 
 To try out your running container, why not install an Apache web server in it? By default, containers have an IP address and network access via a Docker networking bridge. Although containers are automatically assigned an IP address, inherent DNS for containers is not supported on Docker 1.9.1 - installed in this post - but will be available in 1.10. If you want DNS then you will have to add it either to your host - or of course it could be as another flavour of container - providing a DNS server. Once you’ve built any container you’re happy with, you can save the image for later use. You can also automate re-creating the image by recording the steps in a `Dockerfile` and using `docker build`.
+
+# Video Demonstration
+
+[![video](https://img.youtube.com/vi/6oJMvom5y1U/0.jpg)](http://www.youtube.com/watch?v=6oJMvom5y1U)

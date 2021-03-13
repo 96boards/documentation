@@ -14,9 +14,9 @@ Learn about your Chameleon96 board as well as how to prepare and set up for basi
 - Power adapter](PowerAdapter.md)
    - 96Boards specifications requires a 8V-18V with 2000mA Power adapter
 - USB Keyboard and Mouse
-   - With two USB-A connectors, all 96Boards can be equiped with a full sized keyboard and mouse
+   - With two USB-A connectors, all 96Boards can be equipped with a full sized keyboard and mouse
 - Monitor and HDMI Cable
-   - All 96Boards are equiped with a full sized HDMI connector, HDMI capable monitor is recommended
+   - All 96Boards are equipped with a full sized HDMI connector, HDMI capable monitor is recommended
 
 **Optional**
 - MicroSD card with adapter
@@ -42,7 +42,7 @@ The following subsections should describe how to get started with the Chameleon9
 |  GPU                 | Graphics based on Intel Video Suite for FPGA                                                     |
 |  RAM                 | 512MB DDR3L (support to 1GByte)                                                                  |
 |  PMU                 | 4 to 64 GByte microSD                                                                            |
-|  Connectivity        | WLAN 802.11 b/g/n 2.4GHz, Bluetooth 4.1, One USB 2.0 OTG micro AB, Two USB 2.0 HOST
+|  Connectivity        | WLAN 802.11 b/g/n 2.4GHz, _Bluetooth_® wireless technology 4.1, One USB 2.0 OTG micro AB, Two USB 2.0 HOST
 1 USB 2.0 Host via expansion connector, Integrated USB-Blaster II JTAG cable                                              |
 |  USB                 |                                                                                                  |
 |  Display             | Up to 1080p@60fps HD video through a HDMI interface                                              |
@@ -65,16 +65,13 @@ Please review the [Chameleon96 User Guide](../hardware-docs/files/chameleon96-us
 
 ## What's Next?
 
-If you are already familiar with the i.MX7 96 board and would like to change out the stock operating system, please proceed to one of the following pages:
+If you are already familiar with the Chameleon96 board and would like to change out the stock operating system, please proceed to one of the following pages:
 
-- [Downloads page](../downloads/): This page lists all Linaro and 3rd party operating systems available for the Chameleon96
 - [Installation page](../installation/): If you already have the images you need, this page has information on how to install the different operating systems onto your Chameleon96
-- [Board Recovery](../installation/board-recovery.md)
-   - If at any time your board is having unexplainable issues, it is suggested to attempt a board recovery. These instructions will guide you through a succesfull board recovery.
-- [Troubleshooting](../support/)
-
-- From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
+- [Troubleshooting](../support/) From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
 
 Back to the [Chameleon96 documentation home page](../)
 
-***   
+
+
+***

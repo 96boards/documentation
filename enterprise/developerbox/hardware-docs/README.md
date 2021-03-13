@@ -1,8 +1,6 @@
 ---
 title: Hardware Documentation for Developerbox
 permalink: /documentation/enterprise/developerbox/hardware-docs/
-redirect_from:
-
 ---
 # Hardware Documentation
 
@@ -10,14 +8,20 @@ Explore what makes your Developerbox unique, technical specifications, schematic
 
 ## User Guides
 
-Coming soon...
-
-- Hardware User Manual (View / Download)
+- [Kit Assembly Instructions](MN04-00002-3E.pdf)
 
 ## Hardware
 
-Coming soon...
+- [Schematics](mzsc2am_v03_20180115_a.pdf)
 
-- BOM (View / Download)
-- Schematics (View / Download)
+## Verified Hardware
 
+### RAM
+
+| Manufacturer | Part number | Description |
+| --- | --- | --- |
+| Micron RDIMM | MTA18ASF2G72PDZ-2G3 | 16GB 2RX8 PC4-2400T-RE1-11 |
+| Trancend UDIMM | TS512MLH64V1H DDR4 UDIMM | 4GB 1Rx8 DDR4 2133 ECC |
+| Crucial UDIMM | CT4G4DFS824A | 4GB DDR4-2400 UDIMM 1.2V CL17 |
+
+**Note:** in order to use the 4 DIMM slots, **registered** DIMMs are required. For example: using the Crucial UDIMM CT4G4DFS824A, you will be limited to 2 DIMM slots.

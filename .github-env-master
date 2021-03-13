@@ -1,0 +1,6 @@
+AWS_STATIC_SITE_PROFILE=96boards-org-buildbot
+AWS_STATIC_SITE_URL=production-96boards-org
+CF_DIST_ID_STATIC_LO=EPTPMIPVK55Q7
+CLOUDFRONT_ADD_SECURITY_HEADERS_ARN=arn:aws:lambda:us-east-1:691071635361:function:cloudfront-add-security-headers:8
+JEKYLL_ENV=production
+SITE_URL=production.96boards.org

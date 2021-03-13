@@ -20,3 +20,6 @@ root@linaro-alip:~# systemctl set-default multi-user.target
 ```shell
 root@linaro-alip:~# systemctl set-default graphical.target
 ```
+# Video Demonstration
+
+[![video](https://img.youtube.com/vi/qLfTue6Kj-Y/0.jpg)](http://www.youtube.com/watch?v=qLfTue6Kj-Y)

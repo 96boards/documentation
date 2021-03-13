@@ -6,7 +6,7 @@ redirect_from: /documentation/ConsumerEdition/guides/tensorflow-installation.md.
 # Tensorflow Installation Guide
 
 Tensorflow is an open source software library used for computation of data flow graphs, with applications in deep neural networks research and machine learning.
-There are many interesting applications for Tensorflow including: [searching and filtering](https://github.com/agermanidis/thingscoop), [art creation](https://github.com/cysmith/neural-style-tf) ,[reinforcement learning](http://www.danielslater.net/2016/03/deep-q-learning-pong-with-tensorflow.html) , and [many more](https://github.com/jtoy/awesome-tensorflow).
+There are many interesting applications for Tensorflow including: [searching and filtering](https://github.com/agermanidis/thingscoop), [art creation](https://github.com/cysmith/neural-style-tf) , reinforcement learning and [many more](https://github.com/jtoy/awesome-tensorflow).
 
 This tutorial will describe two ways of installing Tensorflow: By installing and using Bazel (currently only on devices > 2GB), or through the Tensorflow static libraries.
 If Tensorflow is installed through the static libraries then Tensorflows Python wrapper will not be included so it cannot be used through Python.
@@ -60,13 +60,13 @@ $ sudo apt-get install pkg-config zip g++ zlib1g-dev unzip
 First download the Bazel release package
 
 ```shell
-$ wget https://github.com/bazelbuild/bazel/releases/download/0.4.5/bazel-0.4.5-dist.zip
-$ mkdir bazel-0.4.5
-$ unzip bazel-0.4.5-dist.zip -d bazel-0.4.5
-$ cd bazel-0.4.5
+$ wget https://github.com/bazelbuild/bazel/releases/download/0.12.0/bazel-0.12.0-dist.zip
+$ mkdir bazel-0.12.0
+$ unzip bazel-0.12.0-dist.zip -d bazel-0.12.0
+$ cd bazel-0.12.0
 ```
 
-Next you must modify the bazel source file to be compatible with aarch64. This [tutorial](http://zhiyisun.github.io/2017/02/15/Running-Google-Machine-Learning-Library-Tensorflow-On-ARM-64-bit-Platform.html) describes the step by step the modifications which must be made to the source code.
+Next you must modify the bazel source file to be compatible with aarch64. This [tutorial](https://collaborate.linaro.org/display/BDTS/Building+and+Installing+Tensorflow+on+AArch64) describes the step by step the modifications which must be made to the source code.
 
 After Bazel is installed, you may either continue following the instructions from the Bazel tutorial for installing Tensorflow, or go to the [tensorflow website]( https://www.tensorflow.org/install/install_sources#ConfigureInstallation) and install tensorflow from source.
 

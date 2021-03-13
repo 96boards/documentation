@@ -39,7 +39,7 @@ Below are the list of OpenEmbedded layers used for 96Boards platform.
 In addition to the above layers, there are board specific layers present for each 96Boards CE boards:
 
 1. Dragonboard410c - [meta-qcom BSP layer](http://git.yoctoproject.org/cgit/cgit.cgi/meta-qcom)
-2. Hikey - [meta-96boards BSP layer](https://github.com/96boards/meta-96boards)
+2. Hikey, HiKey960 - [meta-96boards BSP layer](https://github.com/96boards/meta-96boards)
 
 # Package Dependencies
 
@@ -79,9 +79,10 @@ All required dependencies should now be installed on your host environment, you 
 Before building the OE images, it is important to set up partition layout and flash the bootloader. Follow the below guides to setup
 eMMC partitions and update Bootloader for the corresponding boards:
 
-1. [Dragonboard410c](../dragonboard410c/build/open-embedded.md#updating-emmc-partitions-and-bootloader)
-2. [Dragonboard820c](../dragonboard820c/build/open-embedded.md#updating-ufs-partitions-and-bootloader)
-2. [Hikey](../hikey/build/open-embedded.md#updating-emmc-partitions-and-bootloader)
+1. [Dragonboard410c](../dragonboard/dragonboard410c/build/open-embedded.md#updating-emmc-partitions-and-bootloader)
+2. [Dragonboard820c](../dragonboard/dragonboard820c/build/open-embedded.md#updating-ufs-partitions-and-bootloader)
+3. [Hikey](../hikey/hikey620/build/open-embedded.md#updating-emmc-partitions-and-bootloader)
+4. [Hikey960](../hikey/hikey960/build/open-embedded.md#updating-ufs-partitions-and-bootloader)
 
 # Setup the build environment
 
@@ -99,7 +100,7 @@ To initialize your build environment, you need to run:
 
 ```shell
 $ mkdir oe-rpb && cd oe-rpb
-$ repo init -u https://github.com/96boards/oe-rpb-manifest.git -b morty
+$ repo init -u https://github.com/96boards/oe-rpb-manifest.git -b sumo
 $ repo sync
 $ source setup-environment <build folder>
 ```
@@ -129,6 +130,11 @@ for setting up the build environment for individual boards:
  * you will be prompted to choose the target MACHINE, pick `hikey`
  * you will be prompted to choose the distro, for now, it is recommended to use `rpb`
 
+### Hikey960
+
+ * you will be prompted to choose the target MACHINE, pick `hikey960`
+ * you will be prompted to choose the distro, for now, it is recommended to use `rpb`
+
 The script `setup-environment` will create sane default configuration files in <build folder>/conf, you can inspect them and
 modify them if needed. Note that conf/local.conf and conf/bblayers.conf are symlink , and under source control. So it is
 generally better not to modify them, and use conf/site.conf and conf/auto.conf instead.
@@ -149,9 +155,10 @@ use to update your board are:
 
 ### Flashing build artifacts:
 
-1. [Dragonboard410c](../dragonboard410c/build/open-embedded.md#flashing-build-artifacts)
-2. [Dragonboard820c](../dragonboard820c/build/open-embedded.md#flashing-build-artifacts)
-3. [Hikey](../hikey/build/open-embedded.md#flashing-build-artifacts)
+1. [Dragonboard410c](../dragonboard/dragonboard410c/build/open-embedded.md#flashing-build-artifacts)
+2. [Dragonboard820c](../dragonboard/dragonboard820c/build/open-embedded.md#flashing-build-artifacts)
+3. [Hikey](../hikey/hikey620/build/open-embedded.md#flashing-build-artifacts)
+4. [Hikey960](../hikey/hikey960/build/open-embedded.md#flashing-build-artifacts)
 
 # Build a simple X11 image
 
@@ -165,9 +172,10 @@ as `rpb-desktop-image-MACHINE.ext4`.
 
 ### Flashing build artifacts:
 
-1. [Dragonboard410c](../dragonboard410c/build/open-embedded.md#flashing-build-artifacts)
-2. [Dragonboard820c](../dragonboard820c/build/open-embedded.md#flashing-build-artifacts)
-3. [Hikey](../hikey/build/open-embedded.md#flashing-build-artifacts)
+1. [Dragonboard410c](../dragonboard/dragonboard410c/build/open-embedded.md#flashing-build-artifacts)
+2. [Dragonboard820c](../dragonboard/dragonboard820c/build/open-embedded.md#flashing-build-artifacts)
+3. [Hikey](../hikey/hikey620/build/open-embedded.md#flashing-build-artifacts)
+4. [Hikey960](../hikey/hikey960/build/open-embedded.md#flashing-build-artifacts)
 
 Then, you can finally start the X server and run any graphical application:
 
@@ -211,9 +219,10 @@ Once built, the image will be available at `tmp-rpb-glibc/deploy/images/MACHINE/
 
 ### Flashing build artifacts:
 
-1. [Dragonboard410c](../dragonboard410c/build/open-embedded.md#flashing-build-artifacts)
-2. [Dragonboard820c](../dragonboard820c/build/open-embedded.md#flashing-build-artifacts)
-3. [Hikey](../hikey/build/open-embedded.md#flashing-build-artifacts)
+1. [Dragonboard410c](../dragonboard/dragonboard410c/build/open-embedded.md#flashing-build-artifacts)
+2. [Dragonboard820c](../dragonboard/dragonboard820c/build/open-embedded.md#flashing-build-artifacts)
+3. [Hikey](../hikey/hikey620/build/open-embedded.md#flashing-build-artifacts)
+4. [Hikey960](../hikey/hikey960/build/open-embedded.md#flashing-build-artifacts)
 
 If you boot this image on the board, you should get a command prompt on the HDMI monitor. A user called `linaro` exists
 (and has no password). Once logged in a VT, you run start weston with:
@@ -221,3 +230,7 @@ If you boot this image on the board, you should get a command prompt on the HDMI
     weston-launch
 
 And that should get you to the Weston desktop shell.
+
+# Video
+
+[![video](https://img.youtube.com/vi/9-LsD9Ni6wU/0.jpg)](http://www.youtube.com/watch?v=9-LsD9Ni6wU)

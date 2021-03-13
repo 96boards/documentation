@@ -39,7 +39,7 @@ The following subsections should describe how to get started with the Poplar usi
 |  RAM                 | DDR3/3L/4 SDRAM interface, maximum 32-bit data width 2 GB on board                               |
 |  Storage             | 8GB eMMc On-Board storage                                                                        |
 |  Ethernet Port       | 1 GBe Ethernet                                                                                   |
-|  Wireless            | 802.11AC 2x2 with Bluetooth                                                                      |
+|  Wireless            | 802.11AC 2x2 with _Bluetooth_® wireless technology                                                                      |
 |  USB                 | Two USB 2.0 ports One USB 3.0 ports                                                              |
 |  Console             | USB-micro port for console support                                                               |
 |  PCIe                | One PCIe 2.0 interfaces                                                                          |

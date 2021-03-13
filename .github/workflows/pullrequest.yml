@@ -1,0 +1,82 @@
+name: PullRequestAction
+
+# 96Boards is built from two git repos - website and documentation. To keep things as clean as possible,
+# the workflows always treat the website directory as the main directory, regardless of which repository
+# triggered the changes.
+
+on:
+  pull_request_target:
+    branches: [ master ]
+
+jobs:
+  process-pull-request:
+    runs-on: self-hosted
+    steps:
+      - name: Cancel previous runs
+        uses: n1hility/cancel-previous-runs@v2
+        with: 
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # HACK! 96Boards is currently using an old Jekyll theme that caches
+      # built images inside the source directory which gets reset when the
+      # fetch occurs so let's move it out of the way briefly ...
+      #
+      # This hack can be removed once the website is upgraded to use the
+      # newer theme, which processes images differently.
+      - name: Preserve merged_sources
+        run: MS="$GITHUB_WORKSPACE/website/merged_sources"; if [ -d "$MS" ]; then mv "$MS" "$GITHUB_WORKSPACE"; fi
+
+      - name: Fetch website repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          repository: 96boards/website
+          path: website
+
+      # HACK!
+      - name: Restore merged_sources
+        run: MS="$GITHUB_WORKSPACE/merged_sources"; if [ -d "$MS" ]; then mv "$MS" "$GITHUB_WORKSPACE/website"; fi
+
+      - name: Fetch docs repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          repository: 96boards/documentation
+          path: documentation
+
+      - name: Initialise environment
+        run: cat "$GITHUB_WORKSPACE/website/.github-env-$GITHUB_BASE_REF" >> $GITHUB_ENV
+
+      - run: env
+
+      - name: Initialise status
+        run: /srv/github-action-scripts/init-deploy-preview.sh
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Merge test branch
+        uses: linaro-its/merge-test-branch@v2.6
+        with:
+          path: documentation
+
+      - name: Build site
+        run: NSBREPO1=${{ github.workspace }}/website NSBREPO2=${{ github.workspace }}/documentation /srv/github-action-scripts/build-jekyll-site.sh
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check links
+        run: >-
+          /srv/github-action-scripts/check-links.sh
+          --skip-dns-check ${{ github.workspace }}/website/_data/fqdn_exceptions.txt
+          --no-external-errors
+
+      - name: Check routing rules
+        run: /srv/github-action-scripts/test-routing-rules.sh
+
+      - name: Run Pa11y scan
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: CheckSite
+          repo: linaro-its/pa11y-ci-container
+          token: ${{ secrets.BUILD_REPO_TOKEN }}
+          inputs: '{ "uri": "${{ env.SITE_URL }}" }'

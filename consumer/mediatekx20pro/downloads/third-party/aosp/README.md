@@ -5,7 +5,6 @@ redirect_from:
 - /documentation/ConsumerEdition/MediaTekX20Pro/Downloads/ThirdParty/AOSP/README.md/
 - /documentation/ConsumerEdition/MediaTekX20Pro/Downloads/ThirdParty/AOSP/
 - /documentation/consumer/mediatekx20pro/downloads/third-party/aosp/README.md/
-- /documentation/ConsumerEdition/MediaTekX20Pro/Downloads/ThirdParty/
 ---
 # Android Open Source Project (AOSP)
 

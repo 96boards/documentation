@@ -1,0 +1,6 @@
+.asset-cache
+.sass-cache
+Gemfile.lock
+staging.96boards.org
+production.96boards.org
+merged_sources

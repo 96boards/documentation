@@ -82,7 +82,6 @@ Please re-visit **Step 1** if you have not already downloaded the appropriate Me
 Executing the following commands from your command line while within the appropriate directory, will flash each individual component to your MediaTek X20 development board. Once you have done this, the `fastboot reboot` command will reboot your board into your newly installed operating system.
 
 ```shell
-fastboot flash gpt PGPT
 fastboot flash preloader preloader_amt6797_64_open.bin
 fastboot flash recovery recovery.img
 fastboot flash scp1 tinysys-scp.bin
@@ -145,7 +144,6 @@ PATH: \out\target\product\amt6797_64_open\FES
    - ADB and ADB Driver need installed in this windows PC, thus, we can send adb command by it.
 - Normal load(Include image files and scatter file etc.)
    - You can put it in anywhere, eg, \xflash\bin\win\img
-   - The PGPT file can't generated from your build system, so if you build new images, this file should be reserved(it can format the eMMC into constant partition).
 - Special images and scatter file
    - You can put it in anywhere, eg, \xflash\bin\win\FES.
    - How to build it? Please see “How to build special images”.
@@ -171,7 +169,6 @@ Step 2. Run fastboot command script file
         Such as xflash.bat
 
         fastboot devices
-        fastboot flash gpt PGPT
         fastboot flash preloader preloader_amt6797_64_open.bin
         fastboot flash recovery recovery.img
         fastboot flash scp1 tinysys-scp.bin

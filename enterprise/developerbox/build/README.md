@@ -2,6 +2,69 @@
 title: Build Source for Developerbox
 permalink: /documentation/enterprise/developerbox/build/
 ---
+# Table of Contents
+
+   * [Build SCP Firmware From Source](#build-scp-firmware-from-source)
+      * [Prerequisites and Cloning the Source](#prerequisites-and-cloning-the-source)
+      * [Build SCP Firmware](#build-scp-firmware)
+      * [Install the SCP Firmware](#install-the-scp-firmware)
+   * [Build System Firmware From Source](#build-system-firmware-from-source)
+      * [Preparation](#preparation)
+      * [Cloning the sources](#cloning-the-sources)
+      * [Rebuild Trusted Firmware](#rebuild-trusted-firmware)
+      * [Build EDK2](#build-edk2)
+      * [Install the System Firmware](#install-the-system-firmware)
+   * [Build Linux From Source](#build-linux-from-source)
+
+<!-- Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc) -->
+
+***
+
+# Build SCP Firmware From Source
+
+Developerbox contains a Cortex-M3 System Control Processor(SCP) which manages
+system power and is responsible for booting the main processor.
+
+## Prerequisites and Cloning the Source
+
+Follow the SCP-firmware User Guide for required softwares and
+cloning the source code.
+
+https://github.com/ARM-software/SCP-firmware/blob/master/user_guide.md
+
+## Build SCP Firmware
+
+SCP Firmware consists of romfw and ramfw. The following build script
+make both firmwares and concatenate two binaries into one binary
+to easily update NOR Flash of Developerbox.
+
+~~~ sh
+#!/usr/bin/env bash
+
+ROOT=./
+MODE=debug    # debug or release
+CC=arm-none-eabi-gcc
+OUT=$ROOT/build/product/synquacer
+ROMFW_FILE=$OUT/scp_romfw/$MODE/bin/scp_romfw.bin
+RAMFW_FILE=$OUT/scp_ramfw/$MODE/bin/scp_ramfw.bin
+ROMRAMFW_FILE=$OUT/scp_romramfw_$MODE.bin
+
+make CC=$CC PRODUCT=synquacer MODE=$MODE
+tr "\000" "\377" < /dev/zero | dd of=${ROMRAMFW_FILE} bs=1 count=196608
+dd if=${ROMFW_FILE} of=${ROMRAMFW_FILE} bs=1 conv=notrunc seek=0
+dd if=${RAMFW_FILE} of=${ROMRAMFW_FILE} bs=1 seek=65536
+~~~
+Note: *This manually built SCP Firmware only supports SCMI to communicate with Trusted Firmware-A.
+      Clone the [latest Trusted Firmware][2] and add "SQ_USE_SCMI_DRIVER=1" build option
+      in building Trusted Firmware.*
+
+[2]: https://github.com/ARM-software/arm-trusted-firmware
+
+## Install the SCP Firmware
+
+You can install SCP firmware using the [Low-level(CM3) firmware recovery](../installation/board-recovery.md#low-level-cm3-firmware-recovery).
+
+***
 
 # Build System Firmware From Source
 
@@ -39,8 +102,7 @@ cd $WORKSPACE
 git clone git://git.linaro.org/leg/noupstream/arm-trusted-firmware.git -b synquacer
 git clone git://git.linaro.org/leg/noupstream/edk2-platforms.git -b developer-box
 git clone git://git.linaro.org/leg/noupstream/edk2-non-osi.git -b developer-box
-git clone git://git.linaro.org/leg/noupstream/edk2.git -b developer-box
-git clone https://github.com/openssl/openssl  -b OpenSSL_1_1_0e
+git clone git://git.linaro.org/leg/noupstream/edk2.git -b developer-box --recursive
 ~~~
 
 ## Rebuild Trusted Firmware
@@ -57,14 +119,13 @@ repository.
 cd $WORKSPACE/arm-trusted-firmware
 make -j `nproc` \
 	CROSS_COMPILE=aarch64-linux-gnu- \
-	PLAT=ashbrook_5 \
-	BL33_BASE=0x8200000 \
-	all fiptool
-tools/fip_create/fip_create \
-	--dump \
-	--tb-fw ./build/ashbrook_5/release/bl1.bin \
-	--soc-fw ./build/ashbrook_5/release/bl2.bin \
-	--scp-fw ./build/ashbrook_5/release/bl31.bin \
+	PLAT=synquacer \
+	PRELOADED_BL33_BASE=0x8200000 \
+	bl31 fiptool
+tools/fiptool/fiptool create \
+	--tb-fw ./build/synquacer/release/bl31.bin \
+	--soc-fw ./build/synquacer/release/bl31.bin \
+	--scp-fw ./build/synquacer/release/bl31.bin \
 	../edk2-non-osi/Platform/Socionext/DeveloperBox/fip_all_arm_tf.bin
 ~~~
 
@@ -110,8 +171,9 @@ sudo fwupdate --apply {50b94ce5-8b63-4849-8af4-ea479356f0e3} \
 sudo reboot
 ~~~
 
-Alternatively you can install `SPI_NOR_IMAGE.fd` using the [board
-recovery method](../installation/board-recovery.md).
+Alternatively you can install `SPI_NOR_IMAGE.fd` using the [board recovery method](../installation/board-recovery.md).
+
+***
 
 # Build Linux From Source
 

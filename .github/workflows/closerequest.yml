@@ -1,0 +1,15 @@
+name: ClosePullRequestAction
+
+on: 
+  pull_request_target:
+    types: [closed]
+    branches: [ main, master, develop ]
+
+jobs:
+  close:
+    runs-on: self-hosted
+    steps:
+      - name: Initialise environment
+        run: cat "$GITHUB_WORKSPACE/website/.github-env-$GITHUB_BASE_REF" >> $GITHUB_ENV
+      - name: Clean up
+        run: /srv/github-action-scripts/close-pr.sh

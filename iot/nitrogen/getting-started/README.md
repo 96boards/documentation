@@ -38,7 +38,7 @@ The following subsections should describe how to get started with the Nitrogen u
 |  Clock speed         | 64MHz                                                                                            |
 |  SRAM                | 64KB                                                                                             |
 |  Storage             | 512KB onboard Flash                                                                              |
-|  Wireless            | In-built Bluetooth                                                                               |
+|  Wireless            | In-built _Bluetooth_® wireless technology                                                                               |
 |  USB                 | 1 x Micro USB                                                                                    |
 |  Expansion Interface | 1 x 20pin 2.0mm pitch Low speed connector                                                        |
 |  Digital Out Voltage | 1.8V                                                                                             |
@@ -73,4 +73,4 @@ It's time to see what your Nitrogen can do. From here you can learn how to build
 
 Back to the [Nitrogen documentation home page](../)
 
-***   
+***

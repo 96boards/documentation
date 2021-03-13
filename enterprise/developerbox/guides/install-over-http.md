@@ -1,7 +1,8 @@
 ---
 title: Install Over HTTP
-permalink: /documentation/enterprise/developerbox/guides/install-over-http.md
+permalink: /documentation/enterprise/developerbox/guides/install-over-http.md.html
 ---
+
 # Install Over HTTP
 
 The system firmware of your Developerbox includes a feature called `Ram
