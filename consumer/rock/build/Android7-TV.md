@@ -165,4 +165,4 @@ $ ./android-gpt.sh
 
 Will be generated `Image/gpt.img`
 
-Proceed to [Installation Instructions](../installation)
+Proceed to [Installation Instructions](../installation/)

@@ -8,7 +8,7 @@ permalink: /documentation/iot/wistrio/installation/windows.md.html
 Following instructions specifies how to flash the firmware onto WisTrio board
 from a Windows host machine:
 
-Make sure to download the following from the [Downloads Page](../downloads):
+Make sure to download the following from the [Downloads Page](../downloads/):
 - CP210x Windows Driver
 - STM32 Flasher aka Demonstrator
 

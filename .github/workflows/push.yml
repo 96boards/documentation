@@ -49,7 +49,7 @@ jobs:
       - run: env
 
       - name: Directory push/pop
-        uses: linaro-its/directory-push-and-pop@v1.1
+        uses: linaro-its/directory-push-and-pop@v2.4
         with:
           cacheDirectory: /srv/site-builds
           namedDirectory: ${{ env.SITE_URL }}
@@ -91,3 +91,11 @@ jobs:
 
       - name: Invalidate CloudFront cache
         run: /srv/github-action-scripts/invalidate-cloudfront.sh
+
+      - name: Run Pa11y scan
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: CheckSite
+          repo: linaro-its/pa11y-ci-container
+          token: ${{ secrets.BUILD_REPO_TOKEN }}
+          inputs: '{ "uri": "${{ env.SITE_URL }}" }'

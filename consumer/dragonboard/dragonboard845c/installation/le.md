@@ -11,11 +11,8 @@ This section show how to install a new operating system to your DragonBoard™ 8
 - **Step 1**: Make sure fastboot is set up on host computer
 - **Step 2**: Connect host computer to DragonBoard™ 845c
 - **Step 3**: Boot DragonBoard 845c into fastboot mode
-- **Step 4**: Flash Bootloader
-- **Step 5**: Recall location of all downloaded files
-- **Step 6**: Unzip all files
-- **Step 7**: Flash all files to the DragonBoard™ 845c
-- **Step 8**: Reboot DragonBoard 845c
+- **Step 4**: Flash Images
+- **Step 5**: Reboot DragonBoard 845c
 
 ***
 
@@ -75,7 +72,7 @@ de82318	fastboot
 
 #### **Step 4**: Flash Images
 
-``` Shell
+```shell
 cd <path-to-images>
 fastboot flash abl_a abl.elf
 fastboot flash boot_a sda845-boot.img
@@ -86,7 +83,7 @@ fastboot flash userdata sda845-usrfs_1.ext4
 fastboot flash persist sda845-persist_1.ext4
 ```
 
-#### **Step 8**: Reboot DragonBoard™ 845c
+#### **Step 5**: Reboot DragonBoard™ 845c
 
 - ```fastboot reboot```
 - Follow the [Getting Started Guide](../getting-started/rb3-kit/) to setup terminal.

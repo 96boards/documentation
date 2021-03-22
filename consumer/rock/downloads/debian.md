@@ -38,7 +38,7 @@ redirect_from: /documentation/consumer/rock960/downloads/debian.md.html
 | All-in-one GPT image with bootloader/kernel/rootfs     | [Debian Stretch Desktop armhf](https://dl.vamrs.com/products/rock960c/images/debian/rock960c_debian_stretch_lxde_armhf_20180920.tar.gz) |
 
 
-This image can be flashed to eMMC from USB or write and run on a SD card. Continue to [Installation page](../installation)
+This image can be flashed to eMMC from USB or write and run on a SD card. Continue to [Installation page](../installation/)
 
 ***
 
@@ -78,4 +78,4 @@ This image can be flashed to eMMC from USB or write and run on a SD card. Contin
 |:------------------|:----------------------------------|
 |Debian rootfs armhf     | [debian_rootfs.img.gz](https://dl.vamrs.com/products/rock960c/images/debian/debian_rootfs_armhf_rockchip_release_20171108.img.gz)                         |
 
-Continue to [Installation page](../installation)
+Continue to [Installation page](../installation/)

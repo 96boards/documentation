@@ -21,4 +21,4 @@ redirect_from:
 
 ##### Step 5: Removed SD card from host machine and insert into Ultra96 board (on board SD card slot)
 
-##### Step 6: Follow booting instrutions from [Getting Started guide](../getting-started)
+##### Step 6: Follow booting instrutions from [Getting Started guide](../getting-started/)

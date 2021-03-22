@@ -13,7 +13,7 @@ Discover our list of community and vendor sponsored DragonBoard 410c documents. 
 
 ## On Qualcomm Developer Network
 
-{% include image.html name="qc_developer_network.png" alt="Qualcomm Developer Network Image" %}
+{% include image.html path="/assets/images/content/qc_developer_network.png" alt="Qualcomm Developer Network Image" %}
 
 - [Qualcomm Developer Network](https://developer.qualcomm.com/hardware/dragonboard-410c/tools)
 - [Android Release Notes](https://developer.qualcomm.com/download/db410c/android_release_notes-LM80-P0436-12_Rev_G.pdf)
