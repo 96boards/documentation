@@ -19,7 +19,7 @@ architecture. Usually host is a standard Intel x86-64 computer, target is
 the Rock960 which is AARCH64. <a href="https://www.linaro.org/downloads"> Linaro </a>  provides linux host binaries.
 ```shell
        $ mkdir toolchain
-       $ wget releases.linaro.org/components/toolchain/binaries/latest/aarch64-linux-gnu/gcc-*-x86_64_aarch64-linux-gnu.tar.xz
+       $ wget releases.linaro.org/components/toolchain/binaries/latest-7/aarch64-linux-gnu/gcc-*-x86_64_aarch64-linux-gnu.tar.xz
        $ tar -xf gcc-*-x86_64_aarch64-linux-gnu.tar.xz -C ./toolchain --strip-components=1
 ```
 
