@@ -10,11 +10,10 @@ permalink: /documentation/consumer/dragonboard/qualcomm-robotics-rb5/downloads/o
 
 ## Fastboot files (Advanced users)
 
-<!--| Bootloader                                                                                                                              |
+| Bootloader                                                                                                                              |
 |:----------------------------------------------------------------------------------------------------------------------------------------|
 | [Download](http://releases.linaro.org/96boards/dragonboard845c/linaro/rescue/latest/dragonboard-845c-bootloader-ufs-linux-*.zip)       |
 | [Release Notes](http://releases.linaro.org/96boards/dragonboard845c/linaro/rescue/latest/)      |
---!>
 
 Choose between RPB and RPB-Wayland. You will need to download the "boot image" and your choice of "Desktop" or "Console" rootfs.
 
@@ -33,5 +32,3 @@ Choose between RPB and RPB-Wayland. You will need to download the "boot image" a
 > NOTE: Only download one root file system (Console or Desktop). You should match the type of rootfs to the boot image you downloaded above.
 
 #### Continue to [Installation page](../installation/)
-
-
