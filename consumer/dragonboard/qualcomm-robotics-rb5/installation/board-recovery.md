@@ -1,17 +1,17 @@
 ---
-title: DragonBoard 845c Board Recovery
-permalink: /documentation/consumer/dragonboard/dragonboard845c/installation/board-recovery.md.html
+title: Qualcomm RB5 Board Recovery
+permalink: /documentation/consumer/dragonboard/qualcomm-robotics-rb5/installation/board-recovery.md.html
 ---
 
-# DragonBoard 845c Board Recovery
+# Qualcomm RB5 Board Recovery
 
-This page outlines steps needed to recover your DragonBoard 845c board from a bricked software state. This instruction set is suggested to those who are experiences boot issues due to a corrution in the file system and/or other software components.
+This page outlines steps needed to recover your Qualcomm RB5 board from a bricked software state. This instruction set is suggested to those who are experiencing boot issues due to a corruption in the file system and/or other software components.
 
-There are a couple ways to recover your DragonBoard 845c from a "bricked" state.
+There are a couple ways to recover your board from a "bricked" state.
 
 ## SD card Recovery image
 
-Unlike other Dragonboard (410c and 820c) the Dragonboard 845c cannot boot from SD card. It is a hardware limitation of the SOM used, and there is no plan to fix this limitation at this point.
+Unlike other Dragonboard (410c and 820c) the Qualcomm RB5 cannot boot from SD card, and there is no plan to support SD card recovery at this point.
 
 ## Fastboot recovery
 
@@ -19,11 +19,11 @@ In many cases, simply re-flashing the bootloader, boot image, and root file syst
 
 ## Using USB flashing tools
 
-Alternatively, the Dragonboard 845c can also be recovered/flashed over USB, using the Linaro QDL flashing tools. For more information about QDL, including installation instructions, please check this [guide](../../../guides/qdl.md).
+Alternatively, the Qualcomm RB5 can also be recovered/flashed over USB, using the Linaro QDL flashing tools. For more information about QDL, including installation instructions, please check this [guide](../../../guides/qdl.md).
 
 ### Connecting the board in USB flashing mode (aka EDL mode)
 
-In order to force the DB845c to boot on USB (EDL mode), you need to press the on-board button 18 (Force USB BOOT) while powering on the board. This button is on the back of the board and is marked as "F_DL".
+In order to force the Qualcomm RB5 to boot on USB (EDL mode), you need to press the on-board button 18 (Force USB BOOT) while powering on the board. This button is on the back of the board and is marked as "F_DL".
 
 *Warning*: putting the device into EDL mode while the device is powered or when USB is plugged can cause damage to the board.
 
@@ -47,15 +47,14 @@ If the above instructions do not work, please try the following:
 
 Download and unzip the most recent bootloader release from the following link:
 
-http://releases.linaro.org/96boards/dragonboard845c/linaro/rescue/latest/
+http://releases.linaro.org/96boards/rb5/linaro/rescue/21.04/
 
 Then run:
 
-    cd dragonboard-845c-bootloader-ufs-linux-[BUILD-NUM].zip/
+    cd <PATH to extracted folder>
     sudo <PATH to qdl>/qdl prog_firehose_ddr.elf rawprogram?.xml patch?.xml
 
-It should take a few seconds. And you should eventually get something like below
-from QDL stdout:
+It should take a few seconds. And you should eventually get something like below from QDL stdout:
 
     ...
     ...
@@ -67,7 +66,7 @@ from QDL stdout:
     LOG: INFO: Will issue reset/power off 100 useconds, if this hangs check if watchdog is enabled
     LOG: INFO: bsp_target_reset() 0
 
-*Note*: Linaro regularly publishes development builds for the bootloader package. Instead of flashing the most recent bootloader release, users might want to experiment with development builds, which can be found at http://snapshots.linaro.org/96boards/dragonboard845c/linaro/rescue/latest/.
+*Note*: Linaro regularly publishes development builds for the bootloader package. Instead of flashing the most recent bootloader release, users might want to experiment with development builds, which can be found at http://snapshots.linaro.org/96boards/qrb5165-rb5/linaro/rescue/latest/.
 
 ### UFS provisioning
 
