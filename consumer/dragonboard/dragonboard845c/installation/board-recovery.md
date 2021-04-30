@@ -5,7 +5,7 @@ permalink: /documentation/consumer/dragonboard/dragonboard845c/installation/boar
 
 # DragonBoard 845c Board Recovery
 
-This page outlines steps needed to recover your DragonBoard 845c board from a bricked software state. This instruction set is suggested to those who are experiences boot issues due to a corrution in the file system and/or other software components.
+This page outlines steps needed to recover your DragonBoard 845c board from a bricked software state. This instruction set is suggested to those who are experiencing boot issues due to a corruption in the file system and/or other software components.
 
 There are a couple ways to recover your DragonBoard 845c from a "bricked" state.
 
