@@ -44,5 +44,3 @@ Attempt to recover a board from a bad flash resulting in a soft-bricked board.
 ### Third Party OS
 
 - [LE OS Installation](le.md)
-- 
-

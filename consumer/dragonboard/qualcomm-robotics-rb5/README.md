@@ -8,14 +8,12 @@ permalink: /documentation/consumer/dragonboard/qualcomm-robotics-rb5/
 
 - [Quick Start Guide](https://developer.qualcomm.com/qualcomm-robotics-rb5-kit/quick-start-guide)
    - Learn about your development board, how to prepare and set up for basic use
-- [Software Reference Guide](https://developer.qualcomm.com/qualcomm-robotics-rb5-kit/software-reference-manual)
-   - These guides will help to get you started with a variety of available on-boards software functions
 - [Hardware Documentation](https://developer.qualcomm.com/qualcomm-robotics-rb5-kit/hardware-reference-guide)
    - Explore what makes your development board unique, technical specifications, schematics, hardware notes and more...
 
 ## Software
 
-###With upstream Linux versions by Linaro
+### With upstream Linux versions by Linaro
 
 A comprehensive guide to using the [Qualcomm® Robotics RB5 Development Kit](https://www.qualcomm.com/products/qualcomm-robotics-rb5-platform) . This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
@@ -26,7 +24,7 @@ A comprehensive guide to using the [Qualcomm® Robotics RB5 Development Kit](htt
    - Choose and install an operating system on your development kit
 
 
-### With custom version from Thundercomm
+### With downstream version from Thundercomm
 
 Developers can use the downstream version from Thundercomm to get started. Software and tools to download, build and flash the boot images and rootfs images can be found on Thundercomm's website.
 
@@ -34,11 +32,13 @@ Developers can use the downstream version from Thundercomm to get started. Softw
    - Download the SDK Manager tool from Thundercomm's website to build and flash the images on the development board.
 - [Software Tools and Drivers from Qualcomm](https://www.qualcomm.com/products/qualcomm-robotics-rb5-platform/software)
    - Tools and software to support the development platform.
-
+- [Software Reference Guide](https://developer.qualcomm.com/qualcomm-robotics-rb5-kit/software-reference-manual)
+   - These guides will help to get you started with a variety of available on-boards software functions
 
 ## Support
-- [Community Forums](https://developer.qualcomm.com/forums/hardware/robotics/qualcomm-robotics-rb5-kit)
+- [Qualcomm Developer Network Community Forums](https://developer.qualcomm.com/forums/hardware/robotics/qualcomm-robotics-rb5-kit)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
-   - 
+- [96boards Forums](https://discuss.96boards.org/c/products/qualcomm-rb5)
+   - The Qualcomm RB5 has its own 96Boards forum. If you can't find a pre-existing thread that addresses your issue, start your own and let the community help out!
 
 
