@@ -10,6 +10,7 @@ This page provides links to the latest software downloads to switch the Operatin
 
 ### Linaro supported operating systems
 
+- [Debian](debian.md)
 - [OpenEmbedded](open-embedded.md)
 
 ***

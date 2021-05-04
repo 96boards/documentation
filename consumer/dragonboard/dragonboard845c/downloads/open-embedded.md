@@ -19,14 +19,16 @@ Choose between RPB and RPB-Wayland. You will need to download the "boot image" a
 
 | RPB                                                                                                                                     |
 |:----------------------------------------------------------------------------------------------------------------------------------------|
-| [Boot Image](http://releases.linaro.org/96boards/dragonboard845c/linaro/openembedded/latest/rpb/boot--*-r0-dragonboard-845c-*.img)                                                                                                               |
-| [Desktop](http://releases.linaro.org/96boards/dragonboard845c/linaro/openembedded/latest/rpb/rpb-desktop-image-dragonboard-845c-*.rootfs.ext4.gz) or [Console](http://releases.linaro.org/96boards/dragonboard845c/linaro/openembedded/latest/rpb/rpb-console-image-dragonboard-845c-*.rootfs.ext4.gz)                                                       |
+| [Boot Image](http://releases.linaro.org/96boards/dragonboard845c/linaro/openembedded/latest/rpb/boot--*-r0-dragonboard-845c-*.img) |
+| [Desktop](http://releases.linaro.org/96boards/dragonboard845c/linaro/openembedded/latest/rpb/rpb-desktop-image-dragonboard-845c-*.rootfs.ext4.gz) |
+| [Console](http://releases.linaro.org/96boards/dragonboard845c/linaro/openembedded/latest/rpb/rpb-console-image-dragonboard-845c-*.rootfs.ext4.gz) |
 | [Build Folder](http://releases.linaro.org/96boards/dragonboard845c/linaro/openembedded/latest/rpb/)                         |
 
 | RPB-Wayland                                                                                                                             |
 |:----------------------------------------------------------------------------------------------------------------------------------------|
-| [Boot Image](http://releases.linaro.org/96boards/dragonboard845c/linaro/openembedded/latest/rpb-wayland/boot--*-r0-dragonboard-845c-*.img)                                                                                                               |
-| [Desktop](http://releases.linaro.org/96boards/dragonboard845c/linaro/openembedded/latest/rpb-wayland/rpb-weston-image-test-dragonboard-845c-*.rootfs.ext4.gz) or [Console](http://releases.linaro.org/96boards/dragonboard845c/linaro/openembedded/latest/rpb-wayland/rpb-console-image-dragonboard-845c-*.rootfs.ext4.gz)                                                       |
+| [Boot Image](http://releases.linaro.org/96boards/dragonboard845c/linaro/openembedded/latest/rpb-wayland/boot--*-r0-dragonboard-845c-*.img) |
+| [Desktop](http://releases.linaro.org/96boards/dragonboard845c/linaro/openembedded/latest/rpb-wayland/rpb-weston-image-test-dragonboard-845c-*.rootfs.ext4.gz) |
+| [Console](http://releases.linaro.org/96boards/dragonboard845c/linaro/openembedded/latest/rpb-wayland/rpb-console-image-dragonboard-845c-*.rootfs.ext4.gz) |
 | [Build Folder](http://releases.linaro.org/96boards/dragonboard845c/linaro/openembedded/latest/rpb/)                 |
 
 > NOTE: Only download one root file system (Console or Desktop). You should match the type of rootfs to the boot image you downloaded above.
