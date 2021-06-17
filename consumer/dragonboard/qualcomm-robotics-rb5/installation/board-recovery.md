@@ -47,7 +47,7 @@ If the above instructions do not work, please try the following:
 
 Download and unzip the most recent bootloader release from the following link:
 
-http://releases.linaro.org/96boards/rb5/linaro/rescue/21.04/
+https://releases.linaro.org/96boards/rb5/linaro/rescue/latest
 
 Then run:
 
