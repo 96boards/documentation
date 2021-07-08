@@ -1,5 +1,5 @@
 ---
-title: Debian Downloads for DragonBoard-410c
+title: Debian Downloads for DragonBoard-845c
 permalink: /documentation/consumer/dragonboard/dragonboard845c/downloads/debian.md.html
 ---
 # Debian

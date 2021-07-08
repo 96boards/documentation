@@ -1,5 +1,5 @@
 ---
-title: OpenEmbedded Downloads for DragonBoard-410c
+title: OpenEmbedded Downloads for DragonBoard-845c
 permalink: /documentation/consumer/dragonboard/dragonboard845c/downloads/open-embedded.md.html
 ---
 # OpenEmbedded
