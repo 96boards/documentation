@@ -14,18 +14,18 @@ permalink: /documentation/consumer/dragonboard/qualcomm-robotics-rb5/downloads/d
 
 | Bootloader                                                                                                                             |
 |:---------------------------------------------------------------------------------------------------------------------------------------|
-| [Download](http://releases.linaro.org/96boards/rb5/linaro/rescue/21.04/rb5-bootloader-ufs-linux-*.zip)                                 |
-| [Release Notes](http://releases.linaro.org/96boards/rb5/linaro/rescue/21.04/)                                                          |
+| [Download](http://releases.linaro.org/96boards/rb5/linaro/rescue/latest/rb5-bootloader-ufs-linux-*.zip)                                 |
+| [Release Notes](http://releases.linaro.org/96boards/rb5/linaro/rescue/latest/)                                                          |
 
 | Boot image                                                                                                                             |
 |:---------------------------------------------------------------------------------------------------------------------------------------|
-| [Download](http://snapshots.linaro.org/96boards/qrb5165-rb5/linaro/debian/latest/boot-linaro-sid-qrb5165-rb5-*.img.gz)                 |
-| [Release Notes](http://snapshots.linaro.org/96boards/qrb5165-rb5/linaro/debian/latest/)                                                |
+| [Download](http://releases.linaro.org/96boards/rb5/linaro/debian/latest/boot-linaro-sid-qrb5165-rb5-*.img.gz)                 |
+| [Release Notes](http://releases.linaro.org/96boards/rb5/linaro/debian/latest/)                                                |
 
 | Rootfs image                                                                                                                           |
 |:---------------------------------------------------------------------------------------------------------------------------------------|
-| [Desktop](http://snapshots.linaro.org/96boards/qrb5165-rb5/linaro/debian/latest/linaro-sid-gnome-qrb5165-rb5-*.img.gz)                      |
-| [Developer](http://snapshots.linaro.org/96boards/qrb5165-rb5/linaro/debian/latest/linaro-sid-developer-qrb5165-rb5-*.img.gz)           |
-| [Release Notes](http://snapshots.linaro.org/96boards/qrb5165-rb5/linaro/debian/latest/)                                                |
+| [Desktop](http://releases.linaro.org/96boards/rb5/linaro/debian/latest/linaro-sid-gnome-qrb5165-rb5-*.img.gz)                      |
+| [Developer](http://releases.linaro.org/96boards/rb5/linaro/debian/latest/linaro-sid-developer-qrb5165-rb5-*.img.gz)           |
+| [Release Notes](http://releases.linaro.org/96boards/rb5/linaro/debian/latest/)                                                |
 
 #### Continue to [Installation page](../installation/)
