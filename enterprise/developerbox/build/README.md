@@ -143,7 +143,7 @@ unset ARCH
 . edk2/edksetup.sh
 make -C edk2/BaseTools
 
-build -p $ACTIVE_PLATFORM -b RELEASE -a AARCH64 -t GCC5 -n `nproc` -D DO_X86EMU=TRUE
+build -p $ACTIVE_PLATFORM -b RELEASE -a AARCH64 -t GCC5 -n `nproc` -D X64EMU_ENABLE=TRUE
 ~~~
 
 The firmware image, which comprises the option ROM, ARM trusted
