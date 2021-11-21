@@ -49,7 +49,7 @@ ROMFW_FILE=$OUT/scp_romfw/$MODE/bin/scp_romfw.bin
 RAMFW_FILE=$OUT/scp_ramfw/$MODE/bin/scp_ramfw.bin
 ROMRAMFW_FILE=$OUT/scp_romramfw_$MODE.bin
 
-make CC=$CC PRODUCT=synquacer MODE=$MODE
+make -f Makefile.cmake CC=$CC PRODUCT=synquacer MODE=$MODE
 tr "\000" "\377" < /dev/zero | dd of=${ROMRAMFW_FILE} bs=1 count=196608
 dd if=${ROMFW_FILE} of=${ROMRAMFW_FILE} bs=1 conv=notrunc seek=0
 dd if=${RAMFW_FILE} of=${ROMRAMFW_FILE} bs=1 seek=65536
