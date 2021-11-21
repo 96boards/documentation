@@ -44,9 +44,9 @@ to easily update NOR Flash of Developerbox.
 ROOT=./
 MODE=debug    # debug or release
 CC=arm-none-eabi-gcc
-OUT=$ROOT/build/product/synquacer
-ROMFW_FILE=$OUT/scp_romfw/$MODE/bin/scp_romfw.bin
-RAMFW_FILE=$OUT/scp_ramfw/$MODE/bin/scp_ramfw.bin
+OUT=$ROOT/build/synquacer/GNU/$MODE
+ROMFW_FILE=$OUT/firmware-scp_romfw/bin/synquacer-bl1.bin
+RAMFW_FILE=$OUT/firmware-scp_ramfw/bin/synquacer-bl2.bin
 ROMRAMFW_FILE=$OUT/scp_romramfw_$MODE.bin
 
 make -f Makefile.cmake CC=$CC PRODUCT=synquacer MODE=$MODE
