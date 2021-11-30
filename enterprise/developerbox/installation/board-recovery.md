@@ -241,8 +241,7 @@ set _M3_JTAG_TAPID 0x6ba00477
 
 jtag newtap auto0 tap -irlen 4 -expected-id 0x6ba00477
 
-target create \$_TARGETNAME cortex_m -endian \$_ENDIAN -chain-position
-auto0.tap
+target create \$_TARGETNAME cortex_m -endian \$_ENDIAN -chain-position auto0.tap
 EOF
 ~~~
 
@@ -256,7 +255,7 @@ openocd \
         -f sc2a11.cfg \
         -c "init" \
         -c "reset halt" \
-        -c "mwb 0x44100000 3" \
+        -c "mwb 0x48100000 3" \
         -c "resume 0x8fe0050" \
         -c "exit"
 ~~~
@@ -271,7 +270,7 @@ openocd \
         -f sc2a11.cfg \
         -c "init" \
         -c "reset halt" \
-        -c "mwb 0x44100000 3" \
+        -c "mwb 0x48100000 3" \
         -c "load_image flash-writer-maverick-evb-4bytemode.axf-cd59a5d" \
         -c "resume 0x800051" \
         -c "exit"
