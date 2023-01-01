@@ -32,7 +32,7 @@ specified in Android build requirements document:
 
 6. **Building the software**
     - Building the Android-Q: Android-Q source code contains prebuilt files for Linux kernel, bootloader, etc. So it’s possible to build just Android-Q (and skip building the kernel and bootloader), which will generate all needed images. Output images will be located in out/target/product/erd850/ directory.
-         - `$ cd ~/repos/android-q`<br>`$ source build/envsetup.sh`<br>`$ lunch full_erd850-eng`<br>`$ make -j32`
+         - `$ cd ~/repos/android-q`<br>`$ source build/envsetup.sh`<br>`$ lunch full_erd850-eng`<br>`$ make`
     - Building the kernel
         - `$ cd ~/repos/kernel`
         - `$ prebuilts_path=~/repos/android-q/prebuilts`<br>`$ clang_path=$prebuilts_path/clang/host/linux-x86/clang-r328903`<br>`$ gcc_path=$prebuilts_path/gcc/linux-x86/aarch64/aarch64-linux-android-4.9`<br>`$ export LLVM_AR=$clang_path/bin/llvm-ar`<br>`$ export LLVM_DIS=$clang_path/bin/llvm-dis`<br>`$ export LTO_LLVM_LIB_BASE=$clang_path/lib64`<br>`$ export PATH=$gcc_path/bin:$PATH`<br>`$ export CROSS_COMPILE=aarch64-linux-android-`<br>`$ export PATH=$clang_path/bin:$PATH`<br>`$ export CLANG_TRIPLE=aarch64-linux-gnu-`<br>`$ export ARCH=arm64`
@@ -46,7 +46,7 @@ specified in Android build requirements document:
         - `$ cd ~/repos/android-q`<br>`$ source build/envsetup.sh`<br>`$ lunch full_erd850-eng`
         - `$ cp ~/repos/kernel/arch/arm64/boot/dts/exynos/exynos3830.dtb device/samsung/erd850-prebuilts/dtb.img`<br>`$ cp ~/repos/kernel/arch/arm64/boot/dts/exynos/exynos3830-e850-96-*.dtbo device/samsung/erd850-prebuilts/`<br>`$ cp ~/repos/kernel/arch/arm64/boot/Image device/samsung/erd850-prebuilts/kernel`<br>`$ cp ~/repos/kernel/vmlinux device/samsung/erd850-prebuilts/`<br>`$ cp ~/repos/lk/build-erd3830/lk.bin device/samsung/erd850-prebuilts/bootloader.img`
         - `$ cd device/samsung/erd850-prebuilts/`<br>`$ ./create-dtboimg.sh`<br>`$ rm *.dtbo`<br>`$ cd -`
-        - `$ make -j32`
+        - `$ make`
 
 7. **Flashing the Software**
     - To flash the images, enter the fastboot mode:
