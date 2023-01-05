@@ -8,7 +8,7 @@ This guide will help you choose and install an operating system on your WinLink 
 
 This requires the following hardware:
 
-- TB-96AI-3586CE with power supply
+- WinLink E850-96Board with power supply
 - Host machine (Linux, Mac OS X, or Windows)
 - MicroSD card with 8GB (Class 10 recommended) or more for storage
 - USB Mouse and/or keyboard
