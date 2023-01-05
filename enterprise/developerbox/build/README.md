@@ -44,12 +44,12 @@ to easily update NOR Flash of Developerbox.
 ROOT=./
 MODE=debug    # debug or release
 CC=arm-none-eabi-gcc
-OUT=$ROOT/build/product/synquacer
-ROMFW_FILE=$OUT/scp_romfw/$MODE/bin/scp_romfw.bin
-RAMFW_FILE=$OUT/scp_ramfw/$MODE/bin/scp_ramfw.bin
+OUT=$ROOT/build/synquacer/GNU/$MODE
+ROMFW_FILE=$OUT/firmware-scp_romfw/bin/synquacer-bl1.bin
+RAMFW_FILE=$OUT/firmware-scp_ramfw/bin/synquacer-bl2.bin
 ROMRAMFW_FILE=$OUT/scp_romramfw_$MODE.bin
 
-make CC=$CC PRODUCT=synquacer MODE=$MODE
+make -f Makefile.cmake CC=$CC PRODUCT=synquacer MODE=$MODE
 tr "\000" "\377" < /dev/zero | dd of=${ROMRAMFW_FILE} bs=1 count=196608
 dd if=${ROMFW_FILE} of=${ROMRAMFW_FILE} bs=1 conv=notrunc seek=0
 dd if=${RAMFW_FILE} of=${ROMRAMFW_FILE} bs=1 seek=65536
@@ -143,7 +143,7 @@ unset ARCH
 . edk2/edksetup.sh
 make -C edk2/BaseTools
 
-build -p $ACTIVE_PLATFORM -b RELEASE -a AARCH64 -t GCC5 -n `nproc` -D DO_X86EMU=TRUE
+build -p $ACTIVE_PLATFORM -b RELEASE -a AARCH64 -t GCC5 -n `nproc` -D X64EMU_ENABLE=TRUE
 ~~~
 
 The firmware image, which comprises the option ROM, ARM trusted
