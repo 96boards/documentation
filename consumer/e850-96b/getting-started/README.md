@@ -33,21 +33,21 @@ In the Box you can find the WinLink E850-96Board as well as a microSD card which
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------|
 |  SoC                 | Exynos 850, 64-bit                                                                                                             |
 |  CPU                 | Cortex-A55 Octa core up to 2.0GHz                                                                                              |
-|  GPU                 | ARM Mali G52MP1, 2nd Generation Bifrost architecture <br>  OpenGL ES1.1/2.0/3.2 OpenCL 2.0 Full Profile and Vulkan 1.0/1.1     |
+|  GPU                 | ARM Mali G52MP1, 2nd Generation Bifrost architecture <br>  OpenGL ES1.1/2.0/3.2, OpenCL 2.0 Full Profile and Vulkan 1.0/1.1    |
 |  RAM                 | 4GBytes LPDDR4 on board(MCP, KMDP6001DA-B425)                                                                                  |
-|  Storage             | eMMC v5.1, 64GB onboard(MCP, KMDP6001DA-B425) and 1 x MicroSD card slot                                                        |
+|  Storage             | eMMC v5.1, 64GB onboard(MCP, KMDP6001DA-B425) and 1x MicroSD card slot                                                         |
 |  Ethernet Port       | 1x10/100 Ethernet (RJ-45) socket                                                                                               |
 |  Wireless            | WiFi 2.4/5GHz & BT5.0 (S612 RF transceiver)                                                                                    |
-|  USB                 | 1 x USB 2.0 Micro B (Debug only ), <br> 2x USB 2.0 Type A (Host mode only)                                                     |
-|  Display             | HDM|lv1.4 Type-A full-size connector                                                                                           |
+|  USB                 | 1x USB 2.0 Micro B (Debug only), <br> 2x USB 2.0 Type A (Host mode only)                                                       |
+|  Display             | HDMI (v1.4 Type-A full-size connector)                                                                                         |
 |  Video               | HEVC (High Efficiency Video Coding) codec which enables FHD(1920X1080) 60fps encoding and decoding simultaneously              |
 |  Audio               | Stereo Headphone output & MIC input via 3.5mm Audio Jack <br> Built-in audio interfaces HMU(Headphone Management Unit) by PMIC |
 |  Camera              | Up to 3-image sensor(camera) inputs with a max. resolution of 21.7MP Bayer supported                                           |
 |  Expansion Interface | 40-Pin Low Speed Header <br> 60-Pin High Speed Header                                                                          |
 |  LED                 | 3x green user controlled LEDs <br> 1x blue Bluetooth enabled <br> 1x yellow WiFi enabled                                       |
-|  Button              | Power, Volume UP/DN, Resets                                                                                                    |
+|  Button              | Power, Volume UP/DN, Reset                                                                                                     |
 |  Power Source        | 12V@2A adapter with a DC plug:<br>Plug specification is inner diameter 1.75mm and outer diameter 4.75mm                        |
-|  OS Support          | TAOSP(Android-10 based k4.14) / LINUX(TBD)                                                                                     |
+|  OS Support          | AOSP(Android-10 based k4.14) / LINUX(TBD)                                                                                      |
 |  Size                | 100mm x 54mm meeting 96Boards™ Consumer Edition Extended Standard form dimensions specifications                               |
 
 
@@ -60,8 +60,8 @@ This short guide leads you through the first steps to start exploring your WinLi
 **Easy Setup Guide**
 
 - USB cable to Dubug
-   -  Connect the Micro-USB end of theUSB cable to the debug port andTypeA-USB to the computer host.
-   -  Open the serial port tool of the host computer and apply the followingconfiguration:
+   - Connect the Micro-USB end of the USB cable to the debug port and TypeA-USB to the computer host.
+   - Open the serial port tool of the host computer and apply the following configuration:
       - baud rate: 1500000
       - Data bits: 8
       - Stop Bit: 1
@@ -69,13 +69,13 @@ This short guide leads you through the first steps to start exploring your WinLi
       - flow control: NA
 
 - Connect HDMI cable (optional)
-   - Connect one end of the HDMI cable tothe development board HDMI port andthe other end to a display that supports HDMI.
+   - Connect one end of the HDMI cable to the development board HDMI port and the other end to a display that supports HDMI.
 
 - Connect to Ethernet (optional)
    - Plug wired Ethernet into RJ45 ports ofthe development board.
 
 - Connect mouse and keyboard (optional)
-   -  Insert a USB mouse and USB keyboard to the USB port of the development board.
+   - Insert a USB mouse and USB keyboard to the USB port of the development board.
    - Mouse and keyboard to watch/track on HDMI display.
 
 - Connect LTE module (optional)
@@ -83,7 +83,7 @@ This short guide leads you through the first steps to start exploring your WinLi
    - Insert SIM card at the same time
 
 - Connect a USB-OTG cable (optional)
-   - When firmware needs to be re flashed, plug micro USB port of USB data cable into USB OTG port of development board, and typea USB at the other end to computer host
+   - When firmware needs to be reflashed, plug micro USB port of USB data cable into USB OTG port of development board, and type a USB at the other end to computer host
 
 - Connect DC12V power cord (power on)
    - Connect the 12V power plug, and when the power supply is connected, the development board starts automatically.
