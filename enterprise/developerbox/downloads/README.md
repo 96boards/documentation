@@ -17,10 +17,6 @@ Developerbox.
 
  * [EDK2](edk2.md)
 
-### Linaro supported operating systems
-
- * [Enterprise Reference Platform, based on Debian](debian.md)
- 
 ***
 
 ### Third Party Operating Systems
