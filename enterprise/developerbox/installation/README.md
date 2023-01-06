@@ -41,29 +41,18 @@ Note: *As an alternative to a keyboard and monitor is it possible
       picocom instead of minicom and ensure the terminal emulator
       window is at least 80x25 characters.*
 
-## Download necessary installation image
+## Download installation image
 
 The Developerbox comes pre-installed with system firmware (based on 
 Trusted Firmware and EDK2) but without an operating system installed.
-This section provides links to the latest software downloads for
-Developerbox.  
-
-### Linaro supported operating systems based on Debian
-
- * [Enterprise Reference Platform, based on Debian](../downloads/debian.md)
-
- 
-
-### Third Party Operating Systems
-
-Other operating systems with support for Developerbox.
+This section provides links to install instructions for third-party
+operating systems that have been distributions that have been tested
+on Developerbox.
 
  * [CentOS 7 and later](../installation/centos.md)
  * [Debian 9 and later](../installation/debian.md)
  * [Red Hat Enterprise Linux 7 and later](../installation/rhel.md)
  * [Ubuntu 18.04 and later](../installation/ubuntu.md)
-
-
 
 ## Create installation USB stick
 
