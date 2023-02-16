@@ -29,7 +29,7 @@ $ git clone https://gerrit.zephyrproject.org/r/zephyr
 ```shell
 $ cd zephyr
 $ source zephyr-env.sh
-$ cd samples/subsys/shell
+$ cd samples/subsys/shell/shell_module/
 $ mkdir outdir; cd outdir
 $ cmake -DBOARD=96b_carbon ..
 $ make
