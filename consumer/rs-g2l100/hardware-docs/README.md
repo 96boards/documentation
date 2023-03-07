@@ -1,5 +1,5 @@
 ---
-title: Hardware Documentation for boardname
+title: Hardware Documentation for rs-g2l100
 permalink: /documentation/consumer/boardname/hardware-docs/
 ---
 
