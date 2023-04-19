@@ -14,3 +14,4 @@ Instructions for building and flashing the components of your favorite operating
 ## Contents
 
 - [AOSP](https://source.android.com/source/devices#hikey960)
+- [Build android-mainline kernel](android-mainline.md)
