@@ -5,10 +5,10 @@ permalink: /documentation/enterprise/developerbox/installation/board-recovery.md
 # Table of Contents
 
    * [Serial flasher update](#serial-flasher-update)
-      * [prepare USB flash drive](#prepare-usb-flash-drive)
-      * [run linux for updating serial flasher](#run-linux-for-updating-serial-flasher)
-      * [update serial flasher](#update-serial-flasher)
-      * [run serial flasher](#run-serial-flasher)
+      * [Prepare USB flash drive](#prepare-usb-flash-drive)
+      * [Run Linux for updating serial flasher](#run-linux-for-updating-serial-flasher)
+      * [Update serial flasher](#update-serial-flasher)
+      * [Run serial flasher](#run-serial-flasher)
    * [System firmware recovery](#system-firmware-recovery)
       * [Update using serial flasher](#update-using-serial-flasher)
       * [Resetting the NVRAM](#resetting-the-nvram)
@@ -23,11 +23,13 @@ permalink: /documentation/enterprise/developerbox/installation/board-recovery.md
 # Serial flasher update
 
 This section is for the people who do not have UART mezzanine.
-Updating the serial flasher, you can use serial flasher without a UART mezzanine.
+By applying these changes then serial flusher will be replaced with an alternative version
+of serial flasher firmware that presents its user interface on the micro-B serial port
+instead of the Low Speed connector.
 
 Here's how to update the serial flasher which uses the micro-B USB port on DeveloperBox as an UART port.
 
-## prepare USB flash drive
+## Prepare USB flash drive
 
 Download [flash-update.tar.gz](flash-update.tar.gz)
 
@@ -38,7 +40,7 @@ $ sudo dd if=/path/to/flash-update.iso of=/dev/sdX/
 $ sync
 ~~~
 
-## run linux for updating serial flasher
+## Run Linux for updating serial flasher
 
 Plug the USB flash drive to your Developerbox and power it on.
 When the following message is displayed, press ESCAPE for boot option.
@@ -59,7 +61,7 @@ F/W Upgrade Run - flash-update
 
 Then, Linux is going to boot.
 
-## update serial flasher
+## Update serial flasher
 
 After booting Linux, run the following command.
 
@@ -73,7 +75,7 @@ When you see the following and come back to the command prompt, the update is co
 Writing F/W @70000 ...
 ~~~
 
-## run serial flasher
+## Run serial flasher
 
 See [Update using serial flasher](#update-using-serial-flasher) section.
 
