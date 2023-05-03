@@ -4,6 +4,11 @@ permalink: /documentation/enterprise/developerbox/installation/board-recovery.md
 ---
 # Table of Contents
 
+   * [Serial flasher update](#serial-flasher-update)
+      * [Prepare USB flash drive](#prepare-usb-flash-drive)
+      * [Run Linux for updating serial flasher](#run-linux-for-updating-serial-flasher)
+      * [Update serial flasher](#update-serial-flasher)
+      * [Run serial flasher](#run-serial-flasher)
    * [System firmware recovery](#system-firmware-recovery)
       * [Update using serial flasher](#update-using-serial-flasher)
       * [Resetting the NVRAM](#resetting-the-nvram)
@@ -12,6 +17,67 @@ permalink: /documentation/enterprise/developerbox/installation/board-recovery.md
       * [JTAG recovery](#jtag-recovery)
 
 <!-- Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc) -->
+
+***
+
+# Serial flasher update
+
+This section is for the people who do not have UART mezzanine.
+By applying these changes then serial flusher will be replaced with an alternative version
+of serial flasher firmware that presents its user interface on the micro-B serial port
+instead of the Low Speed connector.
+
+Here's how to update the serial flasher which uses the micro-B USB port on DeveloperBox as an UART port.
+
+## Prepare USB flash drive
+
+Download [flash-update.tar.gz](flash-update.tar.gz)
+
+Extract flash-update.tar.gz and write the flash-update.iso to a USB flash drive.
+
+~~~sh
+$ sudo dd if=/path/to/flash-update.iso of=/dev/sdX/
+$ sync
+~~~
+
+## Run Linux for updating serial flasher
+
+Plug the USB flash drive to your Developerbox and power it on.
+When the following message is displayed, press ESCAPE for boot option.
+
+~~~
+Tianocore/EDK2 firmware version 1024
+Press ESCAPE for boot option ...
+~~~
+
+Select Boot Manager.
+From the Boot Manager Menu, select the item corresponding to the USB flash drive in which flash-update.iso is written.
+
+Select "flash-update" entry on Grub.
+
+~~~
+F/W Upgrade Run - flash-update
+~~~
+
+Then, Linux is going to boot.
+
+## Update serial flasher
+
+After booting Linux, run the following command.
+
+~~~
+~ # flash-update
+~~~
+
+When you see the following and come back to the command prompt, the update is complete.
+
+~~~
+Writing F/W @70000 ...
+~~~
+
+## Run serial flasher
+
+See [Update using serial flasher](#update-using-serial-flasher) section.
 
 ***
 
@@ -285,6 +351,7 @@ flash write s-mir-cm3
 flash write p-master-cm3
 >> Send new CM3 firmware via XMODEM <<
 ~~~
+
 ---
 
 Back to [Download and Installation page](../installation/)
