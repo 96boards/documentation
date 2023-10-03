@@ -35,10 +35,7 @@ This section show how to install a new operating system to your DragonBoard™ 8
   $ sudo yum install android-tools
 
   # Debian (Ubuntu)
-  $ sudo apt-get install android-tools
-
-  # Ubuntu 16.04 (Xenial) and beyond
-  $ sudo apt-get install android-tools-fastboot
+  $ sudo apt-get install fastboot
   ```
 
 #### **Step 2**: Connect host computer to RB3
