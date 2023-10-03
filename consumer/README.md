@@ -15,6 +15,11 @@ Select your Consumer Edition 96Boards device to access all product specific reso
 
 - [Compare 96Boards](guides/compare_96boards_ce.md)
 - [96Boards CE Extras](guides/)
+- Device families
+  - [Dragonboard Family](dragonboard/)
+  - [HiKey Family](hikey/)
+  - [Rock Family](rock/)
+  - [Ultra96 Family](ultra96/)
 
 <div class="table-responsive" markdown="1">
 
