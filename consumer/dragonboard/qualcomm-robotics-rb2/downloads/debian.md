@@ -14,12 +14,12 @@ permalink: /documentation/consumer/dragonboard/qualcomm-robotics-rb2/downloads/d
 
 | Boot image                                                                                                                             |
 |:---------------------------------------------------------------------------------------------------------------------------------------|
-| [Download](https://snapshots.linaro.org/member-builds/qcomlt/debian/arm64/latest/boot-linaro-sid-arm64-qcom_qrb4210-rb2-*.img.gz)      |
+| [Download](https://snapshots.linaro.org/member-builds/qcomlt/debian/arm64/latest/boot*_qrb4210-rb2-*.img.gz)      |
 | [Release Notes](https://snapshots.linaro.org/member-builds/qcomlt/debian/arm64/latest/)                                                |
 
 | Rootfs image                                                                                                                           |
 |:---------------------------------------------------------------------------------------------------------------------------------------|
-| [Developer](https://snapshots.linaro.org/member-builds/qcomlt/debian/arm64/latest/linaro-sid-developer-arm64-*.img.gz)                 |
+| [Developer](https://snapshots.linaro.org/member-builds/qcomlt/debian/arm64/latest/linaro-bookworm-developer-arm64-*.img.gz)                 |
 | [Release Notes](https://snapshots.linaro.org/member-builds/qcomlt/debian/arm64/latest/)                                                |
 
 #### Continue to [Installation page](../installation/)
