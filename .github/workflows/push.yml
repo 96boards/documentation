@@ -9,15 +9,15 @@ on:
     branches: [ master ]
   workflow_dispatch:
 
+# Cancel in-progress jobs or runs for the current workflow
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   process-push:
     runs-on: self-hosted
     steps:
-      - name: Cancel previous runs
-        uses: n1hility/cancel-previous-runs@v2
-        with: 
-          token: ${{ secrets.GITHUB_TOKEN }}
-
       # HACK! 96Boards is currently using an old Jekyll theme that caches
       # built images inside the source directory which gets reset when the
       # fetch occurs so let's move it out of the way briefly ...
@@ -28,7 +28,7 @@ jobs:
         run: MS="$GITHUB_WORKSPACE/website/merged_sources"; if [ -d "$MS" ]; then mv "$MS" "$GITHUB_WORKSPACE"; fi
 
       - name: Fetch website repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: 96boards/website
           path: website
@@ -38,7 +38,7 @@ jobs:
         run: MS="$GITHUB_WORKSPACE/merged_sources"; if [ -d "$MS" ]; then mv "$MS" "$GITHUB_WORKSPACE/website"; fi
 
       - name: Fetch docs repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: 96boards/documentation
           path: documentation
@@ -49,7 +49,7 @@ jobs:
       - run: env
 
       - name: Directory push/pop
-        uses: linaro-its/directory-push-and-pop@v2.4
+        uses: linaro-its/directory-push-and-pop@v3.0
         with:
           cacheDirectory: /srv/site-builds
           namedDirectory: ${{ env.SITE_URL }}
@@ -91,11 +91,3 @@ jobs:
 
       - name: Invalidate CloudFront cache
         run: /srv/github-action-scripts/invalidate-cloudfront.sh
-
-      - name: Run Pa11y scan
-        uses: benc-uk/workflow-dispatch@v1
-        with:
-          workflow: CheckSite
-          repo: linaro-its/pa11y-ci-container
-          token: ${{ secrets.BUILD_REPO_TOKEN }}
-          inputs: '{ "uri": "${{ env.SITE_URL }}" }'
