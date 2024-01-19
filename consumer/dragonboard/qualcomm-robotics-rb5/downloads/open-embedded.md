@@ -12,23 +12,23 @@ permalink: /documentation/consumer/dragonboard/qualcomm-robotics-rb5/downloads/o
 
 | Bootloader                                                                                                                             |
 |:---------------------------------------------------------------------------------------------------------------------------------------|
-| [Download](http://releases.linaro.org/96boards/rb5/linaro/rescue/latest/rb5-bootloader-ufs-linux-*.zip)                                 |
+| [Download](http://releases.linaro.org/96boards/rb5/linaro/rescue/latest/rb5-bootloader-ufs-linux*.zip)                                 |
 | [Release Notes](http://releases.linaro.org/96boards/rb5/linaro/rescue/latest/)                                                          |
 
 Choose between RPB and RPB-Wayland. You will need to download the "boot image" and your choice of "Desktop" or "Console" rootfs.
 
 | RPB                                                                                                                                     |
 |:----------------------------------------------------------------------------------------------------------------------------------------|
-| [Boot Image](https://releases.linaro.org/96boards/rb5/linaro/openembedded/latest/rpb/boot--*-r0-qrb5165-rb5-*-*.img) |
-| [Desktop](https://releases.linaro.org/96boards/rb5/linaro/openembedded/latest/rpb/rpb-desktop-image-qrb5165-rb5-*-*.rootfs.ext4.gz) |
-| [Console](https://releases.linaro.org/96boards/rb5/linaro/openembedded/latest/rpb/rpb-console-image-qrb5165-rb5-*-*.rootfs.ext4.gz) |
+| [Boot Image](https://releases.linaro.org/96boards/rb5/linaro/openembedded/latest/rpb/boot-qrb5165-rb5*.img) |
+| [Desktop](https://releases.linaro.org/96boards/rb5/linaro/openembedded/latest/rpb/rpb-desktop-image-qrb5165-rb5*rootfs.ext4.gz) |
+| [Console](https://releases.linaro.org/96boards/rb5/linaro/openembedded/latest/rpb/rpb-console-image-qrb5165-rb5*.rootfs.ext4.gz) |
 | [Build Folder](https://releases.linaro.org/96boards/rb5/linaro/openembedded/latest/rpb/) |
 
 | RPB-Wayland                                                                                                                             |
 |:----------------------------------------------------------------------------------------------------------------------------------------|
-| [Boot Image](https://releases.linaro.org/96boards/rb5/linaro/openembedded/latest/rpb-wayland/boot--*-r0-qrb5165-rb5-*-*.img) |
-| [Desktop](https://releases.linaro.org/96boards/rb5/linaro/openembedded/latest/rpb-wayland/rpb-weston-image-qrb5165-rb5-*-*.rootfs.ext4.gz) |
-| [Console](https://releases.linaro.org/96boards/rb5/linaro/openembedded/latest/rpb-wayland/rpb-console-image-qrb5165-rb5-*-*.rootfs.ext4.gz) |
+| [Boot Image](https://releases.linaro.org/96boards/rb5/linaro/openembedded/latest/rpb-wayland/boot-qrb5165-rb5*.img) |
+| [Desktop](https://releases.linaro.org/96boards/rb5/linaro/openembedded/latest/rpb-wayland/rpb-weston-image-qrb5165-rb5*.rootfs.ext4.gz) |
+| [Console](https://releases.linaro.org/96boards/rb5/linaro/openembedded/latest/rpb-wayland/rpb-console-image-qrb5165-rb5*.rootfs.ext4.gz) |
 | [Build Folder](https://releases.linaro.org/96boards/rb5/linaro/openembedded/latest/rpb-wayland/) |
 
 > NOTE: Only download one root file system (Console or Desktop). You should match the type of rootfs to the boot image you downloaded above.
