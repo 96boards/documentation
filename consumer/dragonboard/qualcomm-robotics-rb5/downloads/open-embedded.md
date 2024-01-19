@@ -26,7 +26,7 @@ Choose between RPB and RPB-Wayland. You will need to download the "boot image" a
 
 | RPB-Wayland                                                                                                                             |
 |:----------------------------------------------------------------------------------------------------------------------------------------|
-| [Boot Image](https://releases.linaro.org/96boards/rb5/linaro/openembedded/latest/rpb-wayland/boot-rb5*.img) |
+| [Boot Image](https://releases.linaro.org/96boards/rb5/linaro/openembedded/latest/rpb-wayland/boot-qrb5165-rb5*.img) |
 | [Desktop](https://releases.linaro.org/96boards/rb5/linaro/openembedded/latest/rpb-wayland/rpb-weston-image-qrb5165-rb5*.rootfs.ext4.gz) |
 | [Console](https://releases.linaro.org/96boards/rb5/linaro/openembedded/latest/rpb-wayland/rpb-console-image-qrb5165-rb5*.rootfs.ext4.gz) |
 | [Build Folder](https://releases.linaro.org/96boards/rb5/linaro/openembedded/latest/rpb-wayland/) |
