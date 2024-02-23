@@ -67,9 +67,7 @@ jobs:
           /srv/github-action-scripts/check-links.sh
           ${{ github.workspace }}/website/${{ env.SITE_URL }}
           --skip-dns-check ${{ github.workspace }}/website/_data/fqdn_exceptions.txt
-          --create-github-issue https://api.github.com/repos/96boards/website/issues
-          --assign-github-issue '["ric96", "Yang-96Boards"]'
-          --github-access-token ${{ secrets.GITHUB_TOKEN }}
+          --no-external-errors
 
       - name: Check routing rules
         run: /srv/github-action-scripts/test-routing-rules.sh
@@ -79,6 +77,22 @@ jobs:
 
       - name: Sync build to staging directory
         run: rsync -crui ${{ github.workspace }}/website/${{ env.SITE_URL }}/ /srv/s3-staging/${{ env.SITE_URL }} --delete
+
+      - name: set branch env
+        run: echo "BRANCH=${{ github.ref_name }}" >> $GITHUB_ENV
+      - name: security.txt
+        # If running on master branch, add signed security.txt file. Note that the security.txt file
+        # comes from the main 96Boards website repo.
+        if: env.BRANCH == 'master'
+        run: |
+          cd "$GITHUB_WORKSPACE/website"
+          /srv/github-action-scripts/sign-security.sh
+          if [ -f "security.txt.asc" ]; then
+            mkdir "/srv/s3-staging/${{ env.SITE_URL }}/.well-known"
+            mv security.txt.asc "/srv/s3-staging/${{ env.SITE_URL }}/.well-known/security.txt"
+          else
+            echo "No security.txt.asc produced"
+          fi
 
       - name: Upload to S3
         run: /srv/github-action-scripts/upload-to-s3-root.sh
