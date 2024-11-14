@@ -42,7 +42,7 @@ device.
 
 Both PCIe or USB network devices are suitable for this, although it is
 important to select a device that is already supported by the CentOS
-kernel. If in doubt, please ask on the [Developerbox forum](https://discuss.96boards.org/c/products/developerbox).
+kernel.
 
 ## [Firmware] Ensure the system firmware version is up to date
 

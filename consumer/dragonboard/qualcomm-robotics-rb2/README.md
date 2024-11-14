@@ -33,7 +33,5 @@ Developers can use the downstream version from Thundercomm to get started. Softw
 
 ## Support
 - [Thundercomm Support](https://www.thundercomm.com/help/)
-- [96boards Forums](https://discuss.96boards.org/c/products/qualcomm-rb1-rb2)
-   - The Qualcomm RB2 has its own 96Boards forum. If you can't find a pre-existing thread that addresses your issue, start your own and let the community help out!
 
 

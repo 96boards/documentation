@@ -73,8 +73,3 @@ If everything went fine, you can now reboot the board, and it should boot into A
 The following mailing list can be used for contributions:
 
 https://lists.96boards.org/mailman/listinfo/dragonboard
-
-For support, the 96boards forum can also be used
-
-https://discuss.96boards.org/c/products/dragonboard820c
-https://discuss.96boards.org/c/products/dragonboard410c

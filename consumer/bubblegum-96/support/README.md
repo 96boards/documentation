@@ -10,8 +10,6 @@ redirect_from:
 
 Please take advantage of the many Bubblegum-96 resources available to you through 96Boards, Coursera, and ucRobotics.
 
-- [Bubblegum-96 Forum](https://discuss.96boards.org/c/products/bubblegum96/)
-   - The Bubblegum-96 has its very own 96Boards forum. If you can't find a pre-existing thread that addresses your issue, start your own and let the community help out!
 - [uCRobotics](http://www.ucrobotics.com.cn/)
    - Buy the Bubblegum-96 here! If you run into any issues, you can speak with a representative, they should be able to point you in the right direction
 - [Coursera](https://www.coursera.org/specializations/internet-of-things)

@@ -54,8 +54,7 @@ network device.
 
 Both PCIe or USB network devices are suitable for this, although it is
 important to select a device that is already supported by the Debian
-kernel. If in doubt, please ask on the [Developerbox
-forum](https://discuss.96boards.org/c/products/developerbox).
+kernel.
 
 ## [Hardware] Ensure graphics card is in the x16 slot
 

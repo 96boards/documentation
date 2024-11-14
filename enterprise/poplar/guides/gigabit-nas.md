@@ -30,8 +30,6 @@ We need Debian installed on the poplar to get our NAS running, there are two way
 - 1 [Official Build Instructions](https://github.com/96boards-poplar/Documentation/)
 - 2 [Daniel Thompson's USB Image Creator](https://github.com/daniel-thompson/poplar-usbstick)
 
-> Note: Since OS installation is out of the scope for this guide, feel free to ask around the [96boards forum](https://discuss.96boards.org/) or on IRC freenode #96boards
-
 # 3) Software Setup
 
 1. **Format as Ext4:** WARNING! You will loose all data from your external drive.

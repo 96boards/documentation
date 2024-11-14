@@ -7,7 +7,7 @@ redirect_from:
 ---
 # Configuring the wireless TI module (Debian)
 
-Using the right WiFi (TI wl1835mod) module config for HiKey (avoid bugs like https://bugs.96boards.org/show_bug.cgi?id=202)
+Using the right WiFi (TI wl1835mod) module config for HiKey
 
 ```shell
 root@linaro-alip:~# configure-device.sh

@@ -63,9 +63,7 @@ partially mitigated in a variety of ways:
 
    We recommend that #1 be used in order to complete the install
    process, it is then possible to transition to this workaround
-   instead. We recommend you contact the [Developerbox
-   forum](https://discuss.96boards.org/c/products/developerbox) to
-   ensure you get the correct patch for your kernel.
+   instead.
 
 3. The nouveau driver can be disabled. When the nouveau driver is
    disabled the kernel will render graphics to the EFI framebuffer

@@ -24,9 +24,7 @@ To use USB Host:
 
 Note that several keyboards, mice, USB Memory sticks, ethernet adaptors
 and other peripherals have been tested. However, there is still as
-chance that your device might not work properly. If this occurs, please
-submit a bug to the 96Boards bug tracking system located
-[**here**](https://bugs.96boards.org/enter_bug.cgi?product=Dragonboard%20410c).
+chance that your device might not work properly.
 
 If you use an ethernet dongle, once you configure the USB in HOST mode,
 and insert the dongle, the physical ethernet connection should automatically be established (generally as eth0, assuming that an active physical connection exists on the ethernet cable):

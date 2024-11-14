@@ -38,7 +38,3 @@ Developers can use the downstream version from Thundercomm to get started. Softw
 ## Support
 - [Qualcomm Developer Network Community Forums](https://developer.qualcomm.com/forums/hardware/robotics/qualcomm-robotics-rb5-kit)
    - From bug reports and current issues, to forum access and other useful resources, we want to help you find answers
-- [96boards Forums](https://discuss.96boards.org/c/products/qualcomm-rb5)
-   - The Qualcomm RB5 has its own 96Boards forum. If you can't find a pre-existing thread that addresses your issue, start your own and let the community help out!
-
-

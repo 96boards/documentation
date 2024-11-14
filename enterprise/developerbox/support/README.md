@@ -8,8 +8,6 @@ redirect_from:
 
 Please take advantage of the many available Developerbox resources
 
-- [Developerbox forum](https://discuss.96boards.org/c/products/developerbox)
-   - The Developerbox has its very own 96Boards forum. If you can't find a pre-existing thread that addresses your issue, start your own and let the community help out!
 - [Known issues](known-issues.md)
    - Developerbox isn't perfect! In this section we describe some of the
      most important known issues.

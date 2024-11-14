@@ -63,13 +63,3 @@ The following are known issues on the current release.
 
 
 ***
-
-## Report a Bug
-
-To report new issues with the MediaTek please use the [96Boards Bug Tracker](https://bugs.96boards.org).
-
-To view the open bugs, click [here](https://bugs.96boards.org/buglist.cgi?bug_status=__open__&list_id=144&order=Importance&product=HiKey&query_format=specific).  Alternatively go to the [site](https://bugs.96boards.org/), click on the Search menu item, select MediaTek X20 in the product dropdown list and click the search button.
-
-To add a new bug, click [here](https://bugs.96boards.org/enter_bug.cgi?product=HiKey) and fill in the form.  Alternatively go to the [site](https://bugs.96boards.org/), click on the New menu item, then click on Consumer Edition Boards, then click on MediaTek X20, and finally fill in the form.
-
-***

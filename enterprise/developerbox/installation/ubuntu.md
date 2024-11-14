@@ -56,8 +56,7 @@ process.
 
 Both PCIe or USB network devices are suitable for this, although it is
 important to select a device that is already supported by the Ubuntu
-kernel. If in doubt, please ask on the [Developerbox
-forum](https://discuss.96boards.org/c/products/developerbox).
+kernel.
 
 ## [First boot] Disable splash screen
 
