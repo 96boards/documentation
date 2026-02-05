@@ -17,9 +17,7 @@ Warning: *All I/O signals on the Low Speed Connector use 1.8v TTL. Applying a hi
 
 ## SD Card image
 
-|   SD Card Image   |    [Download](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/linaro-stretch-developer-hikey-*.sd.gz) |
-|:------------------|:------------------------------------|
-|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest)       |
+[Download](https://builds.96boards.org/misc-hikey/linaro-stretch-developer-hikey-20200720-48.sd.gz)
 
 ### Continue to [Installation page](../installation/)
 
@@ -29,16 +27,12 @@ Warning: *All I/O signals on the Low Speed Connector use 1.8v TTL. Applying a hi
 
 |   Bootloader    |
 |:----------------------------:|
-| [l-loader.bin](http://snapshots.linaro.org/reference-platform/components/uefi-staging/latest/hikey960/debug/l-loader.bin)     |
-|  [fip.bin](http://snapshots.linaro.org/reference-platform/components/uefi-staging/latest/hikey960/debug/fip.bin)              |
-| [prm_ptable.img](http://snapshots.linaro.org/reference-platform/components/uefi-staging/latest/hikey960/debug/prm_ptable.img) |
+| [l-loader.bin](https://builds.96boards.org/misc-hikey/l-loader.bin)     |
+| [fip.bin](https://builds.96boards.org/misc-hikey/fip.bin)              |
+| [prm_ptable.img](https://builds.96boards.org/misc-hikey/prm_ptable.img) |
 
-|   Boot image      |    [Download](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/boot-linaro-stretch-developer-hikey-*.img.gz)      |
-|:------------------|:-----------------------|
-|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest)      |
+|   Boot image      |    [Download](https://builds.96boards.org/misc-hikey/boot-linaro-stretch-developer-hikey-20200720-48.img.gz)      |
 
-|   Rootfs image    |    [Download](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest/rootfs-linaro-stretch-developer-hikey-*.img.gz)     |
-|:------------------|:----------------------------------|
-|Release Notes:     |[Link](http://snapshots.linaro.org/96boards/hikey/linaro/debian/latest)      |
+|   Rootfs image    |    [Download](https://builds.96boards.org/misc-hikey/rootfs-linaro-stretch-developer-hikey-20200720-48.img.gz)     |
 
 ### Continue to [Installation page](../installation/)

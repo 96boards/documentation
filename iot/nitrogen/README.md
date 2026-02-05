@@ -17,8 +17,6 @@ A comprehensive guide to using the [Nitrogen](https://www.96boards.org/product/n
    - In a few simple steps, learn how to build and flash your own applications to the Nitrogen.
 - [Installation](installation/)
    -  Find instructions on how to flash new applications to your Nitrogen!
-- [Downloads](downloads/)
-   - This page contains prebuilt OS and Application files, simply download and flash to get started.
 
 ## Documentation
 

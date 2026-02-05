@@ -22,8 +22,6 @@ A comprehensive guide to using the 96Boards Enterprise Edition Developerbox. Thi
 
 ## Software
 
-- [Downloads](downloads/)
-   - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
 - [Installation](installation/)
    - Choose and install an operating system on your Developerbox
 - [Build from Source](build/)

@@ -9,10 +9,6 @@ A comprehensive guide to using the Ultra96 Consumer Edition development board. T
 
 ## Software
 
-- [Downloads](downloads/)
-   - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
-- [Installation](installation/)
-   - Choose and install an operating system on your Ultra96
 - [Build from Source](build/)
    - Instructions for building and flashing the components of your favorite operating systems
 

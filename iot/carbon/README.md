@@ -16,8 +16,6 @@ A comprehensive guide to using the [Carbon](https://www.96boards.org/product/car
    - In a few simple steps, learn how to build and flash your own applications to the Carbon.
 - [Installation](installation/)
    -  Find instructions on how to flash new applications to your Carbon!
-- [Downloads](downloads/)
-   - This page contains prebuilt OS and Application files, simply download and flash to get started.
 
 ## Documentation
 

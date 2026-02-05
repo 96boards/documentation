@@ -17,13 +17,6 @@ permalink: /documentation/consumer/dragonboard/qualcomm-robotics-rb5/
 
 A comprehensive guide to using the [Qualcomm® Robotics RB5 Development Kit](https://www.qualcomm.com/products/qualcomm-robotics-rb5-platform) . This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
-
-- [Downloads](downloads/)
-   - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
-- [Installation](installation/)
-   - Choose and install an operating system on your development kit
-
-
 ### With downstream version from Thundercomm
 
 Developers can use the downstream version from Thundercomm to get started. Software and tools to download, build and flash the boot images and rootfs images can be found on Thundercomm's website.

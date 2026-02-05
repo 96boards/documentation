@@ -8,10 +8,6 @@ A comprehensive guide to using the [DragonBoard 845c](https://www.96boards.org/)
 
 ## Software
 
-- [Downloads](downloads/)
-   - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
-- [Installation](installation/)
-   - Choose and install an operating system on your DragonBoard 845c
 - [Build from Source](build/)
    - Instructions for building and flashing the components of your favorite operating systems
 

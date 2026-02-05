@@ -17,8 +17,6 @@ permalink: /documentation/consumer/dragonboard/qualcomm-robotics-rb1/
 
 A comprehensive guide to using the [Qualcomm® Robotics RB1 Development Kit](https://www.qualcomm.com/products/internet-of-things/industrial/industrial-automation/qualcomm-robotics-rb1-platform) . This guide is written by the [96Boards](https://www.96boards.org) team at [Linaro](http://www.linaro.org) with community contributions and links to third-party content.
 
-- [Downloads](downloads/)
-   - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
 - [Installation](installation/)
    - Choose and install an operating system on your development kit
 
