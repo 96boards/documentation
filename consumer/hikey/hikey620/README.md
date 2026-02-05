@@ -11,10 +11,6 @@ A comprehensive guide to using the [HiKey](https://www.96boards.org/product/hike
 
 ## Software
 
-- [Installation](installation/)
-   - Choose and install an operating system on your HiKey
-- [Downloads](downloads/)
-   - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
 - [Build from Source](build/)
    - Instructions for building and flashing the components of your favorite operating systems
 

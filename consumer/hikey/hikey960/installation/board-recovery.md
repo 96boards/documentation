@@ -22,7 +22,7 @@ to reinstall the primary bootloader.
 ### Download the bootloader binaries
 
 The bootloader binaries for HiKey960 can be downloaded
-[here](http://snapshots.linaro.org/reference-platform/components/uefi-staging/latest/hikey960/release/).
+[here](https://builds.96boards.org/hikey960-ref-platform/).
 
 ### Make sure fastboot is set up on host computer
 

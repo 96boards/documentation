@@ -8,9 +8,6 @@ redirect_from: /documentation/consumer/rock960/build/
 
 ## Contents
 
-- [Linux Kernel](linux-kernel.md)
-   - Build Linux Kernel from source
-
 - [Android7](Android7-Tablet.md)
    - Build AOSP android 7.1.2 tablet product from source
 

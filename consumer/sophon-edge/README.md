@@ -20,8 +20,6 @@ A comprehensive guide to using the Sophon Edge Consumer Edition development boar
 
 - [Getting Started](getting-started/)
    - Learn about your Sophon Edge board, how to prepare and set up for basic use
-- [Useful Guides](guides/)
-   - These guides will help to get you started with a variety of available on-boards software
 - [Hardware Documentation](hardware-docs/)
    - Explore what makes your Sophon Edge unique, technical specifications, schematics, hardware notes and more...
 - [Support](support/)

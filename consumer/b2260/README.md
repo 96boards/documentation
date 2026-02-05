@@ -13,8 +13,6 @@ This guide is written by the [96Boards](https://www.96boards.org) team at [Linar
 
 ## Software
 
-- [Downloads](downloads/)
-   - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
 - [Installation](installation/)
    - Choose and install an operating system on your B2260
 

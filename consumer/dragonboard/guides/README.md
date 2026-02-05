@@ -11,8 +11,4 @@ The guides on this page are common for the DragonGoard 410c and 820c boards, for
 - [DragonBoard-410c](../dragonboard410c/guides/)
 - [DragonBoard-820c](../dragonboard820c/guides/)
 
-## Useful guide
-
-* [AOSP Build Guide](aosp.md)
-
 ## Android development tips

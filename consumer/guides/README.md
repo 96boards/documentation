@@ -20,7 +20,6 @@ These are generic guides that cover the span of all(most) consumer edition board
 | [Instructions for Installing Docker on a Consumer Edition 96Boards](docker_ce.md) | Install and test Debian Docker package for 96Boards                                                            |
 | [WiFi via Commandline on Debian/Ubuntu (Network Manager)](wifi_commandline.md)    | For those without an HDMI monitor, learn how to set up your 96Boards WiFi connection using the serial console. |
 | [Disable Graphical Interface (Debian)](disable_gui.md)                            | Disable X11 stack when the graphical interface is not needed.                                                  |
-| [Create Swap Space using ZRAM or RAM Compression](zram_swapspace.md)              | Setup Swap Space using ZRAM or RAM Compression                                                                 |
 | [96Boards Open Embedded](open_embedded.md)                                        | Build various 96Boards Open Embedded components                                                                |
 | [Running Docker](docker_ce.md)                                                    | Instructions for Installing Docker on a Consumer Edition 96Boards                                              |
 | [Tensorflow Installation](tensorflow-installation.md)                             | Tensorflow Installation Guide                                                                                  |

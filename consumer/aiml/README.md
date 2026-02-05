@@ -12,8 +12,6 @@ A comprehensive guide to using the [AI_ML](https://www.96boards.org/product/aiml
    - Already familiar with your 96Boards? Skip the board bring up sections and go straight to your download!
 - [Installation](installation/)
    - Choose and install an operating system on your AI_ML
-- [Build from Source](build/)
-   - Instructions for building and flashing the components of your favorite operating systems
 
 ## Documentation
 

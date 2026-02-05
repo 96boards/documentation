@@ -45,26 +45,3 @@ Choose Host machine
 - [Linux](linux-sd.md)
 
 ***
-
-### Fastboot Method
-
-Fastboot is supported by the board and can be used for installs. This is for advanced users who are most likely modifying/customizing source code and will need to download such updates to the board for test/execution.
-
-This method requires the following hardware:
-
-- Bubblegum-96 with power supply
-- Host machine (Ubuntu/Debian system  with kernel version > 3.16.0)
-- USB cable Type-A to Type-A
-- USB to microUSB cable
-- Serial console with converter board (Recommended to use [Serial Console Mezzanine](../../../mezzanine/uartserial/))
-- USB Thumb drive
-- USB Mouse and/or keyboard (not required to perform flash)
-- HDMI Monitor with full size HDMI cable (not required to perform flash)
-
-Go to the [Downloads page](../downloads/) to get your bootloader, boot image, and root file system image (rootfs).
-
-Choose host machine
-
-- [Linux](linux-fastboot.md)
-
-***
